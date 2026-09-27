@@ -105,13 +105,13 @@ async function main() {
     await page.locator("#editor").waitFor({ state: "visible" });
     assert((await page.locator("#project-title").innerText()) === "Untitled Custom GPT", "template creates an editable project");
 
-    await page.locator('[name="name"]').fill(projectName);
-    await page.locator('[name="description"]').fill("Synthetic browser journey for repeatable authoring evidence.");
-    await page.locator('[name="audience"]').fill("Synthetic QA reviewer");
-    await page.locator('[name="inputs"]').fill("A temporary browser journey");
-    await page.locator('[name="outputs"]').fill("A saved and portable draft");
-    await page.locator('[name="constraints"]').fill("Loopback only; synthetic data; no external calls.");
-    await page.locator('[name="instructions"]').fill("Create, edit, save, reopen, export and import this draft.");
+    await page.locator('#project-form [name="name"]').fill(projectName);
+    await page.locator('#project-form [name="description"]').fill("Synthetic browser journey for repeatable authoring evidence.");
+    await page.locator('#project-form [name="audience"]').fill("Synthetic QA reviewer");
+    await page.locator('#project-form [name="inputs"]').fill("A temporary browser journey");
+    await page.locator('#project-form [name="outputs"]').fill("A saved and portable draft");
+    await page.locator('#project-form [name="constraints"]').fill("Loopback only; synthetic data; no external calls.");
+    await page.locator('#project-form [name="instructions"]').fill("Create, edit, save, reopen, export and import this draft.");
     assert((await page.locator("#save-button").innerText()).includes("changes"), "editing marks the draft dirty");
     await page.locator("#save-button").click();
     await page.getByRole("status").filter({ hasText: "Saved locally." }).waitFor({ state: "visible" });
@@ -120,9 +120,9 @@ async function main() {
 
     await page.reload({ waitUntil: "load" });
     await page.locator(`.project-card:has-text("${projectName}")`).first().click();
-    await page.locator('[name="name"]').waitFor({ state: "visible" });
-    assert(await page.locator('[name="name"]').inputValue() === projectName, "reopen restores the saved name");
-    assert(await page.locator('[name="description"]').inputValue() === "Synthetic browser journey for repeatable authoring evidence.", "reopen restores the saved description");
+    await page.locator('#project-form [name="name"]').waitFor({ state: "visible" });
+    assert(await page.locator('#project-form [name="name"]').inputValue() === projectName, "reopen restores the saved name");
+    assert(await page.locator('#project-form [name="description"]').inputValue() === "Synthetic browser journey for repeatable authoring evidence.", "reopen restores the saved description");
     assert((await page.locator("#project-meta").innerText()).includes("Revision 2"), "reopen restores the saved revision");
 
     await page.getByRole("button", { name: "Review" }).click();
@@ -143,7 +143,7 @@ async function main() {
     await page.getByRole("button", { name: "Duplicate" }).click();
     await page.getByRole("status").filter({ hasText: "Duplicated as a fresh draft" }).waitFor({ state: "visible" });
     assert((await page.locator(".project-card").count()) === 2, "duplicate persists a second project");
-    const duplicateName = await page.locator('[name="name"]').inputValue();
+    const duplicateName = await page.locator('#project-form [name="name"]').inputValue();
     await page.getByRole("button", { name: "Archive" }).click();
     await page.getByRole("tab", { name: "Archive" }).click();
     await page.locator(".project-card").filter({ hasText: duplicateName }).first().click();
@@ -151,7 +151,7 @@ async function main() {
     await page.getByRole("tab", { name: "Active" }).click();
     const duplicateCard = page.locator(".project-card").filter({ hasText: duplicateName }).first();
     await duplicateCard.click();
-    await page.waitForFunction(name => document.querySelector('[name="name"]')?.value === name, duplicateName);
+    await page.waitForFunction(name => document.querySelector('#project-form [name="name"]')?.value === name, duplicateName);
     await page.getByRole("button", { name: "Delete" }).click();
     await page.getByRole("button", { name: "Delete project" }).click();
     await page.getByRole("status").filter({ hasText: "Project deleted" }).waitFor({ state: "visible" });
@@ -185,7 +185,7 @@ async function main() {
 
     await page.locator("#import-file").setInputFiles(exportPath);
     await page.getByRole("status").filter({ hasText: "Imported as a fresh draft" }).waitFor({ state: "visible" });
-    assert(await page.locator('[name="name"]').inputValue() === projectName, "import displays the exported project values");
+    assert(await page.locator('#project-form [name="name"]').inputValue() === projectName, "import displays the exported project values");
     assert((await page.locator("#project-meta").innerText()).includes("Revision 1"), "import creates a fresh revision identity");
     assert(await page.locator(".project-card").count() === 2, "import persists a second project in the visible library");
     await page.screenshot({ path: join(evidenceDir, "03-imported.png"), fullPage: false });
@@ -193,8 +193,8 @@ async function main() {
     await page.reload({ waitUntil: "load" });
     assert(await page.locator(".project-card").count() === 2, "reload preserves both created and imported projects");
     await page.locator(`.project-card:has-text("${projectName}")`).first().click();
-    await page.waitForFunction(name => document.querySelector('[name="name"]')?.value === name, projectName);
-    assert(await page.locator('[name="name"]').inputValue() === projectName, "reopen after reload preserves imported values");
+    await page.waitForFunction(name => document.querySelector('#project-form [name="name"]')?.value === name, projectName);
+    assert(await page.locator('#project-form [name="name"]').inputValue() === projectName, "reopen after reload preserves imported values");
     assert((await page.locator("#project-meta").innerText()).includes("Revision 1"), "reopen after reload preserves imported revision");
     await page.getByRole("button", { name: "Restore workspace" }).click();
     await page.locator("#restore-file").setInputFiles(backupPath);

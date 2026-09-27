@@ -1,0 +1,17 @@
+{
+  "id": "/",
+  "name": "Glee-fully FoundRy",
+  "short_name": "FoundRy",
+  "description": "An owner-local workbench for shaping, evaluating and packaging Glee-fully tools.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "lang": "en-US",
+  "background_color": "#f6f2ee",
+  "theme_color": "#d94f63",
+  "icons": [
+    {"src": "/brand/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "/brand/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "/brand/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}
