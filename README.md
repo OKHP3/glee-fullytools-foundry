@@ -86,7 +86,7 @@ The application sits beside a preserved, governed library for Glee-fully Persona
 | [Templates](templates/README.md) | FrankenTemplate variants and hybrid instruction scaffolds |
 | [Evaluation](evaluation/README.md) | GPT PulseBook; [v1.7](evaluation/gpt-pulsebook-evaluation-v1-7.md) is the current local rubric |
 | [Vernacular](vernacular/README.md) | Complete and lite voice, tone and Glee-ism references |
-| [Inventory](inventory/README.md) | Documented entities and recorded ChatGPT links; external availability needs its own verification |
+| [Inventory](inventory/README.md) | [Entity catalog and recorded ChatGPT links](inventory/inventory-of-toolbox-tools-and-tool-ettes.md); external availability needs its own verification |
 | [Documentation](docs/README.md) | Narrative, technical and operating references, plus research and imported source material |
 | [Agent Skills](.agents/skills/README.md) | Repository-local reusable methods and their provenance |
 | [Snapshots](snapshots/README.md) | Read-only historical captures and lineage evidence |
