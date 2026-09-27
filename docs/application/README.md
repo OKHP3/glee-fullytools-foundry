@@ -1,7 +1,7 @@
 # Glee-fully FoundRy application
 
-This public-source, locally run workspace helps you design, evaluate and package systems
-and tools. Canon remains in the existing ledgers; application projects are drafts
+This public-source, locally run workspace helps you convert GPT source material into
+portable Agent Skills and design plugins and connectors with separate host adapters. Canon remains in the existing ledgers; application projects are drafts
 with their own revision history. No draft is automatically registered or PME-approved.
 
 See the [current-state assessment and maturation roadmap](current-state-and-maturation.md)
@@ -28,7 +28,8 @@ reverse-proxy it onto a network or serve the repository root.
 
 ## Make a useful package
 
-1. Create a Custom GPT, Agent Skill, workflow or web-tool project.
+1. Start with an Agent Skill, plugin blueprint or connector blueprint. Use Legacy GPT
+   source to begin a conversion; workflow and web-tool drafts remain available.
 2. Record the owner, version, purpose, audience, inputs, outputs, constraints and instructions.
 3. Define components and their dependencies. Give each acceptance case a clear
    expected result, then record what you actually observed when testing it.
@@ -48,6 +49,18 @@ reviewable authored packages; platform publication remains a separate action.
 Import and duplicate create a new project identity, preserve the source identity
 in history, and reset evaluation results to unrun. Archive hides completed or
 paused drafts from active work while keeping them recoverable.
+
+## Convert and compose
+
+Follow [the portable capability workflow](portable-capabilities.md). **Conversion &
+portability** records source inventory, capability mappings, semantic loss, target
+hosts and integration requirements. Derive a skill from a legacy GPT, then derive
+plugin or connector blueprints from that skill. Derivation preserves the source
+and resets acceptance evidence. Plugin/connector ZIPs contain design contracts,
+not installed tools or native host packages. Material portability edits reset passes.
+
+[Product subtrees](../../products/README.md) define the child-repository consolidation
+path. Imports and external repository changes are separate from application export.
 
 ## Persistence, lifecycle and backup
 
@@ -75,7 +88,8 @@ it. Validation and exports refer to saved records.
 
 ## Reference material and boundaries
 
-The reference shelf exposes a fixed allowlist of PromptChain, scaffold, current
+The reference shelf exposes a fixed allowlist of the portable-capability and subtree
+guides, PromptChain, scaffold, current
 PulseBook, vernacular and canon-overview text. It cannot browse arbitrary files.
 It does not execute those prompts or modify their sources. Historical text may
 retain the older cross-FoundRy model; the current universe boundary is explained

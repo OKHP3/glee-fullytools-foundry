@@ -4,6 +4,28 @@ Read this file before working in this repository. It is the canonical agent guid
 for the repository root. `CLAUDE.md` is a short pointer to this file. No nested
 Git repositories or nested agent guides were found during the July 13, 2026 review.
 
+## Current product direction, September 27, 2026
+
+The owner explicitly repurposed this Foundry for portable Agent Skills, composed
+plugins and connectors. New work starts with reusable capabilities; Custom GPTs
+are preserved migration sources. This direction supersedes GPT-only production
+requirements in historical guidance. Canon content, identifiers and seals remain
+intact; a conversion draft does not automatically register a canonical entity.
+
+Read [the portable capability workflow](docs/application/portable-capabilities.md)
+and [product subtree contract](products/README.md). Consolidation targets
+`products/<capability-slug>/source/` for preserved child source trees, alongside
+`skills/`, `adapters/` and `evals/` within each product. The migration register is
+not yet inventoried; do not infer imports from the existence of these guides.
+This repository owns Glee-fully products. Do not silently modify OverKill or
+AskJamie repositories or promote local copies into Skillz.
+
+The portable core must not require OpenAI. Declare and evaluate each host adapter
+separately. Plugin and connector application exports are non-installable
+blueprints. No implicit tool execution, account connection or publication follows
+from composing skills. Historical GPT naming stays in source aliases and canon;
+use capability names for new product folders.
+
 ## Project identity
 
 Confirmed by `manifest.yaml`, `README.md`, and the directory layout:
@@ -25,10 +47,10 @@ Confirmed by `manifest.yaml`, `README.md`, and the directory layout:
 
 Inferred from the repository contents:
 
-- Primary users are the owner, GPT builders, and AI agents maintaining a governed
-  family of Custom GPT specifications and related public-page source material.
-- The workbench's practical mission is to preserve canonical rules and provide the
-  source material used to design, evaluate, and relay Glee-fully GPT entities.
+- Primary users are the owner, capability builders and AI agents maintaining
+  portable skills, integration contracts and migration source material.
+- The workbench preserves canonical rules while helping design, evaluate and
+  package Glee-fully capabilities independently of their host platform.
 
 Unknown from this checkout:
 
@@ -84,6 +106,9 @@ because another host pushed. Skillz is context only, not an assigned seventh Rep
 The protocol does not launch agents, expand repository scope or authorize charges.
 
 ## Repository map
+
+- `products/`: product-subtree destination contract and migration register. No imported products yet.
+- `docs/application/portable-capabilities.md`: current conversion and adapter workflow.
 
 - `app/`: owner-local project workspace, SQLite persistence, validation, export
   generators, static frontend and tests. `app/data/skills.json` pins selected public

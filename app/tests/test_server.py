@@ -45,7 +45,7 @@ class ServiceTests(unittest.TestCase):
     def test_health_and_bootstrap_have_bounded_shape(self):
         self.assertEqual(self.request("GET", "/api/health")[2], {"status":"ok"})
         status, _, data = self.request("GET", "/api/bootstrap")
-        self.assertEqual(status, 200); self.assertEqual([x["id"] for x in data["templates"]], ["custom-gpt","agent-skill","workflow","web-tool"])
+        self.assertEqual(status, 200); self.assertEqual([x["id"] for x in data["templates"]], ["agent-skill","plugin","connector","custom-gpt","workflow","web-tool"])
         self.assertEqual(len(data["universe"]), 7); self.assertEqual(data["universe"][0]["url"], "https://askjamie.bot")
         self.assertEqual({x["id"] for x in data["universe"]}, {"askjamie","overkill","gleefully","skillz","askjamie-foundry","overkill-foundry","gleefully-foundry"})
 

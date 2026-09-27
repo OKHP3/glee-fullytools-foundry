@@ -7,6 +7,17 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+### Added, September 27, 2026
+- Portable capability direction: legacy GPT sources to skills, then host adapters.
+- Source-preserving draft derivation, portability records and evidence invalidation.
+- Plugin and connector blueprint templates and non-installable export contracts.
+- Product subtree destination and explicit not-yet-inventoried migration register.
+
+### Changed
+- Agent Skills lead the workbench; GPT authoring is labeled as legacy source capture.
+- Skill export metadata handles long names/descriptions and documents extraction.
+- Existing v1 records, backups and canonical source material remain preserved.
+
 ### Planned
 - Populate `canon/dataledger-narrative-v3.md` with finalized narrative clauses
 - Populate `canon/dataledger-ideation-v3.md` with active idea seeds

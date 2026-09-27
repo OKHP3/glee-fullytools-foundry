@@ -1,9 +1,11 @@
 # Glee-fullyTools-FoundRy
 
-**A publicly visible, proprietary, locally run workspace for designing, evaluating and packaging Glee-fully systems and tools.**
+**A publicly visible, proprietary, locally run workbench for portable Agent Skills, plugins and connectors.**
 
-The owner-authorized application adds durable project records and useful exports to
-this repository's existing canon, prompts, templates and evaluation material.
+The September 27, 2026 owner direction makes skills the primary product and existing
+Custom GPTs conversion sources. Preserve the capability, then adapt its packaging
+to each agent host. The application keeps durable drafts alongside the preserved
+canon, prompts, templates and evaluation material.
 
 ```bash
 python3 -m app.server
@@ -13,7 +15,8 @@ Open `http://127.0.0.1:8765`. Python 3.11 or newer is required; no package
 installation or build step is needed. See the [application guide](docs/application/README.md)
 for setup, persistence, backups, validation and limitations.
 
-Create a Custom GPT, Agent Skill, workflow or web-tool project; record its owner,
+Start an Agent Skill, plugin blueprint, connector blueprint, legacy GPT source,
+workflow or web-tool project; record its owner,
 version and contract; define components and acceptance cases; attach pinned Skillz
 references; save evaluation evidence; inspect the generated manifest and files;
 and export Markdown, JSON or a ZIP package. The workbench also supports duplicate,
@@ -24,6 +27,23 @@ permission to publish.
 
 Source visibility does not grant unrestricted reuse. The proprietary terms in
 [LICENSE.md](LICENSE.md) govern use; its historical private-repository label does not describe current GitHub visibility. Private workbench records remain local.
+
+## Current product workflow
+
+**Legacy GPT source -> portable skills -> skill composition -> tested host adapters.**
+
+The app can derive a skill draft from a GPT, then plugin or connector blueprints
+from a skill. Each derivation preserves its source and resets evaluation evidence.
+Use the **Conversion & portability** workspace to map source behavior, semantic
+loss, target hosts, tools and permissions. Native adapters still require
+implementation and host-specific tests; the blueprints are not installable packages.
+
+Read the [portable capability workflow](docs/application/portable-capabilities.md)
+and [product subtree migration contract](products/README.md). Former child projects
+will consolidate under `products/<capability-slug>/`, with preserved source history,
+portable skills and separate host adapters. No child import or remote cutover has
+been performed by this initial adaptation. OverKill and AskJamie retain separate
+regional ownership; this change adapts Glee-fully's workbench only.
 
 ## Working across agent hosts
 
@@ -63,7 +83,7 @@ and canonical working material, not a claim that the application automatically
 executes every ritual or that all external GPTs are deployed. Application drafts
 are separate from canon; promotion remains an explicit governed activity.
 
-## What This FoundRy Produces
+## Preserved GPT-era product model
 
 Glee-fully Personalizable Tools™ is a governed network of specialized GPTs organized
 as a **living tree** — the Toolbox routes users to Tools (branches), which hold
@@ -101,7 +121,7 @@ and lineage preservation across 40+ GPTs.
 
 ---
 
-## The PromptChain Lifecycle
+## Historical PromptChain Lifecycle
 
 Every new GPT is forged through this sequence:
 

@@ -95,7 +95,7 @@ async function main() {
     await waitForServer(page, url);
 
     assert(await page.title() === "Glee-fully FoundRy", "page identity has the FoundRy title");
-    assert((await page.locator("body").innerText()).includes("Make room for the next useful thing."), "initial screen is not blank");
+    assert((await page.locator("body").innerText()).includes("Build a skill. Give it room to travel."), "initial screen is not blank");
     assert(await page.locator("#connection").innerText() === "Local service ready", "loopback service reports ready");
     await page.screenshot({ path: join(evidenceDir, "01-initial.png"), fullPage: false });
 
@@ -103,7 +103,7 @@ async function main() {
     await page.locator("#template-dialog").waitFor({ state: "visible" });
     await page.locator('#template-dialog [data-template="custom-gpt"]').click();
     await page.locator("#editor").waitFor({ state: "visible" });
-    assert((await page.locator("#project-title").innerText()) === "Untitled Custom GPT", "template creates an editable project");
+    assert((await page.locator("#project-title").innerText()) === "Untitled Legacy GPT source", "template creates an editable project");
 
     await page.locator('[name="name"]').fill(projectName);
     await page.locator('[name="description"]').fill("Synthetic browser journey for repeatable authoring evidence.");
@@ -201,10 +201,49 @@ async function main() {
     await page.getByRole("button", { name: "Replace workspace" }).click();
     await page.getByRole("status").filter({ hasText: "Workspace restored" }).waitFor({ state: "visible" });
     assert(await page.locator(".project-card").count() === 1, "validated workspace restore replaces imported work");
+
+    await page.locator('.project-card').first().click();
+    const sourceId = await page.locator('.project-card.active').getAttribute('data-id');
+    await page.locator('[data-panel="portability"]').click();
+    await page.locator('[data-derive="agent-skill"]').click();
+    await page.getByRole('status').filter({ hasText: 'Created a conversion draft' }).waitFor({ state: 'visible' });
+    assert(await page.locator('[name="kind"]').inputValue() === 'agent-skill', 'GPT derives a skill');
+    assert((await page.locator('[name="sourceProvenance"]').inputValue()).includes(sourceId), 'conversion retains source identity');
+    const skillId = await page.locator('.project-card.active').getAttribute('data-id');
+    for (const [field, text] of Object.entries({
+      capabilityMap: 'Synthetic mapping: source procedure becomes the bounded skill method.',
+      semanticLoss: 'Retrieval is unverified; compare fixture retrieval before claiming parity.',
+      targetHosts: 'Synthetic target: not-run. No compatibility claim.',
+      integrationContract: 'No external calls in this synthetic test. Host packaging remains unimplemented.',
+    })) await page.locator(`[name="${field}"]`).fill(text);
+    await page.locator('#save-button').click();
+    await page.getByRole('status').filter({ hasText: 'Saved locally.' }).waitFor({ state: 'visible' });
+    await page.setViewportSize({ width: 390, height: 844 });
+    assert(await page.evaluate(() => document.documentElement.scrollWidth <= document.documentElement.clientWidth), 'conversion panel fits mobile');
+    await page.screenshot({ path: join(evidenceDir, '04-portability-mobile.png'), fullPage: true });
+    await page.setViewportSize({ width: 1280, height: 900 });
+    await page.locator('[data-derive="plugin"]').click();
+    await page.getByRole('status').filter({ hasText: 'Created a conversion draft' }).waitFor({ state: 'visible' });
+    assert(await page.locator('[name="kind"]').inputValue() === 'plugin', 'skill derives a plugin blueprint');
+    await page.locator('[data-panel="review"]').click();
+    await page.locator('#inspect-button').click();
+    await page.locator('#package-inspection').waitFor({ state: 'visible' });
+    assert((await page.locator('#package-inspection').innerText()).includes('adapter-blueprint.json'), 'plugin blueprint is inspectable');
+    await page.locator(`.project-card[data-id="${skillId}"]`).click();
+    await page.waitForFunction(() => document.querySelector('[name="kind"]')?.value === 'agent-skill');
+    await page.locator('[data-panel="portability"]').click();
+    assert((await page.locator('[name="targetHosts"]').inputValue()).includes('not-run'), 'skill portability fields survive reopening');
+    await page.locator('[data-derive="connector"]').click();
+    await page.getByRole('status').filter({ hasText: 'Created a conversion draft' }).waitFor({ state: 'visible' });
+    assert(await page.locator('[name="kind"]').inputValue() === 'connector', 'skill derives a connector blueprint');
+    assert(await page.locator('.project-card').count() === 4, 'all sources and derived drafts remain in library');
+    await page.locator(`.project-card[data-id="${sourceId}"]`).click();
+    await page.waitForFunction(() => document.querySelector('[name="kind"]')?.value === 'custom-gpt');
+    assert(await page.locator('[name="kind"]').inputValue() === 'custom-gpt', 'original GPT remains intact');
     assert(browserErrors.length === 0, `browser console is clean (${browserErrors.join(" | ")})`);
     await writeFile(join(evidenceDir, "result.json"), JSON.stringify({
        status: "PASS", sourceSha: process.env.FOUNDRY_SOURCE_SHA || "not-provided", url,
-       evidenceDir, checks: ["create", "edit", "save", "reopen", "package inspection", "backup", "duplicate", "archive", "restore", "delete", "theme", "desktop overflow", "390px mobile overflow", "keyboard activation", "export", "import", "workspace restore", "reload persistence", "console health"],
+       evidenceDir, checks: ["create", "edit", "save", "reopen", "package inspection", "backup", "duplicate", "archive", "restore", "delete", "theme", "desktop overflow", "390px mobile overflow", "keyboard activation", "export", "import", "workspace restore", "reload persistence", "GPT to skill", "portability persistence", "conversion mobile overflow", "skill to plugin", "skill to connector", "source preservation", "console health"],
        mobileScreenshot: { file: mobileScreenshot, viewport: { width: 390, height: 844 } },
     }, null, 2));
     console.log(`PASS: browser authoring journey completed against ${url}`);
