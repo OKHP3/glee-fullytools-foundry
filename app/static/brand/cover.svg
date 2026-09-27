@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+  <title id="title">Glee-fully FoundRy</title>
+  <desc id="desc">A little structure. A lot of possibility. A warm paper cover with a pink toolbox, teal plans and a sparkling idea.</desc>
+  <rect width="1280" height="640" fill="#f6f2ee"/>
+  <path d="M0 0h1280v12H0z" fill="#d94f63"/>
+  <path d="M0 12h1280v8H0z" fill="#2d6f7e"/>
+  <circle cx="1050" cy="314" r="241" fill="#fff7f1"/>
+  <g fill="none" stroke="#2d6f7e" stroke-width="2" opacity=".16">
+    <circle cx="1050" cy="314" r="261"/>
+    <circle cx="1050" cy="314" r="281"/>
+  </g>
+  <g font-family="Trebuchet MS, Arial, sans-serif" fill="#2e2b29">
+    <text x="72" y="103" font-size="17" letter-spacing="3" fill="#2d6f7e" font-weight="700">GLEE-FULLY PERSONALIZABLE TOOLS</text>
+    <text x="66" y="224" font-size="100" letter-spacing="-5" font-weight="700">FoundRy</text>
+    <path d="M74 250h109" stroke="#d94f63" stroke-width="8" stroke-linecap="round"/>
+    <text x="72" y="318" font-size="37" font-weight="700">A little structure.</text>
+    <text x="72" y="365" font-size="37" font-weight="700">A lot of possibility.</text>
+    <text x="72" y="423" font-size="21" fill="#6b5e57">Shape the idea. Keep the evidence.</text>
+    <text x="72" y="453" font-size="21" fill="#6b5e57">Make something useful.</text>
+    <rect x="72" y="512" width="212" height="43" rx="21.5" fill="#2d6f7e"/>
+    <text x="178" y="539" text-anchor="middle" font-size="15" fill="#fffdfa" font-weight="700" letter-spacing="1">YOUR LOCAL WORKBENCH</text>
+  </g>
+  <g stroke="#2e2b29" stroke-width="4" stroke-linejoin="round">
+    <g transform="rotate(-13 859 288)">
+      <rect x="753" y="171" width="204" height="243" rx="15" fill="#2d6f7e"/>
+      <path d="M776 205h121m-121 19h74" stroke="#fffdfa" stroke-width="5" stroke-linecap="round"/>
+      <g stroke="#fffdfa" fill="none" stroke-width="3">
+        <path d="M851 269v39m-48 0h96m-96 0v28m96-28v28"/>
+        <rect x="830" y="247" width="42" height="27" rx="6"/>
+        <rect x="781" y="337" width="43" height="27" rx="6"/>
+        <rect x="878" y="337" width="43" height="27" rx="6"/>
+      </g>
+    </g>
+    <g transform="rotate(11 1020 270)">
+      <rect x="953" y="145" width="165" height="259" rx="15" fill="#fffdfa"/>
+      <path d="M979 180h79m-79 17h110" stroke="#d94f63" stroke-width="5" stroke-linecap="round"/>
+      <g stroke="#2d6f7e" stroke-width="4" fill="none" stroke-linecap="round">
+        <path d="m980 243 7 7 14-17m-21 54 7 7 14-17m-21 54 7 7 14-17"/>
+        <path d="M1016 244h62m-62 44h48m-48 44h57"/>
+      </g>
+    </g>
+    <path d="M850 376v-25q0-20 20-20h120q20 0 20 20v25" fill="none" stroke-width="17"/>
+    <rect x="753" y="380" width="388" height="146" rx="18" fill="#2e2b29" stroke="none"/>
+    <rect x="741" y="366" width="388" height="146" rx="18" fill="#d94f63"/>
+    <path d="M742 412q193 49 386 0" fill="none"/>
+    <rect x="920" y="418" width="34" height="42" rx="7" fill="#fffdfa"/>
+    <path d="M937 430v16" stroke-width="4" stroke-linecap="round"/>
+    <path d="M1138 104q0 34 30 40-30 6-30 40-6-34-34-40 28-6 34-40z" fill="#d94f63" stroke="none"/>
+    <path d="M733 272q0 22 21 27-21 4-21 27-4-23-23-27 19-5 23-27z" fill="#2d6f7e" stroke="none"/>
+    <circle cx="1159" cy="314" r="7" fill="#d94f63" stroke="none"/>
+    <circle cx="784" cy="125" r="5" fill="#2d6f7e" stroke="none"/>
+  </g>
+  <path d="M72 593h1136" stroke="#2e2b29" opacity=".18"/>
+  <g fill="#6b5e57" font-family="Trebuchet MS, Arial, sans-serif" font-size="13" letter-spacing="1.5">
+    <text x="72" y="621">CUSTOM GPTS · AGENT SKILLS · WORKFLOWS · WEB TOOLS</text>
+    <text x="1208" y="621" text-anchor="end">MADE WITH A LITTLE GLEE.</text>
+  </g>
+</svg>

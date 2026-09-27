@@ -88,6 +88,10 @@ The protocol does not launch agents, expand repository scope or authorize charge
 - `app/`: owner-local project workspace, SQLite persistence, validation, export
   generators, static frontend and tests. `app/data/skills.json` pins selected public
   Skillz references. `.foundry-data/` is ignored working data, not canon.
+- `app/static/brand/`: README cover, social-preview image and browser icon sources
+  and exports. Its README records provenance and GitHub social-preview setup.
+  Browser assets are served by exact allowlist; the asset guide and editable cover
+  are not served. The shortcut manifest does not add offline or hosted operation.
 - `docs/application/`: API contract, implementation plan and operating instructions.
 - `docs/research/okhp3-universe-2026-09-07/`: source-bounded universe research and
   access limitations supporting the application transition.

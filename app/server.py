@@ -688,10 +688,26 @@ class Handler(SimpleHTTPRequestHandler):
             return self.export(project, parse_qs(urlparse(self.path).query).get("format",[""])[0])
         return self.static(path)
     def static(self,path):
-        if path not in {"/", "/index.html", "/app.js", "/styles.css"}: return self.error_json(404,"not found")
-        filename="index.html" if path in {"/","/index.html"} else path[1:]; target=self.app.static/filename
+        assets = {
+            "/": ("index.html", "text/html; charset=utf-8"),
+            "/index.html": ("index.html", "text/html; charset=utf-8"),
+            "/app.js": ("app.js", "application/javascript; charset=utf-8"),
+            "/styles.css": ("styles.css", "text/css; charset=utf-8"),
+            "/favicon.ico": ("brand/favicon.ico", "image/x-icon"),
+            "/site.webmanifest": ("site.webmanifest", "application/manifest+json"),
+            "/brand/icon.svg": ("brand/icon.svg", "image/svg+xml"),
+            "/brand/safari-pinned-tab.svg": ("brand/safari-pinned-tab.svg", "image/svg+xml"),
+            "/brand/favicon-16.png": ("brand/favicon-16.png", "image/png"),
+            "/brand/favicon-32.png": ("brand/favicon-32.png", "image/png"),
+            "/brand/apple-touch-icon.png": ("brand/apple-touch-icon.png", "image/png"),
+            "/brand/icon-192.png": ("brand/icon-192.png", "image/png"),
+            "/brand/icon-512.png": ("brand/icon-512.png", "image/png"),
+            "/brand/icon-maskable-512.png": ("brand/icon-maskable-512.png", "image/png"),
+        }
+        if path not in assets: return self.error_json(404,"not found")
+        filename, content = assets[path]; target=self.app.static/filename
         if not target.is_file(): return self.error_json(404,"static resource unavailable")
-        raw=target.read_bytes(); content="text/html; charset=utf-8" if filename.endswith("html") else ("application/javascript; charset=utf-8" if filename.endswith("js") else "text/css; charset=utf-8")
+        raw=target.read_bytes()
         self.send_response(200);self.send_header("Content-Type",content);self.send_header("Content-Length",str(len(raw)));self.end_headers();self.wfile.write(raw)
     def package_contents(self, project):
         report = readiness(project, self.app.skills())

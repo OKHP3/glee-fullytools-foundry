@@ -49,6 +49,50 @@ class ServiceTests(unittest.TestCase):
         self.assertEqual(len(data["universe"]), 7); self.assertEqual(data["universe"][0]["url"], "https://askjamie.bot")
         self.assertEqual({x["id"] for x in data["universe"]}, {"askjamie","overkill","gleefully","skillz","askjamie-foundry","overkill-foundry","gleefully-foundry"})
 
+    def test_browser_identity_assets_preserve_static_boundary(self):
+        from html.parser import HTMLParser
+
+        class HeadLinks(HTMLParser):
+            def __init__(self):
+                super().__init__()
+                self.links = []
+
+            def handle_starttag(self, tag, attrs):
+                if tag == "link":
+                    self.links.append(dict(attrs))
+
+        status, _, page = self.request("GET", "/")
+        self.assertEqual(status, 200)
+        self.assertIn(b'content="noindex, nofollow"', page)
+        parser = HeadLinks()
+        parser.feed(page.decode())
+        for link in parser.links:
+            with self.subTest(asset=link["href"]):
+                status, headers, raw = self.request("GET", link["href"])
+                self.assertEqual(status, 200)
+                self.assertTrue(raw)
+                if link.get("type"):
+                    self.assertEqual(headers["Content-Type"], link["type"])
+        status, headers, raw = self.request("GET", "/site.webmanifest")
+        self.assertEqual(status, 200)
+        self.assertEqual(headers["Content-Type"], "application/manifest+json")
+        manifest = json.loads(raw)
+        self.assertEqual(manifest["start_url"], "/")
+        for icon in manifest["icons"]:
+            status, headers, raw = self.request("GET", icon["src"])
+            self.assertEqual(status, 200)
+            self.assertEqual(headers["Content-Type"], "image/png")
+            self.assertEqual(raw[:8], b"\x89PNG\r\n\x1a\n")
+            width, height = int.from_bytes(raw[16:20], "big"), int.from_bytes(raw[20:24], "big")
+            self.assertEqual(f"{width}x{height}", icon["sizes"])
+        for path in ("/README.md", "/.foundry-data/foundry.sqlite3", "/app/server.py",
+                     "/web-templates/index.html", "/brand/README.md", "/brand/cover.svg",
+                     "/brand/unlisted.png", "/brand/../index.html",
+                     "/brand/%2e%2e/%2e%2e/server.py"):
+            with self.subTest(blocked=path):
+                self.assertEqual(self.request("GET", path)[0], 404)
+        self.assertEqual(self.request("GET", "/brand/icon.svg", headers={"Host": "evil.example"})[0], 403)
+
     def test_mutation_security_and_content_type(self):
         status, _, _ = self.request("POST", "/api/projects", self.project(), {"Host":"evil.example"})
         self.assertEqual(status, 403)
