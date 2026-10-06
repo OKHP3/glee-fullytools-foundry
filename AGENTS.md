@@ -309,3 +309,5 @@ DeclaredBy: Glee-fully FoundRy
 ```
 
 > The capability is durable. The platform wrapper is temporary.
+
+## Imported Claude Cowork project instructions
