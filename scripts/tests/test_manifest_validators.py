@@ -47,16 +47,6 @@ UNRELATED_CHANGE_PATHS = (
     "app/example.py",
     ".github/workflows/foundry-app.yml",
 )
-CONDITIONAL_MANIFEST_STEPS = (
-    "Check approved manifest validator lock target",
-    "Set up Python",
-    "Check manifest validator requirements contract",
-    "Install manifest validation dependencies with approved hashes",
-    "Check manifest validation requirements",
-    "Check declared and locked dependency agreement",
-    "Validate manifest schema",
-    "Audit manifest governance fields",
-)
 IMPORT_TO_REQUIREMENT = {"yaml": "pyyaml", "jsonschema": "jsonschema"}
 LOCKED_MANIFEST_VALIDATOR_DEPENDENCIES = {
     "attrs",
@@ -632,7 +622,7 @@ class ManifestValidatorTests(unittest.TestCase):
             with self.subTest(path=path):
                 self.assertRegex(path, routing_pattern)
 
-    def test_manifest_workflow_keeps_unrelated_pull_requests_successful(
+    def test_manifest_workflow_gates_all_validation_steps_for_unrelated_pull_requests(
         self,
     ) -> None:
         workflow = MANIFEST_WORKFLOW.read_text(encoding="utf-8")
@@ -646,11 +636,35 @@ class ManifestValidatorTests(unittest.TestCase):
                 self.assertNotRegex(path, routing_pattern)
         self.assertIn('echo "manifest=false"', change_step)
 
-        for name in CONDITIONAL_MANIFEST_STEPS:
-            with self.subTest(step=name):
-                self.assertIn(
-                    "if: steps.changes.outputs.manifest == 'true'",
-                    workflow_step(workflow, name),
+        parsed = yaml.load(workflow, Loader=yaml.BaseLoader)
+        steps = parsed["jobs"]["validate-manifest"]["steps"]
+        initial_checkout_index = next(
+            (
+                index
+                for index, step in enumerate(steps)
+                if step.get("uses", "").partition("@")[0] == "actions/checkout"
+            ),
+            None,
+        )
+        validation_steps = [
+            step
+            for index, step in enumerate(steps)
+            if step.get("id") != "changes"
+            and index != initial_checkout_index
+            and ("run" in step or "uses" in step)
+        ]
+        self.assertTrue(
+            validation_steps,
+            "manifest workflow must retain conditional validation steps",
+        )
+
+        for step in validation_steps:
+            step_name = step.get("name") or "<unnamed>"
+            with self.subTest(step=step_name):
+                self.assertEqual(
+                    step.get("if"),
+                    "steps.changes.outputs.manifest == 'true'",
+                    f"validation step {step_name!r} must use the changed-file condition",
                 )
 
     def test_manifest_validator_lock_requires_hashes(self) -> None:
