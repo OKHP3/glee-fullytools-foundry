@@ -199,6 +199,90 @@ def expected_contract_files(item, fixture):
 
 
 class ExportBoundaryTests(ServiceTests):
+    def assert_inspection_matches_zip(self, kind, inspection, zipped):
+        inspected_files = inspection["files"]
+        inspected_names = [item["name"] for item in inspected_files]
+        inspected_contents = {
+            item["name"]: item["content"] for item in inspected_files
+        }
+        repeated_inspected_names = sorted(
+            {name for name in inspected_names if inspected_names.count(name) > 1}
+        )
+        self.assertEqual(
+            repeated_inspected_names,
+            [],
+            f"{kind} inspection repeats package files: {repeated_inspected_names}",
+        )
+
+        with zipfile.ZipFile(BytesIO(zipped)) as bundle:
+            zip_names_list = bundle.namelist()
+            zip_names = set(zip_names_list)
+            inspection_names = set(inspected_contents)
+            repeated_zip_names = sorted(
+                {name for name in zip_names_list if zip_names_list.count(name) > 1}
+            )
+            self.assertEqual(
+                repeated_zip_names,
+                [],
+                f"{kind} ZIP repeats package files: {repeated_zip_names}",
+            )
+            self.assertEqual(
+                inspection_names,
+                zip_names,
+                f"{kind} package files differ: "
+                f"inspection-only={sorted(inspection_names - zip_names)}; "
+                f"zip-only={sorted(zip_names - inspection_names)}",
+            )
+            for filename, inspected_content in inspected_contents.items():
+                with self.subTest(kind=kind, file=filename):
+                    zipped_content = bundle.read(filename).decode("utf-8")
+                    self.assertEqual(
+                        zipped_content,
+                        inspected_content,
+                        f"{kind} package file {filename} differs between inspection and ZIP",
+                    )
+
+        manifest_file = json.loads(inspected_contents["manifest.json"])
+        self.assertEqual(
+            manifest_file,
+            inspection["manifest"],
+            f"{kind} package file manifest.json differs from the inspection manifest",
+        )
+        self.assertEqual(
+            inspection["manifest"]["unavailableSkillIds"],
+            ["gpt-readiness"],
+            f"{kind} package file manifest.json lost unavailable skill provenance",
+        )
+        self.assertIn(
+            "Unavailable references: gpt-readiness.",
+            inspected_contents["skill-references.md"],
+            f"{kind} package file skill-references.md lost unavailable skill provenance",
+        )
+
+    def test_package_zip_parity_for_all_targets_and_unavailable_skills(self):
+        for kind, fixture in PACKAGE_CONTRACT_FIXTURES.items():
+            with self.subTest(kind=kind):
+                item = self.create(
+                    kind=kind,
+                    name=fixture["name"],
+                    **PACKAGE_CONTRACT_FIELDS,
+                )
+                registered_skills = self.server.skills
+                self.server.skills = lambda: []
+                try:
+                    status, _, inspection = self.request(
+                        "GET", f"/api/projects/{item['id']}/package"
+                    )
+                    self.assertEqual(status, 200, f"{kind} package inspection failed")
+                    status, _, zipped = self.request(
+                        "GET", f"/api/projects/{item['id']}/export?format=zip"
+                    )
+                    self.assertEqual(status, 200, f"{kind} ZIP export failed")
+                finally:
+                    self.server.skills = registered_skills
+
+                self.assert_inspection_matches_zip(kind, inspection, zipped)
+
     def test_each_target_has_golden_common_contract_after_zip_extraction(self):
         for kind, fixture in PACKAGE_CONTRACT_FIXTURES.items():
             with self.subTest(kind=kind):
