@@ -10,7 +10,7 @@ The workbench link opens this application on your computer after startup. The pu
 
 Make room for the next useful thing.
 
-Glee-fully FoundRy brings the brief, building blocks, source references, acceptance evidence and export package into one owner-local workspace. Shape a Custom GPT, Agent Skill, workflow or web tool; keep its history; and leave with something another person can review and use.
+Glee-fully FoundRy brings the brief, building blocks, source references, acceptance evidence and export package into one owner-local workspace. Build a portable Agent Skill, compose a plugin or connector blueprint, or preserve a legacy GPT for conversion. Keep its history and leave with something another person can review and use.
 
 Python 3.11+. A browser. No application dependencies to install, no build step, no model subscription required.
 
@@ -20,12 +20,24 @@ Python 3.11+. A browser. No application dependencies to install, no build step, 
 
 | Start with | Leave with |
 |---|---|
-| **Custom GPT** | A conversational tool specification with instructions, constraints and evaluation evidence |
 | **Agent Skill** | A portable skill specification with a bounded procedure and reviewable acceptance cases |
+| **Plugin blueprint** | A skill composition and host adapter plan with explicit tools, permissions and verification requirements |
+| **Connector blueprint** | An integration contract with operations, authentication scope names, error handling and recovery |
+| **Legacy GPT source** | A preserved conversational tool specification to map into portable skills |
 | **Workflow** | A repeatable process with responsibilities, decisions and completion checks |
 | **Web tool** | An authored specification and a runnable record-management starter to adapt |
 
 The web-tool starter supports adding, completing, reopening and filtering records. It is a starting implementation; authored requirements still need implementation and testing.
+
+Plugin and connector exports are planning blueprints, with `installable: false`. Native packages and runtime compatibility require implementation and tests on each target host.
+
+## Current product workflow
+
+**Legacy GPT source -> portable skills -> skill composition -> tested host adapters.**
+
+The app can derive a skill draft from a GPT source, then plugin or connector blueprints from a skill. Each derivation preserves its source revision and resets evaluation evidence. Use **Conversion & portability** to map source behavior, semantic loss, target hosts, tools and permissions. The portable core stays independent of a vendor account; host-specific packages are maintained separately.
+
+Read the [portable capability workflow](docs/application/portable-capabilities.md) and [product subtree migration contract](products/README.md). Reviewed child projects can consolidate under `products/<capability-slug>/` while preserving provenance and private-source boundaries. This adaptation performs no child imports or remote cutovers. OverKill and AskJamie retain separate regional ownership.
 
 ## Inside the workbench
 
@@ -56,13 +68,13 @@ Then **[open Glee-fully FoundRy](http://127.0.0.1:8765/)**. Stop the server with
 
 ### Your first useful package
 
-1. Choose **Custom GPT**, **Agent Skill**, **Workflow** or **Web tool**.
+1. Start with **Agent Skill**, or preserve an existing specification as **Legacy GPT source**. Plugin and connector blueprints, workflows and web tools are also available.
 2. Give the project a name, owner, version and useful outcome.
 3. Add components and acceptance cases, then save the specification.
 4. Run your checks and record what actually happened.
 5. Open **Review**, check readiness, inspect the package and export it.
 
-See the [application guide](docs/application/README.md) for alternate ports, imports, revision conflicts and backup recovery, or the [example packages](docs/application/pilots/) for the four output types.
+See the [application guide](docs/application/README.md) for alternate ports, imports, revision conflicts and backup recovery. The [example packages](docs/application/pilots/) preserve the original four output types; the [portable workflow](docs/application/portable-capabilities.md) documents the added blueprints.
 
 ## Private work, public source
 
@@ -87,6 +99,7 @@ The application sits beside a preserved, governed library for Glee-fully Persona
 | [Evaluation](evaluation/README.md) | GPT PulseBook; [v1.7](evaluation/gpt-pulsebook-evaluation-v1-7.md) is the current local rubric |
 | [Vernacular](vernacular/README.md) | Complete and lite voice, tone and Glee-ism references |
 | [Inventory](inventory/README.md) | [Entity catalog and recorded ChatGPT links](inventory/inventory-of-toolbox-tools-and-tool-ettes.md); external availability needs its own verification |
+| [Product subtrees](products/README.md) | Reviewed consolidation contract and migration map for capability source, skills and host adapters |
 | [Documentation](docs/README.md) | Narrative, technical and operating references, plus research and imported source material |
 | [Agent Skills](.agents/skills/README.md) | Repository-local reusable methods and their provenance |
 | [Snapshots](snapshots/README.md) | Read-only historical captures and lineage evidence |
@@ -162,7 +175,7 @@ git diff --check
 
 Node is used for the optional JavaScript syntax check; it is not an application runtime requirement. Maintenance validators have their own dependencies in `requirements.txt`. Legacy audit assumptions are documented in [AGENTS.md](AGENTS.md) and are separate from application health checks.
 
-[Application verification](docs/application/verification.md) · [Current state & roadmap](docs/application/current-state-and-maturation.md) · [Technology inventory](docs/technology-inventory.md) · [Changelog](CHANGELOG.md) · [Manifest](manifest.yaml) · [License](LICENSE.md)
+[Application verification](docs/application/verification.md) · [Portable capability verification](docs/application/portable-capability-verification.md) · [Current state & roadmap](docs/application/current-state-and-maturation.md) · [Technology inventory](docs/technology-inventory.md) · [Changelog](CHANGELOG.md) · [Manifest](manifest.yaml) · [License](LICENSE.md)
 
 **Glee:** the muse behind the warmth, color and useful little details.
 

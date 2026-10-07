@@ -1,5 +1,9 @@
 # Current state and maturation roadmap
 
+## September 27, 2026 direction update
+
+The [portable capability workflow](portable-capabilities.md) supersedes the earlier GPT-first product focus. The app adds derivation and plugin/connector blueprints. The dated assessments below remain historical; they do not establish current host compatibility or subtree-import completion.
+
 
 ## September 8 closeout update
 

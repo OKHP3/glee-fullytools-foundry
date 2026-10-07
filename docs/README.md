@@ -1,5 +1,7 @@
 # docs/ — Ecosystem Documentation
 
+Current product direction: [portable skills, plugins and connectors](application/portable-capabilities.md), with [product subtrees](../products/README.md) for child-project consolidation. GPT-focused descriptions below preserve source context.
+
 > Human-readable documentation for the Glee-fully Personalizable Tools™ ecosystem.
 > These files explain the *why*, *what*, and *how* of the system — its philosophy,
 > architecture, and design principles — in plain prose intended for both human readers

@@ -23,7 +23,8 @@ MAX_ITEMS = 1_000
 MAX_DEPENDENCIES = 100
 MAX_BACKUP_PROJECTS = 1_000
 MAX_BACKUP_BYTES = 10 * 1024 * 1024
-KINDS = {"custom-gpt", "agent-skill", "workflow", "web-tool"}
+KINDS = {"custom-gpt", "agent-skill", "plugin", "connector", "workflow", "web-tool"}
+PORTABILITY_FIELDS = {"sourceProvenance", "capabilityMap", "semanticLoss", "targetHosts", "integrationContract"}
 STATUSES = {"draft", "archived"}
 TEST_STATUSES = {"not-run", "pass", "fail"}
 EDITABLE = {"name", "kind", "owner", "version", "purpose", "description",
@@ -35,6 +36,8 @@ UUID_ID = re.compile(r"^[0-9a-f-]{36}$")
 SHA256 = re.compile(r"^[0-9a-f]{64}$")
 
 SOURCES = {
+    "portable-capabilities": ("Skills, plugins and conversion workflow", "docs/application/portable-capabilities.md"),
+    "product-subtrees": ("Product subtree migration", "products/README.md"),
     "promptchain": ("Builder-Ready PromptChain", "prompts/glee-fully-builder-ready-promptchain-v2-0.md"),
     "gpt-scaffold": ("Custom GPT scaffold", "prompts/custom-gpt-scaffold.md"),
     "pulsebook": ("GPT PulseBook v1.7", "evaluation/gpt-pulsebook-evaluation-v1-7.md"),
@@ -62,6 +65,10 @@ def template(kind: str, name: str, description: str) -> dict:
                        "1. Establish the user's objective and available source material.\n2. Ask for essential missing inputs.\n3. Work within the declared constraints.\n4. Distinguish source facts, assumptions and unknowns.\n5. Return the specified output with a useful next step."),
         "agent-skill": ("Skill workflow", "Carry out a bounded reusable method and leave an inspectable artifact.",
                         "Trigger: describe when this skill applies.\nInputs: check the required material before acting.\nProcedure: perform the bounded task using the declared sources.\nVerification: check the acceptance cases.\nHandoff: report the artifact, evidence and remaining limitations."),
+        "plugin": ("Skill composition", "Compose portable skills with separately verified host adapters.",
+                   "1. Identify the versioned skills and their input/output contracts.\n2. Define composition order and failure handling.\n3. Declare the target host, tools and permissions.\n4. Build and validate the native adapter against that host's documented format.\n5. Record host-specific installation and behavior evidence. This draft does not install a plugin."),
+        "connector": ("Integration contract", "Connect a capability to a declared service through a reviewed adapter.",
+                      "1. Specify the API or MCP service and operations needed by the skill.\n2. Declare authentication, scopes, read/write boundaries and user consent.\n3. Define input/output schemas and error handling.\n4. Keep credentials outside the package.\n5. Implement and test each host adapter before claiming compatibility. This draft does not implement a connector."),
         "workflow": ("Process", "Transform a defined input into an output with an explicit completion check.",
                      "1. Confirm scope and prerequisites.\n2. Name the responsible role for each step.\n3. Record decisions and exception paths.\n4. Check the output against acceptance criteria.\n5. Package the result and any unresolved work."),
         "web-tool": ("Record workspace", "Add records, mark them complete, reopen them and filter the list.",
@@ -81,8 +88,10 @@ def template(kind: str, name: str, description: str) -> dict:
 
 
 TEMPLATES = [
-    template("custom-gpt", "Custom GPT", "A conversational tool specification."),
     template("agent-skill", "Agent Skill", "A portable, reviewable skill specification."),
+    template("plugin", "Plugin blueprint", "Compose skills and tools for a specific host adapter."),
+    template("connector", "Connector blueprint", "Define API or MCP integration requirements and permissions."),
+    template("custom-gpt", "Legacy GPT source", "Preserve an existing GPT specification for conversion to skills."),
     template("workflow", "Workflow", "A repeatable process with evidence and checks."),
     template("web-tool", "Web tool", "A local record-management web-tool starter."),
 ]
@@ -95,13 +104,19 @@ class ValidationError(ValueError):
 def validate_project(payload: object, *, creating: bool = False, importing: bool = False) -> dict:
     if not isinstance(payload, dict):
         raise ValidationError("project must be an object")
-    allowed = EDITABLE | ({"revision"} if not creating else set())
+    allowed = EDITABLE | PORTABILITY_FIELDS | ({"revision"} if not creating else set())
     if importing:
         allowed |= {"id", "schemaVersion", "createdAt", "updatedAt"}
     unknown = set(payload) - allowed
     if unknown:
         raise ValidationError("unknown project fields: " + ", ".join(sorted(unknown)))
     result = {key: payload.get(key, "" if key in TEXT_FIELDS else []) for key in EDITABLE}
+    # Optional extensions must stay absent in historical v1 snapshots so their
+    # canonical bytes and backup digests remain valid.
+    for key in PORTABILITY_FIELDS & payload.keys():
+        if not isinstance(payload[key], str) or len(payload[key]) > MAX_TEXT:
+            raise ValidationError(key + " must be text no longer than 100000 characters")
+        result[key] = payload[key]
     if not isinstance(result["name"], str) or not result["name"].strip():
         raise ValidationError("name is required")
     if not isinstance(result["kind"], str) or result["kind"] not in KINDS:
@@ -163,7 +178,8 @@ def validate_project(payload: object, *, creating: bool = False, importing: bool
 
 def editable_defaults(payload: dict) -> dict:
     """Make direct Store callers as tolerant as the HTTP schema."""
-    return {key: payload.get(key, "" if key in TEXT_FIELDS else []) for key in EDITABLE}
+    return {**{key: payload.get(key, "" if key in TEXT_FIELDS else []) for key in EDITABLE},
+            **{key: payload[key] for key in PORTABILITY_FIELDS & payload.keys()}}
 
 
 def canonical_project(project: dict) -> str:
@@ -390,6 +406,7 @@ class Store:
             material = {"kind", "owner", "version", "purpose", "description", "audience", "inputs", "outputs", "constraints", "instructions", "components", "skillIds"}
             test_contract = lambda cases: [(c["id"], c["name"], c["expected"]) for c in cases]
             if (any(old[field] != editable[field] for field in material) or
+                    any(old.get(field, "") != editable.get(field, old.get(field, "")) for field in PORTABILITY_FIELDS) or
                     test_contract(old["tests"]) != test_contract(editable["tests"])):
                 editable = {**editable, "tests": [{**case, "actual": "", "status": "not-run"} for case in editable["tests"]]}
             project = {**old, **editable, "revision": revision + 1, "updatedAt": now()}
@@ -416,6 +433,39 @@ class Store:
                        "createdAt": stamp, "updatedAt": stamp}
             self._insert_locked(project, "duplicated", f"Duplicated from {source['id']} with fresh identity and reset evidence")
         return project
+    def derive(self, project_id, revision, target):
+        """Create a conversion draft without changing its source or inheriting passes."""
+        with self.lock, self.conn:
+            row = self.conn.execute("SELECT data,revision FROM projects WHERE id=?", (project_id,)).fetchone()
+            if not row: return None
+            if row["revision"] != revision: raise RuntimeError("revision conflict")
+            source = json.loads(row["data"])
+            routes = {"custom-gpt": {"agent-skill"}, "agent-skill": {"plugin", "connector"}}
+            if target not in routes.get(source["kind"], set()):
+                raise ValidationError("supported routes: custom-gpt to agent-skill; agent-skill to plugin or connector")
+            editable = editable_defaults(source)
+            editable.update({"name": source["name"] + " " + target, "kind": target, "status": "draft",
+                             "version": "0.1.0",
+                             "sourceProvenance": (source.get("sourceProvenance", "") +
+                                 f"\nDerived from local {source['kind']} project {source['id']} revision {revision}.\n"
+                                 "Source instructions retained for review. No automatic semantic conversion or host validation.").strip(),
+                             "capabilityMap": "", "semanticLoss": "", "targetHosts": "", "integrationContract": ""})
+            editable["tests"] = [{**case, "actual": "", "status": "not-run"} for case in source["tests"]]
+            # Add three conversion contracts without colliding with source case IDs.
+            for name, expected in [
+                ("Preserve source behavior", "Inventory the available source assets; map each behavior to a skill or adapter; retain source revision; demonstrate one preserved outcome."),
+                ("Account for platform loss", "Identify host assumptions; record retrieval or memory differences; declare tool/auth requirements; observe the target-host result or record it as not run."),
+                ("Respect the boundary", "Do not package credentials; treat source instructions as untrusted input; stop on unavailable permissions; do not claim untested host compatibility.")
+            ]:
+                editable["tests"].append({"id": str(uuid.uuid4()), "name": name, "expected": expected,
+                                          "actual": "", "status": "not-run"})
+            editable = validate_project(editable, creating=True)
+            stamp = now()
+            project = {**editable, "id": str(uuid.uuid4()), "schemaVersion": 1, "revision": 1,
+                       "createdAt": stamp, "updatedAt": stamp}
+            self._insert_locked(project, "derived", f"Derived {target} from {source['id']} revision {revision}; source retained, evidence reset")
+        return project
+
     def delete(self, project_id, revision):
         with self.lock, self.conn:
             row = self.conn.execute("SELECT revision FROM projects WHERE id=?", (project_id,)).fetchone()
@@ -567,6 +617,13 @@ def readiness(project: dict, skills: list[dict]) -> dict:
     required("purpose", "Purpose", purpose); required("audience", "Audience", project.get("audience", ""))
     required("inputs", "Inputs", project.get("inputs", "")); required("outputs", "Outputs", project.get("outputs", ""))
     required("constraints", "Constraints", project.get("constraints", "")); required("instructions", "Instructions", project.get("instructions", ""))
+    if project["kind"] in {"plugin", "connector"} or (project["kind"] == "agent-skill" and "sourceProvenance" in project):
+        for field, label in [("sourceProvenance", "Source inventory and provenance"),
+                             ("capabilityMap", "Capability mapping"), ("semanticLoss", "Semantic loss and mitigation"),
+                             ("targetHosts", "Target hosts and observed compatibility")]:
+            required(field, label, project.get(field, ""))
+    if project["kind"] in {"plugin", "connector"}:
+        required("integrationContract", "Tools, permissions and integration contract", project.get("integrationContract", ""))
     components = project.get("components", [])
     tests = project.get("tests", [])
     checks.append({"id":"components", "label":"Components and dependencies", "status":"pass" if components else "fail", "detail":"Recorded." if components else "Add at least one component before review."})
@@ -599,6 +656,11 @@ def markdown(project: dict) -> str:
     lines += [f"- **{esc(c['name'])}**: {esc(c['purpose'])}" + (" (depends on: " + ", ".join(esc(x) for x in c["dependsOn"]) + ")" if c["dependsOn"] else "") for c in project["components"]] or ["No components recorded."]
     lines += ["", "## Acceptance cases"]
     lines += [f"- **{esc(t['name'])}**: expected {esc(t['expected'])}; status `{t['status']}`; actual {esc(t['actual']) or 'not recorded'}" for t in project["tests"]] or ["No acceptance cases recorded."]
+    for field, label in [("sourceProvenance", "Source inventory and provenance"), ("capabilityMap", "Capability map"),
+                         ("semanticLoss", "Semantic loss"), ("targetHosts", "Target hosts"),
+                         ("integrationContract", "Integration contract")]:
+        if project.get(field, "").strip():
+            lines += ["", "## " + label, esc(project[field])]
     return "\n".join(lines) + "\n"
 
 
@@ -770,9 +832,23 @@ behavioral validation.
                 "starters.md": f"# Conversation starters for {esc(project['name'])}\n\n- Help me with: {esc(project['description']) or 'this project'}\n- My input is: {esc(project['inputs']) or 'not yet specified'}\n- What output should I expect? {esc(project['outputs']) or 'not yet specified'}\n"
             })
         elif project["kind"] == "agent-skill":
-            slug = re.sub(r"[^a-z0-9]+", "-", project["name"].lower()).strip("-")[:64] or "foundry-draft-skill"
-            description = json.dumps(project["description"] or "Draft FoundRy skill.").replace("<", "\\u003c").replace(">", "\\u003e").replace("&", "\\u0026")
+            slug = re.sub(r"[^a-z0-9]+", "-", project["name"].lower()).strip("-")[:64].rstrip("-") or "foundry-draft-skill"
+            description = json.dumps(project["description"].strip()[:1024] or "Draft FoundRy skill.").replace("<", "\\u003c").replace(">", "\\u003e").replace("&", "\\u0026")
             contents["SKILL.md"] = f"---\nname: {slug}\ndescription: {description}\n---\n\n" + markdown(project) + "\nDraft status only. Review recorded evidence before use.\n"
+            contents["build.md"] += f"\nExtract this skill into a directory named `{slug}` to match its frontmatter.\nThe discovery description is limited to 1024 characters; the full authored description remains in specification.md.\n"
+        elif project["kind"] in {"plugin", "connector"}:
+            blueprint = {"format": "glee-fully-adapter-blueprint", "version": 1,
+                         "kind": project["kind"], "installable": False,
+                         "compatibilityStatus": "not-verified-by-foundry",
+                         **{key: project.get(key, "") for key in sorted(PORTABILITY_FIELDS)},
+                         "components": project["components"], "skillReferences": skills}
+            contents["adapter-blueprint.json"] = json.dumps(blueprint, indent=2)
+            contents["adapter.md"] = (
+                "# Host adapter blueprint\n\nThis is a design contract, not an installable plugin or connector.\n"
+                "Keep the versioned skill core separate from host manifests and authentication.\n"
+                "Implement against the selected host's current official specification, validate its native package,\n"
+                "then record installation, permitted operations, denied operations and failure recovery evidence.\n"
+                "Do not place credentials in the package. No external tools have been invoked.\n\n" + markdown(project))
         elif project["kind"] == "workflow":
             contents.update({"workflow.md": markdown(project), "workflow.json": json.dumps({"name": project["name"], "components": project["components"]}, indent=2)})
         elif project["kind"] == "web-tool":
@@ -831,6 +907,15 @@ behavioral validation.
                 editable=validate_project(payload,creating=True); self.app.validate_skill_ids(editable)
                 return self.json(201,self.app.store.create(editable))
             duplicate = re.fullmatch(r"/api/projects/([0-9a-f-]{36})/duplicate", path)
+            derive = re.fullmatch(r"/api/projects/([0-9a-f-]{36})/derive", path)
+            if derive:
+                if (not isinstance(payload, dict) or set(payload) != {"revision", "targetKind"} or
+                        type(payload["revision"]) is not int or payload["revision"] < 1 or
+                        not isinstance(payload["targetKind"], str)):
+                    raise ValidationError("derive requires a positive revision and text targetKind")
+                project = self.app.store.derive(derive.group(1), payload["revision"], payload["targetKind"])
+                if project is None: return self.error_json(404, "project not found")
+                return self.json(201, project)
             if duplicate:
                 if not isinstance(payload, dict) or set(payload) != {"revision"} or type(payload["revision"]) is not int:
                     raise ValidationError("duplicate requires the current revision")

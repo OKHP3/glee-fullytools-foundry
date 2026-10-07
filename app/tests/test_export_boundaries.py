@@ -186,6 +186,8 @@ def expected_contract_files(item, fixture):
             "This local package does not publish, deploy, or call an AI provider.",
         ],
     }
+    if item["kind"] == "agent-skill":
+        build += "\nExtract this skill into a directory named `contract-skill` to match its frontmatter.\nThe discovery description is limited to 1024 characters; the full authored description remains in specification.md.\n"
     return {
         "manifest.json": manifest,
         "README.md": readme,

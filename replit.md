@@ -1,5 +1,7 @@
 # Glee-fullyTools-FoundRy — Replit Project
 
+Current direction, September 27, 2026: build portable skills and compose host-specific plugins/connectors; preserve GPTs as migration sources. Read [the conversion workflow](docs/application/portable-capabilities.md) and [product subtree contract](products/README.md). Native adapter implementation, child imports and host synchronization require their own evidence.
+
 ## Purpose
 
 This repository now contains an owner-local Glee-fully builder application under

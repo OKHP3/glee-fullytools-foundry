@@ -1,5 +1,9 @@
 # Child Repository Handoff
 
+## September 27, 2026 destination update
+
+New product consolidation targets [product subtrees](../../products/README.md). Use the [portable capability workflow](portable-capabilities.md) for skill conversion and adapter blueprints. The four-kind child-repository notes below are historical source guidance; they do not require creating another repository. Plugin/connector exports add adapter-blueprint.json and adapter.md and are non-installable design contracts.
+
 This note maps the four export package types to a reviewable child-repository handoff using the current FoundRy application export shape and local governance.
 
 Base revision for this handoff: `32b89159293bba2edc0c9b308b716ab20e234b5d` from `origin/main`.
