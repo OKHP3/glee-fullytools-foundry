@@ -1,5 +1,7 @@
 # inventory/ — Complete Entity Catalog
 
+This is a historical GPT source catalog, not current deployment proof. The September 27, 2026 direction uses these entities as conversion candidates for portable skills. Track repository consolidation separately in [the product migration register](../products/migration-map.json).
+
 > The **authoritative human-readable catalog** of every deployed GPT in the Glee-fully
 > Personalizable Tools™ ecosystem. Full entity listings for the Toolbox, all 7 Tools
 > (Branches), and all 40+ Tool-ettes (Twigs) — with live ChatGPT links, descriptions,

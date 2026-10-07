@@ -7,8 +7,9 @@ repo:
   lifecycle_status: active
   visibility: public
   description: >
-    Public-source owner-local application and canonical workbench for designing,
-    evaluating and packaging Glee-fully systems, tools, GPTs and Agent Skills.
+    Public-source owner-local application and canonical workbench for
+    converting legacy GPT sources into portable Agent Skills and designing
+    composed plugins, connectors and separately validated host adapters.
 
 brand:
   domain: gleefully
@@ -110,3 +111,15 @@ application:
   working_data: ".foundry-data/"
   canonical_writes: false
   tests: "python3 -m unittest discover -s app/tests -v"
+
+product_strategy:
+  direction_recorded: "2026-09-27"
+  primary_artifact: portable-agent-skill
+  composition_targets: [plugin, connector]
+  legacy_sources: [custom-gpt, prompt]
+  portable_core_requires_openai: false
+  adapter_exports: non-installable-blueprints
+  product_root: products/
+  migration_register: products/migration-map.json
+  migration_status: not-inventoried
+  workflow: docs/application/portable-capabilities.md

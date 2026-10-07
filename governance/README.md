@@ -1,5 +1,7 @@
 # governance/ — Directives, Rules, and Cathedral Architecture
 
+The September 27, 2026 owner direction supersedes GPT-only production scope. See [the current product workflow](../docs/application/portable-capabilities.md). Existing directives and sealed ledgers retain their content and lineage; conversion drafts do not imply canon registration.
+
 > The **law layer** of the Glee-fully ecosystem. This folder contains the authoritative
 > governance directives that all GPTs, builders, and agents must follow, plus the
 > master architectural blueprint (the Operator's Cathedral Layout) that defines how
