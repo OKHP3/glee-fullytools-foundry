@@ -1,0 +1,313 @@
+{
+  "schema_version": "1.0",
+  "review_protocol": "equilibrium-v1",
+  "review_mode": "five-way",
+  "evaluation_status": "completed-analytical-with-synthetic-falsification",
+  "artifact": {
+    "path": "repository foundation",
+    "sha256": null,
+    "version": "de092dbc4b70ebad7caad799a44ad785c7133252",
+    "git_tree": "84c6436442e09257c0e90236691cb87d1627508f",
+    "identity_basis": "Git commit/tree pins the source. File hashes below describe the Windows checkout bytes, including checkout line endings."
+  },
+  "decision_question": "Does the portable-capability foundation support a bounded publication and review closeout, and what executable work remains against current owner requirements and the preserved prior handoff?",
+  "requirements_basis": {
+    "controlling": [
+      "AGENTS.md",
+      "docs/application/portable-capabilities.md",
+      "products/README.md"
+    ],
+    "formal_prd": "No separate named current PRD supplied; comparison remains unperformed. P01 selects or drafts the requirement artifact.",
+    "prior_handoff": {
+      "date": "2026-10-05",
+      "status": "private historical record preserved",
+      "sha256": "0bdafc7e372cb03661fecda8e540d5c0e34a1229f5126063b5b61658bca4a150"
+    }
+  },
+  "acceptance_criteria": [
+    "Preserve canon, snapshots, private working data and other assignments.",
+    "Tie source/test claims to exact artifacts and retain historical versus current boundaries.",
+    "Distinguish Git source parity, provider authentication and Replit app-connector authentication.",
+    "Keep blueprints non-installable and native compatibility unverified.",
+    "Provide bounded executable future tasks with ownership, prerequisites and closure evidence.",
+    "Publish sanitized review/handoff artifacts; retain raw private evidence and accounting separately.",
+    "Archive only after this package is merged, receiving Git main is updated, Notion readback and durable handoff are verified."
+  ],
+  "independence": {
+    "reviewer_contexts_separated": true,
+    "model": "gpt-6-luna",
+    "reasoning_effort": "low",
+    "history_fork": "none",
+    "source_set": "Same frozen foundation and coordinator evidence packet; disruptor and negotiator also inspect the separately identified uncommitted task supplement.",
+    "retrieval_date": "2026-10-06",
+    "tools_permissions": "Read-only source/supplied-report review and isolated synthetic formatter tests; writes restricted to private role reports.",
+    "system_prompt_id": "inherited-session-instructions",
+    "shared_model_or_source_limits": [
+      "Different role prompts and fresh contexts, with the same model family and source set.",
+      "Supplied live receipts were not independently refreshed by each reviewer.",
+      "Private raw reviewer reports retain their own metadata; known dispatch metadata here is coordinator-observed.",
+      "No protected holdout, actual product migration or native-host outcome evaluation ran."
+    ]
+  },
+  "sources": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "8aaf61f1f472699ebd7331f4cde411f42d60da42ac2eec41f770f4e5fe8db274"
+    },
+    {
+      "path": "docs/application/portable-capabilities.md",
+      "sha256": "e210bb559f78c9950a981d9fba8fe25fa37f1d1b5d7cb614b020ca19190a32f9"
+    },
+    {
+      "path": "docs/application/portable-capability-verification.md",
+      "sha256": "a875df566ba3c7f457176fca7498cd57c602d20de9c7c9c119bf1b621105a120"
+    },
+    {
+      "path": "products/README.md",
+      "sha256": "19b23b7c65c7b5d54b7004edc70ebaa04a54f04447b6c224e1df7fa313e1bead"
+    },
+    {
+      "path": "products/migration-map.json",
+      "sha256": "4d9b397295bf9dfc97b4b1d216f127f5e9dbcfaf766b360d99ea1f7fa5f0b35b"
+    }
+  ],
+  "initial_reviews": [
+    {
+      "role": "evidence",
+      "role_prompt_id": "closeout-evidence-v1",
+      "execution": "completed-analytical",
+      "foundation_decision": "approve-with-limits",
+      "archive_decision": "defer-for-evidence",
+      "findings": [
+        "Exact source identity and current owner requirement basis corroborated.",
+        "Blueprint/migration/holdout limits explicit.",
+        "Host, CI and editorial receipts require coordinator verification before archive."
+      ]
+    },
+    {
+      "role": "outcome",
+      "role_prompt_id": "closeout-outcome-v1",
+      "execution": "completed-analytical",
+      "foundation_decision": "approve-with-limits",
+      "findings": [
+        "Authoring/derivation and source-preservation foundation supported.",
+        "No portfolio migration, named-host validation or unavailable-PRD conformance established.",
+        "Current consolidated handoff and final receiving-surface receipts remain closeout requirements."
+      ]
+    },
+    {
+      "role": "safety-portability",
+      "role_prompt_id": "closeout-safety-v1",
+      "execution": "completed-analytical",
+      "foundation_decision": "approve-with-limits",
+      "findings": [
+        "Loopback, exact serving boundaries and source/canon preservation support bounded use.",
+        "No account/tool execution follows from blueprints.",
+        "Protect active Replit work, keep private history out of public source, and do not grant additional scopes as a side effect."
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C01",
+      "claim": "The frozen foundation is the merged portable-capability release.",
+      "claim_type": "fact",
+      "status": "supported",
+      "evidence": [
+        "Exact local Git commit/tree inspection",
+        "PR #25",
+        "Foundation main CI run 37551170505"
+      ],
+      "consequence": "A wrong revision invalidates the source findings.",
+      "next_test": "Recheck artifact identity before reusing affected evidence."
+    },
+    {
+      "claim_id": "C02",
+      "claim": "Current owner instructions prioritize reusable portable capabilities over historical GPT-only requirements.",
+      "claim_type": "fact-and-scope",
+      "status": "supported",
+      "evidence": [
+        "AGENTS.md",
+        "docs/application/portable-capabilities.md",
+        "products/README.md"
+      ],
+      "consequence": "Historical or other-product requirements would mis-scope acceptance.",
+      "next_test": "P01 selects the current PRD and source inventory scope."
+    },
+    {
+      "claim_id": "C03",
+      "claim": "The integration has implementation and synthetic-journey evidence.",
+      "claim_type": "fact",
+      "status": "supported-with-limits",
+      "evidence": [
+        "Integration receipt: 133 app tests, 132 passed and one Windows skip; 35 manifest regressions; 120 links; synthetic browser journey",
+        "Both main Python matrix jobs passed on foundation",
+        "Coordinator reran seven portable regressions"
+      ],
+      "consequence": "Treating implementation checks as user or host outcomes would overstate readiness.",
+      "next_test": "Run exact product/host behavior cases and protected evaluation after prerequisites."
+    },
+    {
+      "claim_id": "C04",
+      "claim": "Migration inventory and real product conversion remain unfinished.",
+      "claim_type": "fact",
+      "status": "supported",
+      "evidence": [
+        "products/migration-map.json says not-inventoried and contains no products",
+        "products/README.md bars inferring a zero-product portfolio"
+      ],
+      "consequence": "Premature completion claims could omit sources, rights and active work.",
+      "next_test": "P01 inventory, then P02-P07 intake, import, mapping, authoring and evaluation."
+    },
+    {
+      "claim_id": "C05",
+      "claim": "Plugin/connector exports are non-installable blueprints with unverified native compatibility.",
+      "claim_type": "fact",
+      "status": "supported",
+      "evidence": [
+        "Adapter metadata installable=false and compatibilityStatus=not-verified-by-foundry",
+        "Current portable workflow"
+      ],
+      "consequence": "Consumers could attempt unsupported deployment or assume account consent.",
+      "next_test": "P08-P12 composition, separately implemented hosts/connectors and evidenced release."
+    },
+    {
+      "claim_id": "C06",
+      "claim": "Owner-local runtime and source/canon/private-data boundaries remain in force.",
+      "claim_type": "fact-and-design-boundary",
+      "status": "supported",
+      "evidence": [
+        "Loopback entry point and fixed route maps",
+        "Preserved canon/snapshots integration delta",
+        "Product intake rights/history gates"
+      ],
+      "consequence": "Unreviewed hosting or private-history import would violate scope.",
+      "next_test": "Review exact import changes and serving boundaries for each future release."
+    },
+    {
+      "claim_id": "C07",
+      "claim": "Git source parity does not establish app-connector or provider authentication.",
+      "claim_type": "fact-and-evidence-boundary",
+      "status": "supported",
+      "evidence": [
+        "Coordinator direct Replit Git observation",
+        "Both Replit app connections returned UNAUTHORIZED",
+        "Visible broader provider OAuth request left unapproved"
+      ],
+      "consequence": "Authentication or another writer's completion could be overstated.",
+      "next_test": "Freshly verify receiving main and preserve active work; resolve any necessary new access separately."
+    },
+    {
+      "claim_id": "C08",
+      "claim": "No formal PRD comparison, native-host outcome or protected holdout has been completed.",
+      "claim_type": "fact",
+      "status": "supported-with-scope-limit",
+      "evidence": [
+        "Frozen input requirements and holdout status",
+        "Current source verification limits",
+        "All initial role findings"
+      ],
+      "consequence": "Full product acceptance would lack its decisive evidence.",
+      "next_test": "P01, P07, P09-P13 supply their separately scoped evidence."
+    },
+    {
+      "claim_id": "C09",
+      "claim": "The task formatter validates prerequisite presence, not authority or truth.",
+      "claim_type": "fact",
+      "status": "supported",
+      "evidence": [
+        "Disruptor synthetic fabricated receipts generated preparatory prompts",
+        "Corrected prompts include receipt references and require independent inspection",
+        "P15 now requires an explicit owner-request receipt; eleven negative checks passed"
+      ],
+      "consequence": "A coordinator could treat a fabricated selection as permission if it skips inspection.",
+      "next_test": "Inspect each actual receipt before dispatch; block unsupported prerequisites and verify P15's specific owner request."
+    },
+    {
+      "claim_id": "C10",
+      "claim": "Final archive requires this package's own publication and receiving-surface readbacks.",
+      "claim_type": "release-condition",
+      "status": "pending-at-source-preparation",
+      "evidence": [
+        "Owner archive condition",
+        "Initial roles distinguish foundation approval from closeout",
+        "session-handoff.md defines final exact actions"
+      ],
+      "consequence": "Archiving early could strand unpublished or unsynchronized work.",
+      "next_test": "Merge exact reviewed head, update receiving main, fetch Notion receipt and retain private handoff before archive."
+    }
+  ],
+  "concordance": "Material agreement on bounded foundation approval and broader product limits; evidence-role overall defer refers to final archive and unavailable evidence, not a conflicting source verdict.",
+  "disruptor": {
+    "triggered": true,
+    "authority": "narrow falsification of bounded foundation and separately identified draft supplement",
+    "role_prompt_id": "closeout-disruptor-v1",
+    "execution": "completed-analytical-and-synthetic",
+    "falsification_hypotheses": [
+      "D01: stale source or active Replit work is being misrepresented as completed clean closeout.",
+      "D02: foundation or review implies absent-PRD conformance, real product migration or native compatibility.",
+      "D03: arbitrary gate strings may be mistaken for authority by the prompt formatter."
+    ],
+    "test_results": [
+      {
+        "id": "D01",
+        "result": "Frozen commit/tree matched; source guidance preserves assigned work. Live host state not refreshed in this role; archive still requires root readback."
+      },
+      {
+        "id": "D02",
+        "result": "No source-level counterexample survived. Requirements, empty un-inventoried register and blueprint metadata retain the limits."
+      },
+      {
+        "id": "D03",
+        "result": "Conditional supplement weakness reproduced using synthetic receipts. No worker launched or service changed. Correction adds explicit P15 owner-request condition, receipt references and independent inspection/blocking instructions; formatter still cannot prove truth."
+      }
+    ]
+  },
+  "negotiator": {
+    "triggered": true,
+    "role_prompt_id": "closeout-negotiator-v1",
+    "execution": "completed-analytical",
+    "decision": "defer-for-evidence",
+    "decisive_evidence": [
+      "Frozen foundation identity directly matched; source/test evidence supports the bounded authoring foundation.",
+      "No current requirement or source evidence supports completed portfolio migration, native compatibility, absent-PRD conformance or holdout outcomes.",
+      "Final documentation PR, receiving-host update and new editorial readback were pending at review time; archive remains deferred until those live conditions are satisfied.",
+      "The P15 correction was directly inspected: exact owner-request gate, receipt references, independent recheck and blocked-result instructions. Formatter remains non-authoritative."
+    ],
+    "unresolved_items": [
+      "Final publication/source-sync/editorial readbacks and durable final receipt remain coordinator closeout work.",
+      "Replit app-connector/provider authentication are separately unresolved; broader OAuth permissions remain unapproved.",
+      "Other active assignments retain their owners and are preserved.",
+      "Formal PRD, real source migration/conversion, native-host outcomes and protected holdout remain unperformed.",
+      "No actual P15 owner-request truth finding or audit edit is made."
+    ],
+    "scope_decisions": {
+      "foundation": "approve-with-limits",
+      "documentation_task_supplement": "Reviewable conditional proposal with verified P15 correction",
+      "archive_at_review_time": "defer-for-evidence",
+      "product_migration_native_host_and_outcomes": "defer-for-evidence; not-run"
+    },
+    "rationale": "The evidence review's archive deferral and the other roles' limited foundation approvals address different propositions. Source identity and explicit product limits are the decisive evidence. The strongest surviving objection is fresh final-surface evidence, not disagreement by vote."
+  },
+  "release_decision": "defer-for-evidence",
+  "limitations": [
+    "Analytical role review and synthetic formatter tests are separate from live product/host outcomes.",
+    "Protected holdout not-run; representative user success and broad accessibility not established.",
+    "No separately named current PRD supplied.",
+    "No actual source import, semantic conversion, native adapter or executable connector released.",
+    "Receiving Git, app authentication, provider authentication and editorial readback are separate claims.",
+    "Other active queues/open PRs retain their own owners; this assignment does not close them."
+  ],
+  "follow_up": [
+    "P01-P14 proposed product-series tasks, not dispatched.",
+    "P15 proposed narrow audit repair, contingent on explicit owner request.",
+    "Final documentation publication and receiving-surface/archive gates remain coordinator actions after source preparation."
+  ],
+  "review_expiry": "Reopen affected source findings after artifact changes, new requirements, failed decisive tests or credible counterexamples. Final receiving-host/editorial receipts are time-specific; do not reuse them as perpetual synchronization proof.",
+  "scope_decisions": {
+    "frozen_foundation": "approve-with-limits",
+    "next_series": "proposed-not-dispatched",
+    "archive_at_source_preparation": "defer-for-evidence; requires final coordinator readbacks",
+    "broader_product_acceptance": "defer-for-evidence"
+  }
+}
