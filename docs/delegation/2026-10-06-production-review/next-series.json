@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "repository": "OKHP3/glee-fullytools-foundry",
+  "reviewed_source": "de092dbc4b70ebad7caad799a44ad785c7133252",
+  "status": "proposed-not-dispatched",
+  "policy": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "low",
+    "per_delegate_token_ceiling": 2000000,
+    "maximum_concurrent_workers": 3,
+    "recursive_spawning": false,
+    "dispatch": "Coordinator supplies evidence receipts, selected product/host and an isolated checkout. Preparing a prompt does not launch a worker or grant publication, private-data disclosure or new permissions.",
+    "escalation": "Escalate only after a specific acceptance failure shows the smallest available worker is insufficient; preserve its report and remaining allocation. No automatic purchases or token-counter resets."
+  },
+  "tasks": [
+    {
+      "id": "P01", "title": "Confirm requirements and inventory migration sources", "depends_on": [], "gates": ["inventory_scope_selected"],
+      "objective": "Identify a current owner-approved portable-capability PRD, or draft one from the current root/workflow/product contracts for review. Replace not-inventoried with an evidence-backed register. Identify the selected regional child sources, exact commits and trees, aliases, asset availability, licenses, visibility, active work and destination slugs. An empty register is not evidence of an empty portfolio.",
+      "owned_paths": ["docs/application/portable-capability-prd.md", "products/migration-map.json"],
+      "acceptance": "Requirements have a recorded owner decision, intended users/outcomes, measurable acceptance and release boundaries. Every selected source has verified identity/revision/rights fields or explicit nulls and blockers; each belongs to Glee-fully; active assignments and recovery needs are recorded privately. No source import or public private-repository crosswalk.",
+      "evidence_basis": ["products/migration-map.json", "products/README.md", "inventory/README.md"],
+      "output": "Sanitized register candidate and private inventory evidence", "expected_effort_tokens": 18000
+    },
+    {
+      "id": "P02", "title": "Review rights and complete source history", "depends_on": ["P01"], "gates": ["pilot_product_selected"],
+      "objective": "Review the selected source's tracked assets and complete reachable history for rights, secrets, personal/client material, unsafe automation and missing source assets. Choose full-history subtree, separately reviewed sanitized snapshot, or blocked intake.",
+      "owned_paths": ["products/<capability>/product.json"],
+      "acceptance": "Exact commit/tree and rights decision cited; recovery refs/bundle verified outside public data; public-history suitability is explicit. A sanitized snapshot is never described as history-preserving. Do not publish private identifiers or source material merely to fill a field.",
+      "evidence_basis": ["products/README.md"], "output": "Public-safe intake decision and private evidence", "expected_effort_tokens": 22000
+    },
+    {
+      "id": "P03", "title": "Import one reviewed pilot source", "depends_on": ["P02"], "gates": ["public_import_authorized", "isolated_writer_owned"],
+      "objective": "Import only the selected, reviewed exact source revision into an absent product source prefix using its approved mode. Preserve history where authorized and compare source and destination trees, dotfiles, modes and links.",
+      "owned_paths": ["products/<capability>/source", "products/<capability>/product.json", "products/<capability>/README.md", "products/migration-map.json"],
+      "acceptance": "Source/destination tree comparison and import commit recorded; no nested Git repository; imported automation is inert source; no application serving allowlist changes; recovery verified and normal PR checks passed.",
+      "evidence_basis": ["products/README.md"], "output": "Reviewable single-product import PR", "expected_effort_tokens": 22000
+    },
+    {
+      "id": "P04", "title": "Map behavior and semantic loss", "depends_on": ["P03"], "gates": ["isolated_writer_owned"],
+      "objective": "Map every selected source behavior, instruction, action, knowledge asset and example to a portable procedure, reference, script, adapter, explicit exclusion or blocker. Define focused capability boundaries and review losses with the owner.",
+      "owned_paths": ["products/<capability>/README.md", "products/<capability>/product.json"],
+      "acceptance": "No source behavior disappears silently; accepted losses, mitigations and decisive tests are explicit; legacy identities remain aliases; sealed canon and preserved source bytes remain unchanged.",
+      "evidence_basis": ["docs/application/portable-capabilities.md"], "output": "Behavior/loss map and authoring contract", "expected_effort_tokens": 16000
+    },
+    {
+      "id": "P05", "title": "Author the first portable skill core", "depends_on": ["P04"], "gates": ["loss_map_accepted", "isolated_writer_owned"],
+      "objective": "Author focused skill instructions and real resources from the accepted map. Define discovery triggers, inputs/outputs, tool needs, boundaries, failure recovery and verification without requiring an OpenAI account or provider manifest.",
+      "owned_paths": ["products/<capability>/skills/<skill-name>"],
+      "acceptance": "SKILL.md frontmatter and discovery description validate; references exist; examples use synthetic data; executable resources are reviewed; no implicit account connection, publication, tool execution or canonical registration.",
+      "evidence_basis": ["docs/application/portable-capabilities.md"], "output": "Versioned portable skill draft", "expected_effort_tokens": 20000
+    },
+    {
+      "id": "P06", "title": "Build development evaluation fixtures", "depends_on": ["P04"], "gates": ["isolated_writer_owned"],
+      "objective": "Specify expected-use, missing-input, ambiguous-trigger, platform-loss, permission-denial and adversarial-input cases for the pilot. Define baseline behavior and measurable acceptance without writing the unseen holdout for the optimizer.",
+      "owned_paths": ["products/<capability>/evals/development"],
+      "acceptance": "Cases tie to source behaviors and failure boundaries; expected outputs are independently checkable; fixtures are synthetic; local/static checks are distinguished from behavior and host evidence.",
+      "evidence_basis": ["docs/application/portable-capabilities.md"], "output": "Development cases and evaluation protocol", "expected_effort_tokens": 16000
+    },
+    {
+      "id": "P07", "title": "Run independent benchmark and unseen holdout", "depends_on": ["P05", "P06"], "gates": ["independent_evaluator_owned", "evaluation_environment_available"],
+      "objective": "Freeze the skill hash, run representative with/without-skill comparisons, and independently supply protected or external holdout cases. Record failures, denominators, model/host versions, costs when exposed and shared-source limitations.",
+      "owned_paths": ["products/<capability>/evals/results"],
+      "acceptance": "Observed results tied to exact artifact; optimizer has not seen protected cases; no uplift/compatibility claim from agreement alone; unsuccessful or unavailable runs remain failed, blocked or not-run. A changed skill hash expires affected evidence.",
+      "evidence_basis": [".agents/skills/okhp3-equilibrium-review/SKILL.md"], "output": "Independent evaluation and release limits", "expected_effort_tokens": 22000
+    },
+    {
+      "id": "P08", "title": "Define versioned skill composition", "depends_on": ["P05"], "gates": ["composition_scope_selected", "isolated_writer_owned"],
+      "objective": "Declare which versioned skills are composed, their operation/input/output contracts, prerequisites, provenance, consent and recovery. Keep core methods separate from host packaging and tool providers.",
+      "owned_paths": ["products/<capability>/product.json", "products/<capability>/adapters/composition"],
+      "acceptance": "Dependencies are pinned and resolvable; missing/unsupported tools produce bounded failures; no credentials or automatically installed dependencies; ownership prevents duplicate mutable cores across FoundRys or Skillz.",
+      "evidence_basis": ["docs/application/portable-capabilities.md"], "output": "Composition contract", "expected_effort_tokens": 14000
+    },
+    {
+      "id": "P09", "title": "Implement one native host adapter", "depends_on": ["P07", "P08"], "gates": ["first_host_selected", "existing_permissions_sufficient", "isolated_writer_owned"],
+      "objective": "Read the selected host's current official format and implement its native discovery/packaging adapter. The current workbench ZIP is a design blueprint, not the native package.",
+      "owned_paths": ["products/<capability>/adapters/<first-host>"],
+      "acceptance": "Native format validates on a named version; installation/discovery and expected-use/error behavior observed; exact package hash and permission scope recorded; unsupported capabilities stay explicit; new access requires its applicable approval.",
+      "evidence_basis": ["docs/application/portable-capabilities.md"], "output": "Tested first-host adapter candidate", "expected_effort_tokens": 25000
+    },
+    {
+      "id": "P10", "title": "Evaluate portability on a second host", "depends_on": ["P07", "P08"], "gates": ["second_host_selected", "existing_permissions_sufficient", "isolated_writer_owned"],
+      "objective": "Implement/evaluate a separately declared adapter on another available host, including a non-OpenAI environment when making an account-independence claim. Reuse the exact portable core and document semantic loss.",
+      "owned_paths": ["products/<capability>/adapters/<second-host>"],
+      "acceptance": "Named host/version, operations and failures observed on exact core/package hashes; no generic multi-host support claim; unavailable execution remains blocked or not-run rather than inferred from syntax.",
+      "evidence_basis": ["AGENTS.md", "docs/application/portable-capabilities.md"], "output": "Second-host evidence matrix", "expected_effort_tokens": 25000
+    },
+    {
+      "id": "P11", "title": "Implement a selected connector safely", "depends_on": ["P08"], "gates": ["connector_scope_selected", "approved_permissions_recorded", "isolated_writer_owned"],
+      "objective": "Implement a selected connector from its blueprint with explicit operations, schemas, least-privilege consent, credential handling, denial, retry limits and recovery. Start with synthetic or test data where possible.",
+      "owned_paths": ["products/<capability>/adapters/<connector-host>"],
+      "acceptance": "Allowed and denied operations, authentication expiry, malformed input and bounded retry tested; no real credentials in source/export/fixtures; external writes individually authorized; app/source/provider authentication states are separate.",
+      "evidence_basis": ["docs/application/portable-capabilities.md", "docs/agent-collaboration.md"], "output": "Connector implementation and boundary evidence", "expected_effort_tokens": 25000
+    },
+    {
+      "id": "P12", "title": "Package and release an evaluated capability", "depends_on": ["P07", "P09", "P10"], "gates": ["capability_release_authorized", "isolated_writer_owned"],
+      "objective": "Package pinned core/dependencies and separately validated native adapters. Record rights, hashes, tested hosts, known limitations, installation instructions and rollback/recovery. Include connector evidence only when P11 is selected and complete.",
+      "owned_paths": ["products/<capability>/product.json", "products/<capability>/README.md", "products/<capability>/evals/release", "products/migration-map.json"],
+      "acceptance": "Fresh installation/upgrade/recovery succeeds on claimed hosts; exact release artifacts match tested hashes; normal PR/CI and owner release criteria satisfied; blueprint readiness is never presented as native compatibility or PME approval.",
+      "evidence_basis": ["products/README.md", "docs/application/portable-capabilities.md"], "output": "Evidence-backed release candidate", "expected_effort_tokens": 20000
+    },
+    {
+      "id": "P13", "title": "Validate the real authoring and migration journey", "depends_on": ["P05", "P06"], "gates": ["representative_user_test_selected", "isolated_writer_owned"],
+      "objective": "Observe a representative owner/builder complete intake, loss review, derivation, evidence recording and export. Extend keyboard/screen-reader/responsive testing where existing synthetic checks do not establish accessibility or usability.",
+      "owned_paths": ["products/<capability>/evals/usability"],
+      "acceptance": "Task success/failure, accessibility findings and evidence-reset behavior recorded on exact versions; no broad accessibility certification from viewport/overflow tests; implementation fixes receive separately owned paths and regression criteria.",
+      "evidence_basis": ["docs/application/portable-capability-verification.md"], "output": "Observed journey findings and bounded repair packets", "expected_effort_tokens": 18000
+    },
+    {
+      "id": "P14", "title": "Prepare consumer cutover and surface receipts", "depends_on": ["P12"], "gates": ["consumer_cutover_selected"],
+      "objective": "Identify consumer links, public wording, editorial records and receiving workspaces that need the selected released capability. Plan one editing authority and verify each adopted surface separately without automatically renaming, deleting or archiving child repositories.",
+      "owned_paths": ["products/<capability>/README.md", "products/<capability>/product.json"],
+      "acceptance": "Exact GitHub source/artifact refs, receiving-host parity and editorial readbacks recorded; historical links/aliases remain recoverable; external destination writes and repository cutover have their own explicit authorization; no public workbench hosting added.",
+      "evidence_basis": ["products/README.md", "docs/agent-collaboration.md"], "output": "Reviewed cutover packet and surface evidence", "expected_effort_tokens": 14000
+    },
+    {
+      "id": "P15", "title": "Resolve the scoped protection-audit identity defect", "depends_on": [], "gates": ["explicit_owner_audit_repair_requested", "isolated_writer_owned"],
+      "objective": "Reproduce the canonical lowercase repository slug versus mixed-case constant/fixture mismatch diagnosed by T24. Repair identity handling without weakening branch protections, and retain meaningful wrong-repository/default-branch negatives.",
+      "owned_paths": ["scripts/check-main-protection.py", "scripts/tests/test_main_protection.py"],
+      "acceptance": "Before editing, verify the explicit owner request for this separate audit repair; a coordinator selection string is insufficient. Canonical identity accepted; unrelated repository/default-branch still rejected; 403 or unavailable administration evidence remains incomplete rather than falsely absent protection. No GitHub settings mutation. Technology pin candidates and inherited-layout audits remain separate proposals requiring fresh scope and sources.",
+      "evidence_basis": ["scripts/check-main-protection.py", "scripts/tests/test_main_protection.py"], "output": "Narrow audit-repair PR or no-change diagnosis", "expected_effort_tokens": 12000
+    }
+  ]
+}
