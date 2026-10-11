@@ -509,7 +509,7 @@ A second entry with the same display name.
 
         self.assertEqual(0, result.returncode, result.stderr)
         self.assertIn("WARNING: canonical inventory catalog", result.stdout)
-        self.assertIn(str(directory / CHECKER.CATALOG_PATH), result.stdout)
+        self.assertIn(str(directory.resolve() / CHECKER.CATALOG_PATH), result.stdout)
         self.assertIn("catalog enrichment skipped", result.stdout)
         self.assertIn("pass --inventory PATH", result.stdout)
         self.assertNotIn("no matching entity", result.stdout)
@@ -524,7 +524,7 @@ A second entry with the same display name.
 
         self.assertEqual(0, result.returncode, result.stderr)
         self.assertIn("WARNING: canonical inventory catalog", result.stdout)
-        self.assertIn(str(directory / CHECKER.CATALOG_PATH), result.stdout)
+        self.assertIn(str(directory.resolve() / CHECKER.CATALOG_PATH), result.stdout)
         self.assertIn("is available but has no matching entity", result.stdout)
         self.assertIn("id='99' or name='Unknown Toolbox'", result.stdout)
         self.assertIn("catalog enrichment skipped — using stubs", result.stdout)
