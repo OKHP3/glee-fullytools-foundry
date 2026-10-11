@@ -133,6 +133,24 @@ def workflow_step(workflow: str, name: str) -> str:
     return workflow[start:end]
 
 
+def workflow_event_name_gates(condition: str) -> set[str]:
+    """Extract the event names from an OR-only GitHub Actions event gate."""
+
+    events = []
+    for clause in condition.split("||"):
+        match = re.fullmatch(
+            r"\s*github\.event_name\s*==\s*'([a-z][a-z0-9_-]*)'\s*",
+            clause,
+        )
+        if match is None:
+            raise AssertionError(f"unsupported GitHub Actions event gate: {clause!r}")
+        events.append(match.group(1))
+
+    if len(events) != len(set(events)):
+        raise AssertionError("GitHub Actions event gate repeats an event name")
+    return set(events)
+
+
 def discover_manifest_validator_scripts(scripts_dir: Path) -> tuple[Path, ...]:
     """Discover the manifest validators covered by the import contract.
 
@@ -621,6 +639,37 @@ class ManifestValidatorTests(unittest.TestCase):
 
         self.assertRegex(workflow, r"(?m)^  pull_request:\s*\{\}\s*$")
         self.assertNotRegex(workflow, r"(?m)^\s+paths(?:-ignore)?:")
+
+    def test_manifest_workflow_routes_scheduled_and_manual_runs_to_drift_check(
+        self,
+    ) -> None:
+        workflow = yaml.load(
+            MANIFEST_WORKFLOW.read_text(encoding="utf-8"),
+            Loader=yaml.BaseLoader,
+        )
+        jobs = workflow["jobs"]
+
+        for event in ("schedule", "workflow_dispatch"):
+            with self.subTest(event=event):
+                self.assertIn(event, workflow["on"])
+
+        self.assertEqual(
+            workflow_event_name_gates(jobs["validator-lock-drift"]["if"]),
+            {"schedule", "workflow_dispatch"},
+        )
+
+    def test_manifest_validation_job_remains_pull_request_only(self) -> None:
+        workflow = yaml.load(
+            MANIFEST_WORKFLOW.read_text(encoding="utf-8"),
+            Loader=yaml.BaseLoader,
+        )
+
+        self.assertEqual(
+            workflow_event_name_gates(
+                workflow["jobs"]["validate-manifest"]["if"]
+            ),
+            {"pull_request"},
+        )
 
     def test_manifest_workflow_routes_every_manifest_related_path_to_validation(
         self,
