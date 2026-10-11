@@ -1,4 +1,5 @@
 - [Glee-fully FoundRy structure](gleefully-foundry-structure.md) — Public repository with owner-local app/ and preserved canon; earlier no-application notes are historical.
+- [FoundRy artwork direction](foundry-artwork-direction.md) — Keep the merged vector set canonical for covers and social previews; new image treatments should match it.
 - [Filename normalization rules](filename-normalization.md) — lowercase-kebab-case ASCII only; run scripts/normalize_filenames.py --recursive --ascii-only --include-dirs; never touch ::CanonSeal[...]:: tags
 - [Folder catalog and READMEs](folder-readmes.md) — All 11 folders have PRD-style READMEs; root README has full catalog with links; web-templates/ .docx files moved to docs/
 - [glee-fully-repo-standardizer skill](glee-fully-repo-standardizer.md) — scaffold.py + brand JSON + SKILL.md; run from child repo root with --tier/--name/--id/--parent args; brand JSON auto-copied to assets/

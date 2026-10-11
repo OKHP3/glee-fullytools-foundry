@@ -73,6 +73,14 @@ class ServiceTests(unittest.TestCase):
                 self.assertTrue(raw)
                 if link.get("type"):
                     self.assertEqual(headers["Content-Type"], link["type"])
+        status, headers, brand_css = self.request("GET", "/brand.css")
+        self.assertEqual(status, 200)
+        self.assertEqual(headers["Content-Type"], "text/css; charset=utf-8")
+        self.assertIn(b'url("/brand/cover.svg")', brand_css)
+        status, headers, cover = self.request("GET", "/brand/cover.svg")
+        self.assertEqual(status, 200)
+        self.assertEqual(headers["Content-Type"], "image/svg+xml; charset=utf-8")
+        self.assertIn(b"<svg", cover)
         status, headers, raw = self.request("GET", "/site.webmanifest")
         self.assertEqual(status, 200)
         self.assertEqual(headers["Content-Type"], "application/manifest+json")
@@ -86,7 +94,7 @@ class ServiceTests(unittest.TestCase):
             width, height = int.from_bytes(raw[16:20], "big"), int.from_bytes(raw[20:24], "big")
             self.assertEqual(f"{width}x{height}", icon["sizes"])
         for path in ("/README.md", "/.foundry-data/foundry.sqlite3", "/app/server.py",
-                     "/web-templates/index.html", "/brand/README.md", "/brand/cover.svg",
+                     "/web-templates/index.html", "/brand/README.md", "/brand/unlisted.svg",
                      "/brand/unlisted.png", "/brand/../index.html",
                      "/brand/%2e%2e/%2e%2e/server.py"):
             with self.subTest(blocked=path):
