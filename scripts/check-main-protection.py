@@ -10,7 +10,7 @@ from urllib.parse import quote
 from urllib.request import Request, urlopen
 
 
-REPOSITORY = "OKHP3/Glee-fullyTools-FoundRy"
+REPOSITORY = "OKHP3/glee-fullytools-foundry"
 BRANCH = "main"
 REQUIRED_CHECK = "Validate manifest"
 DEPLOYMENT_ENVIRONMENT = "github-pages"
@@ -43,8 +43,8 @@ def check(protection, environment, deployment_branches=None):
         issues.append("main must require pull request reviews")
     else:
         count = reviews.get("required_approving_review_count")
-        if type(count) is not int or count < 1:
-            issues.append("main must require at least one approving review")
+        if type(count) is not int or count != 0:
+            issues.append("main must require zero approving reviews under the solo-owner policy")
         if reviews.get("dismiss_stale_reviews") is not True:
             issues.append("main must dismiss stale reviews")
 
@@ -92,7 +92,14 @@ def main():
     base = "/repos/" + REPOSITORY
     try:
         repo = fetch(base, token)
-        if repo.get("full_name") != REPOSITORY or repo.get("default_branch") != BRANCH:
+        full_name = repo.get("full_name")
+        # GitHub owner/repository names are case-insensitive. Compare the full
+        # pinned target, without accepting a different owner, rename or branch.
+        if (
+            not isinstance(full_name, str)
+            or full_name.lower() != REPOSITORY.lower()
+            or repo.get("default_branch") != BRANCH
+        ):
             raise RuntimeError("Repository identity or default branch did not match the audit target")
         protection = fetch(base + "/branches/" + BRANCH + "/protection", token)
         environments = fetch(base + "/environments?per_page=100", token)

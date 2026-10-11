@@ -1,9 +1,12 @@
 # Main protection audit
 
 The scheduled Monday and manual `Main protection audit` workflow reads the live
-GitHub settings for `OKHP3/Glee-fullyTools-FoundRy` on `main`. It fails if the
-classic branch rule no longer requires at least one approval, stops dismissing
-stale reviews, loses the `Validate manifest` check or its up-to-date requirement,
+GitHub settings for `OKHP3/glee-fullytools-foundry` on `main`. Repository identity
+accepts case-only differences in the complete owner/name, not a different owner,
+repository or default branch. It fails if the classic branch rule no longer
+requires pull requests with exactly zero approvals under the documented
+solo-owner policy, stops dismissing stale reviews, loses the `Validate manifest`
+check or its up-to-date requirement,
 stops enforcing admins, or permits force pushes or deletion. It also checks
 that the `github-pages` environment retains deployment branch restrictions and
 that a custom branch policy, when used, permits `main`. An unreadable API
@@ -11,21 +14,25 @@ response fails the job as **incomplete**, not as a pass. No settings are changed
 
 **Activation:** This workflow runs after it is merged into the default branch.
 The built-in `GITHUB_TOKEN` is tried, but it may not have permission to read
-branch protection. If the job reports HTTP 403, configure a repository Actions
-secret named `REPO_SETTINGS_READ_TOKEN` with a fine-grained, repository-scoped
-credential with **Administration: read** permission (and the required
+branch protection. If the job reports HTTP 403, report it as incomplete and leave
+credential changes to a separately authorized owner action. The optional
+repository Actions secret `REPO_SETTINGS_READ_TOKEN` would need a fine-grained,
+repository-scoped credential with **Administration: read** permission (and
 Metadata: read access). Do not paste tokens into code, logs, or issue comments.
 The secret is available only to the scheduled/manual job, never to PR code.
 The separate PR job runs offline tests without an audit credential.
 
-An older settings receipt in `docs/repo-settings-review/protection-receipt.json`
-records **zero** required approvals, and `docs/repo-settings-recap.md` explains
-the earlier solo-owner choice. This new task specifies **at least one**: the
-audit will fail until that policy is explicitly approved and applied by the
-repository owner. This change does **not** update the live rule. Failures
-appear in GitHub Actions and are subject to the repository owner's Actions
-notification preferences. Run `workflow_dispatch` after configuring access
-to confirm that the scheduled job can read settings and alerts as expected.
+The settings receipt in `docs/repo-settings-review/protection-receipt.json`
+records **zero** required approvals, and [the solo-owner recap](repo-settings-recap.md)
+explains the owner's decision. The October 11, 2026 authorized checker repair
+reverses the audit's conflicting one-approval expectation, not the live rule.
+Zero approvals still requires the pull-request rule, stale-review dismissal,
+required CI and all other controls listed above. No settings, secrets, tokens
+or workflow permissions are changed. Failures appear in GitHub Actions and are
+subject to the repository owner's Actions notification preferences. Any missing
+read privilege is an owner access decision, not permission to bypass the check.
+After merge and owner review, a separately authorized `workflow_dispatch` can
+verify the scheduled credential's live read access.
 
 This is a periodic check of the classic branch rule and one deployment
 environment, not a complete audit of inherited rulesets or all environments.
