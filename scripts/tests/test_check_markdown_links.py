@@ -179,7 +179,7 @@ class CheckMarkdownLinksTests(unittest.TestCase):
 
             self.assertEqual(1, status)
             self.assertIn(
-                "docs/application/pilots/example/README.md:3", output.getvalue()
+                f"{(package / 'README.md').relative_to(root)}:3", output.getvalue()
             )
             self.assertIn("'missing.md'", output.getvalue())
             self.assertIn("target does not exist", output.getvalue())
@@ -198,7 +198,7 @@ class CheckMarkdownLinksTests(unittest.TestCase):
             self.assertEqual(1, status)
             self.assertIn("FAIL pilot package validation:", output.getvalue())
             self.assertIn(
-                "docs/application/pilots/incomplete", output.getvalue()
+                str(package.relative_to(root)), output.getvalue()
             )
             self.assertIn("'project.json'", output.getvalue())
             self.assertIn("pilot package missing handoff file", output.getvalue())
