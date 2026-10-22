@@ -14,6 +14,7 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - Product subtree destination and explicit not-yet-inventoried migration register.
 
 ### Changed
+- Update the source web template's Mermaid CDN pin from 12.0.0 to 12.2.0 after release review.
 - Agent Skills lead the workbench; GPT authoring is labeled as legacy source capture.
 - Skill export metadata handles long names/descriptions and documents extraction.
 - Existing v1 records, backups and canonical source material remain preserved.
