@@ -40,6 +40,23 @@ class TechnologyVersionsTests(unittest.TestCase):
                 self.assertEqual(row['status'], 'unknown')
                 self.assertEqual(AUDIT.exit_code([row]), 2)
 
+    def test_mermaid_uses_only_stable_project_release_tags(self):
+        payload = [
+            {'tag_name': 'mermaid@12.2.0', 'draft': False, 'prerelease': False},
+            {'tag_name': 'mermaid@12.3.0-rc.1', 'draft': False, 'prerelease': True},
+            {'tag_name': 'mermaid@13.0.0', 'draft': True, 'prerelease': False},
+            {'tag_name': 'mermaid-cli@12.9.0', 'draft': False, 'prerelease': False},
+            {'tag_name': 'mermaid@12.1.0', 'draft': False, 'prerelease': False},
+        ]
+        with patch.object(AUDIT, 'get_text', return_value=json.dumps(payload)):
+            self.assertEqual(AUDIT.latest('github-mermaid', AUDIT.MERMAID_URL), '12.2.0')
+        for body in ('{}', '[]', '[{"tag_name":"mermaid@12.3.0-rc.1"}]'):
+            with self.subTest(body=body), patch.object(AUDIT, 'get_text', return_value=body):
+                row = AUDIT.check(dict(kind='github-mermaid', source=AUDIT.MERMAID_URL,
+                                       current='12.2.0', policy='pin'))
+                self.assertEqual(row['status'], 'unknown')
+                self.assertEqual(AUDIT.exit_code([row]), 2)
+
     def test_numeric_comparison_detects_patch_minor_major(self):
         for candidate in ['11.17.3', '11.18.0', '12.0.0']:
             self.assertEqual(AUDIT.compare('11.17.2', candidate, 'pin'), 'update available')

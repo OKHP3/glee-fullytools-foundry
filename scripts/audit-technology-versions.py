@@ -21,7 +21,7 @@ import sys
 from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
-MERMAID_URL = "https://registry.npmjs.org/mermaid/latest"
+MERMAID_URL = "https://api.github.com/repos/mermaid-js/mermaid/releases?per_page=100"
 PYTHON_URL = "https://www.python.org/downloads/"
 NODE_URL = "https://nodejs.org/dist/index.json"
 SQLITE_URL = "https://sqlite.org/changes.html"
@@ -69,6 +69,19 @@ def latest(kind: str, url: str) -> str:
         if data.get("draft") or data.get("prerelease"):
             raise ValueError("GitHub latest release is not stable")
         result = data["tag_name"].removeprefix("v")
+    elif kind == "github-mermaid":
+        if not isinstance(data, list):
+            raise ValueError("expected Mermaid GitHub release list")
+        prefix = "mermaid@"
+        releases = [item["tag_name"][len(prefix):] for item in data
+                    if isinstance(item, dict) and not item.get("draft")
+                    and not item.get("prerelease")
+                    and isinstance(item.get("tag_name"), str)
+                    and item["tag_name"].startswith(prefix)
+                    and re.fullmatch(r"\d+(?:\.\d+){1,3}", item["tag_name"][len(prefix):])]
+        if not releases:
+            raise ValueError("no stable Mermaid release in GitHub response")
+        return max(releases, key=version)
     else:
         if data.get("deprecated"):
             raise ValueError("npm latest release is deprecated")
@@ -108,7 +121,7 @@ def targets(root: Path) -> list[dict]:
     matches = MERMAID_PIN.findall((root / "web-templates/index.html").read_text(encoding="utf-8"))
     if len(matches) != 1:
         raise ValueError("expected exactly one Mermaid CDN pin")
-    add("Mermaid", matches[0], "npm", MERMAID_URL, "pin", "web-templates/index.html")
+    add("Mermaid", matches[0], "github-mermaid", MERMAID_URL, "pin", "web-templates/index.html")
     direct = pins(root / "requirements.txt")
     locked = pins(root / "requirements-lock.txt")
     for name, declared in direct.items():
@@ -221,7 +234,7 @@ def main(argv=None) -> int:
         parser.error("--allow-major requires --prepare-mermaid")
     try:
         if args.prepare_mermaid:
-            newest = latest("npm", MERMAID_URL)
+            newest = latest("github-mermaid", MERMAID_URL)
             changed = prepare_mermaid(args.root, newest, args.allow_major)
             print(f"Mermaid candidate {'updated' if changed else 'unchanged'}: {newest}; run compatibility checks before merging.")
             return 0
