@@ -1,0 +1,37 @@
+{
+  "skill": "pantry-shopper",
+  "version": "0.1.0",
+  "status": "not-run",
+  "cases": [
+    {
+      "name": "Meet ending stock",
+      "prompt": "For two recipes I need 1 and 2 cups of oats. I have 2 cups and want 1 cup left afterward.",
+      "expectations": [
+        "Combines the two demands into 3 cups.",
+        "Deducts the 2 cups on hand once.",
+        "Accounts for the 1-cup ending target.",
+        "Lists 2 cups to buy in a shopping section."
+      ]
+    },
+    {
+      "name": "Mobile list without sync",
+      "prompt": "I need 5 eggs, have 1, and eggs come in packs of 6. Give me a mobile checklist without an app.",
+      "expectations": [
+        "Calculates a 4-egg shortfall.",
+        "Rounds to one 6-egg pack.",
+        "Shows 2 eggs left after the meal.",
+        "Returns a checkable entry without claiming to sync."
+      ]
+    },
+    {
+      "name": "Incompatible units",
+      "prompt": "My soup needs 2 cups of dried beans. The pantry says 1 sealed bag, weight unknown. Also use my dated carrots first.",
+      "expectations": [
+        "Keeps the bag and cups separate.",
+        "Requests a bag yield or comparable measure.",
+        "Places the bean quantity on the check list.",
+        "Flags the dated carrots for use-first review."
+      ]
+    }
+  ]
+}

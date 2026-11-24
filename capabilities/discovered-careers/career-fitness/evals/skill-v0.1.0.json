@@ -1,0 +1,37 @@
+{
+  "skill": "career-fitness",
+  "version": "0.1.0",
+  "status": "not-run",
+  "cases": [
+    {
+      "name": "Adjacent roles",
+      "prompt": "Compare operations analyst and people manager. I build weekly backlog reports and brief supervisors but have no direct reports. I want hands-on analysis.",
+      "expectations": [
+        "Uses reporting and briefings as evidence for the analyst direction.",
+        "Distinguishes briefing supervisors from managing direct reports.",
+        "Accounts for the preference for analysis.",
+        "Provides a concrete next artifact or practice task."
+      ]
+    },
+    {
+      "name": "Compensation without context",
+      "prompt": "A friend says analysts make 95k. Can I expect that? I haven't picked a city or level.",
+      "expectations": [
+        "Asks for geography and seniority.",
+        "Identifies currency and compensation basis as relevant.",
+        "Treats the friend’s figure as unverified.",
+        "Returns a comparison method without promising a salary."
+      ]
+    },
+    {
+      "name": "Time-constrained development",
+      "prompt": "A posting asks for SQL joins. I know spreadsheets and have two hours a week for three weeks. Should I buy a certification?",
+      "expectations": [
+        "Separates spreadsheet experience from evidence of joins.",
+        "Proposes a small joins exercise with an inspectable result.",
+        "Fits the next checkpoint within the available three weeks.",
+        "Avoids asserting that a paid credential is required."
+      ]
+    }
+  ]
+}

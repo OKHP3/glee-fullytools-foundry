@@ -2,6 +2,8 @@
 
 Organize recipes, plan meals, shop from the pantry and keep track of foods to try.
 
+[Portable Agent Skill](skills/tasty-tracker/SKILL.md) · [Evaluation cases](evals/skill-v0.1.0.json)
+
 ## Tools
 
 | Capability | Purpose |

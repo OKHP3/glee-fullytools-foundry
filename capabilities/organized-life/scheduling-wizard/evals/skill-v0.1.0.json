@@ -1,0 +1,37 @@
+{
+  "skill": "scheduling-wizard",
+  "version": "0.1.0",
+  "status": "not-run",
+  "cases": [
+    {
+      "name": "Protect the Joy Anchor",
+      "prompt": "My work window is 11:30–13:00. Protect lunch walk 12:00–12:30. I need a continuous 45-minute focus block.",
+      "expectations": [
+        "Keeps the walk at 12:00–12:30.",
+        "Finds only two separate 30-minute free windows.",
+        "Reports no continuous 45-minute slot in the window.",
+        "Offers to move the focus task or extend the work window."
+      ]
+    },
+    {
+      "name": "Weekly draft offline",
+      "prompt": "Draft a bill review every Monday at 09:00 in America/Chicago, 20 minutes long, with a 10-minute alert. No calendar is connected.",
+      "expectations": [
+        "Creates a weekly Monday rule with America/Chicago.",
+        "Displays 09:00–09:20 for the review.",
+        "Sets the draft alert at 08:50 local time.",
+        "Does not claim an event or alert was created."
+      ]
+    },
+    {
+      "name": "Detect time ambiguity",
+      "prompt": "A colleague says meet at 9 tomorrow in their time. We have no date context or time zones. Put it in my calendar draft.",
+      "expectations": [
+        "Preserves 9 as the sender's stated local time.",
+        "Requests calendar date and the relevant zones.",
+        "Leaves the converted time unresolved.",
+        "Returns a pending draft without claiming a calendar write."
+      ]
+    }
+  ]
+}

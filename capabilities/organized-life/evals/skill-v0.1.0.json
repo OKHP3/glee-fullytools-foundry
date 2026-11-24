@@ -1,0 +1,37 @@
+{
+  "skill": "organized-life",
+  "version": "0.1.0",
+  "status": "not-run",
+  "cases": [
+    {
+      "name": "Coordinate bill and reminder",
+      "prompt": "I owe $30 for water Friday. Make a bill entry, reminder and dashboard total.",
+      "expectations": [
+        "Routes the amount and due date to a bill record.",
+        "Links the reminder to the same obligation.",
+        "Shows a $30 total rather than $60.",
+        "Keeps the bill unpaid absent evidence of payment."
+      ]
+    },
+    {
+      "name": "Plan gift without writing",
+      "prompt": "A friend's birthday is May 10. I might buy a mug. Plan it without calendar or store access.",
+      "expectations": [
+        "Creates a Giftlist Helper idea for the mug.",
+        "Records May 10 as the occasion.",
+        "Drafts a scheduling step without claiming an alert.",
+        "Does not record an expense or a purchased gift."
+      ]
+    },
+    {
+      "name": "Choose resale rather than finance",
+      "prompt": "I want to sell my old stool locally and add the proceeds to my tracker. It hasn't sold yet.",
+      "expectations": [
+        "Routes the seller task to Neighborly Bazaar.",
+        "Keeps expected proceeds distinct from received money.",
+        "Provides a listing or valuation next step.",
+        "Does not add completed income or publish a listing."
+      ]
+    }
+  ]
+}

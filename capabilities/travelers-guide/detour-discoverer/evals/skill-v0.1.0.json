@@ -1,0 +1,37 @@
+{
+  "skill": "detour-discoverer",
+  "version": "0.1.0",
+  "status": "not-run",
+  "cases": [
+    {
+      "name": "Fit a layover",
+      "prompt": "I have 90 minutes and need a 25-minute buffer. The garden is 20 minutes each way and needs 30 minutes to visit.",
+      "expectations": [
+        "Reserves the 25-minute buffer.",
+        "Counts both 20-minute travel legs.",
+        "Calculates 25 minutes available at the garden.",
+        "Flags the requested visit as 5 minutes too long."
+      ]
+    },
+    {
+      "name": "No map service",
+      "prompt": "Compare a scenic stop with unknown hours against a café open according to my supplied note. No maps are available.",
+      "expectations": [
+        "Keeps the scenic stop's hours unknown.",
+        "Attributes the café hours to the user's note.",
+        "Requests the travel durations needed to establish fit.",
+        "Provides a conditional comparison without claiming a mapped route."
+      ]
+    },
+    {
+      "name": "Avoid double-counting",
+      "prompt": "Direct driving takes 60 minutes. The scenic route takes 80 minutes of driving plus a 15-minute stop. I have 30 extra minutes.",
+      "expectations": [
+        "Computes 20 minutes of incremental driving.",
+        "Adds the 15-minute visit for 35 extra minutes.",
+        "Identifies a 5-minute shortfall.",
+        "Offers a shorter stop or skipping it."
+      ]
+    }
+  ]
+}

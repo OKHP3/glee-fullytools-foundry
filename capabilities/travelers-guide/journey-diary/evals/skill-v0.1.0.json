@@ -1,0 +1,37 @@
+{
+  "skill": "journey-diary",
+  "version": "0.1.0",
+  "status": "not-run",
+  "cases": [
+    {
+      "name": "Approximate date",
+      "prompt": "I visited Lake Amber sometime in June. The lakeside bread was smoky. A storm surprised me. Write a diary entry.",
+      "expectations": [
+        "Preserves June without inventing a day.",
+        "Includes the smoky bread as a memory.",
+        "Records the surprising storm.",
+        "Places Lake Amber in the visited-place list."
+      ]
+    },
+    {
+      "name": "No photo or map tool",
+      "prompt": "I walked through Elm Square, then Cedar Market. My photo label is market-stall, but the image is unavailable. Give map-ready notes.",
+      "expectations": [
+        "Preserves the order of Elm Square and Cedar Market.",
+        "Returns two named map rows.",
+        "Links the supplied photo label to the market.",
+        "Does not supply invented coordinates or image contents."
+      ]
+    },
+    {
+      "name": "Separate wishes from events",
+      "prompt": "We visited Harbor Park, skipped the tower and might try it next year. Make a public trip diary without companion names.",
+      "expectations": [
+        "Records Harbor Park as visited.",
+        "Keeps the skipped tower out of visited map pins.",
+        "Treats next year's tower visit as a possibility.",
+        "Uses no companion names."
+      ]
+    }
+  ]
+}

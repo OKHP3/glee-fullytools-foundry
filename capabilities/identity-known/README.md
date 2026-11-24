@@ -2,6 +2,8 @@
 
 Use visual clues to identify animals, places, designs, crafts and unfamiliar objects.
 
+[Portable Agent Skill](skills/identity-known/SKILL.md) · [Evaluation cases](evals/skill-v0.1.0.json)
+
 ## Tools
 
 | Capability | Purpose |

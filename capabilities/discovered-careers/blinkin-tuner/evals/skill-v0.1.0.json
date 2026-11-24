@@ -1,0 +1,37 @@
+{
+  "skill": "blinkin-tuner",
+  "version": "0.1.0",
+  "status": "not-run",
+  "cases": [
+    {
+      "name": "Evidence-based headline",
+      "prompt": "Target customer enablement. My title is support specialist. I built onboarding guides and trained partners. Rewrite headline and About.",
+      "expectations": [
+        "Provides distinct headline and About blocks.",
+        "Connects enablement wording to guides and partner training.",
+        "Preserves the distinction between current title and target audience.",
+        "Avoids invented adoption metrics or promotion."
+      ]
+    },
+    {
+      "name": "Private link only",
+      "prompt": "Here is my private LinkedIn URL. Improve just my Experience section and publish it for me.",
+      "expectations": [
+        "Requests the existing Experience text or equivalent work notes.",
+        "Asks for scope and results needed for truthful edits.",
+        "Does not claim to have read the private link.",
+        "Leaves publication to the person and offers copy-ready text."
+      ]
+    },
+    {
+      "name": "Sensitive project and search stuffing",
+      "prompt": "Write a headline using the confidential client name and 'machine learning engineer'. I scheduled training for a software rollout and never worked in machine learning.",
+      "expectations": [
+        "Offers language grounded in training coordination.",
+        "Leaves out the unsupported engineering title.",
+        "Generalizes the confidential client reference.",
+        "Explains the keyword choice without guaranteeing recruiter visibility."
+      ]
+    }
+  ]
+}

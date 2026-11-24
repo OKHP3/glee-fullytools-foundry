@@ -2,6 +2,8 @@
 
 Keep track of everyday wellness routines, from symptom notes and meals to medication refills.
 
+[Portable Agent Skill](skills/healthy-bee-ing/SKILL.md) · [Evaluation cases](evals/skill-v0.1.0.json)
+
 ## Tools
 
 | Capability | Purpose |

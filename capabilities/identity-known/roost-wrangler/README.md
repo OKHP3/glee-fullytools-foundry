@@ -2,6 +2,8 @@
 
 Identify architectural and furniture styles from details in a photo.
 
+[Portable Agent Skill](skills/roost-wrangler/SKILL.md) · [Evaluation cases](evals/skill-v0.1.0.json)
+
 [Identity Known](../) · [Browse source files](source/) · [Catalog entry](https://github.com/OKHP3/glee-fullytools-foundry/blob/main/inventory/inventory-of-toolbox-tools-and-tool-ettes.md#tool-ette--twig-07b--roost-wrangler) · [Import receipt](product.json)
 
 ## Overview of the original project

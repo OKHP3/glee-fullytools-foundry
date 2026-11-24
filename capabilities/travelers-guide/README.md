@@ -2,6 +2,8 @@
 
 Plan a trip, find detours along the way and keep the memories and keepsakes together.
 
+[Portable Agent Skill](skills/travelers-guide/SKILL.md) · [Evaluation cases](evals/skill-v0.1.0.json)
+
 ## Tools
 
 | Capability | Purpose |

@@ -21,7 +21,10 @@ its import status. The owner chose an exact snapshot of each former
 repository's pinned `main` tree for its capability's `source/` directory.
 Preserve paths, file contents and Git modes there. Treat nested agent guides
 and workflows as historical source. The original Git ancestry belongs in
-private recovery storage. Link new guidance to the FoundRy capability.
+private recovery storage. The 50 legacy GitHub repositories have been deleted.
+Author product skills in each route’s `skills/<productId>/` directory and its
+evaluation cases in `evals/`. The plugin packager reads the selected skill
+and license for its archive. Link new guidance to the FoundRy capability.
 Follow the [migration contract](products/README.md) for source
 preservation and the [portable capability workflow](docs/application/portable-capabilities.md)
 for skills, adapters and evaluations.

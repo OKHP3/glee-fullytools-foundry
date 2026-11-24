@@ -37,7 +37,7 @@ Plugin and connector exports are planning blueprints, with `installable: false`.
 
 The app can derive a skill draft from a GPT source, then plugin or connector blueprints from a skill. Each derivation preserves its source revision and resets evaluation evidence. Use **Conversion & portability** to map source behavior, semantic loss, target hosts, tools and permissions. The portable core stays independent of a vendor account; host-specific packages are maintained separately.
 
-Browse the [capability directory](capabilities/README.md) for the Personalizable Tools toolbox, its seven families and their Tool-ettes. Each capability links to its original source tree inside the FoundRy. The [migration register](products/migration-map.json) records the pinned revisions and tree IDs. For a source import or skill conversion, follow the [migration contract](products/README.md) and [portable capability workflow](docs/application/portable-capabilities.md).
+Browse the [capability directory](capabilities/README.md) for the Personalizable Tools toolbox, its seven families and their Tool-ettes. Each capability links to its portable Agent Skill, evaluation cases and original source tree. The 50 legacy GitHub repositories were retired after their complete trees were verified here. The [migration register](products/migration-map.json) records the pinned revisions and tree IDs. For a source import or skill conversion, follow the [migration contract](products/README.md) and [portable capability workflow](docs/application/portable-capabilities.md).
 
 ## Inside the workbench
 

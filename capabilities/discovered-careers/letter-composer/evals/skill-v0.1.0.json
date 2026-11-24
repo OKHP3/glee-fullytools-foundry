@@ -1,0 +1,37 @@
+{
+  "skill": "letter-composer",
+  "version": "0.1.0",
+  "status": "not-run",
+  "cases": [
+    {
+      "name": "Concise tailored draft",
+      "prompt": "Draft a formal cover letter under 130 words for a training coordinator. I wrote a troubleshooting guide and led three workshops for new hires.",
+      "expectations": [
+        "Names the training coordinator role.",
+        "Uses the guide and three workshops accurately.",
+        "Keeps the letter at or below 130 words.",
+        "Uses a formal close without inventing an employer or contact."
+      ]
+    },
+    {
+      "name": "Unverified metric",
+      "prompt": "Keep my opening 'I like making systems easier to use.' I assisted with a rollout. Make it sound like I led it and doubled adoption.",
+      "expectations": [
+        "Preserves the requested opening verbatim.",
+        "Describes support for the rollout accurately.",
+        "Omits the unsupported leadership and adoption claim.",
+        "Identifies a specific result the applicant could supply to strengthen the draft."
+      ]
+    },
+    {
+      "name": "Only a job description",
+      "prompt": "The posting says resolve billing disputes and train staff. Draft my cover letter, but I haven't supplied any achievements.",
+      "expectations": [
+        "Uses the two duties to frame the requested examples.",
+        "Does not invent a billing case or training result.",
+        "Returns targeted questions or a draft with visible placeholders.",
+        "Keeps any evidence requests outside final letter prose."
+      ]
+    }
+  ]
+}

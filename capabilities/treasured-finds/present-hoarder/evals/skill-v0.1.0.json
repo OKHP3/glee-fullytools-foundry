@@ -1,0 +1,37 @@
+{
+  "skill": "present-hoarder",
+  "version": "0.1.0",
+  "status": "not-run",
+  "cases": [
+    {
+      "name": "Multiple gift states",
+      "prompt": "Two birthday puzzles for recipient A. One is wrapped on shelf H; one is still just on a wishlist.",
+      "expectations": [
+        "Distinguishes the two records or quantities by state.",
+        "Marks only one as acquired and wrapped.",
+        "Records shelf H only for the physical gift.",
+        "Does not count the wishlist item as ready to give."
+      ]
+    },
+    {
+      "name": "Spoiler-safe handoff",
+      "prompt": "Make a status update for the recipient. My notes say 'concert tickets in blue drawer, already wrapped'.",
+      "expectations": [
+        "Keeps item identity out of the recipient-facing update.",
+        "Omits blue drawer and equivalent location hints.",
+        "Reports that one gift is wrapped in the recipient-facing update.",
+        "Does not disclose the surprise in notes or headings."
+      ]
+    },
+    {
+      "name": "Uncertain ownership",
+      "prompt": "I hid two identical mugs for different birthdays and moved one to a new bin. I can't tell which recipient it was.",
+      "expectations": [
+        "Keeps both recipient assignments visible as unresolved for the move.",
+        "Avoids marking both mugs moved.",
+        "Requests a tag, occasion or other distinguishing clue.",
+        "Returns the next action to reconcile physical inventory."
+      ]
+    }
+  ]
+}

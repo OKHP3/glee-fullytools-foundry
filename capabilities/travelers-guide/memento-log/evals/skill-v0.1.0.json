@@ -1,0 +1,37 @@
+{
+  "skill": "memento-log",
+  "version": "0.1.0",
+  "status": "not-run",
+  "cases": [
+    {
+      "name": "Two keepsakes",
+      "prompt": "From the hill trip I have a pressed leaf and a rail ticket. I remember collecting the leaf beside the lodge.",
+      "expectations": [
+        "Creates distinct leaf and ticket records.",
+        "Links both to the hill trip.",
+        "Attaches the lodge memory only to the leaf.",
+        "Leaves the ticket's origin or story unspecified."
+      ]
+    },
+    {
+      "name": "Missing scan",
+      "prompt": "My ticket is labeled scan-02. I lost the scan. I recall riding with my sister, who liked the bridge.",
+      "expectations": [
+        "Uses scan-02 as a media label.",
+        "Describes the ride from the supplied recollection.",
+        "Attributes the bridge memory to the sister.",
+        "Avoids invented information from the missing scan."
+      ]
+    },
+    {
+      "name": "Prepare public caption",
+      "prompt": "Make a shareable caption for a concert stub from our city weekend. The ticket has a barcode and reservation number; I keep it in a desk drawer.",
+      "expectations": [
+        "Identifies a concert stub and the city weekend.",
+        "Excludes the barcode.",
+        "Excludes the reservation number.",
+        "Omits the private storage location."
+      ]
+    }
+  ]
+}

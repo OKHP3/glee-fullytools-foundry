@@ -1,0 +1,37 @@
+{
+  "skill": "career-seeker",
+  "version": "0.1.0",
+  "status": "not-run",
+  "cases": [
+    {
+      "name": "Two roles at one employer",
+      "prompt": "At Cedar Studio I applied to Ops Lead requisition 17 on May 2 and Ops Analyst requisition 19 on May 4. Requisition 19 has an interview booked May 10.",
+      "expectations": [
+        "Maintains separate rows for requisitions 17 and 19.",
+        "Retains both application dates.",
+        "Assigns the scheduled interview only to 19.",
+        "Lists May 10 as a future interview rather than a completed one."
+      ]
+    },
+    {
+      "name": "Ambiguous update",
+      "prompt": "My log has two product coordinator jobs with the same company. They emailed a rejection but I have no job ID in the note.",
+      "expectations": [
+        "Shows that two records could match.",
+        "Leaves both current stages intact pending confirmation.",
+        "Asks for distinguishing text, requisition or date.",
+        "Captures the rejection as unresolved rather than losing the event."
+      ]
+    },
+    {
+      "name": "Status report and reminder",
+      "prompt": "Three applications this month, one reached interviews. Put a reminder in my calendar to follow up Friday; this client has no calendar.",
+      "expectations": [
+        "Reports one of three applications reaching interviews.",
+        "Identifies the time window as this month.",
+        "Offers a copyable follow-up reminder and clarifies its date if needed.",
+        "Does not claim a calendar event was created."
+      ]
+    }
+  ]
+}

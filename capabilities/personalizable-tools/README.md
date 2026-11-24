@@ -2,6 +2,8 @@
 
 Find the right Glee-fully tool for a task and explore the seven domains of the toolbox.
 
+[Portable Agent Skill](skills/personalizable-tools/SKILL.md) · [Evaluation cases](evals/skill-v0.1.0.json)
+
 ## Toolbox domains
 
 | Capability | Purpose |

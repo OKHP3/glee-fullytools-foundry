@@ -1,0 +1,37 @@
+{
+  "skill": "personal-librarian",
+  "version": "0.1.0",
+  "status": "not-run",
+  "cases": [
+    {
+      "name": "One title, two editions",
+      "prompt": "I own a print copy of The Example Garden and borrowed its audio edition. Print is unread; audio is finished. No identifiers available.",
+      "expectations": [
+        "Keeps two edition records.",
+        "Distinguishes print and audio.",
+        "Retains the separate reading and ownership states.",
+        "Leaves identifiers and ratings blank."
+      ]
+    },
+    {
+      "name": "Conflicting import",
+      "prompt": "Two incoming rows share identifier 0012345678 but have different authors. One includes my old notes. Merge the entire file.",
+      "expectations": [
+        "Preserves the leading zeros.",
+        "Flags the mismatched authors for review.",
+        "Keeps the existing notes available.",
+        "Avoids automatically merging the conflicting records."
+      ]
+    },
+    {
+      "name": "CSV round trip",
+      "prompt": "Export a single ebook titled Soil, Seeds and Rain with the note 'Rated it \"quietly brilliant\"'. Rating is unknown.",
+      "expectations": [
+        "Uses the documented CSV header.",
+        "Quotes the comma-containing title.",
+        "Escapes the embedded quotation marks correctly.",
+        "Leaves Rating (1-5) blank."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "skill": "dreamland-journeys",
+  "version": "0.1.0",
+  "status": "not-run",
+  "cases": [
+    {
+      "name": "Mood before destination",
+      "prompt": "I want foggy bookshops and train windows in autumn. I haven't picked a destination.",
+      "expectations": [
+        "Creates an unplaced autumn wishboard card.",
+        "Retains bookshops and train windows as motifs.",
+        "Labels any proposed towns as suggestions.",
+        "Gives a shortlisting milestone rather than a booking."
+      ]
+    },
+    {
+      "name": "Budget without rates",
+      "prompt": "Our two-person spring trip has a $2,400 USD cap for four nights. No live fares. Give a cost-planning card.",
+      "expectations": [
+        "Captures currency, two travelers, four nights and spring.",
+        "Labels $2,400 as a cap.",
+        "Separates unpriced categories from known costs.",
+        "Avoids reporting live fares or a reservation."
+      ]
+    },
+    {
+      "name": "Separate themed dreams",
+      "prompt": "I booked my coast trip but my forest retreat is just an idea. The photos are unavailable; I named them tide and fern.",
+      "expectations": [
+        "Creates separate coastal and forest cards.",
+        "Marks only the coast trip booked.",
+        "Leaves the forest retreat in dreaming status.",
+        "Records the two labels without inventing image details."
+      ]
+    }
+  ]
+}

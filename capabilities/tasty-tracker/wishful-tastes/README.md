@@ -2,6 +2,8 @@
 
 Collect restaurants, dishes and recipes to try in a personal food wishlist.
 
+[Portable Agent Skill](skills/wishful-tastes/SKILL.md) · [Evaluation cases](evals/skill-v0.1.0.json)
+
 [Tasty Tracker](../) · [Browse source files](source/) · [Catalog entry](https://github.com/OKHP3/glee-fullytools-foundry/blob/main/inventory/inventory-of-toolbox-tools-and-tool-ettes.md#tool-ette--twig-03c--wishful-tastes) · [Import receipt](product.json)
 
 ## Overview of the original project

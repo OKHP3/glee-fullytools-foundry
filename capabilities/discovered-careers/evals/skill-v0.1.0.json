@@ -1,0 +1,37 @@
+{
+  "skill": "discovered-careers",
+  "version": "0.1.0",
+  "status": "not-run",
+  "cases": [
+    {
+      "name": "Missing foundation",
+      "prompt": "I have a vacancy description and some job-history notes. I need a resume and cover letter but have no resume yet.",
+      "expectations": [
+        "Starts with Resume Builder for the base document.",
+        "Names Resume Customizer for targeting once the base exists.",
+        "Names Letter Composer for the requested letter.",
+        "Handoff preserves the posting and notes without fabricating experience."
+      ]
+    },
+    {
+      "name": "Clarify a vague request",
+      "prompt": "Can you help with my LinkedIn? I might mean rewriting my headline or keeping track of the jobs I saved.",
+      "expectations": [
+        "Distinguishes public profile text from opportunity tracking.",
+        "Names bLinkIn Tuner and Career Seeker with their purposes.",
+        "Asks which deliverable the person wants first.",
+        "Does not imply access to the person's saved jobs or profile."
+      ]
+    },
+    {
+      "name": "Fit before application",
+      "prompt": "I am choosing between analyst and operations roles. I have not selected any posting.",
+      "expectations": [
+        "Selects Career Fitness.",
+        "Explains that role selection comes before tailoring to a vacancy.",
+        "Copies both target roles into the brief.",
+        "Requests experience or constraints instead of producing a targeted resume."
+      ]
+    }
+  ]
+}
