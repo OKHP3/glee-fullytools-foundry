@@ -63,11 +63,11 @@ Inferred from the repository contents:
 - The workbench preserves canonical rules while helping design, evaluate and
   package Glee-fully capabilities independently of their host platform.
 
-Unknown from this checkout:
-
-- The current operational status of the externally hosted GPTs, child repositories,
-  public site, and live ChatGPT links. Local documentation reports 40+ entities, but
-  that external deployment count is not independently verified here.
+On November 24, 2026, GitHub confirmed deletion of the 50 legacy repositories.
+Each of their 50 original GPTs opened a private replacement plugin in the
+owner’s ChatGPT account. The [migration register](products/migration-map.json)
+records this cutover. Host behavior, installation and later changes require
+separate verification.
 
 ## Authority and scope
 
