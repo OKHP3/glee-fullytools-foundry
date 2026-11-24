@@ -12,7 +12,7 @@ Organize recipes, plan meals, shop from the pantry and keep track of foods to tr
 | [Pantry Shopper](pantry-shopper/) | Compare a menu with the ingredients on hand and turn what is missing into a shopping list. |
 | [Palatably Profiled](palatably-profiled/) | Record flavor preferences over time and compare tastes within a household. |
 
-[All capabilities](../) · [Browse source files](source/) · [Catalog entry](https://github.com/OKHP3/glee-fullytools-foundry/blob/main/inventory/inventory-of-toolbox-tools-and-tool-ettes.md#tool--branch-03--glee-fully-tasty-tracker) · [Import receipt](product.json) · [Original revision (access required)](https://github.com/OKHP3/glee-fully-gpt03-tasty-tracker/tree/7b92c7cab4e6d5fabc4f96a826a817e440bb567e)
+[All capabilities](../) · [Browse source files](source/) · [Catalog entry](https://github.com/OKHP3/glee-fullytools-foundry/blob/main/inventory/inventory-of-toolbox-tools-and-tool-ettes.md#tool--branch-03--glee-fully-tasty-tracker) · [Import receipt](product.json)
 
 ## Overview of the original project
 

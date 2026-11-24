@@ -17,9 +17,11 @@ Tool families and their Tool-ettes. Each top-level route lives at
 `capabilities/<family>/` and each Tool-ette at `capabilities/<family>/<tool-ette>/`.
 Use the exact directory names in the index, including `identity-known/gpt07g-self-fixer`.
 The [migration register](products/migration-map.json) records each route and
-its import status. This consolidation uses reviewed files from pinned `main`
-revisions in each route's `source/` directory. Private records, secrets and
-upstream Git histories stay in their source repositories.
+its import status. The owner chose an exact snapshot of each former
+repository's pinned `main` tree for its capability's `source/` directory.
+Preserve paths, file contents and Git modes there. Treat nested agent guides
+and workflows as historical source. The original Git ancestry belongs in
+private recovery storage. Link new guidance to the FoundRy capability.
 Follow the [migration contract](products/README.md) for source
 preservation and the [portable capability workflow](docs/application/portable-capabilities.md)
 for skills, adapters and evaluations.
@@ -47,9 +49,9 @@ Confirmed by `manifest.yaml`, `README.md`, and the directory layout:
   It has an application test suite and needs no package installation or build step.
   The manifest validators are separate maintenance tooling with dependencies
   declared in `requirements.txt`.
-- The public storefront and child repositories are external consumers of material
-  produced here. `web-templates/` contains source assets only and must not be served
-  from this workbench.
+- The public storefront is maintained separately. Former GPT repositories are
+  documented under `capabilities/`. Keep `web-templates/` and imported sources
+  outside the workbench's serving allowlists.
 
 Inferred from the repository contents:
 
@@ -79,7 +81,7 @@ while regional application ownership and private records remain distinct.
 ```text
 OverKill Hill universe context + shared Skillz references
   -> Glee-fullyTools-FoundRy (Glee-fully application and canon)
-       -> glee-fully-gpt00-* through glee-fully-gpt07-* child repositories
+       -> capabilities/ (toolbox, seven Tool families and their Tool-ettes)
 ```
 
 Within this repository:
@@ -170,7 +172,7 @@ The protocol does not launch agents, expand repository scope or authorize charge
 ## Core architecture and workflows
 
 The documented entity model is Toolbox, Tool, Tool-ette, Function, and
-Function-ette. Child repository families are named as follows:
+Function-ette. The former child repositories used these family names:
 
 | Pattern | Domain |
 |---|---|

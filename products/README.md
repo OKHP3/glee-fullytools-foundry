@@ -2,31 +2,25 @@
 
 The [capability directory](../capabilities/README.md) organizes the former GPTs
 by toolbox, Tool family and Tool-ette. The [migration register](migration-map.json)
-records each public destination and its source status. An inventoried route
-identifies where a project belongs. The source-consolidation batch uses
-`sanitized-snapshot` imports from pinned `main` revisions. Only files reviewed
-for public use belong under `source/`. Private records, secrets and the
-original Git histories stay in their source repositories. See each register
-entry for its review evidence, import status and any outstanding work.
+records each FoundRy destination and its source status. The owner selected
+the complete tracked `main` tree of each of the 50 former repositories for
+publication under its capability's `source/` directory. The register calls
+this mode `exact-tree-snapshot`. Private recovery bundles preserve Git history.
 
 ## November 2026 import
 
-Each of the 50 capability pages links to its reviewed source files, import
-receipt and original revision. Each `product.json` lists the public files,
-their Git blob IDs, modes and SHA-256 hashes. An excerpt or redaction also
-records the original blob ID and describes the change. The original MIT
-license is included in each `source/` directory.
+Each capability page links to its source and its `product.json` receipt.
+Compare the receipt's pinned source tree with the FoundRy `source/` tree.
+Matching Git tree IDs verify every tracked path, file mode and blob, including
+dotfiles, original licenses and bundled tools. For a legacy repository link,
+find its former name in the register and open the same path under the mapped
+`source/` directory. Links into other services retain their original access rules.
 
-The [shared tooling index](shared-tooling.json) points to byte-identical
-public copies of tools bundled in the former repositories. Use the GPT code
-in the migration register to find its entries. Historical links in the source
-documents may point to private files or to this shared tooling. To follow a
-historical link in its original context, open the capability's pinned
-**Original revision** with an account that has access.
-
-Private operational records, files with private attachment references and
-contact-bearing career examples stay upstream. [Resume Builder](../capabilities/discovered-careers/resume-builder/)
-includes five blank public templates derived from the original examples.
+The first import copied a selection of public files, prepared excerpts and
+recorded matching shared tools. Its evidence remains available through
+`initialImport` and the historical [shared tooling index](shared-tooling.json).
+The five blank [Resume Builder templates](../capabilities/discovered-careers/resume-builder/templates/)
+are derived material alongside its source.
 
 ## Layout for each product
 
@@ -41,7 +35,7 @@ the following files and directories at either level.
 
 ```text
   product.json                Sources, versions, rights and release evidence
-  source/                     Files approved for publication, retaining their paths
+  source/                     Pinned source tree, with original paths and modes
   skills/<skill-name>/         Portable core, SKILL.md and optional resources
   adapters/<host>/             Host-specific manifests and integration code
   evals/                      Fixtures and results tied to exact artifact versions
@@ -53,9 +47,9 @@ names in the capability directory, including the owner-selected
 and repository URLs as aliases. Keep private source material in its existing
 access-controlled location until reviewed and authorized for publication.
 
-`source/` contains ordinary tracked files. A sanitized snapshot keeps the
-approved files at their source paths while the original history stays upstream.
-A separately reviewed full-history subtree also preserves commit ancestry.
+`source/` contains ordinary tracked files. An exact snapshot preserves the
+entire source tree. A sanitized snapshot preserves only approved files or
+excerpts. A separately reviewed full-history subtree also preserves commit ancestry.
 New skills, adapters and evaluations belong alongside `source/`. Runtime builder
 skills in `.agents/skills/` and publication mirrors in root `skills/` keep their
 distinct roles.
@@ -67,16 +61,18 @@ distinct roles.
    license, visibility, capability destination and aliases in the appropriate
    public or access-controlled record. Inspect uncommitted work,
    active branches/PRs, worktrees and any assigned Replit integration first.
-2. For a sanitized snapshot, review the files at the selected revision, including
-   document contents and metadata. Select the files authorized for public use.
+2. For an exact snapshot, confirm publication authority for the complete tree
+   at the selected revision. For a sanitized snapshot, review document contents
+   and metadata and select the files authorized for public use.
    Document what was included and any exclusions using public-safe descriptions.
    A full-history subtree additionally requires review and authorization for all
    reachable history.
-3. Preserve source refs. If recovery requires a bundle, keep it outside tracked
-   product data. Start from a clean integration branch and verify that the
-   proposed `source/` directory is available.
-4. For a snapshot, add the selected files at their source-relative paths under
-   `source/` and keep upstream commits out of the FoundRy ancestry. For an
+3. Preserve source refs and verify the recovery bundle before retiring the
+   original repository. Keep that bundle in private storage outside tracked
+   product data. Start from a clean integration branch and check the destination.
+4. For an exact snapshot, import the pinned Git tree at `source/`. For a
+   sanitized snapshot, add the selected files at their source-relative paths.
+   Keep source commits out of the FoundRy ancestry for either snapshot. For an
    authorized full-history subtree, use the reviewed URL and exact commit.
 
    ```bash
@@ -89,7 +85,7 @@ distinct roles.
    Omit `--squash` when retaining full history. Verify `git subtree -h`
    on the executing host before attempting import. Never substitute a moving
    branch tip for the recorded reviewed commit.
-5. For a snapshot, compare the destination paths, blob IDs and modes with the
+5. For a sanitized snapshot, compare the destination paths, blob IDs and modes with the
    approved selection. Record the resulting destination tree ID. Any redactions
    require their own review and evidence. For a full-tree import, verify that
    the entire destination tree equals the pinned source tree, including dotfiles,
@@ -101,10 +97,10 @@ distinct roles.
    capability adds version, package or release details.
    Use the [conversion workflow](../docs/application/portable-capabilities.md) to
    author skills and then adapters without editing the preserved source tree.
-7. Review the import diff and release evidence through the normal PR process.
-   Verify links and consumer routing before changing the source repository's role.
-   Archive/delete/rename remote repositories and redirect sites only in a separately
-   specified cutover. Source access remains the recovery path until then.
+7. Verify the source tree IDs on FoundRy `main`, check consumer links and
+   verify private recovery before the authorized retirement of each original
+   repository. Record the remote retirement separately after confirming it
+   on GitHub. Import status describes the files available here.
 
 Once cut over, this product directory is the editing authority. Record any later
 upstream import explicitly; do not permit silent two-way synchronization or two
@@ -121,9 +117,10 @@ source and import fields as evidence becomes available for public use.
 | `productId`, `displayName`, `aliases` | Stable capability slug, public name, previous names |
 | `region` | `gleefully` |
 | `destination` | Full path under `capabilities/`, including the parent family for a Tool-ette |
-| `sourceRepository`, `sourceCommit`, `sourceTree` | Publicly shareable source URL and exact Git object IDs, or `null` where unavailable for publication |
+| `sourceRepository`, `sourceCommit`, `sourceTree` | Former repository identity and pinned Git object IDs, or `null` where unavailable for publication |
 | `sourceLicense`, `publicHistoryReview` | Source rights and public-history review evidence, or `null` pending review |
-| `importMode` | `full-history-subtree` or `sanitized-snapshot` for an import, otherwise `null` |
+| `importMode` | `exact-tree-snapshot`, `full-history-subtree` or `sanitized-snapshot` for an import, otherwise `null` |
+| `initialImport` | Reference to earlier selective-import evidence where a capability has a prior import |
 | `importCommit`, `destinationTree` | Commit introducing the source and verified destination tree ID, both `null` until import |
 | `status` | `inventoried`, `blocked`, `imported`, `skill-draft`, `adapter-draft`, `validated`, `released` |
 | `skills`, `adapters` | Relative package paths and pinned versions; empty until authored |

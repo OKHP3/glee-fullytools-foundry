@@ -14,4 +14,4 @@ Use visual clues to identify animals, places, designs, crafts and unfamiliar obj
 | [Maker Matcher](maker-matcher/) | Identify the craft behind a handmade object from its tools, materials and techniques. |
 | [Self Fixer](gpt07g-self-fixer/) | Identify an unfamiliar part or connector from a photo and describe what it does. |
 
-[All capabilities](../) · [Browse source files](source/) · [Catalog entry](https://github.com/OKHP3/glee-fullytools-foundry/blob/main/inventory/inventory-of-toolbox-tools-and-tool-ettes.md#tool--branch-07--glee-fully-identity-known) · [Import receipt](product.json) · [Original revision (access required)](https://github.com/OKHP3/glee-fully-gpt07-identity-known/tree/25fb973903ce1dd6079daea1047558940e7e3702)
+[All capabilities](../) · [Browse source files](source/) · [Catalog entry](https://github.com/OKHP3/glee-fullytools-foundry/blob/main/inventory/inventory-of-toolbox-tools-and-tool-ettes.md#tool--branch-07--glee-fully-identity-known) · [Import receipt](product.json)

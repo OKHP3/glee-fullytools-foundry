@@ -2,7 +2,7 @@
 
 Identify an unfamiliar part or connector from a photo and describe what it does.
 
-[Identity Known](../) · [Browse source files](source/) · [Catalog entry](https://github.com/OKHP3/glee-fullytools-foundry/blob/main/inventory/inventory-of-toolbox-tools-and-tool-ettes.md#tool-ette--twig-07g--self-fixer) · [Import receipt](product.json) · [Original revision (access required)](https://github.com/OKHP3/glee-fully-gpt07g-self-fixer/tree/624b4a95d221e9f06b32fe4049bcf76a5f8a2f96)
+[Identity Known](../) · [Browse source files](source/) · [Catalog entry](https://github.com/OKHP3/glee-fullytools-foundry/blob/main/inventory/inventory-of-toolbox-tools-and-tool-ettes.md#tool-ette--twig-07g--self-fixer) · [Import receipt](product.json)
 
 ## Overview of the original project
 

@@ -14,4 +14,4 @@ Find the right Glee-fully tool for a task and explore the seven domains of the t
 | [Healthy Bee-ing](../healthy-bee-ing/) | Keep track of everyday wellness routines, from symptom notes and meals to medication refills. |
 | [Identity Known](../identity-known/) | Use visual clues to identify animals, places, designs, crafts and unfamiliar objects. |
 
-[All capabilities](../) · [Browse source files](source/) · [Catalog entry](https://github.com/OKHP3/glee-fullytools-foundry/blob/main/inventory/inventory-of-toolbox-tools-and-tool-ettes.md#toolbox--trunk-00--glee-fully-personalizable-tools) · [Import receipt](product.json) · [Original revision (access required)](https://github.com/OKHP3/glee-fully-gpt00-personalizable-tools/tree/1125dcab6a735f3d37b7d1df352d70b81f2e7b66)
+[All capabilities](../) · [Browse source files](source/) · [Catalog entry](https://github.com/OKHP3/glee-fullytools-foundry/blob/main/inventory/inventory-of-toolbox-tools-and-tool-ettes.md#toolbox--trunk-00--glee-fully-personalizable-tools) · [Import receipt](product.json)
