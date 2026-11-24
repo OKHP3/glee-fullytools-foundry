@@ -1455,5 +1455,12 @@
         "mode": "sanitized-snapshot"
       }
     }
-  ]
+  ],
+  "sourceRepositoryRetirement": {
+    "status": "deleted",
+    "repositoryCount": 50,
+    "date": "2026-11-24",
+    "verifiedFoundryMain": "64cf0c63c5d2eec64726dcabcff6efbabe17897c",
+    "verification": "Every registered source matched its FoundRy source tree before deletion. Every former repository returned HTTP 404 to the authenticated owner after deletion."
+  }
 }

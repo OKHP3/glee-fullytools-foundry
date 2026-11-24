@@ -22,6 +22,19 @@ recorded matching shared tools. Its evidence remains available through
 The five blank [Resume Builder templates](../capabilities/discovered-careers/resume-builder/templates/)
 are derived material alongside its source.
 
+## Retirement of the 50 GitHub repositories
+
+On November 24, 2026, the owner moved all 50 legacy repositories into this
+FoundRy. At the [cutover revision](https://github.com/OKHP3/glee-fullytools-foundry/commit/64cf0c63c5d2eec64726dcabcff6efbabe17897c),
+each of the 50 public `source/` trees had the same Git tree ID as its live
+upstream `main`. Together they contained 17,825 tracked paths. The original
+Git histories were restored and checked privately before deletion.
+
+GitHub confirmed all 50 deletions. The owner repository inventory and an
+authenticated lookup of every former repository verified their removal. Use
+the destination in the [register](migration-map.json) for ongoing work.
+The former repository URLs identify the sources for historical lookup.
+
 ## Layout for each product
 
 ```text
