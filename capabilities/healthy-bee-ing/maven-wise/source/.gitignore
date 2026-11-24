@@ -1,0 +1,8 @@
+# Local generated Python artifacts
+__pycache__/
+*.py[cod]
+
+# Local operating-system and editor residue
+.DS_Store
+.idea/
+.vscode/

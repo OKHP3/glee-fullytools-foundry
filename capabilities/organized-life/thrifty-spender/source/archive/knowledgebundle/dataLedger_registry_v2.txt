@@ -1,0 +1,11 @@
+# dataLedger_registry_v2.txt  
+# Canonical Version: v2.0.0  
+# Generated for Glee‑fully Personalizable Tools  
+
+::CanonSeal[Crucible.v2.0.locked]::
+
+# Purpose: GPT names, Tools, Tool-ettes, Functions, Function-ettes  
+# Format: YAML object per item with unique ID and purpose  
+
+# === [REGISTERED ENTITIES] ===
+registry: []

@@ -1,0 +1,15 @@
+# dataLedger_parameters_v2.txt  
+# Canonical Version: v2.0.0  
+# Generated for Glee‑fully Personalizable Tools  
+
+::CanonSeal[Crucible.v2.0.locked]::
+
+# Purpose: Boolean flags, system toggles, operational parameters  
+# Format: YAML key:value entries grouped by feature  
+
+# === [GPT CONTROL FLAGS] ===
+parameters:
+  autoload_index: false
+  use_symbolic_indexing: true
+  tone_recalibration: off
+  personality_coherence_enforced: true

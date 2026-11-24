@@ -1,0 +1,8 @@
+# Python-generated caches and bytecode
+__pycache__/
+*.py[cod]
+
+# Local test and tool artifacts
+.pytest_cache/
+.coverage
+

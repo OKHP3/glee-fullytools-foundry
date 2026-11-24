@@ -1,0 +1,6 @@
+# Python working artifacts
+__pycache__/
+*.py[cod]
+
+# Local private routing anchors
+routing-anchors.private.md

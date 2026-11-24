@@ -1,0 +1,8 @@
+# Local and generated artifacts
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# Evaluation workspaces and transient outputs
+**/workspace/
+**/outputs/

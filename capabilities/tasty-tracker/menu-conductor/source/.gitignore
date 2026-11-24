@@ -1,0 +1,4 @@
+# Python-generated test and utility artifacts
+__pycache__/
+*.py[cod]
+

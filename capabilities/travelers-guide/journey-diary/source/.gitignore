@@ -1,0 +1,13 @@
+# Python caches and compiled artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local tooling and operating-system artifacts
+.DS_Store
+.venv/
+venv/
+env/
+
+# Generated local evaluation output
+.agents/skills/*/workspace/

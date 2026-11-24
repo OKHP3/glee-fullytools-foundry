@@ -1,0 +1,5 @@
+# Local interpreter and operating-system noise
+__pycache__/
+*.py[cod]
+.DS_Store
+

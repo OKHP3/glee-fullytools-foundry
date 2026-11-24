@@ -1,0 +1,29 @@
+# dataLedger_parameters_v2.txt  
+# Canonical Version: v2.0.0  
+# Generated for Glee‑fully Personalizable Tools  
+
+::CanonSeal[Crucible.v2.0.locked]::
+
+# Purpose: Boolean flags, system toggles, operational parameters  
+# Format: YAML key:value entries grouped by feature  
+
+# === [GPT CONTROL FLAGS] ===
+parameters:
+  autoload_index: false
+  use_symbolic_indexing: true
+  tone_recalibration: off
+  personality_coherence_enforced: true
+
+!PARAMETERS_SET :: Scheduling Wizard :: Tool-ette #5d
+- BLEED_GLEE_MODE: active
+- tier_awareness: enabled
+- GPT_model: GPT-4o
+- max_tokens: 8000
+- export_formats: .txt, .md, clipboard (simulated DOCX gated)
+- voice_support: true
+- image_parsing: true
+- file_upload: true
+- fallback_routing: enabled
+- tone_overlay: GleeTone.A1
+- persona_module: JoyWarden.Core
+- PME_status: PME_READY

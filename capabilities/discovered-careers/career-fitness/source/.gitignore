@@ -1,0 +1,8 @@
+# Generated Python artifacts
+__pycache__/
+*.py[cod]
+
+# Common local test and tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
