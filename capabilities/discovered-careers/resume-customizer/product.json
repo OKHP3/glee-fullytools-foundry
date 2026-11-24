@@ -1,0 +1,54 @@
+{
+  "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt01b-resume-customizer",
+  "sourceBranch": "main",
+  "sourceCommit": "ec322ecab5e7175c1ba016f6b2b9dadd4917b235",
+  "sourceTree": "d507ae12cc4509560203c6f8b257c47222750fdf",
+  "sourceLicense": "MIT",
+  "importMode": "sanitized-snapshot",
+  "destinationTree": "ed90c7f1483593245f1b002eb25572be580ba076",
+  "pathCounts": {
+    "contact-or-career-example": 1,
+    "imported": 6,
+    "private-operations": 2,
+    "repository-maintenance": 3,
+    "shared-public-reference": 375
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "gitBlob": "dfe0770424b2a19faf507a501ebfc23be8f54e7b",
+      "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlob": "4884733294cdf4465f52941ed3d73e8618bf0498",
+      "sha256": "aa27174b5710a2bc4a2f70ab130ab7213708e9154e60132701be648a1ad357e8",
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlob": "f4873c2116435bd7bb58afdb5fddc835397e49dc",
+      "sha256": "7a26108bff9a3301f0ed8fd0697f07134c7ed863d36572885ee37229c88ba29d",
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlob": "ab1123e23fdb8a745ea11f256565829a9f448f68",
+      "sha256": "830badc34d17cb3050f91cb467daafd7888a6be8476853f22335167e1f0df97d",
+      "mode": "100644"
+    },
+    {
+      "path": "references/resume-keywords-by-industry.csv",
+      "gitBlob": "c3e44fe569f472f2cb4cf8fcd57be4ecebd9d667",
+      "sha256": "443557a71db9d93e95642e13b5e6b068a7b0112899c29f16aec25675cf259530",
+      "mode": "100644"
+    },
+    {
+      "path": "references/resume-tone-examples.md",
+      "gitBlob": "3592321df67639258dd6ee0a99bf25b320bca341",
+      "sha256": "743cae4859be74e40fe86a7319298802a02b3dfaac901b7eeca21d0391ee0435",
+      "mode": "100644"
+    }
+  ]
+}

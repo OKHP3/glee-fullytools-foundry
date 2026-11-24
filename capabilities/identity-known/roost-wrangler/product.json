@@ -1,0 +1,41 @@
+{
+  "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt07b-roost-wrangler",
+  "sourceBranch": "main",
+  "sourceCommit": "2d83d1fa4df48a7b6d49a46394c4e44d7a8fb4e2",
+  "sourceTree": "af364e76895937ca056ca9b39b65cc0959b38b0a",
+  "sourceLicense": "MIT",
+  "importMode": "sanitized-snapshot",
+  "destinationTree": "4e2dd81f21e9de4b72c6d8a6d2a45ddfb092130e",
+  "pathCounts": {
+    "imported": 4,
+    "private-operations": 1,
+    "repository-maintenance": 3,
+    "shared-public-reference": 375
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "gitBlob": "dfe0770424b2a19faf507a501ebfc23be8f54e7b",
+      "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlob": "a160f494b397adda8d5741d811f8444558aa261a",
+      "sha256": "599e8d09a18b6bac6f70ed12bf96f67e49c4d992ee2601bc173d92fbcb64b11d",
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlob": "f4873c2116435bd7bb58afdb5fddc835397e49dc",
+      "sha256": "7a26108bff9a3301f0ed8fd0697f07134c7ed863d36572885ee37229c88ba29d",
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlob": "3f011ba2340c317ed9a138ae5e66f46e9a5ca850",
+      "sha256": "c9a94b811392a4931d8aedc2fd786ea096299a9cbf7976646809b3ff08cb1f74",
+      "mode": "100644"
+    }
+  ]
+}

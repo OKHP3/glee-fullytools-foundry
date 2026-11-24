@@ -1,7 +1,1259 @@
 {
   "schemaVersion": 1,
   "region": "gleefully",
-  "inventoryStatus": "not-inventoried",
+  "inventoryStatus": "inventoried",
   "directionRecorded": "2026-09-27",
-  "products": []
+  "inventoryDate": "2026-11-24",
+  "products": [
+    {
+      "productId": "personalizable-tools",
+      "displayName": "Glee-fully Personalizable Tools",
+      "aliases": [
+        "GPT00",
+        "glee-fully-gpt00-personalizable-tools"
+      ],
+      "region": "gleefully",
+      "destination": "capabilities/personalizable-tools",
+      "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt00-personalizable-tools",
+      "sourceCommit": "1125dcab6a735f3d37b7d1df352d70b81f2e7b66",
+      "sourceTree": "098f35f0c10e5a04922ff903593758e5c4cb5e24",
+      "sourceLicense": "MIT",
+      "publicHistoryReview": "Upstream ancestry stays private. Only selected files at the pinned revision were reviewed for publication.",
+      "importMode": "sanitized-snapshot",
+      "importCommit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
+      "destinationTree": "d9562f8b12a0e9144c0f1c107fcb6fd07497d512",
+      "status": "imported",
+      "skills": [],
+      "adapters": [],
+      "evidence": [
+        "capabilities/personalizable-tools/product.json"
+      ],
+      "blockers": []
+    },
+    {
+      "productId": "discovered-careers",
+      "displayName": "Glee-fully Discovered Careers",
+      "aliases": [
+        "GPT01",
+        "glee-fully-gpt01-discovered-careers"
+      ],
+      "region": "gleefully",
+      "destination": "capabilities/discovered-careers",
+      "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt01-discovered-careers",
+      "sourceCommit": "fa2cc76c57bce40042edd0638a397ba5bbdab5a6",
+      "sourceTree": "081ef0a60ebab4c6b0dff14d473bb8931e9a5252",
+      "sourceLicense": "MIT",
+      "publicHistoryReview": "Upstream ancestry stays private. Only selected files at the pinned revision were reviewed for publication.",
+      "importMode": "sanitized-snapshot",
+      "importCommit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
+      "destinationTree": "6aa3861856907321656b86673f5fc9ff0c5511a5",
+      "status": "imported",
+      "skills": [],
+      "adapters": [],
+      "evidence": [
+        "capabilities/discovered-careers/product.json"
+      ],
+      "blockers": []
+    },
+    {
+      "productId": "resume-builder",
+      "displayName": "Resume Builder",
+      "aliases": [
+        "GPT01a",
+        "glee-fully-gpt01a-resume-builder"
+      ],
+      "region": "gleefully",
+      "destination": "capabilities/discovered-careers/resume-builder",
+      "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt01a-resume-builder",
+      "sourceCommit": "abb7723181aea9a06df2c9a56949edf699b3be52",
+      "sourceTree": "f310ad6723c1bb0d699002c31e715c6a94a1879f",
+      "sourceLicense": "MIT",
+      "publicHistoryReview": "Upstream ancestry stays private. Only selected files at the pinned revision were reviewed for publication.",
+      "importMode": "sanitized-snapshot",
+      "importCommit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
+      "destinationTree": "ab3ed0ae0283abe7c1a5a44cb3cc460a7661f650",
+      "status": "imported",
+      "skills": [],
+      "adapters": [],
+      "evidence": [
+        "capabilities/discovered-careers/resume-builder/product.json"
+      ],
+      "blockers": []
+    },
+    {
+      "productId": "resume-customizer",
+      "displayName": "Resume Customizer",
+      "aliases": [
+        "GPT01b",
+        "glee-fully-gpt01b-resume-customizer"
+      ],
+      "region": "gleefully",
+      "destination": "capabilities/discovered-careers/resume-customizer",
+      "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt01b-resume-customizer",
+      "sourceCommit": "ec322ecab5e7175c1ba016f6b2b9dadd4917b235",
+      "sourceTree": "d507ae12cc4509560203c6f8b257c47222750fdf",
+      "sourceLicense": "MIT",
+      "publicHistoryReview": "Upstream ancestry stays private. Only selected files at the pinned revision were reviewed for publication.",
+      "importMode": "sanitized-snapshot",
+      "importCommit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
+      "destinationTree": "ed90c7f1483593245f1b002eb25572be580ba076",
+      "status": "imported",
+      "skills": [],
+      "adapters": [],
+      "evidence": [
+        "capabilities/discovered-careers/resume-customizer/product.json"
+      ],
+      "blockers": []
+    },
+    {
+      "productId": "career-fitness",
+      "displayName": "Career Fitness",
+      "aliases": [
+        "GPT01c",
+        "glee-fully-gpt01c-career-fitness"
+      ],
+      "region": "gleefully",
+      "destination": "capabilities/discovered-careers/career-fitness",
+      "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt01c-career-fitness",
+      "sourceCommit": "10027b298ed61ed5e70109614dd71fbe179f5cd3",
+      "sourceTree": "4ac49507d86ced670e98ff0cefbc69bb8c2660ad",
+      "sourceLicense": "MIT",
+      "publicHistoryReview": "Upstream ancestry stays private. Only selected files at the pinned revision were reviewed for publication.",
+      "importMode": "sanitized-snapshot",
+      "importCommit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
+      "destinationTree": "5bd81fb054e1f2da654c847ca9a162879772a2b9",
+      "status": "imported",
+      "skills": [],
+      "adapters": [],
+      "evidence": [
+        "capabilities/discovered-careers/career-fitness/product.json"
+      ],
+      "blockers": []
+    },
+    {
+      "productId": "letter-composer",
+      "displayName": "Letter Composer",
+      "aliases": [
+        "GPT01d",
+        "glee-fully-gpt01d-letter-composer"
+      ],
+      "region": "gleefully",
+      "destination": "capabilities/discovered-careers/letter-composer",
+      "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt01d-letter-composer",
+      "sourceCommit": "1ef9809ed67a979de5380956b29bb651fec08924",
+      "sourceTree": "903bb189f87ddca1a95b44e84a5e1f41b2991c3d",
+      "sourceLicense": "MIT",
+      "publicHistoryReview": "Upstream ancestry stays private. Only selected files at the pinned revision were reviewed for publication.",
+      "importMode": "sanitized-snapshot",
+      "importCommit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
+      "destinationTree": "4aae0a3364f9822ec875439585f0b39e939555f5",
+      "status": "imported",
+      "skills": [],
+      "adapters": [],
+      "evidence": [
+        "capabilities/discovered-careers/letter-composer/product.json"
+      ],
+      "blockers": []
+    },
+    {
+      "productId": "blinkin-tuner",
+      "displayName": "bLinkIn Tuner",
+      "aliases": [
+        "GPT01e",
+        "glee-fully-gpt01e-blinkin-tuner"
+      ],
+      "region": "gleefully",
+      "destination": "capabilities/discovered-careers/blinkin-tuner",
+      "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt01e-blinkin-tuner",
+      "sourceCommit": "621169e68441ed2ec2938ebafdcf5c4278615a2a",
+      "sourceTree": "9fecdcd10bf194e458d703a6c3ce82735e1af013",
+      "sourceLicense": "MIT",
+      "publicHistoryReview": "Upstream ancestry stays private. Only selected files at the pinned revision were reviewed for publication.",
+      "importMode": "sanitized-snapshot",
+      "importCommit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
+      "destinationTree": "66b9cec3cb25392d04619213d8957c4d7a131f70",
+      "status": "imported",
+      "skills": [],
+      "adapters": [],
+      "evidence": [
+        "capabilities/discovered-careers/blinkin-tuner/product.json"
+      ],
+      "blockers": []
+    },
+    {
+      "productId": "career-seeker",
+      "displayName": "Career Seeker",
+      "aliases": [
+        "GPT01f",
+        "glee-fully-gpt01f-career-seeker"
+      ],
+      "region": "gleefully",
+      "destination": "capabilities/discovered-careers/career-seeker",
+      "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt01f-career-seeker",
+      "sourceCommit": "9ab470ea0ca6d4a25808fdbd4a76e13832cfe3ec",
+      "sourceTree": "877a47192582e21cd937edd41282dd271538b9dc",
+      "sourceLicense": "MIT",
+      "publicHistoryReview": "Upstream ancestry stays private. Only selected files at the pinned revision were reviewed for publication.",
+      "importMode": "sanitized-snapshot",
+      "importCommit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
+      "destinationTree": "8bb04d802afa2ce07887bb4a494c1db350e9c87b",
+      "status": "imported",
+      "skills": [],
+      "adapters": [],
+      "evidence": [
+        "capabilities/discovered-careers/career-seeker/product.json"
+      ],
+      "blockers": []
+    },
+    {
+      "productId": "treasured-finds",
+      "displayName": "Glee-fully Treasured Finds",
+      "aliases": [
+        "GPT02",
+        "glee-fully-gpt02-treasured-finds"
+      ],
+      "region": "gleefully",
+      "destination": "capabilities/treasured-finds",
+      "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt02-treasured-finds",
+      "sourceCommit": "f851f081d818736ef8682225c48bb7a78e610a28",
+      "sourceTree": "3721adbc77b4b6c2b91b8796389e5d509c6bfa69",
+      "sourceLicense": "MIT",
+      "publicHistoryReview": "Upstream ancestry stays private. Only selected files at the pinned revision were reviewed for publication.",
+      "importMode": "sanitized-snapshot",
+      "importCommit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
+      "destinationTree": "245c5b07049dab7f88f46156207dcb76c9c88df0",
+      "status": "imported",
+      "skills": [],
+      "adapters": [],
+      "evidence": [
+        "capabilities/treasured-finds/product.json"
+      ],
+      "blockers": []
+    },
+    {
+      "productId": "personal-librarian",
+      "displayName": "Personal Librarian",
+      "aliases": [
+        "GPT02a",
+        "glee-fully-gpt02a-personal-librarian"
+      ],
+      "region": "gleefully",
+      "destination": "capabilities/treasured-finds/personal-librarian",
+      "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt02a-personal-librarian",
+      "sourceCommit": "88dd8d533900ef9a9057a97a19b06e9205346ce8",
+      "sourceTree": "abf3dd96d4bd85d199db5bca9ab7795f77fcaab2",
+      "sourceLicense": "MIT",
+      "publicHistoryReview": "Upstream ancestry stays private. Only selected files at the pinned revision were reviewed for publication.",
+      "importMode": "sanitized-snapshot",
+      "importCommit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
+      "destinationTree": "d375552266027f7f74cf1569dba505f373d05f8b",
+      "status": "imported",
+      "skills": [],
+      "adapters": [],
+      "evidence": [
+        "capabilities/treasured-finds/personal-librarian/product.json"
+      ],
+      "blockers": []
+    },
+    {
+      "productId": "decor-detective",
+      "displayName": "Decor Detective",
+      "aliases": [
+        "GPT02b",
+        "glee-fully-gpt02b-decor-detective"
+      ],
+      "region": "gleefully",
+      "destination": "capabilities/treasured-finds/decor-detective",
+      "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt02b-decor-detective",
+      "sourceCommit": "1e81e324d89f13674f12799cca53508ca0131a78",
+      "sourceTree": "2779d53a3189ed8806ddb275d8021f83c5273764",
+      "sourceLicense": "MIT",
+      "publicHistoryReview": "Upstream ancestry stays private. Only selected files at the pinned revision were reviewed for publication.",
+      "importMode": "sanitized-snapshot",
+      "importCommit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
+      "destinationTree": "bb9642683c933074b0cd3b71743a91054038b502",
+      "status": "imported",
+      "skills": [],
+      "adapters": [],
+      "evidence": [
+        "capabilities/treasured-finds/decor-detective/product.json"
+      ],
+      "blockers": []
+    },
+    {
+      "productId": "present-hoarder",
+      "displayName": "Present Hoarder",
+      "aliases": [
+        "GPT02c",
+        "glee-fully-gpt02c-present-hoarder"
+      ],
+      "region": "gleefully",
+      "destination": "capabilities/treasured-finds/present-hoarder",
+      "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt02c-present-hoarder",
+      "sourceCommit": "e1cd1e968d49e8ce6e559011f28369a740b68adb",
+      "sourceTree": "42279d14e189d350bed83a04d4ea8f9976fba5a8",
+      "sourceLicense": "MIT",
+      "publicHistoryReview": "Upstream ancestry stays private. Only selected files at the pinned revision were reviewed for publication.",
+      "importMode": "sanitized-snapshot",
+      "importCommit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
+      "destinationTree": "5082513802fd51ab7d45c952070dca0ecb276df4",
+      "status": "imported",
+      "skills": [],
+      "adapters": [],
+      "evidence": [
+        "capabilities/treasured-finds/present-hoarder/product.json"
+      ],
+      "blockers": []
+    },
+    {
+      "productId": "scentinal-journal",
+      "displayName": "Scentinal Journal",
+      "aliases": [
+        "GPT02d",
+        "glee-fully-gpt02d-scentinal-journal"
+      ],
+      "region": "gleefully",
+      "destination": "capabilities/treasured-finds/scentinal-journal",
+      "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt02d-scentinal-journal",
+      "sourceCommit": "2cb1c0bc3ec006b9e1fab214e88083e2e65b6057",
+      "sourceTree": "c5630a83806469df3151c7f9219bc7519b2683a7",
+      "sourceLicense": "MIT",
+      "publicHistoryReview": "Upstream ancestry stays private. Only selected files at the pinned revision were reviewed for publication.",
+      "importMode": "sanitized-snapshot",
+      "importCommit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
+      "destinationTree": "b2d060a2187701399d4e53fbd775e97bbffb8574",
+      "status": "imported",
+      "skills": [],
+      "adapters": [],
+      "evidence": [
+        "capabilities/treasured-finds/scentinal-journal/product.json"
+      ],
+      "blockers": []
+    },
+    {
+      "productId": "spirited-journal",
+      "displayName": "Spirited Journal",
+      "aliases": [
+        "GPT02e",
+        "glee-fully-gpt02e-spirited-journal"
+      ],
+      "region": "gleefully",
+      "destination": "capabilities/treasured-finds/spirited-journal",
+      "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt02e-spirited-journal",
+      "sourceCommit": "74324325daafc09541935a4a3817a871f76d2e09",
+      "sourceTree": "ec321264f07bfd7f79f2b2699ab0eff7a611d2db",
+      "sourceLicense": "MIT",
+      "publicHistoryReview": "Upstream ancestry stays private. Only selected files at the pinned revision were reviewed for publication.",
+      "importMode": "sanitized-snapshot",
+      "importCommit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
+      "destinationTree": "02dbd2089b121d7f13f53cf2920f9e93dc170d6f",
+      "status": "imported",
+      "skills": [],
+      "adapters": [],
+      "evidence": [
+        "capabilities/treasured-finds/spirited-journal/product.json"
+      ],
+      "blockers": []
+    },
+    {
+      "productId": "supply-haus",
+      "displayName": "Supply Haus",
+      "aliases": [
+        "GPT02f",
+        "glee-fully-gpt02f-supply-haus"
+      ],
+      "region": "gleefully",
+      "destination": "capabilities/treasured-finds/supply-haus",
+      "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt02f-supply-haus",
+      "sourceCommit": "8e38f44f54cfde24a3a920ca836fd99e286b6674",
+      "sourceTree": "e33c880e10d2d0eacfe8c52fc64ddc5a6f25f4d4",
+      "sourceLicense": "MIT",
+      "publicHistoryReview": "Upstream ancestry stays private. Only selected files at the pinned revision were reviewed for publication.",
+      "importMode": "sanitized-snapshot",
+      "importCommit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
+      "destinationTree": "11f38ff2426c7d60a4c883c8500a6d114e0aa2d0",
+      "status": "imported",
+      "skills": [],
+      "adapters": [],
+      "evidence": [
+        "capabilities/treasured-finds/supply-haus/product.json"
+      ],
+      "blockers": []
+    },
+    {
+      "productId": "bag-nabbit",
+      "displayName": "Bag Nabbit",
+      "aliases": [
+        "GPT02g",
+        "glee-fully-gpt02g-bag-nabbit"
+      ],
+      "region": "gleefully",
+      "destination": "capabilities/treasured-finds/bag-nabbit",
+      "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt02g-bag-nabbit",
+      "sourceCommit": "53ba7b397ee226b3bb712802f811ec31bf6d2bd2",
+      "sourceTree": "165ad03b356b3fbdd2703ef04e27985057aa3dd2",
+      "sourceLicense": "MIT",
+      "publicHistoryReview": "Upstream ancestry stays private. Only selected files at the pinned revision were reviewed for publication.",
+      "importMode": "sanitized-snapshot",
+      "importCommit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
+      "destinationTree": "19b5cb9b0ba7457dfcf9c669ac8dcde6520a68f7",
+      "status": "imported",
+      "skills": [],
+      "adapters": [],
+      "evidence": [
+        "capabilities/treasured-finds/bag-nabbit/product.json"
+      ],
+      "blockers": []
+    },
+    {
+      "productId": "tasty-tracker",
+      "displayName": "Glee-fully Tasty Tracker",
+      "aliases": [
+        "GPT03",
+        "glee-fully-gpt03-tasty-tracker"
+      ],
+      "region": "gleefully",
+      "destination": "capabilities/tasty-tracker",
+      "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt03-tasty-tracker",
+      "sourceCommit": "7b92c7cab4e6d5fabc4f96a826a817e440bb567e",
+      "sourceTree": "80a645ff579b82d00ee7d7c5dcdc8d835cf79c40",
+      "sourceLicense": "MIT",
+      "publicHistoryReview": "Upstream ancestry stays private. Only selected files at the pinned revision were reviewed for publication.",
+      "importMode": "sanitized-snapshot",
+      "importCommit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
+      "destinationTree": "0078d2a1225f25768411ab99d0ebeb34ec2da4a0",
+      "status": "imported",
+      "skills": [],
+      "adapters": [],
+      "evidence": [
+        "capabilities/tasty-tracker/product.json"
+      ],
+      "blockers": []
+    },
+    {
+      "productId": "flavor-meister",
+      "displayName": "Flavor Meister",
+      "aliases": [
+        "GPT03a",
+        "glee-fully-gpt03a-flavor-meister"
+      ],
+      "region": "gleefully",
+      "destination": "capabilities/tasty-tracker/flavor-meister",
+      "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt03a-flavor-meister",
+      "sourceCommit": "65991f8011ca2c1097e0aeb197502bf63a9b144b",
+      "sourceTree": "3a0c09d551b3641a337f55ea2813f8193adcefdf",
+      "sourceLicense": "MIT",
+      "publicHistoryReview": "Upstream ancestry stays private. Only selected files at the pinned revision were reviewed for publication.",
+      "importMode": "sanitized-snapshot",
+      "importCommit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
+      "destinationTree": "a8b0bbe2ffd857fb3f129e1e268553bafecdeb60",
+      "status": "imported",
+      "skills": [],
+      "adapters": [],
+      "evidence": [
+        "capabilities/tasty-tracker/flavor-meister/product.json"
+      ],
+      "blockers": []
+    },
+    {
+      "productId": "menu-conductor",
+      "displayName": "Menu Conductor",
+      "aliases": [
+        "GPT03b",
+        "glee-fully-gpt03b-menu-conductor"
+      ],
+      "region": "gleefully",
+      "destination": "capabilities/tasty-tracker/menu-conductor",
+      "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt03b-menu-conductor",
+      "sourceCommit": "18df9f3ba50f2c23def72a3c2176831b9bf0277e",
+      "sourceTree": "70c1cc6d715ba035b8daddbaba9b024dcca47555",
+      "sourceLicense": "MIT",
+      "publicHistoryReview": "Upstream ancestry stays private. Only selected files at the pinned revision were reviewed for publication.",
+      "importMode": "sanitized-snapshot",
+      "importCommit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
+      "destinationTree": "3b1519109b228329598bb3b1f72707a8c7f9b503",
+      "status": "imported",
+      "skills": [],
+      "adapters": [],
+      "evidence": [
+        "capabilities/tasty-tracker/menu-conductor/product.json"
+      ],
+      "blockers": []
+    },
+    {
+      "productId": "wishful-tastes",
+      "displayName": "Wishful Tastes",
+      "aliases": [
+        "GPT03c",
+        "glee-fully-gpt03c-wishful-tastes"
+      ],
+      "region": "gleefully",
+      "destination": "capabilities/tasty-tracker/wishful-tastes",
+      "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt03c-wishful-tastes",
+      "sourceCommit": "ab63258a600791ddb7ed7d22e78b593d5ccedef7",
+      "sourceTree": "b24d8aa9f8bc0bb56b9ef029f21e160b038913fc",
+      "sourceLicense": "MIT",
+      "publicHistoryReview": "Upstream ancestry stays private. Only selected files at the pinned revision were reviewed for publication.",
+      "importMode": "sanitized-snapshot",
+      "importCommit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
+      "destinationTree": "dfc752109002c99ddee8b50f82950783206a7361",
+      "status": "imported",
+      "skills": [],
+      "adapters": [],
+      "evidence": [
+        "capabilities/tasty-tracker/wishful-tastes/product.json"
+      ],
+      "blockers": []
+    },
+    {
+      "productId": "pantry-shopper",
+      "displayName": "Pantry Shopper",
+      "aliases": [
+        "GPT03d",
+        "glee-fully-gpt03d-pantry-shopper"
+      ],
+      "region": "gleefully",
+      "destination": "capabilities/tasty-tracker/pantry-shopper",
+      "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt03d-pantry-shopper",
+      "sourceCommit": "b102edcf10b6a18760e428532833df92492cdb00",
+      "sourceTree": "b4169f5b372bbdeb5d9143c0b29363e93e43aa9f",
+      "sourceLicense": "MIT",
+      "publicHistoryReview": "Upstream ancestry stays private. Only selected files at the pinned revision were reviewed for publication.",
+      "importMode": "sanitized-snapshot",
+      "importCommit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
+      "destinationTree": "c510caf16ce1a4a75253bfd0a3c4ce4897e0f4e2",
+      "status": "imported",
+      "skills": [],
+      "adapters": [],
+      "evidence": [
+        "capabilities/tasty-tracker/pantry-shopper/product.json"
+      ],
+      "blockers": []
+    },
+    {
+      "productId": "palatably-profiled",
+      "displayName": "Palatably Profiled",
+      "aliases": [
+        "GPT03e",
+        "glee-fully-gpt03e-palatably-profiled"
+      ],
+      "region": "gleefully",
+      "destination": "capabilities/tasty-tracker/palatably-profiled",
+      "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt03e-palatably-profiled",
+      "sourceCommit": "8332800c015bcc1d050131cdf3690dbc0aa4834a",
+      "sourceTree": "a36fe811247ed8af78786521e66f041929297815",
+      "sourceLicense": "MIT",
+      "publicHistoryReview": "Upstream ancestry stays private. Only selected files at the pinned revision were reviewed for publication.",
+      "importMode": "sanitized-snapshot",
+      "importCommit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
+      "destinationTree": "7df4840952c6e2d6b67de77513036c7df060187c",
+      "status": "imported",
+      "skills": [],
+      "adapters": [],
+      "evidence": [
+        "capabilities/tasty-tracker/palatably-profiled/product.json"
+      ],
+      "blockers": []
+    },
+    {
+      "productId": "travelers-guide",
+      "displayName": "Glee-fully Traveler’s Guide",
+      "aliases": [
+        "GPT04",
+        "glee-fully-gpt04-travelers-guide"
+      ],
+      "region": "gleefully",
+      "destination": "capabilities/travelers-guide",
+      "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt04-travelers-guide",
+      "sourceCommit": "28f7342723f55b10d194c63c4ce18260ad086d1e",
+      "sourceTree": "9bc331f8c0a50798d4e136c6de92e98784e86b23",
+      "sourceLicense": "MIT",
+      "publicHistoryReview": "Upstream ancestry stays private. Only selected files at the pinned revision were reviewed for publication.",
+      "importMode": "sanitized-snapshot",
+      "importCommit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
+      "destinationTree": "9a5fe174a41e9789c8b0648c7d186959fad0e9d7",
+      "status": "imported",
+      "skills": [],
+      "adapters": [],
+      "evidence": [
+        "capabilities/travelers-guide/product.json"
+      ],
+      "blockers": []
+    },
+    {
+      "productId": "journey-diary",
+      "displayName": "Journey Diary",
+      "aliases": [
+        "GPT04a",
+        "glee-fully-gpt04a-journey-diary"
+      ],
+      "region": "gleefully",
+      "destination": "capabilities/travelers-guide/journey-diary",
+      "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt04a-journey-diary",
+      "sourceCommit": "874112d2e08164492fa5cc43ce49cc40dd091bad",
+      "sourceTree": "0c0f6554fe7ef4b6f64403bc9f60da3c2b77d5bb",
+      "sourceLicense": "MIT",
+      "publicHistoryReview": "Upstream ancestry stays private. Only selected files at the pinned revision were reviewed for publication.",
+      "importMode": "sanitized-snapshot",
+      "importCommit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
+      "destinationTree": "c82688c2dc7e9bea5977b34aa2fcda2dea6e0cbe",
+      "status": "imported",
+      "skills": [],
+      "adapters": [],
+      "evidence": [
+        "capabilities/travelers-guide/journey-diary/product.json"
+      ],
+      "blockers": []
+    },
+    {
+      "productId": "itinerary-hacker",
+      "displayName": "Itinerary Hacker",
+      "aliases": [
+        "GPT04b",
+        "glee-fully-gpt04b-itinerary-hacker"
+      ],
+      "region": "gleefully",
+      "destination": "capabilities/travelers-guide/itinerary-hacker",
+      "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt04b-itinerary-hacker",
+      "sourceCommit": "4d2805ba45d0091a4660329dc6397e3429023d6a",
+      "sourceTree": "91ab14e63c62a611f9a86db85507ca10e66e3595",
+      "sourceLicense": "MIT",
+      "publicHistoryReview": "Upstream ancestry stays private. Only selected files at the pinned revision were reviewed for publication.",
+      "importMode": "sanitized-snapshot",
+      "importCommit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
+      "destinationTree": "a23962518cfb0ca926cb11ea0345c08700cdce42",
+      "status": "imported",
+      "skills": [],
+      "adapters": [],
+      "evidence": [
+        "capabilities/travelers-guide/itinerary-hacker/product.json"
+      ],
+      "blockers": []
+    },
+    {
+      "productId": "detour-discoverer",
+      "displayName": "Detour Discoverer",
+      "aliases": [
+        "GPT04c",
+        "glee-fully-gpt04c-detour-discoverer"
+      ],
+      "region": "gleefully",
+      "destination": "capabilities/travelers-guide/detour-discoverer",
+      "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt04c-detour-discoverer",
+      "sourceCommit": "affa38e9ee49d04aaedb03b3ee3752eb5e572480",
+      "sourceTree": "0e710ea42c9c9bf3133a6afe07b2083b988fdc6f",
+      "sourceLicense": "MIT",
+      "publicHistoryReview": "Upstream ancestry stays private. Only selected files at the pinned revision were reviewed for publication.",
+      "importMode": "sanitized-snapshot",
+      "importCommit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
+      "destinationTree": "52c1e61c79194ba4196531d1d056eb742bf830b2",
+      "status": "imported",
+      "skills": [],
+      "adapters": [],
+      "evidence": [
+        "capabilities/travelers-guide/detour-discoverer/product.json"
+      ],
+      "blockers": []
+    },
+    {
+      "productId": "dreamland-journeys",
+      "displayName": "Dreamland Journeys",
+      "aliases": [
+        "GPT04d",
+        "glee-fully-gpt04d-dreamland-journeys"
+      ],
+      "region": "gleefully",
+      "destination": "capabilities/travelers-guide/dreamland-journeys",
+      "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt04d-dreamland-journeys",
+      "sourceCommit": "d0b82c09e7b9e7878feca39ea89d14e9c6dd1d1e",
+      "sourceTree": "b3a3e076c98dd7dc13f036c49ec16e37519ec1c4",
+      "sourceLicense": "MIT",
+      "publicHistoryReview": "Upstream ancestry stays private. Only selected files at the pinned revision were reviewed for publication.",
+      "importMode": "sanitized-snapshot",
+      "importCommit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
+      "destinationTree": "8cd063738d1b3dad71b24f3eae602acb8a80dd95",
+      "status": "imported",
+      "skills": [],
+      "adapters": [],
+      "evidence": [
+        "capabilities/travelers-guide/dreamland-journeys/product.json"
+      ],
+      "blockers": []
+    },
+    {
+      "productId": "memento-log",
+      "displayName": "Memento Log",
+      "aliases": [
+        "GPT04e",
+        "glee-fully-gpt04e-memento-log"
+      ],
+      "region": "gleefully",
+      "destination": "capabilities/travelers-guide/memento-log",
+      "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt04e-memento-log",
+      "sourceCommit": "07b01c223de98858a2fba1cfb6588ff8922666ca",
+      "sourceTree": "dc0eaf35a4c71d095d9922db89e7f0a429ad842d",
+      "sourceLicense": "MIT",
+      "publicHistoryReview": "Upstream ancestry stays private. Only selected files at the pinned revision were reviewed for publication.",
+      "importMode": "sanitized-snapshot",
+      "importCommit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
+      "destinationTree": "b6fc328601fe3817ac426eeae9994eda0d2d4b7e",
+      "status": "imported",
+      "skills": [],
+      "adapters": [],
+      "evidence": [
+        "capabilities/travelers-guide/memento-log/product.json"
+      ],
+      "blockers": []
+    },
+    {
+      "productId": "organized-life",
+      "displayName": "Glee-fully Organized Life",
+      "aliases": [
+        "GPT05",
+        "glee-fully-gpt05-organized-life"
+      ],
+      "region": "gleefully",
+      "destination": "capabilities/organized-life",
+      "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt05-organized-life",
+      "sourceCommit": "bf7077fbaa45ee795643757f1cb558fc5c78ccd0",
+      "sourceTree": "cf5d36e86843f0fc196e8cf52134c628a71ba197",
+      "sourceLicense": "MIT",
+      "publicHistoryReview": "Upstream ancestry stays private. Only selected files at the pinned revision were reviewed for publication.",
+      "importMode": "sanitized-snapshot",
+      "importCommit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
+      "destinationTree": "d2787dda8cb98a65698edba5da8a496cb5b6c312",
+      "status": "imported",
+      "skills": [],
+      "adapters": [],
+      "evidence": [
+        "capabilities/organized-life/product.json"
+      ],
+      "blockers": []
+    },
+    {
+      "productId": "task-maestro",
+      "displayName": "Task Maestro",
+      "aliases": [
+        "GPT05a",
+        "glee-fully-gpt05a-task-maestro"
+      ],
+      "region": "gleefully",
+      "destination": "capabilities/organized-life/task-maestro",
+      "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt05a-task-maestro",
+      "sourceCommit": "88eb7a93d384d11fe0d8e2cb707343c6aee345ca",
+      "sourceTree": "765bf831f14752056b9540a978ba490f385ebeed",
+      "sourceLicense": "MIT",
+      "publicHistoryReview": "Upstream ancestry stays private. Only selected files at the pinned revision were reviewed for publication.",
+      "importMode": "sanitized-snapshot",
+      "importCommit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
+      "destinationTree": "05857bfbcb67e15b07b76175584fc011058e1dea",
+      "status": "imported",
+      "skills": [],
+      "adapters": [],
+      "evidence": [
+        "capabilities/organized-life/task-maestro/product.json"
+      ],
+      "blockers": []
+    },
+    {
+      "productId": "thrifty-spender",
+      "displayName": "Thrifty Spender",
+      "aliases": [
+        "GPT05b",
+        "glee-fully-gpt05b-thrifty-spender"
+      ],
+      "region": "gleefully",
+      "destination": "capabilities/organized-life/thrifty-spender",
+      "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt05b-thrifty-spender",
+      "sourceCommit": "dae6a1bf7cc2e3c81fd4ecfc3c1b65fdf2386221",
+      "sourceTree": "da6981ff359b28a359e9197584d9a56a8d843b94",
+      "sourceLicense": "MIT",
+      "publicHistoryReview": "Upstream ancestry stays private. Only selected files at the pinned revision were reviewed for publication.",
+      "importMode": "sanitized-snapshot",
+      "importCommit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
+      "destinationTree": "8bbafd31b1e166e2458753b230169fa9396c4a81",
+      "status": "imported",
+      "skills": [],
+      "adapters": [],
+      "evidence": [
+        "capabilities/organized-life/thrifty-spender/product.json"
+      ],
+      "blockers": []
+    },
+    {
+      "productId": "giftlist-helper",
+      "displayName": "Giftlist Helper",
+      "aliases": [
+        "GPT05c",
+        "glee-fully-gpt05c-giftlist-helper"
+      ],
+      "region": "gleefully",
+      "destination": "capabilities/organized-life/giftlist-helper",
+      "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt05c-giftlist-helper",
+      "sourceCommit": "30f2415862d8fc5a106cc10e0afea35429501d27",
+      "sourceTree": "0424015c765105eef1db69458d994a585681102d",
+      "sourceLicense": "MIT",
+      "publicHistoryReview": "Upstream ancestry stays private. Only selected files at the pinned revision were reviewed for publication.",
+      "importMode": "sanitized-snapshot",
+      "importCommit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
+      "destinationTree": "4747f2c37076d056f3e9bff7644f5dbe638961b2",
+      "status": "imported",
+      "skills": [],
+      "adapters": [],
+      "evidence": [
+        "capabilities/organized-life/giftlist-helper/product.json"
+      ],
+      "blockers": []
+    },
+    {
+      "productId": "scheduling-wizard",
+      "displayName": "Scheduling Wizard",
+      "aliases": [
+        "GPT05d",
+        "glee-fully-gpt05d-scheduling-wizard"
+      ],
+      "region": "gleefully",
+      "destination": "capabilities/organized-life/scheduling-wizard",
+      "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt05d-scheduling-wizard",
+      "sourceCommit": "6234e34d2bf5f2e2b798ea9a88de783525791b2b",
+      "sourceTree": "efaee5fcb45a0a485e5c307e263d46c1b320ccc1",
+      "sourceLicense": "MIT",
+      "publicHistoryReview": "Upstream ancestry stays private. Only selected files at the pinned revision were reviewed for publication.",
+      "importMode": "sanitized-snapshot",
+      "importCommit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
+      "destinationTree": "b857263315c80906d5bfd2ec59640487879f57da",
+      "status": "imported",
+      "skills": [],
+      "adapters": [],
+      "evidence": [
+        "capabilities/organized-life/scheduling-wizard/product.json"
+      ],
+      "blockers": []
+    },
+    {
+      "productId": "lifestyle-wallboard",
+      "displayName": "Lifestyle Wallboard",
+      "aliases": [
+        "GPT05e",
+        "glee-fully-gpt05e-lifestyle-wallboard"
+      ],
+      "region": "gleefully",
+      "destination": "capabilities/organized-life/lifestyle-wallboard",
+      "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt05e-lifestyle-wallboard",
+      "sourceCommit": "e0f67d61f1f3e624c58b881e52b0265176c6cc1b",
+      "sourceTree": "67805b96cc41d85642cf8147213abe6a6c8db1d2",
+      "sourceLicense": "MIT",
+      "publicHistoryReview": "Upstream ancestry stays private. Only selected files at the pinned revision were reviewed for publication.",
+      "importMode": "sanitized-snapshot",
+      "importCommit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
+      "destinationTree": "54147c1927993447cd52be2723dc9f0f0f42a686",
+      "status": "imported",
+      "skills": [],
+      "adapters": [],
+      "evidence": [
+        "capabilities/organized-life/lifestyle-wallboard/product.json"
+      ],
+      "blockers": []
+    },
+    {
+      "productId": "neighborly-bazaar",
+      "displayName": "Neighborly Bazaar",
+      "aliases": [
+        "GPT05f",
+        "glee-fully-gpt05f-neighborly-bazaar"
+      ],
+      "region": "gleefully",
+      "destination": "capabilities/organized-life/neighborly-bazaar",
+      "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt05f-neighborly-bazaar",
+      "sourceCommit": "d046f8d86bae819682ea5e6ac6e59ddc22a05640",
+      "sourceTree": "8e026697b99309c4a615f4c22415088c999ab0e1",
+      "sourceLicense": "MIT",
+      "publicHistoryReview": "Upstream ancestry stays private. Only selected files at the pinned revision were reviewed for publication.",
+      "importMode": "sanitized-snapshot",
+      "importCommit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
+      "destinationTree": "705370c3ee8438047bc2b4649ba1ec2d8c89ffea",
+      "status": "imported",
+      "skills": [],
+      "adapters": [],
+      "evidence": [
+        "capabilities/organized-life/neighborly-bazaar/product.json"
+      ],
+      "blockers": []
+    },
+    {
+      "productId": "healthy-bee-ing",
+      "displayName": "Glee-fully Healthy Bee-ing",
+      "aliases": [
+        "GPT06",
+        "glee-fully-gpt06-healthy-bee-ing"
+      ],
+      "region": "gleefully",
+      "destination": "capabilities/healthy-bee-ing",
+      "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt06-healthy-bee-ing",
+      "sourceCommit": "5ab2c3378bc15e6a0bafa931ad5fb1e06dbf8685",
+      "sourceTree": "ec5ba0e6ac71ed71b0b64c8330e61b6fbf18fb2a",
+      "sourceLicense": "MIT",
+      "publicHistoryReview": "Upstream ancestry stays private. Only selected files at the pinned revision were reviewed for publication.",
+      "importMode": "sanitized-snapshot",
+      "importCommit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
+      "destinationTree": "c4ddcc176f54e7a5fd2b1d5b9e1d923e0f2d188a",
+      "status": "imported",
+      "skills": [],
+      "adapters": [],
+      "evidence": [
+        "capabilities/healthy-bee-ing/product.json"
+      ],
+      "blockers": []
+    },
+    {
+      "productId": "care-check",
+      "displayName": "Care Check",
+      "aliases": [
+        "GPT06a",
+        "glee-fully-gpt06a-care-check"
+      ],
+      "region": "gleefully",
+      "destination": "capabilities/healthy-bee-ing/care-check",
+      "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt06a-care-check",
+      "sourceCommit": "41e2126d690339b452ef1a2cb575dda2f7c4a0f9",
+      "sourceTree": "c99d37fb255487e2111ac6172940f5dfbfd98db6",
+      "sourceLicense": "MIT",
+      "publicHistoryReview": "Upstream ancestry stays private. Only selected files at the pinned revision were reviewed for publication.",
+      "importMode": "sanitized-snapshot",
+      "importCommit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
+      "destinationTree": "f6781c2cc1114dd59c3360c59ec6b78e8bf75b6c",
+      "status": "imported",
+      "skills": [],
+      "adapters": [],
+      "evidence": [
+        "capabilities/healthy-bee-ing/care-check/product.json"
+      ],
+      "blockers": []
+    },
+    {
+      "productId": "calm-keep",
+      "displayName": "Calm Keep",
+      "aliases": [
+        "GPT06b",
+        "glee-fully-gpt06b-calm-keep"
+      ],
+      "region": "gleefully",
+      "destination": "capabilities/healthy-bee-ing/calm-keep",
+      "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt06b-calm-keep",
+      "sourceCommit": "93de023937275f8168af2486ea9580cb0100f489",
+      "sourceTree": "f7edc05ed64538b46145ce2921d711864281f45e",
+      "sourceLicense": "MIT",
+      "publicHistoryReview": "Upstream ancestry stays private. Only selected files at the pinned revision were reviewed for publication.",
+      "importMode": "sanitized-snapshot",
+      "importCommit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
+      "destinationTree": "5a1213f0079131a5c018e3391877d19262521b5e",
+      "status": "imported",
+      "skills": [],
+      "adapters": [],
+      "evidence": [
+        "capabilities/healthy-bee-ing/calm-keep/product.json"
+      ],
+      "blockers": []
+    },
+    {
+      "productId": "snappy-count",
+      "displayName": "Snappy Count",
+      "aliases": [
+        "GPT06c",
+        "glee-fully-gpt06c-snappy-count"
+      ],
+      "region": "gleefully",
+      "destination": "capabilities/healthy-bee-ing/snappy-count",
+      "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt06c-snappy-count",
+      "sourceCommit": "78f845c350e9cda57afac0b271eed7c88f27e33b",
+      "sourceTree": "36dfbface4ffa3e1854a017add4a161bf7a7a0da",
+      "sourceLicense": "MIT",
+      "publicHistoryReview": "Upstream ancestry stays private. Only selected files at the pinned revision were reviewed for publication.",
+      "importMode": "sanitized-snapshot",
+      "importCommit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
+      "destinationTree": "7874c0c50233eaa7e434474e548ecf0475becc99",
+      "status": "imported",
+      "skills": [],
+      "adapters": [],
+      "evidence": [
+        "capabilities/healthy-bee-ing/snappy-count/product.json"
+      ],
+      "blockers": []
+    },
+    {
+      "productId": "medi-minder",
+      "displayName": "Medi Minder",
+      "aliases": [
+        "GPT06d",
+        "glee-fully-gpt06d-medi-minder"
+      ],
+      "region": "gleefully",
+      "destination": "capabilities/healthy-bee-ing/medi-minder",
+      "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt06d-medi-minder",
+      "sourceCommit": "4af7ed232fb9b9e9d627f70ee83be4a35c13f98b",
+      "sourceTree": "a516a0e2ae423dab7fd185523729a432defe5d50",
+      "sourceLicense": "MIT",
+      "publicHistoryReview": "Upstream ancestry stays private. Only selected files at the pinned revision were reviewed for publication.",
+      "importMode": "sanitized-snapshot",
+      "importCommit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
+      "destinationTree": "3d187759a6a810a89945632fb4dce32407d3c8fb",
+      "status": "imported",
+      "skills": [],
+      "adapters": [],
+      "evidence": [
+        "capabilities/healthy-bee-ing/medi-minder/product.json"
+      ],
+      "blockers": []
+    },
+    {
+      "productId": "moody-log",
+      "displayName": "Moody Log",
+      "aliases": [
+        "GPT06e",
+        "glee-fully-gpt06e-moody-log"
+      ],
+      "region": "gleefully",
+      "destination": "capabilities/healthy-bee-ing/moody-log",
+      "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt06e-moody-log",
+      "sourceCommit": "e36abcc46fe7dd2c028150af52feec2bcb49395d",
+      "sourceTree": "89003f842bc8eccf50e2a2a3be4a459572c63d1c",
+      "sourceLicense": "MIT",
+      "publicHistoryReview": "Upstream ancestry stays private. Only selected files at the pinned revision were reviewed for publication.",
+      "importMode": "sanitized-snapshot",
+      "importCommit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
+      "destinationTree": "592f3dc61017f912fa63ae5352d64f997fafd146",
+      "status": "imported",
+      "skills": [],
+      "adapters": [],
+      "evidence": [
+        "capabilities/healthy-bee-ing/moody-log/product.json"
+      ],
+      "blockers": []
+    },
+    {
+      "productId": "maven-wise",
+      "displayName": "Maven Wise",
+      "aliases": [
+        "GPT06f",
+        "glee-fully-gpt06f-maven-wise"
+      ],
+      "region": "gleefully",
+      "destination": "capabilities/healthy-bee-ing/maven-wise",
+      "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt06f-maven-wise",
+      "sourceCommit": "d9d26ea084d888f882b32227530d2581eb87f876",
+      "sourceTree": "6fac1fc81fa311edbc75ff94fc89628f16e632b0",
+      "sourceLicense": "MIT",
+      "publicHistoryReview": "Upstream ancestry stays private. Only selected files at the pinned revision were reviewed for publication.",
+      "importMode": "sanitized-snapshot",
+      "importCommit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
+      "destinationTree": "5f35656d7318dbb84a7e5944d4b1248ec913ae72",
+      "status": "imported",
+      "skills": [],
+      "adapters": [],
+      "evidence": [
+        "capabilities/healthy-bee-ing/maven-wise/product.json"
+      ],
+      "blockers": []
+    },
+    {
+      "productId": "identity-known",
+      "displayName": "Glee-fully Identity Known",
+      "aliases": [
+        "GPT07",
+        "glee-fully-gpt07-identity-known"
+      ],
+      "region": "gleefully",
+      "destination": "capabilities/identity-known",
+      "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt07-identity-known",
+      "sourceCommit": "25fb973903ce1dd6079daea1047558940e7e3702",
+      "sourceTree": "ae17e1008ac4be6582f13c5dd7feaf17fc743dab",
+      "sourceLicense": "MIT",
+      "publicHistoryReview": "Upstream ancestry stays private. Only selected files at the pinned revision were reviewed for publication.",
+      "importMode": "sanitized-snapshot",
+      "importCommit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
+      "destinationTree": "94acdb4972c1d6ae0dbc3e352cf93d2d02029e46",
+      "status": "imported",
+      "skills": [],
+      "adapters": [],
+      "evidence": [
+        "capabilities/identity-known/product.json"
+      ],
+      "blockers": []
+    },
+    {
+      "productId": "critter-spotter",
+      "displayName": "Critter Spotter",
+      "aliases": [
+        "GPT07a",
+        "glee-fully-gpt07a-critter-spotter"
+      ],
+      "region": "gleefully",
+      "destination": "capabilities/identity-known/critter-spotter",
+      "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt07a-critter-spotter",
+      "sourceCommit": "d48d7bfd0f0a099c6fa82c4b8cdcba8b120486ac",
+      "sourceTree": "db0cf603edfa050dab172636334f4a723cf8666c",
+      "sourceLicense": "MIT",
+      "publicHistoryReview": "Upstream ancestry stays private. Only selected files at the pinned revision were reviewed for publication.",
+      "importMode": "sanitized-snapshot",
+      "importCommit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
+      "destinationTree": "6ee6d570677acb93512261ec4f7944b0fe426f75",
+      "status": "imported",
+      "skills": [],
+      "adapters": [],
+      "evidence": [
+        "capabilities/identity-known/critter-spotter/product.json"
+      ],
+      "blockers": []
+    },
+    {
+      "productId": "roost-wrangler",
+      "displayName": "Roost Wrangler",
+      "aliases": [
+        "GPT07b",
+        "glee-fully-gpt07b-roost-wrangler"
+      ],
+      "region": "gleefully",
+      "destination": "capabilities/identity-known/roost-wrangler",
+      "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt07b-roost-wrangler",
+      "sourceCommit": "2d83d1fa4df48a7b6d49a46394c4e44d7a8fb4e2",
+      "sourceTree": "af364e76895937ca056ca9b39b65cc0959b38b0a",
+      "sourceLicense": "MIT",
+      "publicHistoryReview": "Upstream ancestry stays private. Only selected files at the pinned revision were reviewed for publication.",
+      "importMode": "sanitized-snapshot",
+      "importCommit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
+      "destinationTree": "4e2dd81f21e9de4b72c6d8a6d2a45ddfb092130e",
+      "status": "imported",
+      "skills": [],
+      "adapters": [],
+      "evidence": [
+        "capabilities/identity-known/roost-wrangler/product.json"
+      ],
+      "blockers": []
+    },
+    {
+      "productId": "sight-seeker",
+      "displayName": "Sight Seeker",
+      "aliases": [
+        "GPT07c",
+        "glee-fully-gpt07c-sight-seeker"
+      ],
+      "region": "gleefully",
+      "destination": "capabilities/identity-known/sight-seeker",
+      "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt07c-sight-seeker",
+      "sourceCommit": "1aa1a0d7f2d6481a34b473a06f7cf1029ad5b017",
+      "sourceTree": "f61172c36b212f7210f1b3a436701cf54a7084e4",
+      "sourceLicense": "MIT",
+      "publicHistoryReview": "Upstream ancestry stays private. Only selected files at the pinned revision were reviewed for publication.",
+      "importMode": "sanitized-snapshot",
+      "importCommit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
+      "destinationTree": "8d17cbac100fd33d7a7374260629347fa80abeba",
+      "status": "imported",
+      "skills": [],
+      "adapters": [],
+      "evidence": [
+        "capabilities/identity-known/sight-seeker/product.json"
+      ],
+      "blockers": []
+    },
+    {
+      "productId": "snap-decoder",
+      "displayName": "Snap Decoder",
+      "aliases": [
+        "GPT07d",
+        "glee-fully-gpt07d-snap-decoder"
+      ],
+      "region": "gleefully",
+      "destination": "capabilities/identity-known/snap-decoder",
+      "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt07d-snap-decoder",
+      "sourceCommit": "d040a2bf3d26c214440cdbbfd8bd6a5b68fa0e0d",
+      "sourceTree": "0cd6285b234429c589821ef9bbac8d8f3d9e0f83",
+      "sourceLicense": "MIT",
+      "publicHistoryReview": "Upstream ancestry stays private. Only selected files at the pinned revision were reviewed for publication.",
+      "importMode": "sanitized-snapshot",
+      "importCommit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
+      "destinationTree": "009a58e4cba330826b657c2181da85d6e561976e",
+      "status": "imported",
+      "skills": [],
+      "adapters": [],
+      "evidence": [
+        "capabilities/identity-known/snap-decoder/product.json"
+      ],
+      "blockers": []
+    },
+    {
+      "productId": "motif-muse",
+      "displayName": "Motif Muse",
+      "aliases": [
+        "GPT07e",
+        "glee-fully-gpt07e-motif-muse"
+      ],
+      "region": "gleefully",
+      "destination": "capabilities/identity-known/motif-muse",
+      "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt07e-motif-muse",
+      "sourceCommit": "bff954c0ad78685e76ff49271b9e741670580385",
+      "sourceTree": "369bba7c436c540643f94a9fad26b5c714010f42",
+      "sourceLicense": "MIT",
+      "publicHistoryReview": "Upstream ancestry stays private. Only selected files at the pinned revision were reviewed for publication.",
+      "importMode": "sanitized-snapshot",
+      "importCommit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
+      "destinationTree": "d24ce3247fc7665f40f72330e3406088638d71cf",
+      "status": "imported",
+      "skills": [],
+      "adapters": [],
+      "evidence": [
+        "capabilities/identity-known/motif-muse/product.json"
+      ],
+      "blockers": []
+    },
+    {
+      "productId": "maker-matcher",
+      "displayName": "Maker Matcher",
+      "aliases": [
+        "GPT07f",
+        "glee-fully-gpt07f-maker-matcher"
+      ],
+      "region": "gleefully",
+      "destination": "capabilities/identity-known/maker-matcher",
+      "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt07f-maker-matcher",
+      "sourceCommit": "0ee24dbfe8bc34172e98e9a22b7e018f655dd3ba",
+      "sourceTree": "d3834179af12eda8b8c1ac99bbc8934ac63fffcd",
+      "sourceLicense": "MIT",
+      "publicHistoryReview": "Upstream ancestry stays private. Only selected files at the pinned revision were reviewed for publication.",
+      "importMode": "sanitized-snapshot",
+      "importCommit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
+      "destinationTree": "498987ff92961a17131ed7c6a81408be38ba58a5",
+      "status": "imported",
+      "skills": [],
+      "adapters": [],
+      "evidence": [
+        "capabilities/identity-known/maker-matcher/product.json"
+      ],
+      "blockers": []
+    },
+    {
+      "productId": "gpt07g-self-fixer",
+      "displayName": "Self Fixer",
+      "aliases": [
+        "GPT07g",
+        "glee-fully-gpt07g-self-fixer"
+      ],
+      "region": "gleefully",
+      "destination": "capabilities/identity-known/gpt07g-self-fixer",
+      "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt07g-self-fixer",
+      "sourceCommit": "624b4a95d221e9f06b32fe4049bcf76a5f8a2f96",
+      "sourceTree": "1b81c7cd24fc20a59dd76dcc407af85e9bc84cf9",
+      "sourceLicense": "MIT",
+      "publicHistoryReview": "Upstream ancestry stays private. Only selected files at the pinned revision were reviewed for publication.",
+      "importMode": "sanitized-snapshot",
+      "importCommit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
+      "destinationTree": "636fffb707742b3c0ec527678e874c0926a946a4",
+      "status": "imported",
+      "skills": [],
+      "adapters": [],
+      "evidence": [
+        "capabilities/identity-known/gpt07g-self-fixer/product.json"
+      ],
+      "blockers": []
+    }
+  ]
 }

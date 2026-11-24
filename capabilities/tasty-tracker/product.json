@@ -1,0 +1,51 @@
+{
+  "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt03-tasty-tracker",
+  "sourceBranch": "main",
+  "sourceCommit": "7b92c7cab4e6d5fabc4f96a826a817e440bb567e",
+  "sourceTree": "80a645ff579b82d00ee7d7c5dcdc8d835cf79c40",
+  "sourceLicense": "MIT",
+  "importMode": "sanitized-snapshot",
+  "destinationTree": "0078d2a1225f25768411ab99d0ebeb34ec2da4a0",
+  "pathCounts": {
+    "imported": 6,
+    "shared-public-reference": 109
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "gitBlob": "dfe0770424b2a19faf507a501ebfc23be8f54e7b",
+      "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlob": "43ae0e2a6c6d8fca34872506ca0f2e64194fec7c",
+      "sha256": "6feaded4e28ea86e001a6751b4e3d960e8b7c31b9616ff9936b79297086e809b",
+      "mode": "100644"
+    },
+    {
+      "path": "AGENTS.md",
+      "gitBlob": "f9118685f180d26caf161f1206105850414a4ce6",
+      "sha256": "6f49d65768de60aa5e296eb48cd8a9a209f573bc0ac8ae4431d91bf1c65860d8",
+      "mode": "100644"
+    },
+    {
+      "path": "CLAUDE.md",
+      "gitBlob": "43c994c2d3617f947bcb5adf1933e21dabe46bb5",
+      "sha256": "336cc4fbf19beaada7ccf9986414fa91851a8d7a07dfb3ccbe800a69eed0ab49",
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlob": "f4873c2116435bd7bb58afdb5fddc835397e49dc",
+      "sha256": "7a26108bff9a3301f0ed8fd0697f07134c7ed863d36572885ee37229c88ba29d",
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlob": "d2284dacf2ab22605f6660c553fab032cf102960",
+      "sha256": "0db56c1293f025a098df32f313ccfe44a6be2d238a2ec93939e2a75b07a2a47c",
+      "mode": "100644"
+    }
+  ]
+}

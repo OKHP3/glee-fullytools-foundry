@@ -1,0 +1,1 @@
+Project-specific instructions are maintained in the canonical root guide. See `AGENTS.md` for the repository purpose, artifact map, working model, validation checks, safe-change conventions, and known gaps.

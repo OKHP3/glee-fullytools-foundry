@@ -1,0 +1,53 @@
+{
+  "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt04b-itinerary-hacker",
+  "sourceBranch": "main",
+  "sourceCommit": "4d2805ba45d0091a4660329dc6397e3429023d6a",
+  "sourceTree": "91ab14e63c62a611f9a86db85507ca10e66e3595",
+  "sourceLicense": "MIT",
+  "importMode": "sanitized-snapshot",
+  "destinationTree": "a23962518cfb0ca926cb11ea0345c08700cdce42",
+  "pathCounts": {
+    "imported": 6,
+    "private-operations": 1,
+    "repository-maintenance": 3,
+    "shared-public-reference": 356
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "gitBlob": "dfe0770424b2a19faf507a501ebfc23be8f54e7b",
+      "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlob": "cbe109d69760eac9f6caf0b1ee2f66e3050b0c82",
+      "sha256": "71f3c4bb676e83b1c67d3bcfb500b602529d4210a31c36951894b95af2b6132c",
+      "mode": "100644"
+    },
+    {
+      "path": "AGENTS.md",
+      "gitBlob": "bd34f42596e765c08d0035f08060eeca54c260cf",
+      "sha256": "2d41f007a89ad53c5ce66fe5b441115e6015e324f2d33835392722f6d89c36b5",
+      "mode": "100644"
+    },
+    {
+      "path": "CLAUDE.md",
+      "gitBlob": "bf09075d5e13fbc5ab55e6998fa1aca8ea7907ca",
+      "sha256": "914400ddf4b5cfdad3668baad3c556c00a89730734e5151a44e14636e116a8b2",
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlob": "f4873c2116435bd7bb58afdb5fddc835397e49dc",
+      "sha256": "7a26108bff9a3301f0ed8fd0697f07134c7ed863d36572885ee37229c88ba29d",
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlob": "316136b98a675fd1a73a6c1c61c7fb3a185f764b",
+      "sha256": "44a6cf993274037246ebd6996c5fb681abc4dac3c05585a4c53c1ef6d746616a",
+      "mode": "100644"
+    }
+  ]
+}

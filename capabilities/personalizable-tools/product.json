@@ -1,0 +1,74 @@
+{
+  "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt00-personalizable-tools",
+  "sourceBranch": "main",
+  "sourceCommit": "1125dcab6a735f3d37b7d1df352d70b81f2e7b66",
+  "sourceTree": "098f35f0c10e5a04922ff903593758e5c4cb5e24",
+  "sourceLicense": "MIT",
+  "importMode": "sanitized-snapshot",
+  "destinationTree": "d9562f8b12a0e9144c0f1c107fcb6fd07497d512",
+  "pathCounts": {
+    "imported": 8,
+    "private-operations": 3,
+    "redacted": 1,
+    "repository-maintenance": 4,
+    "shared-public-reference": 375
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "gitBlob": "dfe0770424b2a19faf507a501ebfc23be8f54e7b",
+      "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlob": "461678c24d74a6522911f3cd1eae1e2099c2abca",
+      "sha256": "cd3a1ccfaf73787f3cfb9d2cde17e54d024b0d7ad92e4895f14428be8de5dc2d",
+      "mode": "100644"
+    },
+    {
+      "path": "AGENTS.md",
+      "gitBlob": "1aa45b2283785012b20f00d1d6d9c7cfd81ae213",
+      "sha256": "b89b1fc920010d7fafd176b0138f5f32c07904764909ee7fa165d0c7569c7b1d",
+      "mode": "100644"
+    },
+    {
+      "path": "CLAUDE.md",
+      "gitBlob": "43c994c2d3617f947bcb5adf1933e21dabe46bb5",
+      "sha256": "336cc4fbf19beaada7ccf9986414fa91851a8d7a07dfb3ccbe800a69eed0ab49",
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlob": "f4873c2116435bd7bb58afdb5fddc835397e49dc",
+      "sha256": "7a26108bff9a3301f0ed8fd0697f07134c7ed863d36572885ee37229c88ba29d",
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlob": "3ed41c421e08c8f928d762df7f001e5bc9e87076",
+      "sha256": "e52d535b2965d3cd63fdbc413aea5376290b1416a89273e4662943f46115725e",
+      "mode": "100644"
+    },
+    {
+      "path": "archive/legacy/00a-glee-fully-personalizable-tools_instructions.md",
+      "gitBlob": "e93569004f59e3fd08cc839db56c5b326ef484fd",
+      "sha256": "47bdbf4261aa2552d5d83706bc46cde06aa06312414987c8d2324bcd04cf6409",
+      "mode": "100644"
+    },
+    {
+      "path": "archive/legacy/00b-glee-fully-function-ettes_instructions.md",
+      "gitBlob": "3b96d4beab06880d4f6fe835accd74265c7abbff",
+      "sha256": "3b85609945e50cc0e8bd8574f061a88693a9062905ef724113efd60a5a437852",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/gpt00/00a-glee-fully-personalizable-tools_pulsebook_20250907.md",
+      "gitBlob": "7e9c60a8ce7519aea30725787b8689d611be863f",
+      "sha256": "0e12f26d29b94c839cf62b36e1b839da3855447a29db6eedb1a029728be00dbf",
+      "mode": "100644",
+      "sourceGitBlob": "3f55c2e33433609dd597e77e15e54d41dbd0e8da",
+      "redaction": "Retained capability descriptions and instructions. Omitted account, deployment and operational records."
+    }
+  ]
+}

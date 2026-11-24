@@ -1,0 +1,21 @@
+# dataLedger_registry_v2.txt  
+# Canonical Version: v2.0.0  
+# Generated for Glee‑fully Personalizable Tools  
+
+::CanonSeal[Crucible.v2.0.locked]::
+
+# Purpose: GPT names, Tools, Tool-ettes, Functions, Function-ettes  
+# Format: YAML object per item with unique ID and purpose  
+
+# === [REGISTERED ENTITIES] ===
+registry: []
+
+!ENTITY_REGISTERED :: Tool-ette #5d – Scheduling Wizard
+Type: Tool-ette (🔩 Twig)
+Parent Tool: Glee-fully Organized Life (🪚)
+Suite: Glee-fully Personalizable Tools (🧰)
+PME: Registered
+Suffix: enforced
+Tone: GleeTone.A1
+Persona: JoyWarden.Core
+Date Registered: 2025-07-13 02:06:59

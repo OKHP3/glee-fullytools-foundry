@@ -4,7 +4,7 @@ Read this file before working in this repository. It is the canonical agent guid
 for the repository root. `CLAUDE.md` is a short pointer to this file. No nested
 Git repositories or nested agent guides were found during the July 13, 2026 review.
 
-## Current product direction, September 27, 2026
+## Current product direction
 
 The owner explicitly repurposed this Foundry for portable Agent Skills, composed
 plugins and connectors. New work starts with reusable capabilities; Custom GPTs
@@ -12,11 +12,17 @@ are preserved migration sources. This direction supersedes GPT-only production
 requirements in historical guidance. Canon content, identifiers and seals remain
 intact; a conversion draft does not automatically register a canonical entity.
 
-Read [the portable capability workflow](docs/application/portable-capabilities.md)
-and [product subtree contract](products/README.md). Consolidation targets
-`products/<capability-slug>/source/` for preserved child source trees, alongside
-`skills/`, `adapters/` and `evals/` within each product. The migration register is
-not yet inventoried; do not infer imports from the existence of these guides.
+Use the [capability directory](capabilities/README.md) to find the toolbox,
+Tool families and their Tool-ettes. Each top-level route lives at
+`capabilities/<family>/` and each Tool-ette at `capabilities/<family>/<tool-ette>/`.
+Use the exact directory names in the index, including `identity-known/gpt07g-self-fixer`.
+The [migration register](products/migration-map.json) records each route and
+its import status. This consolidation uses reviewed files from pinned `main`
+revisions in each route's `source/` directory. Private records, secrets and
+upstream Git histories stay in their source repositories.
+Follow the [migration contract](products/README.md) for source
+preservation and the [portable capability workflow](docs/application/portable-capabilities.md)
+for skills, adapters and evaluations.
 This repository owns Glee-fully products. Do not silently modify OverKill or
 AskJamie repositories or promote local copies into Skillz.
 
@@ -107,7 +113,8 @@ The protocol does not launch agents, expand repository scope or authorize charge
 
 ## Repository map
 
-- `products/`: product-subtree destination contract and migration register. No imported products yet.
+- `capabilities/`: directory of the Personalizable Tools toolbox and seven Tool families, with Tool-ettes under their families.
+- `products/`: source migration contract and register for the capability directory.
 - `docs/application/portable-capabilities.md`: current conversion and adapter workflow.
 
 - `app/`: owner-local project workspace, SQLite persistence, validation, export

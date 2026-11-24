@@ -1,0 +1,50 @@
+{
+  "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt06a-care-check",
+  "sourceBranch": "main",
+  "sourceCommit": "41e2126d690339b452ef1a2cb575dda2f7c4a0f9",
+  "sourceTree": "c99d37fb255487e2111ac6172940f5dfbfd98db6",
+  "sourceLicense": "MIT",
+  "importMode": "sanitized-snapshot",
+  "destinationTree": "f6781c2cc1114dd59c3360c59ec6b78e8bf75b6c",
+  "pathCounts": {
+    "imported": 4,
+    "private-operations": 1,
+    "redacted": 1,
+    "repository-maintenance": 3,
+    "shared-public-reference": 375
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "gitBlob": "dfe0770424b2a19faf507a501ebfc23be8f54e7b",
+      "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlob": "ff75088f5a74b2a87f2b1cdbdad13fc9c0e2f0df",
+      "sha256": "4d7a79d3cc14643874215d8231499def5a37776d88c990de48b629cb5cbba9f8",
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlob": "f4873c2116435bd7bb58afdb5fddc835397e49dc",
+      "sha256": "7a26108bff9a3301f0ed8fd0697f07134c7ed863d36572885ee37229c88ba29d",
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlob": "d7f5a6c9d0cc6a9d8d3ac8628dcec598d51fb3de",
+      "sha256": "94e430bfc352f87ec3451b08caf5ef4fda81a6b87bab4ad16a4421b77e3fdee8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/healthy-bee-ing-pulsebook-2025-09-01.md",
+      "gitBlob": "2cdd1196ec9d337ce9c2a3498fac9c6539641a4b",
+      "sha256": "047be14e07840ca916391f873dde6bd40618a950688dca1887f6df1a75942622",
+      "mode": "100644",
+      "sourceGitBlob": "742eea37869067a3e5ecb099998cff816f82e5c5",
+      "redaction": "Retained product descriptions, conversation starters, goals and sibling roles. Omitted private deployment and operational records."
+    }
+  ]
+}

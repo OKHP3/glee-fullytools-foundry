@@ -1,0 +1,42 @@
+{
+  "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt07g-self-fixer",
+  "sourceBranch": "main",
+  "sourceCommit": "624b4a95d221e9f06b32fe4049bcf76a5f8a2f96",
+  "sourceTree": "1b81c7cd24fc20a59dd76dcc407af85e9bc84cf9",
+  "sourceLicense": "MIT",
+  "importMode": "sanitized-snapshot",
+  "destinationTree": "636fffb707742b3c0ec527678e874c0926a946a4",
+  "pathCounts": {
+    "imported": 4,
+    "local-metadata": 5,
+    "private-operations": 1,
+    "repository-maintenance": 4,
+    "shared-public-reference": 357
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "gitBlob": "dfe0770424b2a19faf507a501ebfc23be8f54e7b",
+      "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlob": "394e31b8f95b189ec2e70ffe5513aacc84e9de45",
+      "sha256": "d3e4f59c9720e87d9b97ced0e96ffd3c5bf0e6df9a568a65ca4d45c728d00cc5",
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlob": "f4873c2116435bd7bb58afdb5fddc835397e49dc",
+      "sha256": "7a26108bff9a3301f0ed8fd0697f07134c7ed863d36572885ee37229c88ba29d",
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlob": "eb5dd502848ce2ac2b3f44ec622e9ef853394770",
+      "sha256": "d666de0b747de70f33ec930feb106c702a9cbd2cae7e7c79f6b2b1c48c8d1b19",
+      "mode": "100644"
+    }
+  ]
+}

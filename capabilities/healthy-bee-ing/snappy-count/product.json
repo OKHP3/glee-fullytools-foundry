@@ -1,0 +1,50 @@
+{
+  "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt06c-snappy-count",
+  "sourceBranch": "main",
+  "sourceCommit": "78f845c350e9cda57afac0b271eed7c88f27e33b",
+  "sourceTree": "36dfbface4ffa3e1854a017add4a161bf7a7a0da",
+  "sourceLicense": "MIT",
+  "importMode": "sanitized-snapshot",
+  "destinationTree": "7874c0c50233eaa7e434474e548ecf0475becc99",
+  "pathCounts": {
+    "imported": 4,
+    "private-operations": 1,
+    "redacted": 1,
+    "repository-maintenance": 3,
+    "shared-public-reference": 357
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "gitBlob": "dfe0770424b2a19faf507a501ebfc23be8f54e7b",
+      "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlob": "586e90bb46301df9ffdd5a5431b5343997067aab",
+      "sha256": "ec512216bbbbabe2f1bfd1dc796d65209b3282ab80b8765342b32abb92fde24a",
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlob": "f4873c2116435bd7bb58afdb5fddc835397e49dc",
+      "sha256": "7a26108bff9a3301f0ed8fd0697f07134c7ed863d36572885ee37229c88ba29d",
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlob": "0ce696c0942d8ffc388caf6664d93c050a6ca0e4",
+      "sha256": "0af8582e6c88e1fad4eb32d939018870bb75597c7732a857766d5b5ff11ca5aa",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/06-glee-fully-healthy-bee-ing_pulsebook_20250901.md",
+      "gitBlob": "2cdd1196ec9d337ce9c2a3498fac9c6539641a4b",
+      "sha256": "047be14e07840ca916391f873dde6bd40618a950688dca1887f6df1a75942622",
+      "mode": "100644",
+      "sourceGitBlob": "742eea37869067a3e5ecb099998cff816f82e5c5",
+      "redaction": "Retained product descriptions, conversation starters, goals and sibling roles. Omitted private deployment and operational records."
+    }
+  ]
+}

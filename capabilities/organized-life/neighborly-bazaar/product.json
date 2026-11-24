@@ -1,0 +1,222 @@
+{
+  "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt05f-neighborly-bazaar",
+  "sourceBranch": "main",
+  "sourceCommit": "d046f8d86bae819682ea5e6ac6e59ddc22a05640",
+  "sourceTree": "8e026697b99309c4a615f4c22415088c999ab0e1",
+  "sourceLicense": "MIT",
+  "importMode": "sanitized-snapshot",
+  "destinationTree": "705370c3ee8438047bc2b4649ba1ec2d8c89ffea",
+  "pathCounts": {
+    "imported": 34,
+    "private-attachment-references": 4,
+    "private-operations": 1,
+    "repository-maintenance": 3,
+    "shared-public-reference": 357
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "gitBlob": "dfe0770424b2a19faf507a501ebfc23be8f54e7b",
+      "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlob": "88e27e45a858a0955131d36f191c5462dec65c36",
+      "sha256": "f1846b02498666848e7c2f41b1df354b8024e330be56455417e5dc6c64f66a6f",
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlob": "f4873c2116435bd7bb58afdb5fddc835397e49dc",
+      "sha256": "7a26108bff9a3301f0ed8fd0697f07134c7ed863d36572885ee37229c88ba29d",
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlob": "39ab2cdf4417a2ddd781cb91b0d7f48bb519717b",
+      "sha256": "8b0680664e971ac7b1823bc3047db5d8564cbd0b98b3082b9ecc06947df222cb",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledge/neighborly-bazaar-knowledge-01.docx",
+      "gitBlob": "928d6fd4c3053b24d96a138783f4455a2d6e6a5f",
+      "sha256": "1079390de64bebb2fdf33241e29bfe314e31def92597613ee1585d7e02ab33b4",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledge/neighborly-bazaar-knowledge-01.pdf",
+      "gitBlob": "48eb680179d9a45a0220c17785dfee8544b47490",
+      "sha256": "9f555214698c0b21b336cb9ada52b8b2a59139d1541fab56192a21175049800d",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledge/neighborly-bazaar-knowledge-02.docx",
+      "gitBlob": "4e9c494dad34aa4e2fedebecdf39ce321fa556f2",
+      "sha256": "88506993868fd529f65b5d8c05715f73b3ae0db48925270b132ae75bdfb651e2",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledge/neighborly-bazaar-knowledge-02.pdf",
+      "gitBlob": "67e7c3383a5467ef43813d8dcd6a14d7f0ee02f6",
+      "sha256": "c69c2265526ce1f44cf0f747154a5cbcda14aa7b63bca53e413ac14209a8e844",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledge/neighborly-bazaar-knowledge-03.docx",
+      "gitBlob": "2c33b7b4af4ac480ce13aae973e62079ef3fffe2",
+      "sha256": "08bb3dde4e7905d01f9d05c5811391f7cfef1d90d8b2134f4e01d858445e0cc0",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledge/neighborly-bazaar-knowledge-03.pdf",
+      "gitBlob": "4201cd10814773f035ae7208e09ead262ea82cb3",
+      "sha256": "90d9d8b00ba6996196fe3a4644d687bef96ef94cbca6cdb21bc73d1d8276a1e5",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledge/neighborly-bazaar-knowledge-04.docx",
+      "gitBlob": "ae4ff3459e467d94ea4eb4a2ae4f1a71de424f5f",
+      "sha256": "399655c98754ab303067c9343fe1360832ecca473b19af841b4c61eb2008b5eb",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledge/neighborly-bazaar-knowledge-04.pdf",
+      "gitBlob": "dffe9f4c981b4cf7a2fa6fed4a783b93aceb1b85",
+      "sha256": "d1733c009b1f63a99d17e768df233cf477de207d9365489e254476f691273845",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledge/neighborly-bazaar-knowledge-05.docx",
+      "gitBlob": "6b2e04832b35f5a122c75b18a35a252826f8fb2f",
+      "sha256": "f20705bc8f393993ff029f3e74544e73e122fb7f3f876be08f5f62f7daff863e",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledge/neighborly-bazaar-knowledge-05.pdf",
+      "gitBlob": "c10e74af7bb7a1ab2425d7b298c77dad1aeefa9a",
+      "sha256": "ba167c984d909535378d807f1554c86b12196ef550348258b2f3c75698bb4872",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledge/neighborly-bazaar-knowledge-06.docx",
+      "gitBlob": "cdb79408c7748760b8f2d2d0f96a5f240ca1215c",
+      "sha256": "d9d7b39a164d7ad8c736d22b5b343fae8576e2f9875e29e538b9943b5356c40d",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledge/neighborly-bazaar-knowledge-06.pdf",
+      "gitBlob": "8506b2056d9fda850191ba287c0db8e343f5b205",
+      "sha256": "8645ceb79d1e294e49bfdc9d9fc924eff154f6292a164fa257b33840cb4de18f",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledge/neighborly-bazaar-knowledge-07.docx",
+      "gitBlob": "b93df42c500c5362b78a9b9c7305a06990a83ac1",
+      "sha256": "751926d15825c53d41b252866b5095c050e449744874345abf92e29d39bb6fe7",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledge/neighborly-bazaar-knowledge-07.pdf",
+      "gitBlob": "96ff6c87675f0d2dd7ec09ba7ea5f26d738f7d53",
+      "sha256": "7a9b4140a2753603e5d7404498d9aea2f05283e79bdc0f839b6fb885a1d43712",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledge/neighborly-bazaar-knowledge-08.docx",
+      "gitBlob": "8f271dd9595bf01dddde1387ba9fd503f04030e0",
+      "sha256": "5cba26abad26b2623fa5bc7a347d8d6aea00b5ae5eadd6f293d36ea74f42eff0",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledge/neighborly-bazaar-knowledge-08.pdf",
+      "gitBlob": "0d9277f4c1d2f4fc7c3cab9c04f51c43dd2ad139",
+      "sha256": "61017d463d9efd49dd5161fc93f0e9a6f8b18b99b2fee99f07c0dc31d4c4e524",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledge/neighborly-bazaar-knowledge-09.docx",
+      "gitBlob": "7b5b762bef99633a09f7d49ce471e612047f2015",
+      "sha256": "e6eb112b09840a30d3f64295140e2f3ff01007d6276c60e969cf511771032f41",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledge/neighborly-bazaar-knowledge-09.pdf",
+      "gitBlob": "8e8cfb79e1aaffe52820b1fbf96b06a286866e00",
+      "sha256": "c3aa7b182d5f620c9c343f9ebc3d195a0d84a5b0d420a79ff5249269d9fd9fe6",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledge/neighborly-bazaar-knowledge-10.docx",
+      "gitBlob": "fb2a178e1524caf086bf8971affd78b43a039cf5",
+      "sha256": "26fcd7e4e47982c162cc103df715a6839e400eaeb49cfee8de44b054be1d511e",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledge/neighborly-bazaar-knowledge-10.pdf",
+      "gitBlob": "3b3e3d92718fd15063fad1eb3a753a3545b82f55",
+      "sha256": "023f3a7f2eac905c891b26ea813bc2a394a2cdf90129fc33cc853a45329fe7c9",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledge/neighborly-bazaar-knowledge-11.docx",
+      "gitBlob": "5b2a21a83e31614077ed2a5acf28f4d2aa9f7de2",
+      "sha256": "c1e38ee0196139507fd56359dcff05b5f3e29986d7eb26f0dc534bca74483da5",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledge/neighborly-bazaar-knowledge-11.pdf",
+      "gitBlob": "6ea9afcdea5bc1fe2551d1bff6128e3a5ae9770c",
+      "sha256": "29ab101f4e7bfcbe621d27fc3910724ea17f9b49947ffeca94394e3569600856",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledge/neighborly-bazaar-knowledge-12.docx",
+      "gitBlob": "80cbabfba7d9c3d2e166a497487cf09e5d85e456",
+      "sha256": "0f1f913129d7c228488d4cd56068246a3055962539b986107afebb4221ee1cef",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledge/neighborly-bazaar-knowledge-12.pdf",
+      "gitBlob": "e0c7ec0354c4c592e0b89edee1aad8f4ef9af429",
+      "sha256": "9e85c2e537805b668b6dde4a4c2c4f9a7c3ebd898fd4ef6c6ef2b27d3a26efeb",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledge/neighborly-bazaar-knowledge-13.docx",
+      "gitBlob": "e941326168a6e6eda895ce9126cef3b8d8cf13b7",
+      "sha256": "2387b80b25b6f967df78fdb156fcec9d0731dad3fee2e16628b5efdd087a84f9",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledge/neighborly-bazaar-knowledge-13.pdf",
+      "gitBlob": "19262c46e7caaf144bb09cd5fe879dd449023d4b",
+      "sha256": "4a26e3ec3d3186aef6bc62207b599d6e79ea605870db9d44f1ff7a23fb7c95e2",
+      "mode": "100644"
+    },
+    {
+      "path": "specifications/05f-organized-life-neighborly-bazaar.md",
+      "gitBlob": "edaa166f98dbef6f1cd2837fc2fed883b25960ca",
+      "sha256": "490fa9da20afab32a5bb5bc1bea47bbb7ad1a812823e950805f1c5bdc865b00a",
+      "mode": "100644"
+    },
+    {
+      "path": "specifications/gpt-pulsebook-v1.docx",
+      "gitBlob": "0a1e4ce8a055a1c6783fe875036d7b7f03d1de03",
+      "sha256": "153b9c993b59fea98170a0c900d7a6ebc7c45d9099dd4427678731244ffaae58",
+      "mode": "100644"
+    },
+    {
+      "path": "specifications/gpt-pulsebook-v1.md",
+      "gitBlob": "ffea47faf8438c214cd4b283ec44ceaf226b60bc",
+      "sha256": "451b979e595c6e7f4728e408c1da59569fe50f48ee39c8bc4ab08d390b977d30",
+      "mode": "100644"
+    },
+    {
+      "path": "specifications/gpt-pulsebook-v1.pdf",
+      "gitBlob": "3d1f41dc45c011051d2bce7dcca6e7d19367ec94",
+      "sha256": "29f6c0f1c0d5a0c1e651357fb5e2ea3c585e67bb5c235d711d35c3e0ee0e89c0",
+      "mode": "100644"
+    }
+  ]
+}

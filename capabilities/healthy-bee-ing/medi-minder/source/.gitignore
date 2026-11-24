@@ -1,0 +1,11 @@
+# Python-generated files
+__pycache__/
+*.py[cod]
+
+# Local tooling and editor residue
+.DS_Store
+*.swp
+*.swo
+*.tmp
+*.temp
+*.bak

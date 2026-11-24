@@ -1,0 +1,41 @@
+{
+  "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt01c-career-fitness",
+  "sourceBranch": "main",
+  "sourceCommit": "10027b298ed61ed5e70109614dd71fbe179f5cd3",
+  "sourceTree": "4ac49507d86ced670e98ff0cefbc69bb8c2660ad",
+  "sourceLicense": "MIT",
+  "importMode": "sanitized-snapshot",
+  "destinationTree": "5bd81fb054e1f2da654c847ca9a162879772a2b9",
+  "pathCounts": {
+    "imported": 4,
+    "private-operations": 1,
+    "repository-maintenance": 3,
+    "shared-public-reference": 375
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "gitBlob": "dfe0770424b2a19faf507a501ebfc23be8f54e7b",
+      "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlob": "06e41ca917e500ebc2acb5505cd17cb33407f9bf",
+      "sha256": "ede63e61b5f5716984eb4cb5fe76ff0d11da1e3593c507464e9bd679255c81cc",
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlob": "f4873c2116435bd7bb58afdb5fddc835397e49dc",
+      "sha256": "7a26108bff9a3301f0ed8fd0697f07134c7ed863d36572885ee37229c88ba29d",
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlob": "db1b407b3df3796506c541ecc60250332956ff99",
+      "sha256": "c03213936e72c5219bf1617c2d6c3b424e4adf2fb4966a569308cf61e9a3e581",
+      "mode": "100644"
+    }
+  ]
+}

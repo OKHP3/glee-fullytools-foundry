@@ -1,0 +1,48 @@
+{
+  "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt05-organized-life",
+  "sourceBranch": "main",
+  "sourceCommit": "bf7077fbaa45ee795643757f1cb558fc5c78ccd0",
+  "sourceTree": "cf5d36e86843f0fc196e8cf52134c628a71ba197",
+  "sourceLicense": "MIT",
+  "importMode": "sanitized-snapshot",
+  "destinationTree": "d2787dda8cb98a65698edba5da8a496cb5b6c312",
+  "pathCounts": {
+    "imported": 5,
+    "local-metadata": 5,
+    "private-operations": 2,
+    "repository-maintenance": 3,
+    "shared-public-reference": 375
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "gitBlob": "dfe0770424b2a19faf507a501ebfc23be8f54e7b",
+      "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlob": "4bcc540fe6068d6c36d104fee57c5bd1d1dbcf91",
+      "sha256": "99d115a503c30e4035365152e302aa5933ae6f0e543e6b34913373cf57ee78cd",
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlob": "f4873c2116435bd7bb58afdb5fddc835397e49dc",
+      "sha256": "7a26108bff9a3301f0ed8fd0697f07134c7ed863d36572885ee37229c88ba29d",
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlob": "b0fddc1b56b317a1630e157e9138cc73122d1169",
+      "sha256": "5aa1b2b3752f3aa0b924fe488c06539e50480040b0d875956e2c3e4dd797b470",
+      "mode": "100644"
+    },
+    {
+      "path": "archive/05-glee-fully-organized-life_instructions.md",
+      "gitBlob": "8dc79e815791c2583cfeb771896cefadd6b7428c",
+      "sha256": "6ad9d7d9a22eec41a877c4d4e10b2baacb16e7474ca6f53521039e8702d4afbf",
+      "mode": "100644"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt07e-motif-muse",
+  "sourceBranch": "main",
+  "sourceCommit": "bff954c0ad78685e76ff49271b9e741670580385",
+  "sourceTree": "369bba7c436c540643f94a9fad26b5c714010f42",
+  "sourceLicense": "MIT",
+  "importMode": "sanitized-snapshot",
+  "destinationTree": "d24ce3247fc7665f40f72330e3406088638d71cf",
+  "pathCounts": {
+    "imported": 6,
+    "repository-maintenance": 2,
+    "shared-public-reference": 366
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "gitBlob": "dfe0770424b2a19faf507a501ebfc23be8f54e7b",
+      "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlob": "6dc7ccbd80fd238d818e73611775c5c26ccc6f87",
+      "sha256": "bf2dcbce52b4a5e7c30abef8918188fd73fc9a8f21288edf2434c4d7548d67da",
+      "mode": "100644"
+    },
+    {
+      "path": "AGENTS.md",
+      "gitBlob": "6fc25ab895ebc76ee62b603ea45803fe5ca59be1",
+      "sha256": "7a7f323c5d455bd68047de729a75160aec4006992fbcede9f605033c348ce874",
+      "mode": "100644"
+    },
+    {
+      "path": "CLAUDE.md",
+      "gitBlob": "8e163a7f2c5b8600c6a2b06092791d17d53adc7e",
+      "sha256": "352f34beb8a4bd7477be9ebf72f033ed1d56efb57342ba3b45b4a77a1f9a1b45",
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlob": "f4873c2116435bd7bb58afdb5fddc835397e49dc",
+      "sha256": "7a26108bff9a3301f0ed8fd0697f07134c7ed863d36572885ee37229c88ba29d",
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlob": "6933257dc8ebfe2ed93d2097ec688fc71ed69393",
+      "sha256": "6fd46a7f79bc2bbedb127ac6ebb681598dd9f86b70481da6e1b8eaf6f331f639",
+      "mode": "100644"
+    }
+  ]
+}

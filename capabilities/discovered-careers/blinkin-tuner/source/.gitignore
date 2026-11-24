@@ -1,0 +1,6 @@
+# Python-generated files
+__pycache__/
+*.pyc
+
+# Local editor and operating-system files
+.DS_Store

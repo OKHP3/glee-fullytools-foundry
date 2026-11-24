@@ -1,0 +1,16 @@
+# Python caches and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local test and coverage output
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Local temporary files
+*.tmp
+*.temp
+*.bak
+.DS_Store

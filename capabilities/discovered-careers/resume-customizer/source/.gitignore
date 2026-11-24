@@ -1,0 +1,8 @@
+# Python-generated files
+__pycache__/
+*.py[cod]
+
+# Common test and coverage caches
+.pytest_cache/
+.coverage
+htmlcov/

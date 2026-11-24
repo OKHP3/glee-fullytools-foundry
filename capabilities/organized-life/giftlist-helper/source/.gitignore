@@ -1,0 +1,9 @@
+# Generated Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local tooling and editor state
+.DS_Store
+.venv/
+venv/

@@ -1,0 +1,41 @@
+{
+  "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt04c-detour-discoverer",
+  "sourceBranch": "main",
+  "sourceCommit": "affa38e9ee49d04aaedb03b3ee3752eb5e572480",
+  "sourceTree": "0e710ea42c9c9bf3133a6afe07b2083b988fdc6f",
+  "sourceLicense": "MIT",
+  "importMode": "sanitized-snapshot",
+  "destinationTree": "52c1e61c79194ba4196531d1d056eb742bf830b2",
+  "pathCounts": {
+    "imported": 4,
+    "private-operations": 1,
+    "repository-maintenance": 3,
+    "shared-public-reference": 375
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "gitBlob": "dfe0770424b2a19faf507a501ebfc23be8f54e7b",
+      "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlob": "4bcc540fe6068d6c36d104fee57c5bd1d1dbcf91",
+      "sha256": "99d115a503c30e4035365152e302aa5933ae6f0e543e6b34913373cf57ee78cd",
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlob": "f4873c2116435bd7bb58afdb5fddc835397e49dc",
+      "sha256": "7a26108bff9a3301f0ed8fd0697f07134c7ed863d36572885ee37229c88ba29d",
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlob": "dea91af53dcb157d2fbde979180363fdd7f7f40f",
+      "sha256": "fb13c723c05900d1c30d646e0d6b9d4598c5ce1f5e07bdd2ed185885977edb68",
+      "mode": "100644"
+    }
+  ]
+}

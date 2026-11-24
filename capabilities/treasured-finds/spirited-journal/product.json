@@ -1,0 +1,50 @@
+{
+  "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt02e-spirited-journal",
+  "sourceBranch": "main",
+  "sourceCommit": "74324325daafc09541935a4a3817a871f76d2e09",
+  "sourceTree": "ec321264f07bfd7f79f2b2699ab0eff7a611d2db",
+  "sourceLicense": "MIT",
+  "importMode": "sanitized-snapshot",
+  "destinationTree": "02dbd2089b121d7f13f53cf2920f9e93dc170d6f",
+  "pathCounts": {
+    "imported": 4,
+    "private-operations": 4,
+    "redacted": 1,
+    "repository-maintenance": 3,
+    "shared-public-reference": 357
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "gitBlob": "dfe0770424b2a19faf507a501ebfc23be8f54e7b",
+      "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlob": "728f74ed81b81758152de98914b6fa1ee9229b0d",
+      "sha256": "eccd1519fb856267383bc65af3fa34b084f32f1c3763ff719525d16ca36b8998",
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlob": "f4873c2116435bd7bb58afdb5fddc835397e49dc",
+      "sha256": "7a26108bff9a3301f0ed8fd0697f07134c7ed863d36572885ee37229c88ba29d",
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlob": "ded7bc435b2ec17a918c6093ce22fa14bbfccf13",
+      "sha256": "9d70f96ecb961711fa0964b3a6c72ace2eb2e2ce081da12787613126ba6d3f76",
+      "mode": "100644"
+    },
+    {
+      "path": "prompts/drafts/02e-glee-fully-spirited-journal_prompts_v1.yaml",
+      "gitBlob": "73f05fac89b3263c6b0b934e86241ff03109065b",
+      "sha256": "3d08dffb5ff0226cdeee83f1a94a9bda355e0be8a400fef5670fd9907a3d96b4",
+      "mode": "100644",
+      "sourceGitBlob": "b9f06faade1f1e688104595a3132cd62b957c3f0",
+      "redaction": "Omitted the internal workflow reference."
+    }
+  ]
+}

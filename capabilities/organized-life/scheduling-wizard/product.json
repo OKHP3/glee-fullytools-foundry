@@ -1,0 +1,107 @@
+{
+  "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt05d-scheduling-wizard",
+  "sourceBranch": "main",
+  "sourceCommit": "6234e34d2bf5f2e2b798ea9a88de783525791b2b",
+  "sourceTree": "efaee5fcb45a0a485e5c307e263d46c1b320ccc1",
+  "sourceLicense": "MIT",
+  "importMode": "sanitized-snapshot",
+  "destinationTree": "b857263315c80906d5bfd2ec59640487879f57da",
+  "pathCounts": {
+    "imported": 15,
+    "private-operations": 2,
+    "repository-maintenance": 3,
+    "shared-public-reference": 375
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "gitBlob": "dfe0770424b2a19faf507a501ebfc23be8f54e7b",
+      "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlob": "32131dd9b2ebfa35cbd2dfa3b8eee5f1eca82306",
+      "sha256": "8a6bb184ac7717f0f6bc135c8b82a13c8861c3f71e4e8695a7e24917b7d7d7ea",
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlob": "f4873c2116435bd7bb58afdb5fddc835397e49dc",
+      "sha256": "7a26108bff9a3301f0ed8fd0697f07134c7ed863d36572885ee37229c88ba29d",
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlob": "df8ea6584c9fe790ba5d7d2ec1832e375522fbe5",
+      "sha256": "d44d0ccdc1687170107bee2b5d3cf4cf172cb91ff83fce9e15312706930699e4",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledgebundle/Scheduling_Wizard_GPT_System_Instructions.txt",
+      "gitBlob": "734666e7a42e2850f1872e0fc3d1c09a68237029",
+      "sha256": "275213a20ec60722feb67ef8f2bd29fa40cf553e625670a81f759d9ae79df479",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledgebundle/dataLedger_archive_v2.txt",
+      "gitBlob": "2cb340bc7e97f501d00b3f26dc628e6d901bd1b7",
+      "sha256": "ef7c08dc59db1356fbe9ec3f5e68e86f1a90d11a083bd7cb7e3726abd4262b3c",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledgebundle/dataLedger_ideation_v2.txt",
+      "gitBlob": "622eab2f2c183bfd8b7642c96f9b9b65a4fe8b36",
+      "sha256": "2716b50423f97985f7821d2057cdab2438fdbbfadb1af4bd6f92cd3962e3751d",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledgebundle/dataLedger_narrative_v2.txt",
+      "gitBlob": "6430e40e96d1943e2abe92903a9c00fe7bece954",
+      "sha256": "b3725e0d2e1e66380257a5b6446224d4d937ab0d0e1d0f0e78b3e91bbfdfade4",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledgebundle/dataLedger_parameters_v2.txt",
+      "gitBlob": "68f734039110a59ccd32ee3fd6b8c8ce57370d03",
+      "sha256": "a288a6338d70caa2361a18cb2579d76c83cc526c72567353bebb355e977ecc71",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledgebundle/dataLedger_persona_v2.txt",
+      "gitBlob": "d599a85892e2d77b1dc2464bc6c7e06fb6bd42a5",
+      "sha256": "727d71854c4512a7c76e8441427da4c5c429aaa7077f0816dba411ce9837e11a",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledgebundle/dataLedger_processing_v2.txt",
+      "gitBlob": "74f7248ffdb927e414cc6ab8fd554d8d8cd4570d",
+      "sha256": "1dec4fa625f097b4c432dbaa4058955786dd5412cc031ddff57dfd3e5cbe60b5",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledgebundle/dataLedger_registry_v2.txt",
+      "gitBlob": "ba2f463c4824fd397a6d3c07544ca44c3ceee157",
+      "sha256": "3729f2b2efa9b88b4d2ab6cc23c34e3bf8cc1caa0eb9c1257e0ad9ea053d84a8",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledgebundle/dataLedger_system_v2.txt",
+      "gitBlob": "9d9cc42a75ecc9c980eb75e6308d9d2f9998ef66",
+      "sha256": "5614a6453ca361a605b0f23ea636e9506a1a209440437761a6bb921c89dcc7fb",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledgebundle/gleefully_schedulingwizard_knowledgebundle.zip",
+      "gitBlob": "7803fcbfc0c78b66dd09e14dcbd36bc2334f50b0",
+      "sha256": "d8fdb6d74c78029efad498d6e5e619f2867f918ee13a416c0a3838a7cbf4607d",
+      "mode": "100644"
+    },
+    {
+      "path": "prompts/scheduling_wizard_gpt_system_instructions.md",
+      "gitBlob": "734666e7a42e2850f1872e0fc3d1c09a68237029",
+      "sha256": "275213a20ec60722feb67ef8f2bd29fa40cf553e625670a81f759d9ae79df479",
+      "mode": "100644"
+    }
+  ]
+}

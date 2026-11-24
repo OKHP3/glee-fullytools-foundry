@@ -1,0 +1,59 @@
+{
+  "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt04-travelers-guide",
+  "sourceBranch": "main",
+  "sourceCommit": "28f7342723f55b10d194c63c4ce18260ad086d1e",
+  "sourceTree": "9bc331f8c0a50798d4e136c6de92e98784e86b23",
+  "sourceLicense": "MIT",
+  "importMode": "sanitized-snapshot",
+  "destinationTree": "9a5fe174a41e9789c8b0648c7d186959fad0e9d7",
+  "pathCounts": {
+    "imported": 7,
+    "private-operations": 2,
+    "repository-maintenance": 3,
+    "shared-public-reference": 375
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "gitBlob": "dfe0770424b2a19faf507a501ebfc23be8f54e7b",
+      "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlob": "ce9e029fcaa9feaadc0cbb908bf9a214670cc5eb",
+      "sha256": "c15aec995bf787c174a62d1be99dd7865cf6b5617ee5a7cab7a5bc18b4cd32af",
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlob": "f4873c2116435bd7bb58afdb5fddc835397e49dc",
+      "sha256": "7a26108bff9a3301f0ed8fd0697f07134c7ed863d36572885ee37229c88ba29d",
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlob": "a95f0d4482ec6753d82d65abef74bb7425829a77",
+      "sha256": "9af5e5024b0479b9b34fccb162ae4ff1f7202bd95264631eb9b16748e44bcdbd",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/04-glee-fully-travelers-guide-build.md",
+      "gitBlob": "108a29cc285f774697f2efab31868241a61a5f36",
+      "sha256": "953fb7ad30db8e92a09c1c5f16e0a04a19b252f7b57feaf5df39044b190a9c0d",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/04-glee-fully-travelers-guide-ideation.md",
+      "gitBlob": "641034ceaeaece75fa1db4f33a605dfd42246f1c",
+      "sha256": "577d050334fb6e4c604be889d288ef8e7499694bed0589b48806dc04db76b0d0",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/04-glee-fully-travelers-guide-instructions.md",
+      "gitBlob": "55e08e550795166bb32d8d36959a57601846aa6d",
+      "sha256": "63a8841c4f9331c82395f2f22436a9f6be43bf0e723a20148212d7cb3c625d95",
+      "mode": "100644"
+    }
+  ]
+}

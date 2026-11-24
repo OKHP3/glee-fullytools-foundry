@@ -1,0 +1,11 @@
+# PME YAML for Dreamland Journeys
+functions:
+  - id: WishboardEntryCreator
+    trigger: "Add a dream destination"
+    description: "Create and store new dream trip entries with themes, notes, and seasons"
+  - id: DreamThemeOrganizer
+    trigger: "Group by theme"
+    description: "Categorize dream trips into themed collections like Wine Escapes or Volcano Hunts"
+  - id: BudgetAndTimingEstimator
+    trigger: "Estimate trip cost and time window"
+    description: "Add budgets, timelines, and goal milestones to dream entries"

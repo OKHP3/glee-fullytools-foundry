@@ -1,0 +1,68 @@
+{
+  "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt06-healthy-bee-ing",
+  "sourceBranch": "main",
+  "sourceCommit": "5ab2c3378bc15e6a0bafa931ad5fb1e06dbf8685",
+  "sourceTree": "ec5ba0e6ac71ed71b0b64c8330e61b6fbf18fb2a",
+  "sourceLicense": "MIT",
+  "importMode": "sanitized-snapshot",
+  "destinationTree": "c4ddcc176f54e7a5fd2b1d5b9e1d923e0f2d188a",
+  "pathCounts": {
+    "imported": 7,
+    "private-operations": 1,
+    "redacted": 1,
+    "repository-maintenance": 3,
+    "shared-public-reference": 375
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "gitBlob": "dfe0770424b2a19faf507a501ebfc23be8f54e7b",
+      "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlob": "6c99184a857414b0092963ac30089778a2e44a34",
+      "sha256": "a6422929e272db3bd4462a87dc2e9a4d46115f2bbe4d4ad6bc8c523678b9b4b7",
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlob": "f4873c2116435bd7bb58afdb5fddc835397e49dc",
+      "sha256": "7a26108bff9a3301f0ed8fd0697f07134c7ed863d36572885ee37229c88ba29d",
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlob": "5a9d871786bac692450bbf82a2faf6fba2efcb05",
+      "sha256": "be734817cfbb46146ef9f6e1e4f84647fc9417bc4148a58c8305a5a4e3f08b86",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/06-glee-fully-healthy-bee-ing_build.md",
+      "gitBlob": "7476fedf3ba215227b56279263bc6c6b551f7702",
+      "sha256": "f9a9fa179ecfc341762d39749cf0aa2ee7cda1d63eb79ead3e4414df07a93cda",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/06-glee-fully-healthy-bee-ing_ideation.md",
+      "gitBlob": "90f8033ec44c5d023e4d694a0bec7a73f419b993",
+      "sha256": "54fc0cbd4acae243b7e5adc312ed1458061c2564c9655f8086a85d7a8fbfb0af",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/06-glee-fully-healthy-bee-ing_instructions.md",
+      "gitBlob": "c97f1c12a71d5eac1d578c0ef314aad4043aa1d9",
+      "sha256": "1c4c374bc7831dc0612ea298d476207b8c49688f0967e125d51fe09aa991cbb3",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/06-glee-fully-healthy-bee-ing_pulsebook_20250901.md",
+      "gitBlob": "2cdd1196ec9d337ce9c2a3498fac9c6539641a4b",
+      "sha256": "047be14e07840ca916391f873dde6bd40618a950688dca1887f6df1a75942622",
+      "mode": "100644",
+      "sourceGitBlob": "742eea37869067a3e5ecb099998cff816f82e5c5",
+      "redaction": "Retained product descriptions, conversation starters, goals and sibling roles. Omitted private deployment and operational records."
+    }
+  ]
+}

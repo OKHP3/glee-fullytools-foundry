@@ -1,0 +1,62 @@
+{
+  "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt02g-bag-nabbit",
+  "sourceBranch": "main",
+  "sourceCommit": "53ba7b397ee226b3bb712802f811ec31bf6d2bd2",
+  "sourceTree": "165ad03b356b3fbdd2703ef04e27985057aa3dd2",
+  "sourceLicense": "MIT",
+  "importMode": "sanitized-snapshot",
+  "destinationTree": "19b5cb9b0ba7457dfcf9c669ac8dcde6520a68f7",
+  "pathCounts": {
+    "imported": 6,
+    "private-operations": 3,
+    "redacted": 1,
+    "repository-maintenance": 2,
+    "shared-public-reference": 375
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "gitBlob": "dfe0770424b2a19faf507a501ebfc23be8f54e7b",
+      "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlob": "7a60b85e148f80966a550e5ab6a762a907c69ca6",
+      "sha256": "862263fa1f46c20f0d1e4dac5ffcc75abd55c08211b2c3864c5f8764b9d87793",
+      "mode": "100644"
+    },
+    {
+      "path": "AGENTS.md",
+      "gitBlob": "10853f852e33e500c0073a0a78f4a18b3a912b8a",
+      "sha256": "4c1c803314395ac9e57b0b676e1e69f26b30125cb6e399a70c991daf43cd10fc",
+      "mode": "100644"
+    },
+    {
+      "path": "CLAUDE.md",
+      "gitBlob": "d4977842361826ea3827a982e2e5cb71587e47b2",
+      "sha256": "efccbf34640771adaa2c3726463046bde12f729c21c25ac09edf332074680991",
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlob": "f4873c2116435bd7bb58afdb5fddc835397e49dc",
+      "sha256": "7a26108bff9a3301f0ed8fd0697f07134c7ed863d36572885ee37229c88ba29d",
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlob": "d89bcccc12d388e540b43fed024b44b6f4981f83",
+      "sha256": "354071280b5989d1f09eeca101002bd2b1612928dc4631cee156ed5f43de5af2",
+      "mode": "100644"
+    },
+    {
+      "path": "prompts/02g-glee–fully-bag-nabbit_prompts_v1.yaml",
+      "gitBlob": "f10062fc907318afd138e4fbb4efc279fb3d8164",
+      "sha256": "09d3c4f9c356ffc3bdf0d1bb87fdccdc6c7af462f28a9d2c9071f879506284a7",
+      "mode": "100644",
+      "sourceGitBlob": "4dc292245a4536eef5d15cd06007baa6b0c7769d",
+      "redaction": "Omitted the internal workflow reference."
+    }
+  ]
+}

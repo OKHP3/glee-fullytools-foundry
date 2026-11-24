@@ -1,0 +1,52 @@
+{
+  "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt01f-career-seeker",
+  "sourceBranch": "main",
+  "sourceCommit": "9ab470ea0ca6d4a25808fdbd4a76e13832cfe3ec",
+  "sourceTree": "877a47192582e21cd937edd41282dd271538b9dc",
+  "sourceLicense": "MIT",
+  "importMode": "sanitized-snapshot",
+  "destinationTree": "8bb04d802afa2ce07887bb4a494c1db350e9c87b",
+  "pathCounts": {
+    "imported": 6,
+    "repository-maintenance": 2,
+    "shared-public-reference": 375
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "gitBlob": "dfe0770424b2a19faf507a501ebfc23be8f54e7b",
+      "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlob": "a4cc9e7dcc43aab139d22f22d69b01a059567e8b",
+      "sha256": "7ca257adab3627643fbf8c421bbf247b980a482b2b9750004a9555a44db791e2",
+      "mode": "100644"
+    },
+    {
+      "path": "AGENTS.md",
+      "gitBlob": "f218a8f7413852fdb94f7dc90f489cd75ed40f48",
+      "sha256": "899c143640ee25fbb2157b6ea76ed2f1f21d584787b1006119a746b6dfd0a3fa",
+      "mode": "100644"
+    },
+    {
+      "path": "CLAUDE.md",
+      "gitBlob": "43c994c2d3617f947bcb5adf1933e21dabe46bb5",
+      "sha256": "336cc4fbf19beaada7ccf9986414fa91851a8d7a07dfb3ccbe800a69eed0ab49",
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlob": "f4873c2116435bd7bb58afdb5fddc835397e49dc",
+      "sha256": "7a26108bff9a3301f0ed8fd0697f07134c7ed863d36572885ee37229c88ba29d",
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlob": "2273472ef38bf436fd140ca2352b421afc9ee63c",
+      "sha256": "422a0fa2822f0a09e218028167390a0496b7d8f23805d7f6c822a466cf776632",
+      "mode": "100644"
+    }
+  ]
+}

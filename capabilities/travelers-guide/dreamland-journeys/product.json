@@ -1,0 +1,95 @@
+{
+  "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt04d-dreamland-journeys",
+  "sourceBranch": "main",
+  "sourceCommit": "d0b82c09e7b9e7878feca39ea89d14e9c6dd1d1e",
+  "sourceTree": "b3a3e076c98dd7dc13f036c49ec16e37519ec1c4",
+  "sourceLicense": "MIT",
+  "importMode": "sanitized-snapshot",
+  "destinationTree": "8cd063738d1b3dad71b24f3eae602acb8a80dd95",
+  "pathCounts": {
+    "imported": 13,
+    "private-operations": 1,
+    "repository-maintenance": 2,
+    "shared-public-reference": 126
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "gitBlob": "dfe0770424b2a19faf507a501ebfc23be8f54e7b",
+      "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlob": "c0fd1788869f96db781dd756262fbe320824f170",
+      "sha256": "338fd8f1f48b20865ef1bfd2a1d9ff638450444f2e6ab6f01c46ef904c5e6ea5",
+      "mode": "100644"
+    },
+    {
+      "path": "AGENTS.md",
+      "gitBlob": "34e1cb2733a88476dcc2ce019e834cc507ae2975",
+      "sha256": "705da789ac2ecb06c7e96b8873b4cc901fc5b69db1424f1b8940a9ce74a94a67",
+      "mode": "100644"
+    },
+    {
+      "path": "CLAUDE.md",
+      "gitBlob": "43c994c2d3617f947bcb5adf1933e21dabe46bb5",
+      "sha256": "336cc4fbf19beaada7ccf9986414fa91851a8d7a07dfb3ccbe800a69eed0ab49",
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlob": "f4873c2116435bd7bb58afdb5fddc835397e49dc",
+      "sha256": "7a26108bff9a3301f0ed8fd0697f07134c7ed863d36572885ee37229c88ba29d",
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlob": "45bf4b42ddbb8da0cf69c095a44b091f70a92dbe",
+      "sha256": "5633b6571c7869f20248b362c34ff9125d8cff43aa5b929b48d70e245468a1c1",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/dreamland_journeys_toolette_summary.md",
+      "gitBlob": "00e746e09e95de5544d7d501c226d04d3a869985",
+      "sha256": "67c19471880e255410dcd33572d896b71dcbda23748501a21d2635c16c58e7d0",
+      "mode": "100644"
+    },
+    {
+      "path": "prompts/dreamland_journeys_instructions.md",
+      "gitBlob": "c6c4ba14605ef1d226caa6ed478000133f641947",
+      "sha256": "4cccda48c085f3592a86d3a224ea12d142d354999f6c52486515263979f99d2e",
+      "mode": "100644"
+    },
+    {
+      "path": "prompts/reversedreampromptbank.md",
+      "gitBlob": "e25a3b568c97d4b3b636060f8064c878ac7c7464",
+      "sha256": "96ed5d58b98a38e489a48b03e1d30f6ab1f783e1add59fdb3fd0e846ced21d19",
+      "mode": "100644"
+    },
+    {
+      "path": "references/dreammood_tags.csv",
+      "gitBlob": "96fff9a8ecfd10fbbf176c93036e7304973b3607",
+      "sha256": "b7031332b7834e996aa39b3193541751526d7da5f651bdc5af9125dfff449dca",
+      "mode": "100644"
+    },
+    {
+      "path": "references/wishboard_moodboards.md",
+      "gitBlob": "5db68714192935722e7311835a3485ecbe8e0cf1",
+      "sha256": "48a1c97e94820b2b894e169dc1cba47174da3010d89475ad6e2b153a8b3e9a28",
+      "mode": "100644"
+    },
+    {
+      "path": "specifications/dreamland_journeys_pme.yaml",
+      "gitBlob": "1e932a6a94542eddf8454e1f27b519ff181a0abd",
+      "sha256": "03ce3444ac8578b23fe979bfddcbe02a59041782e7dd81f58a060621c5606ce0",
+      "mode": "100644"
+    },
+    {
+      "path": "templates/status_snapshot_template.md",
+      "gitBlob": "ef6487c9867ec344c338e4b3b77414277da922c8",
+      "sha256": "864937e5146bc66e0bc1db786afe584c7134526697184089c52dc76b79be35c3",
+      "mode": "100644"
+    }
+  ]
+}

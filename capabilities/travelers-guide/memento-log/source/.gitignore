@@ -1,0 +1,7 @@
+# Local Python caches and compiled bytecode
+__pycache__/
+*.py[cod]
+
+# Local test and tool workspaces
+.pytest_cache/
+.coverage

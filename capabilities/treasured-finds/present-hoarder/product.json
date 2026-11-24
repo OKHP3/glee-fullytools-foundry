@@ -1,0 +1,50 @@
+{
+  "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt02c-present-hoarder",
+  "sourceBranch": "main",
+  "sourceCommit": "e1cd1e968d49e8ce6e559011f28369a740b68adb",
+  "sourceTree": "42279d14e189d350bed83a04d4ea8f9976fba5a8",
+  "sourceLicense": "MIT",
+  "importMode": "sanitized-snapshot",
+  "destinationTree": "5082513802fd51ab7d45c952070dca0ecb276df4",
+  "pathCounts": {
+    "imported": 4,
+    "private-operations": 4,
+    "redacted": 1,
+    "repository-maintenance": 3,
+    "shared-public-reference": 357
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "gitBlob": "dfe0770424b2a19faf507a501ebfc23be8f54e7b",
+      "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlob": "7f1e791d42014e467640c11c845978d2c354bb41",
+      "sha256": "200fbe41752837a2daa492653eb403f71f6f08243295cf37174660213af79cfe",
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlob": "f4873c2116435bd7bb58afdb5fddc835397e49dc",
+      "sha256": "7a26108bff9a3301f0ed8fd0697f07134c7ed863d36572885ee37229c88ba29d",
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlob": "1e24f9a7ec76429b2c6f0306b8f03f1d9956ad51",
+      "sha256": "03f8a2c50947bc33c6b8327a53e13a77ec2bd99b605c825cd2005500fbb5c867",
+      "mode": "100644"
+    },
+    {
+      "path": "prompts/02c-glee–fully-present-hoarder_prompts_v1.yaml",
+      "gitBlob": "686272f2c3893a028bf4ee8172351d325fd03794",
+      "sha256": "91ab88243adbfdcd0cb64a1610265986a453c6ebeafdd03779f66d6f95219ab9",
+      "mode": "100644",
+      "sourceGitBlob": "d5a6bb3c20ab0fd46618c406db95124d2332cea8",
+      "redaction": "Omitted the internal workflow reference."
+    }
+  ]
+}

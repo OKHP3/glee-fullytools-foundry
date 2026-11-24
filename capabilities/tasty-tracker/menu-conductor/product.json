@@ -1,0 +1,41 @@
+{
+  "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt03b-menu-conductor",
+  "sourceBranch": "main",
+  "sourceCommit": "18df9f3ba50f2c23def72a3c2176831b9bf0277e",
+  "sourceTree": "70c1cc6d715ba035b8daddbaba9b024dcca47555",
+  "sourceLicense": "MIT",
+  "importMode": "sanitized-snapshot",
+  "destinationTree": "3b1519109b228329598bb3b1f72707a8c7f9b503",
+  "pathCounts": {
+    "imported": 4,
+    "private-operations": 2,
+    "repository-maintenance": 3,
+    "shared-public-reference": 375
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "gitBlob": "dfe0770424b2a19faf507a501ebfc23be8f54e7b",
+      "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlob": "a4abbec49a4c790248d07166c78479b1bd710762",
+      "sha256": "6ac5d41232ba69f311c674b6ba57ff02cc4cea1404503e834065450a04334da3",
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlob": "f4873c2116435bd7bb58afdb5fddc835397e49dc",
+      "sha256": "7a26108bff9a3301f0ed8fd0697f07134c7ed863d36572885ee37229c88ba29d",
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlob": "37c8ec42658f5424fc5749a001367c388dcf5317",
+      "sha256": "7e4e38567f4a9dae0247eea7dff2c0392d6c2b150ceb87c0968308c80fb29bb4",
+      "mode": "100644"
+    }
+  ]
+}

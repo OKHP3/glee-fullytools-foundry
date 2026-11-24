@@ -1,0 +1,11 @@
+# Python-generated files
+__pycache__/
+*.py[cod]
+
+# Local test and tool output
+.pytest_cache/
+.coverage
+htmlcov/
+
+# macOS metadata
+.DS_Store

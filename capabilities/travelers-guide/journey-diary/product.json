@@ -1,0 +1,53 @@
+{
+  "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt04a-journey-diary",
+  "sourceBranch": "main",
+  "sourceCommit": "874112d2e08164492fa5cc43ce49cc40dd091bad",
+  "sourceTree": "0c0f6554fe7ef4b6f64403bc9f60da3c2b77d5bb",
+  "sourceLicense": "MIT",
+  "importMode": "sanitized-snapshot",
+  "destinationTree": "c82688c2dc7e9bea5977b34aa2fcda2dea6e0cbe",
+  "pathCounts": {
+    "imported": 6,
+    "private-operations": 1,
+    "repository-maintenance": 2,
+    "shared-public-reference": 375
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "gitBlob": "dfe0770424b2a19faf507a501ebfc23be8f54e7b",
+      "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlob": "c136fdc4fa6807aa12da33a4c183399aa79b431f",
+      "sha256": "11dd688db374ec11d2cacf9a43eade1b254e2fd8bf099cd0120fbffdd3d2f4ea",
+      "mode": "100644"
+    },
+    {
+      "path": "AGENTS.md",
+      "gitBlob": "ea8f63e1238448bdbbf9ed6a5fa04678a15c6080",
+      "sha256": "aa47bdfc824e9de00857d321a1107b487d4b6b482fe4d6f92af8d03a7da44c9f",
+      "mode": "100644"
+    },
+    {
+      "path": "CLAUDE.md",
+      "gitBlob": "70dced0a61791c40bb8109b63941f07795f1072d",
+      "sha256": "f5839945a14e5974fc51cc14e6b29e487c20c258abe4dfd9f0aa70522b1220f1",
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlob": "f4873c2116435bd7bb58afdb5fddc835397e49dc",
+      "sha256": "7a26108bff9a3301f0ed8fd0697f07134c7ed863d36572885ee37229c88ba29d",
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlob": "a48bb2e1cf08a84d8bf70c0cafa4f7c8ecb6e064",
+      "sha256": "ed774aea04e79597fa49c06fc41c329b05ec4ca40b622a19b3825988f47bdab5",
+      "mode": "100644"
+    }
+  ]
+}
