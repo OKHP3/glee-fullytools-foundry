@@ -1,6 +1,10 @@
 # Glee-fullyTools-FoundRy — Replit Project
 
-Current direction, September 27, 2026: build portable skills and compose host-specific plugins/connectors; preserve GPTs as migration sources. Read [the conversion workflow](docs/application/portable-capabilities.md) and [product subtree contract](products/README.md). Native adapter implementation, child imports and host synchronization require their own evidence.
+Browse the former GPT projects in the [capability directory](capabilities/README.md).
+Each capability's `source/` directory preserves the original tracked files.
+Use the [conversion workflow](docs/application/portable-capabilities.md) for
+skills and adapters and the [migration contract](products/README.md) for
+source verification. Replit synchronization requires its own evidence.
 
 ## Purpose
 
@@ -58,7 +62,7 @@ reviews or bounded tasks. Do not change paid settings or launch duplicate jobs.
 ```
 OKHP3/OverKill-Hill
   → Glee-fullyTools-FoundRy  (this repo)
-    → Glee-fully child repositories (glee-fully-gpt00-* through glee-fully-gpt07-*)
+    → capabilities/ (Personalizable Tools, seven Tool families and their Tool-ettes)
 ```
 
 ## Ecosystem Map
@@ -85,7 +89,8 @@ OKHP3/OverKill-Hill
 | `evaluation/` | GPT PulseBook evaluation rubrics |
 | `inventory/` | Full catalog of Toolbox Tools and Tool-ettes |
 | `snapshots/` | Point-in-time ledger and template snapshots (dated) |
-| `web-templates/` | Webpage template assets (for child repo sites — NOT deployed here) |
+| `capabilities/` | Former GPT sources and their import receipts |
+| `web-templates/` | Historical child-site template assets |
 | `.agents/skills/` | Repository-local Agent Skills, references, tests, and evaluation evidence |
 | `skills/` | Explicit publication mirror for the promotion package maintained here |
 

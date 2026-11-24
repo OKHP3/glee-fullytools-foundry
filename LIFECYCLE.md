@@ -37,7 +37,7 @@
 
 ---
 
-## Phase tracking
+## Historical phase plan
 
 | Phase | Description | Status |
 |---|---|---|
@@ -49,7 +49,15 @@ See `docs/agent-skill-conversion-strategy.md` for full phase rationale.
 
 ---
 
-## Known lifecycle dependencies
+## Current source ownership
+
+Glee-fully capability work now belongs in the [FoundRy capability directory](capabilities/README.md).
+The [migration register](products/migration-map.json) records the imported
+source trees. Source transfer and retirement of a GitHub repository are
+separate from authoring, evaluating and releasing a portable skill.
+The public storefront maintains its own catalog and launch destinations.
+
+## Historical lifecycle dependencies
 
 - Child repositories (`glee-fully-gpt00-*` through `glee-fully-gpt07-*`) depend on canonical material produced here.
 - `OKHP3/OverKill-Hill-FoundRy` is the parent governance layer.

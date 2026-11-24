@@ -13,4 +13,4 @@ Keep track of everyday wellness routines, from symptom notes and meals to medica
 | [Moody Log](moody-log/) | Journal mood, hydration and physical changes to spot patterns over time. |
 | [Maven Wise](maven-wise/) | Track midlife changes and record how everyday routines affect well-being. |
 
-[All capabilities](../) · [Browse source files](source/) · [Catalog entry](https://github.com/OKHP3/glee-fullytools-foundry/blob/main/inventory/inventory-of-toolbox-tools-and-tool-ettes.md#tool--branch-06--glee-fully-healthy-bee-ing) · [Import receipt](product.json) · [Original revision (access required)](https://github.com/OKHP3/glee-fully-gpt06-healthy-bee-ing/tree/5ab2c3378bc15e6a0bafa931ad5fb1e06dbf8685)
+[All capabilities](../) · [Browse source files](source/) · [Catalog entry](https://github.com/OKHP3/glee-fullytools-foundry/blob/main/inventory/inventory-of-toolbox-tools-and-tool-ettes.md#tool--branch-06--glee-fully-healthy-bee-ing) · [Import receipt](product.json)

@@ -4,15 +4,2226 @@
   "sourceCommit": "30f2415862d8fc5a106cc10e0afea35429501d27",
   "sourceTree": "0424015c765105eef1db69458d994a585681102d",
   "sourceLicense": "MIT",
-  "importMode": "sanitized-snapshot",
-  "destinationTree": "4747f2c37076d056f3e9bff7644f5dbe638961b2",
+  "importMode": "exact-tree-snapshot",
+  "destinationTree": "0424015c765105eef1db69458d994a585681102d",
+  "importCommit": "1c95bd8ccf4a6a93c366b8707cb1d0ff9c828717",
+  "initialImport": {
+    "commit": "5a4de290c044d58ebd0a021a9a074de9f6ca60fd",
+    "receipt": "capabilities/organized-life/giftlist-helper/product.json",
+    "mode": "sanitized-snapshot"
+  },
   "pathCounts": {
-    "imported": 16,
-    "private-operations": 2,
-    "repository-maintenance": 3,
-    "shared-public-reference": 375
+    "imported": 396
   },
   "files": [
+    {
+      "path": ".agents/prompts/gpt-project-onboarding.md",
+      "gitBlob": "41a824d69b3ce5c387e85b553c822b13ab797704",
+      "sha256": "730a099adfa14fa414742ff55d30cbd642a23eb0522a5e1d2dd9af15e62c46a9",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/prompts/gpt-to-agent-skill-migration.md",
+      "gitBlob": "73be21a0b465bfb5b5c48eacc03cc8d58ec56906",
+      "sha256": "8e7da96b8cb94d58402e6b48e90c7003452fcd7111fb557795a14b42bf85c8a8",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/prompts/project-context-bootstrap.md",
+      "gitBlob": "3ce0cdb486188846fb0d5c9beea5007add61b1b3",
+      "sha256": "5a6d7f57c35c599db4a0979bd7216b31bd9e79c71937309b604abf924d0e1663",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/.catalog-meta.json",
+      "gitBlob": "8a2ad1571a535f59e1995476cc39ef222332400b",
+      "sha256": "d3c3c05d2a9e5dd64065c8d3360b890fde89c99ee7da07ffad9d1cdddc2ea264",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/README.md",
+      "gitBlob": "557bf9cab704b43d56d5268b24ed1385ca1f4aa6",
+      "sha256": "6fcd30bf3abcb0165b7842f61981f5679e346e06146a5d647de5314690732259",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/glee-fully-repo-standardizer/SKILL.md",
+      "gitBlob": "6dba4d470cc95683fe28b6c7e01b68ee158c44f3",
+      "sha256": "9e5962216cf15b18ad936fb3726e47ebe37b923172f43d558ef12ddea07d38bb",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/glee-fully-repo-standardizer/assets/glee-fully-brand.json",
+      "gitBlob": "c5e74963fc7280177a9570b37a6d3f5c1b1ec86f",
+      "sha256": "7ee89f60951856baf20e260bcae930cf9033b2d506ffe7c53d4ca4221faf1a42",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/glee-fully-repo-standardizer/scripts/scaffold.py",
+      "gitBlob": "760f88e56231c5aee92efd1341ca318195db000e",
+      "sha256": "3684ca0fe401d1f706d3a097b7c9eb0d463744588255e11f22b73aa35c48df5b",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-artifact-validation/SKILL.md",
+      "gitBlob": "869b3f1df9b7bce18216b1c31b51cef47f271dd2",
+      "sha256": "6c8692beb0a3a8c8a635f03dd5cd3708aa4198a9140ee77b55f4c35a13a3a5ff",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-artifact-validation/agents/openai.yaml",
+      "gitBlob": "ab9607e1b0da955f964cff223cc69fce602b6a6f",
+      "sha256": "39a5f14c7ecca4102865a3f42b31c30dde5432fe3251d73f74a6024e03d70c78",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-artifact-validation/evals/evals.json",
+      "gitBlob": "ee7da3631411dbec587438b3558db16ba5e0a3f1",
+      "sha256": "cd70fa48a9ed97eca6c4674fb13750ad8f45b3ef0fc0e216c97af3cb1e395d56",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-artifact-validation/promotion-manifest.json",
+      "gitBlob": "995435393cc6a5a93b111ca743411d005f9309f5",
+      "sha256": "54fce59342a9ccae97826d73aadda9e357ce982f2c4f6d749aecac5eb043cf3f",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-as-is-process-capture/README.md",
+      "gitBlob": "dce076ac56cd34b070ea92868abcf786d8af77c9",
+      "sha256": "85adc45ac362366089d7db840ed5fe8ea1781efd19796b8fc09fb0ddb0d9fcc1",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-as-is-process-capture/SKILL.md",
+      "gitBlob": "9b101f147e6105eabfc34c4bb8d80afc43e03b43",
+      "sha256": "34210ee1cbcc11a3f036bd6bca286ef2491b875937276e09431c384ed5e2f607",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-as-is-process-capture/assets/fixtures/as-is-process-example.yaml",
+      "gitBlob": "dccf80517782fbeab313540e3a12b0dc43e446ed",
+      "sha256": "7c078adc5c6550ccaa3d2589c0b41d7128828bc7f42a02cd9b76823251346020",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-as-is-process-capture/package.json",
+      "gitBlob": "f5d1efc462e0f961eebef018c5c78b31f4fb06c2",
+      "sha256": "52ce81cc636a560ad21f32aec2cbcb6bd4fe7e953eef6189ef7e87a035889ca1",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-as-is-process-capture/references/as-is-capture-rules.md",
+      "gitBlob": "a0e6e454a0a3e240e6ed6a8959b8134556c5827e",
+      "sha256": "addfac68689565b09f4e67027d572fc0d02ddd53229f745209fb4801817d08ba",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-as-is-process-capture/scripts/assign-step-ids.mjs",
+      "gitBlob": "c833511d89182f29293ac5dc8714d3c0911ebf99",
+      "sha256": "0f6a42ad9caf5cf80d9d3578e559d60fd4b367b8b4511d385bce09e05a876b04",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-as-is-process-capture/tests/validate-skill.test.mjs",
+      "gitBlob": "8f7bf0266e02edbaa199c2481cc659fe0576c480",
+      "sha256": "fcadda8e0f27806fb0d0a7dd19c4641af360376e424120ef764dcb9ecc8ad4e6",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-brand-style-registry/SKILL.md",
+      "gitBlob": "7dadd4d6d160a2b5e813d8d827a1d23c0b0bfce5",
+      "sha256": "0cef4be8d04dc4dcce8ab2a63384e4c4f3209e6b644ae8c0a0664f336d319563",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-brand-style-registry/agents/openai.yaml",
+      "gitBlob": "5fc5c92d1dba5ebe986124f85d3c08b8504c0ee6",
+      "sha256": "3141df24ccddd6d29773d5de3de6fbe2ae57da0dc479fcc6b37552e01c33809f",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-brand-style-registry/assets/profile-seeds/askjamie.yaml",
+      "gitBlob": "9647e5830189035e837c61361695d9df9e86f55e",
+      "sha256": "c191b6a2ef65406937f907b2440eefd7ac5ad2ef562cb9d5ebe6709e432c90f7",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-brand-style-registry/assets/profile-seeds/glee-fully.yaml",
+      "gitBlob": "74fc346835e5b9c37f500501be4f1c643444843e",
+      "sha256": "2bb78dabc121c0b3bc8bd6e09878236db47337acc7b47aa1d007fef0fa5925ac",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-brand-style-registry/assets/profile-seeds/overkill-hill.yaml",
+      "gitBlob": "9032cb1d09c21e7840c192b54c82fad6272a32b9",
+      "sha256": "1d67819bcd520c7985ce78791225aa23368534c531f45086a61d24f83e1c70d9",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-brand-style-registry/assets/specialization-seeds/README.md",
+      "gitBlob": "fcb1bcf5ccef9cff969984d56f37c2da9fd31b4e",
+      "sha256": "e97040eafbd3c2977350fc4b13a0bd64d489fa2d989662d43df0c9f7928371b8",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-brand-style-registry/assets/specialization-seeds/okhp3-askjamie-brand/SKILL.md.template",
+      "gitBlob": "bc9185e9e1f43d5f707d5a3a2dd88389f23b5ec1",
+      "sha256": "4a74d73b8323e98608eb7d608698d57929004be4ef345e8da58953aaee004579",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-brand-style-registry/assets/specialization-seeds/okhp3-askjamie-brand/agents/openai.yaml",
+      "gitBlob": "416fdfdd9dd098eb97a710c555587eef625a26f5",
+      "sha256": "0905b142f62d2b15038878b7bab0172172625527d3c98085ca1c31ba22921858",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-brand-style-registry/assets/specialization-seeds/okhp3-glee-fully-brand/SKILL.md.template",
+      "gitBlob": "b330e0eea9db2bb30e40e961119fdb19154399ad",
+      "sha256": "f52ec29d06fee18d8942deb432f484c584b255052c6758ecd0d963b4ecdc53a3",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-brand-style-registry/assets/specialization-seeds/okhp3-glee-fully-brand/agents/openai.yaml",
+      "gitBlob": "ca8c3de21948faddc7ea63a1d106279c9814f5e4",
+      "sha256": "e06a385f73bc9c79f6b785191ebdc7e1015af647a41efe96af428b60e23225a0",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-brand-style-registry/assets/specialization-seeds/okhp3-overkill-hill-brand/SKILL.md.template",
+      "gitBlob": "e93078325a118a3c9bffe23e715a7b515501053e",
+      "sha256": "a05673b1b8f52f699f2d16e8442649a9166b41ad48c2668930d9cfb29e95e37b",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-brand-style-registry/assets/specialization-seeds/okhp3-overkill-hill-brand/agents/openai.yaml",
+      "gitBlob": "5190ea861cef82afd99731a9adeb47bc9ffc3d46",
+      "sha256": "108d401636baa30b9e4c028aea12e89cb83617c253c7b1d01565d2b4cd183ecf",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-brand-style-registry/assets/style-library.example.yaml",
+      "gitBlob": "92ea4285291da382ef2022dd68d2b5cdf05ebdd6",
+      "sha256": "ca28516279143873334c6bf9d329be847fe3b541996dff57634f422fdf685f92",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-brand-style-registry/evals/evals.json",
+      "gitBlob": "afb549047ffc8cc3c67dc1b175ffb108caca538d",
+      "sha256": "6be9efbdbff262e2e4047e2628703a7b51748043b2db25c59603f519b66fca35",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-brand-style-registry/references/application-playbook.md",
+      "gitBlob": "dc00dc2396167cca85c35fa0b434b17243cce267",
+      "sha256": "b0ac5c0a627087b2e7dd80e1bfae19db629af5f827e426ac24d8e85e75e61e2d",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-brand-style-registry/references/source-sampling.md",
+      "gitBlob": "6f06a7c17dd88589b16e02a90b713dee8fbf8e23",
+      "sha256": "32b1a2fca60833c605468a08dc3800fe6fce5cae0542913628abd3c6c9f11864",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-brand-style-registry/references/style-profile-schema.md",
+      "gitBlob": "e0df471c354f2ac02d9ea92cdfdc5d81405c22ac",
+      "sha256": "a8471bd1f72e2dab7bde7600559532b5914ce17d65907554d92f8df7e7ceb973",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-brand-style-registry/scripts/extract_css_signals.py",
+      "gitBlob": "1bca0a4903d53baf9f3458e1fb601cea6a341bc5",
+      "sha256": "f3b0bdaa288ee8907b6af1af9b86865aacd73f8b6bc63259e09409c8602e77f6",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-capture-intake/SKILL.md",
+      "gitBlob": "31bc16a102dc09dffe0005f710c352e19c5b3481",
+      "sha256": "00d0d3125dbb653b03a04cdf2aa30c9f2547927694bc655bf49cf610c5bbac6f",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-capture-intake/agents/openai.yaml",
+      "gitBlob": "078ce465eb0708405e36711852184ea60af439f9",
+      "sha256": "c1583948fa74c9ce135c4350f413439aaef168663c4cefe0ec0cffafd634f328",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-capture-intake/evals/evals.json",
+      "gitBlob": "4bd4939328572b7bbf2871c7a7ab04a8ae6a5e70",
+      "sha256": "b3188f159c378546e6867ee03e5fb6e5e7f1c34bfaee319ec733fc1cd73b5615",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-chatgpt-project-migration/SKILL.md",
+      "gitBlob": "6cf1be31532873c50633561ca326b7dabebd11c2",
+      "sha256": "7e0a34b3f0f65af08ac2feb7d0a906739fedea6d51b06f3e7d171b88654ec2bb",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-chatgpt-project-migration/evals/evals.json",
+      "gitBlob": "d023b4e5bc8042caf92f5a459c65a5aec16e4a23",
+      "sha256": "89929684d988b863f014bdc87f9f242edca4af88e14ab75264d37a68c49d628a",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-chatgpt-project-migration/references/source-manifest-schema.md",
+      "gitBlob": "365cc151927df64b9c4b8918531c3aa94522efa5",
+      "sha256": "f3942b6d3cef429851b513dfaa2b0b195c6abda9feec6fe02531626b80b8cfbf",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-custom-gpt-builder/CHANGELOG.md",
+      "gitBlob": "8a691f0547b6e6825101c2a7cf5a6c82a923de86",
+      "sha256": "e520881e8f04dfeb7b73557d92b6ff03c76e0f021e470e6d21c386ca9f4ee228",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-custom-gpt-builder/LICENSE.md",
+      "gitBlob": "f47ea0450f9f842da1cfcc03323b7870854cb980",
+      "sha256": "acb31c331e2b7981ef2f43481978d34f46de6c06fcaf3f6ae90f426014ad9ae4",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-custom-gpt-builder/MANIFEST.md",
+      "gitBlob": "6a9d7c523ae2fb6378d5d9a6c460e44283c42446",
+      "sha256": "24abdf7c9716c1117122710f79d96b3088c4be499468a5dff64af2029b4e4c95",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-custom-gpt-builder/SKILL.md",
+      "gitBlob": "857c066d0f9f997ba9d1179225d0d28af68d803c",
+      "sha256": "8f8a9b22e802a1ba8c027b64c447c97e73952cef15822a159c3708f87f5cfd1f",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-custom-gpt-builder/evals/evals.json",
+      "gitBlob": "7aa505ccc791a96ba6852800ab5934468d613a5a",
+      "sha256": "a456c7b3b481f3510cc253306f8bb35115b5a3a71ff089659b52cf51e4e66043",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-custom-gpt-builder/references/actions-and-apps.md",
+      "gitBlob": "43c66de8c0ae50e62020979c58d0c8588f900e7d",
+      "sha256": "6265cd1bce091cff61ba3137d3761bbcbdb9352451e1ba03a6ea755ee03683ad",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-custom-gpt-builder/references/eval-and-redteam.md",
+      "gitBlob": "9cbf2168f29cd80a5573553853b44eabb3c1c532",
+      "sha256": "4104071786d33f7c37542e8274e8d58eb3a9aa7a4d3a048da59e85db556b6509",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-custom-gpt-builder/references/instruction-architecture.md",
+      "gitBlob": "c955ad2cdf56b746cdddf4c9d7cbac0b7c040aa3",
+      "sha256": "7e9aab8b860ecb0d5b1b44017cb65c7185f6256f9222863ad92c6ea615a0232b",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-custom-gpt-builder/references/knowledge-engineering.md",
+      "gitBlob": "acf63593d13f086ca05893de837c48cf88fec66c",
+      "sha256": "24a1be5ab7fc42455f934e350991082b8f904e6c6d629bcc36af9b169ffe0fb3",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-custom-gpt-builder/references/platform-comparison.md",
+      "gitBlob": "db76e670303c2118375df5d16171a72ea1eb4292",
+      "sha256": "f468df447c07a74cf69e716a430acf9dfa5d915337c2b1973a92b164aea41217",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-custom-gpt-builder/references/quality-tiers.md",
+      "gitBlob": "0d6c2cdfea40ca3cc690a8cfb057e750bbd01d87",
+      "sha256": "a30ba1c6e9ac3ed366a934fc0297605c87acb3dc31b102a53e4447e4c445e1ac",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-custom-gpt-builder/references/repo-overlay.md",
+      "gitBlob": "241a887b871325e4f263895a413f2a5b2f967046",
+      "sha256": "dfff833b3c4255458c1e0cc68bf78ed1275b30a8964f801359dfec18c3744808",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-custom-gpt-builder/references/taxonomy.md",
+      "gitBlob": "be26d106703c657e4153fee8ecb0496962f8494f",
+      "sha256": "4d1930e50046e572a8f6a9eb4696de95b579830fc3b3dd88dc5c2276a9e293b8",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-custom-gpt-readiness/SKILL.md",
+      "gitBlob": "aa17387749edf47db11bf5922dbb59438b4ffd26",
+      "sha256": "2958f965dccf56ddfed69e32d500cfd93052f306228d17ea367b254afa7f938a",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-custom-gpt-readiness/evals/evals.json",
+      "gitBlob": "24cb6de9da9d4b8d5da5f53654a786448ba23af3",
+      "sha256": "56c031a94d55d6e1585746fcbd12517f0948f3071ceb9240d5bd37462f636dc6",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-custom-gpt-readiness/references/readiness-dossier-schema.md",
+      "gitBlob": "6d68f05e5041361d7d39e760a954fc2c0896b277",
+      "sha256": "e23356c7cfec34ba09d9e37221dfa37dbb19bebcb71c728d61123a90fbadb689",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-decision-model-authoring/README.md",
+      "gitBlob": "7e4c0b1413773b5cf90a5444ee428d8744351249",
+      "sha256": "50b05350bbc18fc5f18837fee22129cbd357216c02a81e01f6bf7c33e497caab",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-decision-model-authoring/SKILL.md",
+      "gitBlob": "7d1b765667f867ba30ed3ba7bc80326f36bfa3d6",
+      "sha256": "cb4172e525c2d0d54885e9043bf4f525f8d204de2cf77042a7ca7e9f7bb063c0",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-decision-model-authoring/assets/fixtures/decision-model-example.yaml",
+      "gitBlob": "752027bfe05d03cad26af3ee0088bc129e4258cd",
+      "sha256": "a11907f430e0e1142372642b5bf5364c36458267e12e0bfab614c6d6bf4125b4",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-decision-model-authoring/package.json",
+      "gitBlob": "77dd172f0d69ef9f0dbb4d504938f65a206907b4",
+      "sha256": "89751140f768d03c1a5125fbfeae88c50efbdcdafb70188805d14f3bd0b1b467",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-decision-model-authoring/references/dmn-modeling-rules.md",
+      "gitBlob": "76eda53061854a49793ef201d983cfd9f4d52e3a",
+      "sha256": "0d800bd78055ffa6ddc0e7476a5769dbfd2a86ad6400ca1273e0e2c1e562f860",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-decision-model-authoring/scripts/validate-decision-model.mjs",
+      "gitBlob": "30a5554852948a0facdebf86ba4d33af96819e9a",
+      "sha256": "9bbca4d6dbd63b553377c0f4b6c3910683b6eed25834ad74614f04573c27e21b",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-decision-model-authoring/tests/validate-skill.test.mjs",
+      "gitBlob": "bc7051c2acb1ad4fbe8367d4a3e4d9fdd8f16ca4",
+      "sha256": "c6f38e257700888b363cdb2724c0fc6e21f0b2a338d3f8e200267c7c3c001051",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-elicitation-interviews/README.md",
+      "gitBlob": "f01344262e1e60a9210144f393a3e5428c587862",
+      "sha256": "821b37569181a3a01f2714ab7cfb484b873f180b4b94375d64509d0c69cbeb9f",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-elicitation-interviews/SKILL.md",
+      "gitBlob": "6c9e55a81ef3f1fc9d61f4813ae0d71b5b9d85ea",
+      "sha256": "e007f4f8c350a6b3ea41f6ba8172a22399dbc8937a3e6aebd9aed25d99d61173",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-elicitation-interviews/assets/fixtures/question-plan-example.yaml",
+      "gitBlob": "60339a2343363b1c07ed99778e76bd7770c6abc4",
+      "sha256": "f2156921cb97e4582615e5b586c1f2b9de4fb4cd5162bce7334c4e3bc6ce230a",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-elicitation-interviews/package.json",
+      "gitBlob": "0a7e2b0abe78b2c37b08a9f04901ca4f5a289999",
+      "sha256": "719c37451b5f6b0c4e916ad66e07bf259701c4815bb081cd4874773a05ca5731",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-elicitation-interviews/references/babok-elicitation-techniques.md",
+      "gitBlob": "0c4a155e5d13cda6218e836640dbf91cfd07b2d7",
+      "sha256": "77cb0ea3ab3bd5c8ef549ddf95b0758e512bff458ad30dd519325be38588c15d",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-elicitation-interviews/scripts/generate-question-plan.mjs",
+      "gitBlob": "6023220ff978811cfec200e9534c489e1e53e997",
+      "sha256": "f7d81171ac389c06713d8f6608cb07d637d1fc2754bff51593d8c190ce841dee",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-elicitation-interviews/tests/validate-skill.test.mjs",
+      "gitBlob": "12f89ae63b63975fe6f5839b5301d99c0107abfa",
+      "sha256": "a8ab18aec58755c4efecd16b44bd3ba77f3411774ae88da84081298415b7ea56",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-equilibrium-review/README.md",
+      "gitBlob": "73d917f35e6fe5ba2ef1911fc5b7c9a6aaa92389",
+      "sha256": "6f44a8a2ad20ec6675a5fccb29bab5a452e4da95dbb5461394f6b0d89f842c96",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-equilibrium-review/SKILL.md",
+      "gitBlob": "592558fdc4ead47785462fae22b9263be5bf29de",
+      "sha256": "24aad5cce75ca4b41e60b556b7903e4f1d0e384e0f1755ad81e5b7a9014b6ffe",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-equilibrium-review/assets/equilibrium-review-record.json",
+      "gitBlob": "e65b8758bdd22ab062c7699d063a566af36dba40",
+      "sha256": "213b1489ffbee8a119175ed26c12c56eb6aea65c955c7441f776f15bd1038a34",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-equilibrium-review/benchmarks/benchmark.json",
+      "gitBlob": "fe49bd58648d69600e2cf82220c4f9b740987208",
+      "sha256": "c6e1289c58c7b6d63419c6d876a287cca16353db3bb3565396c43116ad1a367f",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-equilibrium-review/benchmarks/evolution-review-2026-07-28.json",
+      "gitBlob": "140d538154fdbdc7fe82791bd6989d438d814762",
+      "sha256": "e44e3379d6f4a6b61e9a646e981d418bd02d60fab28c04ca92d30f925adb38be",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-equilibrium-review/evals/evals.json",
+      "gitBlob": "7a49cfcd884444c707ee29ef7af93911336a3255",
+      "sha256": "7ea92fbd6e40ce73a581a3cb42a6be4291b012bc2f4570cb2d329ae75c1f26bc",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-equilibrium-review/references/domain-adapters.md",
+      "gitBlob": "5f1b5df34127c0ad5c3c9a5c08030911faaafba3",
+      "sha256": "bf07caa2c69dae0c0768611d39a54b7ccff043b8f9a8663106b173ea0e47fe22",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-equilibrium-review/references/review-protocol.md",
+      "gitBlob": "6c2bea30418ebaa47184a402ff2dd9e48c64c106",
+      "sha256": "b02fddfc733d02a59c9db9f09f507c2be48bf032105c6078cfb16328e0802f04",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-equilibrium-review/references/role-prompts.md",
+      "gitBlob": "9a79fab13490653a73552a59947fd5911692629d",
+      "sha256": "ec70708b01f01abb6b408aa496c0c3132512a41451238879b0268c9f264a7416",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-equilibrium-review/scripts/run_equilibrium_review.py",
+      "gitBlob": "390bd47d9df2c9d85ec7c8bab1c9cd602c20ac90",
+      "sha256": "b909ca57ab7a9beab36392bc8bff738352b37e0482d5314a7db7b11e7e10ebbd",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-evidence-standard/SKILL.md",
+      "gitBlob": "f6f991c7587561e5332871dcb3506619b27c8562",
+      "sha256": "8ae8485f79e87ccd43128ed18f907bb8ab99c41f597251d1b2d6989412da6317",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-evidence-standard/agents/openai.yaml",
+      "gitBlob": "0743415f4d871a97cfc30c347d1a20100ac79db9",
+      "sha256": "adf47e698e4a316810fbb1799b80b03477326a27579c4ac2d6b940d5cc14146a",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-evidence-standard/evals/evals.json",
+      "gitBlob": "e86f206eb829aea333df4bd0cd88cd4496fa04b0",
+      "sha256": "69a3c83a561fef9bef7e51351836d9e1132028a9db20eefdd001d4c641901cc2",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-future-state-strategy/README.md",
+      "gitBlob": "b16d10cff38cedc66ffa90cb0933a786dc1e6dfc",
+      "sha256": "540b791985553967dad0984d65599354230cc2b1074bf00279dc4f5577a6c1ab",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-future-state-strategy/SKILL.md",
+      "gitBlob": "946b4939d8c9f9fe98a48c6a6bcee73b53f35dd4",
+      "sha256": "ce9c7414a1a07a915da17b26ecfea732ce3b2fee371201470ca8e51da7b17f80",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-future-state-strategy/assets/fixtures/future-state-example.yaml",
+      "gitBlob": "101629dff0ad4257b37262f50c4b456ca60cac9c",
+      "sha256": "f4b6bc3488a0d4aad38871f182590af54b688b7e5eb044582259cf77d0536961",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-future-state-strategy/package.json",
+      "gitBlob": "8193841504d760f36672a87f77d8f0c24e0694e0",
+      "sha256": "41a26d6118cf9d32a3b019d38fe35ce1baf19b467873b273c49dfe3961e4b54d",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-future-state-strategy/references/change-strategy-framework.md",
+      "gitBlob": "2dedac56658f0659b16bb70762fb495e55bbf4a2",
+      "sha256": "15dec3ae0b18d6adbd31e2c4bdd60a85df54ee1e192f0115a43f6b9f4a4db237",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-future-state-strategy/scripts/generate-future-state.mjs",
+      "gitBlob": "48222016e35590129aac995d53aba711a1f98a09",
+      "sha256": "54ed259029dc51475274ef18feedfe16629b593e48287e26b5af498cbe467107",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-future-state-strategy/tests/validate-skill.test.mjs",
+      "gitBlob": "b0da857e145cd824261e6082ce057aa3776c9778",
+      "sha256": "2f517ffe1a774c5e63281a6377d5c83f8f1c028aa168c67d51a4df0a9bad2303",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-brand/SKILL.md",
+      "gitBlob": "a04a9b1580eb053caa43c4f75010ef2550ef4496",
+      "sha256": "b858e64577812286b25c99ebd239fcba83141b0aa1da3a6afed3edf6aae2287d",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-brand/agents/openai.yaml",
+      "gitBlob": "ca8c3de21948faddc7ea63a1d106279c9814f5e4",
+      "sha256": "e06a385f73bc9c79f6b785191ebdc7e1015af647a41efe96af428b60e23225a0",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-brand/references/glee-fully.yaml",
+      "gitBlob": "74fc346835e5b9c37f500501be4f1c643444843e",
+      "sha256": "2bb78dabc121c0b3bc8bd6e09878236db47337acc7b47aa1d007fef0fa5925ac",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-chatgpt-migrate/SKILL.md",
+      "gitBlob": "188e1da28ac2e9ff3362c8843781dee37d08cdf6",
+      "sha256": "f088fa8d93a9eec9115ce3500d9816cfa77f475d0bad1e7b8264310dc59f24f2",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-chatgpt-migrate/evals/evals.json",
+      "gitBlob": "aea5360f825f0cffad83475e4030d60147de7bed",
+      "sha256": "723633616695b9c8a95f5edb0a5d85c89049b47de40f4b5aadd8d9cedd569f84",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-chatgpt-migrate/references/brand-overlay.md",
+      "gitBlob": "ccdc3b167bb6782cf70bfec6f5e03d0c6a364435",
+      "sha256": "6c6ed86dfeea5c4fb97bfe2071cadd7cef77b5db24fccb345b34d78b5c498875",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-chatgpt-migrate/references/source-manifest-schema.md",
+      "gitBlob": "365cc151927df64b9c4b8918531c3aa94522efa5",
+      "sha256": "f3942b6d3cef429851b513dfaa2b0b195c6abda9feec6fe02531626b80b8cfbf",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-extract-chatgpt/SKILL.md",
+      "gitBlob": "8d07e68bf11da7ca5548ac583b1fcdfc682a8487",
+      "sha256": "49ce720e23dec770a1d3a7e6bc04ff3c697d66fd07b36e8bf64d038ce7bec009",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-extract-chatgpt/agents/openai.yaml",
+      "gitBlob": "4daf2b85efbc676cb20f5ee139f95be5f6b08334",
+      "sha256": "de5e789d2a07d3143f47aab2639592b2eb5ec253b8191dab91a580d4cbea0df4",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-extract-chatgpt/assets/thread-extract-template.md",
+      "gitBlob": "6e526312439a5eff8ab5242dd258f61cad74b2cf",
+      "sha256": "c6d090a2bd6c3be4258d52d764949230d214c74962c499e5e4af0fd5e8cbfe68",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-extract-chatgpt/evals/benchmark.md",
+      "gitBlob": "deecacd2871b405633a649049dcda09559cd2fe0",
+      "sha256": "747c2504402cf73df821384893f81cba6e29e2bb63e05cbb64c108e099f51a28",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-extract-chatgpt/evals/evals.json",
+      "gitBlob": "027d6cc656fdbda59f715473bb8f63f2b7d59eb1",
+      "sha256": "5e02b1d6e343159a1547a3f06fc0e28df2b29813e3509b9006d47e245535ee9c",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-extract-chatgpt/evals/trigger-evals.json",
+      "gitBlob": "1869da8196dfebca1d53d8d6f6e6ef40e135981d",
+      "sha256": "395f80b857b5fe4f3c6d1c579757cb78b2e363a5036ed5008901fdb8b2b90e20",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-extract-chatgpt/references/brand-overlay.md",
+      "gitBlob": "b246d8eec68f39a9f59afa448f56ea2b6e58987a",
+      "sha256": "330caabae4f948b4131212405d955c019128d06f9406d9820ae2150183573bf2",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-extract-chatgpt/references/evidence-map.md",
+      "gitBlob": "d7fd345378a9f0ecfc094d143b8b51b491ca8338",
+      "sha256": "ac1ebf81f6b4a2e63559b1cbf90c5429ab6cdfccc4f060c760fe10f53618fed5",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-extract-chatgpt/references/extraction-contract.md",
+      "gitBlob": "971e0566abd5223392727b4fa2d3b7b9190ef6ba",
+      "sha256": "ade78d0b9a6af45e607e26e69a09043bf72696664dfaf643336d994cb9db3808",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-extract-chatgpt/references/extraction-depth-profiles.md",
+      "gitBlob": "79dfac4c5860a9a88b434fdf1f1f42b7ed55f3e3",
+      "sha256": "a76d8695a72445a45179d350bebac2e9319b90578a48a359c81ff82fe7d6b3d8",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-extract-chatgpt/references/platform-capture-patterns.md",
+      "gitBlob": "79740b0aa7747e9c0c3aa9d0af5a6dfaba9c8319",
+      "sha256": "1abe92358e4436637c7ca2ff114ac551e76398332e200d6a4505987d80563898",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-extract-chatgpt/scripts/create_thread_extract.py",
+      "gitBlob": "610a706d461cb7cf341752a78a84ca8eebbebe6a",
+      "sha256": "38fd5b0f1f159cfd17ac18896ba1f28313d595d79061984d5260779fdd8df9b6",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-extract-chatgpt/scripts/validate_package.py",
+      "gitBlob": "4b9ff34266e334a9b42cc18eaa94ec3ebcf28289",
+      "sha256": "c549bbbdc0508a6dd0bb5ff2e0f3817576194fab38f41d80b5c0b3e5f44b8527",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-extract-claude/SKILL.md",
+      "gitBlob": "d79927b8ea5febd6714f7a1bf5f69932f2fd75f6",
+      "sha256": "ab5ab507d37939c850c09a92321bbb8f5eb158f1849db540eb54bc001c7b7585",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-extract-claude/agents/openai.yaml",
+      "gitBlob": "884eed131a9c34394339893747924ddbf0eeb3ca",
+      "sha256": "452f8c687faec9893566560d5a8dbd8bb303ba78efb48c435f24de6e1ccf5564",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-extract-claude/assets/thread-extract-template.md",
+      "gitBlob": "6e526312439a5eff8ab5242dd258f61cad74b2cf",
+      "sha256": "c6d090a2bd6c3be4258d52d764949230d214c74962c499e5e4af0fd5e8cbfe68",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-extract-claude/evals/benchmark.md",
+      "gitBlob": "0796b3dc0bae13dcb59c3e81922a12f30860dac0",
+      "sha256": "5e260e1ba94cefcc7c1c164b7442f414e27e432978aa3d95ea0d57971eb3621a",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-extract-claude/evals/evals.json",
+      "gitBlob": "67c7e63bc477c1f938011c956d85da6b47a61075",
+      "sha256": "5e8b681c68fc94f1275f9532a5987b24c58743c86e8f347277b3c57d9b7dd824",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-extract-claude/evals/trigger-evals.json",
+      "gitBlob": "5a28e24ad3cb0d5c05cbbbb8f27705371b6d0578",
+      "sha256": "ea256cc4a12e4e0e239851be01967a69502c5977a30b9cf2cee3b8cc00db8594",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-extract-claude/references/brand-overlay.md",
+      "gitBlob": "c22edbf96ffaf5bb620209a85039de55cee87411",
+      "sha256": "13db2577097cfbbd063ef79dd91dd84cfe40388609b4c12e3bb6b76291023e6a",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-extract-claude/references/evidence-map.md",
+      "gitBlob": "d7fd345378a9f0ecfc094d143b8b51b491ca8338",
+      "sha256": "ac1ebf81f6b4a2e63559b1cbf90c5429ab6cdfccc4f060c760fe10f53618fed5",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-extract-claude/references/extraction-contract.md",
+      "gitBlob": "971e0566abd5223392727b4fa2d3b7b9190ef6ba",
+      "sha256": "ade78d0b9a6af45e607e26e69a09043bf72696664dfaf643336d994cb9db3808",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-extract-claude/references/extraction-depth-profiles.md",
+      "gitBlob": "79dfac4c5860a9a88b434fdf1f1f42b7ed55f3e3",
+      "sha256": "a76d8695a72445a45179d350bebac2e9319b90578a48a359c81ff82fe7d6b3d8",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-extract-claude/references/platform-capture-patterns.md",
+      "gitBlob": "0b646c0fceda37ac57a256f95fed558727d566d4",
+      "sha256": "216c783f654d263aeb978375795204ed0e4d3e795544252e78a4f1f9124706a2",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-extract-claude/scripts/create_thread_extract.py",
+      "gitBlob": "610a706d461cb7cf341752a78a84ca8eebbebe6a",
+      "sha256": "38fd5b0f1f159cfd17ac18896ba1f28313d595d79061984d5260779fdd8df9b6",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-extract-claude/scripts/validate_package.py",
+      "gitBlob": "4b9ff34266e334a9b42cc18eaa94ec3ebcf28289",
+      "sha256": "c549bbbdc0508a6dd0bb5ff2e0f3817576194fab38f41d80b5c0b3e5f44b8527",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-foundry/SKILL.md",
+      "gitBlob": "ef5c9c5d7d5f81e5cb0fc19bbec2c10d821d0d7b",
+      "sha256": "b343e7a550584d1b65852351363b693c69342dd93c0e84b5b21059ef764bbdd3",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-foundry/evals/evals.json",
+      "gitBlob": "a33a5506871986d11640594c00d9ff55ca0cca05",
+      "sha256": "4ca86f3184b491d8ff905f2202a16a5f4fc3cb22f4b5c72ead92e98e0cf1ba2a",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-foundry/references/format-standard.md",
+      "gitBlob": "de4662eb8be9f1599d25dc95904b2d6f32192a9a",
+      "sha256": "c8a21415c2abffa3e93e9da895c9b743f88d18af7036abdfa27be66f9eebb426",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-gpt-builder/CHANGELOG.md",
+      "gitBlob": "8a691f0547b6e6825101c2a7cf5a6c82a923de86",
+      "sha256": "e520881e8f04dfeb7b73557d92b6ff03c76e0f021e470e6d21c386ca9f4ee228",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-gpt-builder/LICENSE.md",
+      "gitBlob": "f47ea0450f9f842da1cfcc03323b7870854cb980",
+      "sha256": "acb31c331e2b7981ef2f43481978d34f46de6c06fcaf3f6ae90f426014ad9ae4",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-gpt-builder/MANIFEST.md",
+      "gitBlob": "ad199af5adcbd4243e770b899bbd6a45d28e4945",
+      "sha256": "cc3fdcfc31ab8e36a3d546274825b7797dd8ca04d8397a7b54817628dd4e5240",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-gpt-builder/SKILL.md",
+      "gitBlob": "84f5a2a5cd7f5ac2ac56f1ea8562719689c2a537",
+      "sha256": "e05e0a4d47bfc32679bdea43a3a02b6aa2d1583c77391e4fd3af4f836c767695",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-gpt-builder/evals/evals.json",
+      "gitBlob": "7ea37a0f94a00928d560d8a1b06255bff477a338",
+      "sha256": "aa5840743885a024d26d9144492a1f84e43b5aac5ee28447ec2806c4c9f983be",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-gpt-builder/references/actions-and-apps.md",
+      "gitBlob": "43c66de8c0ae50e62020979c58d0c8588f900e7d",
+      "sha256": "6265cd1bce091cff61ba3137d3761bbcbdb9352451e1ba03a6ea755ee03683ad",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-gpt-builder/references/eval-and-redteam.md",
+      "gitBlob": "9cbf2168f29cd80a5573553853b44eabb3c1c532",
+      "sha256": "4104071786d33f7c37542e8274e8d58eb3a9aa7a4d3a048da59e85db556b6509",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-gpt-builder/references/instruction-architecture.md",
+      "gitBlob": "c955ad2cdf56b746cdddf4c9d7cbac0b7c040aa3",
+      "sha256": "7e9aab8b860ecb0d5b1b44017cb65c7185f6256f9222863ad92c6ea615a0232b",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-gpt-builder/references/knowledge-engineering.md",
+      "gitBlob": "acf63593d13f086ca05893de837c48cf88fec66c",
+      "sha256": "24a1be5ab7fc42455f934e350991082b8f904e6c6d629bcc36af9b169ffe0fb3",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-gpt-builder/references/platform-comparison.md",
+      "gitBlob": "db76e670303c2118375df5d16171a72ea1eb4292",
+      "sha256": "f468df447c07a74cf69e716a430acf9dfa5d915337c2b1973a92b164aea41217",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-gpt-builder/references/quality-tiers.md",
+      "gitBlob": "0d6c2cdfea40ca3cc690a8cfb057e750bbd01d87",
+      "sha256": "a30ba1c6e9ac3ed366a934fc0297605c87acb3dc31b102a53e4447e4c445e1ac",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-gpt-builder/references/repo-overlay.md",
+      "gitBlob": "0417990dce38a7ddd2b422a09cca1fc1781a0e73",
+      "sha256": "e48be5d644ace11f926d65f424038a4d408d6e6dcae00e06b11d0d1575ae91f8",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-gpt-builder/references/taxonomy.md",
+      "gitBlob": "be26d106703c657e4153fee8ecb0496962f8494f",
+      "sha256": "4d1930e50046e572a8f6a9eb4696de95b579830fc3b3dd88dc5c2276a9e293b8",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-gpt-readiness/SKILL.md",
+      "gitBlob": "65ea764ec2ba93c23d84178e08ace387a4e03b9b",
+      "sha256": "31a172930c0e1d2b64b93389170d953c63aaa73db6a7bf9be9e78b54c10feb79",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-gpt-readiness/evals/evals.json",
+      "gitBlob": "897bfd132f8cb71ac8b7285ec7651aa58d383484",
+      "sha256": "58adb01a04dfa5ebddb7f264a2cb0cc1b526506c1b3eb59ef71e30b5c295c976",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-gpt-readiness/references/readiness-dossier-schema.md",
+      "gitBlob": "740f34df30947a461a26684d42f6da750835b6e8",
+      "sha256": "56e28e584940024860f4962f19f257233a8e5ce668368426a633fd1fb1f7ceab",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-repo-creator/SKILL.md",
+      "gitBlob": "6bca93bc0382b14362c986da06d3e66560e5992d",
+      "sha256": "9634cef6a71c442c7bf1e4a658541e00643faea7ed9553b6ae039d8d4511727a",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-repo-creator/references/brand-overlay.md",
+      "gitBlob": "7495c2c53cc5eab451b953c43f7acfdd42bc16c6",
+      "sha256": "09116b647cbdaeccb1df6154b8df55ae134a01399408a591deed92d98ae8aa04",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-repo-organizer/SKILL.md",
+      "gitBlob": "85ae0d1f9b71e5382f5e3df15238c553a343eb9f",
+      "sha256": "dfd5968aadacc57a16fc56d0015ea09d441167cddcac69d90a2b71d635b98adb",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-repo-organizer/agents/openai.yaml",
+      "gitBlob": "7e835b87eb01079edeb75c87dc8d7b1b6dd46c57",
+      "sha256": "ff31d58a19ce26bbc255403e6263062df8ebaa6e7eff379a49d41d3a5b56a48b",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-repo-organizer/evals/evals.json",
+      "gitBlob": "a2e24b4909c273b10a79d5eb5b8eb1d1c0107a9b",
+      "sha256": "cc870c17c3031a22ed99c76034064f34da224cad6877c5120da36c1da75b8e65",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-repo-organizer/evals/results.md",
+      "gitBlob": "d8b04334a5b603edbc69ed93f900c514645de3cc",
+      "sha256": "74fb16970cec050d7ee6db514966a5d9b9c0a232eae9c79ca7756f72231bc52a",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-repo-organizer/evals/trigger-cases.json",
+      "gitBlob": "450e00384edeaab4f7c38e98d968b0645b4fd857",
+      "sha256": "2cefdfd2df2004e114a2f3570d1138e8f2cabd80238cd84298574cfcbb39dbef",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-repo-organizer/references/agent-skills-quality.md",
+      "gitBlob": "6951ea5ed8bba88b7f52635ab69f2502e64b8ef5",
+      "sha256": "0efd8ba18a20fc150e36eb717cd7526f82752b2bac49d326e41fc0842ac1579d",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-repo-organizer/references/archetype-rubric.md",
+      "gitBlob": "86ef2af5e70ab44e39034dbc35444139d1b04d97",
+      "sha256": "6b050f313246ddb748f080b9f208f9d168e31b84dc220664301f031f8073b7e6",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-repo-organizer/references/brand-overlay.md",
+      "gitBlob": "4b67b5340cccf0831563c3b3d0636be0d5b112dd",
+      "sha256": "2a8d9a84abccc20396cae2cb7716457203e2f7ab0319708e69e46266238d1f62",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-repo-organizer/references/cross-platform-naming.md",
+      "gitBlob": "7bdc2d11950d036a58b163d4ebe57e4b70d05748",
+      "sha256": "89e17e32f010057127e5209dbec9c9b8f075b5fa28a5c4e6c97199c185330933",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-repo-organizer/references/github-baseline.md",
+      "gitBlob": "84857b0eaf7823bd7f1859a7fc778ceed3e8c63e",
+      "sha256": "724d51cde2c2ff90589f355bd97e4b5a9c154488f8dfa572d3264c02b0f2ce7a",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-repo-organizer/references/scaffold-matrix.md",
+      "gitBlob": "511c31859b30afd31b2dc85528f54ec239e29650",
+      "sha256": "0bc8633382cf6856d47f3f0e2ebfd27991a53a4b32a85652a4723a712c9d9f08",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-repo-organizer/scripts/inventory_repo.py",
+      "gitBlob": "249cf9cabdc8b1084013a82e3e37a92fdb6446e0",
+      "sha256": "d344d5139534fb880ca438812ff62bd71cc5ee1d73b863160bdad94950992a0e",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-style-registry/SKILL.md",
+      "gitBlob": "be21219859d1c533a6445c694a8d3202e2a0e94f",
+      "sha256": "2249a26ff96105430b9e4330298828033fb227734df95327393b0b8ffab9f8b1",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-style-registry/agents/openai.yaml",
+      "gitBlob": "a443789ec732a0bd65b147640c8da7aea8f8e76c",
+      "sha256": "5c991cea1547c99287c246d2aae8384b63341b121699ef42a031a3a92fe30a2c",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-style-registry/assets/profile-seeds/askjamie.yaml",
+      "gitBlob": "9647e5830189035e837c61361695d9df9e86f55e",
+      "sha256": "c191b6a2ef65406937f907b2440eefd7ac5ad2ef562cb9d5ebe6709e432c90f7",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-style-registry/assets/profile-seeds/glee-fully.yaml",
+      "gitBlob": "74fc346835e5b9c37f500501be4f1c643444843e",
+      "sha256": "2bb78dabc121c0b3bc8bd6e09878236db47337acc7b47aa1d007fef0fa5925ac",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-style-registry/assets/profile-seeds/overkill-hill.yaml",
+      "gitBlob": "9032cb1d09c21e7840c192b54c82fad6272a32b9",
+      "sha256": "1d67819bcd520c7985ce78791225aa23368534c531f45086a61d24f83e1c70d9",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-style-registry/assets/specialization-seeds/README.md",
+      "gitBlob": "fcb1bcf5ccef9cff969984d56f37c2da9fd31b4e",
+      "sha256": "e97040eafbd3c2977350fc4b13a0bd64d489fa2d989662d43df0c9f7928371b8",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-style-registry/assets/specialization-seeds/okhp3-askjamie-brand/SKILL.md.template",
+      "gitBlob": "bc9185e9e1f43d5f707d5a3a2dd88389f23b5ec1",
+      "sha256": "4a74d73b8323e98608eb7d608698d57929004be4ef345e8da58953aaee004579",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-style-registry/assets/specialization-seeds/okhp3-askjamie-brand/agents/openai.yaml",
+      "gitBlob": "416fdfdd9dd098eb97a710c555587eef625a26f5",
+      "sha256": "0905b142f62d2b15038878b7bab0172172625527d3c98085ca1c31ba22921858",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-style-registry/assets/specialization-seeds/okhp3-glee-fully-brand/SKILL.md.template",
+      "gitBlob": "b330e0eea9db2bb30e40e961119fdb19154399ad",
+      "sha256": "f52ec29d06fee18d8942deb432f484c584b255052c6758ecd0d963b4ecdc53a3",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-style-registry/assets/specialization-seeds/okhp3-glee-fully-brand/agents/openai.yaml",
+      "gitBlob": "ca8c3de21948faddc7ea63a1d106279c9814f5e4",
+      "sha256": "e06a385f73bc9c79f6b785191ebdc7e1015af647a41efe96af428b60e23225a0",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-style-registry/assets/specialization-seeds/okhp3-overkill-hill-brand/SKILL.md.template",
+      "gitBlob": "e93078325a118a3c9bffe23e715a7b515501053e",
+      "sha256": "a05673b1b8f52f699f2d16e8442649a9166b41ad48c2668930d9cfb29e95e37b",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-style-registry/assets/specialization-seeds/okhp3-overkill-hill-brand/agents/openai.yaml",
+      "gitBlob": "5190ea861cef82afd99731a9adeb47bc9ffc3d46",
+      "sha256": "108d401636baa30b9e4c028aea12e89cb83617c253c7b1d01565d2b4cd183ecf",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-style-registry/assets/style-library.example.yaml",
+      "gitBlob": "92ea4285291da382ef2022dd68d2b5cdf05ebdd6",
+      "sha256": "ca28516279143873334c6bf9d329be847fe3b541996dff57634f422fdf685f92",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-style-registry/evals/evals.json",
+      "gitBlob": "c7f6204686af5c30221613124facb0c5ddb3b234",
+      "sha256": "88d813159d2aabf9fe80e659bd55c0ddb0d8a7116c3404d6a73e0564cde8c7fe",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-style-registry/references/application-playbook.md",
+      "gitBlob": "dc00dc2396167cca85c35fa0b434b17243cce267",
+      "sha256": "b0ac5c0a627087b2e7dd80e1bfae19db629af5f827e426ac24d8e85e75e61e2d",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-style-registry/references/brand-overlay.md",
+      "gitBlob": "449c2c55935419dba73d082948d8606a4f25944b",
+      "sha256": "7d7e9bc48298d77655780dcdbd254538009aa8430aca0c2e5f88d73630974b87",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-style-registry/references/source-sampling.md",
+      "gitBlob": "6f06a7c17dd88589b16e02a90b713dee8fbf8e23",
+      "sha256": "32b1a2fca60833c605468a08dc3800fe6fce5cae0542913628abd3c6c9f11864",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-style-registry/references/style-profile-schema.md",
+      "gitBlob": "e0df471c354f2ac02d9ea92cdfdc5d81405c22ac",
+      "sha256": "a8471bd1f72e2dab7bde7600559532b5914ce17d65907554d92f8df7e7ceb973",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-style-registry/scripts/extract_css_signals.py",
+      "gitBlob": "1bca0a4903d53baf9f3458e1fb601cea6a341bc5",
+      "sha256": "f3b0bdaa288ee8907b6af1af9b86865aacd73f8b6bc63259e09409c8602e77f6",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-thread-context/SKILL.md",
+      "gitBlob": "0fcddc1be681fd507fa14fbb09aea060013e8962",
+      "sha256": "4ceea40373a30fdbb5696ec9a7d60e3481f04977b131c02863c280b6eb4ca810",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-thread-context/agents/openai.yaml",
+      "gitBlob": "926fde2f15983b8512b651f90f7790ab800fb973",
+      "sha256": "378b64c8467cc1b612f054d1f187e38f339bb5dfb3d8b94687bd0787eb2b058a",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-thread-context/assets/thread-extract-template.md",
+      "gitBlob": "6e526312439a5eff8ab5242dd258f61cad74b2cf",
+      "sha256": "c6d090a2bd6c3be4258d52d764949230d214c74962c499e5e4af0fd5e8cbfe68",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-thread-context/evals/benchmark.md",
+      "gitBlob": "557536bb380138d8a3dec5f0bd9e7708fffb1abb",
+      "sha256": "42415713856b32ee4ceff6f2ab46d45e942e9b534f4637f65addeb27ab9c133e",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-thread-context/evals/evals.json",
+      "gitBlob": "f46673acc3fd52747b727d95c792ebfbc2a61503",
+      "sha256": "24b2c6743b0a17e6b4f2aef9649aa9208359a8594c289e535f35d260ee9a2892",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-thread-context/evals/fixtures/comprehensive-adversarial-export.md",
+      "gitBlob": "4efdb893624f818e88600950a4103fcc853f5513",
+      "sha256": "a2aed8cbd21328d20b1c1acde8690a565efb9fe4412bd572967928df12e20460",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-thread-context/evals/fixtures/mixed-balanced-thread.md",
+      "gitBlob": "348ad6a941dc83f2e6bff7444d59583ee400dea2",
+      "sha256": "990a3192c43ace7b6638dc4bdd0d0e6dacdc14bd47a26d78842cd959fb3c701b",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-thread-context/evals/fixtures/rapid-continuity-thread.md",
+      "gitBlob": "0c8f7e76148e0d2d14b4f52a3a0d882b5754539d",
+      "sha256": "a1fc720d326151733544feed863a43c4c620bc8895757d52eae82dc9dbadf8c0",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-thread-context/evals/trigger-evals.json",
+      "gitBlob": "a959169c728948bd1ce9ec9220ef51e58a7a71a2",
+      "sha256": "125f46a7831bc5cc28c982f63860396a788d9d042b48d747cc04ae90d2691696",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-thread-context/references/brand-overlay.md",
+      "gitBlob": "10ea460ca12c739ae8d2a763a17cc4a1eaa4df50",
+      "sha256": "08cecd228de17d3310a29a1f2c42931c9ed9be1e1017cf6ff51a05bec0fe2585",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-thread-context/references/evidence-map.md",
+      "gitBlob": "d7fd345378a9f0ecfc094d143b8b51b491ca8338",
+      "sha256": "ac1ebf81f6b4a2e63559b1cbf90c5429ab6cdfccc4f060c760fe10f53618fed5",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-thread-context/references/extraction-contract.md",
+      "gitBlob": "971e0566abd5223392727b4fa2d3b7b9190ef6ba",
+      "sha256": "ade78d0b9a6af45e607e26e69a09043bf72696664dfaf643336d994cb9db3808",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-thread-context/references/extraction-depth-profiles.md",
+      "gitBlob": "79dfac4c5860a9a88b434fdf1f1f42b7ed55f3e3",
+      "sha256": "a76d8695a72445a45179d350bebac2e9319b90578a48a359c81ff82fe7d6b3d8",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-thread-context/references/platform-capture-patterns.md",
+      "gitBlob": "4eb98cad43baf88015ba5a5b73942ebe9de84978",
+      "sha256": "b6d32bd10e0924da87428f8ce0f81848bd7672ace1136b32c04f87c780749077",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-thread-context/scripts/create_thread_extract.py",
+      "gitBlob": "610a706d461cb7cf341752a78a84ca8eebbebe6a",
+      "sha256": "38fd5b0f1f159cfd17ac18896ba1f28313d595d79061984d5260779fdd8df9b6",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-glee-fully-thread-context/scripts/validate_package.py",
+      "gitBlob": "4b9ff34266e334a9b42cc18eaa94ec3ebcf28289",
+      "sha256": "c549bbbdc0508a6dd0bb5ff2e0f3817576194fab38f41d80b5c0b3e5f44b8527",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-gpt-skill-conversion-plan/SKILL.md",
+      "gitBlob": "c3862f5947c9f8d6edf396d4ecb46617d2363495",
+      "sha256": "0467eae265722e56c63025cef75755f4aee884952a25b99c31c19b20697bccfb",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-gpt-skill-conversion-plan/evals/evals.json",
+      "gitBlob": "1c080b3b3fa0c34daab503c2247eb68496389fae",
+      "sha256": "df9bd1ea63858b153c130a0c627d446724f8b138312c86c794f2eddb94815d2e",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-gpt-skill-conversion-plan/references/conversion-dossier-schema.md",
+      "gitBlob": "e4efedaa34043f46d830cbca40f45c2379dae3e8",
+      "sha256": "6bc8db468ede27b10dbdf8f80d419ad7336a04e0062c84679bce0a48ebf72ac9",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-graduation-gate/SKILL.md",
+      "gitBlob": "329788198efc960f2d7ed9d2bf6542233db1aa84",
+      "sha256": "78a17233813522897644bc2b97ab69c14306e0eb01670ed5a43fc721baab70ae",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-graduation-gate/agents/openai.yaml",
+      "gitBlob": "e50553dbff49bd5855db1f3be360ea4e1fde2486",
+      "sha256": "6a945c4fd76108c225c0cf4db8d327ebb36285e4b4643962801d831b68fe230f",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-graduation-gate/evals/evals.json",
+      "gitBlob": "a0a652f6df043a4d069be5e2569d3dd63bf17bfe",
+      "sha256": "aa84f504afb7de707d93b13cb1e5b54eb1dba0e158aca0a3a9b65d135203f9a2",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-handoff-packaging/README.md",
+      "gitBlob": "bad4bb91e5f4b10f44a1d6205e65362e0ba16a3a",
+      "sha256": "bcff1087e094755a0ada3ce8eddf717deed6dec600118faa1c60b45856556c78",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-handoff-packaging/SKILL.md",
+      "gitBlob": "38b23e619f218a04a041b4137dc42131673d7daf",
+      "sha256": "c18ad0516f208fa58ac07c46161d6d5d522021b5504f2b6a49737ac9e6ea9f2f",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-handoff-packaging/assets/fixtures/handoff-manifest-example.yaml",
+      "gitBlob": "0673a778820dc28f6ec176a84a03811172418cf5",
+      "sha256": "a85e15904bcb9d5a28a0be4f49bbfa0555287c0c2eb0cccfc9f07626c9c8e8ea",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-handoff-packaging/package.json",
+      "gitBlob": "6148dd335e0ed62706b2be536090590c5496446e",
+      "sha256": "12464153c950e88e236afe3d619dbd127b190fb4d4451ac2623cf533ca81e3d6",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-handoff-packaging/references/publication-checklist.md",
+      "gitBlob": "01cf7063c9749c37c3f7977fa5ba195b900000dc",
+      "sha256": "fa3754b68677d65f3c7828bbad0341b183d8245287f399c49fe6208748db4690",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-handoff-packaging/scripts/build-publication-bundle.mjs",
+      "gitBlob": "460d6c6ed8a2c193170cdb113c8ec0990f35d572",
+      "sha256": "cbab38810c8730e69655d84101b677d7b638638fa113b73f055d4fec38ed87e4",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-handoff-packaging/tests/validate-skill.test.mjs",
+      "gitBlob": "7d7e3831236a593048b245720ef0d8713e46c0d5",
+      "sha256": "61c15620811b8a80ce3c5c6ee61a2441462dd8fc7e1bdec13790b51c92b2746c",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-notion-capture-router/SKILL.md",
+      "gitBlob": "f2d7ba8db6629772851949a252b79670916980c7",
+      "sha256": "2663911d8d5d3311857fd0eb3945871498e3311b5d7bf8cba8ae3a78cf0a8b1c",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-notion-capture-router/assets/report-template.md",
+      "gitBlob": "b82bba0202d29e299b08657b034d6f2525440353",
+      "sha256": "85e1780c04c04e125f794aa933a17f8b2547540504d7e36004e7f5a2d1328c31",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-notion-capture-router/assets/trigger-eval-queries.json",
+      "gitBlob": "95457e90b45e13266c8c8bcd859e965da2d13120",
+      "sha256": "ca395f7cc638b46ae092c013c556d0c5d48d4245e137f27744d7ce0cd6083a72",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-notion-capture-router/references/destination-contract.md",
+      "gitBlob": "996c210c83460250f56a2ef3791a831f262a741d",
+      "sha256": "a4e41a99aeab9f2380728e56c33ab53f64147b92583ea96b4c768ac81a1e9525",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-notion-capture-router/references/final-check.md",
+      "gitBlob": "f048489b6bf40c8527bcee4ae7e4977d5874321f",
+      "sha256": "8cc88b634f9aad93179d8ec5f838e53cc926673f6b2ab844d1d425732871a826",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-notion-capture-router/references/output-contract.md",
+      "gitBlob": "de782707e119dad17636e4c0537c6d1a70f3e1a4",
+      "sha256": "35bba27f83d580dfc155701267b16dde725b77d6b88b8645af31d79fc0301782",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-notion-capture-router/references/platform-variants.md",
+      "gitBlob": "3798de046f83829dc0060b23b739c6ed1b4d4591",
+      "sha256": "70d8ce0c60a4fa4b6bd2a4ab94271ca78cd89772f0061e2d1cabd2ccb45e519c",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-outcome-modeling-core/SKILL.md",
+      "gitBlob": "1614711b3619f999ed173d8524ec0f26c1a26662",
+      "sha256": "41a1e9992784257bab60151720aae7e68ca50ebc4c8179a3cecb6e3d995ee448",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-outcome-modeling-core/benchmarks/benchmark.json",
+      "gitBlob": "ab0d69aaf08da835ac877b839f0dbd8a20200b75",
+      "sha256": "cc0de8baee8a411a6e5474f143076398cdae597e238d412628c99c77bb04d7b7",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-outcome-modeling-core/benchmarks/equilibrium-review-2026-07-28.json",
+      "gitBlob": "266df1b2e2d63be01bc58e65920e3cce34545126",
+      "sha256": "5a42e537cbbcf3405c2fe392601bf036633db9e11044ecd1003465db64e1623b",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-outcome-modeling-core/benchmarks/learning-ledger-2026-07-28.json",
+      "gitBlob": "14984af70e43fa54cbaef5e6950f1d22a8a6f667",
+      "sha256": "d4a8cdab4acf427f067c9abfbdda3f1108c03f91f3aa74bb90bb56331beff414",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-outcome-modeling-core/evals/evals.json",
+      "gitBlob": "2c1426523f73f4d4f45c2e0d35424b14ef6f0d76",
+      "sha256": "2c28158c2d9934659d03cdc9f19fc5f608d28bad5cdc3557a258c69bc1fdc2b5",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-outcome-modeling-core/examples/core-example.json",
+      "gitBlob": "09489765451a0b8583fcb9915111a42dcc439f03",
+      "sha256": "bbbc0a1b3fa5244a8eab79d6b9bac8c4036d46a64e80424d65ddb15d71bcbf15",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-outcome-modeling-core/references/computational-model.md",
+      "gitBlob": "c1f836e7bee7f0feed5ec262c2a69b2f02b9caa9",
+      "sha256": "cfc5a2ae97de876b7f7444e571a89cbaab443e700fa22dfec6441e9c230599c6",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-outcome-modeling-core/references/glossary.md",
+      "gitBlob": "4721c80283d73f6be0c8a83de02546c39f96a7ce",
+      "sha256": "8587a787d3ff04deb3b6f6928e1a2f58b6f1e5f06af106113d52eda47895e3ef",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-outcome-modeling-core/scripts/calculate-outcome-model.py",
+      "gitBlob": "4bae95b71745e844cdaf2ca9b41e49bbc298b213",
+      "sha256": "184c9c4b5f59ca805968c7733220437c631724ae8afc03171ef6b9ed9ee7c061",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-outcome-modeling-core/tests/test_calculations.py",
+      "gitBlob": "d47bebf93917da895054126934589cb5a1537fac",
+      "sha256": "6c933b39612e800dedcecea2b054e784593811d7087fefe493943150e6593262",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-process-capture/SKILL.md",
+      "gitBlob": "173a61d49e88dc5a70c8f64899d2e60418758595",
+      "sha256": "f59b94b41f3e2a1476ef083167aa1a4c90821cdc311b4cdf0eca120d604eeac1",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-process-gap-analysis/README.md",
+      "gitBlob": "72fd0e0c22dc23db76ad426ee10eebccc5bdfe89",
+      "sha256": "c2207ae0d6cd4c34b03a5f14788bd1df44c7ffbc427951b21ca18e441126d82e",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-process-gap-analysis/SKILL.md",
+      "gitBlob": "dc84ae75766c388bc66c72cd549f43f5c6837b06",
+      "sha256": "5031308f3b84ede36ea932c55834b1754a56634cc8f42baa4b55ee94992ea77c",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-process-gap-analysis/assets/fixtures/gap-analysis-example.yaml",
+      "gitBlob": "6dd4f2c8484f99e2e5e49dbdd7e8e87c6703292a",
+      "sha256": "9bb27630c105124eb313e7c6a86fff12b29162d98802d8c7691c8051bc3961bd",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-process-gap-analysis/package.json",
+      "gitBlob": "334df5f433a66792e97d430715f7f72918c74396",
+      "sha256": "9f4b739bfd8e03ed17b627752189cf93db834ac1426deadfd25e1f98ec55b000",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-process-gap-analysis/references/gap-analysis-framework.md",
+      "gitBlob": "662acee2deee4e93ea61f24730fc5696322f08aa",
+      "sha256": "729a1fe89006e39c5b7d1f7050af191766a8422253c0b98de5a362071d533aee",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-process-gap-analysis/scripts/analyze-gaps.mjs",
+      "gitBlob": "2093d2401aaf2710df9c6a2ddf13f9c2c9b9cfb4",
+      "sha256": "f5506adf253b38fe26107580a34e6d0aac3286d9688422ea2d070975b1211883",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-process-gap-analysis/tests/validate-skill.test.mjs",
+      "gitBlob": "510b5ca32b8c182373303e39643db2d8f0c808af",
+      "sha256": "d38e0d572cbcacfc1168afddd4bcdf824d3562f661f5eeb3a982a24fef8768c2",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-process-intake-and-scope/README.md",
+      "gitBlob": "45c255256340a30e8c979ac34eed64c8ed9b493c",
+      "sha256": "7a3888938cae8d7fdfacbfa02c2001502017a91e5a9493785e08bd99f47a4c25",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-process-intake-and-scope/SKILL.md",
+      "gitBlob": "a64cb0d89b173218cc8e8170b6324e27977786a4",
+      "sha256": "28b950fb9192c7aed05f4dc75a1df5d30bafda735af81c9e4090291b205ccd39",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-process-intake-and-scope/assets/fixtures/intake-purchase-approval.yaml",
+      "gitBlob": "40ca74735ff3f8563f693873d85be031e8b2127c",
+      "sha256": "db4772a648737cd7fd428e0ab43674f9e4a6b1ff6f6ad5bb8a07e4b32752512a",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-process-intake-and-scope/package.json",
+      "gitBlob": "d5580eff4884c88b31d1d61413766bb795dcbe35",
+      "sha256": "a1cc8cad300d4ae6ff6aa2e5209c9ff167b554a30e1792bfa8155e4edfc51e30",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-process-intake-and-scope/references/pir-schema.md",
+      "gitBlob": "6708788dfa49bd3c17bee471b12f9ac53a0a274e",
+      "sha256": "44cd7177bb7d4cc42e68a63afb9dc8ef9655f451450edcd445e02cd62bd52810",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-process-intake-and-scope/scripts/generate-pir.mjs",
+      "gitBlob": "f0a5eaba1b4da054802a9d9fb1361aaae06116de",
+      "sha256": "1dd79b415b474613c84337072fe6a122f7fb09271b74cad96fafbd7795423dcc",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-process-intake-and-scope/scripts/parse-yaml-minimal.mjs",
+      "gitBlob": "110b6646e253dd08177b856e5224863e8af143a7",
+      "sha256": "4ef6796a34e71772656901782a61d19241d1e5f63d7909b216549b6805405888",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-process-intake-and-scope/scripts/score-intake-completeness.mjs",
+      "gitBlob": "a24b78b20c381d4d3d3a7f7d77120131146b35a7",
+      "sha256": "8a2fca976430a49429ed9d011dc8a6f25b4b58610154bf3c665c5829e34cd680",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-process-intake-and-scope/scripts/validate-pir.mjs",
+      "gitBlob": "61e8c175f86b2b6befc0534300e206425118418b",
+      "sha256": "dcd5a5b439de6f6bb21702059258801c2a30e6b7862ecc8761bb08fdcfb6039d",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-process-intake-and-scope/tests/validate-skill.test.mjs",
+      "gitBlob": "8031ad91dd9c7a02077c066d872c9e550ac4e37d",
+      "sha256": "1b670581d6f30b6e0fab3366fe1e76561f5b6d0040e854ab10ffbf9d17654c00",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-project-promotion/SKILL.md",
+      "gitBlob": "89124ffcf7b69c75a308aafa0a7c8d3aad3d6875",
+      "sha256": "65d01580708f9698ed3eedf080480b0133d05b1c59519c9cdf02ef7f2e31e2eb",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-project-promotion/agents/openai.yaml",
+      "gitBlob": "797badd07e938488db36765f1c4a6038cd1df5a3",
+      "sha256": "11e8937829224f22d97e146081025a25a50f53c4a50dc71164150cc5081db271",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-project-promotion/evals/evals.json",
+      "gitBlob": "099c480403f92e62906aae61233a7271d405e2de",
+      "sha256": "4f5682cd69c4f9e029306e33189bf64a0d87d70e117a94621e7a937f2b6de678",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-repl-repo-janitor/SKILL.md",
+      "gitBlob": "862fca8fc05547667038dc0d22a5f0801d2ee5ba",
+      "sha256": "801d64be7c66e3019fe9a1cbd20529aa62043666a45bed3c07639549d4047f0d",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-repl-repo-janitor/references/naming-conventions.md",
+      "gitBlob": "4a56ce9e48610a17a8697e6a1c792f6b74130e20",
+      "sha256": "d26cdc014f44e115d8a7687d73bf35dfb7fd44a88a5f21be986704a635fa7117",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-repl-repo-janitor/scripts/audit-repo.py",
+      "gitBlob": "e5284a2d4ffab6751d14fb870e5d5e010620576d",
+      "sha256": "778a142d351ffb72b9f9d7ad645b9a2e8266a7aca9090e09ffb28e609055cfb1",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-repository-janitor/SKILL.md",
+      "gitBlob": "5d965a9b96c45237418bdee92e02cd7f0422c9a8",
+      "sha256": "5a5d1a14705f57e56f457a26bf1e99b6d16c0dda74a48c78851e3a6f2e190d13",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-repository-janitor/agents/openai.yaml",
+      "gitBlob": "16b54d92718623d43a46b40e47d765b3811bf96b",
+      "sha256": "a5660198cb61a6fe5c4d0a6d3c8e8f6a6c552366693b3095039f3ff5481099ef",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-repository-janitor/references/branch-lifecycle.md",
+      "gitBlob": "9408c7926af416d13f77daef1ce71b4ad61adb70",
+      "sha256": "000cfe21c55b6371ff961e3c3c6919a39139c782fffdafbe7e7f8829b6949520",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-repository-janitor/scripts/audit_mirrors.py",
+      "gitBlob": "531313be1d92e7f9c77040b95eaacf7038cc453b",
+      "sha256": "9f24581782098f914e30f2dcc847c12afaa50f82a4109cf28eef489d049f6da6",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-repository-organizer/SKILL.md",
+      "gitBlob": "a4197f79a1b0015ec4d102ee8d0d8b13ba6c8de7",
+      "sha256": "d68df0bae40471424511594d48ab5b46165c6b01871b4b92297671b302988e1e",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-repository-organizer/agents/openai.yaml",
+      "gitBlob": "7e835b87eb01079edeb75c87dc8d7b1b6dd46c57",
+      "sha256": "ff31d58a19ce26bbc255403e6263062df8ebaa6e7eff379a49d41d3a5b56a48b",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-repository-organizer/evals/evals.json",
+      "gitBlob": "e2a1eca0f8baca4c4c6edadb2268848df22d5f28",
+      "sha256": "a3ecb5f6ae7a1530a2361270dd47143aca6290fdab47ed5d120a6ca353cf9f76",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-repository-organizer/evals/results.md",
+      "gitBlob": "d8b04334a5b603edbc69ed93f900c514645de3cc",
+      "sha256": "74fb16970cec050d7ee6db514966a5d9b9c0a232eae9c79ca7756f72231bc52a",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-repository-organizer/evals/trigger-cases.json",
+      "gitBlob": "a54cc66d2caf5b510080ea6bc2d16662411085b3",
+      "sha256": "5c5a81ce38568cd97b52471195a2a4bd0da94408d47f79f5016160d3cdf3344f",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-repository-organizer/references/agent-skills-quality.md",
+      "gitBlob": "6951ea5ed8bba88b7f52635ab69f2502e64b8ef5",
+      "sha256": "0efd8ba18a20fc150e36eb717cd7526f82752b2bac49d326e41fc0842ac1579d",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-repository-organizer/references/archetype-rubric.md",
+      "gitBlob": "86ef2af5e70ab44e39034dbc35444139d1b04d97",
+      "sha256": "6b050f313246ddb748f080b9f208f9d168e31b84dc220664301f031f8073b7e6",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-repository-organizer/references/cross-platform-naming.md",
+      "gitBlob": "7bdc2d11950d036a58b163d4ebe57e4b70d05748",
+      "sha256": "89e17e32f010057127e5209dbec9c9b8f075b5fa28a5c4e6c97199c185330933",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-repository-organizer/references/github-baseline.md",
+      "gitBlob": "84857b0eaf7823bd7f1859a7fc778ceed3e8c63e",
+      "sha256": "724d51cde2c2ff90589f355bd97e4b5a9c154488f8dfa572d3264c02b0f2ce7a",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-repository-organizer/references/scaffold-matrix.md",
+      "gitBlob": "511c31859b30afd31b2dc85528f54ec239e29650",
+      "sha256": "0bc8633382cf6856d47f3f0e2ebfd27991a53a4b32a85652a4723a712c9d9f08",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-repository-organizer/scripts/inventory_repo.py",
+      "gitBlob": "249cf9cabdc8b1084013a82e3e37a92fdb6446e0",
+      "sha256": "d344d5139534fb880ca438812ff62bd71cc5ee1d73b863160bdad94950992a0e",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-session-handoff/SKILL.md",
+      "gitBlob": "f11a24e054718311b56758bc7735c71703eb5213",
+      "sha256": "fc3b481b6bae11ce9575ce241fec1cb5a046fcbd2d0a98e7f2f2e6456e623b06",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-session-handoff/agents/openai.yaml",
+      "gitBlob": "6f6a6f458afdccb80ea5c4c801974d4214a8db01",
+      "sha256": "73720b14054038c9d5d2f05f2e08e5c77ddc8c1730c4b9cbb5397cc4b57c7942",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-session-handoff/evals/evals.json",
+      "gitBlob": "7f44a8ffd228ff0f0b58e68d242f894fcebd1b3e",
+      "sha256": "6aaaf08ce9c33bd830130aa28b50403f2f286e3ef137b0f5f47bc92084ff79c1",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-cataloger/.claude/commands/catalog-skills.md",
+      "gitBlob": "3770114626fe14a8ddef1d061eb2c63892d22c26",
+      "sha256": "d7a10fe17151739f8f0f932b8e109136cf8eb4fe2f80cf6d141f9e40a127712c",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-cataloger/.claude/commands/index-skills.md",
+      "gitBlob": "9c1d6d156611b82cc7324c7a7d5b718e981a55a1",
+      "sha256": "f374fb53acc414c6c08b858e0c4043b47c05b03efc3502c2ea3a69d156507413",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-cataloger/SKILL.md",
+      "gitBlob": "a857401f151f0a62cce5c5e1f49c040b689c1756",
+      "sha256": "d601c10d2a182befef600f57b679aafa14d15f820a517dede733dcf18f28e937",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-cataloger/agents/openai.yaml",
+      "gitBlob": "a219431bd10b78a0912c4f2287fb21d2bf07904a",
+      "sha256": "4921938f6e88516352470ccfeaaf4965433404f55e2e8daede5edcd1ef369ccb",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-cataloger/assets/catalog-meta-schema.json",
+      "gitBlob": "7b9f522cde78f0178a38d039209c52323058de73",
+      "sha256": "037cff05bed3d6b1a306ab760930e2d3b8ad73f7b34a252f24d7ce24d67c4a68",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-cataloger/evals/evals.json",
+      "gitBlob": "b40899378d1323f0dc58f3843b37161eb1b06e27",
+      "sha256": "f5a54e0b5c514ccbbb0f90fd2a05a1c86f595c2788cb7b8a32c4aa10eeb9fcb3",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-cataloger/references/MODES.md",
+      "gitBlob": "e125554a03ee8cdaaa619d9cec3386005a2a15e0",
+      "sha256": "0fa378fd22747257c418cdf7bde9b2b2d3d5087adc4ab335f0975123b40dd8ec",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-cataloger/scripts/gen-skills-readme.py",
+      "gitBlob": "831c357cc262fb7d0f22a294bac4489d52456eb3",
+      "sha256": "4562091929b2b167c99ef037bd89fa5689c2aabba5bf6689f30c3ec3c0b55926",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-cataloger/tests/test_write_family_md.py",
+      "gitBlob": "6791d2693e7742d735dfef42c2c48f6a0a47deec",
+      "sha256": "5a4509229ba5f8640aa99a4bdc3ab8572e6ba89dfcaf3d6e613c4a19cc8ff6eb",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-discovery/SKILL.md",
+      "gitBlob": "f323407bb5b6af31089c0ccefa427a07efa12f8a",
+      "sha256": "08df78be109c8d146ddc18124c5a2f23456b55f552e160284240d84cb4f2db81",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-discovery/agents/openai.yaml",
+      "gitBlob": "f63d25d5ba0eb64dc4ae234e40afaa426a334084",
+      "sha256": "a1fcdaad6ba3ce303aa4e19b28dee823ddb8d97a8ba98e89a8cfc38facaac6a8",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-discovery/evals/evals.json",
+      "gitBlob": "829817900d91cdd677e79041bbd17e7bebafb1fc",
+      "sha256": "ce967d725a385375b2a94d126c0c0dff0e448fe0b27a515dc78082d6216ac22c",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/SKILL.md",
+      "gitBlob": "cde816347dda9871ad57b5cc4d6a482b8fe6bb3b",
+      "sha256": "0e549fff561accc7bd167439012b3731f0f16cbb02ff9137237257d06db6eb57",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/agents/openai.yaml",
+      "gitBlob": "f9a50ec69666c61dc9fe333110c52aa99dc1badc",
+      "sha256": "6127b6365675dc366434b390d70722d518759dbf9476afda2a616ba5cf368429",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/assets/equilibrium-review-record.json",
+      "gitBlob": "819cdbf0fd0b3f9a0b47180862b1ca744d8acbd8",
+      "sha256": "6338a69910bc3a2c73482fd9f552c7fc87d7590f1d6ad3058c42b528fa7a7c40",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/assets/skill-template.md",
+      "gitBlob": "a57dfdbeba6c7b2fa7e56e8f8cedb0aed758d029",
+      "sha256": "5e191f8dee61bb0bd95a770f7919194acecc8a35b9fb83773aa64dacd69a0512",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/assets/sync-manifest-template.json",
+      "gitBlob": "01f861778dd8c0077ac279ff8d8b337ca503a2ad",
+      "sha256": "b422e038c8af96ea756bc4c47c9428da8d0ce373ab9a7fb47fa5e5b4bc5c92cf",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/benchmarks/benchmark.json",
+      "gitBlob": "4733a648fe5212e1168509405ac6d5157d553597",
+      "sha256": "54b6c79e3b4240bf134f91ea6db3e34fbc57155cbf315d9be1873cf659e1b564",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/benchmarks/equilibrium-review-2026-07-28.json",
+      "gitBlob": "099a9e3445cdec59ab40e81ebc119fa2d633e0c0",
+      "sha256": "adb95aa970eeaa2c7cc5f7f50e616494ef1b0d7406d1044af555a393147cc551",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/benchmarks/evolution-review-2026-07-27.md",
+      "gitBlob": "2aa59edc90dc04a4c94579af70acecc902afa6f9",
+      "sha256": "02687029bbab673705f5a5fb95d288c5ddc1b1593990d80ee6b69b0296427c39",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/benchmarks/learning-ledger-2026-07-27.json",
+      "gitBlob": "5e10920bd0fc9d62bf169f5c1efc31844334a216",
+      "sha256": "e96c7fc217839326aa9592c850eee62ae6469ee36fb80242e39c95c71c0cd1fa",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/benchmarks/learning-ledger-2026-07-28.json",
+      "gitBlob": "3fcf5fe2f64dc8f5d51cab80a669cd4d22506801",
+      "sha256": "4d00e96a7d170abcb6a8519cb8ed84b67e4cece515c4343d9a8af372b71e47ee",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/benchmarks/sync-verification-2026-07-28.json",
+      "gitBlob": "fa542ab86b3355b1eccdcb4ffbfab0813fc76261",
+      "sha256": "6ab829af91180d642fd0478ef529c350aebfafbcc6892e194c42bc7944332e63",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/evals/evals.json",
+      "gitBlob": "1700b35bedc195738122d4a1dbd6f50bed95ae55",
+      "sha256": "285b8a0ee87342d1435b858a22c8b3d0a0d4eebacc223d3ecf6c5ff2744dda9d",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/references/brand-standard.md",
+      "gitBlob": "ae05cd979d6b96698c404fc198f3f62fffb1f920",
+      "sha256": "4b28ce036f063865421ebbebd1bd48083a367126966f132a595ae4364d835cb4",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/references/equilibrium-review-protocol.md",
+      "gitBlob": "52d01cb9599609b8678940fed5ce000a2f7bba8d",
+      "sha256": "45ccd275e0725b9a48009a2594bef64a566b4841b7aa4ed9c33adb33887f739a",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/references/eval-patterns.md",
+      "gitBlob": "71c098084a1facfce373d446e74d73b1dbc0f4f3",
+      "sha256": "ad5ae7a0e53ea09184d64090c5881b1c284575a960593facf14d29d58f39f6f3",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/references/grading-schema.md",
+      "gitBlob": "1a8ae5571581a9ad7c2e4de2234ba94882d64ea7",
+      "sha256": "a1fd60950d0ee824c83a0fc395a7e4cca18b64e5276a8516a577678a6911cefe",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/scripts/validate-skill-suite.cjs",
+      "gitBlob": "0250567bb8157f7692612242b8414e739315e1af",
+      "sha256": "4a1319182012112c6bc91a9688aeef7f75a5a946e096cf19e5dde7be684694ab",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/tests/validate-foundry-evidence.test.cjs",
+      "gitBlob": "833dbd3562067751b15f594b376a2e32bf8fd503",
+      "sha256": "5595a363a7f733d3ae5a64f0685928d5c9b270ad02c1757220f92a206c07aa8f",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-1/with_skill/grading.json",
+      "gitBlob": "0ed7214bd31719a373253cae9a05c4f7abb68a88",
+      "sha256": "dc1f140502f53dd904c9971b049da13460c1b1778a0ef886d33697c05ab27517",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-1/with_skill/outputs/metrics.json",
+      "gitBlob": "44ce08ec74fabc7770e26da5f9a1ad9414381661",
+      "sha256": "865221bb1df7360f9318912eb61257c98dc327335d0b5d5e4ade597c45760bce",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-1/with_skill/outputs/response.md",
+      "gitBlob": "322c6e60e3d906b0a85067c04aef4b72cfe4bfab",
+      "sha256": "c8e11907e442b93fa00a7b1bde1a3c9898feb9e132901c6b0d369f95c7a6a678",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-1/without_skill/grading.json",
+      "gitBlob": "e3a545a26fc8aec11664b19f25f9359d296d3a5d",
+      "sha256": "e68c45da38be4c3e86d34e33ec9bc8fc0f5f8a5bc51b78a9a6b3ffbe83dcf729",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-1/without_skill/outputs/metrics.json",
+      "gitBlob": "8708189eba83b35eb1df26ebe72d5aa7bb66d7c1",
+      "sha256": "30e6fec2b5f34f3bb460c3e471331e04c5d1c9f1965c55415f233c59c9808e11",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-1/without_skill/outputs/response.md",
+      "gitBlob": "20bf8a67e7c804b6443cb68a764c8f2ff991bcac",
+      "sha256": "69b79db91d4ca3a761d3a3450ea56b0133a794518cfaf762eb0d714126bab862",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-2/with_skill/grading.json",
+      "gitBlob": "681ed294b820e7ccd1d8913aeeb0e15fd66eb36e",
+      "sha256": "a971eddf87f4385f127ef4961e9ccfbec6885f4d81f34858b6703c23862e7edb",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-2/with_skill/outputs/metrics.json",
+      "gitBlob": "b425107acf05e2ca9d74d22b432e4a8bc756a135",
+      "sha256": "f5c2c273160c7ece8aa1ef1ba8f848d513f84851c97e721bc0661eba7ad8c99b",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-2/with_skill/outputs/response.md",
+      "gitBlob": "551710f1a239072550d441f468ab1fa5a218a8c3",
+      "sha256": "d76fc4f0e28617fcc9269b0a2948026c564ceaa18b99adf6ad873d7802e86638",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-2/without_skill/grading.json",
+      "gitBlob": "5a1ecbc99cccdd36e910bad23a674d4d952f3d7e",
+      "sha256": "684ae8ba25c2fc779d00cb840ac5b0d022be0efe9cef448bfbf57e3d7b04ac40",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-2/without_skill/outputs/metrics.json",
+      "gitBlob": "c2d4df171021cdd08b706aa34ef7cd62d645789b",
+      "sha256": "20b0aabc7722b4666c62e8e8b0b9c05fe852bf5b6cadd2796abdd73a48d1be8a",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-2/without_skill/outputs/response.md",
+      "gitBlob": "3ca5cc4878257d56ebdb20eb763b04641f802e74",
+      "sha256": "72d856bf72f4ac0e84b3f211beca97b64594f433e17cc607d011afcc148f658f",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-3/with_skill/grading.json",
+      "gitBlob": "777c2534250d2a21341c1c20d3169e3602a30523",
+      "sha256": "e6ff08afe8d89c3e671ef07afccb88608376d79ff9124f1da74742ffdccf2897",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-3/with_skill/outputs/metrics.json",
+      "gitBlob": "b425107acf05e2ca9d74d22b432e4a8bc756a135",
+      "sha256": "f5c2c273160c7ece8aa1ef1ba8f848d513f84851c97e721bc0661eba7ad8c99b",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-3/with_skill/outputs/response.md",
+      "gitBlob": "c38b6ee469e0fe4522f653d8c601839dc6373525",
+      "sha256": "3a0ed11e714a95a3c46ac971dccd442ecc138c2b3a90038eff76c4bd6ec355a4",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-3/without_skill/grading.json",
+      "gitBlob": "8158a55ee242aaae4394022f2b6c7ebd32e00705",
+      "sha256": "c8c475c6b7e70734ca0c384b93f29e1e8be70cde4b23741eb1b8834b56a67ef7",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-3/without_skill/outputs/metrics.json",
+      "gitBlob": "c2d4df171021cdd08b706aa34ef7cd62d645789b",
+      "sha256": "20b0aabc7722b4666c62e8e8b0b9c05fe852bf5b6cadd2796abdd73a48d1be8a",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-3/without_skill/outputs/response.md",
+      "gitBlob": "d002423221a6f254d20b14725d0cc8d445e9af4b",
+      "sha256": "0c58aea2599b1672aeae99d7d247d4caeb02689df0ec72c3b7867127344803fc",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-promotion/SKILL.md",
+      "gitBlob": "0a75d97fe51cbc85c673d4af614ac17eb68607f6",
+      "sha256": "dae6a325280f0ec19886779384f812a8934892c503e67527084c3e07d0deaa52",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-promotion/assets/promotion-manifest-template.json",
+      "gitBlob": "a16437360a8cd9af50387f637002dbbb68bb59d3",
+      "sha256": "680722911f0e7693003e1a3c297bc4b50f84f345a67961d802ad7be8ebc0c6c3",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-promotion/benchmarks/equilibrium-review-2026-08-02.json",
+      "gitBlob": "4cba76ac844207a70f94a608608cf6b80424654e",
+      "sha256": "7688b6efc4064bc4917831c2d417982d4cf8724cca39d49bc49217f361aa8de9",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-promotion/benchmarks/structural-integrity-2026-08-02.json",
+      "gitBlob": "e9267149350adea8124448f744ca4e1648f56a6e",
+      "sha256": "2b155e2b27ab3480bf22ddc3435fdbe0ecd195650d8c3c4c750d5e975af5f48c",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-promotion/benchmarks/sync-verification-2026-08-02.json",
+      "gitBlob": "9c7475c06413c85a8c1b8149c4aaba0c3556a362",
+      "sha256": "2aa04348cf41453e67fd70dec7868a21acf8f0b63184a7488020c00f9359e4a6",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-promotion/evals/evals.json",
+      "gitBlob": "1df4a77745ab091e6335804126f57c6a4384bd42",
+      "sha256": "5092b11dac45d142bcc0ad4447d8c0607adeda4c0cfaa9c885c7c7e2b7e45675",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-promotion/references/promotion-manifest.md",
+      "gitBlob": "992db1169252daec09f2163cca6c9ad3a46542aa",
+      "sha256": "2f95b1c493aebd758c0697b80454ac8ed33882376c8830969c7aa22d48d6d0e6",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-promotion/scripts/sync_skill_mirror.py",
+      "gitBlob": "2b56e65159b0e0708f029683b04fd12bb28abb4d",
+      "sha256": "7a3c9263ea9a80afd124c9fcf9603787f57d890629c43aecc38d683c87ca897e",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-promotion/tests/test_sync_skill_mirror.py",
+      "gitBlob": "d1271f2d46ed5131007d26e65851e663883bffe6",
+      "sha256": "a95a86d20216f81ac84aa12a66926dbee82768840e2f78212f0d49e5674c01c7",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-source-backed-research/SKILL.md",
+      "gitBlob": "d7ca9721220c7b7d6153716216d85e49bb64348f",
+      "sha256": "f5fd6630d5ebff8f16e6ad29dbc1e3575c477a810fd585e1407be905dac286ac",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-source-backed-research/agents/openai.yaml",
+      "gitBlob": "9428cd333e0b593727e97a0fcc87b5145446c3ee",
+      "sha256": "3dc8b3fe5ee102acc94dcd3ce7c1512e1f1f54a202fd036d16a2dcef064f2300",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-source-backed-research/evals/evals.json",
+      "gitBlob": "8ee670ef27ddce80341712d23fc188faaf4bdca3",
+      "sha256": "dd4171acc9da9bf1f9dccd9664175a61729932ee270cbd79096860e2d7b68e9c",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-thread-context-extraction/SKILL.md",
+      "gitBlob": "f6eaa820c9176f6e88fcb05d10e785fd80b928b3",
+      "sha256": "770317e0ffc0d1642359bd783bf4d836f7ddac9fb83f6796b704086602b02c02",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-thread-context-extraction/agents/openai.yaml",
+      "gitBlob": "926fde2f15983b8512b651f90f7790ab800fb973",
+      "sha256": "378b64c8467cc1b612f054d1f187e38f339bb5dfb3d8b94687bd0787eb2b058a",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-thread-context-extraction/assets/thread-extract-template.md",
+      "gitBlob": "6e526312439a5eff8ab5242dd258f61cad74b2cf",
+      "sha256": "c6d090a2bd6c3be4258d52d764949230d214c74962c499e5e4af0fd5e8cbfe68",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-thread-context-extraction/evals/benchmark.md",
+      "gitBlob": "557536bb380138d8a3dec5f0bd9e7708fffb1abb",
+      "sha256": "42415713856b32ee4ceff6f2ab46d45e942e9b534f4637f65addeb27ab9c133e",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-thread-context-extraction/evals/evals.json",
+      "gitBlob": "d66e7729bd53f87c7eb6ebe8b7c961f858550475",
+      "sha256": "38543d1487811ddddaaad1dfe61ab94b6a72d273b9c1d4adc560c544e564c066",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-thread-context-extraction/evals/fixtures/comprehensive-adversarial-export.md",
+      "gitBlob": "4efdb893624f818e88600950a4103fcc853f5513",
+      "sha256": "a2aed8cbd21328d20b1c1acde8690a565efb9fe4412bd572967928df12e20460",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-thread-context-extraction/evals/fixtures/mixed-balanced-thread.md",
+      "gitBlob": "348ad6a941dc83f2e6bff7444d59583ee400dea2",
+      "sha256": "990a3192c43ace7b6638dc4bdd0d0e6dacdc14bd47a26d78842cd959fb3c701b",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-thread-context-extraction/evals/fixtures/rapid-continuity-thread.md",
+      "gitBlob": "0c8f7e76148e0d2d14b4f52a3a0d882b5754539d",
+      "sha256": "a1fc720d326151733544feed863a43c4c620bc8895757d52eae82dc9dbadf8c0",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-thread-context-extraction/evals/trigger-evals.json",
+      "gitBlob": "8d20223966926210e27a0947774ae1ced74c628e",
+      "sha256": "62cc45b58cb2537f9ce2c5a2e6fcd99b4e283caa84902cfb818dd769fa6c95c8",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-thread-context-extraction/references/evidence-map.md",
+      "gitBlob": "d7fd345378a9f0ecfc094d143b8b51b491ca8338",
+      "sha256": "ac1ebf81f6b4a2e63559b1cbf90c5429ab6cdfccc4f060c760fe10f53618fed5",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-thread-context-extraction/references/extraction-contract.md",
+      "gitBlob": "971e0566abd5223392727b4fa2d3b7b9190ef6ba",
+      "sha256": "ade78d0b9a6af45e607e26e69a09043bf72696664dfaf643336d994cb9db3808",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-thread-context-extraction/references/extraction-depth-profiles.md",
+      "gitBlob": "79dfac4c5860a9a88b434fdf1f1f42b7ed55f3e3",
+      "sha256": "a76d8695a72445a45179d350bebac2e9319b90578a48a359c81ff82fe7d6b3d8",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-thread-context-extraction/references/platform-capture-patterns.md",
+      "gitBlob": "4eb98cad43baf88015ba5a5b73942ebe9de84978",
+      "sha256": "b6d32bd10e0924da87428f8ce0f81848bd7672ace1136b32c04f87c780749077",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-thread-context-extraction/scripts/create_thread_extract.py",
+      "gitBlob": "610a706d461cb7cf341752a78a84ca8eebbebe6a",
+      "sha256": "38fd5b0f1f159cfd17ac18896ba1f28313d595d79061984d5260779fdd8df9b6",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-thread-context-extraction/scripts/validate_package.py",
+      "gitBlob": "4b9ff34266e334a9b42cc18eaa94ec3ebcf28289",
+      "sha256": "c549bbbdc0508a6dd0bb5ff2e0f3817576194fab38f41d80b5c0b3e5f44b8527",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-thread-extract-chatgpt/SKILL.md",
+      "gitBlob": "4c6170add37111d028b9407778b054ee1199bc5c",
+      "sha256": "b4c7e7519dc8ea4518a3deda334f8bce853d328401b46afdf826031d24a851ed",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-thread-extract-chatgpt/agents/openai.yaml",
+      "gitBlob": "4daf2b85efbc676cb20f5ee139f95be5f6b08334",
+      "sha256": "de5e789d2a07d3143f47aab2639592b2eb5ec253b8191dab91a580d4cbea0df4",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-thread-extract-chatgpt/assets/thread-extract-template.md",
+      "gitBlob": "6e526312439a5eff8ab5242dd258f61cad74b2cf",
+      "sha256": "c6d090a2bd6c3be4258d52d764949230d214c74962c499e5e4af0fd5e8cbfe68",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-thread-extract-chatgpt/evals/benchmark.md",
+      "gitBlob": "deecacd2871b405633a649049dcda09559cd2fe0",
+      "sha256": "747c2504402cf73df821384893f81cba6e29e2bb63e05cbb64c108e099f51a28",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-thread-extract-chatgpt/evals/evals.json",
+      "gitBlob": "a08ef2bcc7086859ec3346f177f94f854d09094a",
+      "sha256": "1aa7ed255604af6ccc079099e3daf635c8484bba1964e39abbf8788f0fdc5391",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-thread-extract-chatgpt/evals/trigger-evals.json",
+      "gitBlob": "94e46908f9468a96c8512be1b3c94551ece1a98e",
+      "sha256": "52c51cd126a032d68da2631ce80da8e38fc6b4d7ea0633865f3cf9e15f7e224c",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-thread-extract-chatgpt/references/evidence-map.md",
+      "gitBlob": "d7fd345378a9f0ecfc094d143b8b51b491ca8338",
+      "sha256": "ac1ebf81f6b4a2e63559b1cbf90c5429ab6cdfccc4f060c760fe10f53618fed5",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-thread-extract-chatgpt/references/extraction-contract.md",
+      "gitBlob": "971e0566abd5223392727b4fa2d3b7b9190ef6ba",
+      "sha256": "ade78d0b9a6af45e607e26e69a09043bf72696664dfaf643336d994cb9db3808",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-thread-extract-chatgpt/references/extraction-depth-profiles.md",
+      "gitBlob": "79dfac4c5860a9a88b434fdf1f1f42b7ed55f3e3",
+      "sha256": "a76d8695a72445a45179d350bebac2e9319b90578a48a359c81ff82fe7d6b3d8",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-thread-extract-chatgpt/references/platform-capture-patterns.md",
+      "gitBlob": "79740b0aa7747e9c0c3aa9d0af5a6dfaba9c8319",
+      "sha256": "1abe92358e4436637c7ca2ff114ac551e76398332e200d6a4505987d80563898",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-thread-extract-chatgpt/scripts/create_thread_extract.py",
+      "gitBlob": "610a706d461cb7cf341752a78a84ca8eebbebe6a",
+      "sha256": "38fd5b0f1f159cfd17ac18896ba1f28313d595d79061984d5260779fdd8df9b6",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-thread-extract-chatgpt/scripts/validate_package.py",
+      "gitBlob": "4b9ff34266e334a9b42cc18eaa94ec3ebcf28289",
+      "sha256": "c549bbbdc0508a6dd0bb5ff2e0f3817576194fab38f41d80b5c0b3e5f44b8527",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-thread-extract-claude/SKILL.md",
+      "gitBlob": "34e375d373efc93636332e00048a7e59a8580f90",
+      "sha256": "3d835f52d116323b1a7a28130f6732e06229369ab77767cf47f4fb063b7a7481",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-thread-extract-claude/agents/openai.yaml",
+      "gitBlob": "884eed131a9c34394339893747924ddbf0eeb3ca",
+      "sha256": "452f8c687faec9893566560d5a8dbd8bb303ba78efb48c435f24de6e1ccf5564",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-thread-extract-claude/assets/thread-extract-template.md",
+      "gitBlob": "6e526312439a5eff8ab5242dd258f61cad74b2cf",
+      "sha256": "c6d090a2bd6c3be4258d52d764949230d214c74962c499e5e4af0fd5e8cbfe68",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-thread-extract-claude/evals/benchmark.md",
+      "gitBlob": "0796b3dc0bae13dcb59c3e81922a12f30860dac0",
+      "sha256": "5e260e1ba94cefcc7c1c164b7442f414e27e432978aa3d95ea0d57971eb3621a",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-thread-extract-claude/evals/evals.json",
+      "gitBlob": "7052af926b3b1eba5941d7fba02480f41bd3d5ff",
+      "sha256": "52bae45bcbf9e75699b4c0d48c05f1f204ac4987802a94ec963ab37114441317",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-thread-extract-claude/evals/trigger-evals.json",
+      "gitBlob": "8e21547ae7a643f882d01c677dc0e6df2326dc49",
+      "sha256": "288478c8e8b63f5ea0d9fdd1f7378be6de6f9a8cd1a391d36108ac757e9077b6",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-thread-extract-claude/references/evidence-map.md",
+      "gitBlob": "d7fd345378a9f0ecfc094d143b8b51b491ca8338",
+      "sha256": "ac1ebf81f6b4a2e63559b1cbf90c5429ab6cdfccc4f060c760fe10f53618fed5",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-thread-extract-claude/references/extraction-contract.md",
+      "gitBlob": "971e0566abd5223392727b4fa2d3b7b9190ef6ba",
+      "sha256": "ade78d0b9a6af45e607e26e69a09043bf72696664dfaf643336d994cb9db3808",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-thread-extract-claude/references/extraction-depth-profiles.md",
+      "gitBlob": "79dfac4c5860a9a88b434fdf1f1f42b7ed55f3e3",
+      "sha256": "a76d8695a72445a45179d350bebac2e9319b90578a48a359c81ff82fe7d6b3d8",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-thread-extract-claude/references/platform-capture-patterns.md",
+      "gitBlob": "0b646c0fceda37ac57a256f95fed558727d566d4",
+      "sha256": "216c783f654d263aeb978375795204ed0e4d3e795544252e78a4f1f9124706a2",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-thread-extract-claude/scripts/create_thread_extract.py",
+      "gitBlob": "610a706d461cb7cf341752a78a84ca8eebbebe6a",
+      "sha256": "38fd5b0f1f159cfd17ac18896ba1f28313d595d79061984d5260779fdd8df9b6",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-thread-extract-claude/scripts/validate_package.py",
+      "gitBlob": "4b9ff34266e334a9b42cc18eaa94ec3ebcf28289",
+      "sha256": "c549bbbdc0508a6dd0bb5ff2e0f3817576194fab38f41d80b5c0b3e5f44b8527",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-triage-and-file/SKILL.md",
+      "gitBlob": "949a9a6d512497cd0b51d15b37815240888240f0",
+      "sha256": "cc2b8b2a5702dfe10b34b4bb3c1ec41bb1e5a8af7df77e3a7c98f8a73aebe77b",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-triage-and-file/agents/openai.yaml",
+      "gitBlob": "4871b2e02b0d92f85fcd366a9e8f52f9430b2fbe",
+      "sha256": "09d23ca66c763542a460cd46ac4b9cc8bd465f98913bd91f1c95c83dbf667298",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-triage-and-file/evals/evals.json",
+      "gitBlob": "a721d96122d2b5e5b31ad406e3fc604a727f920a",
+      "sha256": "be6c611ff442b7b6ceb75915cff659cd216d5c89eb4d8a4a6f290509e154a55e",
+      "mode": "100644"
+    },
     {
       "path": ".gitattributes",
       "gitBlob": "dfe0770424b2a19faf507a501ebfc23be8f54e7b",
@@ -26,6 +2237,18 @@
       "mode": "100644"
     },
     {
+      "path": "AGENTS.md",
+      "gitBlob": "3dd5cd88bdbcdf66aadddf08bd35308372e89420",
+      "sha256": "46b4bfcff9e1399f1762e256d5712fb08eef0bb3b4926c3b7ae425c5367e3934",
+      "mode": "100644"
+    },
+    {
+      "path": "CLAUDE.md",
+      "gitBlob": "99fa67bf21206566b4fbf8915cf82e35673e34b0",
+      "sha256": "050b80ce3463c11e5e87a4420d648513eaad95c18d252069f04968373c7b78d9",
+      "mode": "100644"
+    },
+    {
       "path": "LICENSE",
       "gitBlob": "f4873c2116435bd7bb58afdb5fddc835397e49dc",
       "sha256": "7a26108bff9a3301f0ed8fd0697f07134c7ed863d36572885ee37229c88ba29d",
@@ -35,6 +2258,12 @@
       "path": "README.md",
       "gitBlob": "2176505ac4bef7cf64130890855f7fae783eed9f",
       "sha256": "87ddc80921d2927792d57d61f753324a66652d9fd5691c994e248cd8f16cedc4",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/thread-closeouts/019f95ec-a61e-7cf0-b381-5e193e5f8459/closeout.md",
+      "gitBlob": "295cfc627e2f8fea60e30b1477ccd67b96e8c609",
+      "sha256": "baab4e193b00b5efe4035ec7b74b8031d34184abf25c80f5443ea84efd684f66",
       "mode": "100644"
     },
     {
@@ -107,6 +2336,60 @@
       "path": "knowledgebundle/giftlisthelper_canonicaldataledgerbundle.zip",
       "gitBlob": "ecdd81208d72873a7ea894771994e18de3b11180",
       "sha256": "808203717323e3bb559a63e52e62212aea0b8dc6cc90007b9528f74ddfe03c5a",
+      "mode": "100644"
+    },
+    {
+      "path": "skills/okhp3-skill-promotion/SKILL.md",
+      "gitBlob": "0a75d97fe51cbc85c673d4af614ac17eb68607f6",
+      "sha256": "dae6a325280f0ec19886779384f812a8934892c503e67527084c3e07d0deaa52",
+      "mode": "100644"
+    },
+    {
+      "path": "skills/okhp3-skill-promotion/assets/promotion-manifest-template.json",
+      "gitBlob": "a16437360a8cd9af50387f637002dbbb68bb59d3",
+      "sha256": "680722911f0e7693003e1a3c297bc4b50f84f345a67961d802ad7be8ebc0c6c3",
+      "mode": "100644"
+    },
+    {
+      "path": "skills/okhp3-skill-promotion/benchmarks/equilibrium-review-2026-08-02.json",
+      "gitBlob": "4cba76ac844207a70f94a608608cf6b80424654e",
+      "sha256": "7688b6efc4064bc4917831c2d417982d4cf8724cca39d49bc49217f361aa8de9",
+      "mode": "100644"
+    },
+    {
+      "path": "skills/okhp3-skill-promotion/benchmarks/structural-integrity-2026-08-02.json",
+      "gitBlob": "e9267149350adea8124448f744ca4e1648f56a6e",
+      "sha256": "2b155e2b27ab3480bf22ddc3435fdbe0ecd195650d8c3c4c750d5e975af5f48c",
+      "mode": "100644"
+    },
+    {
+      "path": "skills/okhp3-skill-promotion/benchmarks/sync-verification-2026-08-02.json",
+      "gitBlob": "9c7475c06413c85a8c1b8149c4aaba0c3556a362",
+      "sha256": "2aa04348cf41453e67fd70dec7868a21acf8f0b63184a7488020c00f9359e4a6",
+      "mode": "100644"
+    },
+    {
+      "path": "skills/okhp3-skill-promotion/evals/evals.json",
+      "gitBlob": "1df4a77745ab091e6335804126f57c6a4384bd42",
+      "sha256": "5092b11dac45d142bcc0ad4447d8c0607adeda4c0cfaa9c885c7c7e2b7e45675",
+      "mode": "100644"
+    },
+    {
+      "path": "skills/okhp3-skill-promotion/references/promotion-manifest.md",
+      "gitBlob": "992db1169252daec09f2163cca6c9ad3a46542aa",
+      "sha256": "2f95b1c493aebd758c0697b80454ac8ed33882376c8830969c7aa22d48d6d0e6",
+      "mode": "100644"
+    },
+    {
+      "path": "skills/okhp3-skill-promotion/scripts/sync_skill_mirror.py",
+      "gitBlob": "2b56e65159b0e0708f029683b04fd12bb28abb4d",
+      "sha256": "7a3c9263ea9a80afd124c9fcf9603787f57d890629c43aecc38d683c87ca897e",
+      "mode": "100644"
+    },
+    {
+      "path": "skills/okhp3-skill-promotion/tests/test_sync_skill_mirror.py",
+      "gitBlob": "d1271f2d46ed5131007d26e65851e663883bffe6",
+      "sha256": "a95a86d20216f81ac84aa12a66926dbee82768840e2f78212f0d49e5674c01c7",
       "mode": "100644"
     }
   ]

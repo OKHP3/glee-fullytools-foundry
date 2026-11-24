@@ -4,14 +4,732 @@
   "sourceCommit": "88dd8d533900ef9a9057a97a19b06e9205346ce8",
   "sourceTree": "abf3dd96d4bd85d199db5bca9ab7795f77fcaab2",
   "sourceLicense": "MIT",
-  "importMode": "sanitized-snapshot",
-  "destinationTree": "d375552266027f7f74cf1569dba505f373d05f8b",
+  "importMode": "exact-tree-snapshot",
+  "destinationTree": "abf3dd96d4bd85d199db5bca9ab7795f77fcaab2",
+  "importCommit": "1c95bd8ccf4a6a93c366b8707cb1d0ff9c828717",
+  "initialImport": {
+    "commit": "5a4de290c044d58ebd0a021a9a074de9f6ca60fd",
+    "receipt": "capabilities/treasured-finds/personal-librarian/product.json",
+    "mode": "sanitized-snapshot"
+  },
   "pathCounts": {
-    "imported": 10,
-    "repository-maintenance": 2,
-    "shared-public-reference": 126
+    "imported": 138
   },
   "files": [
+    {
+      "path": ".agents/prompts/gpt-project-onboarding.md",
+      "gitBlob": "41a824d69b3ce5c387e85b553c822b13ab797704",
+      "sha256": "730a099adfa14fa414742ff55d30cbd642a23eb0522a5e1d2dd9af15e62c46a9",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/prompts/gpt-to-agent-skill-migration.md",
+      "gitBlob": "73be21a0b465bfb5b5c48eacc03cc8d58ec56906",
+      "sha256": "8e7da96b8cb94d58402e6b48e90c7003452fcd7111fb557795a14b42bf85c8a8",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/prompts/project-context-bootstrap.md",
+      "gitBlob": "3ce0cdb486188846fb0d5c9beea5007add61b1b3",
+      "sha256": "5a6d7f57c35c599db4a0979bd7216b31bd9e79c71937309b604abf924d0e1663",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/.catalog-meta.json",
+      "gitBlob": "02dd474adcbe8fedd517fd207eb172776b9038ad",
+      "sha256": "9c8c037ef654a8a2b3f02de40b0b65ef85df27ffd72f5cf215302c09718ea8ac",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/README.md",
+      "gitBlob": "735fa63e70c7ae89a5ace1d506476c58d4ae6c5f",
+      "sha256": "7d076e9a4452c348a424833724e5dbc2e22e1dc6d42ebbc4c8130ad089e1876f",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-artifact-validation/SKILL.md",
+      "gitBlob": "869b3f1df9b7bce18216b1c31b51cef47f271dd2",
+      "sha256": "6c8692beb0a3a8c8a635f03dd5cd3708aa4198a9140ee77b55f4c35a13a3a5ff",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-artifact-validation/agents/openai.yaml",
+      "gitBlob": "ab9607e1b0da955f964cff223cc69fce602b6a6f",
+      "sha256": "39a5f14c7ecca4102865a3f42b31c30dde5432fe3251d73f74a6024e03d70c78",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-artifact-validation/evals/evals.json",
+      "gitBlob": "ee7da3631411dbec587438b3558db16ba5e0a3f1",
+      "sha256": "cd70fa48a9ed97eca6c4674fb13750ad8f45b3ef0fc0e216c97af3cb1e395d56",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-artifact-validation/promotion-manifest.json",
+      "gitBlob": "995435393cc6a5a93b111ca743411d005f9309f5",
+      "sha256": "54fce59342a9ccae97826d73aadda9e357ce982f2c4f6d749aecac5eb043cf3f",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-custom-gpt-builder/CHANGELOG.md",
+      "gitBlob": "8a691f0547b6e6825101c2a7cf5a6c82a923de86",
+      "sha256": "e520881e8f04dfeb7b73557d92b6ff03c76e0f021e470e6d21c386ca9f4ee228",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-custom-gpt-builder/LICENSE.md",
+      "gitBlob": "f47ea0450f9f842da1cfcc03323b7870854cb980",
+      "sha256": "acb31c331e2b7981ef2f43481978d34f46de6c06fcaf3f6ae90f426014ad9ae4",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-custom-gpt-builder/MANIFEST.md",
+      "gitBlob": "6a9d7c523ae2fb6378d5d9a6c460e44283c42446",
+      "sha256": "24abdf7c9716c1117122710f79d96b3088c4be499468a5dff64af2029b4e4c95",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-custom-gpt-builder/SKILL.md",
+      "gitBlob": "857c066d0f9f997ba9d1179225d0d28af68d803c",
+      "sha256": "8f8a9b22e802a1ba8c027b64c447c97e73952cef15822a159c3708f87f5cfd1f",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-custom-gpt-builder/evals/evals.json",
+      "gitBlob": "7aa505ccc791a96ba6852800ab5934468d613a5a",
+      "sha256": "a456c7b3b481f3510cc253306f8bb35115b5a3a71ff089659b52cf51e4e66043",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-custom-gpt-builder/references/actions-and-apps.md",
+      "gitBlob": "43c66de8c0ae50e62020979c58d0c8588f900e7d",
+      "sha256": "6265cd1bce091cff61ba3137d3761bbcbdb9352451e1ba03a6ea755ee03683ad",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-custom-gpt-builder/references/eval-and-redteam.md",
+      "gitBlob": "9cbf2168f29cd80a5573553853b44eabb3c1c532",
+      "sha256": "4104071786d33f7c37542e8274e8d58eb3a9aa7a4d3a048da59e85db556b6509",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-custom-gpt-builder/references/instruction-architecture.md",
+      "gitBlob": "c955ad2cdf56b746cdddf4c9d7cbac0b7c040aa3",
+      "sha256": "7e9aab8b860ecb0d5b1b44017cb65c7185f6256f9222863ad92c6ea615a0232b",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-custom-gpt-builder/references/knowledge-engineering.md",
+      "gitBlob": "acf63593d13f086ca05893de837c48cf88fec66c",
+      "sha256": "24a1be5ab7fc42455f934e350991082b8f904e6c6d629bcc36af9b169ffe0fb3",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-custom-gpt-builder/references/platform-comparison.md",
+      "gitBlob": "db76e670303c2118375df5d16171a72ea1eb4292",
+      "sha256": "f468df447c07a74cf69e716a430acf9dfa5d915337c2b1973a92b164aea41217",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-custom-gpt-builder/references/quality-tiers.md",
+      "gitBlob": "0d6c2cdfea40ca3cc690a8cfb057e750bbd01d87",
+      "sha256": "a30ba1c6e9ac3ed366a934fc0297605c87acb3dc31b102a53e4447e4c445e1ac",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-custom-gpt-builder/references/repo-overlay.md",
+      "gitBlob": "241a887b871325e4f263895a413f2a5b2f967046",
+      "sha256": "dfff833b3c4255458c1e0cc68bf78ed1275b30a8964f801359dfec18c3744808",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-custom-gpt-builder/references/taxonomy.md",
+      "gitBlob": "be26d106703c657e4153fee8ecb0496962f8494f",
+      "sha256": "4d1930e50046e572a8f6a9eb4696de95b579830fc3b3dd88dc5c2276a9e293b8",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-custom-gpt-readiness/SKILL.md",
+      "gitBlob": "aa17387749edf47db11bf5922dbb59438b4ffd26",
+      "sha256": "2958f965dccf56ddfed69e32d500cfd93052f306228d17ea367b254afa7f938a",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-custom-gpt-readiness/evals/evals.json",
+      "gitBlob": "24cb6de9da9d4b8d5da5f53654a786448ba23af3",
+      "sha256": "56c031a94d55d6e1585746fcbd12517f0948f3071ceb9240d5bd37462f636dc6",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-custom-gpt-readiness/references/readiness-dossier-schema.md",
+      "gitBlob": "6d68f05e5041361d7d39e760a954fc2c0896b277",
+      "sha256": "e23356c7cfec34ba09d9e37221dfa37dbb19bebcb71c728d61123a90fbadb689",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-equilibrium-review/README.md",
+      "gitBlob": "73d917f35e6fe5ba2ef1911fc5b7c9a6aaa92389",
+      "sha256": "6f44a8a2ad20ec6675a5fccb29bab5a452e4da95dbb5461394f6b0d89f842c96",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-equilibrium-review/SKILL.md",
+      "gitBlob": "592558fdc4ead47785462fae22b9263be5bf29de",
+      "sha256": "24aad5cce75ca4b41e60b556b7903e4f1d0e384e0f1755ad81e5b7a9014b6ffe",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-equilibrium-review/assets/equilibrium-review-record.json",
+      "gitBlob": "e65b8758bdd22ab062c7699d063a566af36dba40",
+      "sha256": "213b1489ffbee8a119175ed26c12c56eb6aea65c955c7441f776f15bd1038a34",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-equilibrium-review/benchmarks/benchmark.json",
+      "gitBlob": "fe49bd58648d69600e2cf82220c4f9b740987208",
+      "sha256": "c6e1289c58c7b6d63419c6d876a287cca16353db3bb3565396c43116ad1a367f",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-equilibrium-review/benchmarks/evolution-review-2026-07-28.json",
+      "gitBlob": "140d538154fdbdc7fe82791bd6989d438d814762",
+      "sha256": "e44e3379d6f4a6b61e9a646e981d418bd02d60fab28c04ca92d30f925adb38be",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-equilibrium-review/evals/evals.json",
+      "gitBlob": "7a49cfcd884444c707ee29ef7af93911336a3255",
+      "sha256": "7ea92fbd6e40ce73a581a3cb42a6be4291b012bc2f4570cb2d329ae75c1f26bc",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-equilibrium-review/references/domain-adapters.md",
+      "gitBlob": "5f1b5df34127c0ad5c3c9a5c08030911faaafba3",
+      "sha256": "bf07caa2c69dae0c0768611d39a54b7ccff043b8f9a8663106b173ea0e47fe22",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-equilibrium-review/references/review-protocol.md",
+      "gitBlob": "6c2bea30418ebaa47184a402ff2dd9e48c64c106",
+      "sha256": "b02fddfc733d02a59c9db9f09f507c2be48bf032105c6078cfb16328e0802f04",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-equilibrium-review/references/role-prompts.md",
+      "gitBlob": "9a79fab13490653a73552a59947fd5911692629d",
+      "sha256": "ec70708b01f01abb6b408aa496c0c3132512a41451238879b0268c9f264a7416",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-equilibrium-review/scripts/run_equilibrium_review.py",
+      "gitBlob": "390bd47d9df2c9d85ec7c8bab1c9cd602c20ac90",
+      "sha256": "b909ca57ab7a9beab36392bc8bff738352b37e0482d5314a7db7b11e7e10ebbd",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-evidence-standard/SKILL.md",
+      "gitBlob": "f6f991c7587561e5332871dcb3506619b27c8562",
+      "sha256": "8ae8485f79e87ccd43128ed18f907bb8ab99c41f597251d1b2d6989412da6317",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-evidence-standard/agents/openai.yaml",
+      "gitBlob": "0743415f4d871a97cfc30c347d1a20100ac79db9",
+      "sha256": "adf47e698e4a316810fbb1799b80b03477326a27579c4ac2d6b940d5cc14146a",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-evidence-standard/evals/evals.json",
+      "gitBlob": "e86f206eb829aea333df4bd0cd88cd4496fa04b0",
+      "sha256": "69a3c83a561fef9bef7e51351836d9e1132028a9db20eefdd001d4c641901cc2",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-gpt-skill-conversion-plan/SKILL.md",
+      "gitBlob": "c3862f5947c9f8d6edf396d4ecb46617d2363495",
+      "sha256": "0467eae265722e56c63025cef75755f4aee884952a25b99c31c19b20697bccfb",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-gpt-skill-conversion-plan/evals/evals.json",
+      "gitBlob": "1c080b3b3fa0c34daab503c2247eb68496389fae",
+      "sha256": "df9bd1ea63858b153c130a0c627d446724f8b138312c86c794f2eddb94815d2e",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-gpt-skill-conversion-plan/references/conversion-dossier-schema.md",
+      "gitBlob": "e4efedaa34043f46d830cbca40f45c2379dae3e8",
+      "sha256": "6bc8db468ede27b10dbdf8f80d419ad7336a04e0062c84679bce0a48ebf72ac9",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-repl-repo-janitor/SKILL.md",
+      "gitBlob": "862fca8fc05547667038dc0d22a5f0801d2ee5ba",
+      "sha256": "801d64be7c66e3019fe9a1cbd20529aa62043666a45bed3c07639549d4047f0d",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-repl-repo-janitor/references/naming-conventions.md",
+      "gitBlob": "4a56ce9e48610a17a8697e6a1c792f6b74130e20",
+      "sha256": "d26cdc014f44e115d8a7687d73bf35dfb7fd44a88a5f21be986704a635fa7117",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-repl-repo-janitor/scripts/audit-repo.py",
+      "gitBlob": "e5284a2d4ffab6751d14fb870e5d5e010620576d",
+      "sha256": "778a142d351ffb72b9f9d7ad645b9a2e8266a7aca9090e09ffb28e609055cfb1",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-repository-janitor/SKILL.md",
+      "gitBlob": "5d965a9b96c45237418bdee92e02cd7f0422c9a8",
+      "sha256": "5a5d1a14705f57e56f457a26bf1e99b6d16c0dda74a48c78851e3a6f2e190d13",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-repository-janitor/agents/openai.yaml",
+      "gitBlob": "16b54d92718623d43a46b40e47d765b3811bf96b",
+      "sha256": "a5660198cb61a6fe5c4d0a6d3c8e8f6a6c552366693b3095039f3ff5481099ef",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-repository-janitor/references/branch-lifecycle.md",
+      "gitBlob": "9408c7926af416d13f77daef1ce71b4ad61adb70",
+      "sha256": "000cfe21c55b6371ff961e3c3c6919a39139c782fffdafbe7e7f8829b6949520",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-repository-janitor/scripts/audit_mirrors.py",
+      "gitBlob": "531313be1d92e7f9c77040b95eaacf7038cc453b",
+      "sha256": "9f24581782098f914e30f2dcc847c12afaa50f82a4109cf28eef489d049f6da6",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-repository-organizer/SKILL.md",
+      "gitBlob": "a4197f79a1b0015ec4d102ee8d0d8b13ba6c8de7",
+      "sha256": "d68df0bae40471424511594d48ab5b46165c6b01871b4b92297671b302988e1e",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-repository-organizer/agents/openai.yaml",
+      "gitBlob": "7e835b87eb01079edeb75c87dc8d7b1b6dd46c57",
+      "sha256": "ff31d58a19ce26bbc255403e6263062df8ebaa6e7eff379a49d41d3a5b56a48b",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-repository-organizer/evals/evals.json",
+      "gitBlob": "e2a1eca0f8baca4c4c6edadb2268848df22d5f28",
+      "sha256": "a3ecb5f6ae7a1530a2361270dd47143aca6290fdab47ed5d120a6ca353cf9f76",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-repository-organizer/evals/results.md",
+      "gitBlob": "d8b04334a5b603edbc69ed93f900c514645de3cc",
+      "sha256": "74fb16970cec050d7ee6db514966a5d9b9c0a232eae9c79ca7756f72231bc52a",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-repository-organizer/evals/trigger-cases.json",
+      "gitBlob": "a54cc66d2caf5b510080ea6bc2d16662411085b3",
+      "sha256": "5c5a81ce38568cd97b52471195a2a4bd0da94408d47f79f5016160d3cdf3344f",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-repository-organizer/references/agent-skills-quality.md",
+      "gitBlob": "6951ea5ed8bba88b7f52635ab69f2502e64b8ef5",
+      "sha256": "0efd8ba18a20fc150e36eb717cd7526f82752b2bac49d326e41fc0842ac1579d",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-repository-organizer/references/archetype-rubric.md",
+      "gitBlob": "86ef2af5e70ab44e39034dbc35444139d1b04d97",
+      "sha256": "6b050f313246ddb748f080b9f208f9d168e31b84dc220664301f031f8073b7e6",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-repository-organizer/references/cross-platform-naming.md",
+      "gitBlob": "7bdc2d11950d036a58b163d4ebe57e4b70d05748",
+      "sha256": "89e17e32f010057127e5209dbec9c9b8f075b5fa28a5c4e6c97199c185330933",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-repository-organizer/references/github-baseline.md",
+      "gitBlob": "84857b0eaf7823bd7f1859a7fc778ceed3e8c63e",
+      "sha256": "724d51cde2c2ff90589f355bd97e4b5a9c154488f8dfa572d3264c02b0f2ce7a",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-repository-organizer/references/scaffold-matrix.md",
+      "gitBlob": "511c31859b30afd31b2dc85528f54ec239e29650",
+      "sha256": "0bc8633382cf6856d47f3f0e2ebfd27991a53a4b32a85652a4723a712c9d9f08",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-repository-organizer/scripts/inventory_repo.py",
+      "gitBlob": "249cf9cabdc8b1084013a82e3e37a92fdb6446e0",
+      "sha256": "d344d5139534fb880ca438812ff62bd71cc5ee1d73b863160bdad94950992a0e",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-session-handoff/SKILL.md",
+      "gitBlob": "f11a24e054718311b56758bc7735c71703eb5213",
+      "sha256": "fc3b481b6bae11ce9575ce241fec1cb5a046fcbd2d0a98e7f2f2e6456e623b06",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-session-handoff/agents/openai.yaml",
+      "gitBlob": "6f6a6f458afdccb80ea5c4c801974d4214a8db01",
+      "sha256": "73720b14054038c9d5d2f05f2e08e5c77ddc8c1730c4b9cbb5397cc4b57c7942",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-session-handoff/evals/evals.json",
+      "gitBlob": "7f44a8ffd228ff0f0b58e68d242f894fcebd1b3e",
+      "sha256": "6aaaf08ce9c33bd830130aa28b50403f2f286e3ef137b0f5f47bc92084ff79c1",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-cataloger/.claude/commands/catalog-skills.md",
+      "gitBlob": "3770114626fe14a8ddef1d061eb2c63892d22c26",
+      "sha256": "d7a10fe17151739f8f0f932b8e109136cf8eb4fe2f80cf6d141f9e40a127712c",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-cataloger/.claude/commands/index-skills.md",
+      "gitBlob": "9c1d6d156611b82cc7324c7a7d5b718e981a55a1",
+      "sha256": "f374fb53acc414c6c08b858e0c4043b47c05b03efc3502c2ea3a69d156507413",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-cataloger/SKILL.md",
+      "gitBlob": "a857401f151f0a62cce5c5e1f49c040b689c1756",
+      "sha256": "d601c10d2a182befef600f57b679aafa14d15f820a517dede733dcf18f28e937",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-cataloger/agents/openai.yaml",
+      "gitBlob": "a219431bd10b78a0912c4f2287fb21d2bf07904a",
+      "sha256": "4921938f6e88516352470ccfeaaf4965433404f55e2e8daede5edcd1ef369ccb",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-cataloger/assets/catalog-meta-schema.json",
+      "gitBlob": "7b9f522cde78f0178a38d039209c52323058de73",
+      "sha256": "037cff05bed3d6b1a306ab760930e2d3b8ad73f7b34a252f24d7ce24d67c4a68",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-cataloger/evals/evals.json",
+      "gitBlob": "b40899378d1323f0dc58f3843b37161eb1b06e27",
+      "sha256": "f5a54e0b5c514ccbbb0f90fd2a05a1c86f595c2788cb7b8a32c4aa10eeb9fcb3",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-cataloger/references/MODES.md",
+      "gitBlob": "e125554a03ee8cdaaa619d9cec3386005a2a15e0",
+      "sha256": "0fa378fd22747257c418cdf7bde9b2b2d3d5087adc4ab335f0975123b40dd8ec",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-cataloger/scripts/gen-skills-readme.py",
+      "gitBlob": "831c357cc262fb7d0f22a294bac4489d52456eb3",
+      "sha256": "4562091929b2b167c99ef037bd89fa5689c2aabba5bf6689f30c3ec3c0b55926",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-cataloger/tests/test_write_family_md.py",
+      "gitBlob": "6791d2693e7742d735dfef42c2c48f6a0a47deec",
+      "sha256": "5a4509229ba5f8640aa99a4bdc3ab8572e6ba89dfcaf3d6e613c4a19cc8ff6eb",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/SKILL.md",
+      "gitBlob": "cde816347dda9871ad57b5cc4d6a482b8fe6bb3b",
+      "sha256": "0e549fff561accc7bd167439012b3731f0f16cbb02ff9137237257d06db6eb57",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/agents/openai.yaml",
+      "gitBlob": "f9a50ec69666c61dc9fe333110c52aa99dc1badc",
+      "sha256": "6127b6365675dc366434b390d70722d518759dbf9476afda2a616ba5cf368429",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/assets/equilibrium-review-record.json",
+      "gitBlob": "819cdbf0fd0b3f9a0b47180862b1ca744d8acbd8",
+      "sha256": "6338a69910bc3a2c73482fd9f552c7fc87d7590f1d6ad3058c42b528fa7a7c40",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/assets/skill-template.md",
+      "gitBlob": "a57dfdbeba6c7b2fa7e56e8f8cedb0aed758d029",
+      "sha256": "5e191f8dee61bb0bd95a770f7919194acecc8a35b9fb83773aa64dacd69a0512",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/assets/sync-manifest-template.json",
+      "gitBlob": "01f861778dd8c0077ac279ff8d8b337ca503a2ad",
+      "sha256": "b422e038c8af96ea756bc4c47c9428da8d0ce373ab9a7fb47fa5e5b4bc5c92cf",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/benchmarks/benchmark.json",
+      "gitBlob": "4733a648fe5212e1168509405ac6d5157d553597",
+      "sha256": "54b6c79e3b4240bf134f91ea6db3e34fbc57155cbf315d9be1873cf659e1b564",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/benchmarks/equilibrium-review-2026-07-28.json",
+      "gitBlob": "099a9e3445cdec59ab40e81ebc119fa2d633e0c0",
+      "sha256": "adb95aa970eeaa2c7cc5f7f50e616494ef1b0d7406d1044af555a393147cc551",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/benchmarks/evolution-review-2026-07-27.md",
+      "gitBlob": "2aa59edc90dc04a4c94579af70acecc902afa6f9",
+      "sha256": "02687029bbab673705f5a5fb95d288c5ddc1b1593990d80ee6b69b0296427c39",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/benchmarks/learning-ledger-2026-07-27.json",
+      "gitBlob": "5e10920bd0fc9d62bf169f5c1efc31844334a216",
+      "sha256": "e96c7fc217839326aa9592c850eee62ae6469ee36fb80242e39c95c71c0cd1fa",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/benchmarks/learning-ledger-2026-07-28.json",
+      "gitBlob": "3fcf5fe2f64dc8f5d51cab80a669cd4d22506801",
+      "sha256": "4d00e96a7d170abcb6a8519cb8ed84b67e4cece515c4343d9a8af372b71e47ee",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/benchmarks/sync-verification-2026-07-28.json",
+      "gitBlob": "fa542ab86b3355b1eccdcb4ffbfab0813fc76261",
+      "sha256": "6ab829af91180d642fd0478ef529c350aebfafbcc6892e194c42bc7944332e63",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/evals/evals.json",
+      "gitBlob": "1700b35bedc195738122d4a1dbd6f50bed95ae55",
+      "sha256": "285b8a0ee87342d1435b858a22c8b3d0a0d4eebacc223d3ecf6c5ff2744dda9d",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/references/brand-standard.md",
+      "gitBlob": "ae05cd979d6b96698c404fc198f3f62fffb1f920",
+      "sha256": "4b28ce036f063865421ebbebd1bd48083a367126966f132a595ae4364d835cb4",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/references/equilibrium-review-protocol.md",
+      "gitBlob": "52d01cb9599609b8678940fed5ce000a2f7bba8d",
+      "sha256": "45ccd275e0725b9a48009a2594bef64a566b4841b7aa4ed9c33adb33887f739a",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/references/eval-patterns.md",
+      "gitBlob": "71c098084a1facfce373d446e74d73b1dbc0f4f3",
+      "sha256": "ad5ae7a0e53ea09184d64090c5881b1c284575a960593facf14d29d58f39f6f3",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/references/grading-schema.md",
+      "gitBlob": "1a8ae5571581a9ad7c2e4de2234ba94882d64ea7",
+      "sha256": "a1fd60950d0ee824c83a0fc395a7e4cca18b64e5276a8516a577678a6911cefe",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/scripts/validate-skill-suite.cjs",
+      "gitBlob": "0250567bb8157f7692612242b8414e739315e1af",
+      "sha256": "4a1319182012112c6bc91a9688aeef7f75a5a946e096cf19e5dde7be684694ab",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/tests/validate-foundry-evidence.test.cjs",
+      "gitBlob": "833dbd3562067751b15f594b376a2e32bf8fd503",
+      "sha256": "5595a363a7f733d3ae5a64f0685928d5c9b270ad02c1757220f92a206c07aa8f",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-1/with_skill/grading.json",
+      "gitBlob": "0ed7214bd31719a373253cae9a05c4f7abb68a88",
+      "sha256": "dc1f140502f53dd904c9971b049da13460c1b1778a0ef886d33697c05ab27517",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-1/with_skill/outputs/metrics.json",
+      "gitBlob": "44ce08ec74fabc7770e26da5f9a1ad9414381661",
+      "sha256": "865221bb1df7360f9318912eb61257c98dc327335d0b5d5e4ade597c45760bce",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-1/with_skill/outputs/response.md",
+      "gitBlob": "322c6e60e3d906b0a85067c04aef4b72cfe4bfab",
+      "sha256": "c8e11907e442b93fa00a7b1bde1a3c9898feb9e132901c6b0d369f95c7a6a678",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-1/without_skill/grading.json",
+      "gitBlob": "e3a545a26fc8aec11664b19f25f9359d296d3a5d",
+      "sha256": "e68c45da38be4c3e86d34e33ec9bc8fc0f5f8a5bc51b78a9a6b3ffbe83dcf729",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-1/without_skill/outputs/metrics.json",
+      "gitBlob": "8708189eba83b35eb1df26ebe72d5aa7bb66d7c1",
+      "sha256": "30e6fec2b5f34f3bb460c3e471331e04c5d1c9f1965c55415f233c59c9808e11",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-1/without_skill/outputs/response.md",
+      "gitBlob": "20bf8a67e7c804b6443cb68a764c8f2ff991bcac",
+      "sha256": "69b79db91d4ca3a761d3a3450ea56b0133a794518cfaf762eb0d714126bab862",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-2/with_skill/grading.json",
+      "gitBlob": "681ed294b820e7ccd1d8913aeeb0e15fd66eb36e",
+      "sha256": "a971eddf87f4385f127ef4961e9ccfbec6885f4d81f34858b6703c23862e7edb",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-2/with_skill/outputs/metrics.json",
+      "gitBlob": "b425107acf05e2ca9d74d22b432e4a8bc756a135",
+      "sha256": "f5c2c273160c7ece8aa1ef1ba8f848d513f84851c97e721bc0661eba7ad8c99b",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-2/with_skill/outputs/response.md",
+      "gitBlob": "551710f1a239072550d441f468ab1fa5a218a8c3",
+      "sha256": "d76fc4f0e28617fcc9269b0a2948026c564ceaa18b99adf6ad873d7802e86638",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-2/without_skill/grading.json",
+      "gitBlob": "5a1ecbc99cccdd36e910bad23a674d4d952f3d7e",
+      "sha256": "684ae8ba25c2fc779d00cb840ac5b0d022be0efe9cef448bfbf57e3d7b04ac40",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-2/without_skill/outputs/metrics.json",
+      "gitBlob": "c2d4df171021cdd08b706aa34ef7cd62d645789b",
+      "sha256": "20b0aabc7722b4666c62e8e8b0b9c05fe852bf5b6cadd2796abdd73a48d1be8a",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-2/without_skill/outputs/response.md",
+      "gitBlob": "3ca5cc4878257d56ebdb20eb763b04641f802e74",
+      "sha256": "72d856bf72f4ac0e84b3f211beca97b64594f433e17cc607d011afcc148f658f",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-3/with_skill/grading.json",
+      "gitBlob": "777c2534250d2a21341c1c20d3169e3602a30523",
+      "sha256": "e6ff08afe8d89c3e671ef07afccb88608376d79ff9124f1da74742ffdccf2897",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-3/with_skill/outputs/metrics.json",
+      "gitBlob": "b425107acf05e2ca9d74d22b432e4a8bc756a135",
+      "sha256": "f5c2c273160c7ece8aa1ef1ba8f848d513f84851c97e721bc0661eba7ad8c99b",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-3/with_skill/outputs/response.md",
+      "gitBlob": "c38b6ee469e0fe4522f653d8c601839dc6373525",
+      "sha256": "3a0ed11e714a95a3c46ac971dccd442ecc138c2b3a90038eff76c4bd6ec355a4",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-3/without_skill/grading.json",
+      "gitBlob": "8158a55ee242aaae4394022f2b6c7ebd32e00705",
+      "sha256": "c8c475c6b7e70734ca0c384b93f29e1e8be70cde4b23741eb1b8834b56a67ef7",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-3/without_skill/outputs/metrics.json",
+      "gitBlob": "c2d4df171021cdd08b706aa34ef7cd62d645789b",
+      "sha256": "20b0aabc7722b4666c62e8e8b0b9c05fe852bf5b6cadd2796abdd73a48d1be8a",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-3/without_skill/outputs/response.md",
+      "gitBlob": "d002423221a6f254d20b14725d0cc8d445e9af4b",
+      "sha256": "0c58aea2599b1672aeae99d7d247d4caeb02689df0ec72c3b7867127344803fc",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-promotion/SKILL.md",
+      "gitBlob": "0a75d97fe51cbc85c673d4af614ac17eb68607f6",
+      "sha256": "dae6a325280f0ec19886779384f812a8934892c503e67527084c3e07d0deaa52",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-promotion/assets/promotion-manifest-template.json",
+      "gitBlob": "a16437360a8cd9af50387f637002dbbb68bb59d3",
+      "sha256": "680722911f0e7693003e1a3c297bc4b50f84f345a67961d802ad7be8ebc0c6c3",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-promotion/benchmarks/equilibrium-review-2026-08-02.json",
+      "gitBlob": "4cba76ac844207a70f94a608608cf6b80424654e",
+      "sha256": "7688b6efc4064bc4917831c2d417982d4cf8724cca39d49bc49217f361aa8de9",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-promotion/benchmarks/structural-integrity-2026-08-02.json",
+      "gitBlob": "e9267149350adea8124448f744ca4e1648f56a6e",
+      "sha256": "2b155e2b27ab3480bf22ddc3435fdbe0ecd195650d8c3c4c750d5e975af5f48c",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-promotion/benchmarks/sync-verification-2026-08-02.json",
+      "gitBlob": "9c7475c06413c85a8c1b8149c4aaba0c3556a362",
+      "sha256": "2aa04348cf41453e67fd70dec7868a21acf8f0b63184a7488020c00f9359e4a6",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-promotion/evals/evals.json",
+      "gitBlob": "1df4a77745ab091e6335804126f57c6a4384bd42",
+      "sha256": "5092b11dac45d142bcc0ad4447d8c0607adeda4c0cfaa9c885c7c7e2b7e45675",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-promotion/references/promotion-manifest.md",
+      "gitBlob": "992db1169252daec09f2163cca6c9ad3a46542aa",
+      "sha256": "2f95b1c493aebd758c0697b80454ac8ed33882376c8830969c7aa22d48d6d0e6",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-promotion/scripts/sync_skill_mirror.py",
+      "gitBlob": "2b56e65159b0e0708f029683b04fd12bb28abb4d",
+      "sha256": "7a3c9263ea9a80afd124c9fcf9603787f57d890629c43aecc38d683c87ca897e",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-promotion/tests/test_sync_skill_mirror.py",
+      "gitBlob": "d1271f2d46ed5131007d26e65851e663883bffe6",
+      "sha256": "a95a86d20216f81ac84aa12a66926dbee82768840e2f78212f0d49e5674c01c7",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-source-backed-research/SKILL.md",
+      "gitBlob": "d7ca9721220c7b7d6153716216d85e49bb64348f",
+      "sha256": "f5fd6630d5ebff8f16e6ad29dbc1e3575c477a810fd585e1407be905dac286ac",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-source-backed-research/agents/openai.yaml",
+      "gitBlob": "9428cd333e0b593727e97a0fcc87b5145446c3ee",
+      "sha256": "3dc8b3fe5ee102acc94dcd3ce7c1512e1f1f54a202fd036d16a2dcef064f2300",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-source-backed-research/evals/evals.json",
+      "gitBlob": "8ee670ef27ddce80341712d23fc188faaf4bdca3",
+      "sha256": "dd4171acc9da9bf1f9dccd9664175a61729932ee270cbd79096860e2d7b68e9c",
+      "mode": "100644"
+    },
     {
       "path": ".gitattributes",
       "gitBlob": "dfe0770424b2a19faf507a501ebfc23be8f54e7b",
@@ -70,6 +788,60 @@
       "path": "examples/library/personal_librarian_upload_template.csv",
       "gitBlob": "3a5ac1b69fb744b37b7c578cc0961a5b4e9f00ac",
       "sha256": "825d21f133d69ec8b1db757f1cc697ae0485e3a520056c23a66eb795a4026864",
+      "mode": "100644"
+    },
+    {
+      "path": "skills/okhp3-skill-promotion/SKILL.md",
+      "gitBlob": "0a75d97fe51cbc85c673d4af614ac17eb68607f6",
+      "sha256": "dae6a325280f0ec19886779384f812a8934892c503e67527084c3e07d0deaa52",
+      "mode": "100644"
+    },
+    {
+      "path": "skills/okhp3-skill-promotion/assets/promotion-manifest-template.json",
+      "gitBlob": "a16437360a8cd9af50387f637002dbbb68bb59d3",
+      "sha256": "680722911f0e7693003e1a3c297bc4b50f84f345a67961d802ad7be8ebc0c6c3",
+      "mode": "100644"
+    },
+    {
+      "path": "skills/okhp3-skill-promotion/benchmarks/equilibrium-review-2026-08-02.json",
+      "gitBlob": "4cba76ac844207a70f94a608608cf6b80424654e",
+      "sha256": "7688b6efc4064bc4917831c2d417982d4cf8724cca39d49bc49217f361aa8de9",
+      "mode": "100644"
+    },
+    {
+      "path": "skills/okhp3-skill-promotion/benchmarks/structural-integrity-2026-08-02.json",
+      "gitBlob": "e9267149350adea8124448f744ca4e1648f56a6e",
+      "sha256": "2b155e2b27ab3480bf22ddc3435fdbe0ecd195650d8c3c4c750d5e975af5f48c",
+      "mode": "100644"
+    },
+    {
+      "path": "skills/okhp3-skill-promotion/benchmarks/sync-verification-2026-08-02.json",
+      "gitBlob": "9c7475c06413c85a8c1b8149c4aaba0c3556a362",
+      "sha256": "2aa04348cf41453e67fd70dec7868a21acf8f0b63184a7488020c00f9359e4a6",
+      "mode": "100644"
+    },
+    {
+      "path": "skills/okhp3-skill-promotion/evals/evals.json",
+      "gitBlob": "1df4a77745ab091e6335804126f57c6a4384bd42",
+      "sha256": "5092b11dac45d142bcc0ad4447d8c0607adeda4c0cfaa9c885c7c7e2b7e45675",
+      "mode": "100644"
+    },
+    {
+      "path": "skills/okhp3-skill-promotion/references/promotion-manifest.md",
+      "gitBlob": "992db1169252daec09f2163cca6c9ad3a46542aa",
+      "sha256": "2f95b1c493aebd758c0697b80454ac8ed33882376c8830969c7aa22d48d6d0e6",
+      "mode": "100644"
+    },
+    {
+      "path": "skills/okhp3-skill-promotion/scripts/sync_skill_mirror.py",
+      "gitBlob": "2b56e65159b0e0708f029683b04fd12bb28abb4d",
+      "sha256": "7a3c9263ea9a80afd124c9fcf9603787f57d890629c43aecc38d683c87ca897e",
+      "mode": "100644"
+    },
+    {
+      "path": "skills/okhp3-skill-promotion/tests/test_sync_skill_mirror.py",
+      "gitBlob": "d1271f2d46ed5131007d26e65851e663883bffe6",
+      "sha256": "a95a86d20216f81ac84aa12a66926dbee82768840e2f78212f0d49e5674c01c7",
       "mode": "100644"
     }
   ]

@@ -13,4 +13,4 @@ Organize household tasks, bills, gift lists, calendars and items to resell.
 | [Lifestyle Wallboard](lifestyle-wallboard/) | Bring routines, habits, budget snapshots and pending tasks together on one dashboard. |
 | [Neighborly Bazaar](neighborly-bazaar/) | Prepare items for local resale with item photos, price comparisons and listing details. |
 
-[All capabilities](../) · [Browse source files](source/) · [Catalog entry](https://github.com/OKHP3/glee-fullytools-foundry/blob/main/inventory/inventory-of-toolbox-tools-and-tool-ettes.md#tool--branch-05--glee-fully-organized-life) · [Import receipt](product.json) · [Original revision (access required)](https://github.com/OKHP3/glee-fully-gpt05-organized-life/tree/bf7077fbaa45ee795643757f1cb558fc5c78ccd0)
+[All capabilities](../) · [Browse source files](source/) · [Catalog entry](https://github.com/OKHP3/glee-fullytools-foundry/blob/main/inventory/inventory-of-toolbox-tools-and-tool-ettes.md#tool--branch-05--glee-fully-organized-life) · [Import receipt](product.json)

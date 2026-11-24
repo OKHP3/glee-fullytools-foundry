@@ -96,9 +96,12 @@ review must be labeled `not-run` until actually executed. An old GPT evaluation
 does not validate a converted skill or adapter.
 
 Find each former GPT in the [capability directory](../../capabilities/README.md)
-under its family. The [migration contract](../../products/README.md) describes
-how to preserve a reviewed source tree within that folder. Keep public GPT
-names, IDs and repository URLs as provenance and preserve sealed canonical IDs.
+under its family. Its `source/` folder preserves the original tracked files
+at the revision recorded in the [migration register](../../products/migration-map.json).
+Keep the original tree available for comparison while authoring skills,
+adapters and evaluations alongside it. Record each converted package and its
+acceptance evidence separately. The [migration contract](../../products/README.md)
+describes how to verify the imported tree.
 
 ## Source and platform boundaries
 

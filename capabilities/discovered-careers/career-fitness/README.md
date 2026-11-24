@@ -2,7 +2,7 @@
 
 Compare skills with possible roles, identify gaps and plan the next step in a career.
 
-[Discovered Careers](../) · [Browse source files](source/) · [Catalog entry](https://github.com/OKHP3/glee-fullytools-foundry/blob/main/inventory/inventory-of-toolbox-tools-and-tool-ettes.md#tool-ette--twig-01c--career-fitness) · [Import receipt](product.json) · [Original revision (access required)](https://github.com/OKHP3/glee-fully-gpt01c-career-fitness/tree/10027b298ed61ed5e70109614dd71fbe179f5cd3)
+[Discovered Careers](../) · [Browse source files](source/) · [Catalog entry](https://github.com/OKHP3/glee-fullytools-foundry/blob/main/inventory/inventory-of-toolbox-tools-and-tool-ettes.md#tool-ette--twig-01c--career-fitness) · [Import receipt](product.json)
 
 ## Overview of the original project
 

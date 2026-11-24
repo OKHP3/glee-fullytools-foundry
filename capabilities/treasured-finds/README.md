@@ -14,7 +14,7 @@ Catalog the things you collect, where you keep them and the stories that go with
 | [Supply Haus](supply-haus/) | Inventory craft supplies by material and record which projects used them. |
 | [Bag Nabbit](bag-nabbit/) | Catalog handbags by style and occasion, with room for purchase history, loans and wishlist items. |
 
-[All capabilities](../) · [Browse source files](source/) · [Catalog entry](https://github.com/OKHP3/glee-fullytools-foundry/blob/main/inventory/inventory-of-toolbox-tools-and-tool-ettes.md#tool--branch-02--glee-fully-treasured-finds) · [Import receipt](product.json) · [Original revision (access required)](https://github.com/OKHP3/glee-fully-gpt02-treasured-finds/tree/f851f081d818736ef8682225c48bb7a78e610a28)
+[All capabilities](../) · [Browse source files](source/) · [Catalog entry](https://github.com/OKHP3/glee-fullytools-foundry/blob/main/inventory/inventory-of-toolbox-tools-and-tool-ettes.md#tool--branch-02--glee-fully-treasured-finds) · [Import receipt](product.json)
 
 ## Overview of the original project
 

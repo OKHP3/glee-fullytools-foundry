@@ -4,15 +4,222 @@
   "sourceCommit": "d48d7bfd0f0a099c6fa82c4b8cdcba8b120486ac",
   "sourceTree": "db0cf603edfa050dab172636334f4a723cf8666c",
   "sourceLicense": "MIT",
-  "importMode": "sanitized-snapshot",
-  "destinationTree": "6ee6d570677acb93512261ec4f7944b0fe426f75",
+  "importMode": "exact-tree-snapshot",
+  "destinationTree": "db0cf603edfa050dab172636334f4a723cf8666c",
+  "importCommit": "1c95bd8ccf4a6a93c366b8707cb1d0ff9c828717",
+  "initialImport": {
+    "commit": "5a4de290c044d58ebd0a021a9a074de9f6ca60fd",
+    "receipt": "capabilities/identity-known/critter-spotter/product.json",
+    "mode": "sanitized-snapshot"
+  },
   "pathCounts": {
-    "imported": 4,
-    "private-operations": 1,
-    "repository-maintenance": 26,
-    "shared-public-reference": 9
+    "imported": 40
   },
   "files": [
+    {
+      "path": ".agents/skills/.catalog-meta.json",
+      "gitBlob": "9778c0f35441d7d87e5fb1883a065b1374a7aa4d",
+      "sha256": "352aa2a96462a46decb229fe813c89ac2612abd65eb950847cc6a2e4c9a3eecd",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/README.md",
+      "gitBlob": "45aa81888622b36ed689a78e9481bbda1525fb9f",
+      "sha256": "bff96a09e3878001ce6f6d03a346cf9e5c39dd0c0abdc57b8d3ef53722ae9f81",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/find-skills/SKILL.md",
+      "gitBlob": "9ea9c8df367b66aea14e62e72d7d2e435a0875ab",
+      "sha256": "8b1ed492bb1b94e24bbd89ab27a448621630b28eca18890e886141147b19e90d",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-notion-capture-router/SKILL.md",
+      "gitBlob": "f4554c5f0d70e75a6f0f2685d28a042be205616a",
+      "sha256": "16be151c2f6193bd915c7fa37008ca184f36a170afc6cb6b5ab8b119e1850a79",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-notion-capture-router/assets/report-template.md",
+      "gitBlob": "b82bba0202d29e299b08657b034d6f2525440353",
+      "sha256": "85e1780c04c04e125f794aa933a17f8b2547540504d7e36004e7f5a2d1328c31",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-notion-capture-router/assets/trigger-eval-queries.json",
+      "gitBlob": "0b32b410e322afaf7e05bf12a261f2d95785b6ac",
+      "sha256": "9257c36f39c724659a43ed6268f9164b89e3d0d1fb235361a8bf7653a3a748e6",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-notion-capture-router/references/final-check.md",
+      "gitBlob": "fb52795f3c0d71f441347482e9b692a1fa93891e",
+      "sha256": "e944562197ce9a0df3edefce8f2baf16b45a2b52c5f3db60fd3268c47a2be2d5",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-notion-capture-router/references/output-contract.md",
+      "gitBlob": "427dd37ff8b9b9b7089106fd9eb97f89839b9eb1",
+      "sha256": "17331c5d79a48f83f966a6c4ec2ef5d448efa31033e9e509bf6fbd29452134ac",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-notion-capture-router/references/platform-variants.md",
+      "gitBlob": "038962fad16ef43d65d2e19664deff7c7edeec49",
+      "sha256": "dc569eb344e89c80cbe8cc976b049ef75faa3aa6f7fdc1b28a45ec10afa6ee44",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-notion-capture-router/references/routing-anchors.md",
+      "gitBlob": "ee476f4d15c98e4b5a49aef22cd1dc36d3c9f95a",
+      "sha256": "62c0005c5ed96b8090c1b6f9535453032da37ec445adc571a35f1e7ae8881a0e",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-cataloger/.claude/commands/catalog-skills.md",
+      "gitBlob": "3770114626fe14a8ddef1d061eb2c63892d22c26",
+      "sha256": "d7a10fe17151739f8f0f932b8e109136cf8eb4fe2f80cf6d141f9e40a127712c",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-cataloger/.claude/commands/index-skills.md",
+      "gitBlob": "9c1d6d156611b82cc7324c7a7d5b718e981a55a1",
+      "sha256": "f374fb53acc414c6c08b858e0c4043b47c05b03efc3502c2ea3a69d156507413",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-cataloger/SKILL.md",
+      "gitBlob": "c21865005403cec7d414507f37cd0b3fbfdf7723",
+      "sha256": "b40879048f0c1c38c6192a9730e1564187924648ae15080df7685521951f04b3",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-cataloger/assets/catalog-meta-schema.json",
+      "gitBlob": "b6cb401ad8e322d75d57cb6c035fe3b0d15ff9c5",
+      "sha256": "29955cc516c16cdca1834048fb1a02e5fda857c37dad0258f8a7966cae3693a6",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-cataloger/references/MODES.md",
+      "gitBlob": "8d1fe252d996c89bdb30205f96f2aecbb4518c77",
+      "sha256": "ccd6afd75ae3b7ca646f5137f1b4f8ca8d68a1be55bac7ddd7f8a931bd7cf63e",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/okhp3-skill-cataloger/scripts/gen-skills-readme.py",
+      "gitBlob": "fde9e15e41034c3485c111ce15150eb9bb42c9de",
+      "sha256": "0eba7cdb01e53acd990dca32aa5d9bfacbf72a6d92e3e9c7d40b5e9e3b508b81",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/skill-creator/SKILL.md",
+      "gitBlob": "65b3a402dbd09b8e83f9d637c6b553875189085c",
+      "sha256": "dcd4803e61e913e6fc27294184cd3a71f09f5e924ff20c8a9a20173e7b3c2bcf",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/skill-creator/agents/analyzer.md",
+      "gitBlob": "14e41d6068635f4dd3fb878fd1626312395dda63",
+      "sha256": "bf68f4cac5a56c673a928c2e6d619586c5b93ea364026ab37547772cb45a663a",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/skill-creator/agents/comparator.md",
+      "gitBlob": "80e00eb45db3ee53a132fc2ba97fd59a7339e563",
+      "sha256": "fe1fc9787c495d864c5d6eada47396478572325fde1b33a96d78bf4b849b7a3e",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/skill-creator/agents/grader.md",
+      "gitBlob": "558ab05c0a9a8bb062ef4c51823d4d76c3acf7c4",
+      "sha256": "57134da0c1a4eea33fbd74a1c9c44aa814f07d6bc64de303edb586f941e5d21a",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/skill-creator/assets/eval_review.html",
+      "gitBlob": "938ff32aed9bffabf723bd5492d720f4736c8e4d",
+      "sha256": "ce477dcc74dc1c0d1d3352646a79167b5a63634e936b1019160025065974e452",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/skill-creator/eval-viewer/generate_review.py",
+      "gitBlob": "7fa5978631fed1ed545591dbb2b0eb21ce3f3d08",
+      "sha256": "fc9d1b9243fe5ab6012ebd579bd76d0035de1b79fd3b969de114defab26478fb",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/skill-creator/eval-viewer/viewer.html",
+      "gitBlob": "8c871ffa55950ba6c3642aabdd8ae8bcd4cba264",
+      "sha256": "783317ef851ffbcb12a5f1a312ce97c0b0cee02263e942b3b81ec1655f002227",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/skill-creator/license.txt",
+      "gitBlob": "4f881c52d1f72f4cfb720e339e2d35c3058d01a9",
+      "sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/skill-creator/references/schemas.md",
+      "gitBlob": "b6eeaa2d4a34c1653069585c6c5603da39a5bdbe",
+      "sha256": "8e8876180a8989b406a4d3edddf875b04cdfd5805cc8616686d552b11ce4455f",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/skill-creator/scripts/__init__.py",
+      "gitBlob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/skill-creator/scripts/aggregate_benchmark.py",
+      "gitBlob": "3e66e8c105be9bab9f0e9c61f0d1482619401580",
+      "sha256": "123ef128ea5ccc01a4b1ac212ef5567f21e9c13d3d240609780beeb3200c49aa",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/skill-creator/scripts/generate_report.py",
+      "gitBlob": "959e30a0014ec165c41a2bb7420b7dfe1416bbac",
+      "sha256": "13df7118a3c50c83c4c3250a606d5f2b20b25a3d44cbc392b3d669ec75281453",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/skill-creator/scripts/improve_description.py",
+      "gitBlob": "9a3ad7e70fbeaddef0d749f8453b27d98896c9f9",
+      "sha256": "686f346cd682687f16350aa509982f8c7dbc6d9b3bb8a3ad044d565ea21aef24",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/skill-creator/scripts/package_skill.py",
+      "gitBlob": "f48eac444656ddc41204aac1760a217951ce609e",
+      "sha256": "1a33059b0db1ef73375d46d513e5ea81369d2e8838c970597b0d52ddef8d1c0f",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/skill-creator/scripts/quick_validate.py",
+      "gitBlob": "54f682ce8759a54427fb2093bb0314eaeefaa6ba",
+      "sha256": "faf8532dbfa0cb55780a126213ce0017a6790afe26667ccd5b33a12a742e183e",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/skill-creator/scripts/run_eval.py",
+      "gitBlob": "e58c70bea39d5b252a1e819f242bbdcdf20e8b87",
+      "sha256": "43e3b8f80dbf69c343967ba77e268fae991d9fa3ed68b32a0ff02532cd48657f",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/skill-creator/scripts/run_loop.py",
+      "gitBlob": "30a263d674ef19de11c756d6f7537f91a421909e",
+      "sha256": "7bd6f674203168520517eec94c55f493c0d154339b061b4d7c0f0dad187d0f21",
+      "mode": "100644"
+    },
+    {
+      "path": ".agents/skills/skill-creator/scripts/utils.py",
+      "gitBlob": "51b6a07dd57174197a937034b7eecebd5768ff8a",
+      "sha256": "3af8ae62c40c73ab712207436a0d9a981e845f25c5a7040229eb189cc8e45bb1",
+      "mode": "100644"
+    },
     {
       "path": ".gitattributes",
       "gitBlob": "dfe0770424b2a19faf507a501ebfc23be8f54e7b",
@@ -23,6 +230,18 @@
       "path": ".gitignore",
       "gitBlob": "a87947e0cccd2626cd542bae3cd2c27b8bea97a3",
       "sha256": "9e773a10494f171e02d7aa8bd3e0fdf2cfc71acea5e33333b715f373a225759d",
+      "mode": "100644"
+    },
+    {
+      "path": "AGENTS.md",
+      "gitBlob": "f5487d053a5abbc24685f8c169efbbbe00f77283",
+      "sha256": "ffdcb197ccea7ef9f05799d1fbe901dfe6019e0383d5c5ae81eb92fbd3ee7d4d",
+      "mode": "100644"
+    },
+    {
+      "path": "CLAUDE.md",
+      "gitBlob": "bf2aad14cfee3f8d2c6b55d529576f0d9fa69e36",
+      "sha256": "a665034d3d35edad600118a4d588f585b8f6df09e5d0e9c84844352dd7964d74",
       "mode": "100644"
     },
     {

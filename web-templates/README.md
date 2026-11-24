@@ -1,10 +1,10 @@
 # web-templates/ — Public Webpage Template Assets
 
-> ⚠️ **These are template source files, NOT a deployable website.**
-> Do not configure a web server or deployment workflow to serve this folder from
-> this workbench. These assets are intended for deployment in child repositories
-> that host Glee-fully's public-facing pages (e.g., Tool-ette landing pages on
-> [glee-fully.tools](https://glee-fully.tools)).
+> **Historical template source.** The examples below document the former
+> child-repository publishing workflow. Find each former project in the
+> [FoundRy capability directory](../capabilities/README.md). The public site
+> is maintained in the [storefront repository](https://github.com/OKHP3/glee-fullytools).
+> Keep these templates outside the FoundRy application's serving allowlist.
 
 ---
 
@@ -117,7 +117,7 @@ with web-ready content formatting.
 
 ---
 
-## How to Use These Templates
+## Historical template workflow
 
 ### Building a New Tool-ette Page (for a child repo)
 
@@ -162,7 +162,7 @@ web-templates/    <-- NOT served from      --> this workbench (Glee-fullyTools-F
 
 ---
 
-## Deployment Context
+## Historical deployment context
 
 ```
 This Workbench (FoundRy)         →  template assets originate here

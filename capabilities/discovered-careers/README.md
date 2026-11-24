@@ -13,4 +13,4 @@ Build a resume, prepare an application, assess a career move or keep track of a 
 | [bLinkIn Tuner](blinkin-tuner/) | Refine a LinkedIn headline, About section and experience entries for the roles a job seeker wants. |
 | [Career Seeker](career-seeker/) | Track job applications, interview dates and follow-ups for each opportunity. |
 
-[All capabilities](../) · [Browse source files](source/) · [Catalog entry](https://github.com/OKHP3/glee-fullytools-foundry/blob/main/inventory/inventory-of-toolbox-tools-and-tool-ettes.md#tool--branch-01--glee-fully-discovered-careers) · [Import receipt](product.json) · [Original revision (access required)](https://github.com/OKHP3/glee-fully-gpt01-discovered-careers/tree/fa2cc76c57bce40042edd0638a397ba5bbdab5a6)
+[All capabilities](../) · [Browse source files](source/) · [Catalog entry](https://github.com/OKHP3/glee-fullytools-foundry/blob/main/inventory/inventory-of-toolbox-tools-and-tool-ettes.md#tool--branch-01--glee-fully-discovered-careers) · [Import receipt](product.json)
