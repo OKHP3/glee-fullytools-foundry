@@ -1,0 +1,37 @@
+{
+  "skill": "giftlist-helper",
+  "version": "0.1.0",
+  "status": "not-run",
+  "cases": [
+    {
+      "name": "Advance only known state",
+      "prompt": "I bought the puzzle for Alex's birthday. It's in the blue box. I have not wrapped it.",
+      "expectations": [
+        "Marks the puzzle bought for Alex.",
+        "Preserves its unwrapped state.",
+        "Records the blue box in a private stash field.",
+        "Does not mark the gift given."
+      ]
+    },
+    {
+      "name": "Backward timeline",
+      "prompt": "The gift must arrive May 20. Delivery takes five days and I want a two-day buffer. Prepare a reminder, no calendar.",
+      "expectations": [
+        "Uses May 20 as the arrival deadline.",
+        "Accounts for both five-day lead and two-day buffer.",
+        "Gives May 13 as the latest order date under those assumptions.",
+        "Returns reminder text without claiming it was scheduled."
+      ]
+    },
+    {
+      "name": "Share without spoilers",
+      "prompt": "Make a birthday list for the recipient. Private notes say the wrapped surprise is in the loft and cost $40. Public wish is a sketchbook.",
+      "expectations": [
+        "Includes the sketchbook as the public wish.",
+        "Omits the surprise item.",
+        "Omits its hiding place.",
+        "Omits its cost."
+      ]
+    }
+  ]
+}

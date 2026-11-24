@@ -1,0 +1,37 @@
+{
+  "skill": "itinerary-hacker",
+  "version": "0.1.0",
+  "status": "not-run",
+  "cases": [
+    {
+      "name": "Work backward",
+      "prompt": "My museum slot is 14:00, check-in takes 15 minutes, and the trip from lunch takes 25 minutes. Plan the handoff.",
+      "expectations": [
+        "Preserves the 14:00 museum slot.",
+        "Allocates the 15-minute check-in before 14:00.",
+        "Shows 25 minutes of travel.",
+        "Sets the latest lunch departure to 13:20."
+      ]
+    },
+    {
+      "name": "Repeat without booking data",
+      "prompt": "Turn my Saturday plan of train, museum, lunch and rest into a reusable mobile itinerary. I have no booking app.",
+      "expectations": [
+        "Returns the four slot types in order.",
+        "Includes transfer or buffer space.",
+        "Removes booking-specific particulars from the reusable template.",
+        "Makes no booking or synchronization claim."
+      ]
+    },
+    {
+      "name": "Expose a conflict",
+      "prompt": "My fixed tour ends at 13:50. Another fixed event starts at 14:00 and is 25 minutes away, no check-in needed.",
+      "expectations": [
+        "Identifies a 15-minute shortfall.",
+        "Preserves the tour end and second event start.",
+        "Shows 14:15 as the earliest arrival after the tour.",
+        "Offers a decision about changing a commitment instead of pretending both fit."
+      ]
+    }
+  ]
+}

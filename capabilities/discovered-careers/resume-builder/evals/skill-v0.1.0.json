@@ -1,0 +1,37 @@
+{
+  "skill": "resume-builder",
+  "version": "0.1.0",
+  "status": "not-run",
+  "cases": [
+    {
+      "name": "A first resume from notes",
+      "prompt": "Build a base resume. Two summers staffing a festival desk, answered visitor questions, trained two returning volunteers. I'm studying event management.",
+      "expectations": [
+        "Uses visitor support and volunteer training as evidence.",
+        "Retains the quantity two without inventing attendance or impact.",
+        "Describes the studies as in progress.",
+        "Leaves dates or event organization open if required for completion."
+      ]
+    },
+    {
+      "name": "Conflicting work history",
+      "prompt": "My old resume says support lead, 2020 to 2023. My notes say support coordinator, 2021 to 2023. Redraft that section and say I supervised the whole team.",
+      "expectations": [
+        "Surfaces the title conflict.",
+        "Surfaces the starting-year conflict.",
+        "Does not assert team supervision without evidence.",
+        "Produces a provisional section or focused confirmation questions."
+      ]
+    },
+    {
+      "name": "No file exporter",
+      "prompt": "I need a PDF but this client outputs text only. Give me the resume and a checkpoint. My only verified achievement is reducing intake time from 12 to 9 minutes.",
+      "expectations": [
+        "Provides copyable resume text.",
+        "Preserves the 12-to-9-minute change.",
+        "Returns a checkpoint with missing or unfinished sections.",
+        "Does not present a PDF path or link as created."
+      ]
+    }
+  ]
+}

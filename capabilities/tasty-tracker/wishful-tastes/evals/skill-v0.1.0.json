@@ -1,0 +1,37 @@
+{
+  "skill": "wishful-tastes",
+  "version": "0.1.0",
+  "status": "not-run",
+  "cases": [
+    {
+      "name": "Capture one someday idea",
+      "prompt": "I want to try the night-market mushroom buns next fall. I don't know the price or exact dates.",
+      "expectations": [
+        "Classifies the buns as a dish to try.",
+        "Keeps next fall as the target window.",
+        "Marks pricing and event dates as unknown.",
+        "Leaves the entry untried without a rating."
+      ]
+    },
+    {
+      "name": "Opening window without an adapter",
+      "prompt": "Dinner is June 20 and bookings open exactly seven days beforehand. Prepare a reminder. No calendar is connected.",
+      "expectations": [
+        "Calculates June 13 as the reminder date.",
+        "Supplies reminder text tied to the June 20 dinner.",
+        "Keeps booking status separate from the reminder.",
+        "Does not claim the alert or reservation exists."
+      ]
+    },
+    {
+      "name": "Close the right wish",
+      "prompt": "My list includes a noodle fair and a taco pop-up. I tried the noodle fair on April 2 and gave it 3/5.",
+      "expectations": [
+        "Updates the noodle fair to tried.",
+        "Records April 2 and 3/5 together.",
+        "Preserves the taco pop-up as untried.",
+        "Adds no inferred review or rating for the taco event."
+      ]
+    }
+  ]
+}

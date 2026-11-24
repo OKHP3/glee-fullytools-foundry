@@ -22,6 +22,45 @@ recorded matching shared tools. Its evidence remains available through
 The five blank [Resume Builder templates](../capabilities/discovered-careers/resume-builder/templates/)
 are derived material alongside its source.
 
+## Retirement of the 50 GitHub repositories
+
+On November 24, 2026, the owner moved all 50 legacy repositories into this
+FoundRy. At the [cutover revision](https://github.com/OKHP3/glee-fullytools-foundry/commit/64cf0c63c5d2eec64726dcabcff6efbabe17897c),
+each of the 50 public `source/` trees had the same Git tree ID as its live
+upstream `main`. Together they contained 17,825 tracked paths. The original
+Git histories were restored and checked privately before deletion.
+
+GitHub confirmed all 50 deletions. The owner repository inventory and an
+authenticated lookup of every former repository verified their removal. Use
+the destination in the [register](migration-map.json) for ongoing work.
+The former repository URLs identify the sources for historical lookup.
+
+## Portable skills and plugin packages
+
+Each of the 50 capability pages links to its portable v0.1.0 `SKILL.md` and
+three behavioral evaluation cases. The skill can be used independently of a
+ChatGPT account. The cases record expected results, with execution status
+stored separately from package validation.
+
+From the repository root, choose an output directory outside the checkout:
+
+```bash
+python scripts/package-capability-plugins.py --product resume-builder --output <output-directory>
+python scripts/package-capability-plugins.py --all --output <output-directory>
+python scripts/package-capability-plugins.py --all --output <output-directory> --check
+```
+
+Replace `<output-directory>` with your chosen path. Each ZIP contains one
+Codex compatibility manifest, the named skill, and its original MIT license.
+The packager excludes legacy source trees and user records. The register
+records the package version and verification scope. Host installation and
+runtime tests are separate steps.
+
+ChatGPT also migrated the latest published version of each of the 50 owned GPTs
+into a private plugin. Each original now opens its replacement from My GPTs.
+Those native releases preserve the hosted instructions and available reference
+files. The public portable packages are maintained independently here.
+
 ## Layout for each product
 
 ```text

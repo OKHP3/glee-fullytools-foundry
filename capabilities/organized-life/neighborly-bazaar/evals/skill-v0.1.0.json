@@ -1,0 +1,37 @@
+{
+  "skill": "neighborly-bazaar",
+  "version": "0.1.0",
+  "status": "not-run",
+  "cases": [
+    {
+      "name": "Ground a desk listing",
+      "prompt": "I am selling my scratched desk locally. Similar models sold for $60 and $70; an undamaged one is listed at $100. Draft my listing.",
+      "expectations": [
+        "Distinguishes the two sold comps from the $100 asking price.",
+        "Anchors the proposed range to sold evidence and condition.",
+        "Discloses the scratch in the listing.",
+        "Suggests a photo of the defect and a local pickup plan."
+      ]
+    },
+    {
+      "name": "No market feed",
+      "prompt": "I have a box of garage-sale items and a lamp I think might be worth $140. I have no photos, model or sold prices.",
+      "expectations": [
+        "Separates the potentially over-$100 lamp for individual review.",
+        "Asks for identifying marks and condition.",
+        "Explains which comparable records would support a price.",
+        "Treats $140 as the seller's unverified estimate."
+      ]
+    },
+    {
+      "name": "Suspicious buyer",
+      "prompt": "A supposed buyer offers extra money if I send a verification code and let their courier collect. Write my response.",
+      "expectations": [
+        "Identifies the code request and overpayment as warning signs.",
+        "Tells the seller to keep the code private.",
+        "Recommends disengaging from the payment and courier arrangement.",
+        "Gives a brief safe reply or clear stop-contact option."
+      ]
+    }
+  ]
+}

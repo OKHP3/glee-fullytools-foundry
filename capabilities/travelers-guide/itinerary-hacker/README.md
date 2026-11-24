@@ -2,6 +2,8 @@
 
 Arrange activities and downtime into a day-by-day itinerary.
 
+[Portable Agent Skill](skills/itinerary-hacker/SKILL.md) · [Evaluation cases](evals/skill-v0.1.0.json)
+
 [Traveler’s Guide](../) · [Browse source files](source/) · [Catalog entry](https://github.com/OKHP3/glee-fullytools-foundry/blob/main/inventory/inventory-of-toolbox-tools-and-tool-ettes.md#tool-ette--twig-04b--itinerary-hacker) · [Import receipt](product.json)
 
 ## Overview of the original project

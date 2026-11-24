@@ -1,0 +1,37 @@
+{
+  "skill": "scentinal-journal",
+  "version": "0.1.0",
+  "status": "not-run",
+  "cases": [
+    {
+      "name": "Opened stock",
+      "prompt": "Two identical cedar candles arrived sealed. I opened one in the study and burned it for 45 minutes.",
+      "expectations": [
+        "Retains total quantity two.",
+        "Marks one open and one unopened.",
+        "Records the study and 45-minute session for the open candle.",
+        "Does not turn 45 minutes into an estimated total burn life."
+      ]
+    },
+    {
+      "name": "Contrasting impressions",
+      "prompt": "The label says citrus and mint. I thought it smelled woody and weak in a big room. Add to my notes.",
+      "expectations": [
+        "Attributes citrus and mint to the label.",
+        "Records woody as the user's perception.",
+        "Ties weak throw to this room or session.",
+        "Avoids declaring that the scent has objectively poor performance everywhere."
+      ]
+    },
+    {
+      "name": "Reorder without purchase",
+      "prompt": "I love amber oil, but have a sealed refill in the cupboard. Add it to my future list. The label photo won't load.",
+      "expectations": [
+        "Records a future reorder preference.",
+        "Preserves the unopened refill and its location.",
+        "Leaves unreadable label details open or requests transcription.",
+        "Does not purchase or claim a stockout."
+      ]
+    }
+  ]
+}

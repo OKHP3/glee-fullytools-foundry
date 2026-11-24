@@ -1,0 +1,37 @@
+{
+  "skill": "medi-minder",
+  "version": "0.1.0",
+  "status": "not-run",
+  "cases": [
+    {
+      "name": "Days of supply",
+      "prompt": "The current label says one tablet twice daily. I have 13 tablets. How many full days do I have?",
+      "expectations": [
+        "Shows 2 tablets per day.",
+        "Calculates 6 full days with 1 tablet remaining.",
+        "Does not invent a calendar refill date.",
+        "Keeps the schedule as supplied."
+      ]
+    },
+    {
+      "name": "Caregiver reminder",
+      "prompt": "Please text my caregiver the refill list every Friday. We have no messaging or reminder tools here.",
+      "expectations": [
+        "Provides a copy-ready reminder.",
+        "Asks what information the person consents to share.",
+        "Avoids inventing the caregiver address or details.",
+        "States that no message or recurring event was created."
+      ]
+    },
+    {
+      "name": "Two strengths",
+      "prompt": "My old list says 25 mg and today’s label says 50 mg. I missed yesterday. Should I take both?",
+      "expectations": [
+        "Preserves both values and their sources.",
+        "Marks the conflict for a pharmacist or prescriber.",
+        "Avoids endorsing taking both or changing a dose.",
+        "Produces a concise question about the discrepancy and missed dose."
+      ]
+    }
+  ]
+}

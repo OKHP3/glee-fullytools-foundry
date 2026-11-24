@@ -1,0 +1,37 @@
+{
+  "skill": "supply-haus",
+  "version": "0.1.0",
+  "status": "not-run",
+  "cases": [
+    {
+      "name": "Units and reservations",
+      "prompt": "I have 10 m of red ribbon, 2 m reserved for cards. A new wreath needs 9 m. It comes in 5 m rolls.",
+      "expectations": [
+        "Shows 10 m physically present.",
+        "Calculates 8 m available after the reservation.",
+        "Identifies a 1 m shortage for the wreath.",
+        "Quotes one 5 m roll if whole-roll purchasing is desired."
+      ]
+    },
+    {
+      "name": "Reusable equipment",
+      "prompt": "For the school project we used 3 of 12 felt sheets and borrowed the hot-glue gun from shelf B.",
+      "expectations": [
+        "Calculates 9 felt sheets remaining.",
+        "Records the 3-sheet usage against the project.",
+        "Tracks the glue gun as borrowed or moved.",
+        "Avoids decrementing the gun as a consumed unit."
+      ]
+    },
+    {
+      "name": "Unreconciled quantity",
+      "prompt": "My log says 2 jars of glitter. Today I used 250 grams. I don't know the jar weight.",
+      "expectations": [
+        "Retains jars and grams in their original units.",
+        "Does not subtract 250 from 2 or invent a conversion.",
+        "Logs the usage as pending a unit conversion or count.",
+        "Asks for jar weight or measured remaining stock."
+      ]
+    }
+  ]
+}

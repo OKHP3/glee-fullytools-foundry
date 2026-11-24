@@ -1,0 +1,37 @@
+{
+  "skill": "personalizable-tools",
+  "version": "0.1.0",
+  "status": "not-run",
+  "cases": [
+    {
+      "name": "One object, two possible jobs",
+      "prompt": "I have thirty bottles of spirits after moving house. I want to know which ones I own and which are open.",
+      "expectations": [
+        "Selects Treasured Finds.",
+        "Names Spirited Journal as the bottle inventory helper.",
+        "Includes the move, collection size and open-state goal in a copyable handoff.",
+        "Avoids inventing label details or claiming to create a cellar inventory."
+      ]
+    },
+    {
+      "name": "A sequence across families",
+      "prompt": "I want to choose a role to pursue, then plan a trip to an interview if I land one.",
+      "expectations": [
+        "Starts with Discovered Careers and Career Fitness.",
+        "Defers Traveler's Guide until travel details or an interview exist.",
+        "Keeps role selection and travel planning as separate outcomes.",
+        "Does not claim to open either capability or remember the itinerary."
+      ]
+    },
+    {
+      "name": "No discoverable host",
+      "prompt": "This client has no skill menu. Which helper can tell what kind of bird I photographed?",
+      "expectations": [
+        "Routes to Identity Known.",
+        "Identifies Critter Spotter for bird identification.",
+        "Provides a pasteable request mentioning the photo and optional observation details.",
+        "Does not invent a URL or imply that the image was transferred."
+      ]
+    }
+  ]
+}

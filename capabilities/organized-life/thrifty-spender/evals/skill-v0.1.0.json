@@ -1,0 +1,37 @@
+{
+  "skill": "thrifty-spender",
+  "version": "0.1.0",
+  "status": "not-run",
+  "cases": [
+    {
+      "name": "Refund and unpaid bill",
+      "prompt": "My grocery budget is $100. I spent $60 and received a $10 grocery refund. A separate unpaid $25 utility bill is due Friday.",
+      "expectations": [
+        "Shows $50 net grocery spending.",
+        "Shows $50 grocery budget remaining.",
+        "Lists the $25 utility bill as unpaid.",
+        "Does not add the unpaid bill to posted spending."
+      ]
+    },
+    {
+      "name": "Match actual to plan",
+      "prompt": "My $40 internet bill was due June 5. The June 5 ledger shows its confirmed $40 payment. Give a CSV-ready summary, no bank access.",
+      "expectations": [
+        "Connects the payment to the internet obligation.",
+        "Counts $40 of posted spending exactly once.",
+        "Marks the bill paid.",
+        "Returns spreadsheet-ready fields without claiming bank access."
+      ]
+    },
+    {
+      "name": "Avoid cross-currency total",
+      "prompt": "This month I spent 30 USD and 20 EUR dining out. Compare to last month's 25 USD with no exchange rate.",
+      "expectations": [
+        "Keeps USD and EUR in separate totals.",
+        "Computes a 5 USD difference for comparable USD spending.",
+        "Reports no combined cross-currency change.",
+        "Identifies the missing rate for an all-in comparison."
+      ]
+    }
+  ]
+}

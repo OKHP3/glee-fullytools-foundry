@@ -1,0 +1,37 @@
+{
+  "skill": "treasured-finds",
+  "version": "0.1.0",
+  "status": "not-run",
+  "cases": [
+    {
+      "name": "Gift or fragrance",
+      "prompt": "A candle is hidden in bin C for a birthday. I only need to find it before wrapping.",
+      "expectations": [
+        "Selects Present Hoarder.",
+        "Uses wrapping readiness to explain the choice.",
+        "Carries the birthday and bin into a private handoff.",
+        "Avoids substituting scent-rating questions for the immediate task."
+      ]
+    },
+    {
+      "name": "A mixed box",
+      "prompt": "I have library books, two spools of ribbon and a loaned tote. Start with what's out on loan.",
+      "expectations": [
+        "Names Bag Nabbit for the tote.",
+        "Keeps book records separate for Personal Librarian.",
+        "Assigns ribbon to Supply Haus.",
+        "Starts the requested handoff with the tote loan rather than merging everything."
+      ]
+    },
+    {
+      "name": "Shared handoff",
+      "prompt": "I need to show my family which holiday decorations to set up. One box also hides their presents.",
+      "expectations": [
+        "Selects Decor Detective for the family-facing task.",
+        "Offers a list of decoration details to carry forward.",
+        "Excludes the surprise hiding detail from the family handoff.",
+        "Does not claim the list was shared or saved."
+      ]
+    }
+  ]
+}

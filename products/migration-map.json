@@ -22,11 +22,27 @@
       "importMode": "exact-tree-snapshot",
       "importCommit": "1c95bd8ccf4a6a93c366b8707cb1d0ff9c828717",
       "destinationTree": "098f35f0c10e5a04922ff903593758e5c4cb5e24",
-      "status": "imported",
-      "skills": [],
-      "adapters": [],
+      "status": "skill-draft",
+      "skills": [
+        {
+          "path": "capabilities/personalizable-tools/skills/personalizable-tools/SKILL.md",
+          "version": "0.1.0"
+        }
+      ],
+      "adapters": [
+        {
+          "host": "codex",
+          "path": "scripts/package-capability-plugins.py",
+          "product": "personalizable-tools",
+          "version": "0.1.0",
+          "format": ".codex-plugin/plugin.json",
+          "verification": "archive-verified",
+          "hostRuntimeTest": "not-run"
+        }
+      ],
       "evidence": [
-        "capabilities/personalizable-tools/product.json"
+        "capabilities/personalizable-tools/product.json",
+        "capabilities/personalizable-tools/evals/skill-v0.1.0.json"
       ],
       "blockers": [],
       "initialImport": {
@@ -51,11 +67,27 @@
       "importMode": "exact-tree-snapshot",
       "importCommit": "1c95bd8ccf4a6a93c366b8707cb1d0ff9c828717",
       "destinationTree": "081ef0a60ebab4c6b0dff14d473bb8931e9a5252",
-      "status": "imported",
-      "skills": [],
-      "adapters": [],
+      "status": "skill-draft",
+      "skills": [
+        {
+          "path": "capabilities/discovered-careers/skills/discovered-careers/SKILL.md",
+          "version": "0.1.0"
+        }
+      ],
+      "adapters": [
+        {
+          "host": "codex",
+          "path": "scripts/package-capability-plugins.py",
+          "product": "discovered-careers",
+          "version": "0.1.0",
+          "format": ".codex-plugin/plugin.json",
+          "verification": "archive-verified",
+          "hostRuntimeTest": "not-run"
+        }
+      ],
       "evidence": [
-        "capabilities/discovered-careers/product.json"
+        "capabilities/discovered-careers/product.json",
+        "capabilities/discovered-careers/evals/skill-v0.1.0.json"
       ],
       "blockers": [],
       "initialImport": {
@@ -80,11 +112,27 @@
       "importMode": "exact-tree-snapshot",
       "importCommit": "1c95bd8ccf4a6a93c366b8707cb1d0ff9c828717",
       "destinationTree": "f310ad6723c1bb0d699002c31e715c6a94a1879f",
-      "status": "imported",
-      "skills": [],
-      "adapters": [],
+      "status": "skill-draft",
+      "skills": [
+        {
+          "path": "capabilities/discovered-careers/resume-builder/skills/resume-builder/SKILL.md",
+          "version": "0.1.0"
+        }
+      ],
+      "adapters": [
+        {
+          "host": "codex",
+          "path": "scripts/package-capability-plugins.py",
+          "product": "resume-builder",
+          "version": "0.1.0",
+          "format": ".codex-plugin/plugin.json",
+          "verification": "archive-verified",
+          "hostRuntimeTest": "not-run"
+        }
+      ],
       "evidence": [
-        "capabilities/discovered-careers/resume-builder/product.json"
+        "capabilities/discovered-careers/resume-builder/product.json",
+        "capabilities/discovered-careers/resume-builder/evals/skill-v0.1.0.json"
       ],
       "blockers": [],
       "initialImport": {
@@ -109,11 +157,27 @@
       "importMode": "exact-tree-snapshot",
       "importCommit": "1c95bd8ccf4a6a93c366b8707cb1d0ff9c828717",
       "destinationTree": "d507ae12cc4509560203c6f8b257c47222750fdf",
-      "status": "imported",
-      "skills": [],
-      "adapters": [],
+      "status": "skill-draft",
+      "skills": [
+        {
+          "path": "capabilities/discovered-careers/resume-customizer/skills/resume-customizer/SKILL.md",
+          "version": "0.1.0"
+        }
+      ],
+      "adapters": [
+        {
+          "host": "codex",
+          "path": "scripts/package-capability-plugins.py",
+          "product": "resume-customizer",
+          "version": "0.1.0",
+          "format": ".codex-plugin/plugin.json",
+          "verification": "archive-verified",
+          "hostRuntimeTest": "not-run"
+        }
+      ],
       "evidence": [
-        "capabilities/discovered-careers/resume-customizer/product.json"
+        "capabilities/discovered-careers/resume-customizer/product.json",
+        "capabilities/discovered-careers/resume-customizer/evals/skill-v0.1.0.json"
       ],
       "blockers": [],
       "initialImport": {
@@ -138,11 +202,27 @@
       "importMode": "exact-tree-snapshot",
       "importCommit": "1c95bd8ccf4a6a93c366b8707cb1d0ff9c828717",
       "destinationTree": "4ac49507d86ced670e98ff0cefbc69bb8c2660ad",
-      "status": "imported",
-      "skills": [],
-      "adapters": [],
+      "status": "skill-draft",
+      "skills": [
+        {
+          "path": "capabilities/discovered-careers/career-fitness/skills/career-fitness/SKILL.md",
+          "version": "0.1.0"
+        }
+      ],
+      "adapters": [
+        {
+          "host": "codex",
+          "path": "scripts/package-capability-plugins.py",
+          "product": "career-fitness",
+          "version": "0.1.0",
+          "format": ".codex-plugin/plugin.json",
+          "verification": "archive-verified",
+          "hostRuntimeTest": "not-run"
+        }
+      ],
       "evidence": [
-        "capabilities/discovered-careers/career-fitness/product.json"
+        "capabilities/discovered-careers/career-fitness/product.json",
+        "capabilities/discovered-careers/career-fitness/evals/skill-v0.1.0.json"
       ],
       "blockers": [],
       "initialImport": {
@@ -167,11 +247,27 @@
       "importMode": "exact-tree-snapshot",
       "importCommit": "1c95bd8ccf4a6a93c366b8707cb1d0ff9c828717",
       "destinationTree": "903bb189f87ddca1a95b44e84a5e1f41b2991c3d",
-      "status": "imported",
-      "skills": [],
-      "adapters": [],
+      "status": "skill-draft",
+      "skills": [
+        {
+          "path": "capabilities/discovered-careers/letter-composer/skills/letter-composer/SKILL.md",
+          "version": "0.1.0"
+        }
+      ],
+      "adapters": [
+        {
+          "host": "codex",
+          "path": "scripts/package-capability-plugins.py",
+          "product": "letter-composer",
+          "version": "0.1.0",
+          "format": ".codex-plugin/plugin.json",
+          "verification": "archive-verified",
+          "hostRuntimeTest": "not-run"
+        }
+      ],
       "evidence": [
-        "capabilities/discovered-careers/letter-composer/product.json"
+        "capabilities/discovered-careers/letter-composer/product.json",
+        "capabilities/discovered-careers/letter-composer/evals/skill-v0.1.0.json"
       ],
       "blockers": [],
       "initialImport": {
@@ -196,11 +292,27 @@
       "importMode": "exact-tree-snapshot",
       "importCommit": "1c95bd8ccf4a6a93c366b8707cb1d0ff9c828717",
       "destinationTree": "9fecdcd10bf194e458d703a6c3ce82735e1af013",
-      "status": "imported",
-      "skills": [],
-      "adapters": [],
+      "status": "skill-draft",
+      "skills": [
+        {
+          "path": "capabilities/discovered-careers/blinkin-tuner/skills/blinkin-tuner/SKILL.md",
+          "version": "0.1.0"
+        }
+      ],
+      "adapters": [
+        {
+          "host": "codex",
+          "path": "scripts/package-capability-plugins.py",
+          "product": "blinkin-tuner",
+          "version": "0.1.0",
+          "format": ".codex-plugin/plugin.json",
+          "verification": "archive-verified",
+          "hostRuntimeTest": "not-run"
+        }
+      ],
       "evidence": [
-        "capabilities/discovered-careers/blinkin-tuner/product.json"
+        "capabilities/discovered-careers/blinkin-tuner/product.json",
+        "capabilities/discovered-careers/blinkin-tuner/evals/skill-v0.1.0.json"
       ],
       "blockers": [],
       "initialImport": {
@@ -225,11 +337,27 @@
       "importMode": "exact-tree-snapshot",
       "importCommit": "1c95bd8ccf4a6a93c366b8707cb1d0ff9c828717",
       "destinationTree": "877a47192582e21cd937edd41282dd271538b9dc",
-      "status": "imported",
-      "skills": [],
-      "adapters": [],
+      "status": "skill-draft",
+      "skills": [
+        {
+          "path": "capabilities/discovered-careers/career-seeker/skills/career-seeker/SKILL.md",
+          "version": "0.1.0"
+        }
+      ],
+      "adapters": [
+        {
+          "host": "codex",
+          "path": "scripts/package-capability-plugins.py",
+          "product": "career-seeker",
+          "version": "0.1.0",
+          "format": ".codex-plugin/plugin.json",
+          "verification": "archive-verified",
+          "hostRuntimeTest": "not-run"
+        }
+      ],
       "evidence": [
-        "capabilities/discovered-careers/career-seeker/product.json"
+        "capabilities/discovered-careers/career-seeker/product.json",
+        "capabilities/discovered-careers/career-seeker/evals/skill-v0.1.0.json"
       ],
       "blockers": [],
       "initialImport": {
@@ -254,11 +382,27 @@
       "importMode": "exact-tree-snapshot",
       "importCommit": "1c95bd8ccf4a6a93c366b8707cb1d0ff9c828717",
       "destinationTree": "3721adbc77b4b6c2b91b8796389e5d509c6bfa69",
-      "status": "imported",
-      "skills": [],
-      "adapters": [],
+      "status": "skill-draft",
+      "skills": [
+        {
+          "path": "capabilities/treasured-finds/skills/treasured-finds/SKILL.md",
+          "version": "0.1.0"
+        }
+      ],
+      "adapters": [
+        {
+          "host": "codex",
+          "path": "scripts/package-capability-plugins.py",
+          "product": "treasured-finds",
+          "version": "0.1.0",
+          "format": ".codex-plugin/plugin.json",
+          "verification": "archive-verified",
+          "hostRuntimeTest": "not-run"
+        }
+      ],
       "evidence": [
-        "capabilities/treasured-finds/product.json"
+        "capabilities/treasured-finds/product.json",
+        "capabilities/treasured-finds/evals/skill-v0.1.0.json"
       ],
       "blockers": [],
       "initialImport": {
@@ -283,11 +427,27 @@
       "importMode": "exact-tree-snapshot",
       "importCommit": "1c95bd8ccf4a6a93c366b8707cb1d0ff9c828717",
       "destinationTree": "abf3dd96d4bd85d199db5bca9ab7795f77fcaab2",
-      "status": "imported",
-      "skills": [],
-      "adapters": [],
+      "status": "skill-draft",
+      "skills": [
+        {
+          "path": "capabilities/treasured-finds/personal-librarian/skills/personal-librarian/SKILL.md",
+          "version": "0.1.0"
+        }
+      ],
+      "adapters": [
+        {
+          "host": "codex",
+          "path": "scripts/package-capability-plugins.py",
+          "product": "personal-librarian",
+          "version": "0.1.0",
+          "format": ".codex-plugin/plugin.json",
+          "verification": "archive-verified",
+          "hostRuntimeTest": "not-run"
+        }
+      ],
       "evidence": [
-        "capabilities/treasured-finds/personal-librarian/product.json"
+        "capabilities/treasured-finds/personal-librarian/product.json",
+        "capabilities/treasured-finds/personal-librarian/evals/skill-v0.1.0.json"
       ],
       "blockers": [],
       "initialImport": {
@@ -312,11 +472,27 @@
       "importMode": "exact-tree-snapshot",
       "importCommit": "1c95bd8ccf4a6a93c366b8707cb1d0ff9c828717",
       "destinationTree": "2779d53a3189ed8806ddb275d8021f83c5273764",
-      "status": "imported",
-      "skills": [],
-      "adapters": [],
+      "status": "skill-draft",
+      "skills": [
+        {
+          "path": "capabilities/treasured-finds/decor-detective/skills/decor-detective/SKILL.md",
+          "version": "0.1.0"
+        }
+      ],
+      "adapters": [
+        {
+          "host": "codex",
+          "path": "scripts/package-capability-plugins.py",
+          "product": "decor-detective",
+          "version": "0.1.0",
+          "format": ".codex-plugin/plugin.json",
+          "verification": "archive-verified",
+          "hostRuntimeTest": "not-run"
+        }
+      ],
       "evidence": [
-        "capabilities/treasured-finds/decor-detective/product.json"
+        "capabilities/treasured-finds/decor-detective/product.json",
+        "capabilities/treasured-finds/decor-detective/evals/skill-v0.1.0.json"
       ],
       "blockers": [],
       "initialImport": {
@@ -341,11 +517,27 @@
       "importMode": "exact-tree-snapshot",
       "importCommit": "1c95bd8ccf4a6a93c366b8707cb1d0ff9c828717",
       "destinationTree": "42279d14e189d350bed83a04d4ea8f9976fba5a8",
-      "status": "imported",
-      "skills": [],
-      "adapters": [],
+      "status": "skill-draft",
+      "skills": [
+        {
+          "path": "capabilities/treasured-finds/present-hoarder/skills/present-hoarder/SKILL.md",
+          "version": "0.1.0"
+        }
+      ],
+      "adapters": [
+        {
+          "host": "codex",
+          "path": "scripts/package-capability-plugins.py",
+          "product": "present-hoarder",
+          "version": "0.1.0",
+          "format": ".codex-plugin/plugin.json",
+          "verification": "archive-verified",
+          "hostRuntimeTest": "not-run"
+        }
+      ],
       "evidence": [
-        "capabilities/treasured-finds/present-hoarder/product.json"
+        "capabilities/treasured-finds/present-hoarder/product.json",
+        "capabilities/treasured-finds/present-hoarder/evals/skill-v0.1.0.json"
       ],
       "blockers": [],
       "initialImport": {
@@ -370,11 +562,27 @@
       "importMode": "exact-tree-snapshot",
       "importCommit": "1c95bd8ccf4a6a93c366b8707cb1d0ff9c828717",
       "destinationTree": "c5630a83806469df3151c7f9219bc7519b2683a7",
-      "status": "imported",
-      "skills": [],
-      "adapters": [],
+      "status": "skill-draft",
+      "skills": [
+        {
+          "path": "capabilities/treasured-finds/scentinal-journal/skills/scentinal-journal/SKILL.md",
+          "version": "0.1.0"
+        }
+      ],
+      "adapters": [
+        {
+          "host": "codex",
+          "path": "scripts/package-capability-plugins.py",
+          "product": "scentinal-journal",
+          "version": "0.1.0",
+          "format": ".codex-plugin/plugin.json",
+          "verification": "archive-verified",
+          "hostRuntimeTest": "not-run"
+        }
+      ],
       "evidence": [
-        "capabilities/treasured-finds/scentinal-journal/product.json"
+        "capabilities/treasured-finds/scentinal-journal/product.json",
+        "capabilities/treasured-finds/scentinal-journal/evals/skill-v0.1.0.json"
       ],
       "blockers": [],
       "initialImport": {
@@ -399,11 +607,27 @@
       "importMode": "exact-tree-snapshot",
       "importCommit": "1c95bd8ccf4a6a93c366b8707cb1d0ff9c828717",
       "destinationTree": "ec321264f07bfd7f79f2b2699ab0eff7a611d2db",
-      "status": "imported",
-      "skills": [],
-      "adapters": [],
+      "status": "skill-draft",
+      "skills": [
+        {
+          "path": "capabilities/treasured-finds/spirited-journal/skills/spirited-journal/SKILL.md",
+          "version": "0.1.0"
+        }
+      ],
+      "adapters": [
+        {
+          "host": "codex",
+          "path": "scripts/package-capability-plugins.py",
+          "product": "spirited-journal",
+          "version": "0.1.0",
+          "format": ".codex-plugin/plugin.json",
+          "verification": "archive-verified",
+          "hostRuntimeTest": "not-run"
+        }
+      ],
       "evidence": [
-        "capabilities/treasured-finds/spirited-journal/product.json"
+        "capabilities/treasured-finds/spirited-journal/product.json",
+        "capabilities/treasured-finds/spirited-journal/evals/skill-v0.1.0.json"
       ],
       "blockers": [],
       "initialImport": {
@@ -428,11 +652,27 @@
       "importMode": "exact-tree-snapshot",
       "importCommit": "1c95bd8ccf4a6a93c366b8707cb1d0ff9c828717",
       "destinationTree": "e33c880e10d2d0eacfe8c52fc64ddc5a6f25f4d4",
-      "status": "imported",
-      "skills": [],
-      "adapters": [],
+      "status": "skill-draft",
+      "skills": [
+        {
+          "path": "capabilities/treasured-finds/supply-haus/skills/supply-haus/SKILL.md",
+          "version": "0.1.0"
+        }
+      ],
+      "adapters": [
+        {
+          "host": "codex",
+          "path": "scripts/package-capability-plugins.py",
+          "product": "supply-haus",
+          "version": "0.1.0",
+          "format": ".codex-plugin/plugin.json",
+          "verification": "archive-verified",
+          "hostRuntimeTest": "not-run"
+        }
+      ],
       "evidence": [
-        "capabilities/treasured-finds/supply-haus/product.json"
+        "capabilities/treasured-finds/supply-haus/product.json",
+        "capabilities/treasured-finds/supply-haus/evals/skill-v0.1.0.json"
       ],
       "blockers": [],
       "initialImport": {
@@ -457,11 +697,27 @@
       "importMode": "exact-tree-snapshot",
       "importCommit": "1c95bd8ccf4a6a93c366b8707cb1d0ff9c828717",
       "destinationTree": "165ad03b356b3fbdd2703ef04e27985057aa3dd2",
-      "status": "imported",
-      "skills": [],
-      "adapters": [],
+      "status": "skill-draft",
+      "skills": [
+        {
+          "path": "capabilities/treasured-finds/bag-nabbit/skills/bag-nabbit/SKILL.md",
+          "version": "0.1.0"
+        }
+      ],
+      "adapters": [
+        {
+          "host": "codex",
+          "path": "scripts/package-capability-plugins.py",
+          "product": "bag-nabbit",
+          "version": "0.1.0",
+          "format": ".codex-plugin/plugin.json",
+          "verification": "archive-verified",
+          "hostRuntimeTest": "not-run"
+        }
+      ],
       "evidence": [
-        "capabilities/treasured-finds/bag-nabbit/product.json"
+        "capabilities/treasured-finds/bag-nabbit/product.json",
+        "capabilities/treasured-finds/bag-nabbit/evals/skill-v0.1.0.json"
       ],
       "blockers": [],
       "initialImport": {
@@ -486,11 +742,27 @@
       "importMode": "exact-tree-snapshot",
       "importCommit": "1c95bd8ccf4a6a93c366b8707cb1d0ff9c828717",
       "destinationTree": "80a645ff579b82d00ee7d7c5dcdc8d835cf79c40",
-      "status": "imported",
-      "skills": [],
-      "adapters": [],
+      "status": "skill-draft",
+      "skills": [
+        {
+          "path": "capabilities/tasty-tracker/skills/tasty-tracker/SKILL.md",
+          "version": "0.1.0"
+        }
+      ],
+      "adapters": [
+        {
+          "host": "codex",
+          "path": "scripts/package-capability-plugins.py",
+          "product": "tasty-tracker",
+          "version": "0.1.0",
+          "format": ".codex-plugin/plugin.json",
+          "verification": "archive-verified",
+          "hostRuntimeTest": "not-run"
+        }
+      ],
       "evidence": [
-        "capabilities/tasty-tracker/product.json"
+        "capabilities/tasty-tracker/product.json",
+        "capabilities/tasty-tracker/evals/skill-v0.1.0.json"
       ],
       "blockers": [],
       "initialImport": {
@@ -515,11 +787,27 @@
       "importMode": "exact-tree-snapshot",
       "importCommit": "1c95bd8ccf4a6a93c366b8707cb1d0ff9c828717",
       "destinationTree": "3a0c09d551b3641a337f55ea2813f8193adcefdf",
-      "status": "imported",
-      "skills": [],
-      "adapters": [],
+      "status": "skill-draft",
+      "skills": [
+        {
+          "path": "capabilities/tasty-tracker/flavor-meister/skills/flavor-meister/SKILL.md",
+          "version": "0.1.0"
+        }
+      ],
+      "adapters": [
+        {
+          "host": "codex",
+          "path": "scripts/package-capability-plugins.py",
+          "product": "flavor-meister",
+          "version": "0.1.0",
+          "format": ".codex-plugin/plugin.json",
+          "verification": "archive-verified",
+          "hostRuntimeTest": "not-run"
+        }
+      ],
       "evidence": [
-        "capabilities/tasty-tracker/flavor-meister/product.json"
+        "capabilities/tasty-tracker/flavor-meister/product.json",
+        "capabilities/tasty-tracker/flavor-meister/evals/skill-v0.1.0.json"
       ],
       "blockers": [],
       "initialImport": {
@@ -544,11 +832,27 @@
       "importMode": "exact-tree-snapshot",
       "importCommit": "1c95bd8ccf4a6a93c366b8707cb1d0ff9c828717",
       "destinationTree": "70c1cc6d715ba035b8daddbaba9b024dcca47555",
-      "status": "imported",
-      "skills": [],
-      "adapters": [],
+      "status": "skill-draft",
+      "skills": [
+        {
+          "path": "capabilities/tasty-tracker/menu-conductor/skills/menu-conductor/SKILL.md",
+          "version": "0.1.0"
+        }
+      ],
+      "adapters": [
+        {
+          "host": "codex",
+          "path": "scripts/package-capability-plugins.py",
+          "product": "menu-conductor",
+          "version": "0.1.0",
+          "format": ".codex-plugin/plugin.json",
+          "verification": "archive-verified",
+          "hostRuntimeTest": "not-run"
+        }
+      ],
       "evidence": [
-        "capabilities/tasty-tracker/menu-conductor/product.json"
+        "capabilities/tasty-tracker/menu-conductor/product.json",
+        "capabilities/tasty-tracker/menu-conductor/evals/skill-v0.1.0.json"
       ],
       "blockers": [],
       "initialImport": {
@@ -573,11 +877,27 @@
       "importMode": "exact-tree-snapshot",
       "importCommit": "1c95bd8ccf4a6a93c366b8707cb1d0ff9c828717",
       "destinationTree": "b24d8aa9f8bc0bb56b9ef029f21e160b038913fc",
-      "status": "imported",
-      "skills": [],
-      "adapters": [],
+      "status": "skill-draft",
+      "skills": [
+        {
+          "path": "capabilities/tasty-tracker/wishful-tastes/skills/wishful-tastes/SKILL.md",
+          "version": "0.1.0"
+        }
+      ],
+      "adapters": [
+        {
+          "host": "codex",
+          "path": "scripts/package-capability-plugins.py",
+          "product": "wishful-tastes",
+          "version": "0.1.0",
+          "format": ".codex-plugin/plugin.json",
+          "verification": "archive-verified",
+          "hostRuntimeTest": "not-run"
+        }
+      ],
       "evidence": [
-        "capabilities/tasty-tracker/wishful-tastes/product.json"
+        "capabilities/tasty-tracker/wishful-tastes/product.json",
+        "capabilities/tasty-tracker/wishful-tastes/evals/skill-v0.1.0.json"
       ],
       "blockers": [],
       "initialImport": {
@@ -602,11 +922,27 @@
       "importMode": "exact-tree-snapshot",
       "importCommit": "1c95bd8ccf4a6a93c366b8707cb1d0ff9c828717",
       "destinationTree": "b4169f5b372bbdeb5d9143c0b29363e93e43aa9f",
-      "status": "imported",
-      "skills": [],
-      "adapters": [],
+      "status": "skill-draft",
+      "skills": [
+        {
+          "path": "capabilities/tasty-tracker/pantry-shopper/skills/pantry-shopper/SKILL.md",
+          "version": "0.1.0"
+        }
+      ],
+      "adapters": [
+        {
+          "host": "codex",
+          "path": "scripts/package-capability-plugins.py",
+          "product": "pantry-shopper",
+          "version": "0.1.0",
+          "format": ".codex-plugin/plugin.json",
+          "verification": "archive-verified",
+          "hostRuntimeTest": "not-run"
+        }
+      ],
       "evidence": [
-        "capabilities/tasty-tracker/pantry-shopper/product.json"
+        "capabilities/tasty-tracker/pantry-shopper/product.json",
+        "capabilities/tasty-tracker/pantry-shopper/evals/skill-v0.1.0.json"
       ],
       "blockers": [],
       "initialImport": {
@@ -631,11 +967,27 @@
       "importMode": "exact-tree-snapshot",
       "importCommit": "1c95bd8ccf4a6a93c366b8707cb1d0ff9c828717",
       "destinationTree": "a36fe811247ed8af78786521e66f041929297815",
-      "status": "imported",
-      "skills": [],
-      "adapters": [],
+      "status": "skill-draft",
+      "skills": [
+        {
+          "path": "capabilities/tasty-tracker/palatably-profiled/skills/palatably-profiled/SKILL.md",
+          "version": "0.1.0"
+        }
+      ],
+      "adapters": [
+        {
+          "host": "codex",
+          "path": "scripts/package-capability-plugins.py",
+          "product": "palatably-profiled",
+          "version": "0.1.0",
+          "format": ".codex-plugin/plugin.json",
+          "verification": "archive-verified",
+          "hostRuntimeTest": "not-run"
+        }
+      ],
       "evidence": [
-        "capabilities/tasty-tracker/palatably-profiled/product.json"
+        "capabilities/tasty-tracker/palatably-profiled/product.json",
+        "capabilities/tasty-tracker/palatably-profiled/evals/skill-v0.1.0.json"
       ],
       "blockers": [],
       "initialImport": {
@@ -660,11 +1012,27 @@
       "importMode": "exact-tree-snapshot",
       "importCommit": "1c95bd8ccf4a6a93c366b8707cb1d0ff9c828717",
       "destinationTree": "9bc331f8c0a50798d4e136c6de92e98784e86b23",
-      "status": "imported",
-      "skills": [],
-      "adapters": [],
+      "status": "skill-draft",
+      "skills": [
+        {
+          "path": "capabilities/travelers-guide/skills/travelers-guide/SKILL.md",
+          "version": "0.1.0"
+        }
+      ],
+      "adapters": [
+        {
+          "host": "codex",
+          "path": "scripts/package-capability-plugins.py",
+          "product": "travelers-guide",
+          "version": "0.1.0",
+          "format": ".codex-plugin/plugin.json",
+          "verification": "archive-verified",
+          "hostRuntimeTest": "not-run"
+        }
+      ],
       "evidence": [
-        "capabilities/travelers-guide/product.json"
+        "capabilities/travelers-guide/product.json",
+        "capabilities/travelers-guide/evals/skill-v0.1.0.json"
       ],
       "blockers": [],
       "initialImport": {
@@ -689,11 +1057,27 @@
       "importMode": "exact-tree-snapshot",
       "importCommit": "1c95bd8ccf4a6a93c366b8707cb1d0ff9c828717",
       "destinationTree": "0c0f6554fe7ef4b6f64403bc9f60da3c2b77d5bb",
-      "status": "imported",
-      "skills": [],
-      "adapters": [],
+      "status": "skill-draft",
+      "skills": [
+        {
+          "path": "capabilities/travelers-guide/journey-diary/skills/journey-diary/SKILL.md",
+          "version": "0.1.0"
+        }
+      ],
+      "adapters": [
+        {
+          "host": "codex",
+          "path": "scripts/package-capability-plugins.py",
+          "product": "journey-diary",
+          "version": "0.1.0",
+          "format": ".codex-plugin/plugin.json",
+          "verification": "archive-verified",
+          "hostRuntimeTest": "not-run"
+        }
+      ],
       "evidence": [
-        "capabilities/travelers-guide/journey-diary/product.json"
+        "capabilities/travelers-guide/journey-diary/product.json",
+        "capabilities/travelers-guide/journey-diary/evals/skill-v0.1.0.json"
       ],
       "blockers": [],
       "initialImport": {
@@ -718,11 +1102,27 @@
       "importMode": "exact-tree-snapshot",
       "importCommit": "1c95bd8ccf4a6a93c366b8707cb1d0ff9c828717",
       "destinationTree": "91ab14e63c62a611f9a86db85507ca10e66e3595",
-      "status": "imported",
-      "skills": [],
-      "adapters": [],
+      "status": "skill-draft",
+      "skills": [
+        {
+          "path": "capabilities/travelers-guide/itinerary-hacker/skills/itinerary-hacker/SKILL.md",
+          "version": "0.1.0"
+        }
+      ],
+      "adapters": [
+        {
+          "host": "codex",
+          "path": "scripts/package-capability-plugins.py",
+          "product": "itinerary-hacker",
+          "version": "0.1.0",
+          "format": ".codex-plugin/plugin.json",
+          "verification": "archive-verified",
+          "hostRuntimeTest": "not-run"
+        }
+      ],
       "evidence": [
-        "capabilities/travelers-guide/itinerary-hacker/product.json"
+        "capabilities/travelers-guide/itinerary-hacker/product.json",
+        "capabilities/travelers-guide/itinerary-hacker/evals/skill-v0.1.0.json"
       ],
       "blockers": [],
       "initialImport": {
@@ -747,11 +1147,27 @@
       "importMode": "exact-tree-snapshot",
       "importCommit": "1c95bd8ccf4a6a93c366b8707cb1d0ff9c828717",
       "destinationTree": "0e710ea42c9c9bf3133a6afe07b2083b988fdc6f",
-      "status": "imported",
-      "skills": [],
-      "adapters": [],
+      "status": "skill-draft",
+      "skills": [
+        {
+          "path": "capabilities/travelers-guide/detour-discoverer/skills/detour-discoverer/SKILL.md",
+          "version": "0.1.0"
+        }
+      ],
+      "adapters": [
+        {
+          "host": "codex",
+          "path": "scripts/package-capability-plugins.py",
+          "product": "detour-discoverer",
+          "version": "0.1.0",
+          "format": ".codex-plugin/plugin.json",
+          "verification": "archive-verified",
+          "hostRuntimeTest": "not-run"
+        }
+      ],
       "evidence": [
-        "capabilities/travelers-guide/detour-discoverer/product.json"
+        "capabilities/travelers-guide/detour-discoverer/product.json",
+        "capabilities/travelers-guide/detour-discoverer/evals/skill-v0.1.0.json"
       ],
       "blockers": [],
       "initialImport": {
@@ -776,11 +1192,27 @@
       "importMode": "exact-tree-snapshot",
       "importCommit": "1c95bd8ccf4a6a93c366b8707cb1d0ff9c828717",
       "destinationTree": "b3a3e076c98dd7dc13f036c49ec16e37519ec1c4",
-      "status": "imported",
-      "skills": [],
-      "adapters": [],
+      "status": "skill-draft",
+      "skills": [
+        {
+          "path": "capabilities/travelers-guide/dreamland-journeys/skills/dreamland-journeys/SKILL.md",
+          "version": "0.1.0"
+        }
+      ],
+      "adapters": [
+        {
+          "host": "codex",
+          "path": "scripts/package-capability-plugins.py",
+          "product": "dreamland-journeys",
+          "version": "0.1.0",
+          "format": ".codex-plugin/plugin.json",
+          "verification": "archive-verified",
+          "hostRuntimeTest": "not-run"
+        }
+      ],
       "evidence": [
-        "capabilities/travelers-guide/dreamland-journeys/product.json"
+        "capabilities/travelers-guide/dreamland-journeys/product.json",
+        "capabilities/travelers-guide/dreamland-journeys/evals/skill-v0.1.0.json"
       ],
       "blockers": [],
       "initialImport": {
@@ -805,11 +1237,27 @@
       "importMode": "exact-tree-snapshot",
       "importCommit": "1c95bd8ccf4a6a93c366b8707cb1d0ff9c828717",
       "destinationTree": "dc0eaf35a4c71d095d9922db89e7f0a429ad842d",
-      "status": "imported",
-      "skills": [],
-      "adapters": [],
+      "status": "skill-draft",
+      "skills": [
+        {
+          "path": "capabilities/travelers-guide/memento-log/skills/memento-log/SKILL.md",
+          "version": "0.1.0"
+        }
+      ],
+      "adapters": [
+        {
+          "host": "codex",
+          "path": "scripts/package-capability-plugins.py",
+          "product": "memento-log",
+          "version": "0.1.0",
+          "format": ".codex-plugin/plugin.json",
+          "verification": "archive-verified",
+          "hostRuntimeTest": "not-run"
+        }
+      ],
       "evidence": [
-        "capabilities/travelers-guide/memento-log/product.json"
+        "capabilities/travelers-guide/memento-log/product.json",
+        "capabilities/travelers-guide/memento-log/evals/skill-v0.1.0.json"
       ],
       "blockers": [],
       "initialImport": {
@@ -834,11 +1282,27 @@
       "importMode": "exact-tree-snapshot",
       "importCommit": "1c95bd8ccf4a6a93c366b8707cb1d0ff9c828717",
       "destinationTree": "cf5d36e86843f0fc196e8cf52134c628a71ba197",
-      "status": "imported",
-      "skills": [],
-      "adapters": [],
+      "status": "skill-draft",
+      "skills": [
+        {
+          "path": "capabilities/organized-life/skills/organized-life/SKILL.md",
+          "version": "0.1.0"
+        }
+      ],
+      "adapters": [
+        {
+          "host": "codex",
+          "path": "scripts/package-capability-plugins.py",
+          "product": "organized-life",
+          "version": "0.1.0",
+          "format": ".codex-plugin/plugin.json",
+          "verification": "archive-verified",
+          "hostRuntimeTest": "not-run"
+        }
+      ],
       "evidence": [
-        "capabilities/organized-life/product.json"
+        "capabilities/organized-life/product.json",
+        "capabilities/organized-life/evals/skill-v0.1.0.json"
       ],
       "blockers": [],
       "initialImport": {
@@ -863,11 +1327,27 @@
       "importMode": "exact-tree-snapshot",
       "importCommit": "1c95bd8ccf4a6a93c366b8707cb1d0ff9c828717",
       "destinationTree": "765bf831f14752056b9540a978ba490f385ebeed",
-      "status": "imported",
-      "skills": [],
-      "adapters": [],
+      "status": "skill-draft",
+      "skills": [
+        {
+          "path": "capabilities/organized-life/task-maestro/skills/task-maestro/SKILL.md",
+          "version": "0.1.0"
+        }
+      ],
+      "adapters": [
+        {
+          "host": "codex",
+          "path": "scripts/package-capability-plugins.py",
+          "product": "task-maestro",
+          "version": "0.1.0",
+          "format": ".codex-plugin/plugin.json",
+          "verification": "archive-verified",
+          "hostRuntimeTest": "not-run"
+        }
+      ],
       "evidence": [
-        "capabilities/organized-life/task-maestro/product.json"
+        "capabilities/organized-life/task-maestro/product.json",
+        "capabilities/organized-life/task-maestro/evals/skill-v0.1.0.json"
       ],
       "blockers": [],
       "initialImport": {
@@ -892,11 +1372,27 @@
       "importMode": "exact-tree-snapshot",
       "importCommit": "1c95bd8ccf4a6a93c366b8707cb1d0ff9c828717",
       "destinationTree": "da6981ff359b28a359e9197584d9a56a8d843b94",
-      "status": "imported",
-      "skills": [],
-      "adapters": [],
+      "status": "skill-draft",
+      "skills": [
+        {
+          "path": "capabilities/organized-life/thrifty-spender/skills/thrifty-spender/SKILL.md",
+          "version": "0.1.0"
+        }
+      ],
+      "adapters": [
+        {
+          "host": "codex",
+          "path": "scripts/package-capability-plugins.py",
+          "product": "thrifty-spender",
+          "version": "0.1.0",
+          "format": ".codex-plugin/plugin.json",
+          "verification": "archive-verified",
+          "hostRuntimeTest": "not-run"
+        }
+      ],
       "evidence": [
-        "capabilities/organized-life/thrifty-spender/product.json"
+        "capabilities/organized-life/thrifty-spender/product.json",
+        "capabilities/organized-life/thrifty-spender/evals/skill-v0.1.0.json"
       ],
       "blockers": [],
       "initialImport": {
@@ -921,11 +1417,27 @@
       "importMode": "exact-tree-snapshot",
       "importCommit": "1c95bd8ccf4a6a93c366b8707cb1d0ff9c828717",
       "destinationTree": "0424015c765105eef1db69458d994a585681102d",
-      "status": "imported",
-      "skills": [],
-      "adapters": [],
+      "status": "skill-draft",
+      "skills": [
+        {
+          "path": "capabilities/organized-life/giftlist-helper/skills/giftlist-helper/SKILL.md",
+          "version": "0.1.0"
+        }
+      ],
+      "adapters": [
+        {
+          "host": "codex",
+          "path": "scripts/package-capability-plugins.py",
+          "product": "giftlist-helper",
+          "version": "0.1.0",
+          "format": ".codex-plugin/plugin.json",
+          "verification": "archive-verified",
+          "hostRuntimeTest": "not-run"
+        }
+      ],
       "evidence": [
-        "capabilities/organized-life/giftlist-helper/product.json"
+        "capabilities/organized-life/giftlist-helper/product.json",
+        "capabilities/organized-life/giftlist-helper/evals/skill-v0.1.0.json"
       ],
       "blockers": [],
       "initialImport": {
@@ -950,11 +1462,27 @@
       "importMode": "exact-tree-snapshot",
       "importCommit": "1c95bd8ccf4a6a93c366b8707cb1d0ff9c828717",
       "destinationTree": "efaee5fcb45a0a485e5c307e263d46c1b320ccc1",
-      "status": "imported",
-      "skills": [],
-      "adapters": [],
+      "status": "skill-draft",
+      "skills": [
+        {
+          "path": "capabilities/organized-life/scheduling-wizard/skills/scheduling-wizard/SKILL.md",
+          "version": "0.1.0"
+        }
+      ],
+      "adapters": [
+        {
+          "host": "codex",
+          "path": "scripts/package-capability-plugins.py",
+          "product": "scheduling-wizard",
+          "version": "0.1.0",
+          "format": ".codex-plugin/plugin.json",
+          "verification": "archive-verified",
+          "hostRuntimeTest": "not-run"
+        }
+      ],
       "evidence": [
-        "capabilities/organized-life/scheduling-wizard/product.json"
+        "capabilities/organized-life/scheduling-wizard/product.json",
+        "capabilities/organized-life/scheduling-wizard/evals/skill-v0.1.0.json"
       ],
       "blockers": [],
       "initialImport": {
@@ -979,11 +1507,27 @@
       "importMode": "exact-tree-snapshot",
       "importCommit": "1c95bd8ccf4a6a93c366b8707cb1d0ff9c828717",
       "destinationTree": "67805b96cc41d85642cf8147213abe6a6c8db1d2",
-      "status": "imported",
-      "skills": [],
-      "adapters": [],
+      "status": "skill-draft",
+      "skills": [
+        {
+          "path": "capabilities/organized-life/lifestyle-wallboard/skills/lifestyle-wallboard/SKILL.md",
+          "version": "0.1.0"
+        }
+      ],
+      "adapters": [
+        {
+          "host": "codex",
+          "path": "scripts/package-capability-plugins.py",
+          "product": "lifestyle-wallboard",
+          "version": "0.1.0",
+          "format": ".codex-plugin/plugin.json",
+          "verification": "archive-verified",
+          "hostRuntimeTest": "not-run"
+        }
+      ],
       "evidence": [
-        "capabilities/organized-life/lifestyle-wallboard/product.json"
+        "capabilities/organized-life/lifestyle-wallboard/product.json",
+        "capabilities/organized-life/lifestyle-wallboard/evals/skill-v0.1.0.json"
       ],
       "blockers": [],
       "initialImport": {
@@ -1008,11 +1552,27 @@
       "importMode": "exact-tree-snapshot",
       "importCommit": "1c95bd8ccf4a6a93c366b8707cb1d0ff9c828717",
       "destinationTree": "8e026697b99309c4a615f4c22415088c999ab0e1",
-      "status": "imported",
-      "skills": [],
-      "adapters": [],
+      "status": "skill-draft",
+      "skills": [
+        {
+          "path": "capabilities/organized-life/neighborly-bazaar/skills/neighborly-bazaar/SKILL.md",
+          "version": "0.1.0"
+        }
+      ],
+      "adapters": [
+        {
+          "host": "codex",
+          "path": "scripts/package-capability-plugins.py",
+          "product": "neighborly-bazaar",
+          "version": "0.1.0",
+          "format": ".codex-plugin/plugin.json",
+          "verification": "archive-verified",
+          "hostRuntimeTest": "not-run"
+        }
+      ],
       "evidence": [
-        "capabilities/organized-life/neighborly-bazaar/product.json"
+        "capabilities/organized-life/neighborly-bazaar/product.json",
+        "capabilities/organized-life/neighborly-bazaar/evals/skill-v0.1.0.json"
       ],
       "blockers": [],
       "initialImport": {
@@ -1037,11 +1597,27 @@
       "importMode": "exact-tree-snapshot",
       "importCommit": "1c95bd8ccf4a6a93c366b8707cb1d0ff9c828717",
       "destinationTree": "ec5ba0e6ac71ed71b0b64c8330e61b6fbf18fb2a",
-      "status": "imported",
-      "skills": [],
-      "adapters": [],
+      "status": "skill-draft",
+      "skills": [
+        {
+          "path": "capabilities/healthy-bee-ing/skills/healthy-bee-ing/SKILL.md",
+          "version": "0.1.0"
+        }
+      ],
+      "adapters": [
+        {
+          "host": "codex",
+          "path": "scripts/package-capability-plugins.py",
+          "product": "healthy-bee-ing",
+          "version": "0.1.0",
+          "format": ".codex-plugin/plugin.json",
+          "verification": "archive-verified",
+          "hostRuntimeTest": "not-run"
+        }
+      ],
       "evidence": [
-        "capabilities/healthy-bee-ing/product.json"
+        "capabilities/healthy-bee-ing/product.json",
+        "capabilities/healthy-bee-ing/evals/skill-v0.1.0.json"
       ],
       "blockers": [],
       "initialImport": {
@@ -1066,11 +1642,27 @@
       "importMode": "exact-tree-snapshot",
       "importCommit": "1c95bd8ccf4a6a93c366b8707cb1d0ff9c828717",
       "destinationTree": "c99d37fb255487e2111ac6172940f5dfbfd98db6",
-      "status": "imported",
-      "skills": [],
-      "adapters": [],
+      "status": "skill-draft",
+      "skills": [
+        {
+          "path": "capabilities/healthy-bee-ing/care-check/skills/care-check/SKILL.md",
+          "version": "0.1.0"
+        }
+      ],
+      "adapters": [
+        {
+          "host": "codex",
+          "path": "scripts/package-capability-plugins.py",
+          "product": "care-check",
+          "version": "0.1.0",
+          "format": ".codex-plugin/plugin.json",
+          "verification": "archive-verified",
+          "hostRuntimeTest": "not-run"
+        }
+      ],
       "evidence": [
-        "capabilities/healthy-bee-ing/care-check/product.json"
+        "capabilities/healthy-bee-ing/care-check/product.json",
+        "capabilities/healthy-bee-ing/care-check/evals/skill-v0.1.0.json"
       ],
       "blockers": [],
       "initialImport": {
@@ -1095,11 +1687,27 @@
       "importMode": "exact-tree-snapshot",
       "importCommit": "1c95bd8ccf4a6a93c366b8707cb1d0ff9c828717",
       "destinationTree": "f7edc05ed64538b46145ce2921d711864281f45e",
-      "status": "imported",
-      "skills": [],
-      "adapters": [],
+      "status": "skill-draft",
+      "skills": [
+        {
+          "path": "capabilities/healthy-bee-ing/calm-keep/skills/calm-keep/SKILL.md",
+          "version": "0.1.0"
+        }
+      ],
+      "adapters": [
+        {
+          "host": "codex",
+          "path": "scripts/package-capability-plugins.py",
+          "product": "calm-keep",
+          "version": "0.1.0",
+          "format": ".codex-plugin/plugin.json",
+          "verification": "archive-verified",
+          "hostRuntimeTest": "not-run"
+        }
+      ],
       "evidence": [
-        "capabilities/healthy-bee-ing/calm-keep/product.json"
+        "capabilities/healthy-bee-ing/calm-keep/product.json",
+        "capabilities/healthy-bee-ing/calm-keep/evals/skill-v0.1.0.json"
       ],
       "blockers": [],
       "initialImport": {
@@ -1124,11 +1732,27 @@
       "importMode": "exact-tree-snapshot",
       "importCommit": "1c95bd8ccf4a6a93c366b8707cb1d0ff9c828717",
       "destinationTree": "36dfbface4ffa3e1854a017add4a161bf7a7a0da",
-      "status": "imported",
-      "skills": [],
-      "adapters": [],
+      "status": "skill-draft",
+      "skills": [
+        {
+          "path": "capabilities/healthy-bee-ing/snappy-count/skills/snappy-count/SKILL.md",
+          "version": "0.1.0"
+        }
+      ],
+      "adapters": [
+        {
+          "host": "codex",
+          "path": "scripts/package-capability-plugins.py",
+          "product": "snappy-count",
+          "version": "0.1.0",
+          "format": ".codex-plugin/plugin.json",
+          "verification": "archive-verified",
+          "hostRuntimeTest": "not-run"
+        }
+      ],
       "evidence": [
-        "capabilities/healthy-bee-ing/snappy-count/product.json"
+        "capabilities/healthy-bee-ing/snappy-count/product.json",
+        "capabilities/healthy-bee-ing/snappy-count/evals/skill-v0.1.0.json"
       ],
       "blockers": [],
       "initialImport": {
@@ -1153,11 +1777,27 @@
       "importMode": "exact-tree-snapshot",
       "importCommit": "1c95bd8ccf4a6a93c366b8707cb1d0ff9c828717",
       "destinationTree": "a516a0e2ae423dab7fd185523729a432defe5d50",
-      "status": "imported",
-      "skills": [],
-      "adapters": [],
+      "status": "skill-draft",
+      "skills": [
+        {
+          "path": "capabilities/healthy-bee-ing/medi-minder/skills/medi-minder/SKILL.md",
+          "version": "0.1.0"
+        }
+      ],
+      "adapters": [
+        {
+          "host": "codex",
+          "path": "scripts/package-capability-plugins.py",
+          "product": "medi-minder",
+          "version": "0.1.0",
+          "format": ".codex-plugin/plugin.json",
+          "verification": "archive-verified",
+          "hostRuntimeTest": "not-run"
+        }
+      ],
       "evidence": [
-        "capabilities/healthy-bee-ing/medi-minder/product.json"
+        "capabilities/healthy-bee-ing/medi-minder/product.json",
+        "capabilities/healthy-bee-ing/medi-minder/evals/skill-v0.1.0.json"
       ],
       "blockers": [],
       "initialImport": {
@@ -1182,11 +1822,27 @@
       "importMode": "exact-tree-snapshot",
       "importCommit": "1c95bd8ccf4a6a93c366b8707cb1d0ff9c828717",
       "destinationTree": "89003f842bc8eccf50e2a2a3be4a459572c63d1c",
-      "status": "imported",
-      "skills": [],
-      "adapters": [],
+      "status": "skill-draft",
+      "skills": [
+        {
+          "path": "capabilities/healthy-bee-ing/moody-log/skills/moody-log/SKILL.md",
+          "version": "0.1.0"
+        }
+      ],
+      "adapters": [
+        {
+          "host": "codex",
+          "path": "scripts/package-capability-plugins.py",
+          "product": "moody-log",
+          "version": "0.1.0",
+          "format": ".codex-plugin/plugin.json",
+          "verification": "archive-verified",
+          "hostRuntimeTest": "not-run"
+        }
+      ],
       "evidence": [
-        "capabilities/healthy-bee-ing/moody-log/product.json"
+        "capabilities/healthy-bee-ing/moody-log/product.json",
+        "capabilities/healthy-bee-ing/moody-log/evals/skill-v0.1.0.json"
       ],
       "blockers": [],
       "initialImport": {
@@ -1211,11 +1867,27 @@
       "importMode": "exact-tree-snapshot",
       "importCommit": "1c95bd8ccf4a6a93c366b8707cb1d0ff9c828717",
       "destinationTree": "6fac1fc81fa311edbc75ff94fc89628f16e632b0",
-      "status": "imported",
-      "skills": [],
-      "adapters": [],
+      "status": "skill-draft",
+      "skills": [
+        {
+          "path": "capabilities/healthy-bee-ing/maven-wise/skills/maven-wise/SKILL.md",
+          "version": "0.1.0"
+        }
+      ],
+      "adapters": [
+        {
+          "host": "codex",
+          "path": "scripts/package-capability-plugins.py",
+          "product": "maven-wise",
+          "version": "0.1.0",
+          "format": ".codex-plugin/plugin.json",
+          "verification": "archive-verified",
+          "hostRuntimeTest": "not-run"
+        }
+      ],
       "evidence": [
-        "capabilities/healthy-bee-ing/maven-wise/product.json"
+        "capabilities/healthy-bee-ing/maven-wise/product.json",
+        "capabilities/healthy-bee-ing/maven-wise/evals/skill-v0.1.0.json"
       ],
       "blockers": [],
       "initialImport": {
@@ -1240,11 +1912,27 @@
       "importMode": "exact-tree-snapshot",
       "importCommit": "1c95bd8ccf4a6a93c366b8707cb1d0ff9c828717",
       "destinationTree": "ae17e1008ac4be6582f13c5dd7feaf17fc743dab",
-      "status": "imported",
-      "skills": [],
-      "adapters": [],
+      "status": "skill-draft",
+      "skills": [
+        {
+          "path": "capabilities/identity-known/skills/identity-known/SKILL.md",
+          "version": "0.1.0"
+        }
+      ],
+      "adapters": [
+        {
+          "host": "codex",
+          "path": "scripts/package-capability-plugins.py",
+          "product": "identity-known",
+          "version": "0.1.0",
+          "format": ".codex-plugin/plugin.json",
+          "verification": "archive-verified",
+          "hostRuntimeTest": "not-run"
+        }
+      ],
       "evidence": [
-        "capabilities/identity-known/product.json"
+        "capabilities/identity-known/product.json",
+        "capabilities/identity-known/evals/skill-v0.1.0.json"
       ],
       "blockers": [],
       "initialImport": {
@@ -1269,11 +1957,27 @@
       "importMode": "exact-tree-snapshot",
       "importCommit": "1c95bd8ccf4a6a93c366b8707cb1d0ff9c828717",
       "destinationTree": "db0cf603edfa050dab172636334f4a723cf8666c",
-      "status": "imported",
-      "skills": [],
-      "adapters": [],
+      "status": "skill-draft",
+      "skills": [
+        {
+          "path": "capabilities/identity-known/critter-spotter/skills/critter-spotter/SKILL.md",
+          "version": "0.1.0"
+        }
+      ],
+      "adapters": [
+        {
+          "host": "codex",
+          "path": "scripts/package-capability-plugins.py",
+          "product": "critter-spotter",
+          "version": "0.1.0",
+          "format": ".codex-plugin/plugin.json",
+          "verification": "archive-verified",
+          "hostRuntimeTest": "not-run"
+        }
+      ],
       "evidence": [
-        "capabilities/identity-known/critter-spotter/product.json"
+        "capabilities/identity-known/critter-spotter/product.json",
+        "capabilities/identity-known/critter-spotter/evals/skill-v0.1.0.json"
       ],
       "blockers": [],
       "initialImport": {
@@ -1298,11 +2002,27 @@
       "importMode": "exact-tree-snapshot",
       "importCommit": "1c95bd8ccf4a6a93c366b8707cb1d0ff9c828717",
       "destinationTree": "af364e76895937ca056ca9b39b65cc0959b38b0a",
-      "status": "imported",
-      "skills": [],
-      "adapters": [],
+      "status": "skill-draft",
+      "skills": [
+        {
+          "path": "capabilities/identity-known/roost-wrangler/skills/roost-wrangler/SKILL.md",
+          "version": "0.1.0"
+        }
+      ],
+      "adapters": [
+        {
+          "host": "codex",
+          "path": "scripts/package-capability-plugins.py",
+          "product": "roost-wrangler",
+          "version": "0.1.0",
+          "format": ".codex-plugin/plugin.json",
+          "verification": "archive-verified",
+          "hostRuntimeTest": "not-run"
+        }
+      ],
       "evidence": [
-        "capabilities/identity-known/roost-wrangler/product.json"
+        "capabilities/identity-known/roost-wrangler/product.json",
+        "capabilities/identity-known/roost-wrangler/evals/skill-v0.1.0.json"
       ],
       "blockers": [],
       "initialImport": {
@@ -1327,11 +2047,27 @@
       "importMode": "exact-tree-snapshot",
       "importCommit": "1c95bd8ccf4a6a93c366b8707cb1d0ff9c828717",
       "destinationTree": "f61172c36b212f7210f1b3a436701cf54a7084e4",
-      "status": "imported",
-      "skills": [],
-      "adapters": [],
+      "status": "skill-draft",
+      "skills": [
+        {
+          "path": "capabilities/identity-known/sight-seeker/skills/sight-seeker/SKILL.md",
+          "version": "0.1.0"
+        }
+      ],
+      "adapters": [
+        {
+          "host": "codex",
+          "path": "scripts/package-capability-plugins.py",
+          "product": "sight-seeker",
+          "version": "0.1.0",
+          "format": ".codex-plugin/plugin.json",
+          "verification": "archive-verified",
+          "hostRuntimeTest": "not-run"
+        }
+      ],
       "evidence": [
-        "capabilities/identity-known/sight-seeker/product.json"
+        "capabilities/identity-known/sight-seeker/product.json",
+        "capabilities/identity-known/sight-seeker/evals/skill-v0.1.0.json"
       ],
       "blockers": [],
       "initialImport": {
@@ -1356,11 +2092,27 @@
       "importMode": "exact-tree-snapshot",
       "importCommit": "1c95bd8ccf4a6a93c366b8707cb1d0ff9c828717",
       "destinationTree": "0cd6285b234429c589821ef9bbac8d8f3d9e0f83",
-      "status": "imported",
-      "skills": [],
-      "adapters": [],
+      "status": "skill-draft",
+      "skills": [
+        {
+          "path": "capabilities/identity-known/snap-decoder/skills/snap-decoder/SKILL.md",
+          "version": "0.1.0"
+        }
+      ],
+      "adapters": [
+        {
+          "host": "codex",
+          "path": "scripts/package-capability-plugins.py",
+          "product": "snap-decoder",
+          "version": "0.1.0",
+          "format": ".codex-plugin/plugin.json",
+          "verification": "archive-verified",
+          "hostRuntimeTest": "not-run"
+        }
+      ],
       "evidence": [
-        "capabilities/identity-known/snap-decoder/product.json"
+        "capabilities/identity-known/snap-decoder/product.json",
+        "capabilities/identity-known/snap-decoder/evals/skill-v0.1.0.json"
       ],
       "blockers": [],
       "initialImport": {
@@ -1385,11 +2137,27 @@
       "importMode": "exact-tree-snapshot",
       "importCommit": "1c95bd8ccf4a6a93c366b8707cb1d0ff9c828717",
       "destinationTree": "369bba7c436c540643f94a9fad26b5c714010f42",
-      "status": "imported",
-      "skills": [],
-      "adapters": [],
+      "status": "skill-draft",
+      "skills": [
+        {
+          "path": "capabilities/identity-known/motif-muse/skills/motif-muse/SKILL.md",
+          "version": "0.1.0"
+        }
+      ],
+      "adapters": [
+        {
+          "host": "codex",
+          "path": "scripts/package-capability-plugins.py",
+          "product": "motif-muse",
+          "version": "0.1.0",
+          "format": ".codex-plugin/plugin.json",
+          "verification": "archive-verified",
+          "hostRuntimeTest": "not-run"
+        }
+      ],
       "evidence": [
-        "capabilities/identity-known/motif-muse/product.json"
+        "capabilities/identity-known/motif-muse/product.json",
+        "capabilities/identity-known/motif-muse/evals/skill-v0.1.0.json"
       ],
       "blockers": [],
       "initialImport": {
@@ -1414,11 +2182,27 @@
       "importMode": "exact-tree-snapshot",
       "importCommit": "1c95bd8ccf4a6a93c366b8707cb1d0ff9c828717",
       "destinationTree": "d3834179af12eda8b8c1ac99bbc8934ac63fffcd",
-      "status": "imported",
-      "skills": [],
-      "adapters": [],
+      "status": "skill-draft",
+      "skills": [
+        {
+          "path": "capabilities/identity-known/maker-matcher/skills/maker-matcher/SKILL.md",
+          "version": "0.1.0"
+        }
+      ],
+      "adapters": [
+        {
+          "host": "codex",
+          "path": "scripts/package-capability-plugins.py",
+          "product": "maker-matcher",
+          "version": "0.1.0",
+          "format": ".codex-plugin/plugin.json",
+          "verification": "archive-verified",
+          "hostRuntimeTest": "not-run"
+        }
+      ],
       "evidence": [
-        "capabilities/identity-known/maker-matcher/product.json"
+        "capabilities/identity-known/maker-matcher/product.json",
+        "capabilities/identity-known/maker-matcher/evals/skill-v0.1.0.json"
       ],
       "blockers": [],
       "initialImport": {
@@ -1443,11 +2227,27 @@
       "importMode": "exact-tree-snapshot",
       "importCommit": "1c95bd8ccf4a6a93c366b8707cb1d0ff9c828717",
       "destinationTree": "1b81c7cd24fc20a59dd76dcc407af85e9bc84cf9",
-      "status": "imported",
-      "skills": [],
-      "adapters": [],
+      "status": "skill-draft",
+      "skills": [
+        {
+          "path": "capabilities/identity-known/gpt07g-self-fixer/skills/gpt07g-self-fixer/SKILL.md",
+          "version": "0.1.0"
+        }
+      ],
+      "adapters": [
+        {
+          "host": "codex",
+          "path": "scripts/package-capability-plugins.py",
+          "product": "gpt07g-self-fixer",
+          "version": "0.1.0",
+          "format": ".codex-plugin/plugin.json",
+          "verification": "archive-verified",
+          "hostRuntimeTest": "not-run"
+        }
+      ],
       "evidence": [
-        "capabilities/identity-known/gpt07g-self-fixer/product.json"
+        "capabilities/identity-known/gpt07g-self-fixer/product.json",
+        "capabilities/identity-known/gpt07g-self-fixer/evals/skill-v0.1.0.json"
       ],
       "blockers": [],
       "initialImport": {
@@ -1455,5 +2255,19 @@
         "mode": "sanitized-snapshot"
       }
     }
-  ]
+  ],
+  "sourceRepositoryRetirement": {
+    "status": "deleted",
+    "repositoryCount": 50,
+    "date": "2026-11-24",
+    "verifiedFoundryMain": "64cf0c63c5d2eec64726dcabcff6efbabe17897c",
+    "verification": "Every registered source matched its FoundRy source tree before deletion. Every former repository returned HTTP 404 to the authenticated owner after deletion."
+  },
+  "hostedGptMigration": {
+    "date": "2026-11-24",
+    "host": "ChatGPT",
+    "migrated": 50,
+    "visibility": "private",
+    "verified": "Each owned GPT opened a distinct plugin with a current release, a skill file and a matching display name. Private plugin links are kept by the owner."
+  }
 }

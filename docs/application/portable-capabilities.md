@@ -103,6 +103,14 @@ adapters and evaluations alongside it. Record each converted package and its
 acceptance evidence separately. The [migration contract](../../products/README.md)
 describes how to verify the imported tree.
 
+## November 2026 conversion
+
+The [capability directory](../../capabilities/README.md) contains 50 authored
+portable v0.1.0 skills and their evaluation cases. The [plugin packager](../../scripts/package-capability-plugins.py)
+produces a local Codex ZIP for each skill. ChatGPT’s own migration flow
+produced a private hosted plugin from each of the 50 original GPTs. The
+FoundRy application continues to export design blueprints separately.
+
 ## Source and platform boundaries
 
 Owner direction is the basis for this product change, not a claim that Custom

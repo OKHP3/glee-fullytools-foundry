@@ -1,0 +1,37 @@
+{
+  "skill": "spirited-journal",
+  "version": "0.1.0",
+  "status": "not-run",
+  "cases": [
+    {
+      "name": "Read a partial label",
+      "prompt": "My bottle says 'Valley Red 2019, 13.5% vol, 750 mL'. I don't see a region or bottling date.",
+      "expectations": [
+        "Preserves 13.5% ABV and 750 mL.",
+        "Records 2019 as the labeled wine year while leaving bottling date open.",
+        "Leaves region unknown.",
+        "Does not invent tasting notes or value."
+      ]
+    },
+    {
+      "name": "Gift direction",
+      "prompt": "I own two bottles of the same rye. One was a gift to me; I just gave that sealed bottle to a friend.",
+      "expectations": [
+        "Tracks the gifted-in origin and gifted-out event for the same bottle.",
+        "Shows one remaining owned bottle.",
+        "Does not label the given bottle as consumed.",
+        "Leaves the remaining bottle’s state unchanged if unknown."
+      ]
+    },
+    {
+      "name": "Wishlist and impression",
+      "prompt": "I haven't bought the pear brandy. A shop note says 'ripe fruit'. Add it to the wishlist and leave my tasting notes blank.",
+      "expectations": [
+        "Creates a wishlist entry only.",
+        "Attributes ripe fruit to the shop if included.",
+        "Leaves personal tasting notes and rating empty.",
+        "Does not count the entry as owned or opened."
+      ]
+    }
+  ]
+}

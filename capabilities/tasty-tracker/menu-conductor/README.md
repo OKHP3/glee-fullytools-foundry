@@ -2,6 +2,8 @@
 
 Plan menus for a week or a special occasion around the schedule, pantry and favorite dishes.
 
+[Portable Agent Skill](skills/menu-conductor/SKILL.md) · [Evaluation cases](evals/skill-v0.1.0.json)
+
 [Tasty Tracker](../) · [Browse source files](source/) · [Catalog entry](https://github.com/OKHP3/glee-fullytools-foundry/blob/main/inventory/inventory-of-toolbox-tools-and-tool-ettes.md#tool-ette--twig-03b--menu-conductor) · [Import receipt](product.json)
 
 ## Overview of the original project

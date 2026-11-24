@@ -1,0 +1,37 @@
+{
+  "skill": "palatably-profiled",
+  "version": "0.1.0",
+  "status": "not-run",
+  "cases": [
+    {
+      "name": "Compare overlap",
+      "prompt": "Ari rated lentil stew 5 and curry 2. Bo rated the same stew 4 and curry 5, all out of five. Compare.",
+      "expectations": [
+        "Identifies stew as a shared positive.",
+        "Shows the curry disagreement with both scores.",
+        "States that the comparison has two shared dishes.",
+        "Does not call the two people identical taste matches."
+      ]
+    },
+    {
+      "name": "Sparse timeline",
+      "prompt": "I group October through December as fall and January through March as winter. My only review is a 5/5 ginger soup from January. Draw my fall versus winter flavor trend in plain text.",
+      "expectations": [
+        "Records January as the sole dated observation.",
+        "Reports one winter ginger entry.",
+        "Leaves fall unsupported.",
+        "Returns a text snapshot rather than inventing a trend."
+      ]
+    },
+    {
+      "name": "Preference versus exclusion",
+      "prompt": "Sam loves smoky dishes and reports a peanut allergy. The candidates are smoky peanut noodles and a pepper stew with unknown ingredients.",
+      "expectations": [
+        "Preserves smoky as a preference.",
+        "Keeps peanut allergy as a separate exclusion.",
+        "Excludes the peanut noodles.",
+        "Flags the stew ingredients for checking before a recommendation."
+      ]
+    }
+  ]
+}

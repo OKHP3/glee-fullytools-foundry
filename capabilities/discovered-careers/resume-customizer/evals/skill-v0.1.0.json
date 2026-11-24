@@ -1,0 +1,37 @@
+{
+  "skill": "resume-customizer",
+  "version": "0.1.0",
+  "status": "not-run",
+  "cases": [
+    {
+      "name": "Transferable tool",
+      "prompt": "Posting requires Tableau and stakeholder demos. Resume says Power BI dashboards and quarterly demos to operations managers.",
+      "expectations": [
+        "Maps demos to direct evidence.",
+        "Maps Power BI to transferable visualization experience.",
+        "Identifies Tableau as unverified.",
+        "Rewrites at least one bullet using only dashboards and the documented demos."
+      ]
+    },
+    {
+      "name": "Missing base",
+      "prompt": "Here is a posting requiring vendor onboarding, French and contract negotiation. Build my tailored resume. I have supplied no work history.",
+      "expectations": [
+        "Extracts the three named requirements.",
+        "Requests relevant base resume or experience examples.",
+        "Leaves language fluency and negotiation experience unresolved.",
+        "Avoids drafting a fabricated employment history."
+      ]
+    },
+    {
+      "name": "Two variants",
+      "prompt": "My base lists inventory reconciliation and scheduling. Produce one version for stock control and one for shift planning. The postings name only those respective duties.",
+      "expectations": [
+        "Labels the two distinct target variants.",
+        "Prioritizes inventory reconciliation in the stock-control version.",
+        "Prioritizes scheduling in the shift-planning version.",
+        "Keeps the factual base consistent and does not invent team or stock counts."
+      ]
+    }
+  ]
+}

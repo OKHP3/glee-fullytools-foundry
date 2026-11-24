@@ -1,0 +1,37 @@
+{
+  "skill": "lifestyle-wallboard",
+  "version": "0.1.0",
+  "status": "not-run",
+  "cases": [
+    {
+      "name": "Cross-category status",
+      "prompt": "As of June 8, two of four tasks are done. My $25 bill has a second row labelled reminder for that same unpaid bill.",
+      "expectations": [
+        "Reports task completion as 2/4 or 50%.",
+        "Deduplicates the bill reminder.",
+        "Shows one $25 unpaid obligation.",
+        "Keeps currency separate from task counts."
+      ]
+    },
+    {
+      "name": "Missing feed",
+      "prompt": "Make a text wallboard. I supplied only a goal of 3 walks and 2 completed this week; there is no tracker connection.",
+      "expectations": [
+        "Shows weekly goal progress as 2/3.",
+        "Identifies one walk remaining.",
+        "Labels unsupplied categories as unavailable.",
+        "Does not claim a refreshed tracker or a prior-period trend."
+      ]
+    },
+    {
+      "name": "Missing streak day",
+      "prompt": "My daily habit was done Monday and Wednesday. Tuesday has no entry. Please show a three-day streak.",
+      "expectations": [
+        "Identifies the missing Tuesday observation.",
+        "Does not award a three-day streak.",
+        "Shows two observed completions.",
+        "Asks for Tuesday's status or leaves continuity unknown."
+      ]
+    }
+  ]
+}

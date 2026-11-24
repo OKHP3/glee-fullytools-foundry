@@ -1,0 +1,37 @@
+{
+  "skill": "flavor-meister",
+  "version": "0.1.0",
+  "status": "not-run",
+  "cases": [
+    {
+      "name": "Separate last cook from base",
+      "prompt": "My bean salad serves four and uses lime. I used lemon on May 5, liked the brightness, and rated it four stars.",
+      "expectations": [
+        "Keeps lime in the base card.",
+        "Logs lemon separately on May 5.",
+        "Records four servings and a 4/5 rating.",
+        "Associates brightness with the tasted variation."
+      ]
+    },
+    {
+      "name": "Find from pasted cards",
+      "prompt": "My cards say chilli is spicy and stew is savory, both for winter. Show savory winter dishes.",
+      "expectations": [
+        "Returns stew as the matching dish.",
+        "Explains the savory and winter tag match.",
+        "Does not include chilli merely because it is for winter.",
+        "Limits the lookup to the two supplied cards."
+      ]
+    },
+    {
+      "name": "Preserve unknowns",
+      "prompt": "Add my favorite noodle dish. I use a handful of basil, but I don't remember the method or quantities yet.",
+      "expectations": [
+        "Preserves a handful of basil.",
+        "Marks the dish as a favorite without fabricating stars.",
+        "Marks the method and other quantities as missing.",
+        "Returns a partial recipe card that can be completed."
+      ]
+    }
+  ]
+}

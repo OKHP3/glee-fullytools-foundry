@@ -1,0 +1,37 @@
+{
+  "skill": "decor-detective",
+  "version": "0.1.0",
+  "status": "not-run",
+  "cases": [
+    {
+      "name": "Partial set movement",
+      "prompt": "Twelve glass ornaments live in bin H. Eight are now on the hallway tree; the remaining four stayed boxed.",
+      "expectations": [
+        "Retains a twelve-piece set total.",
+        "Places eight on the hallway tree.",
+        "Leaves four in bin H.",
+        "Distinguishes display from normal storage."
+      ]
+    },
+    {
+      "name": "Ambiguous decoration",
+      "prompt": "I found a brass-colored star and already have a 'brass star' entry. There is no label. Is it authentic brass? Merge it.",
+      "expectations": [
+        "Records the observed brass-colored appearance.",
+        "Does not confirm material from color alone.",
+        "Flags a possible duplicate without merging.",
+        "Requests a distinguishing feature, count or label."
+      ]
+    },
+    {
+      "name": "Packing and repairs",
+      "prompt": "Make a takedown list. The porch garland belongs in bin W2 and has one broken clip. No date picked yet.",
+      "expectations": [
+        "Groups the garland under bin W2.",
+        "Includes a separate broken-clip care task.",
+        "Leaves the takedown date open or asks for it.",
+        "Does not claim a reminder is scheduled."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "skill": "travelers-guide",
+  "version": "0.1.0",
+  "status": "not-run",
+  "cases": [
+    {
+      "name": "Separate a memory and a wish",
+      "prompt": "I took a ferry in May and kept the ticket. I hope to return in winter. Organize this.",
+      "expectations": [
+        "Creates a past journey entry for the ferry.",
+        "Creates a linked keepsake entry for the ticket.",
+        "Creates a separate winter wish.",
+        "Does not mark the winter trip booked or completed."
+      ]
+    },
+    {
+      "name": "Missing calendar",
+      "prompt": "I have a 3 pm museum booking and want a market detour before it. There is no connected calendar or route.",
+      "expectations": [
+        "Places the museum under itinerary planning.",
+        "Treats the market as an optional detour.",
+        "Asks for the starting point or available travel window.",
+        "Keeps actual reservations and navigation outside the generated plan."
+      ]
+    },
+    {
+      "name": "Public memory collection",
+      "prompt": "Make a shareable page about last week's family trip from these notes. Leave out names and our address. We bought a shell postcard.",
+      "expectations": [
+        "Uses an anonymous family trip label.",
+        "Creates a memento entry for the postcard.",
+        "Omits personal names and the address.",
+        "Does not invent details of the purchase or photo."
+      ]
+    }
+  ]
+}

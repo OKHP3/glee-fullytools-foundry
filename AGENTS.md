@@ -21,7 +21,10 @@ its import status. The owner chose an exact snapshot of each former
 repository's pinned `main` tree for its capability's `source/` directory.
 Preserve paths, file contents and Git modes there. Treat nested agent guides
 and workflows as historical source. The original Git ancestry belongs in
-private recovery storage. Link new guidance to the FoundRy capability.
+private recovery storage. The 50 legacy GitHub repositories have been deleted.
+Author product skills in each route’s `skills/<productId>/` directory and its
+evaluation cases in `evals/`. The plugin packager reads the selected skill
+and license for its archive. Link new guidance to the FoundRy capability.
 Follow the [migration contract](products/README.md) for source
 preservation and the [portable capability workflow](docs/application/portable-capabilities.md)
 for skills, adapters and evaluations.
@@ -60,11 +63,11 @@ Inferred from the repository contents:
 - The workbench preserves canonical rules while helping design, evaluate and
   package Glee-fully capabilities independently of their host platform.
 
-Unknown from this checkout:
-
-- The current operational status of the externally hosted GPTs, child repositories,
-  public site, and live ChatGPT links. Local documentation reports 40+ entities, but
-  that external deployment count is not independently verified here.
+On November 24, 2026, GitHub confirmed deletion of the 50 legacy repositories.
+Each of their 50 original GPTs opened a private replacement plugin in the
+owner’s ChatGPT account. The [migration register](products/migration-map.json)
+records this cutover. Host behavior, installation and later changes require
+separate verification.
 
 ## Authority and scope
 

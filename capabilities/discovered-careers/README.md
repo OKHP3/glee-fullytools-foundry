@@ -2,6 +2,8 @@
 
 Build a resume, prepare an application, assess a career move or keep track of a job search.
 
+[Portable Agent Skill](skills/discovered-careers/SKILL.md) · [Evaluation cases](evals/skill-v0.1.0.json)
+
 ## Tools
 
 | Capability | Purpose |

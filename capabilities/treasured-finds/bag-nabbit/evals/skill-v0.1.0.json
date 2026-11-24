@@ -1,0 +1,37 @@
+{
+  "skill": "bag-nabbit",
+  "version": "0.1.0",
+  "status": "not-run",
+  "cases": [
+    {
+      "name": "Loan and return",
+      "prompt": "I loaned my navy tote, identifier T2, to a friend through May 20. Its usual place is upper shelf. My other navy tote is T1.",
+      "expectations": [
+        "Assigns the loan only to T2.",
+        "Retains upper shelf as T2's normal storage.",
+        "Records the May 20 agreed return date.",
+        "Keeps T1's custody unchanged."
+      ]
+    },
+    {
+      "name": "Occasion selection",
+      "prompt": "Need a hands-free bag for a concert with a 6 by 9 inch limit. My crossbody is 5 by 8, clutch is 4 by 7 with no strap, and the 5 by 8 belt bag is loaned out.",
+      "expectations": [
+        "Recommends the available 5 by 8 crossbody.",
+        "Checks the supplied size limit.",
+        "Explains that the clutch lacks the hands-free feature.",
+        "Excludes the loaned belt bag from available options."
+      ]
+    },
+    {
+      "name": "Tentative photo identification",
+      "prompt": "I saw a designer-looking bag online. Add it to my wishlist. The picture is unavailable and no price is given.",
+      "expectations": [
+        "Records it as a wishlist candidate.",
+        "Separates it from owned bags.",
+        "Leaves maker, authenticity and price unknown.",
+        "Requests identifying text or observable features if more detail is wanted."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "skill": "roost-wrangler",
+  "version": "0.1.0",
+  "status": "not-run",
+  "cases": [
+    {
+      "name": "Furniture period",
+      "prompt": "A low sideboard has tapered legs and plain fronts. Does that prove it was made in the 1950s?",
+      "expectations": [
+        "Identifies the sideboard as the furniture subject.",
+        "Describes the legs and fronts as evidence.",
+        "Suggests a possible style influence while withholding exact date.",
+        "Asks for a label, joinery or other independent dating evidence."
+      ]
+    },
+    {
+      "name": "Two chairs without photos",
+      "prompt": "My photos failed to upload. Chair A has plain tapered legs. Chair B has carved curved legs. Give me a caption for each and a price for the set.",
+      "expectations": [
+        "Bases the comparison on the supplied descriptions.",
+        "Contrasts tapered legs with carved curved legs.",
+        "Gives two tentative design captions without authenticating an era.",
+        "Leaves out price estimates and shopping links."
+      ]
+    },
+    {
+      "name": "Bird at the porch",
+      "prompt": "A striped bird is nesting on our porch. I want to identify the bird, not the house. Should I lift the nest?",
+      "expectations": [
+        "Routes animal identification to Critter Spotter.",
+        "Advises leaving the nest undisturbed.",
+        "Carries the reported stripes and porch setting into a copyable handoff.",
+        "Does not claim to have identified a species or contacted another tool."
+      ]
+    }
+  ]
+}

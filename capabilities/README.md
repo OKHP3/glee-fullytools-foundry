@@ -13,4 +13,6 @@ Start with Personalizable Tools for an overview, or choose a domain for a specif
 | [Healthy Bee-ing](healthy-bee-ing/) | Keep track of everyday wellness routines, from symptom notes and meals to medication refills. |
 | [Identity Known](identity-known/) | Use visual clues to identify animals, places, designs, crafts and unfamiliar objects. |
 
+Each capability page links to a standalone Agent Skill and three behavioral evaluation cases. To package a skill for Codex, use the [plugin packaging instructions](../products/README.md#portable-skills-and-plugin-packages).
+
 Open a capability's `source/` folder to browse the original files, including the tools the repository bundled. Its import receipt and the [migration register](../products/migration-map.json) identify the pinned revision and verified Git tree. The [original catalog](../inventory/inventory-of-toolbox-tools-and-tool-ettes.md) describes the former GPTs. The [shared tooling index](../products/shared-tooling.json) documents the public matches used in the earlier selective import.

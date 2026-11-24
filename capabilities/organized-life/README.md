@@ -2,6 +2,8 @@
 
 Organize household tasks, bills, gift lists, calendars and items to resell.
 
+[Portable Agent Skill](skills/organized-life/SKILL.md) · [Evaluation cases](evals/skill-v0.1.0.json)
+
 ## Tools
 
 | Capability | Purpose |

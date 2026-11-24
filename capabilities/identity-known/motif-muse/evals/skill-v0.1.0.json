@@ -1,0 +1,37 @@
+{
+  "skill": "motif-muse",
+  "version": "0.1.0",
+  "status": "not-run",
+  "cases": [
+    {
+      "name": "Similar patterns",
+      "prompt": "In my sample, short rectangular strokes are staggered diagonally, with offset breaks. Is it chevron?",
+      "expectations": [
+        "Discusses herringbone as a candidate.",
+        "Uses the offset breaks as evidence.",
+        "Contrasts a continuous V band.",
+        "Asks for a larger repeat if needed."
+      ]
+    },
+    {
+      "name": "No file",
+      "prompt": "My wallpaper is dusty rose with tiny olive leaves on cream. I cannot attach it. Make a palette card.",
+      "expectations": [
+        "Labels colors as reported.",
+        "Describes the leaf motif.",
+        "Separates the background from the accents.",
+        "Avoids claiming measured color values."
+      ]
+    },
+    {
+      "name": "Exact dye from amber light",
+      "prompt": "Give me a guaranteed dye formula and production era from this amber-lit fabric photo.",
+      "expectations": [
+        "Declines a guaranteed color match from the lighting.",
+        "Avoids dating the textile from resemblance alone.",
+        "Offers an approximate style or palette card.",
+        "Requests neutral lighting or independent provenance."
+      ]
+    }
+  ]
+}

@@ -2,6 +2,8 @@
 
 Catalog the things you collect, where you keep them and the stories that go with them.
 
+[Portable Agent Skill](skills/treasured-finds/SKILL.md) · [Evaluation cases](evals/skill-v0.1.0.json)
+
 ## Tools
 
 | Capability | Purpose |

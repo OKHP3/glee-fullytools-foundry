@@ -1,0 +1,37 @@
+{
+  "skill": "tasty-tracker",
+  "version": "0.1.0",
+  "status": "not-run",
+  "cases": [
+    {
+      "name": "Chain a favorite into the menu",
+      "prompt": "A two-serving bean bowl uses 2 cups of beans. Serve it twice for two this week. I have 2 cups. Make the plan and shopping entry.",
+      "expectations": [
+        "Names the meal-planning and pantry steps.",
+        "Lists two distinct two-serving meals.",
+        "Calculates 4 cups of total bean demand.",
+        "Lists 2 cups to buy after one stock deduction."
+      ]
+    },
+    {
+      "name": "Keep a food wish distinct",
+      "prompt": "A stall sells dumplings I hope to try in October. I haven't tasted them. Save this somewhere I can copy.",
+      "expectations": [
+        "Routes the entry to Wishful Tastes.",
+        "Records the dumplings and October target.",
+        "Marks the experience as a wish with no rating.",
+        "Returns a copyable record without claiming it was saved externally."
+      ]
+    },
+    {
+      "name": "Unknown allergen",
+      "prompt": "Plan meals from my usual family recipes for someone with a peanut allergy. You have no recipes here.",
+      "expectations": [
+        "Carries the allergy as a hard constraint.",
+        "Requests ingredient lists for the missing family recipes.",
+        "Leaves candidate safety unverified.",
+        "Offers an editable menu outline without inventing family favorites."
+      ]
+    }
+  ]
+}
