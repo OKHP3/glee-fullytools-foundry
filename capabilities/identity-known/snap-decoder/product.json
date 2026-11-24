@@ -1,0 +1,41 @@
+{
+  "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt07d-snap-decoder",
+  "sourceBranch": "main",
+  "sourceCommit": "d040a2bf3d26c214440cdbbfd8bd6a5b68fa0e0d",
+  "sourceTree": "0cd6285b234429c589821ef9bbac8d8f3d9e0f83",
+  "sourceLicense": "MIT",
+  "importMode": "sanitized-snapshot",
+  "destinationTree": "009a58e4cba330826b657c2181da85d6e561976e",
+  "pathCounts": {
+    "imported": 4,
+    "private-operations": 1,
+    "repository-maintenance": 4,
+    "shared-public-reference": 356
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "gitBlob": "dfe0770424b2a19faf507a501ebfc23be8f54e7b",
+      "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlob": "4bcc540fe6068d6c36d104fee57c5bd1d1dbcf91",
+      "sha256": "99d115a503c30e4035365152e302aa5933ae6f0e543e6b34913373cf57ee78cd",
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlob": "f4873c2116435bd7bb58afdb5fddc835397e49dc",
+      "sha256": "7a26108bff9a3301f0ed8fd0697f07134c7ed863d36572885ee37229c88ba29d",
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlob": "60e557ba3603e15d67613762fa4303769a253570",
+      "sha256": "6fcd4cda6cce875a6be7bdc9ab441a7e060548343340642fcdcfd9eaae2ee9b7",
+      "mode": "100644"
+    }
+  ]
+}

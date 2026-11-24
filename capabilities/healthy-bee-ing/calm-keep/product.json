@@ -1,0 +1,62 @@
+{
+  "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt06b-calm-keep",
+  "sourceBranch": "main",
+  "sourceCommit": "93de023937275f8168af2486ea9580cb0100f489",
+  "sourceTree": "f7edc05ed64538b46145ce2921d711864281f45e",
+  "sourceLicense": "MIT",
+  "importMode": "sanitized-snapshot",
+  "destinationTree": "5a1213f0079131a5c018e3391877d19262521b5e",
+  "pathCounts": {
+    "imported": 6,
+    "private-operations": 1,
+    "redacted": 1,
+    "repository-maintenance": 7,
+    "shared-public-reference": 354
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "gitBlob": "dfe0770424b2a19faf507a501ebfc23be8f54e7b",
+      "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlob": "340c060dd825f82fad964785dbdcb530c012613c",
+      "sha256": "acbc9a1826d4a94238ba4f69dc318b97db9791e32ef0b806fb001075c5159fd0",
+      "mode": "100644"
+    },
+    {
+      "path": "AGENTS.md",
+      "gitBlob": "5328f3e78a6688d3c1c156efe668fcb01d81fd85",
+      "sha256": "ff1fafc2220a3ff34b45a14f8c333d08ef9dbbc884c85e32c5ed51c22e6d240b",
+      "mode": "100644"
+    },
+    {
+      "path": "CLAUDE.md",
+      "gitBlob": "462f0d243c6aa6d1d9858d6e2b140dc955ac03f0",
+      "sha256": "2301215486cc3d6ce4fb28278a28b9a0c7c85203b505f2b20e06a4434b227f70",
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlob": "f4873c2116435bd7bb58afdb5fddc835397e49dc",
+      "sha256": "7a26108bff9a3301f0ed8fd0697f07134c7ed863d36572885ee37229c88ba29d",
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlob": "0d430980f4422d694a01611e41eeae1db63b3af3",
+      "sha256": "e0b2383f9ca04ef84185ae7374a1b5d27e703f9e5d67d86e18e79bbff8110956",
+      "mode": "100644"
+    },
+    {
+      "path": "archive/parent-context/healthy-bee-ing-pulsebook-20250901.md",
+      "gitBlob": "2cdd1196ec9d337ce9c2a3498fac9c6539641a4b",
+      "sha256": "047be14e07840ca916391f873dde6bd40618a950688dca1887f6df1a75942622",
+      "mode": "100644",
+      "sourceGitBlob": "742eea37869067a3e5ecb099998cff816f82e5c5",
+      "redaction": "Retained product descriptions, conversation starters, goals and sibling roles. Omitted private deployment and operational records."
+    }
+  ]
+}

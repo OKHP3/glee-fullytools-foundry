@@ -1,0 +1,50 @@
+{
+  "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt06e-moody-log",
+  "sourceBranch": "main",
+  "sourceCommit": "e36abcc46fe7dd2c028150af52feec2bcb49395d",
+  "sourceTree": "89003f842bc8eccf50e2a2a3be4a459572c63d1c",
+  "sourceLicense": "MIT",
+  "importMode": "sanitized-snapshot",
+  "destinationTree": "592f3dc61017f912fa63ae5352d64f997fafd146",
+  "pathCounts": {
+    "imported": 4,
+    "private-operations": 1,
+    "redacted": 1,
+    "repository-maintenance": 3,
+    "shared-public-reference": 375
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "gitBlob": "dfe0770424b2a19faf507a501ebfc23be8f54e7b",
+      "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlob": "dd9569fd97226c3110a377addb517adc1309d94b",
+      "sha256": "f10073fde94ccdbba2f72ce2fbb152e34a65018c89cd1f9792905baa350000c0",
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlob": "f4873c2116435bd7bb58afdb5fddc835397e49dc",
+      "sha256": "7a26108bff9a3301f0ed8fd0697f07134c7ed863d36572885ee37229c88ba29d",
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlob": "3292cf22c946f90b421482921adcd5939c37e55a",
+      "sha256": "869f91d9d56c1954079d6e4d7f92f85319395e722a21c6268bd55d4b910dae99",
+      "mode": "100644"
+    },
+    {
+      "path": "archive/healthy-bee-ing-pulsebook-2025-09-01.md",
+      "gitBlob": "2cdd1196ec9d337ce9c2a3498fac9c6539641a4b",
+      "sha256": "047be14e07840ca916391f873dde6bd40618a950688dca1887f6df1a75942622",
+      "mode": "100644",
+      "sourceGitBlob": "742eea37869067a3e5ecb099998cff816f82e5c5",
+      "redaction": "Retained product descriptions, conversation starters, goals and sibling roles. Omitted private deployment and operational records."
+    }
+  ]
+}

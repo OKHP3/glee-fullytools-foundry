@@ -1,0 +1,101 @@
+{
+  "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt04e-memento-log",
+  "sourceBranch": "main",
+  "sourceCommit": "07b01c223de98858a2fba1cfb6588ff8922666ca",
+  "sourceTree": "dc0eaf35a4c71d095d9922db89e7f0a429ad842d",
+  "sourceLicense": "MIT",
+  "importMode": "sanitized-snapshot",
+  "destinationTree": "b6fc328601fe3817ac426eeae9994eda0d2d4b7e",
+  "pathCounts": {
+    "imported": 14,
+    "private-operations": 2,
+    "repository-maintenance": 3,
+    "shared-public-reference": 357
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "gitBlob": "dfe0770424b2a19faf507a501ebfc23be8f54e7b",
+      "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlob": "9e1595b19148b140e64df7503a8841369c1c3a2d",
+      "sha256": "120bead872b6f62604235fa52276bdd5a60e351ecdf1a470dc9bdb05821dbdfd",
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlob": "f4873c2116435bd7bb58afdb5fddc835397e49dc",
+      "sha256": "7a26108bff9a3301f0ed8fd0697f07134c7ed863d36572885ee37229c88ba29d",
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlob": "01ea50dbd195f7aaaefdb3a28b757dbcd8cf5e41",
+      "sha256": "5b69188bb10f4feb62ad3249fb7c88513f16d462f6962a714d9a2817ab27e488",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledgebundle/archives/glee_mementolog_knowledgebundle.zip",
+      "gitBlob": "417607368cdc0ac3f377e1a6d8132433df6bacdb",
+      "sha256": "34720fecabbd1cabdb6bc0a1074ed496ec10354b2c0168e06ea98fe86b90c9bc",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledgebundle/archives/gleefully_mementolog_exportbundle_v1.0.zip",
+      "gitBlob": "17819ad2b7111fc5db1b790122fd6d3b3cee0926",
+      "sha256": "1ea040810af882ece21e6c7b575f8f1ea95027ce3c8724dab0a5189bbfa9eab6",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledgebundle/ledgers/dataLedger_archive_v2.txt",
+      "gitBlob": "30da2d753e570a964ddc71767daa091f1d33762f",
+      "sha256": "2c5b108fc782d51628ba3d2fe5deb6a921f2c86a5dda1e5251e525707e659aee",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledgebundle/ledgers/dataLedger_ideation_v2.txt",
+      "gitBlob": "b9f2875be783280a29b8065885b9a71e53fdb2b8",
+      "sha256": "eff4149f5a94f476beaa0a8d0fc45c1f8dbe3fbca7686053e5305b70bc142de4",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledgebundle/ledgers/dataLedger_narrative_v2.txt",
+      "gitBlob": "e3a8ae4ec35c4d47bee8c9a25ce759fec9366e4b",
+      "sha256": "070cf035cebdc9eb0997924e964cc264ffb2022c6ebe0e118d330ea870a705c8",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledgebundle/ledgers/dataLedger_parameters_v2.txt",
+      "gitBlob": "37bf8f5563c47d7876e69bf79b075c9ae344c694",
+      "sha256": "fdd20a25c8345102e5dda3adf31bacb94ee95818561f1a5e7b44928bd1f74ba0",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledgebundle/ledgers/dataLedger_persona_v2.txt",
+      "gitBlob": "6dccf5cb028ba4ffb9e326ee5285d278f3cb4740",
+      "sha256": "973eb0084af67f16d1a163096b533c937e8ed8056fba80323ac1e66d674e5888",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledgebundle/ledgers/dataLedger_processing_v2.txt",
+      "gitBlob": "8e3aacea0a7e3939d171b490018fff9bfd6ff337",
+      "sha256": "751d322d22c0914c94cd4ed013ee78171272317a317996aeef1a7610a5c62b3a",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledgebundle/ledgers/dataLedger_registry_v2.txt",
+      "gitBlob": "591bf2f3baa7a32154af63114e13d0fd62522a47",
+      "sha256": "813ea07741a0f1fa9bfad7fb3df2ad8b9bc9e59b5a0d7bbdb14a17a27ba708a7",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledgebundle/ledgers/dataLedger_system_v2.txt",
+      "gitBlob": "0afc00afa47235b2a2a81ecf20ad38671fa8e5c9",
+      "sha256": "ad8769391d6b4354bfb73b8dbc828e4604190e0446bc9b59afd4ea8fcce7d9cc",
+      "mode": "100644"
+    }
+  ]
+}

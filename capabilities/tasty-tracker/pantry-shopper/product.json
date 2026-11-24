@@ -1,0 +1,53 @@
+{
+  "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt03d-pantry-shopper",
+  "sourceBranch": "main",
+  "sourceCommit": "b102edcf10b6a18760e428532833df92492cdb00",
+  "sourceTree": "b4169f5b372bbdeb5d9143c0b29363e93e43aa9f",
+  "sourceLicense": "MIT",
+  "importMode": "sanitized-snapshot",
+  "destinationTree": "c510caf16ce1a4a75253bfd0a3c4ce4897e0f4e2",
+  "pathCounts": {
+    "imported": 6,
+    "private-operations": 2,
+    "repository-maintenance": 5,
+    "shared-public-reference": 354
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "gitBlob": "dfe0770424b2a19faf507a501ebfc23be8f54e7b",
+      "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlob": "a3e6f676e20bd28b1635760090ed766ee8b954d9",
+      "sha256": "d4b5b450c094c1f877cdc6a0df7d3256e7ec7c9bd283be496e0e1a4ed99cf032",
+      "mode": "100644"
+    },
+    {
+      "path": "AGENTS.md",
+      "gitBlob": "024371864f78fa3dd76a00e652bc046cfabf82ce",
+      "sha256": "712d6a8e0556a1703175fd2f562f845263ac8874692cea0b40b6d2a0aae1d7b7",
+      "mode": "100644"
+    },
+    {
+      "path": "CLAUDE.md",
+      "gitBlob": "058683a405cf9cb96d1a8e2a6e14f49707a2bf2d",
+      "sha256": "641990d8746678bcfd7ad6958ce7f163cb5118562a6c6b298adc18925529e1f0",
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlob": "f4873c2116435bd7bb58afdb5fddc835397e49dc",
+      "sha256": "7a26108bff9a3301f0ed8fd0697f07134c7ed863d36572885ee37229c88ba29d",
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlob": "920fbe764b14b72367361fd6ad59973c420efed7",
+      "sha256": "6b8a0301dcf5dab9933b4febd379bcf79510a7f8de72fdf8cc41af2f3d4c2245",
+      "mode": "100644"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt07f-maker-matcher",
+  "sourceBranch": "main",
+  "sourceCommit": "0ee24dbfe8bc34172e98e9a22b7e018f655dd3ba",
+  "sourceTree": "d3834179af12eda8b8c1ac99bbc8934ac63fffcd",
+  "sourceLicense": "MIT",
+  "importMode": "sanitized-snapshot",
+  "destinationTree": "498987ff92961a17131ed7c6a81408be38ba58a5",
+  "pathCounts": {
+    "imported": 6,
+    "repository-maintenance": 2,
+    "shared-public-reference": 375
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "gitBlob": "dfe0770424b2a19faf507a501ebfc23be8f54e7b",
+      "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlob": "c1c69e640ade76e16eff5a76b1ec526ac7f329aa",
+      "sha256": "ed31605069b2e63cee4440ef1b6b850264feb600f9cc467e8020998865bdd5a1",
+      "mode": "100644"
+    },
+    {
+      "path": "AGENTS.md",
+      "gitBlob": "ec7c769d9bb2b52e8d5d1ac059424787110e9bb4",
+      "sha256": "d41085e56f9362ca10f261a9e87fbcf2a0d8c31b8de38842ad066f57279c7151",
+      "mode": "100644"
+    },
+    {
+      "path": "CLAUDE.md",
+      "gitBlob": "01794850b5ca9d6f6e96f3c44287cbf5a53f636f",
+      "sha256": "8e7b37cf2519674b41c024f816d60b04488a89b0eeca04112c8d660cccbdd18a",
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlob": "f4873c2116435bd7bb58afdb5fddc835397e49dc",
+      "sha256": "7a26108bff9a3301f0ed8fd0697f07134c7ed863d36572885ee37229c88ba29d",
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlob": "c36d755de50b009a3e9c818e327d1120ff15ce77",
+      "sha256": "c659a1d4cf926d97a4237e885a49ba8fdf9badc592afce2c828b6204d4cf45bc",
+      "mode": "100644"
+    }
+  ]
+}

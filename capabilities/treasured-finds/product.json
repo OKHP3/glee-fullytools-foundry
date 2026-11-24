@@ -1,0 +1,41 @@
+{
+  "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt02-treasured-finds",
+  "sourceBranch": "main",
+  "sourceCommit": "f851f081d818736ef8682225c48bb7a78e610a28",
+  "sourceTree": "3721adbc77b4b6c2b91b8796389e5d509c6bfa69",
+  "sourceLicense": "MIT",
+  "importMode": "sanitized-snapshot",
+  "destinationTree": "245c5b07049dab7f88f46156207dcb76c9c88df0",
+  "pathCounts": {
+    "imported": 4,
+    "private-operations": 1,
+    "repository-maintenance": 3,
+    "shared-public-reference": 375
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "gitBlob": "dfe0770424b2a19faf507a501ebfc23be8f54e7b",
+      "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlob": "1c35c1620b41ca9d5fee8a95ce1f1f9b7e0fe7d8",
+      "sha256": "abdbe19a2cdddf60a62cbf16b43f43dfcfbd88fb67b7b8c12903a48172b99f13",
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlob": "f4873c2116435bd7bb58afdb5fddc835397e49dc",
+      "sha256": "7a26108bff9a3301f0ed8fd0697f07134c7ed863d36572885ee37229c88ba29d",
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlob": "fd4451c1914a7bff08caa2a68c5c0e842fb70819",
+      "sha256": "ca9d137952c45427e98a433384e8c0ec336b495c2e38a89960687ce1937a01e7",
+      "mode": "100644"
+    }
+  ]
+}

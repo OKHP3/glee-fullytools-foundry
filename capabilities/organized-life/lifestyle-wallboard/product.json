@@ -1,0 +1,102 @@
+{
+  "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt05e-lifestyle-wallboard",
+  "sourceBranch": "main",
+  "sourceCommit": "e0f67d61f1f3e624c58b881e52b0265176c6cc1b",
+  "sourceTree": "67805b96cc41d85642cf8147213abe6a6c8db1d2",
+  "sourceLicense": "MIT",
+  "importMode": "sanitized-snapshot",
+  "destinationTree": "54147c1927993447cd52be2723dc9f0f0f42a686",
+  "pathCounts": {
+    "imported": 14,
+    "local-metadata": 1,
+    "private-operations": 1,
+    "repository-maintenance": 2,
+    "shared-public-reference": 375
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "gitBlob": "dfe0770424b2a19faf507a501ebfc23be8f54e7b",
+      "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+      "mode": "100644"
+    },
+    {
+      "path": "AGENTS.md",
+      "gitBlob": "82a5a13a16425dbae1492074bbbf47cd97fe3868",
+      "sha256": "54136998a93ae9e8179096a8ec643d3a610e2d999ff463a73688efb21a8e5dc4",
+      "mode": "100644"
+    },
+    {
+      "path": "CLAUDE.md",
+      "gitBlob": "43c994c2d3617f947bcb5adf1933e21dabe46bb5",
+      "sha256": "336cc4fbf19beaada7ccf9986414fa91851a8d7a07dfb3ccbe800a69eed0ab49",
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlob": "f4873c2116435bd7bb58afdb5fddc835397e49dc",
+      "sha256": "7a26108bff9a3301f0ed8fd0697f07134c7ed863d36572885ee37229c88ba29d",
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlob": "795a65a3d71cc8a3f94ddc9eed0536489bc9c2b5",
+      "sha256": "6f39d9b7cccbb8cd3692a98d6416e5f0c3551e8fc1360c15614221bcd373bbc0",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledgebundle/archives/gleefully_lifestylewallboard_knowledgebundle.zip",
+      "gitBlob": "6d74227601982596916b24a6fed3c2a468768020",
+      "sha256": "9e9c9bfc69462033be0cce2a3538c7d4c28cfcde5a5c5b97ba77d7c0c147a619",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledgebundle/ledgers/dataLedger_archive_v2.txt",
+      "gitBlob": "30da2d753e570a964ddc71767daa091f1d33762f",
+      "sha256": "2c5b108fc782d51628ba3d2fe5deb6a921f2c86a5dda1e5251e525707e659aee",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledgebundle/ledgers/dataLedger_ideation_v2.txt",
+      "gitBlob": "b9f2875be783280a29b8065885b9a71e53fdb2b8",
+      "sha256": "eff4149f5a94f476beaa0a8d0fc45c1f8dbe3fbca7686053e5305b70bc142de4",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledgebundle/ledgers/dataLedger_narrative_v2.txt",
+      "gitBlob": "e3a8ae4ec35c4d47bee8c9a25ce759fec9366e4b",
+      "sha256": "070cf035cebdc9eb0997924e964cc264ffb2022c6ebe0e118d330ea870a705c8",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledgebundle/ledgers/dataLedger_parameters_v2.txt",
+      "gitBlob": "37bf8f5563c47d7876e69bf79b075c9ae344c694",
+      "sha256": "fdd20a25c8345102e5dda3adf31bacb94ee95818561f1a5e7b44928bd1f74ba0",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledgebundle/ledgers/dataLedger_persona_v2.txt",
+      "gitBlob": "6dccf5cb028ba4ffb9e326ee5285d278f3cb4740",
+      "sha256": "973eb0084af67f16d1a163096b533c937e8ed8056fba80323ac1e66d674e5888",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledgebundle/ledgers/dataLedger_processing_v2.txt",
+      "gitBlob": "8e3aacea0a7e3939d171b490018fff9bfd6ff337",
+      "sha256": "751d322d22c0914c94cd4ed013ee78171272317a317996aeef1a7610a5c62b3a",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledgebundle/ledgers/dataLedger_registry_v2.txt",
+      "gitBlob": "591bf2f3baa7a32154af63114e13d0fd62522a47",
+      "sha256": "813ea07741a0f1fa9bfad7fb3df2ad8b9bc9e59b5a0d7bbdb14a17a27ba708a7",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledgebundle/ledgers/dataLedger_system_v2.txt",
+      "gitBlob": "0afc00afa47235b2a2a81ecf20ad38671fa8e5c9",
+      "sha256": "ad8769391d6b4354bfb73b8dbc828e4604190e0446bc9b59afd4ea8fcce7d9cc",
+      "mode": "100644"
+    }
+  ]
+}

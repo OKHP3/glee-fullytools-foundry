@@ -1,0 +1,50 @@
+{
+  "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt02f-supply-haus",
+  "sourceBranch": "main",
+  "sourceCommit": "8e38f44f54cfde24a3a920ca836fd99e286b6674",
+  "sourceTree": "e33c880e10d2d0eacfe8c52fc64ddc5a6f25f4d4",
+  "sourceLicense": "MIT",
+  "importMode": "sanitized-snapshot",
+  "destinationTree": "11f38ff2426c7d60a4c883c8500a6d114e0aa2d0",
+  "pathCounts": {
+    "imported": 4,
+    "private-operations": 1,
+    "redacted": 1,
+    "repository-maintenance": 5,
+    "shared-public-reference": 428
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "gitBlob": "dfe0770424b2a19faf507a501ebfc23be8f54e7b",
+      "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlob": "b1ef4319d52bcd627ac0271d9344049dd333fac8",
+      "sha256": "6cee8c24e9234d7f852744a4bc09f03a31023abc4632b7447818f9cf1b041596",
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlob": "f4873c2116435bd7bb58afdb5fddc835397e49dc",
+      "sha256": "7a26108bff9a3301f0ed8fd0697f07134c7ed863d36572885ee37229c88ba29d",
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlob": "92b470d1b434b86bf92f4d65e9656b4c18c48f32",
+      "sha256": "c3ef5f7c408f4df69c71a380cb7f17b4edc7d7759b0ae59f4a466c27e4d1fe38",
+      "mode": "100644",
+      "sourceGitBlob": "3813d02db59f5cbc6d47ec4f38dd4518b94bafb6",
+      "redaction": "Public summary replaces internal project decisions and deployment notes."
+    },
+    {
+      "path": "prompts/02f-supply-haus-prompts-v1.yaml",
+      "gitBlob": "ae56bf8374fca7b01d66d053e8ef640df31defc4",
+      "sha256": "489d5a2c61d5abf01715f1214ee9c73d8177d2942d8497c783885c294d52b623",
+      "mode": "100644"
+    }
+  ]
+}

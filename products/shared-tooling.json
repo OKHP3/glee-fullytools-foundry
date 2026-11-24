@@ -1,0 +1,3161 @@
+{
+  "description": "Each public file has the same Git blob ID as the source path in each listed capability. Codes match the GPT aliases in migration-map.json.",
+  "capabilitySets": {
+    "set-1": [
+      "00",
+      "01",
+      "01a",
+      "01b",
+      "01c",
+      "01d",
+      "01e",
+      "01f",
+      "02",
+      "02a",
+      "02b",
+      "02c",
+      "02d",
+      "02e",
+      "02f",
+      "02g",
+      "03",
+      "03a",
+      "03b",
+      "03c",
+      "03d",
+      "03e",
+      "04",
+      "04a",
+      "04b",
+      "04c",
+      "04d",
+      "04e",
+      "05",
+      "05a",
+      "05b",
+      "05c",
+      "05d",
+      "05e",
+      "05f",
+      "06",
+      "06a",
+      "06b",
+      "06c",
+      "06d",
+      "06e",
+      "06f",
+      "07",
+      "07b",
+      "07c",
+      "07d",
+      "07e",
+      "07f",
+      "07g"
+    ],
+    "set-2": [
+      "00",
+      "01",
+      "01a",
+      "01b",
+      "01c",
+      "01d",
+      "01e",
+      "01f",
+      "02",
+      "02a",
+      "02b",
+      "02c",
+      "02d",
+      "02e",
+      "02f",
+      "02g",
+      "03",
+      "03a",
+      "03b",
+      "03c",
+      "03e",
+      "04",
+      "04a",
+      "04c",
+      "04d",
+      "04e",
+      "05",
+      "05a",
+      "05b",
+      "05c",
+      "05d",
+      "05e",
+      "05f",
+      "06",
+      "06a",
+      "06b",
+      "06c",
+      "06d",
+      "06e",
+      "06f",
+      "07",
+      "07b",
+      "07c",
+      "07e",
+      "07f",
+      "07g"
+    ],
+    "set-3": [
+      "00",
+      "01",
+      "01a",
+      "01b",
+      "01c",
+      "01d",
+      "01e",
+      "01f",
+      "02",
+      "02a",
+      "02b",
+      "02c",
+      "02d",
+      "02e",
+      "02f",
+      "02g",
+      "03a",
+      "03b",
+      "03c",
+      "03d",
+      "03e",
+      "04",
+      "04a",
+      "04b",
+      "04c",
+      "04d",
+      "04e",
+      "05",
+      "05a",
+      "05b",
+      "05c",
+      "05d",
+      "05e",
+      "05f",
+      "06",
+      "06a",
+      "06b",
+      "06c",
+      "06d",
+      "06e",
+      "06f",
+      "07",
+      "07a",
+      "07b",
+      "07c",
+      "07d",
+      "07e",
+      "07f",
+      "07g"
+    ],
+    "set-4": [
+      "00",
+      "01",
+      "01a",
+      "01b",
+      "01c",
+      "01d",
+      "01e",
+      "01f",
+      "02",
+      "02a",
+      "02b",
+      "02c",
+      "02d",
+      "02e",
+      "02f",
+      "02g",
+      "03a",
+      "03b",
+      "03c",
+      "03d",
+      "03e",
+      "04",
+      "04a",
+      "04b",
+      "04c",
+      "04d",
+      "04e",
+      "05",
+      "05a",
+      "05b",
+      "05c",
+      "05d",
+      "05e",
+      "05f",
+      "06",
+      "06a",
+      "06b",
+      "06c",
+      "06d",
+      "06e",
+      "06f",
+      "07",
+      "07b",
+      "07c",
+      "07d",
+      "07e",
+      "07f",
+      "07g"
+    ],
+    "set-5": [
+      "00",
+      "01",
+      "01a",
+      "01b",
+      "01c",
+      "01d",
+      "01e",
+      "01f",
+      "02",
+      "02a",
+      "02b",
+      "02c",
+      "02d",
+      "02e",
+      "02f",
+      "02g",
+      "03a",
+      "03b",
+      "03c",
+      "03d",
+      "03e",
+      "04",
+      "04a",
+      "04b",
+      "04c",
+      "04d",
+      "04e",
+      "05",
+      "05a",
+      "05b",
+      "05c",
+      "05d",
+      "05e",
+      "05f",
+      "06",
+      "06a",
+      "06c",
+      "06d",
+      "06e",
+      "06f",
+      "07",
+      "07b",
+      "07c",
+      "07d",
+      "07e",
+      "07f",
+      "07g"
+    ],
+    "set-6": [
+      "00",
+      "01",
+      "01a",
+      "01b",
+      "01c",
+      "01d",
+      "01e",
+      "01f",
+      "02",
+      "02a",
+      "02b",
+      "02c",
+      "02d",
+      "02e",
+      "02f",
+      "02g",
+      "03a",
+      "03b",
+      "03c",
+      "03d",
+      "04",
+      "04a",
+      "04b",
+      "04c",
+      "04d",
+      "04e",
+      "05",
+      "05a",
+      "05b",
+      "05c",
+      "05d",
+      "05e",
+      "05f",
+      "06",
+      "06a",
+      "06b",
+      "06c",
+      "06d",
+      "06e",
+      "06f",
+      "07",
+      "07b",
+      "07c",
+      "07d",
+      "07f",
+      "07g"
+    ],
+    "set-7": [
+      "00",
+      "01",
+      "01a",
+      "01b",
+      "01c",
+      "01d",
+      "01e",
+      "01f",
+      "02",
+      "02a",
+      "02b",
+      "02c",
+      "02d",
+      "02e",
+      "02g",
+      "03",
+      "03a",
+      "03b",
+      "03c",
+      "03e",
+      "04",
+      "04a",
+      "04b",
+      "04c",
+      "04d",
+      "04e",
+      "05",
+      "05a",
+      "05b",
+      "05c",
+      "05d",
+      "05e",
+      "05f",
+      "06",
+      "06a",
+      "06b",
+      "06c",
+      "06d",
+      "06e",
+      "06f",
+      "07",
+      "07b",
+      "07c",
+      "07d",
+      "07e",
+      "07f",
+      "07g"
+    ],
+    "set-8": [
+      "00",
+      "01",
+      "01a",
+      "01b",
+      "01c",
+      "01d",
+      "01e",
+      "01f",
+      "02",
+      "02a",
+      "02b",
+      "02c",
+      "02e",
+      "02f",
+      "02g",
+      "03",
+      "03a",
+      "03b",
+      "03c",
+      "03d",
+      "03e",
+      "04",
+      "04a",
+      "04b",
+      "04c",
+      "04d",
+      "04e",
+      "05",
+      "05a",
+      "05b",
+      "05c",
+      "05d",
+      "05e",
+      "05f",
+      "06",
+      "06a",
+      "06b",
+      "06c",
+      "06d",
+      "06e",
+      "06f",
+      "07",
+      "07b",
+      "07c",
+      "07d",
+      "07e",
+      "07f",
+      "07g"
+    ],
+    "set-9": [
+      "00",
+      "01",
+      "01a",
+      "01b",
+      "01c",
+      "01d",
+      "01e",
+      "01f",
+      "02",
+      "02a",
+      "02b",
+      "02d",
+      "02f",
+      "02g",
+      "03",
+      "03a",
+      "03b",
+      "03c",
+      "03e",
+      "04",
+      "04a",
+      "04c",
+      "04d",
+      "05",
+      "05a",
+      "05b",
+      "05c",
+      "05d",
+      "05e",
+      "06",
+      "06a",
+      "06d",
+      "06e",
+      "07",
+      "07b",
+      "07c",
+      "07e",
+      "07f"
+    ],
+    "set-10": [
+      "00",
+      "01",
+      "01a",
+      "01b",
+      "01c",
+      "01d",
+      "01e",
+      "01f",
+      "02",
+      "02b",
+      "02c",
+      "02e",
+      "02f",
+      "02g",
+      "03a",
+      "03b",
+      "03c",
+      "03d",
+      "03e",
+      "04",
+      "04a",
+      "04b",
+      "04c",
+      "04e",
+      "05",
+      "05a",
+      "05b",
+      "05c",
+      "05d",
+      "05e",
+      "05f",
+      "06",
+      "06a",
+      "06b",
+      "06c",
+      "06d",
+      "06e",
+      "06f",
+      "07",
+      "07a",
+      "07b",
+      "07c",
+      "07d",
+      "07e",
+      "07f",
+      "07g"
+    ],
+    "set-11": [
+      "00",
+      "01",
+      "01a",
+      "01b",
+      "01c",
+      "01d",
+      "01e",
+      "01f",
+      "02",
+      "02b",
+      "02c",
+      "02e",
+      "02f",
+      "02g",
+      "03a",
+      "03b",
+      "03c",
+      "03d",
+      "03e",
+      "04",
+      "04a",
+      "04b",
+      "04c",
+      "04e",
+      "05",
+      "05a",
+      "05b",
+      "05c",
+      "05d",
+      "05e",
+      "05f",
+      "06",
+      "06a",
+      "06b",
+      "06c",
+      "06d",
+      "06e",
+      "06f",
+      "07",
+      "07b",
+      "07c",
+      "07d",
+      "07e",
+      "07f",
+      "07g"
+    ],
+    "set-12": [
+      "02f",
+      "03"
+    ],
+    "set-13": [
+      "07a"
+    ]
+  },
+  "files": [
+    {
+      "sourcePath": ".agents/prompts/gpt-project-onboarding.md",
+      "gitBlob": "41a824d69b3ce5c387e85b553c822b13ab797704",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/prompts/gpt-project-onboarding.md",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/prompts/gpt-to-agent-skill-migration.md",
+      "gitBlob": "73be21a0b465bfb5b5c48eacc03cc8d58ec56906",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/prompts/gpt-to-agent-skill-migration.md",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/prompts/project-context-bootstrap.md",
+      "gitBlob": "3ce0cdb486188846fb0d5c9beea5007add61b1b3",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/prompts/project-context-bootstrap.md",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/skills/glee-fully-repo-standardizer/SKILL.md",
+      "gitBlob": "6dba4d470cc95683fe28b6c7e01b68ee158c44f3",
+      "publicFile": "https://github.com/OKHP3/skillz/blob/c133a062386b338e76318c1667b1f0f7249a2cdd/glee-fully/glee-fully-repo-standardizer/SKILL.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/glee-fully-repo-standardizer/assets/glee-fully-brand.json",
+      "gitBlob": "c5e74963fc7280177a9570b37a6d3f5c1b1ec86f",
+      "publicFile": "https://github.com/OKHP3/skillz/blob/c133a062386b338e76318c1667b1f0f7249a2cdd/glee-fully/glee-fully-repo-standardizer/assets/glee-fully-brand.json",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/glee-fully-repo-standardizer/scripts/scaffold.py",
+      "gitBlob": "760f88e56231c5aee92efd1341ca318195db000e",
+      "publicFile": "https://github.com/OKHP3/skillz/blob/c133a062386b338e76318c1667b1f0f7249a2cdd/glee-fully/glee-fully-repo-standardizer/scripts/scaffold.py",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-artifact-validation/SKILL.md",
+      "gitBlob": "869b3f1df9b7bce18216b1c31b51cef47f271dd2",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-artifact-validation/SKILL.md",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-artifact-validation/agents/openai.yaml",
+      "gitBlob": "ab9607e1b0da955f964cff223cc69fce602b6a6f",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-artifact-validation/agents/openai.yaml",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-artifact-validation/evals/evals.json",
+      "gitBlob": "ee7da3631411dbec587438b3558db16ba5e0a3f1",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-artifact-validation/evals/evals.json",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-artifact-validation/promotion-manifest.json",
+      "gitBlob": "995435393cc6a5a93b111ca743411d005f9309f5",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-artifact-validation/promotion-manifest.json",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-as-is-process-capture/README.md",
+      "gitBlob": "dce076ac56cd34b070ea92868abcf786d8af77c9",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-as-is-process-capture/README.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-as-is-process-capture/SKILL.md",
+      "gitBlob": "9b101f147e6105eabfc34c4bb8d80afc43e03b43",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-as-is-process-capture/SKILL.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-as-is-process-capture/assets/fixtures/as-is-process-example.yaml",
+      "gitBlob": "dccf80517782fbeab313540e3a12b0dc43e446ed",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-as-is-process-capture/assets/fixtures/as-is-process-example.yaml",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-as-is-process-capture/package.json",
+      "gitBlob": "f5d1efc462e0f961eebef018c5c78b31f4fb06c2",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-as-is-process-capture/package.json",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-as-is-process-capture/references/as-is-capture-rules.md",
+      "gitBlob": "a0e6e454a0a3e240e6ed6a8959b8134556c5827e",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-as-is-process-capture/references/as-is-capture-rules.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-as-is-process-capture/scripts/assign-step-ids.mjs",
+      "gitBlob": "c833511d89182f29293ac5dc8714d3c0911ebf99",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-as-is-process-capture/scripts/assign-step-ids.mjs",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-as-is-process-capture/tests/validate-skill.test.mjs",
+      "gitBlob": "8f7bf0266e02edbaa199c2481cc659fe0576c480",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-as-is-process-capture/tests/validate-skill.test.mjs",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-brand-style-registry/SKILL.md",
+      "gitBlob": "7dadd4d6d160a2b5e813d8d827a1d23c0b0bfce5",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-brand-style-registry/SKILL.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-brand-style-registry/agents/openai.yaml",
+      "gitBlob": "5fc5c92d1dba5ebe986124f85d3c08b8504c0ee6",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-brand-style-registry/agents/openai.yaml",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-brand-style-registry/assets/profile-seeds/askjamie.yaml",
+      "gitBlob": "9647e5830189035e837c61361695d9df9e86f55e",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-brand-style-registry/assets/profile-seeds/askjamie.yaml",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-brand-style-registry/assets/profile-seeds/glee-fully.yaml",
+      "gitBlob": "74fc346835e5b9c37f500501be4f1c643444843e",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-brand-style-registry/assets/profile-seeds/glee-fully.yaml",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-brand-style-registry/assets/profile-seeds/overkill-hill.yaml",
+      "gitBlob": "9032cb1d09c21e7840c192b54c82fad6272a32b9",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-brand-style-registry/assets/profile-seeds/overkill-hill.yaml",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-brand-style-registry/assets/specialization-seeds/README.md",
+      "gitBlob": "fcb1bcf5ccef9cff969984d56f37c2da9fd31b4e",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-brand-style-registry/assets/specialization-seeds/README.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-brand-style-registry/assets/specialization-seeds/okhp3-askjamie-brand/SKILL.md.template",
+      "gitBlob": "bc9185e9e1f43d5f707d5a3a2dd88389f23b5ec1",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-brand-style-registry/assets/specialization-seeds/okhp3-askjamie-brand/SKILL.md.template",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-brand-style-registry/assets/specialization-seeds/okhp3-askjamie-brand/agents/openai.yaml",
+      "gitBlob": "416fdfdd9dd098eb97a710c555587eef625a26f5",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-brand-style-registry/assets/specialization-seeds/okhp3-askjamie-brand/agents/openai.yaml",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-brand-style-registry/assets/specialization-seeds/okhp3-glee-fully-brand/SKILL.md.template",
+      "gitBlob": "b330e0eea9db2bb30e40e961119fdb19154399ad",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-brand-style-registry/assets/specialization-seeds/okhp3-glee-fully-brand/SKILL.md.template",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-brand-style-registry/assets/specialization-seeds/okhp3-glee-fully-brand/agents/openai.yaml",
+      "gitBlob": "ca8c3de21948faddc7ea63a1d106279c9814f5e4",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-brand-style-registry/assets/specialization-seeds/okhp3-glee-fully-brand/agents/openai.yaml",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-brand-style-registry/assets/specialization-seeds/okhp3-overkill-hill-brand/SKILL.md.template",
+      "gitBlob": "e93078325a118a3c9bffe23e715a7b515501053e",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-brand-style-registry/assets/specialization-seeds/okhp3-overkill-hill-brand/SKILL.md.template",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-brand-style-registry/assets/specialization-seeds/okhp3-overkill-hill-brand/agents/openai.yaml",
+      "gitBlob": "5190ea861cef82afd99731a9adeb47bc9ffc3d46",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-brand-style-registry/assets/specialization-seeds/okhp3-overkill-hill-brand/agents/openai.yaml",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-brand-style-registry/assets/style-library.example.yaml",
+      "gitBlob": "92ea4285291da382ef2022dd68d2b5cdf05ebdd6",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-brand-style-registry/assets/style-library.example.yaml",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-brand-style-registry/evals/evals.json",
+      "gitBlob": "afb549047ffc8cc3c67dc1b175ffb108caca538d",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-brand-style-registry/evals/evals.json",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-brand-style-registry/references/application-playbook.md",
+      "gitBlob": "dc00dc2396167cca85c35fa0b434b17243cce267",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-brand-style-registry/references/application-playbook.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-brand-style-registry/references/source-sampling.md",
+      "gitBlob": "6f06a7c17dd88589b16e02a90b713dee8fbf8e23",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-brand-style-registry/references/source-sampling.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-brand-style-registry/references/style-profile-schema.md",
+      "gitBlob": "e0df471c354f2ac02d9ea92cdfdc5d81405c22ac",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-brand-style-registry/references/style-profile-schema.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-brand-style-registry/scripts/extract_css_signals.py",
+      "gitBlob": "1bca0a4903d53baf9f3458e1fb601cea6a341bc5",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-brand-style-registry/scripts/extract_css_signals.py",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-capture-intake/SKILL.md",
+      "gitBlob": "31bc16a102dc09dffe0005f710c352e19c5b3481",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-capture-intake/SKILL.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-capture-intake/agents/openai.yaml",
+      "gitBlob": "078ce465eb0708405e36711852184ea60af439f9",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-capture-intake/agents/openai.yaml",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-capture-intake/evals/evals.json",
+      "gitBlob": "4bd4939328572b7bbf2871c7a7ab04a8ae6a5e70",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-capture-intake/evals/evals.json",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-chatgpt-project-migration/SKILL.md",
+      "gitBlob": "6cf1be31532873c50633561ca326b7dabebd11c2",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-chatgpt-project-migration/SKILL.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-chatgpt-project-migration/evals/evals.json",
+      "gitBlob": "d023b4e5bc8042caf92f5a459c65a5aec16e4a23",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-chatgpt-project-migration/evals/evals.json",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-chatgpt-project-migration/references/source-manifest-schema.md",
+      "gitBlob": "365cc151927df64b9c4b8918531c3aa94522efa5",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-chatgpt-project-migration/references/source-manifest-schema.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-custom-gpt-builder/CHANGELOG.md",
+      "gitBlob": "8a691f0547b6e6825101c2a7cf5a6c82a923de86",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-custom-gpt-builder/CHANGELOG.md",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-custom-gpt-builder/LICENSE.md",
+      "gitBlob": "f47ea0450f9f842da1cfcc03323b7870854cb980",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-custom-gpt-builder/LICENSE.md",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-custom-gpt-builder/MANIFEST.md",
+      "gitBlob": "6a9d7c523ae2fb6378d5d9a6c460e44283c42446",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-custom-gpt-builder/MANIFEST.md",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-custom-gpt-builder/SKILL.md",
+      "gitBlob": "857c066d0f9f997ba9d1179225d0d28af68d803c",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-custom-gpt-builder/SKILL.md",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-custom-gpt-builder/evals/evals.json",
+      "gitBlob": "7aa505ccc791a96ba6852800ab5934468d613a5a",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-custom-gpt-builder/evals/evals.json",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-custom-gpt-builder/references/actions-and-apps.md",
+      "gitBlob": "43c66de8c0ae50e62020979c58d0c8588f900e7d",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-custom-gpt-builder/references/actions-and-apps.md",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-custom-gpt-builder/references/eval-and-redteam.md",
+      "gitBlob": "9cbf2168f29cd80a5573553853b44eabb3c1c532",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-custom-gpt-builder/references/eval-and-redteam.md",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-custom-gpt-builder/references/instruction-architecture.md",
+      "gitBlob": "c955ad2cdf56b746cdddf4c9d7cbac0b7c040aa3",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-custom-gpt-builder/references/instruction-architecture.md",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-custom-gpt-builder/references/knowledge-engineering.md",
+      "gitBlob": "acf63593d13f086ca05893de837c48cf88fec66c",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-custom-gpt-builder/references/knowledge-engineering.md",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-custom-gpt-builder/references/platform-comparison.md",
+      "gitBlob": "db76e670303c2118375df5d16171a72ea1eb4292",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-custom-gpt-builder/references/platform-comparison.md",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-custom-gpt-builder/references/quality-tiers.md",
+      "gitBlob": "0d6c2cdfea40ca3cc690a8cfb057e750bbd01d87",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-custom-gpt-builder/references/quality-tiers.md",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-custom-gpt-builder/references/repo-overlay.md",
+      "gitBlob": "241a887b871325e4f263895a413f2a5b2f967046",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-custom-gpt-builder/references/repo-overlay.md",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-custom-gpt-builder/references/taxonomy.md",
+      "gitBlob": "be26d106703c657e4153fee8ecb0496962f8494f",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-custom-gpt-builder/references/taxonomy.md",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-custom-gpt-readiness/SKILL.md",
+      "gitBlob": "aa17387749edf47db11bf5922dbb59438b4ffd26",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-custom-gpt-readiness/SKILL.md",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-custom-gpt-readiness/evals/evals.json",
+      "gitBlob": "24cb6de9da9d4b8d5da5f53654a786448ba23af3",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-custom-gpt-readiness/evals/evals.json",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-custom-gpt-readiness/references/readiness-dossier-schema.md",
+      "gitBlob": "6d68f05e5041361d7d39e760a954fc2c0896b277",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-custom-gpt-readiness/references/readiness-dossier-schema.md",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-decision-model-authoring/README.md",
+      "gitBlob": "7e4c0b1413773b5cf90a5444ee428d8744351249",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-decision-model-authoring/README.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-decision-model-authoring/SKILL.md",
+      "gitBlob": "7d1b765667f867ba30ed3ba7bc80326f36bfa3d6",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-decision-model-authoring/SKILL.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-decision-model-authoring/assets/fixtures/decision-model-example.yaml",
+      "gitBlob": "752027bfe05d03cad26af3ee0088bc129e4258cd",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-decision-model-authoring/assets/fixtures/decision-model-example.yaml",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-decision-model-authoring/package.json",
+      "gitBlob": "77dd172f0d69ef9f0dbb4d504938f65a206907b4",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-decision-model-authoring/package.json",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-decision-model-authoring/references/dmn-modeling-rules.md",
+      "gitBlob": "76eda53061854a49793ef201d983cfd9f4d52e3a",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-decision-model-authoring/references/dmn-modeling-rules.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-decision-model-authoring/scripts/validate-decision-model.mjs",
+      "gitBlob": "30a5554852948a0facdebf86ba4d33af96819e9a",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-decision-model-authoring/scripts/validate-decision-model.mjs",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-decision-model-authoring/tests/validate-skill.test.mjs",
+      "gitBlob": "bc7051c2acb1ad4fbe8367d4a3e4d9fdd8f16ca4",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-decision-model-authoring/tests/validate-skill.test.mjs",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-elicitation-interviews/README.md",
+      "gitBlob": "f01344262e1e60a9210144f393a3e5428c587862",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-elicitation-interviews/README.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-elicitation-interviews/SKILL.md",
+      "gitBlob": "6c9e55a81ef3f1fc9d61f4813ae0d71b5b9d85ea",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-elicitation-interviews/SKILL.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-elicitation-interviews/assets/fixtures/question-plan-example.yaml",
+      "gitBlob": "60339a2343363b1c07ed99778e76bd7770c6abc4",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-elicitation-interviews/assets/fixtures/question-plan-example.yaml",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-elicitation-interviews/package.json",
+      "gitBlob": "0a7e2b0abe78b2c37b08a9f04901ca4f5a289999",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-elicitation-interviews/package.json",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-elicitation-interviews/references/babok-elicitation-techniques.md",
+      "gitBlob": "0c4a155e5d13cda6218e836640dbf91cfd07b2d7",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-elicitation-interviews/references/babok-elicitation-techniques.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-elicitation-interviews/scripts/generate-question-plan.mjs",
+      "gitBlob": "6023220ff978811cfec200e9534c489e1e53e997",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-elicitation-interviews/scripts/generate-question-plan.mjs",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-elicitation-interviews/tests/validate-skill.test.mjs",
+      "gitBlob": "12f89ae63b63975fe6f5839b5301d99c0107abfa",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-elicitation-interviews/tests/validate-skill.test.mjs",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-equilibrium-review/README.md",
+      "gitBlob": "73d917f35e6fe5ba2ef1911fc5b7c9a6aaa92389",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-equilibrium-review/README.md",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-equilibrium-review/SKILL.md",
+      "gitBlob": "592558fdc4ead47785462fae22b9263be5bf29de",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-equilibrium-review/SKILL.md",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-equilibrium-review/assets/equilibrium-review-record.json",
+      "gitBlob": "e65b8758bdd22ab062c7699d063a566af36dba40",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-equilibrium-review/assets/equilibrium-review-record.json",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-equilibrium-review/benchmarks/benchmark.json",
+      "gitBlob": "fe49bd58648d69600e2cf82220c4f9b740987208",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-equilibrium-review/benchmarks/benchmark.json",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-equilibrium-review/benchmarks/evolution-review-2026-07-28.json",
+      "gitBlob": "140d538154fdbdc7fe82791bd6989d438d814762",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-equilibrium-review/benchmarks/evolution-review-2026-07-28.json",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-equilibrium-review/evals/evals.json",
+      "gitBlob": "7a49cfcd884444c707ee29ef7af93911336a3255",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-equilibrium-review/evals/evals.json",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-equilibrium-review/references/domain-adapters.md",
+      "gitBlob": "5f1b5df34127c0ad5c3c9a5c08030911faaafba3",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-equilibrium-review/references/domain-adapters.md",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-equilibrium-review/references/review-protocol.md",
+      "gitBlob": "6c2bea30418ebaa47184a402ff2dd9e48c64c106",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-equilibrium-review/references/review-protocol.md",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-equilibrium-review/references/role-prompts.md",
+      "gitBlob": "9a79fab13490653a73552a59947fd5911692629d",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-equilibrium-review/references/role-prompts.md",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-equilibrium-review/scripts/run_equilibrium_review.py",
+      "gitBlob": "390bd47d9df2c9d85ec7c8bab1c9cd602c20ac90",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-equilibrium-review/scripts/run_equilibrium_review.py",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-evidence-standard/SKILL.md",
+      "gitBlob": "f6f991c7587561e5332871dcb3506619b27c8562",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-evidence-standard/SKILL.md",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-evidence-standard/agents/openai.yaml",
+      "gitBlob": "0743415f4d871a97cfc30c347d1a20100ac79db9",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-evidence-standard/agents/openai.yaml",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-evidence-standard/evals/evals.json",
+      "gitBlob": "e86f206eb829aea333df4bd0cd88cd4496fa04b0",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-evidence-standard/evals/evals.json",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-future-state-strategy/README.md",
+      "gitBlob": "b16d10cff38cedc66ffa90cb0933a786dc1e6dfc",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-future-state-strategy/README.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-future-state-strategy/SKILL.md",
+      "gitBlob": "946b4939d8c9f9fe98a48c6a6bcee73b53f35dd4",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-future-state-strategy/SKILL.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-future-state-strategy/assets/fixtures/future-state-example.yaml",
+      "gitBlob": "101629dff0ad4257b37262f50c4b456ca60cac9c",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-future-state-strategy/assets/fixtures/future-state-example.yaml",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-future-state-strategy/package.json",
+      "gitBlob": "8193841504d760f36672a87f77d8f0c24e0694e0",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-future-state-strategy/package.json",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-future-state-strategy/references/change-strategy-framework.md",
+      "gitBlob": "2dedac56658f0659b16bb70762fb495e55bbf4a2",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-future-state-strategy/references/change-strategy-framework.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-future-state-strategy/scripts/generate-future-state.mjs",
+      "gitBlob": "48222016e35590129aac995d53aba711a1f98a09",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-future-state-strategy/scripts/generate-future-state.mjs",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-future-state-strategy/tests/validate-skill.test.mjs",
+      "gitBlob": "b0da857e145cd824261e6082ce057aa3776c9778",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-future-state-strategy/tests/validate-skill.test.mjs",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-brand/SKILL.md",
+      "gitBlob": "a04a9b1580eb053caa43c4f75010ef2550ef4496",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-brand/SKILL.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-brand/agents/openai.yaml",
+      "gitBlob": "ca8c3de21948faddc7ea63a1d106279c9814f5e4",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-brand-style-registry/assets/specialization-seeds/okhp3-glee-fully-brand/agents/openai.yaml",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-brand/references/glee-fully.yaml",
+      "gitBlob": "74fc346835e5b9c37f500501be4f1c643444843e",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-brand-style-registry/assets/profile-seeds/glee-fully.yaml",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-chatgpt-migrate/SKILL.md",
+      "gitBlob": "188e1da28ac2e9ff3362c8843781dee37d08cdf6",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-chatgpt-migrate/SKILL.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-chatgpt-migrate/evals/evals.json",
+      "gitBlob": "aea5360f825f0cffad83475e4030d60147de7bed",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-chatgpt-migrate/evals/evals.json",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-chatgpt-migrate/references/brand-overlay.md",
+      "gitBlob": "ccdc3b167bb6782cf70bfec6f5e03d0c6a364435",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-chatgpt-migrate/references/brand-overlay.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-chatgpt-migrate/references/source-manifest-schema.md",
+      "gitBlob": "365cc151927df64b9c4b8918531c3aa94522efa5",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-chatgpt-project-migration/references/source-manifest-schema.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-extract-chatgpt/SKILL.md",
+      "gitBlob": "8d07e68bf11da7ca5548ac583b1fcdfc682a8487",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-extract-chatgpt/SKILL.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-extract-chatgpt/agents/openai.yaml",
+      "gitBlob": "4daf2b85efbc676cb20f5ee139f95be5f6b08334",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-extract-chatgpt/agents/openai.yaml",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-extract-chatgpt/assets/thread-extract-template.md",
+      "gitBlob": "6e526312439a5eff8ab5242dd258f61cad74b2cf",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-extract-chatgpt/assets/thread-extract-template.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-extract-chatgpt/evals/benchmark.md",
+      "gitBlob": "deecacd2871b405633a649049dcda09559cd2fe0",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-extract-chatgpt/evals/benchmark.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-extract-chatgpt/evals/evals.json",
+      "gitBlob": "027d6cc656fdbda59f715473bb8f63f2b7d59eb1",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-extract-chatgpt/evals/evals.json",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-extract-chatgpt/evals/trigger-evals.json",
+      "gitBlob": "1869da8196dfebca1d53d8d6f6e6ef40e135981d",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-extract-chatgpt/evals/trigger-evals.json",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-extract-chatgpt/references/brand-overlay.md",
+      "gitBlob": "b246d8eec68f39a9f59afa448f56ea2b6e58987a",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-extract-chatgpt/references/brand-overlay.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-extract-chatgpt/references/evidence-map.md",
+      "gitBlob": "d7fd345378a9f0ecfc094d143b8b51b491ca8338",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-extract-chatgpt/references/evidence-map.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-extract-chatgpt/references/extraction-contract.md",
+      "gitBlob": "971e0566abd5223392727b4fa2d3b7b9190ef6ba",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-extract-chatgpt/references/extraction-contract.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-extract-chatgpt/references/extraction-depth-profiles.md",
+      "gitBlob": "79dfac4c5860a9a88b434fdf1f1f42b7ed55f3e3",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-extract-chatgpt/references/extraction-depth-profiles.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-extract-chatgpt/references/platform-capture-patterns.md",
+      "gitBlob": "79740b0aa7747e9c0c3aa9d0af5a6dfaba9c8319",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-extract-chatgpt/references/platform-capture-patterns.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-extract-chatgpt/scripts/create_thread_extract.py",
+      "gitBlob": "610a706d461cb7cf341752a78a84ca8eebbebe6a",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-extract-chatgpt/scripts/create_thread_extract.py",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-extract-chatgpt/scripts/validate_package.py",
+      "gitBlob": "4b9ff34266e334a9b42cc18eaa94ec3ebcf28289",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-extract-chatgpt/scripts/validate_package.py",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-extract-claude/SKILL.md",
+      "gitBlob": "d79927b8ea5febd6714f7a1bf5f69932f2fd75f6",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-extract-claude/SKILL.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-extract-claude/agents/openai.yaml",
+      "gitBlob": "884eed131a9c34394339893747924ddbf0eeb3ca",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-extract-claude/agents/openai.yaml",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-extract-claude/assets/thread-extract-template.md",
+      "gitBlob": "6e526312439a5eff8ab5242dd258f61cad74b2cf",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-extract-chatgpt/assets/thread-extract-template.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-extract-claude/evals/benchmark.md",
+      "gitBlob": "0796b3dc0bae13dcb59c3e81922a12f30860dac0",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-extract-claude/evals/benchmark.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-extract-claude/evals/evals.json",
+      "gitBlob": "67c7e63bc477c1f938011c956d85da6b47a61075",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-extract-claude/evals/evals.json",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-extract-claude/evals/trigger-evals.json",
+      "gitBlob": "5a28e24ad3cb0d5c05cbbbb8f27705371b6d0578",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-extract-claude/evals/trigger-evals.json",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-extract-claude/references/brand-overlay.md",
+      "gitBlob": "c22edbf96ffaf5bb620209a85039de55cee87411",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-extract-claude/references/brand-overlay.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-extract-claude/references/evidence-map.md",
+      "gitBlob": "d7fd345378a9f0ecfc094d143b8b51b491ca8338",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-extract-chatgpt/references/evidence-map.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-extract-claude/references/extraction-contract.md",
+      "gitBlob": "971e0566abd5223392727b4fa2d3b7b9190ef6ba",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-extract-chatgpt/references/extraction-contract.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-extract-claude/references/extraction-depth-profiles.md",
+      "gitBlob": "79dfac4c5860a9a88b434fdf1f1f42b7ed55f3e3",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-extract-chatgpt/references/extraction-depth-profiles.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-extract-claude/references/platform-capture-patterns.md",
+      "gitBlob": "0b646c0fceda37ac57a256f95fed558727d566d4",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-extract-claude/references/platform-capture-patterns.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-extract-claude/scripts/create_thread_extract.py",
+      "gitBlob": "610a706d461cb7cf341752a78a84ca8eebbebe6a",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-extract-chatgpt/scripts/create_thread_extract.py",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-extract-claude/scripts/validate_package.py",
+      "gitBlob": "4b9ff34266e334a9b42cc18eaa94ec3ebcf28289",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-extract-chatgpt/scripts/validate_package.py",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-foundry/SKILL.md",
+      "gitBlob": "ef5c9c5d7d5f81e5cb0fc19bbec2c10d821d0d7b",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-foundry/SKILL.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-foundry/evals/evals.json",
+      "gitBlob": "a33a5506871986d11640594c00d9ff55ca0cca05",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-foundry/evals/evals.json",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-foundry/references/format-standard.md",
+      "gitBlob": "de4662eb8be9f1599d25dc95904b2d6f32192a9a",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-foundry/references/format-standard.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-gpt-builder/CHANGELOG.md",
+      "gitBlob": "8a691f0547b6e6825101c2a7cf5a6c82a923de86",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-custom-gpt-builder/CHANGELOG.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-gpt-builder/LICENSE.md",
+      "gitBlob": "f47ea0450f9f842da1cfcc03323b7870854cb980",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-custom-gpt-builder/LICENSE.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-gpt-builder/MANIFEST.md",
+      "gitBlob": "ad199af5adcbd4243e770b899bbd6a45d28e4945",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-gpt-builder/MANIFEST.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-gpt-builder/SKILL.md",
+      "gitBlob": "84f5a2a5cd7f5ac2ac56f1ea8562719689c2a537",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-gpt-builder/SKILL.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-gpt-builder/evals/evals.json",
+      "gitBlob": "7ea37a0f94a00928d560d8a1b06255bff477a338",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-gpt-builder/evals/evals.json",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-gpt-builder/references/actions-and-apps.md",
+      "gitBlob": "43c66de8c0ae50e62020979c58d0c8588f900e7d",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-custom-gpt-builder/references/actions-and-apps.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-gpt-builder/references/eval-and-redteam.md",
+      "gitBlob": "9cbf2168f29cd80a5573553853b44eabb3c1c532",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-custom-gpt-builder/references/eval-and-redteam.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-gpt-builder/references/instruction-architecture.md",
+      "gitBlob": "c955ad2cdf56b746cdddf4c9d7cbac0b7c040aa3",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-custom-gpt-builder/references/instruction-architecture.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-gpt-builder/references/knowledge-engineering.md",
+      "gitBlob": "acf63593d13f086ca05893de837c48cf88fec66c",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-custom-gpt-builder/references/knowledge-engineering.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-gpt-builder/references/platform-comparison.md",
+      "gitBlob": "db76e670303c2118375df5d16171a72ea1eb4292",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-custom-gpt-builder/references/platform-comparison.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-gpt-builder/references/quality-tiers.md",
+      "gitBlob": "0d6c2cdfea40ca3cc690a8cfb057e750bbd01d87",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-custom-gpt-builder/references/quality-tiers.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-gpt-builder/references/repo-overlay.md",
+      "gitBlob": "0417990dce38a7ddd2b422a09cca1fc1781a0e73",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-gpt-builder/references/repo-overlay.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-gpt-builder/references/taxonomy.md",
+      "gitBlob": "be26d106703c657e4153fee8ecb0496962f8494f",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-custom-gpt-builder/references/taxonomy.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-gpt-readiness/SKILL.md",
+      "gitBlob": "65ea764ec2ba93c23d84178e08ace387a4e03b9b",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-gpt-readiness/SKILL.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-gpt-readiness/evals/evals.json",
+      "gitBlob": "897bfd132f8cb71ac8b7285ec7651aa58d383484",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-gpt-readiness/evals/evals.json",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-gpt-readiness/references/readiness-dossier-schema.md",
+      "gitBlob": "740f34df30947a461a26684d42f6da750835b6e8",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-gpt-readiness/references/readiness-dossier-schema.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-repo-creator/SKILL.md",
+      "gitBlob": "6bca93bc0382b14362c986da06d3e66560e5992d",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-repo-creator/SKILL.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-repo-creator/references/brand-overlay.md",
+      "gitBlob": "7495c2c53cc5eab451b953c43f7acfdd42bc16c6",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-repo-creator/references/brand-overlay.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-repo-organizer/SKILL.md",
+      "gitBlob": "85ae0d1f9b71e5382f5e3df15238c553a343eb9f",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-repo-organizer/SKILL.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-repo-organizer/agents/openai.yaml",
+      "gitBlob": "7e835b87eb01079edeb75c87dc8d7b1b6dd46c57",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-repo-organizer/agents/openai.yaml",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-repo-organizer/evals/evals.json",
+      "gitBlob": "a2e24b4909c273b10a79d5eb5b8eb1d1c0107a9b",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-repo-organizer/evals/evals.json",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-repo-organizer/evals/results.md",
+      "gitBlob": "d8b04334a5b603edbc69ed93f900c514645de3cc",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-repo-organizer/evals/results.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-repo-organizer/evals/trigger-cases.json",
+      "gitBlob": "450e00384edeaab4f7c38e98d968b0645b4fd857",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-repo-organizer/evals/trigger-cases.json",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-repo-organizer/references/agent-skills-quality.md",
+      "gitBlob": "6951ea5ed8bba88b7f52635ab69f2502e64b8ef5",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-repo-organizer/references/agent-skills-quality.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-repo-organizer/references/archetype-rubric.md",
+      "gitBlob": "86ef2af5e70ab44e39034dbc35444139d1b04d97",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-repo-organizer/references/archetype-rubric.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-repo-organizer/references/brand-overlay.md",
+      "gitBlob": "4b67b5340cccf0831563c3b3d0636be0d5b112dd",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-repo-organizer/references/brand-overlay.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-repo-organizer/references/cross-platform-naming.md",
+      "gitBlob": "7bdc2d11950d036a58b163d4ebe57e4b70d05748",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-repo-organizer/references/cross-platform-naming.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-repo-organizer/references/github-baseline.md",
+      "gitBlob": "84857b0eaf7823bd7f1859a7fc778ceed3e8c63e",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-repo-organizer/references/github-baseline.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-repo-organizer/references/scaffold-matrix.md",
+      "gitBlob": "511c31859b30afd31b2dc85528f54ec239e29650",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-repo-organizer/references/scaffold-matrix.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-repo-organizer/scripts/inventory_repo.py",
+      "gitBlob": "249cf9cabdc8b1084013a82e3e37a92fdb6446e0",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-repo-organizer/scripts/inventory_repo.py",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-style-registry/SKILL.md",
+      "gitBlob": "be21219859d1c533a6445c694a8d3202e2a0e94f",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-style-registry/SKILL.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-style-registry/agents/openai.yaml",
+      "gitBlob": "a443789ec732a0bd65b147640c8da7aea8f8e76c",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-style-registry/agents/openai.yaml",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-style-registry/assets/profile-seeds/askjamie.yaml",
+      "gitBlob": "9647e5830189035e837c61361695d9df9e86f55e",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-brand-style-registry/assets/profile-seeds/askjamie.yaml",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-style-registry/assets/profile-seeds/glee-fully.yaml",
+      "gitBlob": "74fc346835e5b9c37f500501be4f1c643444843e",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-brand-style-registry/assets/profile-seeds/glee-fully.yaml",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-style-registry/assets/profile-seeds/overkill-hill.yaml",
+      "gitBlob": "9032cb1d09c21e7840c192b54c82fad6272a32b9",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-brand-style-registry/assets/profile-seeds/overkill-hill.yaml",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-style-registry/assets/specialization-seeds/README.md",
+      "gitBlob": "fcb1bcf5ccef9cff969984d56f37c2da9fd31b4e",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-brand-style-registry/assets/specialization-seeds/README.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-style-registry/assets/specialization-seeds/okhp3-askjamie-brand/SKILL.md.template",
+      "gitBlob": "bc9185e9e1f43d5f707d5a3a2dd88389f23b5ec1",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-brand-style-registry/assets/specialization-seeds/okhp3-askjamie-brand/SKILL.md.template",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-style-registry/assets/specialization-seeds/okhp3-askjamie-brand/agents/openai.yaml",
+      "gitBlob": "416fdfdd9dd098eb97a710c555587eef625a26f5",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-brand-style-registry/assets/specialization-seeds/okhp3-askjamie-brand/agents/openai.yaml",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-style-registry/assets/specialization-seeds/okhp3-glee-fully-brand/SKILL.md.template",
+      "gitBlob": "b330e0eea9db2bb30e40e961119fdb19154399ad",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-brand-style-registry/assets/specialization-seeds/okhp3-glee-fully-brand/SKILL.md.template",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-style-registry/assets/specialization-seeds/okhp3-glee-fully-brand/agents/openai.yaml",
+      "gitBlob": "ca8c3de21948faddc7ea63a1d106279c9814f5e4",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-brand-style-registry/assets/specialization-seeds/okhp3-glee-fully-brand/agents/openai.yaml",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-style-registry/assets/specialization-seeds/okhp3-overkill-hill-brand/SKILL.md.template",
+      "gitBlob": "e93078325a118a3c9bffe23e715a7b515501053e",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-brand-style-registry/assets/specialization-seeds/okhp3-overkill-hill-brand/SKILL.md.template",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-style-registry/assets/specialization-seeds/okhp3-overkill-hill-brand/agents/openai.yaml",
+      "gitBlob": "5190ea861cef82afd99731a9adeb47bc9ffc3d46",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-brand-style-registry/assets/specialization-seeds/okhp3-overkill-hill-brand/agents/openai.yaml",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-style-registry/assets/style-library.example.yaml",
+      "gitBlob": "92ea4285291da382ef2022dd68d2b5cdf05ebdd6",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-brand-style-registry/assets/style-library.example.yaml",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-style-registry/evals/evals.json",
+      "gitBlob": "c7f6204686af5c30221613124facb0c5ddb3b234",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-style-registry/evals/evals.json",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-style-registry/references/application-playbook.md",
+      "gitBlob": "dc00dc2396167cca85c35fa0b434b17243cce267",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-brand-style-registry/references/application-playbook.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-style-registry/references/brand-overlay.md",
+      "gitBlob": "449c2c55935419dba73d082948d8606a4f25944b",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-style-registry/references/brand-overlay.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-style-registry/references/source-sampling.md",
+      "gitBlob": "6f06a7c17dd88589b16e02a90b713dee8fbf8e23",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-brand-style-registry/references/source-sampling.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-style-registry/references/style-profile-schema.md",
+      "gitBlob": "e0df471c354f2ac02d9ea92cdfdc5d81405c22ac",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-brand-style-registry/references/style-profile-schema.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-style-registry/scripts/extract_css_signals.py",
+      "gitBlob": "1bca0a4903d53baf9f3458e1fb601cea6a341bc5",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-brand-style-registry/scripts/extract_css_signals.py",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-thread-context/SKILL.md",
+      "gitBlob": "0fcddc1be681fd507fa14fbb09aea060013e8962",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-thread-context/SKILL.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-thread-context/agents/openai.yaml",
+      "gitBlob": "926fde2f15983b8512b651f90f7790ab800fb973",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-thread-context/agents/openai.yaml",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-thread-context/assets/thread-extract-template.md",
+      "gitBlob": "6e526312439a5eff8ab5242dd258f61cad74b2cf",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-extract-chatgpt/assets/thread-extract-template.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-thread-context/evals/benchmark.md",
+      "gitBlob": "557536bb380138d8a3dec5f0bd9e7708fffb1abb",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-thread-context/evals/benchmark.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-thread-context/evals/evals.json",
+      "gitBlob": "f46673acc3fd52747b727d95c792ebfbc2a61503",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-thread-context/evals/evals.json",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-thread-context/evals/fixtures/comprehensive-adversarial-export.md",
+      "gitBlob": "4efdb893624f818e88600950a4103fcc853f5513",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-thread-context/evals/fixtures/comprehensive-adversarial-export.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-thread-context/evals/fixtures/mixed-balanced-thread.md",
+      "gitBlob": "348ad6a941dc83f2e6bff7444d59583ee400dea2",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-thread-context/evals/fixtures/mixed-balanced-thread.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-thread-context/evals/fixtures/rapid-continuity-thread.md",
+      "gitBlob": "0c8f7e76148e0d2d14b4f52a3a0d882b5754539d",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-thread-context/evals/fixtures/rapid-continuity-thread.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-thread-context/evals/trigger-evals.json",
+      "gitBlob": "a959169c728948bd1ce9ec9220ef51e58a7a71a2",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-thread-context/evals/trigger-evals.json",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-thread-context/references/brand-overlay.md",
+      "gitBlob": "10ea460ca12c739ae8d2a763a17cc4a1eaa4df50",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-thread-context/references/brand-overlay.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-thread-context/references/evidence-map.md",
+      "gitBlob": "d7fd345378a9f0ecfc094d143b8b51b491ca8338",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-extract-chatgpt/references/evidence-map.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-thread-context/references/extraction-contract.md",
+      "gitBlob": "971e0566abd5223392727b4fa2d3b7b9190ef6ba",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-extract-chatgpt/references/extraction-contract.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-thread-context/references/extraction-depth-profiles.md",
+      "gitBlob": "79dfac4c5860a9a88b434fdf1f1f42b7ed55f3e3",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-extract-chatgpt/references/extraction-depth-profiles.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-thread-context/references/platform-capture-patterns.md",
+      "gitBlob": "4eb98cad43baf88015ba5a5b73942ebe9de84978",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-thread-context/references/platform-capture-patterns.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-thread-context/scripts/create_thread_extract.py",
+      "gitBlob": "610a706d461cb7cf341752a78a84ca8eebbebe6a",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-extract-chatgpt/scripts/create_thread_extract.py",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-glee-fully-thread-context/scripts/validate_package.py",
+      "gitBlob": "4b9ff34266e334a9b42cc18eaa94ec3ebcf28289",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-extract-chatgpt/scripts/validate_package.py",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-gpt-skill-conversion-plan/SKILL.md",
+      "gitBlob": "c3862f5947c9f8d6edf396d4ecb46617d2363495",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-gpt-skill-conversion-plan/SKILL.md",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-gpt-skill-conversion-plan/evals/evals.json",
+      "gitBlob": "1c080b3b3fa0c34daab503c2247eb68496389fae",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-gpt-skill-conversion-plan/evals/evals.json",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-gpt-skill-conversion-plan/references/conversion-dossier-schema.md",
+      "gitBlob": "e4efedaa34043f46d830cbca40f45c2379dae3e8",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-gpt-skill-conversion-plan/references/conversion-dossier-schema.md",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-graduation-gate/SKILL.md",
+      "gitBlob": "329788198efc960f2d7ed9d2bf6542233db1aa84",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-graduation-gate/SKILL.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-graduation-gate/agents/openai.yaml",
+      "gitBlob": "e50553dbff49bd5855db1f3be360ea4e1fde2486",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-graduation-gate/agents/openai.yaml",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-graduation-gate/evals/evals.json",
+      "gitBlob": "a0a652f6df043a4d069be5e2569d3dd63bf17bfe",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-graduation-gate/evals/evals.json",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-handoff-packaging/README.md",
+      "gitBlob": "bad4bb91e5f4b10f44a1d6205e65362e0ba16a3a",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-handoff-packaging/README.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-handoff-packaging/SKILL.md",
+      "gitBlob": "38b23e619f218a04a041b4137dc42131673d7daf",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-handoff-packaging/SKILL.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-handoff-packaging/assets/fixtures/handoff-manifest-example.yaml",
+      "gitBlob": "0673a778820dc28f6ec176a84a03811172418cf5",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-handoff-packaging/assets/fixtures/handoff-manifest-example.yaml",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-handoff-packaging/package.json",
+      "gitBlob": "6148dd335e0ed62706b2be536090590c5496446e",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-handoff-packaging/package.json",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-handoff-packaging/references/publication-checklist.md",
+      "gitBlob": "01cf7063c9749c37c3f7977fa5ba195b900000dc",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-handoff-packaging/references/publication-checklist.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-handoff-packaging/scripts/build-publication-bundle.mjs",
+      "gitBlob": "460d6c6ed8a2c193170cdb113c8ec0990f35d572",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-handoff-packaging/scripts/build-publication-bundle.mjs",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-handoff-packaging/tests/validate-skill.test.mjs",
+      "gitBlob": "7d7e3831236a593048b245720ef0d8713e46c0d5",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-handoff-packaging/tests/validate-skill.test.mjs",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-notion-capture-router/SKILL.md",
+      "gitBlob": "f2d7ba8db6629772851949a252b79670916980c7",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-notion-capture-router/SKILL.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-notion-capture-router/assets/report-template.md",
+      "gitBlob": "b82bba0202d29e299b08657b034d6f2525440353",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-notion-capture-router/assets/report-template.md",
+      "capabilitySet": "set-10"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-notion-capture-router/assets/trigger-eval-queries.json",
+      "gitBlob": "95457e90b45e13266c8c8bcd859e965da2d13120",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-notion-capture-router/assets/trigger-eval-queries.json",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-notion-capture-router/references/destination-contract.md",
+      "gitBlob": "996c210c83460250f56a2ef3791a831f262a741d",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-notion-capture-router/references/destination-contract.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-notion-capture-router/references/final-check.md",
+      "gitBlob": "f048489b6bf40c8527bcee4ae7e4977d5874321f",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-notion-capture-router/references/final-check.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-notion-capture-router/references/output-contract.md",
+      "gitBlob": "de782707e119dad17636e4c0537c6d1a70f3e1a4",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-notion-capture-router/references/output-contract.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-notion-capture-router/references/platform-variants.md",
+      "gitBlob": "3798de046f83829dc0060b23b739c6ed1b4d4591",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-notion-capture-router/references/platform-variants.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-outcome-modeling-core/SKILL.md",
+      "gitBlob": "1614711b3619f999ed173d8524ec0f26c1a26662",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-outcome-modeling-core/SKILL.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-outcome-modeling-core/benchmarks/benchmark.json",
+      "gitBlob": "ab0d69aaf08da835ac877b839f0dbd8a20200b75",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-outcome-modeling-core/benchmarks/benchmark.json",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-outcome-modeling-core/benchmarks/equilibrium-review-2026-07-28.json",
+      "gitBlob": "266df1b2e2d63be01bc58e65920e3cce34545126",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-outcome-modeling-core/benchmarks/equilibrium-review-2026-07-28.json",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-outcome-modeling-core/benchmarks/learning-ledger-2026-07-28.json",
+      "gitBlob": "14984af70e43fa54cbaef5e6950f1d22a8a6f667",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-outcome-modeling-core/benchmarks/learning-ledger-2026-07-28.json",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-outcome-modeling-core/evals/evals.json",
+      "gitBlob": "2c1426523f73f4d4f45c2e0d35424b14ef6f0d76",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-outcome-modeling-core/evals/evals.json",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-outcome-modeling-core/examples/core-example.json",
+      "gitBlob": "09489765451a0b8583fcb9915111a42dcc439f03",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-outcome-modeling-core/examples/core-example.json",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-outcome-modeling-core/references/computational-model.md",
+      "gitBlob": "c1f836e7bee7f0feed5ec262c2a69b2f02b9caa9",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-outcome-modeling-core/references/computational-model.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-outcome-modeling-core/references/glossary.md",
+      "gitBlob": "4721c80283d73f6be0c8a83de02546c39f96a7ce",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-outcome-modeling-core/references/glossary.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-outcome-modeling-core/scripts/calculate-outcome-model.py",
+      "gitBlob": "4bae95b71745e844cdaf2ca9b41e49bbc298b213",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-outcome-modeling-core/scripts/calculate-outcome-model.py",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-outcome-modeling-core/tests/test_calculations.py",
+      "gitBlob": "d47bebf93917da895054126934589cb5a1537fac",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-outcome-modeling-core/tests/test_calculations.py",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-process-capture/SKILL.md",
+      "gitBlob": "173a61d49e88dc5a70c8f64899d2e60418758595",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-process-capture/SKILL.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-process-gap-analysis/README.md",
+      "gitBlob": "72fd0e0c22dc23db76ad426ee10eebccc5bdfe89",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-process-gap-analysis/README.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-process-gap-analysis/SKILL.md",
+      "gitBlob": "dc84ae75766c388bc66c72cd549f43f5c6837b06",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-process-gap-analysis/SKILL.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-process-gap-analysis/assets/fixtures/gap-analysis-example.yaml",
+      "gitBlob": "6dd4f2c8484f99e2e5e49dbdd7e8e87c6703292a",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-process-gap-analysis/assets/fixtures/gap-analysis-example.yaml",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-process-gap-analysis/package.json",
+      "gitBlob": "334df5f433a66792e97d430715f7f72918c74396",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-process-gap-analysis/package.json",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-process-gap-analysis/references/gap-analysis-framework.md",
+      "gitBlob": "662acee2deee4e93ea61f24730fc5696322f08aa",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-process-gap-analysis/references/gap-analysis-framework.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-process-gap-analysis/scripts/analyze-gaps.mjs",
+      "gitBlob": "2093d2401aaf2710df9c6a2ddf13f9c2c9b9cfb4",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-process-gap-analysis/scripts/analyze-gaps.mjs",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-process-gap-analysis/tests/validate-skill.test.mjs",
+      "gitBlob": "510b5ca32b8c182373303e39643db2d8f0c808af",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-process-gap-analysis/tests/validate-skill.test.mjs",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-process-intake-and-scope/README.md",
+      "gitBlob": "45c255256340a30e8c979ac34eed64c8ed9b493c",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-process-intake-and-scope/README.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-process-intake-and-scope/SKILL.md",
+      "gitBlob": "a64cb0d89b173218cc8e8170b6324e27977786a4",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-process-intake-and-scope/SKILL.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-process-intake-and-scope/assets/fixtures/intake-purchase-approval.yaml",
+      "gitBlob": "40ca74735ff3f8563f693873d85be031e8b2127c",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-process-intake-and-scope/assets/fixtures/intake-purchase-approval.yaml",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-process-intake-and-scope/package.json",
+      "gitBlob": "d5580eff4884c88b31d1d61413766bb795dcbe35",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-process-intake-and-scope/package.json",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-process-intake-and-scope/references/pir-schema.md",
+      "gitBlob": "6708788dfa49bd3c17bee471b12f9ac53a0a274e",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-process-intake-and-scope/references/pir-schema.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-process-intake-and-scope/scripts/generate-pir.mjs",
+      "gitBlob": "f0a5eaba1b4da054802a9d9fb1361aaae06116de",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-process-intake-and-scope/scripts/generate-pir.mjs",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-process-intake-and-scope/scripts/parse-yaml-minimal.mjs",
+      "gitBlob": "110b6646e253dd08177b856e5224863e8af143a7",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-process-intake-and-scope/scripts/parse-yaml-minimal.mjs",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-process-intake-and-scope/scripts/score-intake-completeness.mjs",
+      "gitBlob": "a24b78b20c381d4d3d3a7f7d77120131146b35a7",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-process-intake-and-scope/scripts/score-intake-completeness.mjs",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-process-intake-and-scope/scripts/validate-pir.mjs",
+      "gitBlob": "61e8c175f86b2b6befc0534300e206425118418b",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-process-intake-and-scope/scripts/validate-pir.mjs",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-process-intake-and-scope/tests/validate-skill.test.mjs",
+      "gitBlob": "8031ad91dd9c7a02077c066d872c9e550ac4e37d",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-process-intake-and-scope/tests/validate-skill.test.mjs",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-project-promotion/SKILL.md",
+      "gitBlob": "89124ffcf7b69c75a308aafa0a7c8d3aad3d6875",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-project-promotion/SKILL.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-project-promotion/agents/openai.yaml",
+      "gitBlob": "797badd07e938488db36765f1c4a6038cd1df5a3",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-project-promotion/agents/openai.yaml",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-project-promotion/evals/evals.json",
+      "gitBlob": "099c480403f92e62906aae61233a7271d405e2de",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-project-promotion/evals/evals.json",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-repl-repo-janitor/SKILL.md",
+      "gitBlob": "862fca8fc05547667038dc0d22a5f0801d2ee5ba",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-repl-repo-janitor/SKILL.md",
+      "capabilitySet": "set-8"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-repl-repo-janitor/references/naming-conventions.md",
+      "gitBlob": "4a56ce9e48610a17a8697e6a1c792f6b74130e20",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-repl-repo-janitor/references/naming-conventions.md",
+      "capabilitySet": "set-8"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-repl-repo-janitor/scripts/audit-repo.py",
+      "gitBlob": "e5284a2d4ffab6751d14fb870e5d5e010620576d",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-repl-repo-janitor/scripts/audit-repo.py",
+      "capabilitySet": "set-8"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-replit-canvas-board/SKILL.md",
+      "gitBlob": "6489a03522c81b4a886fa88f29241defac04cf92",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-replit-canvas-board/SKILL.md",
+      "capabilitySet": "set-12"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-replit-canvas-board/benchmarks/benchmark.json",
+      "gitBlob": "656fb295ebc0298c8a395b1d3cf796606ca8a8c3",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-replit-canvas-board/benchmarks/benchmark.json",
+      "capabilitySet": "set-12"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-replit-canvas-board/evals/evals.json",
+      "gitBlob": "889cfbd145e700f1b151cc712629200f4c5b9a34",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-replit-canvas-board/evals/evals.json",
+      "capabilitySet": "set-12"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-replit-canvas-board/evals/trigger-evals.json",
+      "gitBlob": "34be027004ef7dc3cdb4ad085aa330aa908c2cfd",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-replit-canvas-board/evals/trigger-evals.json",
+      "capabilitySet": "set-12"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-replit-design-pipeline/SKILL.md",
+      "gitBlob": "c2151bfff2b9ea201976cf8fd302cc19e36ceee3",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-replit-design-pipeline/SKILL.md",
+      "capabilitySet": "set-12"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-replit-design-pipeline/benchmarks/benchmark.json",
+      "gitBlob": "845d62c3dc4510623628acee295c433d5719357c",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-replit-design-pipeline/benchmarks/benchmark.json",
+      "capabilitySet": "set-12"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-replit-design-pipeline/evals/evals.json",
+      "gitBlob": "c893334dd9cdf57ba98e8c5195fcc419040cc39b",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-replit-design-pipeline/evals/evals.json",
+      "capabilitySet": "set-12"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-replit-design-pipeline/evals/trigger-evals.json",
+      "gitBlob": "c671888dbc34cc342bbe3d65d8c30dbf2c37d5c8",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-replit-design-pipeline/evals/trigger-evals.json",
+      "capabilitySet": "set-12"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-replit-free-mode-autonomy/SKILL.md",
+      "gitBlob": "40afc1a205e8278706741e6a7b6465550882f2fb",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-replit-free-mode-autonomy/SKILL.md",
+      "capabilitySet": "set-12"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-replit-free-mode-autonomy/benchmarks/README.md",
+      "gitBlob": "b4d97af76d194d4749dc0c2d0bfeff20f656c1c0",
+      "publicFile": "https://github.com/OKHP3/skillz/blob/c133a062386b338e76318c1667b1f0f7249a2cdd/.agents/skills/okhp3-replit-free-mode-autonomy/benchmarks/README.md",
+      "capabilitySet": "set-12"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-replit-free-mode-autonomy/benchmarks/benchmark.json",
+      "gitBlob": "1d8af0e23fa00d06647cd4f76622bd0645418e7a",
+      "publicFile": "https://github.com/OKHP3/skillz/blob/c133a062386b338e76318c1667b1f0f7249a2cdd/.agents/skills/okhp3-replit-free-mode-autonomy/benchmarks/benchmark.json",
+      "capabilitySet": "set-12"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-replit-free-mode-autonomy/benchmarks/native-telemetry.schema.json",
+      "gitBlob": "075dc876c8549e9b0690d2a914c73e3f73490c3b",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-replit-free-mode-autonomy/benchmarks/native-telemetry.schema.json",
+      "capabilitySet": "set-12"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-replit-free-mode-autonomy/benchmarks/run-native-telemetry.py",
+      "gitBlob": "7cd4f05eb825215e866d298c1bbbd2bf279a3357",
+      "publicFile": "https://github.com/OKHP3/skillz/blob/c133a062386b338e76318c1667b1f0f7249a2cdd/.agents/skills/okhp3-replit-free-mode-autonomy/benchmarks/run-native-telemetry.py",
+      "capabilitySet": "set-12"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-replit-free-mode-autonomy/benchmarks/test_native_telemetry.py",
+      "gitBlob": "be5813ebcf5c1acca2508345f5e136ad973f04c1",
+      "publicFile": "https://github.com/OKHP3/skillz/blob/c133a062386b338e76318c1667b1f0f7249a2cdd/.agents/skills/okhp3-replit-free-mode-autonomy/benchmarks/test_native_telemetry.py",
+      "capabilitySet": "set-12"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-replit-free-mode-autonomy/evals/evals.json",
+      "gitBlob": "dfccdd14bbbcc87292b151b50681b7b87eed05a6",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-replit-free-mode-autonomy/evals/evals.json",
+      "capabilitySet": "set-12"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-replit-free-mode-autonomy/evals/fixtures/quiet-free-mode-execution.json",
+      "gitBlob": "f9831a474075198bed7a8cb05f5b7203c8579b8c",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-replit-free-mode-autonomy/evals/fixtures/quiet-free-mode-execution.json",
+      "capabilitySet": "set-12"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-replit-free-mode-autonomy/evals/results.md",
+      "gitBlob": "82a918cf16264beaabab30c019b2214e9e47f3f9",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-replit-free-mode-autonomy/evals/results.md",
+      "capabilitySet": "set-12"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-replit-free-mode-autonomy/evals/trigger-evals.json",
+      "gitBlob": "125a030b8eaf8af4bb282bae1063e20da8b29730",
+      "publicFile": "https://github.com/OKHP3/skillz/blob/c133a062386b338e76318c1667b1f0f7249a2cdd/.agents/skills/okhp3-replit-free-mode-autonomy/evals/trigger-evals.json",
+      "capabilitySet": "set-12"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-replit-free-mode-autonomy/references/free-mode-autonomy-prompt.md",
+      "gitBlob": "37480d248677f0147d596e6ea255a7cb5e850671",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-replit-free-mode-autonomy/references/free-mode-autonomy-prompt.md",
+      "capabilitySet": "set-12"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-replit-free-mode-autonomy/references/platform-facts.md",
+      "gitBlob": "e06f09a84a86144f85458abae4dbb2fb8b348b05",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-replit-free-mode-autonomy/references/platform-facts.md",
+      "capabilitySet": "set-12"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-replit-github-sync/SKILL.md",
+      "gitBlob": "77c486b07ad0ebb89dbbe2e2394eec80177e6d11",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-replit-github-sync/SKILL.md",
+      "capabilitySet": "set-12"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-replit-github-sync/agents/openai.yaml",
+      "gitBlob": "58b141c5884d0311db7859f2827fb2a95e8a282a",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-replit-github-sync/agents/openai.yaml",
+      "capabilitySet": "set-12"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-replit-github-sync/evals/evals.json",
+      "gitBlob": "fe0c833e82373cf9aba0707c99ecefb5f0081e4b",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-replit-github-sync/evals/evals.json",
+      "capabilitySet": "set-12"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-replit-github-sync/evals/trigger-evals.json",
+      "gitBlob": "01326dfa7f98251362c3039d626f8c6960f2a858",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-replit-github-sync/evals/trigger-evals.json",
+      "capabilitySet": "set-12"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-replit-github-sync/references/connector-contract.md",
+      "gitBlob": "a97f4106fa32c8f3beaf670b2591c459ec88ff10",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-replit-github-sync/references/connector-contract.md",
+      "capabilitySet": "set-12"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-replit-multi-artifact/SKILL.md",
+      "gitBlob": "5da2446088c2db5a101903e3995ee275007f2d52",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-replit-multi-artifact/SKILL.md",
+      "capabilitySet": "set-12"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-replit-multi-artifact/benchmarks/benchmark.json",
+      "gitBlob": "1e51fe3b8e9a549680597b5832ab2dc0f81bf3f7",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-replit-multi-artifact/benchmarks/benchmark.json",
+      "capabilitySet": "set-12"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-replit-multi-artifact/evals/evals.json",
+      "gitBlob": "39f95d1ecf2fa784c4707d57fb4a052103987090",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-replit-multi-artifact/evals/evals.json",
+      "capabilitySet": "set-12"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-replit-multi-artifact/evals/trigger-evals.json",
+      "gitBlob": "b7e8e8cb79cf6699da5f3e9a2a1fb394b2e57cc8",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-replit-multi-artifact/evals/trigger-evals.json",
+      "capabilitySet": "set-12"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-replit-repl-janitor/SKILL.md",
+      "gitBlob": "154eee178536a89d6e84781629be1b07028a7c36",
+      "publicFile": "https://github.com/OKHP3/skillz/blob/c133a062386b338e76318c1667b1f0f7249a2cdd/.agents/skills/okhp3-replit-repl-janitor/SKILL.md",
+      "capabilitySet": "set-12"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-replit-repl-janitor/benchmarks/benchmark.json",
+      "gitBlob": "ed6d02aebd56ad63f6132d8a2a2099b8b5491bb7",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-replit-repl-janitor/benchmarks/benchmark.json",
+      "capabilitySet": "set-12"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-replit-repl-janitor/evals/evals.json",
+      "gitBlob": "d0028a2adc9dd957779e965cae7afefad694e78c",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-replit-repl-janitor/evals/evals.json",
+      "capabilitySet": "set-12"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-replit-repl-janitor/evals/trigger-evals.json",
+      "gitBlob": "10cedd58bb91f77a7a043aa34d9cff542230d44f",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-replit-repl-janitor/evals/trigger-evals.json",
+      "capabilitySet": "set-12"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-replit-repl-janitor/references/foundry-architecture.md",
+      "gitBlob": "094f4a69b68369c5e5175a4f1a96410a0d401ff4",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-replit-repl-janitor/references/foundry-architecture.md",
+      "capabilitySet": "set-12"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-replit-repl-janitor/references/naming-conventions.md",
+      "gitBlob": "5c415a8274e77cd8893d538bbce80655a997f7ea",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-replit-repl-janitor/references/naming-conventions.md",
+      "capabilitySet": "set-12"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-replit-repl-janitor/scripts/audit-repo.py",
+      "gitBlob": "2d87c9c8ecfd3bd8ea15906db23e92edf3b8bacd",
+      "publicFile": "https://github.com/OKHP3/skillz/blob/c133a062386b338e76318c1667b1f0f7249a2cdd/.agents/skills/okhp3-replit-repl-janitor/scripts/audit-repo.py",
+      "capabilitySet": "set-12"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-replit-repl-janitor/tests/test_audit_repo.py",
+      "gitBlob": "6f8c00cfe5282a324082d47b16d886f3030aaf54",
+      "publicFile": "https://github.com/OKHP3/skillz/blob/c133a062386b338e76318c1667b1f0f7249a2cdd/.agents/skills/okhp3-replit-repl-janitor/tests/test_audit_repo.py",
+      "capabilitySet": "set-12"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-replit-task-executor/SKILL.md",
+      "gitBlob": "036a62a06e83937c600fe0ea2f29843a4a5ca18e",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-replit-task-executor/SKILL.md",
+      "capabilitySet": "set-12"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-replit-task-executor/assets/completion-receipt.md",
+      "gitBlob": "61650c771c87ae547bdf2d1d09fc137c644e15de",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-replit-task-executor/assets/completion-receipt.md",
+      "capabilitySet": "set-12"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-replit-task-executor/assets/replit-collaboration-guidance.md",
+      "gitBlob": "1877c940e183cbc7e9acb694d7551251f0ba491d",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-replit-task-executor/assets/replit-collaboration-guidance.md",
+      "capabilitySet": "set-12"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-replit-task-executor/assets/task-packet.md",
+      "gitBlob": "e87cda3a0415efdcd88e7d02d405cebc67efeb6f",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-replit-task-executor/assets/task-packet.md",
+      "capabilitySet": "set-12"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-replit-task-executor/benchmarks/benchmark.json",
+      "gitBlob": "344e0269d38fd4d3f929affc70aca260e310e3cc",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-replit-task-executor/benchmarks/benchmark.json",
+      "capabilitySet": "set-12"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-replit-task-executor/benchmarks/development-review.json",
+      "gitBlob": "46bd9c2a1cb81d95c4f7430e66d00213c876949e",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-replit-task-executor/benchmarks/development-review.json",
+      "capabilitySet": "set-12"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-replit-task-executor/benchmarks/evolution-review-2026-09-19.md",
+      "gitBlob": "24a659a5623eb6f371b2803d4d4cdbfc7b0b5813",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-replit-task-executor/benchmarks/evolution-review-2026-09-19.md",
+      "capabilitySet": "set-12"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-replit-task-executor/benchmarks/pass-1-review.json",
+      "gitBlob": "8c5be1b40faac31a37fba7d189a9e0c586c9757c",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-replit-task-executor/benchmarks/pass-1-review.json",
+      "capabilitySet": "set-12"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-replit-task-executor/benchmarks/pass-2-review.json",
+      "gitBlob": "407705080749a17ac3503a3f28328ad7480656ba",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-replit-task-executor/benchmarks/pass-2-review.json",
+      "capabilitySet": "set-12"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-replit-task-executor/benchmarks/pass-3-development-review.json",
+      "gitBlob": "d777a40688d3bbe32e62c72531d0748d4290026f",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-replit-task-executor/benchmarks/pass-3-development-review.json",
+      "capabilitySet": "set-12"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-replit-task-executor/benchmarks/pass-3-review.json",
+      "gitBlob": "aa52aa4adfbee1365aa8804d12f2d16a2be79897",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-replit-task-executor/benchmarks/pass-3-review.json",
+      "capabilitySet": "set-12"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-replit-task-executor/benchmarks/source-ledger.json",
+      "gitBlob": "d3459463038ec909a6efaf82a067fef9cddd868c",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-replit-task-executor/benchmarks/source-ledger.json",
+      "capabilitySet": "set-12"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-replit-task-executor/benchmarks/sync-manifest.json",
+      "gitBlob": "129198bdeb950d673a50217197f3e2010527dc02",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-replit-task-executor/benchmarks/sync-manifest.json",
+      "capabilitySet": "set-12"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-replit-task-executor/evals/discovery.json",
+      "gitBlob": "44e4fd13327c9f7644fe878a61b8104da3b6206d",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-replit-task-executor/evals/discovery.json",
+      "capabilitySet": "set-12"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-replit-task-executor/evals/evals.json",
+      "gitBlob": "1b28be4cca6a5b10e1bfeabc7f5bbc81ed57a04b",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-replit-task-executor/evals/evals.json",
+      "capabilitySet": "set-12"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-replit-task-executor/references/completion-return.md",
+      "gitBlob": "c88650fab277a529a37c14c7f9359657aa066a4e",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-replit-task-executor/references/completion-return.md",
+      "capabilitySet": "set-12"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-replit-task-executor/references/design-and-provenance.md",
+      "gitBlob": "f707cab97f514d468969172288f82a165fb8ba96",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-replit-task-executor/references/design-and-provenance.md",
+      "capabilitySet": "set-12"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-replit-task-executor/references/replit-semantics.md",
+      "gitBlob": "5f11946fc4fb9288c1a8b019e2f0fd84baf3d3d7",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-replit-task-executor/references/replit-semantics.md",
+      "capabilitySet": "set-12"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-repository-janitor/SKILL.md",
+      "gitBlob": "5d965a9b96c45237418bdee92e02cd7f0422c9a8",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-repository-janitor/SKILL.md",
+      "capabilitySet": "set-8"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-repository-janitor/agents/openai.yaml",
+      "gitBlob": "16b54d92718623d43a46b40e47d765b3811bf96b",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-repository-janitor/agents/openai.yaml",
+      "capabilitySet": "set-8"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-repository-janitor/references/branch-lifecycle.md",
+      "gitBlob": "9408c7926af416d13f77daef1ce71b4ad61adb70",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-repository-janitor/references/branch-lifecycle.md",
+      "capabilitySet": "set-8"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-repository-janitor/scripts/audit_mirrors.py",
+      "gitBlob": "531313be1d92e7f9c77040b95eaacf7038cc453b",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-repository-janitor/scripts/audit_mirrors.py",
+      "capabilitySet": "set-8"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-repository-organizer/SKILL.md",
+      "gitBlob": "a4197f79a1b0015ec4d102ee8d0d8b13ba6c8de7",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-repository-organizer/SKILL.md",
+      "capabilitySet": "set-1"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-repository-organizer/agents/openai.yaml",
+      "gitBlob": "7e835b87eb01079edeb75c87dc8d7b1b6dd46c57",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-repo-organizer/agents/openai.yaml",
+      "capabilitySet": "set-1"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-repository-organizer/evals/evals.json",
+      "gitBlob": "e2a1eca0f8baca4c4c6edadb2268848df22d5f28",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-repository-organizer/evals/evals.json",
+      "capabilitySet": "set-1"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-repository-organizer/evals/results.md",
+      "gitBlob": "d8b04334a5b603edbc69ed93f900c514645de3cc",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-repo-organizer/evals/results.md",
+      "capabilitySet": "set-1"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-repository-organizer/evals/trigger-cases.json",
+      "gitBlob": "a54cc66d2caf5b510080ea6bc2d16662411085b3",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-repository-organizer/evals/trigger-cases.json",
+      "capabilitySet": "set-1"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-repository-organizer/references/agent-skills-quality.md",
+      "gitBlob": "6951ea5ed8bba88b7f52635ab69f2502e64b8ef5",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-repo-organizer/references/agent-skills-quality.md",
+      "capabilitySet": "set-1"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-repository-organizer/references/archetype-rubric.md",
+      "gitBlob": "86ef2af5e70ab44e39034dbc35444139d1b04d97",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-repo-organizer/references/archetype-rubric.md",
+      "capabilitySet": "set-1"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-repository-organizer/references/cross-platform-naming.md",
+      "gitBlob": "7bdc2d11950d036a58b163d4ebe57e4b70d05748",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-repo-organizer/references/cross-platform-naming.md",
+      "capabilitySet": "set-1"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-repository-organizer/references/github-baseline.md",
+      "gitBlob": "84857b0eaf7823bd7f1859a7fc778ceed3e8c63e",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-repo-organizer/references/github-baseline.md",
+      "capabilitySet": "set-1"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-repository-organizer/references/scaffold-matrix.md",
+      "gitBlob": "511c31859b30afd31b2dc85528f54ec239e29650",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-repo-organizer/references/scaffold-matrix.md",
+      "capabilitySet": "set-1"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-repository-organizer/scripts/inventory_repo.py",
+      "gitBlob": "249cf9cabdc8b1084013a82e3e37a92fdb6446e0",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-repo-organizer/scripts/inventory_repo.py",
+      "capabilitySet": "set-1"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-session-handoff/SKILL.md",
+      "gitBlob": "f11a24e054718311b56758bc7735c71703eb5213",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-session-handoff/SKILL.md",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-session-handoff/agents/openai.yaml",
+      "gitBlob": "6f6a6f458afdccb80ea5c4c801974d4214a8db01",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-session-handoff/agents/openai.yaml",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-session-handoff/evals/evals.json",
+      "gitBlob": "7f44a8ffd228ff0f0b58e68d242f894fcebd1b3e",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-session-handoff/evals/evals.json",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-cataloger/.claude/commands/catalog-skills.md",
+      "gitBlob": "3770114626fe14a8ddef1d061eb2c63892d22c26",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-cataloger/.claude/commands/catalog-skills.md",
+      "capabilitySet": "set-3"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-cataloger/.claude/commands/index-skills.md",
+      "gitBlob": "9c1d6d156611b82cc7324c7a7d5b718e981a55a1",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-cataloger/.claude/commands/index-skills.md",
+      "capabilitySet": "set-3"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-cataloger/SKILL.md",
+      "gitBlob": "a857401f151f0a62cce5c5e1f49c040b689c1756",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools/blob/a544b5fdd27178c64471220bc3127b49cb2fcc32/.agents/skills/okhp3-skill-cataloger/SKILL.md",
+      "capabilitySet": "set-5"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-cataloger/agents/openai.yaml",
+      "gitBlob": "a219431bd10b78a0912c4f2287fb21d2bf07904a",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-cataloger/agents/openai.yaml",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-cataloger/assets/catalog-meta-schema.json",
+      "gitBlob": "7b9f522cde78f0178a38d039209c52323058de73",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-cataloger/assets/catalog-meta-schema.json",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-cataloger/evals/evals.json",
+      "gitBlob": "b40899378d1323f0dc58f3843b37161eb1b06e27",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-cataloger/evals/evals.json",
+      "capabilitySet": "set-5"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-cataloger/references/MODES.md",
+      "gitBlob": "e125554a03ee8cdaaa619d9cec3386005a2a15e0",
+      "publicFile": "https://github.com/OKHP3/skillz/blob/c133a062386b338e76318c1667b1f0f7249a2cdd/.agents/skills/okhp3-skill-cataloger/references/MODES.md",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-cataloger/scripts/gen-skills-readme.py",
+      "gitBlob": "831c357cc262fb7d0f22a294bac4489d52456eb3",
+      "publicFile": "https://github.com/OKHP3/skillz/blob/c133a062386b338e76318c1667b1f0f7249a2cdd/.agents/skills/okhp3-skill-cataloger/scripts/gen-skills-readme.py",
+      "capabilitySet": "set-5"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-cataloger/tests/test_write_family_md.py",
+      "gitBlob": "6791d2693e7742d735dfef42c2c48f6a0a47deec",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-cataloger/tests/test_write_family_md.py",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-discovery/SKILL.md",
+      "gitBlob": "f323407bb5b6af31089c0ccefa427a07efa12f8a",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-discovery/SKILL.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-discovery/agents/openai.yaml",
+      "gitBlob": "f63d25d5ba0eb64dc4ae234e40afaa426a334084",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-discovery/agents/openai.yaml",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-discovery/evals/evals.json",
+      "gitBlob": "829817900d91cdd677e79041bbd17e7bebafb1fc",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-discovery/evals/evals.json",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-foundry/SKILL.md",
+      "gitBlob": "cde816347dda9871ad57b5cc4d6a482b8fe6bb3b",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-foundry/SKILL.md",
+      "capabilitySet": "set-1"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-foundry/agents/openai.yaml",
+      "gitBlob": "f9a50ec69666c61dc9fe333110c52aa99dc1badc",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-foundry/agents/openai.yaml",
+      "capabilitySet": "set-1"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-foundry/assets/equilibrium-review-record.json",
+      "gitBlob": "819cdbf0fd0b3f9a0b47180862b1ca744d8acbd8",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-foundry/assets/equilibrium-review-record.json",
+      "capabilitySet": "set-1"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-foundry/assets/skill-template.md",
+      "gitBlob": "a57dfdbeba6c7b2fa7e56e8f8cedb0aed758d029",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-foundry/assets/skill-template.md",
+      "capabilitySet": "set-1"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-foundry/assets/sync-manifest-template.json",
+      "gitBlob": "01f861778dd8c0077ac279ff8d8b337ca503a2ad",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-foundry/assets/sync-manifest-template.json",
+      "capabilitySet": "set-1"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-foundry/benchmarks/benchmark.json",
+      "gitBlob": "4733a648fe5212e1168509405ac6d5157d553597",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-foundry/benchmarks/benchmark.json",
+      "capabilitySet": "set-2"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-foundry/benchmarks/equilibrium-review-2026-07-28.json",
+      "gitBlob": "099a9e3445cdec59ab40e81ebc119fa2d633e0c0",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-foundry/benchmarks/equilibrium-review-2026-07-28.json",
+      "capabilitySet": "set-1"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-foundry/benchmarks/evolution-review-2026-07-27.md",
+      "gitBlob": "2aa59edc90dc04a4c94579af70acecc902afa6f9",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-foundry/benchmarks/evolution-review-2026-07-27.md",
+      "capabilitySet": "set-1"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-foundry/benchmarks/learning-ledger-2026-07-27.json",
+      "gitBlob": "5e10920bd0fc9d62bf169f5c1efc31844334a216",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-foundry/benchmarks/learning-ledger-2026-07-27.json",
+      "capabilitySet": "set-1"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-foundry/benchmarks/learning-ledger-2026-07-28.json",
+      "gitBlob": "3fcf5fe2f64dc8f5d51cab80a669cd4d22506801",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-foundry/benchmarks/learning-ledger-2026-07-28.json",
+      "capabilitySet": "set-1"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-foundry/benchmarks/sync-verification-2026-07-28.json",
+      "gitBlob": "fa542ab86b3355b1eccdcb4ffbfab0813fc76261",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-foundry/benchmarks/sync-verification-2026-07-28.json",
+      "capabilitySet": "set-7"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-foundry/evals/evals.json",
+      "gitBlob": "1700b35bedc195738122d4a1dbd6f50bed95ae55",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-foundry/evals/evals.json",
+      "capabilitySet": "set-1"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-foundry/references/brand-standard.md",
+      "gitBlob": "ae05cd979d6b96698c404fc198f3f62fffb1f920",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-foundry/references/brand-standard.md",
+      "capabilitySet": "set-1"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-foundry/references/equilibrium-review-protocol.md",
+      "gitBlob": "52d01cb9599609b8678940fed5ce000a2f7bba8d",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-foundry/references/equilibrium-review-protocol.md",
+      "capabilitySet": "set-1"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-foundry/references/eval-patterns.md",
+      "gitBlob": "71c098084a1facfce373d446e74d73b1dbc0f4f3",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-foundry/references/eval-patterns.md",
+      "capabilitySet": "set-1"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-foundry/references/grading-schema.md",
+      "gitBlob": "1a8ae5571581a9ad7c2e4de2234ba94882d64ea7",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-foundry/references/grading-schema.md",
+      "capabilitySet": "set-1"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-foundry/scripts/validate-skill-suite.cjs",
+      "gitBlob": "0250567bb8157f7692612242b8414e739315e1af",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-foundry/scripts/validate-skill-suite.cjs",
+      "capabilitySet": "set-1"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-foundry/tests/validate-foundry-evidence.test.cjs",
+      "gitBlob": "833dbd3562067751b15f594b376a2e32bf8fd503",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-foundry/tests/validate-foundry-evidence.test.cjs",
+      "capabilitySet": "set-7"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-1/with_skill/grading.json",
+      "gitBlob": "0ed7214bd31719a373253cae9a05c4f7abb68a88",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-1/with_skill/grading.json",
+      "capabilitySet": "set-9"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-1/with_skill/outputs/metrics.json",
+      "gitBlob": "44ce08ec74fabc7770e26da5f9a1ad9414381661",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-1/with_skill/outputs/metrics.json",
+      "capabilitySet": "set-9"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-1/with_skill/outputs/response.md",
+      "gitBlob": "322c6e60e3d906b0a85067c04aef4b72cfe4bfab",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-1/with_skill/outputs/response.md",
+      "capabilitySet": "set-9"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-1/without_skill/grading.json",
+      "gitBlob": "e3a545a26fc8aec11664b19f25f9359d296d3a5d",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-1/without_skill/grading.json",
+      "capabilitySet": "set-9"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-1/without_skill/outputs/metrics.json",
+      "gitBlob": "8708189eba83b35eb1df26ebe72d5aa7bb66d7c1",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-1/without_skill/outputs/metrics.json",
+      "capabilitySet": "set-9"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-1/without_skill/outputs/response.md",
+      "gitBlob": "20bf8a67e7c804b6443cb68a764c8f2ff991bcac",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-1/without_skill/outputs/response.md",
+      "capabilitySet": "set-9"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-2/with_skill/grading.json",
+      "gitBlob": "681ed294b820e7ccd1d8913aeeb0e15fd66eb36e",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-2/with_skill/grading.json",
+      "capabilitySet": "set-9"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-2/with_skill/outputs/metrics.json",
+      "gitBlob": "b425107acf05e2ca9d74d22b432e4a8bc756a135",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-2/with_skill/outputs/metrics.json",
+      "capabilitySet": "set-9"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-2/with_skill/outputs/response.md",
+      "gitBlob": "551710f1a239072550d441f468ab1fa5a218a8c3",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-2/with_skill/outputs/response.md",
+      "capabilitySet": "set-9"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-2/without_skill/grading.json",
+      "gitBlob": "5a1ecbc99cccdd36e910bad23a674d4d952f3d7e",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-2/without_skill/grading.json",
+      "capabilitySet": "set-9"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-2/without_skill/outputs/metrics.json",
+      "gitBlob": "c2d4df171021cdd08b706aa34ef7cd62d645789b",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-2/without_skill/outputs/metrics.json",
+      "capabilitySet": "set-9"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-2/without_skill/outputs/response.md",
+      "gitBlob": "3ca5cc4878257d56ebdb20eb763b04641f802e74",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-2/without_skill/outputs/response.md",
+      "capabilitySet": "set-9"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-3/with_skill/grading.json",
+      "gitBlob": "777c2534250d2a21341c1c20d3169e3602a30523",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-3/with_skill/grading.json",
+      "capabilitySet": "set-9"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-3/with_skill/outputs/metrics.json",
+      "gitBlob": "b425107acf05e2ca9d74d22b432e4a8bc756a135",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-2/with_skill/outputs/metrics.json",
+      "capabilitySet": "set-9"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-3/with_skill/outputs/response.md",
+      "gitBlob": "c38b6ee469e0fe4522f653d8c601839dc6373525",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-3/with_skill/outputs/response.md",
+      "capabilitySet": "set-9"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-3/without_skill/grading.json",
+      "gitBlob": "8158a55ee242aaae4394022f2b6c7ebd32e00705",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-3/without_skill/grading.json",
+      "capabilitySet": "set-9"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-3/without_skill/outputs/metrics.json",
+      "gitBlob": "c2d4df171021cdd08b706aa34ef7cd62d645789b",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-2/without_skill/outputs/metrics.json",
+      "capabilitySet": "set-9"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-3/without_skill/outputs/response.md",
+      "gitBlob": "d002423221a6f254d20b14725d0cc8d445e9af4b",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-foundry/workspace/iteration-1/eval-3/without_skill/outputs/response.md",
+      "capabilitySet": "set-9"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-promotion/SKILL.md",
+      "gitBlob": "0a75d97fe51cbc85c673d4af614ac17eb68607f6",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-promotion/SKILL.md",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-promotion/assets/promotion-manifest-template.json",
+      "gitBlob": "a16437360a8cd9af50387f637002dbbb68bb59d3",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-promotion/assets/promotion-manifest-template.json",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-promotion/benchmarks/equilibrium-review-2026-08-02.json",
+      "gitBlob": "4cba76ac844207a70f94a608608cf6b80424654e",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-promotion/benchmarks/equilibrium-review-2026-08-02.json",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-promotion/benchmarks/structural-integrity-2026-08-02.json",
+      "gitBlob": "e9267149350adea8124448f744ca4e1648f56a6e",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-promotion/benchmarks/structural-integrity-2026-08-02.json",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-promotion/benchmarks/sync-verification-2026-08-02.json",
+      "gitBlob": "9c7475c06413c85a8c1b8149c4aaba0c3556a362",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-promotion/benchmarks/sync-verification-2026-08-02.json",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-promotion/evals/evals.json",
+      "gitBlob": "1df4a77745ab091e6335804126f57c6a4384bd42",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-promotion/evals/evals.json",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-promotion/references/promotion-manifest.md",
+      "gitBlob": "992db1169252daec09f2163cca6c9ad3a46542aa",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-promotion/references/promotion-manifest.md",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-promotion/scripts/sync_skill_mirror.py",
+      "gitBlob": "2b56e65159b0e0708f029683b04fd12bb28abb4d",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-promotion/scripts/sync_skill_mirror.py",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-skill-promotion/tests/test_sync_skill_mirror.py",
+      "gitBlob": "d1271f2d46ed5131007d26e65851e663883bffe6",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-promotion/tests/test_sync_skill_mirror.py",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-source-backed-research/SKILL.md",
+      "gitBlob": "d7ca9721220c7b7d6153716216d85e49bb64348f",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-source-backed-research/SKILL.md",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-source-backed-research/agents/openai.yaml",
+      "gitBlob": "9428cd333e0b593727e97a0fcc87b5145446c3ee",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-source-backed-research/agents/openai.yaml",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-source-backed-research/evals/evals.json",
+      "gitBlob": "8ee670ef27ddce80341712d23fc188faaf4bdca3",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-source-backed-research/evals/evals.json",
+      "capabilitySet": "set-4"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-thread-context-extraction/SKILL.md",
+      "gitBlob": "f6eaa820c9176f6e88fcb05d10e785fd80b928b3",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-thread-context-extraction/SKILL.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-thread-context-extraction/agents/openai.yaml",
+      "gitBlob": "926fde2f15983b8512b651f90f7790ab800fb973",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-thread-context/agents/openai.yaml",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-thread-context-extraction/assets/thread-extract-template.md",
+      "gitBlob": "6e526312439a5eff8ab5242dd258f61cad74b2cf",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-extract-chatgpt/assets/thread-extract-template.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-thread-context-extraction/evals/benchmark.md",
+      "gitBlob": "557536bb380138d8a3dec5f0bd9e7708fffb1abb",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-thread-context/evals/benchmark.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-thread-context-extraction/evals/evals.json",
+      "gitBlob": "d66e7729bd53f87c7eb6ebe8b7c961f858550475",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-thread-context-extraction/evals/evals.json",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-thread-context-extraction/evals/fixtures/comprehensive-adversarial-export.md",
+      "gitBlob": "4efdb893624f818e88600950a4103fcc853f5513",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-thread-context/evals/fixtures/comprehensive-adversarial-export.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-thread-context-extraction/evals/fixtures/mixed-balanced-thread.md",
+      "gitBlob": "348ad6a941dc83f2e6bff7444d59583ee400dea2",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-thread-context/evals/fixtures/mixed-balanced-thread.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-thread-context-extraction/evals/fixtures/rapid-continuity-thread.md",
+      "gitBlob": "0c8f7e76148e0d2d14b4f52a3a0d882b5754539d",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-thread-context/evals/fixtures/rapid-continuity-thread.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-thread-context-extraction/evals/trigger-evals.json",
+      "gitBlob": "8d20223966926210e27a0947774ae1ced74c628e",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-thread-context-extraction/evals/trigger-evals.json",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-thread-context-extraction/references/evidence-map.md",
+      "gitBlob": "d7fd345378a9f0ecfc094d143b8b51b491ca8338",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-extract-chatgpt/references/evidence-map.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-thread-context-extraction/references/extraction-contract.md",
+      "gitBlob": "971e0566abd5223392727b4fa2d3b7b9190ef6ba",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-extract-chatgpt/references/extraction-contract.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-thread-context-extraction/references/extraction-depth-profiles.md",
+      "gitBlob": "79dfac4c5860a9a88b434fdf1f1f42b7ed55f3e3",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-extract-chatgpt/references/extraction-depth-profiles.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-thread-context-extraction/references/platform-capture-patterns.md",
+      "gitBlob": "4eb98cad43baf88015ba5a5b73942ebe9de84978",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-thread-context/references/platform-capture-patterns.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-thread-context-extraction/scripts/create_thread_extract.py",
+      "gitBlob": "610a706d461cb7cf341752a78a84ca8eebbebe6a",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-extract-chatgpt/scripts/create_thread_extract.py",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-thread-context-extraction/scripts/validate_package.py",
+      "gitBlob": "4b9ff34266e334a9b42cc18eaa94ec3ebcf28289",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-extract-chatgpt/scripts/validate_package.py",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-thread-extract-chatgpt/SKILL.md",
+      "gitBlob": "4c6170add37111d028b9407778b054ee1199bc5c",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-thread-extract-chatgpt/SKILL.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-thread-extract-chatgpt/agents/openai.yaml",
+      "gitBlob": "4daf2b85efbc676cb20f5ee139f95be5f6b08334",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-extract-chatgpt/agents/openai.yaml",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-thread-extract-chatgpt/assets/thread-extract-template.md",
+      "gitBlob": "6e526312439a5eff8ab5242dd258f61cad74b2cf",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-extract-chatgpt/assets/thread-extract-template.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-thread-extract-chatgpt/evals/benchmark.md",
+      "gitBlob": "deecacd2871b405633a649049dcda09559cd2fe0",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-extract-chatgpt/evals/benchmark.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-thread-extract-chatgpt/evals/evals.json",
+      "gitBlob": "a08ef2bcc7086859ec3346f177f94f854d09094a",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-thread-extract-chatgpt/evals/evals.json",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-thread-extract-chatgpt/evals/trigger-evals.json",
+      "gitBlob": "94e46908f9468a96c8512be1b3c94551ece1a98e",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-thread-extract-chatgpt/evals/trigger-evals.json",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-thread-extract-chatgpt/references/evidence-map.md",
+      "gitBlob": "d7fd345378a9f0ecfc094d143b8b51b491ca8338",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-extract-chatgpt/references/evidence-map.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-thread-extract-chatgpt/references/extraction-contract.md",
+      "gitBlob": "971e0566abd5223392727b4fa2d3b7b9190ef6ba",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-extract-chatgpt/references/extraction-contract.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-thread-extract-chatgpt/references/extraction-depth-profiles.md",
+      "gitBlob": "79dfac4c5860a9a88b434fdf1f1f42b7ed55f3e3",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-extract-chatgpt/references/extraction-depth-profiles.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-thread-extract-chatgpt/references/platform-capture-patterns.md",
+      "gitBlob": "79740b0aa7747e9c0c3aa9d0af5a6dfaba9c8319",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-extract-chatgpt/references/platform-capture-patterns.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-thread-extract-chatgpt/scripts/create_thread_extract.py",
+      "gitBlob": "610a706d461cb7cf341752a78a84ca8eebbebe6a",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-extract-chatgpt/scripts/create_thread_extract.py",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-thread-extract-chatgpt/scripts/validate_package.py",
+      "gitBlob": "4b9ff34266e334a9b42cc18eaa94ec3ebcf28289",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-extract-chatgpt/scripts/validate_package.py",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-thread-extract-claude/SKILL.md",
+      "gitBlob": "34e375d373efc93636332e00048a7e59a8580f90",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-thread-extract-claude/SKILL.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-thread-extract-claude/agents/openai.yaml",
+      "gitBlob": "884eed131a9c34394339893747924ddbf0eeb3ca",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-extract-claude/agents/openai.yaml",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-thread-extract-claude/assets/thread-extract-template.md",
+      "gitBlob": "6e526312439a5eff8ab5242dd258f61cad74b2cf",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-extract-chatgpt/assets/thread-extract-template.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-thread-extract-claude/evals/benchmark.md",
+      "gitBlob": "0796b3dc0bae13dcb59c3e81922a12f30860dac0",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-extract-claude/evals/benchmark.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-thread-extract-claude/evals/evals.json",
+      "gitBlob": "7052af926b3b1eba5941d7fba02480f41bd3d5ff",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-thread-extract-claude/evals/evals.json",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-thread-extract-claude/evals/trigger-evals.json",
+      "gitBlob": "8e21547ae7a643f882d01c677dc0e6df2326dc49",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-thread-extract-claude/evals/trigger-evals.json",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-thread-extract-claude/references/evidence-map.md",
+      "gitBlob": "d7fd345378a9f0ecfc094d143b8b51b491ca8338",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-extract-chatgpt/references/evidence-map.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-thread-extract-claude/references/extraction-contract.md",
+      "gitBlob": "971e0566abd5223392727b4fa2d3b7b9190ef6ba",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-extract-chatgpt/references/extraction-contract.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-thread-extract-claude/references/extraction-depth-profiles.md",
+      "gitBlob": "79dfac4c5860a9a88b434fdf1f1f42b7ed55f3e3",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-extract-chatgpt/references/extraction-depth-profiles.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-thread-extract-claude/references/platform-capture-patterns.md",
+      "gitBlob": "0b646c0fceda37ac57a256f95fed558727d566d4",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-extract-claude/references/platform-capture-patterns.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-thread-extract-claude/scripts/create_thread_extract.py",
+      "gitBlob": "610a706d461cb7cf341752a78a84ca8eebbebe6a",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-extract-chatgpt/scripts/create_thread_extract.py",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-thread-extract-claude/scripts/validate_package.py",
+      "gitBlob": "4b9ff34266e334a9b42cc18eaa94ec3ebcf28289",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-glee-fully-extract-chatgpt/scripts/validate_package.py",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-triage-and-file/SKILL.md",
+      "gitBlob": "949a9a6d512497cd0b51d15b37815240888240f0",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-triage-and-file/SKILL.md",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-triage-and-file/agents/openai.yaml",
+      "gitBlob": "4871b2e02b0d92f85fcd366a9e8f52f9430b2fbe",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-triage-and-file/agents/openai.yaml",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/okhp3-triage-and-file/evals/evals.json",
+      "gitBlob": "a721d96122d2b5e5b31ad406e3fc604a727f920a",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-triage-and-file/evals/evals.json",
+      "capabilitySet": "set-11"
+    },
+    {
+      "sourcePath": ".agents/skills/skill-creator/scripts/__init__.py",
+      "gitBlob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "publicFile": "https://github.com/OKHP3/skillz/blob/c133a062386b338e76318c1667b1f0f7249a2cdd/artifacts/api-server/src/lib/.gitkeep",
+      "capabilitySet": "set-13"
+    },
+    {
+      "sourcePath": ".agents/skills/skill-creator/scripts/aggregate_benchmark.py",
+      "gitBlob": "3e66e8c105be9bab9f0e9c61f0d1482619401580",
+      "publicFile": "https://github.com/OKHP3/skillz/blob/c133a062386b338e76318c1667b1f0f7249a2cdd/community/skill-creator/scripts/aggregate_benchmark.py",
+      "capabilitySet": "set-13"
+    },
+    {
+      "sourcePath": ".agents/skills/skill-creator/scripts/generate_report.py",
+      "gitBlob": "959e30a0014ec165c41a2bb7420b7dfe1416bbac",
+      "publicFile": "https://github.com/OKHP3/skillz/blob/c133a062386b338e76318c1667b1f0f7249a2cdd/community/skill-creator/scripts/generate_report.py",
+      "capabilitySet": "set-13"
+    },
+    {
+      "sourcePath": ".agents/skills/skill-creator/scripts/package_skill.py",
+      "gitBlob": "f48eac444656ddc41204aac1760a217951ce609e",
+      "publicFile": "https://github.com/OKHP3/skillz/blob/c133a062386b338e76318c1667b1f0f7249a2cdd/community/skill-creator/scripts/package_skill.py",
+      "capabilitySet": "set-13"
+    },
+    {
+      "sourcePath": ".agents/skills/skill-creator/scripts/run_loop.py",
+      "gitBlob": "30a263d674ef19de11c756d6f7537f91a421909e",
+      "publicFile": "https://github.com/OKHP3/skillz/blob/c133a062386b338e76318c1667b1f0f7249a2cdd/community/skill-creator/scripts/run_loop.py",
+      "capabilitySet": "set-13"
+    },
+    {
+      "sourcePath": ".agents/skills/skill-creator/scripts/utils.py",
+      "gitBlob": "51b6a07dd57174197a937034b7eecebd5768ff8a",
+      "publicFile": "https://github.com/OKHP3/skillz/blob/c133a062386b338e76318c1667b1f0f7249a2cdd/community/skill-creator/scripts/utils.py",
+      "capabilitySet": "set-13"
+    },
+    {
+      "sourcePath": "skills/okhp3-skill-promotion/SKILL.md",
+      "gitBlob": "0a75d97fe51cbc85c673d4af614ac17eb68607f6",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-promotion/SKILL.md",
+      "capabilitySet": "set-6"
+    },
+    {
+      "sourcePath": "skills/okhp3-skill-promotion/assets/promotion-manifest-template.json",
+      "gitBlob": "a16437360a8cd9af50387f637002dbbb68bb59d3",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-promotion/assets/promotion-manifest-template.json",
+      "capabilitySet": "set-6"
+    },
+    {
+      "sourcePath": "skills/okhp3-skill-promotion/benchmarks/equilibrium-review-2026-08-02.json",
+      "gitBlob": "4cba76ac844207a70f94a608608cf6b80424654e",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-promotion/benchmarks/equilibrium-review-2026-08-02.json",
+      "capabilitySet": "set-6"
+    },
+    {
+      "sourcePath": "skills/okhp3-skill-promotion/benchmarks/structural-integrity-2026-08-02.json",
+      "gitBlob": "e9267149350adea8124448f744ca4e1648f56a6e",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-promotion/benchmarks/structural-integrity-2026-08-02.json",
+      "capabilitySet": "set-6"
+    },
+    {
+      "sourcePath": "skills/okhp3-skill-promotion/benchmarks/sync-verification-2026-08-02.json",
+      "gitBlob": "9c7475c06413c85a8c1b8149c4aaba0c3556a362",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-promotion/benchmarks/sync-verification-2026-08-02.json",
+      "capabilitySet": "set-6"
+    },
+    {
+      "sourcePath": "skills/okhp3-skill-promotion/evals/evals.json",
+      "gitBlob": "1df4a77745ab091e6335804126f57c6a4384bd42",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-promotion/evals/evals.json",
+      "capabilitySet": "set-6"
+    },
+    {
+      "sourcePath": "skills/okhp3-skill-promotion/references/promotion-manifest.md",
+      "gitBlob": "992db1169252daec09f2163cca6c9ad3a46542aa",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-promotion/references/promotion-manifest.md",
+      "capabilitySet": "set-6"
+    },
+    {
+      "sourcePath": "skills/okhp3-skill-promotion/scripts/sync_skill_mirror.py",
+      "gitBlob": "2b56e65159b0e0708f029683b04fd12bb28abb4d",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-promotion/scripts/sync_skill_mirror.py",
+      "capabilitySet": "set-6"
+    },
+    {
+      "sourcePath": "skills/okhp3-skill-promotion/tests/test_sync_skill_mirror.py",
+      "gitBlob": "d1271f2d46ed5131007d26e65851e663883bffe6",
+      "publicFile": "https://github.com/OKHP3/glee-fullytools-foundry/blob/1bfaea6f84eb241149593b641d35fef81214ad2c/.agents/skills/okhp3-skill-promotion/tests/test_sync_skill_mirror.py",
+      "capabilitySet": "set-6"
+    }
+  ]
+}

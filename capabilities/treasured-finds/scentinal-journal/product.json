@@ -1,0 +1,44 @@
+{
+  "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt02d-scentinal-journal",
+  "sourceBranch": "main",
+  "sourceCommit": "2cb1c0bc3ec006b9e1fab214e88083e2e65b6057",
+  "sourceTree": "c5630a83806469df3151c7f9219bc7519b2683a7",
+  "sourceLicense": "MIT",
+  "importMode": "sanitized-snapshot",
+  "destinationTree": "b2d060a2187701399d4e53fbd775e97bbffb8574",
+  "pathCounts": {
+    "imported": 3,
+    "private-operations": 1,
+    "redacted": 1,
+    "repository-maintenance": 4,
+    "shared-public-reference": 119
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "gitBlob": "dfe0770424b2a19faf507a501ebfc23be8f54e7b",
+      "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlob": "f4873c2116435bd7bb58afdb5fddc835397e49dc",
+      "sha256": "7a26108bff9a3301f0ed8fd0697f07134c7ed863d36572885ee37229c88ba29d",
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlob": "acc81373eedaf81657f5a3f50fd3bafba75cfb7d",
+      "sha256": "8ca6ba0e4c4fc3cdab7a4b22517286797a0f913e13eecf98dc7aa531c4d045f2",
+      "mode": "100644"
+    },
+    {
+      "path": "prompts/02d-glee–fully-scentinal-journal_prompts_v1.yaml",
+      "gitBlob": "b70c19de01e0acad783d904c4e197abf41ce2331",
+      "sha256": "add604d8bae2526d7b013429f1e91893e076f1b863569af3901e4f090bd8f88c",
+      "mode": "100644",
+      "sourceGitBlob": "e1366b6a3daf8e5bc3d89efbe28ccbaea5aa014f",
+      "redaction": "Omitted the internal workflow reference."
+    }
+  ]
+}

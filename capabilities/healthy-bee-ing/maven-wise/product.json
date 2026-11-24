@@ -1,0 +1,50 @@
+{
+  "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt06f-maven-wise",
+  "sourceBranch": "main",
+  "sourceCommit": "d9d26ea084d888f882b32227530d2581eb87f876",
+  "sourceTree": "6fac1fc81fa311edbc75ff94fc89628f16e632b0",
+  "sourceLicense": "MIT",
+  "importMode": "sanitized-snapshot",
+  "destinationTree": "5f35656d7318dbb84a7e5944d4b1248ec913ae72",
+  "pathCounts": {
+    "imported": 4,
+    "private-operations": 1,
+    "redacted": 1,
+    "repository-maintenance": 3,
+    "shared-public-reference": 357
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "gitBlob": "dfe0770424b2a19faf507a501ebfc23be8f54e7b",
+      "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlob": "b84f5f067a6888367a26cd2867c6a5dad0c8a071",
+      "sha256": "a7903fbd14ef3cb8d536a46ea3cd7ed11c8ebf1ab877c09c7197f76e2be7bc61",
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlob": "f4873c2116435bd7bb58afdb5fddc835397e49dc",
+      "sha256": "7a26108bff9a3301f0ed8fd0697f07134c7ed863d36572885ee37229c88ba29d",
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlob": "24294a0e0bce29565bd76b99134e6adb175eb8bf",
+      "sha256": "b0ad64bcfbf8bcb6712b10e39128fd41a7ee0cb67aaa9db4d3d3b984e953ef59",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/healthy-bee-ing-pulsebook-2025-09-01.md",
+      "gitBlob": "2cdd1196ec9d337ce9c2a3498fac9c6539641a4b",
+      "sha256": "047be14e07840ca916391f873dde6bd40618a950688dca1887f6df1a75942622",
+      "mode": "100644",
+      "sourceGitBlob": "742eea37869067a3e5ecb099998cff816f82e5c5",
+      "redaction": "Retained product descriptions, conversation starters, goals and sibling roles. Omitted private deployment and operational records."
+    }
+  ]
+}

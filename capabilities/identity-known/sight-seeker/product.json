@@ -1,0 +1,52 @@
+{
+  "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt07c-sight-seeker",
+  "sourceBranch": "main",
+  "sourceCommit": "1aa1a0d7f2d6481a34b473a06f7cf1029ad5b017",
+  "sourceTree": "f61172c36b212f7210f1b3a436701cf54a7084e4",
+  "sourceLicense": "MIT",
+  "importMode": "sanitized-snapshot",
+  "destinationTree": "8d17cbac100fd33d7a7374260629347fa80abeba",
+  "pathCounts": {
+    "imported": 6,
+    "repository-maintenance": 2,
+    "shared-public-reference": 375
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "gitBlob": "dfe0770424b2a19faf507a501ebfc23be8f54e7b",
+      "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlob": "2049d3cc4374d6f515ca0ba276438f3bfbb9e125",
+      "sha256": "c46fdc50ffc54f8f78e4c1117d89e619a968a8ddd976a11734a912b0a6ff6e38",
+      "mode": "100644"
+    },
+    {
+      "path": "AGENTS.md",
+      "gitBlob": "eac93500e026691941229bc841f918a048d299c3",
+      "sha256": "e9806bdce9d6e84f43f796171717170270f9fb5c0cbd5ac480f71f1a6ce5c7eb",
+      "mode": "100644"
+    },
+    {
+      "path": "CLAUDE.md",
+      "gitBlob": "43c994c2d3617f947bcb5adf1933e21dabe46bb5",
+      "sha256": "336cc4fbf19beaada7ccf9986414fa91851a8d7a07dfb3ccbe800a69eed0ab49",
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlob": "f4873c2116435bd7bb58afdb5fddc835397e49dc",
+      "sha256": "7a26108bff9a3301f0ed8fd0697f07134c7ed863d36572885ee37229c88ba29d",
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlob": "0b5f98e5b08a1acc9dce8afb3ca0690acb089502",
+      "sha256": "c8ab2649fbd5b5c30f01b2f4e6fd8df5937e6a263676ee82545f3a2036579b92",
+      "mode": "100644"
+    }
+  ]
+}

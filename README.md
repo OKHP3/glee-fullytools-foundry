@@ -37,7 +37,7 @@ Plugin and connector exports are planning blueprints, with `installable: false`.
 
 The app can derive a skill draft from a GPT source, then plugin or connector blueprints from a skill. Each derivation preserves its source revision and resets evaluation evidence. Use **Conversion & portability** to map source behavior, semantic loss, target hosts, tools and permissions. The portable core stays independent of a vendor account; host-specific packages are maintained separately.
 
-Read the [portable capability workflow](docs/application/portable-capabilities.md) and [product subtree migration contract](products/README.md). Reviewed child projects can consolidate under `products/<capability-slug>/` while preserving provenance and private-source boundaries. This adaptation performs no child imports or remote cutovers. OverKill and AskJamie retain separate regional ownership.
+Browse the [capability directory](capabilities/README.md) for the Personalizable Tools toolbox, its seven families and their Tool-ettes. The [migration register](products/migration-map.json) records the source status for each folder. For a source import or skill conversion, follow the [migration contract](products/README.md) and [portable capability workflow](docs/application/portable-capabilities.md).
 
 ## Inside the workbench
 
@@ -99,7 +99,8 @@ The application sits beside a preserved, governed library for Glee-fully Persona
 | [Evaluation](evaluation/README.md) | GPT PulseBook; [v1.7](evaluation/gpt-pulsebook-evaluation-v1-7.md) is the current local rubric |
 | [Vernacular](vernacular/README.md) | Complete and lite voice, tone and Glee-ism references |
 | [Inventory](inventory/README.md) | [Entity catalog and recorded ChatGPT links](inventory/inventory-of-toolbox-tools-and-tool-ettes.md); external availability needs its own verification |
-| [Product subtrees](products/README.md) | Reviewed consolidation contract and migration map for capability source, skills and host adapters |
+| [Capabilities](capabilities/README.md) | Family and Tool-ette folders for the former Glee-fully GPTs |
+| [Migration contract](products/README.md) | Source preservation procedure and migration register |
 | [Documentation](docs/README.md) | Narrative, technical and operating references, plus research and imported source material |
 | [Agent Skills](.agents/skills/README.md) | Repository-local reusable methods and their provenance |
 | [Snapshots](snapshots/README.md) | Read-only historical captures and lineage evidence |

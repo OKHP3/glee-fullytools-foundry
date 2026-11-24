@@ -1,0 +1,53 @@
+{
+  "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt03e-palatably-profiled",
+  "sourceBranch": "main",
+  "sourceCommit": "8332800c015bcc1d050131cdf3690dbc0aa4834a",
+  "sourceTree": "a36fe811247ed8af78786521e66f041929297815",
+  "sourceLicense": "MIT",
+  "importMode": "sanitized-snapshot",
+  "destinationTree": "7df4840952c6e2d6b67de77513036c7df060187c",
+  "pathCounts": {
+    "imported": 6,
+    "private-operations": 1,
+    "repository-maintenance": 2,
+    "shared-public-reference": 366
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "gitBlob": "dfe0770424b2a19faf507a501ebfc23be8f54e7b",
+      "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlob": "43ae0e2a6c6d8fca34872506ca0f2e64194fec7c",
+      "sha256": "6feaded4e28ea86e001a6751b4e3d960e8b7c31b9616ff9936b79297086e809b",
+      "mode": "100644"
+    },
+    {
+      "path": "AGENTS.md",
+      "gitBlob": "c8ac8ca64fb60bc0e3e22d13f224efb3f7f52bc2",
+      "sha256": "da891a8c42a771a0aad0099f868445108034144b834d15cb4c4faba736cebc87",
+      "mode": "100644"
+    },
+    {
+      "path": "CLAUDE.md",
+      "gitBlob": "5e6c41df9d32d530e929f83ce7db8114d5d40ab0",
+      "sha256": "6111246da053b57d54a43e8a39eb9c0a08cae84391e5e09fc138ee1f89303e05",
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlob": "f4873c2116435bd7bb58afdb5fddc835397e49dc",
+      "sha256": "7a26108bff9a3301f0ed8fd0697f07134c7ed863d36572885ee37229c88ba29d",
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlob": "4e7e82c6ce8d016f3f25e308ecefd153f03bdee7",
+      "sha256": "c14d37913794272f216944570faf84a05f2f834fafe6aa2e3fd34263efa3d620",
+      "mode": "100644"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt07-identity-known",
+  "sourceBranch": "main",
+  "sourceCommit": "25fb973903ce1dd6079daea1047558940e7e3702",
+  "sourceTree": "ae17e1008ac4be6582f13c5dd7feaf17fc743dab",
+  "sourceLicense": "MIT",
+  "importMode": "sanitized-snapshot",
+  "destinationTree": "94acdb4972c1d6ae0dbc3e352cf93d2d02029e46",
+  "pathCounts": {
+    "imported": 5,
+    "private-operations": 1,
+    "repository-maintenance": 3,
+    "shared-public-reference": 375
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "gitBlob": "dfe0770424b2a19faf507a501ebfc23be8f54e7b",
+      "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlob": "e395e559dcfb82b38da2b0f5be06e720d55f8431",
+      "sha256": "6e36a241db46ead7f1f8e5ceff79a3ebc7541b54a15c85198980d6d991f05dce",
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlob": "f4873c2116435bd7bb58afdb5fddc835397e49dc",
+      "sha256": "7a26108bff9a3301f0ed8fd0697f07134c7ed863d36572885ee37229c88ba29d",
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlob": "4f88700d9ba51c29609b1696ab94666dced43a96",
+      "sha256": "b889fee85678e48dd6677b9e396f4aff8428676824bd46490d2d4e4fb4dc7088",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/07-glee-fully-identity-known_instructions.md",
+      "gitBlob": "55ff914750e74c6fbb4385f2a2761053d14adb15",
+      "sha256": "a75552784238cbec759434fd5e921182e79adaffcb38aef4eb5f869d0651aacb",
+      "mode": "100644"
+    }
+  ]
+}

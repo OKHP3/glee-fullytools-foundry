@@ -1,0 +1,47 @@
+{
+  "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt02b-decor-detective",
+  "sourceBranch": "main",
+  "sourceCommit": "1e81e324d89f13674f12799cca53508ca0131a78",
+  "sourceTree": "2779d53a3189ed8806ddb275d8021f83c5273764",
+  "sourceLicense": "MIT",
+  "importMode": "sanitized-snapshot",
+  "destinationTree": "bb9642683c933074b0cd3b71743a91054038b502",
+  "pathCounts": {
+    "imported": 5,
+    "private-operations": 3,
+    "repository-maintenance": 2,
+    "shared-public-reference": 375
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "gitBlob": "dfe0770424b2a19faf507a501ebfc23be8f54e7b",
+      "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+      "mode": "100644"
+    },
+    {
+      "path": "AGENTS.md",
+      "gitBlob": "bc69f39537e715c967beb59b006df7f9e8210489",
+      "sha256": "21705d3a0be1795bafa209a0cdffb2840cf5a6371c3efac8933212e34c04c672",
+      "mode": "100644"
+    },
+    {
+      "path": "CLAUDE.md",
+      "gitBlob": "43c994c2d3617f947bcb5adf1933e21dabe46bb5",
+      "sha256": "336cc4fbf19beaada7ccf9986414fa91851a8d7a07dfb3ccbe800a69eed0ab49",
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlob": "f4873c2116435bd7bb58afdb5fddc835397e49dc",
+      "sha256": "7a26108bff9a3301f0ed8fd0697f07134c7ed863d36572885ee37229c88ba29d",
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlob": "937edac8197ebf231ce24cd9c660efff9c5b00de",
+      "sha256": "c6b1edf4066ff716f1e796a247cb5f0c74c00aa4a9c15f44b1feb7d164d09a50",
+      "mode": "100644"
+    }
+  ]
+}

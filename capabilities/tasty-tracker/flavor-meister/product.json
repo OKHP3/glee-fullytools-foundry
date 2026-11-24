@@ -1,0 +1,53 @@
+{
+  "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt03a-flavor-meister",
+  "sourceBranch": "main",
+  "sourceCommit": "65991f8011ca2c1097e0aeb197502bf63a9b144b",
+  "sourceTree": "3a0c09d551b3641a337f55ea2813f8193adcefdf",
+  "sourceLicense": "MIT",
+  "importMode": "sanitized-snapshot",
+  "destinationTree": "a8b0bbe2ffd857fb3f129e1e268553bafecdeb60",
+  "pathCounts": {
+    "imported": 6,
+    "private-operations": 2,
+    "repository-maintenance": 2,
+    "shared-public-reference": 375
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "gitBlob": "dfe0770424b2a19faf507a501ebfc23be8f54e7b",
+      "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlob": "e06b1636c574e35a270f497b392076a06fe688eb",
+      "sha256": "8fd5f05d1e62beedaf7ab0d7f661b678b9963096193307e76cc3dcc5774e5e94",
+      "mode": "100644"
+    },
+    {
+      "path": "AGENTS.md",
+      "gitBlob": "1d44289d005c5f6a319a7347b37c3b2b21240776",
+      "sha256": "e1da1966896af82d94b81bc4b0cacf1c679e0f781c86027d4f097fc4c2bd7e38",
+      "mode": "100644"
+    },
+    {
+      "path": "CLAUDE.md",
+      "gitBlob": "b5b6ab7924689f2636f52822f4a57f473170133a",
+      "sha256": "1b60cd5a02d8fdc39a3658d09b2eb7244329f4243899a7448b988a1b0a6a3a5f",
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlob": "f4873c2116435bd7bb58afdb5fddc835397e49dc",
+      "sha256": "7a26108bff9a3301f0ed8fd0697f07134c7ed863d36572885ee37229c88ba29d",
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlob": "8b8e8d6285660a8e11984aba40ee17695343e38a",
+      "sha256": "4e7a30316f16237412d5857d2b152a2a1292fda592b327403dbc36f46cd101de",
+      "mode": "100644"
+    }
+  ]
+}

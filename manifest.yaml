@@ -119,7 +119,7 @@ product_strategy:
   legacy_sources: [custom-gpt, prompt]
   portable_core_requires_openai: false
   adapter_exports: non-installable-blueprints
-  product_root: products/
+  product_root: capabilities/
   migration_register: products/migration-map.json
-  migration_status: not-inventoried
+  migration_status: inventoried
   workflow: docs/application/portable-capabilities.md

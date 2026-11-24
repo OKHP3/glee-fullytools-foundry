@@ -95,10 +95,10 @@ authoring and evaluation. With/without-skill benchmarks, holdouts and independen
 review must be labeled `not-run` until actually executed. An old GPT evaluation
 does not validate a converted skill or adapter.
 
-The repository consolidation path is [product subtrees](../../products/README.md).
-Product naming describes the capability instead of the former platform. Keep
-old GPT names, IDs and repository URLs as aliases and provenance. Do not rewrite
-sealed canonical IDs or remove historical material to achieve rebranding.
+Find each former GPT in the [capability directory](../../capabilities/README.md)
+under its family. The [migration contract](../../products/README.md) describes
+how to preserve a reviewed source tree within that folder. Keep public GPT
+names, IDs and repository URLs as provenance and preserve sealed canonical IDs.
 
 ## Source and platform boundaries
 

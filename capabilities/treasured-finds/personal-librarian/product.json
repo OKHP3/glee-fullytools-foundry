@@ -1,0 +1,76 @@
+{
+  "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt02a-personal-librarian",
+  "sourceBranch": "main",
+  "sourceCommit": "88dd8d533900ef9a9057a97a19b06e9205346ce8",
+  "sourceTree": "abf3dd96d4bd85d199db5bca9ab7795f77fcaab2",
+  "sourceLicense": "MIT",
+  "importMode": "sanitized-snapshot",
+  "destinationTree": "d375552266027f7f74cf1569dba505f373d05f8b",
+  "pathCounts": {
+    "imported": 10,
+    "repository-maintenance": 2,
+    "shared-public-reference": 126
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "gitBlob": "dfe0770424b2a19faf507a501ebfc23be8f54e7b",
+      "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlob": "43ae0e2a6c6d8fca34872506ca0f2e64194fec7c",
+      "sha256": "6feaded4e28ea86e001a6751b4e3d960e8b7c31b9616ff9936b79297086e809b",
+      "mode": "100644"
+    },
+    {
+      "path": "AGENTS.md",
+      "gitBlob": "d332c9f599329b40710b02b1a67acf7f18f77ee5",
+      "sha256": "ac2fb6c106db883255de2b616a815dc7de84d1124fcde5a0ff9e764267db42f2",
+      "mode": "100644"
+    },
+    {
+      "path": "CLAUDE.md",
+      "gitBlob": "b37b445bcf6c892b388ca4691e15c23e3bcee590",
+      "sha256": "cedcffac846125b134342f88d089ce56ee48fb98fa9a89bd19c78171cc017986",
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlob": "f4873c2116435bd7bb58afdb5fddc835397e49dc",
+      "sha256": "7a26108bff9a3301f0ed8fd0697f07134c7ed863d36572885ee37229c88ba29d",
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlob": "bd5eade8fd02e31507ff6f258d21986b3b9d884f",
+      "sha256": "a9d42b8f443e46d18ec62db3455d85396d9c7c213fd30ac79c2878214cec1163",
+      "mode": "100644"
+    },
+    {
+      "path": "examples/library/personal_librarian_download.md",
+      "gitBlob": "8addb6259bec444e39a346ff396a4af34688c983",
+      "sha256": "fc9293c7aee09da79742cc7b648e3cbe8779c173e21a377db6667c1e82691aa1",
+      "mode": "100644"
+    },
+    {
+      "path": "examples/library/personal_librarian_download_example.csv",
+      "gitBlob": "4a1f8e21bcde9de32f2c888863915e7798def1f8",
+      "sha256": "f796870f4b0ee72e1ff14902d64a54e7c058e022b137d96aa8f2f6d901a31588",
+      "mode": "100644"
+    },
+    {
+      "path": "examples/library/personal_librarian_upload.md",
+      "gitBlob": "5903c24719576194a57385e66b6438af07296e9a",
+      "sha256": "67d0479c868ef867d7da5f9fb62ed28b842762aed414d0574512a8233d5b3e8f",
+      "mode": "100644"
+    },
+    {
+      "path": "examples/library/personal_librarian_upload_template.csv",
+      "gitBlob": "3a5ac1b69fb744b37b7c578cc0961a5b4e9f00ac",
+      "sha256": "825d21f133d69ec8b1db757f1cc697ae0485e3a520056c23a66eb795a4026864",
+      "mode": "100644"
+    }
+  ]
+}

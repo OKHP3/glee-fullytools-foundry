@@ -1,0 +1,113 @@
+{
+  "sourceRepository": "https://github.com/OKHP3/glee-fully-gpt05c-giftlist-helper",
+  "sourceBranch": "main",
+  "sourceCommit": "30f2415862d8fc5a106cc10e0afea35429501d27",
+  "sourceTree": "0424015c765105eef1db69458d994a585681102d",
+  "sourceLicense": "MIT",
+  "importMode": "sanitized-snapshot",
+  "destinationTree": "4747f2c37076d056f3e9bff7644f5dbe638961b2",
+  "pathCounts": {
+    "imported": 16,
+    "private-operations": 2,
+    "repository-maintenance": 3,
+    "shared-public-reference": 375
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "gitBlob": "dfe0770424b2a19faf507a501ebfc23be8f54e7b",
+      "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "gitBlob": "4e184ba7a739ca7c434f9c10055204b8500d7528",
+      "sha256": "3e744c452147d9ba0094e4a7474283d414d352cbccdfe73b31a4c1b416ccf36f",
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlob": "f4873c2116435bd7bb58afdb5fddc835397e49dc",
+      "sha256": "7a26108bff9a3301f0ed8fd0697f07134c7ed863d36572885ee37229c88ba29d",
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "gitBlob": "2176505ac4bef7cf64130890855f7fae783eed9f",
+      "sha256": "87ddc80921d2927792d57d61f753324a66652d9fd5691c994e248cd8f16cedc4",
+      "mode": "100644"
+    },
+    {
+      "path": "giftlist-helper-final.md",
+      "gitBlob": "1bcc31a08f3bcbda0eb57da2526e0f855208213e",
+      "sha256": "36ebd95948eb87e49d15ad4c52f990a4acf5128db90cfd2d935c647760d3a72e",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledgebundle/Giftlist Helper Final.md",
+      "gitBlob": "1bcc31a08f3bcbda0eb57da2526e0f855208213e",
+      "sha256": "36ebd95948eb87e49d15ad4c52f990a4acf5128db90cfd2d935c647760d3a72e",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledgebundle/Glee–fully Square Giftlist Helper.png",
+      "gitBlob": "03650e2c1e5863a3de684e30010e696fbbc99158",
+      "sha256": "151b9300b01d70b433d6d7854a7889561192fed54f264e38c3788ecd4e48c24c",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledgebundle/dataLedger_archive_v2.txt",
+      "gitBlob": "30da2d753e570a964ddc71767daa091f1d33762f",
+      "sha256": "2c5b108fc782d51628ba3d2fe5deb6a921f2c86a5dda1e5251e525707e659aee",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledgebundle/dataLedger_narrative_v2.txt",
+      "gitBlob": "e3a8ae4ec35c4d47bee8c9a25ce759fec9366e4b",
+      "sha256": "070cf035cebdc9eb0997924e964cc264ffb2022c6ebe0e118d330ea870a705c8",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledgebundle/dataLedger_parameters_v2.txt",
+      "gitBlob": "37bf8f5563c47d7876e69bf79b075c9ae344c694",
+      "sha256": "fdd20a25c8345102e5dda3adf31bacb94ee95818561f1a5e7b44928bd1f74ba0",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledgebundle/dataLedger_persona_v2.txt",
+      "gitBlob": "6dccf5cb028ba4ffb9e326ee5285d278f3cb4740",
+      "sha256": "973eb0084af67f16d1a163096b533c937e8ed8056fba80323ac1e66d674e5888",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledgebundle/dataLedger_processing_v2.txt",
+      "gitBlob": "8e3aacea0a7e3939d171b490018fff9bfd6ff337",
+      "sha256": "751d322d22c0914c94cd4ed013ee78171272317a317996aeef1a7610a5c62b3a",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledgebundle/dataLedger_registry_v2.txt",
+      "gitBlob": "591bf2f3baa7a32154af63114e13d0fd62522a47",
+      "sha256": "813ea07741a0f1fa9bfad7fb3df2ad8b9bc9e59b5a0d7bbdb14a17a27ba708a7",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledgebundle/dataLedger_system_v2.txt",
+      "gitBlob": "0afc00afa47235b2a2a81ecf20ad38671fa8e5c9",
+      "sha256": "ad8769391d6b4354bfb73b8dbc828e4604190e0446bc9b59afd4ea8fcce7d9cc",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledgebundle/giftlisthelper_builderbundle.zip",
+      "gitBlob": "9c797c1acd57cc51bbf9592a2d7ac83e7ffa0662",
+      "sha256": "45849bcba3ace07d91ecfe737c61d1e812ea12d6c6d33915850aa2d079332803",
+      "mode": "100644"
+    },
+    {
+      "path": "knowledgebundle/giftlisthelper_canonicaldataledgerbundle.zip",
+      "gitBlob": "ecdd81208d72873a7ea894771994e18de3b11180",
+      "sha256": "808203717323e3bb559a63e52e62212aea0b8dc6cc90007b9528f74ddfe03c5a",
+      "mode": "100644"
+    }
+  ]
+}
