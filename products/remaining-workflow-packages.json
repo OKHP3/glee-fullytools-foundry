@@ -1,0 +1,1573 @@
+{
+  "releaseTag": "workflow-plugins-v2",
+  "acceptanceCommit": "e0ab8ee1e9c060386156a629591bf73256b226f3",
+  "acceptedCohort": "products/remaining-workflow-acceptance.json",
+  "edition": "FoundRy public workflow",
+  "verification": "Compared all 39 versions with the archived releases used in ChatGPT. Each ZIP was rebuilt from FoundRy sources, then checked against its knowledge index, member digests and tested instruction changes. Account-specific launch links resolve to the corresponding public capability pages. Source-specific differences are listed by knowledge file.",
+  "counts": {
+    "packages": 39,
+    "indexedKnowledgeFiles": 216,
+    "testedRepairs": 5,
+    "builderStarters": 278,
+    "byKnowledgeComparison": {
+      "reviewed-public-edition": 56,
+      "original-bytes": 157,
+      "public-substitute": 1,
+      "companion-bytes": 2
+    }
+  },
+  "products": [
+    {
+      "productId": "personalizable-tools",
+      "route": "capabilities/personalizable-tools",
+      "testedVersion": "0.58.2",
+      "archive": "personalizable-tools-workflow-0.58.2.zip",
+      "downloadUrl": "https://github.com/OKHP3/glee-fullytools-foundry/releases/download/workflow-plugins-v2/personalizable-tools-workflow-0.58.2.zip",
+      "bytes": 3137467,
+      "archiveSha256": "5c1f3004c7f974104fe82785045dcb2dc6bc01723c79afca2d1107254d65b75e",
+      "indexedKnowledgeFiles": 10,
+      "knowledge": [
+        {
+          "name": "00a Glee-fully Personalizable Tools_Pulsebook_20250907.md",
+          "archivePath": "skills/instructions/references/00a Glee-fully Personalizable Tools_Pulsebook_20250907.md",
+          "comparison": "reviewed-public-edition"
+        },
+        {
+          "name": "Glee-fully Square Tools.png",
+          "archivePath": "skills/instructions/references/Glee-fully Square Tools.png",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "Operator’s Cathedral Layout 📐.md",
+          "archivePath": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+          "comparison": "reviewed-public-edition"
+        },
+        {
+          "name": "dataLedger_hydration_v3.md",
+          "archivePath": "skills/instructions/references/dataLedger_hydration_v3.md",
+          "comparison": "reviewed-public-edition"
+        },
+        {
+          "name": "dataLedger_parameters_v3.md",
+          "archivePath": "skills/instructions/references/dataLedger_parameters_v3.md",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_persona_v3.md",
+          "archivePath": "skills/instructions/references/dataLedger_persona_v3.md",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_registry_v3.md",
+          "archivePath": "skills/instructions/references/dataLedger_registry_v3.md",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_system_v3.md",
+          "archivePath": "skills/instructions/references/dataLedger_system_v3.md",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "🦋 Glee‑fully Vernacular Complete.md",
+          "archivePath": "skills/instructions/references/🦋 Glee‑fully Vernacular Complete.md",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "🦋 Glee‑fully Vernacular Lite.md",
+          "archivePath": "skills/instructions/references/🦋 Glee‑fully Vernacular Lite.md",
+          "comparison": "original-bytes"
+        }
+      ]
+    },
+    {
+      "productId": "discovered-careers",
+      "route": "capabilities/discovered-careers",
+      "testedVersion": "0.22.2",
+      "archive": "discovered-careers-workflow-0.22.2.zip",
+      "downloadUrl": "https://github.com/OKHP3/glee-fullytools-foundry/releases/download/workflow-plugins-v2/discovered-careers-workflow-0.22.2.zip",
+      "bytes": 2932359,
+      "archiveSha256": "1a92954388fbb38f08d17728f06486cb4b85d2a5aaf8e746ec96eb5d7fcf0399",
+      "indexedKnowledgeFiles": 10,
+      "knowledge": [
+        {
+          "name": "01 Glee-fully Discovered Careers_Pulsebook_20250908.md",
+          "archivePath": "skills/instructions/references/01 Glee-fully Discovered Careers_Pulsebook_20250908.md",
+          "comparison": "reviewed-public-edition"
+        },
+        {
+          "name": "01 Glee-fully Square Discovered Careers.png",
+          "archivePath": "skills/instructions/references/01 Glee-fully Square Discovered Careers.png",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "Operator’s Cathedral Layout 📐.md",
+          "archivePath": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+          "comparison": "reviewed-public-edition"
+        },
+        {
+          "name": "dataLedger_hydration_v3.md",
+          "archivePath": "skills/instructions/references/dataLedger_hydration_v3.md",
+          "comparison": "reviewed-public-edition"
+        },
+        {
+          "name": "dataLedger_parameters_v3.md",
+          "archivePath": "skills/instructions/references/dataLedger_parameters_v3.md",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_persona_v3.md",
+          "archivePath": "skills/instructions/references/dataLedger_persona_v3.md",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_registry_v3.md",
+          "archivePath": "skills/instructions/references/dataLedger_registry_v3.md",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_system_v3.md",
+          "archivePath": "skills/instructions/references/dataLedger_system_v3.md",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "🦋 Glee‑fully Vernacular Complete.md",
+          "archivePath": "skills/instructions/references/🦋 Glee‑fully Vernacular Complete.md",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "🦋 Glee‑fully Vernacular Lite.md",
+          "archivePath": "skills/instructions/references/🦋 Glee‑fully Vernacular Lite.md",
+          "comparison": "original-bytes"
+        }
+      ]
+    },
+    {
+      "productId": "resume-builder",
+      "route": "capabilities/discovered-careers/resume-builder",
+      "testedVersion": "0.23.2",
+      "archive": "resume-builder-workflow-0.23.2.zip",
+      "downloadUrl": "https://github.com/OKHP3/glee-fullytools-foundry/releases/download/workflow-plugins-v2/resume-builder-workflow-0.23.2.zip",
+      "bytes": 673940,
+      "archiveSha256": "9d20f2c6be0727e9f24684dbbd44f97e5a70e254b87f38cd091679ca518ee1e0",
+      "indexedKnowledgeFiles": 8,
+      "knowledge": [
+        {
+          "name": "Creative_Resume.docx",
+          "archivePath": "skills/instructions/references/Creative_Resume.docx",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "Creative_Resume.txt",
+          "archivePath": "skills/instructions/references/Creative_Resume.txt",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "Modern_Resume.docx",
+          "archivePath": "skills/instructions/references/Modern_Resume.docx",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "Modern_Resume.txt",
+          "archivePath": "skills/instructions/references/Modern_Resume.txt",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "Operator’s Cathedral Layout 📐.md",
+          "archivePath": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+          "comparison": "reviewed-public-edition"
+        },
+        {
+          "name": "Resume_Schema_Template.txt",
+          "archivePath": "skills/instructions/references/Resume_Schema_Template.txt",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "Traditional_Resume.docx",
+          "archivePath": "skills/instructions/references/Traditional_Resume.docx",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "Traditional_Resume.txt",
+          "archivePath": "skills/instructions/references/Traditional_Resume.txt",
+          "comparison": "original-bytes"
+        }
+      ]
+    },
+    {
+      "productId": "treasured-finds",
+      "route": "capabilities/treasured-finds",
+      "testedVersion": "0.14.2",
+      "archive": "treasured-finds-workflow-0.14.2.zip",
+      "downloadUrl": "https://github.com/OKHP3/glee-fullytools-foundry/releases/download/workflow-plugins-v2/treasured-finds-workflow-0.14.2.zip",
+      "bytes": 581768,
+      "archiveSha256": "b1b59780d10572cad5dc2c3ad0420e966f2c7d15b7b995866f2fbf6d9fffc3ff",
+      "indexedKnowledgeFiles": 1,
+      "knowledge": [
+        {
+          "name": "Operator’s Cathedral Layout 📐.md",
+          "archivePath": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+          "comparison": "reviewed-public-edition"
+        }
+      ]
+    },
+    {
+      "productId": "personal-librarian",
+      "route": "capabilities/treasured-finds/personal-librarian",
+      "testedVersion": "0.21.2",
+      "archive": "personal-librarian-workflow-0.21.2.zip",
+      "downloadUrl": "https://github.com/OKHP3/glee-fullytools-foundry/releases/download/workflow-plugins-v2/personal-librarian-workflow-0.21.2.zip",
+      "bytes": 514279,
+      "archiveSha256": "f5276456de07d6fb45d7d1c2e03d05a3d849f623d95715aeebcbf14e1af03ea5",
+      "indexedKnowledgeFiles": 3,
+      "knowledge": [
+        {
+          "name": "Operator’s Cathedral Layout 📐.md",
+          "archivePath": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+          "comparison": "reviewed-public-edition"
+        },
+        {
+          "name": "Personal_Librarian_Download_Example.csv",
+          "archivePath": "skills/instructions/references/Personal_Librarian_Download_Example.csv",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "Personal_Librarian_Upload_Template.csv",
+          "archivePath": "skills/instructions/references/Personal_Librarian_Upload_Template.csv",
+          "comparison": "original-bytes"
+        }
+      ]
+    },
+    {
+      "productId": "spirited-journal",
+      "route": "capabilities/treasured-finds/spirited-journal",
+      "testedVersion": "0.15.2",
+      "archive": "spirited-journal-workflow-0.15.2.zip",
+      "downloadUrl": "https://github.com/OKHP3/glee-fullytools-foundry/releases/download/workflow-plugins-v2/spirited-journal-workflow-0.15.2.zip",
+      "bytes": 621247,
+      "archiveSha256": "4d59e1bc8620b89e8e81240376b68ba7efb43e768d84a3183b887a9c1bd8234f",
+      "indexedKnowledgeFiles": 1,
+      "knowledge": [
+        {
+          "name": "Operator’s Cathedral Layout 📐.md",
+          "archivePath": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+          "comparison": "reviewed-public-edition"
+        }
+      ]
+    },
+    {
+      "productId": "bag-nabbit",
+      "route": "capabilities/treasured-finds/bag-nabbit",
+      "testedVersion": "0.6.1+bundle.d579b74f3b40116160b7a1f80f633190",
+      "archive": "bag-nabbit-workflow-0.6.1+bundle.d579b74f3b40116160b7a1f80f633190.zip",
+      "downloadUrl": "https://github.com/OKHP3/glee-fullytools-foundry/releases/download/workflow-plugins-v2/bag-nabbit-workflow-0.6.1%2Bbundle.d579b74f3b40116160b7a1f80f633190.zip",
+      "bytes": 524917,
+      "archiveSha256": "dbbf7a7b59bd2321badcd47fe23b7730343fb662874921dbb8b4fb4d20c0c999",
+      "indexedKnowledgeFiles": 1,
+      "knowledge": [
+        {
+          "name": "Operator’s Cathedral Layout 📐.md",
+          "archivePath": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+          "comparison": "reviewed-public-edition"
+        }
+      ]
+    },
+    {
+      "productId": "tasty-tracker",
+      "route": "capabilities/tasty-tracker",
+      "testedVersion": "0.17.2",
+      "archive": "tasty-tracker-workflow-0.17.2.zip",
+      "downloadUrl": "https://github.com/OKHP3/glee-fullytools-foundry/releases/download/workflow-plugins-v2/tasty-tracker-workflow-0.17.2.zip",
+      "bytes": 512749,
+      "archiveSha256": "2796e5c6763d48d5907fcec5a2be2d9d3baf238def6512d76c72a3e8b2ab1daf",
+      "indexedKnowledgeFiles": 1,
+      "knowledge": [
+        {
+          "name": "Operator’s Cathedral Layout 📐.md",
+          "archivePath": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+          "comparison": "reviewed-public-edition"
+        }
+      ]
+    },
+    {
+      "productId": "travelers-guide",
+      "route": "capabilities/travelers-guide",
+      "testedVersion": "0.14.2",
+      "archive": "travelers-guide-workflow-0.14.2.zip",
+      "downloadUrl": "https://github.com/OKHP3/glee-fullytools-foundry/releases/download/workflow-plugins-v2/travelers-guide-workflow-0.14.2.zip",
+      "bytes": 499006,
+      "archiveSha256": "3942198963aed8daac4f195816de31c4844999ee10233c186755fffcd3ab4e23",
+      "indexedKnowledgeFiles": 1,
+      "knowledge": [
+        {
+          "name": "Operator’s Cathedral Layout 📐.md",
+          "archivePath": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+          "comparison": "reviewed-public-edition"
+        }
+      ]
+    },
+    {
+      "productId": "journey-diary",
+      "route": "capabilities/travelers-guide/journey-diary",
+      "testedVersion": "0.4.2",
+      "archive": "journey-diary-workflow-0.4.2.zip",
+      "downloadUrl": "https://github.com/OKHP3/glee-fullytools-foundry/releases/download/workflow-plugins-v2/journey-diary-workflow-0.4.2.zip",
+      "bytes": 597143,
+      "archiveSha256": "b10a5e22fa5b154ef16d55a677b642afdd8c429c41fe4a800c6a932b80d2af7e",
+      "indexedKnowledgeFiles": 1,
+      "knowledge": [
+        {
+          "name": "Operator’s Cathedral Layout 📐.md",
+          "archivePath": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+          "comparison": "reviewed-public-edition"
+        }
+      ],
+      "testedRepair": "A source question produced a retired Memento Log link. The updated instructions limit handoffs to requests for a specialist and use the current destination."
+    },
+    {
+      "productId": "itinerary-hacker",
+      "route": "capabilities/travelers-guide/itinerary-hacker",
+      "testedVersion": "0.6.2",
+      "archive": "itinerary-hacker-workflow-0.6.2.zip",
+      "downloadUrl": "https://github.com/OKHP3/glee-fullytools-foundry/releases/download/workflow-plugins-v2/itinerary-hacker-workflow-0.6.2.zip",
+      "bytes": 606393,
+      "archiveSha256": "43430cc0bb38491fa53bd8c2de9a815a24916d57a76fa9f7a5315f65d9aa625d",
+      "indexedKnowledgeFiles": 1,
+      "knowledge": [
+        {
+          "name": "Operator’s Cathedral Layout 📐.md",
+          "archivePath": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+          "comparison": "reviewed-public-edition"
+        }
+      ],
+      "testedRepair": "A planning answer offered the retired Detour Discoverer destination. The updated instructions handle reference questions directly and use the current destination for a requested handoff."
+    },
+    {
+      "productId": "detour-discoverer",
+      "route": "capabilities/travelers-guide/detour-discoverer",
+      "testedVersion": "0.6.2",
+      "archive": "detour-discoverer-workflow-0.6.2.zip",
+      "downloadUrl": "https://github.com/OKHP3/glee-fullytools-foundry/releases/download/workflow-plugins-v2/detour-discoverer-workflow-0.6.2.zip",
+      "bytes": 564897,
+      "archiveSha256": "d85e64db0e0ed4af3dd3362fa4090d4d265ff3284d0592a2a324e09edf5c8fe1",
+      "indexedKnowledgeFiles": 1,
+      "knowledge": [
+        {
+          "name": "Operator’s Cathedral Layout 📐.md",
+          "archivePath": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+          "comparison": "reviewed-public-edition"
+        }
+      ],
+      "testedRepair": "The answer appended a retired Journey Diary link to a detour comparison. The updated instructions keep the journal reference in the answer and limit a handoff to the current destination when requested."
+    },
+    {
+      "productId": "dreamland-journeys",
+      "route": "capabilities/travelers-guide/dreamland-journeys",
+      "testedVersion": "0.14.2",
+      "archive": "dreamland-journeys-workflow-0.14.2.zip",
+      "downloadUrl": "https://github.com/OKHP3/glee-fullytools-foundry/releases/download/workflow-plugins-v2/dreamland-journeys-workflow-0.14.2.zip",
+      "bytes": 3123188,
+      "archiveSha256": "3686c05f1b7f7504d467297c9100944433d4c1c1d2d1e066d8367966e14586ad",
+      "indexedKnowledgeFiles": 12,
+      "knowledge": [
+        {
+          "name": "DreamMood_Tags.csv",
+          "archivePath": "skills/instructions/references/DreamMood_Tags.csv",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "Dreamland_Journeys_PME.yaml",
+          "archivePath": "skills/instructions/references/Dreamland_Journeys_PME.yaml",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "Glee–fully Square Dreamland Journeys.png",
+          "archivePath": "skills/instructions/references/Glee–fully Square Dreamland Journeys.png",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "Operator’s Cathedral Layout 📐.md",
+          "archivePath": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+          "comparison": "reviewed-public-edition"
+        },
+        {
+          "name": "ReverseDreamPromptBank.md",
+          "archivePath": "skills/instructions/references/ReverseDreamPromptBank.md",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "Status_Snapshot_Template.md",
+          "archivePath": "skills/instructions/references/Status_Snapshot_Template.md",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "Wishboard_Moodboards.md",
+          "archivePath": "skills/instructions/references/Wishboard_Moodboards.md",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_hydration_v3.md",
+          "archivePath": "skills/instructions/references/dataLedger_hydration_v3.md",
+          "comparison": "reviewed-public-edition"
+        },
+        {
+          "name": "dataLedger_parameters_v3.md",
+          "archivePath": "skills/instructions/references/dataLedger_parameters_v3.md",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_persona_v3.md",
+          "archivePath": "skills/instructions/references/dataLedger_persona_v3.md",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_registry_v3.md",
+          "archivePath": "skills/instructions/references/dataLedger_registry_v3.md",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_system_v3.md",
+          "archivePath": "skills/instructions/references/dataLedger_system_v3.md",
+          "comparison": "original-bytes"
+        }
+      ]
+    },
+    {
+      "productId": "memento-log",
+      "route": "capabilities/travelers-guide/memento-log",
+      "testedVersion": "0.13.2",
+      "archive": "memento-log-workflow-0.13.2.zip",
+      "downloadUrl": "https://github.com/OKHP3/glee-fullytools-foundry/releases/download/workflow-plugins-v2/memento-log-workflow-0.13.2.zip",
+      "bytes": 2921121,
+      "archiveSha256": "5fb08edef90189aafa0c1065011c526211073abbea0212d9d2fc3a1f58874d3f",
+      "indexedKnowledgeFiles": 10,
+      "knowledge": [
+        {
+          "name": "Glee–fully Square Memento Log.png",
+          "archivePath": "skills/instructions/references/Glee–fully Square Memento Log.png",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "Operator’s Cathedral Layout 📐.md",
+          "archivePath": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+          "comparison": "reviewed-public-edition"
+        },
+        {
+          "name": "dataLedger_archive_v2.txt",
+          "archivePath": "skills/instructions/references/dataLedger_archive_v2.txt",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_ideation_v2.txt",
+          "archivePath": "skills/instructions/references/dataLedger_ideation_v2.txt",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_narrative_v2.txt",
+          "archivePath": "skills/instructions/references/dataLedger_narrative_v2.txt",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_parameters_v2.txt",
+          "archivePath": "skills/instructions/references/dataLedger_parameters_v2.txt",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_persona_v2.txt",
+          "archivePath": "skills/instructions/references/dataLedger_persona_v2.txt",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_processing_v2.txt",
+          "archivePath": "skills/instructions/references/dataLedger_processing_v2.txt",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_registry_v2.txt",
+          "archivePath": "skills/instructions/references/dataLedger_registry_v2.txt",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_system_v2.txt",
+          "archivePath": "skills/instructions/references/dataLedger_system_v2.txt",
+          "comparison": "original-bytes"
+        }
+      ]
+    },
+    {
+      "productId": "organized-life",
+      "route": "capabilities/organized-life",
+      "testedVersion": "0.17.2",
+      "archive": "organized-life-workflow-0.17.2.zip",
+      "downloadUrl": "https://github.com/OKHP3/glee-fullytools-foundry/releases/download/workflow-plugins-v2/organized-life-workflow-0.17.2.zip",
+      "bytes": 3071625,
+      "archiveSha256": "207ada5aa309a726972d639fa82cef9bb83139d2aa5b11c4b22d1c7540d82c04",
+      "indexedKnowledgeFiles": 10,
+      "knowledge": [
+        {
+          "name": "Glee-fully Square Organized Life.png",
+          "archivePath": "skills/instructions/references/Glee-fully Square Organized Life.png",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "Operator’s Cathedral Layout 📐.md",
+          "archivePath": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+          "comparison": "reviewed-public-edition"
+        },
+        {
+          "name": "dataLedger_archive_v2.txt",
+          "archivePath": "skills/instructions/references/dataLedger_archive_v2.txt",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_ideation_v2.txt",
+          "archivePath": "skills/instructions/references/dataLedger_ideation_v2.txt",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_narrative_v2.txt",
+          "archivePath": "skills/instructions/references/dataLedger_narrative_v2.txt",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_parameters_v2.txt",
+          "archivePath": "skills/instructions/references/dataLedger_parameters_v2.txt",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_persona_v2.txt",
+          "archivePath": "skills/instructions/references/dataLedger_persona_v2.txt",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_processing_v2.txt",
+          "archivePath": "skills/instructions/references/dataLedger_processing_v2.txt",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_registry_v2.txt",
+          "archivePath": "skills/instructions/references/dataLedger_registry_v2.txt",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_system_v2.txt",
+          "archivePath": "skills/instructions/references/dataLedger_system_v2.txt",
+          "comparison": "original-bytes"
+        }
+      ]
+    },
+    {
+      "productId": "task-maestro",
+      "route": "capabilities/organized-life/task-maestro",
+      "testedVersion": "0.6.2",
+      "archive": "task-maestro-workflow-0.6.2.zip",
+      "downloadUrl": "https://github.com/OKHP3/glee-fullytools-foundry/releases/download/workflow-plugins-v2/task-maestro-workflow-0.6.2.zip",
+      "bytes": 2601467,
+      "archiveSha256": "0670af36d8a8c3956bbfd3576c368631cc727dc5f50e9d07cad296b6172fe211",
+      "indexedKnowledgeFiles": 10,
+      "knowledge": [
+        {
+          "name": "Glee–fully Square Task Maestro.png",
+          "archivePath": "skills/instructions/references/Glee–fully Square Task Maestro.png",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "Operator’s Cathedral Layout 📐.md",
+          "archivePath": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+          "comparison": "reviewed-public-edition"
+        },
+        {
+          "name": "dataLedger_archive_v2.txt",
+          "archivePath": "skills/instructions/references/dataLedger_archive_v2.txt",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_ideation_v2.txt",
+          "archivePath": "skills/instructions/references/dataLedger_ideation_v2.txt",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_narrative_v2.txt",
+          "archivePath": "skills/instructions/references/dataLedger_narrative_v2.txt",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_parameters_v2.txt",
+          "archivePath": "skills/instructions/references/dataLedger_parameters_v2.txt",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_persona_v2.txt",
+          "archivePath": "skills/instructions/references/dataLedger_persona_v2.txt",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_processing_v2.txt",
+          "archivePath": "skills/instructions/references/dataLedger_processing_v2.txt",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_registry_v2.txt",
+          "archivePath": "skills/instructions/references/dataLedger_registry_v2.txt",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_system_v2.txt",
+          "archivePath": "skills/instructions/references/dataLedger_system_v2.txt",
+          "comparison": "original-bytes"
+        }
+      ]
+    },
+    {
+      "productId": "thrifty-spender",
+      "route": "capabilities/organized-life/thrifty-spender",
+      "testedVersion": "0.5.2",
+      "archive": "thrifty-spender-workflow-0.5.2.zip",
+      "downloadUrl": "https://github.com/OKHP3/glee-fullytools-foundry/releases/download/workflow-plugins-v2/thrifty-spender-workflow-0.5.2.zip",
+      "bytes": 2761101,
+      "archiveSha256": "0953ff038377cd69994fa239c067747f0d8da4523a114b006e7ca76ad8d7e0b6",
+      "indexedKnowledgeFiles": 10,
+      "knowledge": [
+        {
+          "name": "Glee–fully Square Thrifty Spender.png",
+          "archivePath": "skills/instructions/references/Glee–fully Square Thrifty Spender.png",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "Operator’s Cathedral Layout 📐.md",
+          "archivePath": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+          "comparison": "reviewed-public-edition"
+        },
+        {
+          "name": "dataLedger_archive_v2.txt",
+          "archivePath": "skills/instructions/references/dataLedger_archive_v2.txt",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_ideation_v2.txt",
+          "archivePath": "skills/instructions/references/dataLedger_ideation_v2.txt",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_narrative_v2.txt",
+          "archivePath": "skills/instructions/references/dataLedger_narrative_v2.txt",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_parameters_v2.txt",
+          "archivePath": "skills/instructions/references/dataLedger_parameters_v2.txt",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_persona_v2.txt",
+          "archivePath": "skills/instructions/references/dataLedger_persona_v2.txt",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_processing_v2.txt",
+          "archivePath": "skills/instructions/references/dataLedger_processing_v2.txt",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_registry_v2.txt",
+          "archivePath": "skills/instructions/references/dataLedger_registry_v2.txt",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_system_v2.txt",
+          "archivePath": "skills/instructions/references/dataLedger_system_v2.txt",
+          "comparison": "original-bytes"
+        }
+      ]
+    },
+    {
+      "productId": "giftlist-helper",
+      "route": "capabilities/organized-life/giftlist-helper",
+      "testedVersion": "0.6.3",
+      "archive": "giftlist-helper-workflow-0.6.3.zip",
+      "downloadUrl": "https://github.com/OKHP3/glee-fullytools-foundry/releases/download/workflow-plugins-v2/giftlist-helper-workflow-0.6.3.zip",
+      "bytes": 2631964,
+      "archiveSha256": "71d6f34f367eeda219cc0014f8718a7b12575fcf02a80ef635728393ebeaa517",
+      "indexedKnowledgeFiles": 11,
+      "knowledge": [
+        {
+          "name": "Giftlist Helper Final.md",
+          "archivePath": "skills/instructions/references/Giftlist Helper Final.md",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "Glee–fully Square Giftlist Helper.png",
+          "archivePath": "skills/instructions/references/Glee–fully Square Giftlist Helper.png",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "Operator’s Cathedral Layout 📐.md",
+          "archivePath": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+          "comparison": "reviewed-public-edition"
+        },
+        {
+          "name": "dataLedger_archive_v2.txt",
+          "archivePath": "skills/instructions/references/dataLedger_archive_v2.txt",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_ideation_v2.txt",
+          "archivePath": "skills/instructions/references/dataLedger_ideation_v2.txt",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_narrative_v2.txt",
+          "archivePath": "skills/instructions/references/dataLedger_narrative_v2.txt",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_parameters_v2.txt",
+          "archivePath": "skills/instructions/references/dataLedger_parameters_v2.txt",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_persona_v2.txt",
+          "archivePath": "skills/instructions/references/dataLedger_persona_v2.txt",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_processing_v2.txt",
+          "archivePath": "skills/instructions/references/dataLedger_processing_v2.txt",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_registry_v2.txt",
+          "archivePath": "skills/instructions/references/dataLedger_registry_v2.txt",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_system_v2.txt",
+          "archivePath": "skills/instructions/references/dataLedger_system_v2.txt",
+          "comparison": "original-bytes"
+        }
+      ]
+    },
+    {
+      "productId": "scheduling-wizard",
+      "route": "capabilities/organized-life/scheduling-wizard",
+      "testedVersion": "0.11.1+bundle.b64390ee1481dbccd12cd5ce985d3de2",
+      "archive": "scheduling-wizard-workflow-0.11.1+bundle.b64390ee1481dbccd12cd5ce985d3de2.zip",
+      "downloadUrl": "https://github.com/OKHP3/glee-fullytools-foundry/releases/download/workflow-plugins-v2/scheduling-wizard-workflow-0.11.1%2Bbundle.b64390ee1481dbccd12cd5ce985d3de2.zip",
+      "bytes": 2710332,
+      "archiveSha256": "90744464521923abea81b824940bf085862da18d86eb373b7157d2bc2bd1a49b",
+      "indexedKnowledgeFiles": 11,
+      "knowledge": [
+        {
+          "name": "Glee–fully Square Scheduling Wizard.png",
+          "archivePath": "skills/instructions/references/Glee–fully Square Scheduling Wizard.png",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "Operator’s Cathedral Layout 📐.md",
+          "archivePath": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+          "comparison": "reviewed-public-edition"
+        },
+        {
+          "name": "Scheduling_Wizard_GPT_System_Instructions.txt",
+          "archivePath": "skills/instructions/references/Scheduling_Wizard_GPT_System_Instructions.txt",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_archive_v2.txt",
+          "archivePath": "skills/instructions/references/dataLedger_archive_v2.txt",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_ideation_v2.txt",
+          "archivePath": "skills/instructions/references/dataLedger_ideation_v2.txt",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_narrative_v2.txt",
+          "archivePath": "skills/instructions/references/dataLedger_narrative_v2.txt",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_parameters_v2.txt",
+          "archivePath": "skills/instructions/references/dataLedger_parameters_v2.txt",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_persona_v2.txt",
+          "archivePath": "skills/instructions/references/dataLedger_persona_v2.txt",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_processing_v2.txt",
+          "archivePath": "skills/instructions/references/dataLedger_processing_v2.txt",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_registry_v2.txt",
+          "archivePath": "skills/instructions/references/dataLedger_registry_v2.txt",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_system_v2.txt",
+          "archivePath": "skills/instructions/references/dataLedger_system_v2.txt",
+          "comparison": "original-bytes"
+        }
+      ]
+    },
+    {
+      "productId": "lifestyle-wallboard",
+      "route": "capabilities/organized-life/lifestyle-wallboard",
+      "testedVersion": "0.6.2",
+      "archive": "lifestyle-wallboard-workflow-0.6.2.zip",
+      "downloadUrl": "https://github.com/OKHP3/glee-fullytools-foundry/releases/download/workflow-plugins-v2/lifestyle-wallboard-workflow-0.6.2.zip",
+      "bytes": 2679247,
+      "archiveSha256": "ca134d1df1ded8e68a2902fe90afdc8fb99059364ecc93ca20ea4d067de4c009",
+      "indexedKnowledgeFiles": 10,
+      "knowledge": [
+        {
+          "name": "Glee–fully Square Lifestyle Wallboard.png",
+          "archivePath": "skills/instructions/references/Glee–fully Square Lifestyle Wallboard.png",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "Operator’s Cathedral Layout 📐.md",
+          "archivePath": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+          "comparison": "reviewed-public-edition"
+        },
+        {
+          "name": "dataLedger_archive_v2.txt",
+          "archivePath": "skills/instructions/references/dataLedger_archive_v2.txt",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_ideation_v2.txt",
+          "archivePath": "skills/instructions/references/dataLedger_ideation_v2.txt",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_narrative_v2.txt",
+          "archivePath": "skills/instructions/references/dataLedger_narrative_v2.txt",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_parameters_v2.txt",
+          "archivePath": "skills/instructions/references/dataLedger_parameters_v2.txt",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_persona_v2.txt",
+          "archivePath": "skills/instructions/references/dataLedger_persona_v2.txt",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_processing_v2.txt",
+          "archivePath": "skills/instructions/references/dataLedger_processing_v2.txt",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_registry_v2.txt",
+          "archivePath": "skills/instructions/references/dataLedger_registry_v2.txt",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_system_v2.txt",
+          "archivePath": "skills/instructions/references/dataLedger_system_v2.txt",
+          "comparison": "original-bytes"
+        }
+      ]
+    },
+    {
+      "productId": "neighborly-bazaar",
+      "route": "capabilities/organized-life/neighborly-bazaar",
+      "testedVersion": "0.18.1+bundle.78375b86d6c37f6cc8288985525ec23d",
+      "archive": "neighborly-bazaar-workflow-0.18.1+bundle.78375b86d6c37f6cc8288985525ec23d.zip",
+      "downloadUrl": "https://github.com/OKHP3/glee-fullytools-foundry/releases/download/workflow-plugins-v2/neighborly-bazaar-workflow-0.18.1%2Bbundle.78375b86d6c37f6cc8288985525ec23d.zip",
+      "bytes": 7700549,
+      "archiveSha256": "136f2f8c4bb1cfd165bf181f08d37359ba85104d5cc8e012bec4e00d34dcc101",
+      "indexedKnowledgeFiles": 20,
+      "knowledge": [
+        {
+          "name": "#05f - Neighborly Bazaar_ Knowledge 01.docx",
+          "archivePath": "skills/instructions/references/#05f - Neighborly Bazaar_ Knowledge 01.docx",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "#05f - Neighborly Bazaar_ Knowledge 02.docx",
+          "archivePath": "skills/instructions/references/#05f - Neighborly Bazaar_ Knowledge 02.docx",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "#05f - Neighborly Bazaar_ Knowledge 03.docx",
+          "archivePath": "skills/instructions/references/#05f - Neighborly Bazaar_ Knowledge 03.docx",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "#05f - Neighborly Bazaar_ Knowledge 04.docx",
+          "archivePath": "skills/instructions/references/#05f - Neighborly Bazaar_ Knowledge 04.docx",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "#05f - Neighborly Bazaar_ Knowledge 05.docx",
+          "archivePath": "skills/instructions/references/#05f - Neighborly Bazaar_ Knowledge 05.docx",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "#05f - Neighborly Bazaar_ Knowledge 06.docx",
+          "archivePath": "skills/instructions/references/#05f - Neighborly Bazaar_ Knowledge 06.docx",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "#05f - Neighborly Bazaar_ Knowledge 07.docx",
+          "archivePath": "skills/instructions/references/#05f - Neighborly Bazaar_ Knowledge 07.docx",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "#05f - Neighborly Bazaar_ Knowledge 08.docx",
+          "archivePath": "skills/instructions/references/#05f - Neighborly Bazaar_ Knowledge 08.docx",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "#05f - Neighborly Bazaar_ Knowledge 09.docx",
+          "archivePath": "skills/instructions/references/#05f - Neighborly Bazaar_ Knowledge 09.docx",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "#05f - Neighborly Bazaar_ Knowledge 10.docx",
+          "archivePath": "skills/instructions/references/#05f - Neighborly Bazaar_ Knowledge 10.md",
+          "comparison": "reviewed-public-edition"
+        },
+        {
+          "name": "#05f - Neighborly Bazaar_ Knowledge 11.docx",
+          "archivePath": "skills/instructions/references/#05f - Neighborly Bazaar_ Knowledge 11.docx",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "#05f - Neighborly Bazaar_ Knowledge 12.docx",
+          "archivePath": "skills/instructions/references/#05f - Neighborly Bazaar_ Knowledge 12.docx",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "#05f - Neighborly Bazaar_ Knowledge 13.docx",
+          "archivePath": "skills/instructions/references/#05f - Neighborly Bazaar_ Knowledge 13.md",
+          "comparison": "reviewed-public-edition"
+        },
+        {
+          "name": "#05f - Neighborly Bazaar_ Knowledge 14.docx",
+          "archivePath": "skills/instructions/references/#05f - Neighborly Bazaar_ Knowledge 14.md",
+          "comparison": "reviewed-public-edition"
+        },
+        {
+          "name": "#05f - Neighborly Bazaar_ Knowledge 15.docx",
+          "archivePath": "skills/instructions/references/#05f - Neighborly Bazaar_ Knowledge 15.md",
+          "comparison": "reviewed-public-edition"
+        },
+        {
+          "name": "05f Organized Life – Neighborly Bazaar.PNG",
+          "archivePath": "skills/instructions/references/05f Organized Life – Neighborly Bazaar.PNG",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "Gleefully Narrative Overview.docx",
+          "archivePath": "skills/instructions/references/Gleefully Narrative Overview.docx",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "Gleefully Technical Overview.docx",
+          "archivePath": "skills/instructions/references/Gleefully Technical Overview.docx",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "Inventory_of_Toolbox_Tools_and_Tool-ettes.md",
+          "archivePath": "skills/instructions/references/Inventory_of_Toolbox_Tools_and_Tool-ettes.md",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "🦋 Glee‑fully Vernacular Complete.md",
+          "archivePath": "skills/instructions/references/🦋 Glee‑fully Vernacular Complete.md",
+          "comparison": "original-bytes"
+        }
+      ]
+    },
+    {
+      "productId": "healthy-bee-ing",
+      "route": "capabilities/healthy-bee-ing",
+      "testedVersion": "0.8.2",
+      "archive": "healthy-bee-ing-workflow-0.8.2.zip",
+      "downloadUrl": "https://github.com/OKHP3/glee-fullytools-foundry/releases/download/workflow-plugins-v2/healthy-bee-ing-workflow-0.8.2.zip",
+      "bytes": 674909,
+      "archiveSha256": "5c1161a0fb0da27c2902eb2183cd46dbd5aecc5a934f462aba2bb6e95cfa05d4",
+      "indexedKnowledgeFiles": 1,
+      "knowledge": [
+        {
+          "name": "Operator’s Cathedral Layout 📐.md",
+          "archivePath": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+          "comparison": "reviewed-public-edition"
+        }
+      ]
+    },
+    {
+      "productId": "care-check",
+      "route": "capabilities/healthy-bee-ing/care-check",
+      "testedVersion": "0.11.1+bundle.167c57b17265962d4282fda9667098f8",
+      "archive": "care-check-workflow-0.11.1+bundle.167c57b17265962d4282fda9667098f8.zip",
+      "downloadUrl": "https://github.com/OKHP3/glee-fullytools-foundry/releases/download/workflow-plugins-v2/care-check-workflow-0.11.1%2Bbundle.167c57b17265962d4282fda9667098f8.zip",
+      "bytes": 670466,
+      "archiveSha256": "4cb4bd4298853e5fa555bf08fdbd0e4011ebe075d30cd99bda570b7ce46a886a",
+      "indexedKnowledgeFiles": 1,
+      "knowledge": [
+        {
+          "name": "Operator’s Cathedral Layout 📐.md",
+          "archivePath": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+          "comparison": "reviewed-public-edition"
+        }
+      ]
+    },
+    {
+      "productId": "calm-keep",
+      "route": "capabilities/healthy-bee-ing/calm-keep",
+      "testedVersion": "0.7.2",
+      "archive": "calm-keep-workflow-0.7.2.zip",
+      "downloadUrl": "https://github.com/OKHP3/glee-fullytools-foundry/releases/download/workflow-plugins-v2/calm-keep-workflow-0.7.2.zip",
+      "bytes": 670240,
+      "archiveSha256": "c9ead5cc94732ad20d91d4d7e47e23b73da14980883018bc1eecb358a844aaaa",
+      "indexedKnowledgeFiles": 1,
+      "knowledge": [
+        {
+          "name": "Operator’s Cathedral Layout 📐.md",
+          "archivePath": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+          "comparison": "reviewed-public-edition"
+        }
+      ]
+    },
+    {
+      "productId": "snappy-count",
+      "route": "capabilities/healthy-bee-ing/snappy-count",
+      "testedVersion": "0.10.2",
+      "archive": "snappy-count-workflow-0.10.2.zip",
+      "downloadUrl": "https://github.com/OKHP3/glee-fullytools-foundry/releases/download/workflow-plugins-v2/snappy-count-workflow-0.10.2.zip",
+      "bytes": 672419,
+      "archiveSha256": "df3588f58511a087d98b5b6285193beb1bcf50f59b9257b3a95320cfcf5455d5",
+      "indexedKnowledgeFiles": 1,
+      "knowledge": [
+        {
+          "name": "Operator’s Cathedral Layout 📐.md",
+          "archivePath": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+          "comparison": "reviewed-public-edition"
+        }
+      ]
+    },
+    {
+      "productId": "medi-minder",
+      "route": "capabilities/healthy-bee-ing/medi-minder",
+      "testedVersion": "0.13.2",
+      "archive": "medi-minder-workflow-0.13.2.zip",
+      "downloadUrl": "https://github.com/OKHP3/glee-fullytools-foundry/releases/download/workflow-plugins-v2/medi-minder-workflow-0.13.2.zip",
+      "bytes": 670827,
+      "archiveSha256": "8642ef3cf28df9e10f759c1aadb5b4afcd01bba49b63b520521c34b2abe322bc",
+      "indexedKnowledgeFiles": 1,
+      "knowledge": [
+        {
+          "name": "Operator’s Cathedral Layout 📐.md",
+          "archivePath": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+          "comparison": "reviewed-public-edition"
+        }
+      ]
+    },
+    {
+      "productId": "moody-log",
+      "route": "capabilities/healthy-bee-ing/moody-log",
+      "testedVersion": "0.3.1+bundle.04e9e4107d727ec78067556c43b77443",
+      "archive": "moody-log-workflow-0.3.1+bundle.04e9e4107d727ec78067556c43b77443.zip",
+      "downloadUrl": "https://github.com/OKHP3/glee-fullytools-foundry/releases/download/workflow-plugins-v2/moody-log-workflow-0.3.1%2Bbundle.04e9e4107d727ec78067556c43b77443.zip",
+      "bytes": 670833,
+      "archiveSha256": "80d99cd99270efdc7a0a8a40856e9ffc31d3e9c49f89c056eda90df9daeaeb78",
+      "indexedKnowledgeFiles": 1,
+      "knowledge": [
+        {
+          "name": "Operator’s Cathedral Layout 📐.md",
+          "archivePath": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+          "comparison": "reviewed-public-edition"
+        }
+      ]
+    },
+    {
+      "productId": "maven-wise",
+      "route": "capabilities/healthy-bee-ing/maven-wise",
+      "testedVersion": "0.13.1+bundle.b357adf28eb58b1d5f78e6529d6e2015",
+      "archive": "maven-wise-workflow-0.13.1+bundle.b357adf28eb58b1d5f78e6529d6e2015.zip",
+      "downloadUrl": "https://github.com/OKHP3/glee-fullytools-foundry/releases/download/workflow-plugins-v2/maven-wise-workflow-0.13.1%2Bbundle.b357adf28eb58b1d5f78e6529d6e2015.zip",
+      "bytes": 670282,
+      "archiveSha256": "58a61cbdbd86fa91e3644eabc4a52189e2a539eaf6096bb5abcfd6ffaf854472",
+      "indexedKnowledgeFiles": 1,
+      "knowledge": [
+        {
+          "name": "Operator’s Cathedral Layout 📐.md",
+          "archivePath": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+          "comparison": "reviewed-public-edition"
+        }
+      ]
+    },
+    {
+      "productId": "identity-known",
+      "route": "capabilities/identity-known",
+      "testedVersion": "0.10.3",
+      "archive": "identity-known-workflow-0.10.3.zip",
+      "downloadUrl": "https://github.com/OKHP3/glee-fullytools-foundry/releases/download/workflow-plugins-v2/identity-known-workflow-0.10.3.zip",
+      "bytes": 541582,
+      "archiveSha256": "62462c6bd274c953d5885b474de9faee892eba38c853d2eaa664d0a4e148c70c",
+      "indexedKnowledgeFiles": 0,
+      "knowledge": [],
+      "testedRepair": "The router lacked the specialist names needed for furniture and jewelry. The updated instructions contain the seven verified specialist destinations."
+    },
+    {
+      "productId": "critter-spotter",
+      "route": "capabilities/identity-known/critter-spotter",
+      "testedVersion": "0.8.1+bundle.2054fbbb5ad8dc5f9dc270c7bc2f0385",
+      "archive": "critter-spotter-workflow-0.8.1+bundle.2054fbbb5ad8dc5f9dc270c7bc2f0385.zip",
+      "downloadUrl": "https://github.com/OKHP3/glee-fullytools-foundry/releases/download/workflow-plugins-v2/critter-spotter-workflow-0.8.1%2Bbundle.2054fbbb5ad8dc5f9dc270c7bc2f0385.zip",
+      "bytes": 568207,
+      "archiveSha256": "dac78f7782e381fd027f4685eec43b21d8534d5411ec4ff10e4159aa2c6abcb4",
+      "indexedKnowledgeFiles": 1,
+      "knowledge": [
+        {
+          "name": "Operator’s Cathedral Layout 📐.md",
+          "archivePath": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+          "comparison": "reviewed-public-edition"
+        }
+      ]
+    },
+    {
+      "productId": "roost-wrangler",
+      "route": "capabilities/identity-known/roost-wrangler",
+      "testedVersion": "0.6.1+bundle.51f4b200837725203cf54c4a7dee7763",
+      "archive": "roost-wrangler-workflow-0.6.1+bundle.51f4b200837725203cf54c4a7dee7763.zip",
+      "downloadUrl": "https://github.com/OKHP3/glee-fullytools-foundry/releases/download/workflow-plugins-v2/roost-wrangler-workflow-0.6.1%2Bbundle.51f4b200837725203cf54c4a7dee7763.zip",
+      "bytes": 569155,
+      "archiveSha256": "83c30ef43b8d88d737c19323a9032c5e2ce0e38c940a069a93cfd1bc48b7ba1f",
+      "indexedKnowledgeFiles": 1,
+      "knowledge": [
+        {
+          "name": "Operator’s Cathedral Layout 📐.md",
+          "archivePath": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+          "comparison": "reviewed-public-edition"
+        }
+      ]
+    },
+    {
+      "productId": "sight-seeker",
+      "route": "capabilities/identity-known/sight-seeker",
+      "testedVersion": "0.8.1+bundle.1d3e3a2a8852b9d8b095c3b356cd341e",
+      "archive": "sight-seeker-workflow-0.8.1+bundle.1d3e3a2a8852b9d8b095c3b356cd341e.zip",
+      "downloadUrl": "https://github.com/OKHP3/glee-fullytools-foundry/releases/download/workflow-plugins-v2/sight-seeker-workflow-0.8.1%2Bbundle.1d3e3a2a8852b9d8b095c3b356cd341e.zip",
+      "bytes": 568754,
+      "archiveSha256": "7c752cc9be9b9fec6198ca0fd0643730095d07f54b7ee6d6096f1bdb7c0fcc87",
+      "indexedKnowledgeFiles": 1,
+      "knowledge": [
+        {
+          "name": "Operator’s Cathedral Layout 📐.md",
+          "archivePath": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+          "comparison": "reviewed-public-edition"
+        }
+      ]
+    },
+    {
+      "productId": "snap-decoder",
+      "route": "capabilities/identity-known/snap-decoder",
+      "testedVersion": "0.10.2",
+      "archive": "snap-decoder-workflow-0.10.2.zip",
+      "downloadUrl": "https://github.com/OKHP3/glee-fullytools-foundry/releases/download/workflow-plugins-v2/snap-decoder-workflow-0.10.2.zip",
+      "bytes": 569442,
+      "archiveSha256": "1ba761821244844b16f07636ceaabe37a9fd13e09752bf4fca404ec41480c489",
+      "indexedKnowledgeFiles": 1,
+      "knowledge": [
+        {
+          "name": "Operator’s Cathedral Layout 📐.md",
+          "archivePath": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+          "comparison": "reviewed-public-edition"
+        }
+      ]
+    },
+    {
+      "productId": "motif-muse",
+      "route": "capabilities/identity-known/motif-muse",
+      "testedVersion": "0.11.1+bundle.0bc8414b55d7d6ff53a51b38e3efd231",
+      "archive": "motif-muse-workflow-0.11.1+bundle.0bc8414b55d7d6ff53a51b38e3efd231.zip",
+      "downloadUrl": "https://github.com/OKHP3/glee-fullytools-foundry/releases/download/workflow-plugins-v2/motif-muse-workflow-0.11.1%2Bbundle.0bc8414b55d7d6ff53a51b38e3efd231.zip",
+      "bytes": 568768,
+      "archiveSha256": "f64151dcae72e0dd8ea98a08c9b8956425265f36202abdedb443f40d5baa6ad3",
+      "indexedKnowledgeFiles": 1,
+      "knowledge": [
+        {
+          "name": "Operator’s Cathedral Layout 📐.md",
+          "archivePath": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+          "comparison": "reviewed-public-edition"
+        }
+      ]
+    },
+    {
+      "productId": "maker-matcher",
+      "route": "capabilities/identity-known/maker-matcher",
+      "testedVersion": "0.9.1+bundle.c4126539f500fa404c6ea007f0e1a337",
+      "archive": "maker-matcher-workflow-0.9.1+bundle.c4126539f500fa404c6ea007f0e1a337.zip",
+      "downloadUrl": "https://github.com/OKHP3/glee-fullytools-foundry/releases/download/workflow-plugins-v2/maker-matcher-workflow-0.9.1%2Bbundle.c4126539f500fa404c6ea007f0e1a337.zip",
+      "bytes": 698147,
+      "archiveSha256": "b7966e74b75825e831c1f200aa213200d0a45c9ab86060f3d29bc8ef2782fe7d",
+      "indexedKnowledgeFiles": 8,
+      "knowledge": [
+        {
+          "name": "Operator’s Cathedral Layout 📐.md",
+          "archivePath": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+          "comparison": "reviewed-public-edition"
+        },
+        {
+          "name": "dataLedger_archive_v3.md",
+          "archivePath": "skills/instructions/references/dataLedger_archive_v3.md",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_hydration_v3.md",
+          "archivePath": "skills/instructions/references/dataLedger_hydration_v3.md",
+          "comparison": "reviewed-public-edition"
+        },
+        {
+          "name": "dataLedger_narrative_v3.md",
+          "archivePath": "skills/instructions/references/dataLedger_narrative_v3.md",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_parameters_v3.md",
+          "archivePath": "skills/instructions/references/dataLedger_parameters_v3.md",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_persona_v3.md",
+          "archivePath": "skills/instructions/references/dataLedger_persona_v3.md",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_processing_v3.md",
+          "archivePath": "skills/instructions/references/dataLedger_processing_v3.md",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_registry_v3.md",
+          "archivePath": "skills/instructions/references/dataLedger_registry_v3.md",
+          "comparison": "original-bytes"
+        }
+      ]
+    },
+    {
+      "productId": "gpt07g-self-fixer",
+      "route": "capabilities/identity-known/gpt07g-self-fixer",
+      "testedVersion": "0.13.1+bundle.603076ca69dc769d19a1bdfffa6b8ada",
+      "archive": "gpt07g-self-fixer-workflow-0.13.1+bundle.603076ca69dc769d19a1bdfffa6b8ada.zip",
+      "downloadUrl": "https://github.com/OKHP3/glee-fullytools-foundry/releases/download/workflow-plugins-v2/gpt07g-self-fixer-workflow-0.13.1%2Bbundle.603076ca69dc769d19a1bdfffa6b8ada.zip",
+      "bytes": 704052,
+      "archiveSha256": "da7613ae1a94adfbcb1d6628fb864bad5e1168ab6e264b20b8b71908d5351ae0",
+      "indexedKnowledgeFiles": 10,
+      "knowledge": [
+        {
+          "name": "Operator’s Cathedral Layout 📐.md",
+          "archivePath": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+          "comparison": "reviewed-public-edition"
+        },
+        {
+          "name": "dataLedger_archive_v3.md",
+          "archivePath": "skills/instructions/references/dataLedger_archive_v3.md",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_hydration_v3.md",
+          "archivePath": "skills/instructions/references/dataLedger_hydration_v3.md",
+          "comparison": "reviewed-public-edition"
+        },
+        {
+          "name": "dataLedger_ideation_v3.md",
+          "archivePath": "skills/instructions/references/dataLedger_ideation_v3.md",
+          "comparison": "public-substitute"
+        },
+        {
+          "name": "dataLedger_narrative_v3.md",
+          "archivePath": "skills/instructions/references/dataLedger_narrative_v3.md",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_parameters_v3.md",
+          "archivePath": "skills/instructions/references/dataLedger_parameters_v3.md",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_persona_v3.md",
+          "archivePath": "skills/instructions/references/dataLedger_persona_v3.md",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_processing_v3.md",
+          "archivePath": "skills/instructions/references/dataLedger_processing_v3.md",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_registry_v3.md",
+          "archivePath": "skills/instructions/references/dataLedger_registry_v3.md",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_system_v3.md",
+          "archivePath": "skills/instructions/references/dataLedger_system_v3.md",
+          "comparison": "original-bytes"
+        }
+      ]
+    },
+    {
+      "productId": "icon-maker",
+      "route": "capabilities/personalizable-tools/icon-maker",
+      "testedVersion": "0.7.3",
+      "archive": "icon-maker-workflow-0.7.3.zip",
+      "downloadUrl": "https://github.com/OKHP3/glee-fullytools-foundry/releases/download/workflow-plugins-v2/icon-maker-workflow-0.7.3.zip",
+      "bytes": 31692656,
+      "archiveSha256": "c2f2dc19a4dd8307dff0090143fc6528e3c73eebde128933eb15c0afa8dfb8ca",
+      "indexedKnowledgeFiles": 22,
+      "knowledge": [
+        {
+          "name": "02 Glee-fully Square Treasured Finds.png",
+          "archivePath": "skills/instructions/references/02 Glee-fully Square Treasured Finds.png",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "02a Glee-fully Square Personal Librarian.b.png",
+          "archivePath": "skills/instructions/references/02a Glee-fully Square Personal Librarian.b.png",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "02d Glee–fully Square Scentinal Journal.png",
+          "archivePath": "skills/instructions/references/02d Glee–fully Square Scentinal Journal.png",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "Brand Origin Story.docx",
+          "archivePath": "skills/instructions/references/Brand Origin Story.docx",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "Content synthesis for Glee-fully.pdf",
+          "archivePath": "skills/instructions/references/Content synthesis for Glee-fully.pdf",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "Glee GPT MEMORY.md",
+          "archivePath": "skills/instructions/references/Glee GPT MEMORY.md",
+          "comparison": "reviewed-public-edition"
+        },
+        {
+          "name": "Glee-fully Banner Tools 4.png",
+          "archivePath": "skills/instructions/references/Glee-fully Banner Tools 4.png",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "Glee-fully Banner Tools 5.png",
+          "archivePath": "skills/instructions/references/Glee-fully Banner Tools 5.png",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "Glee-fully Banner Tools 6.png",
+          "archivePath": "skills/instructions/references/Glee-fully Banner Tools 6.png",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "Glee-fully Square Tools.png",
+          "archivePath": "skills/instructions/references/Glee-fully Square Tools.png",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "Glee-fully_Tools_MegaPrompt.md",
+          "archivePath": "skills/instructions/references/Glee-fully_Tools_MegaPrompt.md",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "Gleefully Narrative Overview.pdf",
+          "archivePath": "skills/instructions/references/Gleefully Narrative Overview.pdf",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "Gleefully Technical Overview.pdf",
+          "archivePath": "skills/instructions/references/Gleefully Technical Overview.pdf",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "Glee–fully Square Career Seeker.png",
+          "archivePath": "skills/instructions/references/Glee–fully Square Career Seeker.png",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "Glee–fully Square Detour Discoverer.png",
+          "archivePath": "skills/instructions/references/Glee–fully Square Detour Discoverer.png",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "Glee–fully Square Memento Log.png",
+          "archivePath": "skills/instructions/references/Glee–fully Square Memento Log.png",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "Glee–fully Square Pantry Shopper.png",
+          "archivePath": "skills/instructions/references/Glee–fully Square Pantry Shopper.png",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "Glee–fully Square Thrifty Spender.png",
+          "archivePath": "skills/instructions/references/Glee–fully Square Thrifty Spender.png",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "Glee–fully Square bLinkIn Tuner.png",
+          "archivePath": "skills/instructions/references/Glee–fully Square bLinkIn Tuner.png",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "Operator’s Cathedral Layout 📐.md",
+          "archivePath": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+          "comparison": "reviewed-public-edition"
+        },
+        {
+          "name": "personal-librarian-fallback.svg",
+          "archivePath": "skills/instructions/references/personal-librarian-fallback.svg",
+          "comparison": "companion-bytes"
+        },
+        {
+          "name": "personal-librarian-visual-description.md",
+          "archivePath": "skills/instructions/references/personal-librarian-visual-description.md",
+          "comparison": "companion-bytes"
+        }
+      ],
+      "testedRepair": "Two available companions were absent from the knowledge index. Both paths were indexed and the updated plugin generated and revised the requested icon."
+    },
+    {
+      "productId": "healthy-bee-ing-hosted-variant",
+      "route": "capabilities/healthy-bee-ing/hosted-variant",
+      "testedVersion": "0.9.3",
+      "archive": "healthy-bee-ing-hosted-variant-workflow-0.9.3.zip",
+      "downloadUrl": "https://github.com/OKHP3/glee-fullytools-foundry/releases/download/workflow-plugins-v2/healthy-bee-ing-hosted-variant-workflow-0.9.3.zip",
+      "bytes": 671733,
+      "archiveSha256": "cebec2fcae868556de3a1c28bb801792a935b568ecce2c802398a20320ddf216",
+      "indexedKnowledgeFiles": 1,
+      "knowledge": [
+        {
+          "name": "Operator’s Cathedral Layout 📐.md",
+          "archivePath": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+          "comparison": "reviewed-public-edition"
+        }
+      ]
+    },
+    {
+      "productId": "grounded",
+      "route": "capabilities/personalizable-tools/grounded",
+      "testedVersion": "0.18.1+bundle.ec404a9de38cb789e2ff9e034ddd3511",
+      "archive": "grounded-workflow-0.18.1+bundle.ec404a9de38cb789e2ff9e034ddd3511.zip",
+      "downloadUrl": "https://github.com/OKHP3/glee-fullytools-foundry/releases/download/workflow-plugins-v2/grounded-workflow-0.18.1%2Bbundle.ec404a9de38cb789e2ff9e034ddd3511.zip",
+      "bytes": 1571476,
+      "archiveSha256": "44fdc9b7b2fd724d1cdac4c08da7421dfda1ede46e3a302b665297f9a02b8ebb",
+      "indexedKnowledgeFiles": 20,
+      "knowledge": [
+        {
+          "name": "Canon Ruling Order by dataLedger_v3 v4.2.md",
+          "archivePath": "skills/instructions/references/Canon Ruling Order by dataLedger_v3 v4.2.md",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "Custom GPT Instruction Block Template (GPT‑5 Era Best Practices).pdf",
+          "archivePath": "skills/instructions/references/Custom GPT Instruction Block Template (GPT‑5 Era Best Practices).md",
+          "comparison": "reviewed-public-edition"
+        },
+        {
+          "name": "Detecting Semantic Interference in Prompt Engineering_ Methodologies and Ideal Practices.pdf",
+          "archivePath": "skills/instructions/references/Detecting Semantic Interference in Prompt Engineering_ Methodologies and Ideal Practices.md",
+          "comparison": "reviewed-public-edition"
+        },
+        {
+          "name": "GPT Pulsebook Evaluation v1.6.md",
+          "archivePath": "skills/instructions/references/GPT Pulsebook Evaluation v1.6.md",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "GPT Pulsebook Evaluation v1.7.md",
+          "archivePath": "skills/instructions/references/GPT Pulsebook Evaluation v1.7.md",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "GPT-5 Era Custom GPT Instruction Blocks – __Canonical Design Masterfile__.pdf",
+          "archivePath": "skills/instructions/references/GPT-5 Era Custom GPT Instruction Blocks – __Canonical Design Masterfile__.md",
+          "comparison": "reviewed-public-edition"
+        },
+        {
+          "name": "Glee-fully Super Template v1.2.md",
+          "archivePath": "skills/instructions/references/Glee-fully Super Template v1.2.md",
+          "comparison": "reviewed-public-edition"
+        },
+        {
+          "name": "Operator’s Cathedral Layout 📐.md",
+          "archivePath": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+          "comparison": "reviewed-public-edition"
+        },
+        {
+          "name": "Optimal Instruction Block Structure for a Custom GPT.pdf",
+          "archivePath": "skills/instructions/references/Optimal Instruction Block Structure for a Custom GPT.md",
+          "comparison": "reviewed-public-edition"
+        },
+        {
+          "name": "RAG and RIS Implementation Bundle.pdf",
+          "archivePath": "skills/instructions/references/RAG and RIS Implementation Bundle.pdf",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "Viability and Compliance of the RIS System and Canonical Ledger Approach.pdf",
+          "archivePath": "skills/instructions/references/Viability and Compliance of the RIS System and Canonical Ledger Approach.md",
+          "comparison": "reviewed-public-edition"
+        },
+        {
+          "name": "dataLedger_hydration_v3.md",
+          "archivePath": "skills/instructions/references/dataLedger_hydration_v3.md",
+          "comparison": "reviewed-public-edition"
+        },
+        {
+          "name": "dataLedger_parameters_v3.md",
+          "archivePath": "skills/instructions/references/dataLedger_parameters_v3.md",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_persona_v3.md",
+          "archivePath": "skills/instructions/references/dataLedger_persona_v3.md",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_registry_v3.md",
+          "archivePath": "skills/instructions/references/dataLedger_registry_v3.md",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "dataLedger_system_v3.md",
+          "archivePath": "skills/instructions/references/dataLedger_system_v3.md",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "semantic_interference_detection_monolith_PATCHED.md",
+          "archivePath": "skills/instructions/references/semantic_interference_detection_monolith_PATCHED.md",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "🏗️ Custom GPT Instruction Block — Master Template.md",
+          "archivePath": "skills/instructions/references/🏗️ Custom GPT Instruction Block — Master Template.md",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "🦋 Glee‑fully Vernacular Complete.md",
+          "archivePath": "skills/instructions/references/🦋 Glee‑fully Vernacular Complete.md",
+          "comparison": "original-bytes"
+        },
+        {
+          "name": "🦋 Glee‑fully Vernacular Lite.md",
+          "archivePath": "skills/instructions/references/🦋 Glee‑fully Vernacular Lite.md",
+          "comparison": "original-bytes"
+        }
+      ]
+    }
+  ]
+}

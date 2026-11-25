@@ -73,6 +73,10 @@ The tests ran on November 24, 2026 (US Central). All 43 conversations were reope
 | [Maker Matcher](../capabilities/identity-known/maker-matcher/) | Updated a provisional macramé profile to paper basket weaving, keeping square knots as a feature of the suspension ties. | Identified the hobby profile card and discovered-interest tags. |
 | [Self Fixer](../capabilities/identity-known/gpt07g-self-fixer/) | Turned an estimated shelf-peg description into a revised parts-counter request using the supplied caliper measurements. Compatibility remained unverified. | Identified a diagnostic snapshot and tool crib log as outputs. |
 
+## Download the tested versions
+
+Download the [39 verified public workflow packages](https://github.com/OKHP3/glee-fullytools-foundry/releases/tag/workflow-plugins-v2). The [package register](remaining-workflow-packages.json) lists each ZIP’s tested version, SHA-256 checksum and knowledge files. The public editions use FoundRy capability links and reviewed reference material. Self Fixer uses the public ideation ledger in place of the correspondence held in the private release.
+
 ## Repairs and retests
 
 Journey Diary, Itinerary Hacker and Detour Discoverer gave correct travel answers but attached links to retired GPTs. The updated releases use the [travel specialist directory](../capabilities/travelers-guide/operational/specialist-handoffs.json) for handoffs and cite a reference directly when a user asks a factual question. Fresh conversations passed on Journey Diary 0.4.2, Itinerary Hacker 0.6.2 and Detour Discoverer 0.6.2.

@@ -24,6 +24,9 @@ SLUG = r"[a-z0-9]+(?:-[a-z0-9]+)*"
 NUMBER = r"(?:0|[1-9][0-9]*)"
 PRERELEASE = rf"(?:{NUMBER}|[0-9]*[a-zA-Z-][0-9a-zA-Z-]*)"
 VERSION = rf"{NUMBER}\.{NUMBER}\.{NUMBER}(?:-{PRERELEASE}(?:\.{PRERELEASE})*)?(?:\+[0-9A-Za-z-]+(?:\.[0-9A-Za-z-]+)*)?"
+PUBLIC_SOURCES = {"capabilities", "canon", "docs", "evaluation", "governance", "inventory",
+                  "products", "prompts", "snapshots", "templates", "vernacular"}
+REFERENCE_PREFIX = "skills/instructions/references/"
 
 
 def read_file(root, path):
@@ -179,9 +182,7 @@ def former_gpt_package(root, product):
         source = directory / name
         if "source" in record:
             public_source = relative_path(record["source"])
-            if public_source.split("/", 1)[0] not in {
-                    "capabilities", "canon", "docs", "evaluation", "governance", "inventory",
-                    "products", "prompts", "snapshots", "templates", "vernacular"}:
+            if public_source.split("/", 1)[0] not in PUBLIC_SOURCES:
                 raise ValueError(f"Source outside the documented public asset directories: {public_source}")
             source = root / public_source
         data = read_file(root, source)
@@ -316,6 +317,24 @@ def workflow_package(root, product):
     _, baseline = former_gpt_package(root, (directory, receipt))
     with zipfile.ZipFile(io.BytesIO(baseline)) as original:
         content = {name: original.read(name) for name in original.namelist()}
+    if "acceptedVersion" in product:
+        apply_accepted_workflow(root, product, content)
+        version = product["acceptedVersion"]
+        edition = {"sourceAcceptance": "products/remaining-workflow-acceptance.json"}
+    else:
+        apply_portable_workflow(root, product, content)
+        version = product["workflowRelease"]["version"]
+        edition = {"portableSkillVersion": product["workflowRelease"]["skillVersion"]}
+    content["foundry-release.json"] = json_bytes({
+        "packageId": slug, "version": version, **edition,
+        "historicalSourceEdition": receipt["sourceVersion"], "edition": "public-workflow",
+        "files": [{"path": path, "sha256": hashlib.sha256(data).hexdigest()}
+                  for path, data in sorted(content.items()) if path != "foundry-release.json"]})
+    return f"{slug}-workflow-{version}.zip", archive_bytes(content)
+
+
+def apply_portable_workflow(root, product, content):
+    slug = product["productId"]
     routes = registry(root)
     family = PurePosixPath(product["destination"]).parent.name
     rules = json.loads(read_file(root, root / "products/hosted-plugin-handoff-rules.json"))["entryPoints"]
@@ -329,14 +348,113 @@ def workflow_package(root, product):
         dest = routes[target]
         lines.append(f"- [{dest['displayName']}](https://github.com/OKHP3/glee-fullytools-foundry/tree/main/{dest['destination']})")
     content.update(workflow_overlay(root, product, content, "\n".join(lines)))
-    content["LICENSE"] = license_bytes(root, directory.parent)
-    version = product["workflowRelease"]["version"]
-    content["foundry-release.json"] = json_bytes({
-        "packageId": slug, "version": version, "portableSkillVersion": product["workflowRelease"]["skillVersion"],
-        "historicalSourceEdition": receipt["sourceVersion"], "edition": "public-workflow",
-        "files": [{"path": path, "sha256": hashlib.sha256(data).hexdigest()}
-                  for path, data in sorted(content.items()) if path != "foundry-release.json"]})
-    return f"{slug}-workflow-{version}.zip", archive_bytes(content)
+    content["LICENSE"] = license_bytes(root, root / product["destination"])
+
+
+def accepted_knowledge(root, product, content):
+    """Keep the historical display names and index each newly distributed reference."""
+    slug = product["productId"]
+    overrides = dict(product["knowledgeFiles"])
+    directory = root / product["destination"]
+    if slug == "icon-maker":
+        assets = directory / "operational/icon-output"
+        additions = json.loads(read_file(root, assets / "knowledge-index-additions.json"))
+        if additions["version"] != product["acceptedVersion"]:
+            raise ValueError("Icon Maker knowledge additions do not match the accepted version")
+        for entry in additions["files"]:
+            name = relative_path(entry["name"])
+            if "/" in name or entry["path"] != f"references/{name}":
+                raise ValueError(f"Unexpected Icon Maker companion: {name}")
+            path = REFERENCE_PREFIX + name
+            source = (assets / name).relative_to(root).as_posix()
+            if path in overrides and overrides[path] != source:
+                raise ValueError(f"Conflicting Icon Maker companion: {name}")
+            overrides[path] = source
+    index_path = "skills/instructions/lookup/knowledge-index.json"
+    lookup = json.loads(content[index_path])
+    paths = {row["path"].casefold(): row["path"] for row in lookup["files"]}
+    names = {row["name"].casefold() for row in lookup["files"]}
+    for target, source in overrides.items():
+        path = PurePosixPath(relative_path(target))
+        src = PurePosixPath(relative_path(source))
+        if path.parent.as_posix() != REFERENCE_PREFIX.rstrip("/") or src.parts[0] not in PUBLIC_SOURCES:
+            raise ValueError(f"Unexpected knowledge override for {slug}: {target}, {source}")
+        data = read_file(root, root / src)
+        if path.suffix.lower() in {".md", ".txt", ".json", ".csv", ".tsv", ".yaml", ".yml", ".svg"}:
+            data.decode("utf-8-sig")
+            data = data.replace(b"\r\n", b"\n")
+        index_entry = f"references/{path.name}"
+        existing = paths.get(index_entry.casefold())
+        if existing is None:
+            if path.name.casefold() in names:
+                raise ValueError(f"Duplicate knowledge name in {slug}: {path.name}")
+            lookup["files"].append({"name": path.name, "path": index_entry})
+            names.add(path.name.casefold())
+            paths[index_entry.casefold()] = index_entry
+        elif existing != index_entry:
+            raise ValueError(f"Conflicting knowledge path in {slug}: {target}")
+        content[target] = data
+    indexed = ["skills/instructions/" + relative_path(row["path"]) for row in lookup["files"]]
+    members = {path for path in content if path.startswith(REFERENCE_PREFIX)}
+    if (len(indexed) != product["indexedResources"] or len(indexed) != len(names)
+            or len(indexed) != len(paths) or set(indexed) != members):
+        raise ValueError(f"Accepted knowledge count or index membership mismatch in {slug}")
+    content[index_path] = json_bytes(lookup)
+
+
+def apply_accepted_workflow(root, product, content):
+    """Apply reviewed public equivalents of the changes tested in the native edition."""
+    slug = product["productId"]
+    skill_path = "skills/instructions/SKILL.md"
+    if product["instructionEdits"]:
+        body = content[skill_path].decode("utf-8").replace("\r\n", "\n")
+        for change in product["instructionEdits"]:
+            before, after = change["before"], change["after"]
+            if not isinstance(after, str) or not isinstance(before, str) or not before or body.count(before) != 1:
+                raise ValueError(f"Instruction edit needs a unique anchor in {slug}")
+            body = body.replace(before, after, 1)
+        content[skill_path] = body.encode("utf-8")
+    if re.search(rb"(?:pluginrel|plugin)_[0-9a-f]{32}\b|https?://(?:chatgpt\.com|chat\.openai\.com)/(?:c/|g/g-|gpts/editor/)",
+                 content[skill_path], re.I):
+        raise ValueError(f"Account-specific or retired destination in public instructions for {slug}")
+    accepted_knowledge(root, product, content)
+    for path in ("plugin.json", ".codex-plugin/plugin.json"):
+        manifest = json.loads(content[path])
+        manifest["version"] = product["acceptedVersion"]
+        content[path] = json_bytes(manifest)
+    if product["repositorySource"]:
+        content["LICENSE"] = license_bytes(root, root / product["destination"])
+    else:
+        content["LICENSE"] = read_file(root, root / "LICENSE.md").replace(b"\r\n", b"\n")
+
+
+def workflow_registry(root):
+    migrated = registry(root)
+    native = former_gpt_registry(root)
+    products = {slug: p for slug, p in migrated.items() if "workflowRelease" in p}
+    accepted = json.loads(read_file(root, root / "products/remaining-workflow-acceptance.json"))["products"]
+    sources = root / "products/workflow-package-sources"
+    edits = json.loads(read_file(root, sources / "instructions.json"))
+    knowledge = json.loads(read_file(root, sources / "knowledge.json"))
+    accepted_ids = set()
+    for entry in accepted:
+        slug, route, version = entry["productId"], entry["route"], entry["privateHostedVersion"]
+        indexed = entry["knowledge"]["indexedResources"]
+        if (slug in products or slug not in native or entry["result"] != "pass"
+                or route != native[slug][0].parent.relative_to(root).as_posix()
+                or (slug in migrated and route != migrated[slug]["destination"])
+                or not re.fullmatch(VERSION, version) or type(indexed) is not int or indexed < 0):
+            raise ValueError(f"Invalid or duplicate accepted workflow: {slug}")
+        accepted_ids.add(slug)
+        products[slug] = {"productId": slug, "destination": route, "acceptedVersion": version,
+                          "repositorySource": slug in migrated, "indexedResources": indexed,
+                          "instructionEdits": edits.get(slug, []),
+                          "knowledgeFiles": knowledge.get(slug, {})}
+    if (edits.keys() | knowledge.keys()) - accepted_ids:
+        raise ValueError("A public workflow override has no matching accepted workflow")
+    if products.keys() != native.keys():
+        raise ValueError("Workflow acceptance does not cover the native product set")
+    return products
 
 
 def write_new(path, body):
@@ -370,11 +488,12 @@ def main():
     edition.add_argument("--workflow", action="store_true", help="build current public workflow plugins")
     args = parser.parse_args()
     try:
-        products = former_gpt_registry(ROOT) if args.former_gpt else registry(ROOT)
-        build = former_gpt_package if args.former_gpt else package
         if args.workflow:
-            products = {k: v for k, v in products.items() if "workflowRelease" in v}
-            build = workflow_package
+            products, build = workflow_registry(ROOT), workflow_package
+        elif args.former_gpt:
+            products, build = former_gpt_registry(ROOT), former_gpt_package
+        else:
+            products, build = registry(ROOT), package
         selected = sorted(products if args.all else set(args.product))
         pending = []
         for slug in selected:

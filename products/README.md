@@ -44,6 +44,7 @@ for the tested versions and the observed outputs.
 The [remaining 39 workflow tests](remaining-workflow-acceptance.md) cover the
 rest of the private ChatGPT plugins, including the knowledge-file audit and
 the defects corrected during testing.
+Download the [39 public workflow packages](https://github.com/OKHP3/glee-fullytools-foundry/releases/tag/workflow-plugins-v2) or look up a single ZIP, its tested version, SHA-256 checksum and reference files in the [package register](remaining-workflow-packages.json).
 
 From the repository root, choose an output directory outside the checkout:
 
@@ -54,13 +55,21 @@ python scripts/package-capability-plugins.py --all --output <output-directory> -
 python scripts/package-capability-plugins.py --workflow --all --output <output-directory>
 ```
 
-Replace `<output-directory>` with your chosen path. Each ZIP contains one
-Codex compatibility manifest, the named skill, its declared workflow resources
+Replace `<output-directory>` with your chosen path. Each portable ZIP contains
+the Codex compatibility manifest, the named skill, its declared workflow resources
 when present, and its original MIT license. The `--workflow` edition also includes
 the native manifest, icon, indexed public knowledge and a file checksum receipt.
+The three hosted-only workflow packages carry the FoundRy root license.
 The packager excludes legacy source trees and user records. The register
 records the package version and verification scope. Host installation and
 runtime tests are separate steps.
+
+The workflow edition builds all 53 tested products. To reproduce a single ZIP,
+use `--workflow --product <productId>` with its ID from the package register.
+The earlier 14 use their portable workflow skills. The remaining 39 apply the
+tested instruction changes to the reviewed native source. The public editions
+link to FoundRy capability pages. Each original upload has a named entry in the
+39-package knowledge indexes, including Self Fixer’s public ledger substitute.
 
 ChatGPT created private plugins for 53 owned GPTs. Fifty correspond to the
 former repositories. My GPTs also contained Icon Maker, Grounded and a second
