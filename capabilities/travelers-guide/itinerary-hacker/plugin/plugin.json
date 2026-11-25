@@ -1,0 +1,27 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Glee-fully Tools",
+    "url": "https://overkillhill.com"
+  },
+  "description": "Itinerary Hacker makes trip planning a breeze, giving you an elegant way to create daily travel plans that balance adventure and downtime. Whether it’s a multi-day vacation or a weekend retreat, this tool helps you structure your schedule without feeling rigid.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "skills"
+        ],
+        "category": "Other",
+        "composerIcon": "./assets/gpt-icon.png",
+        "defaultPrompt": [],
+        "developerName": "Glee-fully Tools",
+        "displayName": "Itinerary Hacker by Glee-fully",
+        "logo": "./assets/gpt-icon.png",
+        "longDescription": "Itinerary Hacker makes trip planning a breeze, giving you an elegant way to create daily travel plans that balance adventure and downtime. Whether it’s a multi-day vacation or a weekend retreat, this tool helps you structure your schedule without feeling rigid.",
+        "shortDescription": "Itinerary Hacker makes trip planning a breeze, giving you an elegant way to create daily travel plans that balance adventure and downtime. Whether it’s a multi-day vacation or a weekend retreat, this tool helps you structure your schedule w"
+      }
+    }
+  },
+  "name": "gpt-3f9385d49b80cf6173dbad201ed3a0b7",
+  "version": "0.6.1+bundle.c2b64455a3525820a84b361316e5aa4b"
+}

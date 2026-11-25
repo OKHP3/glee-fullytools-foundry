@@ -1,0 +1,27 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Glee-fully Tools",
+    "url": "https://overkillhill.com"
+  },
+  "description": "Detour Discoverer is your spontaneous sidekick for the “what if we stopped here?” moments. It helps you find and plan bonus experiences — from hidden roadside gems to delightful layovers — adding richness to your journey without derailing your plans.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "skills"
+        ],
+        "category": "Other",
+        "composerIcon": "./assets/gpt-icon.png",
+        "defaultPrompt": [],
+        "developerName": "Glee-fully Tools",
+        "displayName": "Detour Discoverer by Glee-fully",
+        "logo": "./assets/gpt-icon.png",
+        "longDescription": "Detour Discoverer is your spontaneous sidekick for the “what if we stopped here?” moments. It helps you find and plan bonus experiences — from hidden roadside gems to delightful layovers — adding richness to your journey without derailing your plans.",
+        "shortDescription": "Detour Discoverer is your spontaneous sidekick for the “what if we stopped here?” moments. It helps you find and plan bonus experiences — from hidden roadside gems to delightful layovers — adding richness to your journey without derailing y"
+      }
+    }
+  },
+  "name": "gpt-751c38d772af1dcd92054ceff0f5b356",
+  "version": "0.6.1+bundle.b901d8c5c9092e5e788599ddb92cbd3c"
+}

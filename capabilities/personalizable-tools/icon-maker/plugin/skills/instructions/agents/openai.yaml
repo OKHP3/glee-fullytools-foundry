@@ -1,0 +1,4 @@
+interface:
+  default_prompt: Create a Glee-fully icon with [...]
+  display_name: Glee-fully Icon Maker
+  short_description: Creates square retro-striped butterfly icons with nostalgic obje

@@ -1,0 +1,4 @@
+interface:
+  default_prompt: Estimate calories from this meal photo
+  display_name: Snappy Count by Glee-fully
+  short_description: Photo-based nutrition logging with playful, stress-free insights

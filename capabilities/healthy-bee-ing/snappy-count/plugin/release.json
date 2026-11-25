@@ -1,0 +1,38 @@
+{
+  "formatVersion": 1,
+  "packageId": "snappy-count",
+  "sourceVersion": "0.10.1+bundle.ed21f3c070d55a5a256988e7cecaab23",
+  "contentReview": [
+    "Native author and interface attribution use the public Glee-fully Tools brand.",
+    "Historic links use current FoundRy routes where available. Biographical details are omitted where present."
+  ],
+  "files": [
+    {
+      "path": "plugin.json",
+      "sha256": "ce1652561647817779af38eea5c8263d0037df7edfb292d8d72875812b4197c4"
+    },
+    {
+      "path": "skills/instructions/SKILL.md",
+      "sha256": "75edefe921ccd4afa3a8af713a9eeca06d84bed8fd26cfc42b7ecc64fb1b54da"
+    },
+    {
+      "path": "skills/instructions/agents/openai.yaml",
+      "sha256": "0872143b86e8406eb0ae86d779b71909584c721467d53f86af7c1b63219233be"
+    },
+    {
+      "path": "assets/gpt-icon.png",
+      "sha256": "8aca21427ac1526e6458154b416f5949baf27d470a90a7363441c48b7342ccc0",
+      "source": "capabilities/healthy-bee-ing/plugin/assets/gpt-icon.png"
+    },
+    {
+      "path": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+      "sha256": "32ee04f18a775643db8cabd15f60abff2209844256f048f7806ffdb3c52f57ac",
+      "edition": "public-derivative",
+      "review": "Public excerpt covering output structure and clarification. Operator contacts and unrelated build records are omitted.",
+      "source": "capabilities/personalizable-tools/plugin/skills/instructions/references/Operator’s Cathedral Layout 📐.md"
+    }
+  ],
+  "sourceKnowledgeFiles": 1,
+  "omittedKnowledge": [],
+  "distribution": "Reviewed former-GPT plugin files. The native release version identifies the source. The compatibility manifest and knowledge index are generated from these files."
+}

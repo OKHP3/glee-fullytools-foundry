@@ -1,0 +1,4 @@
+interface:
+  default_prompt: Check my stress trend this week
+  display_name: Calm Keep by Glee-fully
+  short_description: Stress, rest, and micro-move nudges for balance

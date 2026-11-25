@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""Build skills-only ZIPs in the Codex local compatibility format.
+"""Build portable skill ZIPs or reviewed former-GPT plugin distributions.
 
 See https://developers.openai.com/plugins/build/plugins for the manifest layout.
-Run with --all or repeat --product ID, and specify --output DIR. Use --check
+Run with --all or repeat --product ID, and specify --output DIR. Add
+--former-gpt to build the historical plugin edition. Use --check
 to compare existing packages without writing. No installation or upload occurs.
 """
 
@@ -114,6 +115,10 @@ def package(root, product):
                 "license": "MIT", "skills": "./skills/", "interface": {"displayName": title}}
     contents = {".codex-plugin/plugin.json": (json.dumps(manifest, ensure_ascii=False, indent=2) + "\n").encode(),
                 "LICENSE": license_bytes(root, directory), skill_path: source}
+    return f"{slug}-{version}.zip", archive_bytes(contents)
+
+
+def archive_bytes(contents):
     buffer = io.BytesIO()
     # Stored entries and fixed metadata give identical archives on different hosts.
     with zipfile.ZipFile(buffer, "w") as archive:
@@ -122,7 +127,109 @@ def package(root, product):
             entry.create_system = 3
             entry.external_attr = 0o100644 << 16
             archive.writestr(entry, body)
-    return f"{slug}-{version}.zip", buffer.getvalue()
+    return buffer.getvalue()
+
+
+def former_gpt_registry(root):
+    products = {}
+    for pattern in ("*/plugin/release.json", "*/*/plugin/release.json"):
+        for path in sorted((root / "capabilities").glob(pattern)):
+            receipt = json.loads(read_file(root, path))
+            slug = receipt["packageId"]
+            route = path.parents[1].relative_to(root).as_posix()
+            if (not re.fullmatch(SLUG, slug) or slug in products or receipt["formatVersion"] != 1
+                    or not re.fullmatch(rf"capabilities/{SLUG}(?:/{SLUG})?", route)):
+                raise ValueError(f"Invalid former-GPT package at {route}")
+            products[slug] = (path.parent, receipt)
+    if not products:
+        raise ValueError("No former-GPT release records")
+    return products
+
+
+def relative_path(value):
+    if (not isinstance(value, str) or not value or "\\" in value or ":" in value
+            or any(part in ("", ".", "..") for part in value.split("/"))):
+        raise ValueError(f"Invalid package path: {value!r}")
+    return value
+
+
+def former_gpt_package(root, product):
+    directory, receipt = product
+    slug = receipt["packageId"]
+    contents = {}
+    references = []
+    required = {"plugin.json", "assets/gpt-icon.png", "skills/instructions/SKILL.md",
+                "skills/instructions/agents/openai.yaml"}
+    resource_prefix = "skills/instructions/references/"
+    seen = set()
+    for record in receipt["files"]:
+        name = relative_path(record["path"])
+        if (name.casefold() in seen or (name not in required and
+                (not name.startswith(resource_prefix) or "/" in name[len(resource_prefix):]))):
+            raise ValueError(f"Unexpected or duplicate member in {slug}: {name}")
+        seen.add(name.casefold())
+        source = directory / name
+        if "source" in record:
+            public_source = relative_path(record["source"])
+            if public_source.split("/", 1)[0] not in {
+                    "capabilities", "canon", "docs", "evaluation", "governance", "inventory",
+                    "products", "prompts", "snapshots", "templates", "vernacular"}:
+                raise ValueError(f"Source outside the documented public asset directories: {public_source}")
+            source = root / public_source
+        data = read_file(root, source)
+        if "member" in record:
+            member = relative_path(record["member"])
+            with zipfile.ZipFile(io.BytesIO(data)) as bundle:
+                matches = [entry for entry in bundle.infolist() if entry.filename == member]
+                if len(matches) != 1 or matches[0].is_dir() or matches[0].file_size > 64 * 1024 * 1024:
+                    raise ValueError(f"Invalid archive reference for {slug}: {name}")
+                data = bundle.read(matches[0])
+        digest = record["sha256"]
+        if hashlib.sha256(data).hexdigest() != digest:
+            # Windows checkouts may project text to CRLF. Match the reviewed bytes.
+            if PurePosixPath(name).suffix.lower() not in {".md", ".txt", ".json", ".yaml", ".yml", ".csv"}:
+                raise ValueError(f"Source digest mismatch for {slug}: {name}")
+            lf = data.replace(b"\r\n", b"\n")
+            data = next((b for b in (lf, lf.replace(b"\n", b"\r\n"))
+                         if hashlib.sha256(b).hexdigest() == digest), None)
+            if data is None:
+                raise ValueError(f"Source digest mismatch for {slug}: {name}")
+        contents[name] = data
+        if name.startswith(resource_prefix):
+            original = relative_path(record.get("originalName", name[len(resource_prefix):]))
+            if "/" in original:
+                raise ValueError(f"Invalid native knowledge name in {slug}: {original}")
+            references.append({"name": original,
+                               "path": name.removeprefix("skills/instructions/")})
+    if not required.issubset(contents):
+        raise ValueError(f"Missing native plugin files for {slug}: {sorted(required - contents.keys())}")
+    native = json.loads(contents["plugin.json"])
+    version = native["version"]
+    if not re.fullmatch(VERSION, version) or version != receipt["sourceVersion"]:
+        raise ValueError(f"Native version does not match the release record for {slug}")
+    interface = native["extensions"]["com.openai"]["interface"]
+    if (interface["capabilities"] != ["skills"] or interface["logo"] != "./assets/gpt-icon.png"
+            or interface["composerIcon"] != "./assets/gpt-icon.png"):
+        raise ValueError(f"Unrecognized native interface for {slug}")
+    compat = {"interface": interface, "name": native["name"], "version": version,
+              "description": native["description"], "author": native["author"],
+              "keywords": [], "skills": "./skills"}
+    lookup = {"files": references, "guidelines":
+              "Resolve each path relative to skills/instructions/. This list contains the knowledge files included in this distribution."}
+    # Builder can retain more starters than the native interface displays. Keep
+    # the reviewed export intact, including its order and original wording.
+    starter_bytes = read_file(root, directory / "builder-starters.json").replace(b"\r\n", b"\n")
+    starters = json.loads(starter_bytes)
+    if (not isinstance(starters, dict) or set(starters) != {"starters"}
+            or not isinstance(starters["starters"], list)
+            or not all(isinstance(item, str) and item.strip() for item in starters["starters"])):
+        raise ValueError(f"Invalid original Builder starter list for {slug}")
+    contents["foundry/builder-starters.json"] = starter_bytes
+    for name, document in ((".codex-plugin/plugin.json", compat),
+                           ("skills/instructions/lookup/knowledge-index.json", lookup),
+                           ("foundry-release.json", receipt)):
+        contents[name] = (json.dumps(document, ensure_ascii=False, indent=2) + "\n").encode("utf-8")
+    return f"{slug}-former-gpt-{version}.zip", archive_bytes(contents)
 
 
 def write_new(path, body):
@@ -151,15 +258,17 @@ def main():
     selection.add_argument("--product", action="append", metavar="ID", help="select a product ID (repeatable)")
     parser.add_argument("--output", type=Path, required=True, help="directory for the versioned ZIPs")
     parser.add_argument("--check", action="store_true", help="verify existing ZIPs without writing")
+    parser.add_argument("--former-gpt", action="store_true", help="use reviewed native former-GPT release records")
     args = parser.parse_args()
     try:
-        products = registry(ROOT)
+        products = former_gpt_registry(ROOT) if args.former_gpt else registry(ROOT)
+        build = former_gpt_package if args.former_gpt else package
         selected = sorted(products if args.all else set(args.product))
         pending = []
         for slug in selected:
             if slug not in products:
                 raise ValueError(f"Unknown capability: {slug}")
-            name, body = package(ROOT, products[slug])
+            name, body = build(ROOT, products[slug])
             path = args.output / name
             if path.exists() or path.is_symlink():
                 if path.is_symlink() or not path.is_file() or path.read_bytes() != body:

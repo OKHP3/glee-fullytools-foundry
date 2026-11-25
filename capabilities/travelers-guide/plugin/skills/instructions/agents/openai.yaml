@@ -1,0 +1,4 @@
+interface:
+  default_prompt: “Let’s document my last vacation before I forget the details.”
+  display_name: Traveler’s Guide by Glee-fully
+  short_description: 'Document past trips and plan future adventures with ease. Great '

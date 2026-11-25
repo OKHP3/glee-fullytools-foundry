@@ -1,0 +1,4 @@
+interface:
+  default_prompt: What bridge is this in my photo?
+  display_name: Sight Seeker by Glee-fully
+  short_description: Identify landmarks, landscapes, and constellations with lore-fil

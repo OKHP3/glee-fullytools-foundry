@@ -1,0 +1,36 @@
+{
+  "formatVersion": 1,
+  "packageId": "bag-nabbit",
+  "sourceVersion": "0.6.1+bundle.d579b74f3b40116160b7a1f80f633190",
+  "contentReview": [
+    "Native author and interface attribution use the public Glee-fully Tools brand."
+  ],
+  "files": [
+    {
+      "path": "plugin.json",
+      "sha256": "14a614d9b32f3f1864bf2e732f6804ae019c1e2bc8ec1ab64239b3248a9ba5f9"
+    },
+    {
+      "path": "skills/instructions/SKILL.md",
+      "sha256": "201507695827eea4db1d01a15b5df7e034e6dcc7884e3080dd4aeafb8e5081eb"
+    },
+    {
+      "path": "skills/instructions/agents/openai.yaml",
+      "sha256": "0976bd4210ad616de53842d50a2a5034f52713214d7d9b4688745253b3663fda"
+    },
+    {
+      "path": "assets/gpt-icon.png",
+      "sha256": "60373cb43a4ef7abf798ec62f1bc21adddffa586e95ca819be801d46dc58b693"
+    },
+    {
+      "path": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+      "sha256": "32ee04f18a775643db8cabd15f60abff2209844256f048f7806ffdb3c52f57ac",
+      "edition": "public-derivative",
+      "review": "Public excerpt covering output structure and clarification. Operator contacts and unrelated build records are omitted.",
+      "source": "capabilities/personalizable-tools/plugin/skills/instructions/references/Operator’s Cathedral Layout 📐.md"
+    }
+  ],
+  "sourceKnowledgeFiles": 1,
+  "omittedKnowledge": [],
+  "distribution": "Reviewed former-GPT plugin files. The native release version identifies the source. The compatibility manifest and knowledge index are generated from these files."
+}

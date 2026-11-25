@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Glee-fully Tools",
+    "url": "https://overkillhill.com"
+  },
+  "description": "Bag Nabbit helps you keep your bag collection organized, memorable, and accessible. Whether you have a few beloved purses or a vast array of luxury handbags, this tool helps you track them all, from storage locations to wishlists and beyond.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "skills"
+        ],
+        "category": "Other",
+        "composerIcon": "./assets/gpt-icon.png",
+        "defaultPrompt": [
+          "\"What’s the latest addition to your bag collection? Let’s add it to your log!\"",
+          "\"Looking for a budget-friendly alternative to your dream bag? Snap a pic and let’s see what we can find!\"",
+          "\"Not sure where you stored that cute clutch? Let’s track it down together!\""
+        ],
+        "developerName": "Glee-fully Tools",
+        "displayName": "Bag Nabbit by Glee-fully",
+        "logo": "./assets/gpt-icon.png",
+        "longDescription": "Bag Nabbit helps you keep your bag collection organized, memorable, and accessible. Whether you have a few beloved purses or a vast array of luxury handbags, this tool helps you track them all, from storage locations to wishlists and beyond.",
+        "shortDescription": "Bag Nabbit helps you keep your bag collection organized, memorable, and accessible. Whether you have a few beloved purses or a vast array of luxury handbags, this tool helps you track them all, from storage locations to wishlists and beyond"
+      }
+    }
+  },
+  "name": "gpt-2fd4ccf94c90201f74c19da98cab752a",
+  "version": "0.6.1+bundle.d579b74f3b40116160b7a1f80f633190"
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Glee-fully Tools",
+    "url": "https://overkillhill.com"
+  },
+  "description": "Scentinal Journal is a soothing, scent-loving logbook for tracking candles, wax melts, diffusers, or fragrance oils. Whether you’re burning autumn leaves or fresh linen, it helps you remember what you’ve used, loved, stored, or reordered — one scent memory at a time.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "skills"
+        ],
+        "category": "Other",
+        "composerIcon": "./assets/gpt-icon.png",
+        "defaultPrompt": [],
+        "developerName": "Glee-fully Tools",
+        "displayName": "Scentinal Journal by Glee-fully",
+        "logo": "./assets/gpt-icon.png",
+        "longDescription": "Scentinal Journal is a soothing, scent-loving logbook for tracking candles, wax melts, diffusers, or fragrance oils. Whether you’re burning autumn leaves or fresh linen, it helps you remember what you’ve used, loved, stored, or reordered — one scent memory at a time.",
+        "shortDescription": "Scentinal Journal is a soothing, scent-loving logbook for tracking candles, wax melts, diffusers, or fragrance oils. Whether you’re burning autumn leaves or fresh linen, it helps you remember what you’ve used, loved, stored, or reordered — "
+      }
+    }
+  },
+  "name": "gpt-2a4781d6b6ab8f1434b43a221b883890",
+  "version": "0.7.1+bundle.4bbdded6475568b2256c15876e8a9985"
+}

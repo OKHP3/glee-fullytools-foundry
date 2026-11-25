@@ -1,0 +1,27 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Glee-fully Tools",
+    "url": "https://overkillhill.com"
+  },
+  "description": "bLinkIn Tuner helps you refresh your profile so you can be seen and searched. It revises your headline, About, and Experience sections to highlight your value and include SEO-friendly terms recruiters look for.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "skills"
+        ],
+        "category": "Productivity",
+        "composerIcon": "./assets/gpt-icon.png",
+        "defaultPrompt": [],
+        "developerName": "Glee-fully Tools",
+        "displayName": "bLinkn Tuner by Glee-fully",
+        "logo": "./assets/gpt-icon.png",
+        "longDescription": "bLinkIn Tuner helps you refresh your profile so you can be seen and searched. It revises your headline, About, and Experience sections to highlight your value and include SEO-friendly terms recruiters look for.",
+        "shortDescription": "bLinkIn Tuner helps you refresh your profile so you can be seen and searched. It revises your headline, About, and Experience sections to highlight your value and include SEO-friendly terms recruiters look for."
+      }
+    }
+  },
+  "name": "gpt-d363bcbfaab848b950ee4318d57d353c",
+  "version": "0.16.1+bundle.282d3d89be42e1e3f135d01500967e53"
+}

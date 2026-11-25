@@ -1,0 +1,5 @@
+interface:
+  default_prompt: “Help me sort my chaos into to-do categories.”
+  display_name: Task Maestro by Glee-fully
+  short_description: Task Maestro is your list-loving, vibe-sorting task companion
+    fr

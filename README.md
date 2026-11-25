@@ -39,6 +39,8 @@ The app can derive a skill draft from a GPT source, then plugin or connector blu
 
 Browse the [capability directory](capabilities/README.md) for the Personalizable Tools toolbox, its seven families and their Tool-ettes. Each capability links to its portable Agent Skill, evaluation cases and original source tree. The 50 legacy GitHub repositories were retired after their complete trees were verified here. The [migration register](products/migration-map.json) records the pinned revisions and tree IDs. For a source import or skill conversion, follow the [migration contract](products/README.md) and [portable capability workflow](docs/application/portable-capabilities.md).
 
+The [hosted GPT plugin index](products/hosted-gpt-plugins.md) links all 53 migrated GPTs to their public plugin files, original conversation starters, knowledge-file receipts and downloadable packages.
+
 ## Inside the workbench
 
 - **A brief with a purpose.** Capture the owner, version, audience, inputs, outputs, constraints and instructions in one place.

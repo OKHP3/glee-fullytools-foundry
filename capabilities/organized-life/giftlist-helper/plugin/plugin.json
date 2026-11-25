@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Glee-fully Tools",
+    "url": "https://overkillhill.com"
+  },
+  "description": "Giftlist Helper is your cozy companion for tracking gift ideas, stash spots, and giving history by person or occasion. Built for joyful chaos and sparkle logic, it ensures you never double up, always deliver on time, and know exactly where that Nerf thing was hidden.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "skills"
+        ],
+        "category": "Productivity",
+        "composerIcon": "./assets/gpt-icon.png",
+        "defaultPrompt": [
+          "“I need to start tracking gifts — can you help?”",
+          "“What did I give my niece last year?”",
+          "“Add this for a friend — again.”"
+        ],
+        "developerName": "Glee-fully Tools",
+        "displayName": "Giftlist Helper by Glee-fully",
+        "logo": "./assets/gpt-icon.png",
+        "longDescription": "Giftlist Helper is your cozy companion for tracking gift ideas, stash spots, and giving history by person or occasion. Built for joyful chaos and sparkle logic, it ensures you never double up, always deliver on time, and know exactly where that Nerf thing was hidden.",
+        "shortDescription": "Giftlist Helper is your cozy companion for tracking gift ideas, stash spots, and giving history by person or occasion. Built for joyful chaos and sparkle logic, it ensures you never double up, always deliver on time, and know exactly where "
+      }
+    }
+  },
+  "name": "gpt-a5476d3a966cfdfa717db8b788d2f44a",
+  "version": "0.6.1+bundle.39e0cfae9ced36d516a119b2bdd640d0"
+}

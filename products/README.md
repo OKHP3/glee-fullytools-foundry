@@ -56,10 +56,10 @@ The packager excludes legacy source trees and user records. The register
 records the package version and verification scope. Host installation and
 runtime tests are separate steps.
 
-ChatGPT also migrated the latest published version of each of the 50 owned GPTs
-into a private plugin. Each original now opens its replacement from My GPTs.
-Those native releases preserve the hosted instructions and available reference
-files. The public portable packages are maintained independently here.
+ChatGPT created private plugins for 53 owned GPTs. Fifty correspond to the
+former repositories. My GPTs also contained Icon Maker, Grounded and a second
+Healthy Bee-ing GPT. The [hosted GPT plugin index](hosted-gpt-plugins.md)
+links each migrated skill, public plugin manifest and knowledge-file receipt.
 
 ## Layout for each product
 

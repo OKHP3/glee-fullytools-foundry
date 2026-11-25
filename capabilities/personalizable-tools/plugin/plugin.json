@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Glee-fully Tools",
+    "url": "https://overkillhill.com"
+  },
+  "description": "Joyful retro hub for the Glee-fully suite, with step-by-step, template-first guidance.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "skills"
+        ],
+        "category": "Other",
+        "composerIcon": "./assets/gpt-icon.png",
+        "defaultPrompt": [
+          "Show me the branches — what Tools do you have?",
+          "Help me pick a Tool-ette for food, travel, or work.",
+          "I need a checklist I can copy into Word or Excel."
+        ],
+        "developerName": "Glee-fully Tools",
+        "displayName": "Glee-fully Personalizable Tools",
+        "logo": "./assets/gpt-icon.png",
+        "longDescription": "Joyful retro hub for the Glee-fully suite, with step-by-step, template-first guidance.",
+        "shortDescription": "Joyful retro hub for the Glee-fully suite, with step-by-step, template-first guidance."
+      }
+    }
+  },
+  "name": "gpt-bb0cfcd865e8324a48f89e38e4aed687",
+  "version": "0.58.1+bundle.6e924f8446cd62a13b8566a821a70b43"
+}

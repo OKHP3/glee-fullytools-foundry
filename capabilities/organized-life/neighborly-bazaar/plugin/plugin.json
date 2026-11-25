@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Glee-fully Tools",
+    "url": "https://overkillhill.com"
+  },
+  "description": "Neighborly Bazaar is your cheerful resale companion—part local market, part magic wand. Snap photos, get fair prices, and watch forgotten things find happy new homes. Turn clutter into cash, connection, and calm—because letting go should feel just as good as finding again.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "skills"
+        ],
+        "category": "Other",
+        "composerIcon": "./assets/gpt-icon.png",
+        "defaultPrompt": [
+          "🏡 Tell me what Neighborly Bazaar does and how it helps sellers like me.",
+          "📸 Help me identify what I’m selling — I’m not sure what this item is!",
+          "💰 What’s a fair local price for this? I want top dollar without scaring buyers."
+        ],
+        "developerName": "Glee-fully Tools",
+        "displayName": "Neighborly Bazaar by Glee-fully",
+        "logo": "./assets/gpt-icon.png",
+        "longDescription": "Neighborly Bazaar is your cheerful resale companion—part local market, part magic wand. Snap photos, get fair prices, and watch forgotten things find happy new homes. Turn clutter into cash, connection, and calm—because letting go should feel just as good as finding again.",
+        "shortDescription": "Neighborly Bazaar is your cheerful resale companion—part local market, part magic wand. Snap photos, get fair prices, and watch forgotten things find happy new homes. Turn clutter into cash, connection, and calm—because letting go should fe"
+      }
+    }
+  },
+  "name": "gpt-88d7ca2efa91c2758d7d8ed079760ae7",
+  "version": "0.18.1+bundle.78375b86d6c37f6cc8288985525ec23d"
+}

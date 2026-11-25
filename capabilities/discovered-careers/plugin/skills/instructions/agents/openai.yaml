@@ -1,0 +1,5 @@
+interface:
+  default_prompt: “Can you help me tailor my resume to this job posting?”
+  display_name: Discovered Careers by Glee-fully
+  short_description: A joyful, career-focused GPT to help you explore, build, and
+    pol

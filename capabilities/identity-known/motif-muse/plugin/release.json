@@ -1,0 +1,37 @@
+{
+  "formatVersion": 1,
+  "packageId": "motif-muse",
+  "sourceVersion": "0.11.1+bundle.0bc8414b55d7d6ff53a51b38e3efd231",
+  "contentReview": [
+    "Native author and interface attribution use the public Glee-fully Tools brand."
+  ],
+  "files": [
+    {
+      "path": "plugin.json",
+      "sha256": "9baf33aafcd496b273eb810c8912ee2e630add075b15c47dd276f22d896486fb"
+    },
+    {
+      "path": "skills/instructions/SKILL.md",
+      "sha256": "3408626187608f4f817b01a24107019216445c5879989b02782f60e67f1666ab"
+    },
+    {
+      "path": "skills/instructions/agents/openai.yaml",
+      "sha256": "f49a706cc3d93da45a0a96e68ef63622c09632b91598067cccb563db429146d9"
+    },
+    {
+      "path": "assets/gpt-icon.png",
+      "sha256": "0e5ef9a9e50a944054985c3f40badd8c169f49a1741e863c312068ecc3ceee28",
+      "source": "capabilities/personalizable-tools/plugin/assets/gpt-icon.png"
+    },
+    {
+      "path": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+      "sha256": "32ee04f18a775643db8cabd15f60abff2209844256f048f7806ffdb3c52f57ac",
+      "edition": "public-derivative",
+      "review": "Public excerpt covering output structure and clarification. Operator contacts and unrelated build records are omitted.",
+      "source": "capabilities/personalizable-tools/plugin/skills/instructions/references/Operator’s Cathedral Layout 📐.md"
+    }
+  ],
+  "sourceKnowledgeFiles": 1,
+  "omittedKnowledge": [],
+  "distribution": "Reviewed former-GPT plugin files. The native release version identifies the source. The compatibility manifest and knowledge index are generated from these files."
+}

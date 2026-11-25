@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Glee-fully Tools",
+    "url": "https://overkillhill.com"
+  },
+  "description": "IDs animals, pets, bugs, and wildlife with trivia and joyful handoffs",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "skills"
+        ],
+        "category": "Other",
+        "composerIcon": "./assets/gpt-icon.png",
+        "defaultPrompt": [
+          "Can you ID this wild animal?",
+          "What breed of cat is this?",
+          "Do you know what bug this is?"
+        ],
+        "developerName": "Glee-fully Tools",
+        "displayName": "Critter Spotter by Glee-fully",
+        "logo": "./assets/gpt-icon.png",
+        "longDescription": "IDs animals, pets, bugs, and wildlife with trivia and joyful handoffs",
+        "shortDescription": "IDs animals, pets, bugs, and wildlife with trivia and joyful handoffs"
+      }
+    }
+  },
+  "name": "gpt-f386fe93bfc970a7be9be594aeeae75c",
+  "version": "0.8.1+bundle.2054fbbb5ad8dc5f9dc270c7bc2f0385"
+}

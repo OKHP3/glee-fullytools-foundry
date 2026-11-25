@@ -1,0 +1,4 @@
+interface:
+  default_prompt: Log my mood and water today
+  display_name: Moody Log by Glee-fully
+  short_description: A reflective twig for journaling hydration, mood, and body snaps

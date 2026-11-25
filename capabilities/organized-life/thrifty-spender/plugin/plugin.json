@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Glee-fully Tools",
+    "url": "https://overkillhill.com"
+  },
+  "description": "Track your bills, build a budget, and shine a spotlight on your spending habits with Thrifty Spender — a Glee-fully Personalizable Tool-ette (🔩 Twig). Sparkle through your money rituals with tags, reminders, insights, and exportable summaries, all wrapped in cozy clarity.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "skills"
+        ],
+        "category": "Productivity",
+        "composerIcon": "./assets/gpt-icon.png",
+        "defaultPrompt": [
+          "“Log my monthly bills and track when they’re due.”",
+          "“Create a budget for groceries and compare it to my spending.”",
+          "“Can you tag my Uber Eats as ‘Weekend Splurge’?”"
+        ],
+        "developerName": "Glee-fully Tools",
+        "displayName": "Thrifty Spender by Glee-fully",
+        "logo": "./assets/gpt-icon.png",
+        "longDescription": "Track your bills, build a budget, and shine a spotlight on your spending habits with Thrifty Spender — a Glee-fully Personalizable Tool-ette (🔩 Twig). Sparkle through your money rituals with tags, reminders, insights, and exportable summaries, all wrapped in cozy clarity.",
+        "shortDescription": "Track your bills, build a budget, and shine a spotlight on your spending habits with Thrifty Spender — a Glee-fully Personalizable Tool-ette (🔩 Twig). Sparkle through your money rituals with tags, reminders, insights, and exportable summari"
+      }
+    }
+  },
+  "name": "gpt-420f46b0828358b3bbe43e1ede33a968",
+  "version": "0.5.1+bundle.1db1e142b13561fd7230cbfcb539fa68"
+}

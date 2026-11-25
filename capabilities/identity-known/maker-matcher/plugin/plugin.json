@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Glee-fully Tools",
+    "url": "https://overkillhill.com"
+  },
+  "description": "Identifies crafts, tools, and hobbies from images with curiosity-driven insight.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "skills"
+        ],
+        "category": "Other",
+        "composerIcon": "./assets/gpt-icon.png",
+        "defaultPrompt": [
+          "What craft or hobby does this object belong to?",
+          "Can you identify the tools in this workspace photo?",
+          "Tag this handmade project with its technique."
+        ],
+        "developerName": "Glee-fully Tools",
+        "displayName": "Maker Matcher by Glee-fully",
+        "logo": "./assets/gpt-icon.png",
+        "longDescription": "Identifies crafts, tools, and hobbies from images with curiosity-driven insight.",
+        "shortDescription": "Identifies crafts, tools, and hobbies from images with curiosity-driven insight."
+      }
+    }
+  },
+  "name": "gpt-caf6a96a86859746dcd788154393abfd",
+  "version": "0.9.1+bundle.c4126539f500fa404c6ea007f0e1a337"
+}

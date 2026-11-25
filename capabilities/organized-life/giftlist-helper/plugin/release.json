@@ -1,0 +1,88 @@
+{
+  "formatVersion": 1,
+  "packageId": "giftlist-helper",
+  "sourceVersion": "0.6.1+bundle.39e0cfae9ced36d516a119b2bdd640d0",
+  "contentReview": [
+    "Native author and interface attribution use the public Glee-fully Tools brand.",
+    "Historic links use current FoundRy routes where available. Biographical details are omitted where present.",
+    "A named example in a conversation starter uses a generic recipient."
+  ],
+  "files": [
+    {
+      "path": "plugin.json",
+      "sha256": "a32631800f84b0209a69d6a7ce15efff1bdf4c84a0ec8b9a1623c2c8abb568e2"
+    },
+    {
+      "path": "skills/instructions/SKILL.md",
+      "sha256": "494b71cce8a23e6eb24db2246ba6acef504c2191c25a2d1b8bb29d396f761945"
+    },
+    {
+      "path": "skills/instructions/agents/openai.yaml",
+      "sha256": "14671cc3c9d8bb1c6499f982b035293352a8c6f320717e9910f768dca01519d7"
+    },
+    {
+      "path": "assets/gpt-icon.png",
+      "sha256": "eaf45eff5cfe802527938b79ce3bbc22adca8884fc94e5016e2024801c4ffa93"
+    },
+    {
+      "path": "skills/instructions/references/Giftlist Helper Final.md",
+      "sha256": "36ebd95948eb87e49d15ad4c52f990a4acf5128db90cfd2d935c647760d3a72e",
+      "source": "capabilities/organized-life/giftlist-helper/source/giftlist-helper-final.md"
+    },
+    {
+      "path": "skills/instructions/references/Glee–fully Square Giftlist Helper.png",
+      "sha256": "151b9300b01d70b433d6d7854a7889561192fed54f264e38c3788ecd4e48c24c",
+      "source": "capabilities/organized-life/giftlist-helper/source/knowledgebundle/Glee–fully Square Giftlist Helper.png"
+    },
+    {
+      "path": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+      "sha256": "32ee04f18a775643db8cabd15f60abff2209844256f048f7806ffdb3c52f57ac",
+      "edition": "public-derivative",
+      "review": "Public excerpt covering output structure and clarification. Operator contacts and unrelated build records are omitted.",
+      "source": "capabilities/personalizable-tools/plugin/skills/instructions/references/Operator’s Cathedral Layout 📐.md"
+    },
+    {
+      "path": "skills/instructions/references/dataLedger_archive_v2.txt",
+      "sha256": "2c5b108fc782d51628ba3d2fe5deb6a921f2c86a5dda1e5251e525707e659aee",
+      "source": "capabilities/travelers-guide/memento-log/source/knowledgebundle/ledgers/dataLedger_archive_v2.txt"
+    },
+    {
+      "path": "skills/instructions/references/dataLedger_ideation_v2.txt",
+      "sha256": "eff4149f5a94f476beaa0a8d0fc45c1f8dbe3fbca7686053e5305b70bc142de4",
+      "source": "capabilities/travelers-guide/memento-log/source/knowledgebundle/ledgers/dataLedger_ideation_v2.txt"
+    },
+    {
+      "path": "skills/instructions/references/dataLedger_narrative_v2.txt",
+      "sha256": "070cf035cebdc9eb0997924e964cc264ffb2022c6ebe0e118d330ea870a705c8",
+      "source": "capabilities/travelers-guide/memento-log/source/knowledgebundle/ledgers/dataLedger_narrative_v2.txt"
+    },
+    {
+      "path": "skills/instructions/references/dataLedger_parameters_v2.txt",
+      "sha256": "fdd20a25c8345102e5dda3adf31bacb94ee95818561f1a5e7b44928bd1f74ba0",
+      "source": "capabilities/travelers-guide/memento-log/source/knowledgebundle/ledgers/dataLedger_parameters_v2.txt"
+    },
+    {
+      "path": "skills/instructions/references/dataLedger_persona_v2.txt",
+      "sha256": "973eb0084af67f16d1a163096b533c937e8ed8056fba80323ac1e66d674e5888",
+      "source": "capabilities/travelers-guide/memento-log/source/knowledgebundle/ledgers/dataLedger_persona_v2.txt"
+    },
+    {
+      "path": "skills/instructions/references/dataLedger_processing_v2.txt",
+      "sha256": "751d322d22c0914c94cd4ed013ee78171272317a317996aeef1a7610a5c62b3a",
+      "source": "capabilities/travelers-guide/memento-log/source/knowledgebundle/ledgers/dataLedger_processing_v2.txt"
+    },
+    {
+      "path": "skills/instructions/references/dataLedger_registry_v2.txt",
+      "sha256": "813ea07741a0f1fa9bfad7fb3df2ad8b9bc9e59b5a0d7bbdb14a17a27ba708a7",
+      "source": "capabilities/travelers-guide/memento-log/source/knowledgebundle/ledgers/dataLedger_registry_v2.txt"
+    },
+    {
+      "path": "skills/instructions/references/dataLedger_system_v2.txt",
+      "sha256": "ad8769391d6b4354bfb73b8dbc828e4604190e0446bc9b59afd4ea8fcce7d9cc",
+      "source": "capabilities/travelers-guide/memento-log/source/knowledgebundle/ledgers/dataLedger_system_v2.txt"
+    }
+  ],
+  "sourceKnowledgeFiles": 11,
+  "omittedKnowledge": [],
+  "distribution": "Reviewed former-GPT plugin files. The native release version identifies the source. The compatibility manifest and knowledge index are generated from these files."
+}

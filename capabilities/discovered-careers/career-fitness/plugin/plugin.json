@@ -1,0 +1,27 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Glee-fully Tools",
+    "url": "https://overkillhill.com"
+  },
+  "description": "Career Fitness helps you explore your current skill set, discover what roles might suit you best, and plan your next professional moves. It’s a matchmaker for skills and jobs, with added tools for salary research and growth planning.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "skills"
+        ],
+        "category": "Productivity",
+        "composerIcon": "./assets/gpt-icon.png",
+        "defaultPrompt": [],
+        "developerName": "Glee-fully Tools",
+        "displayName": "Career Fitness by Glee-fully",
+        "logo": "./assets/gpt-icon.png",
+        "longDescription": "Career Fitness helps you explore your current skill set, discover what roles might suit you best, and plan your next professional moves. It’s a matchmaker for skills and jobs, with added tools for salary research and growth planning.",
+        "shortDescription": "Career Fitness helps you explore your current skill set, discover what roles might suit you best, and plan your next professional moves. It’s a matchmaker for skills and jobs, with added tools for salary research and growth planning."
+      }
+    }
+  },
+  "name": "gpt-5d12ad5f4ac371047537392b17ccfbd0",
+  "version": "0.10.1+bundle.a6c840e0feebc933184c4daad61ca754"
+}

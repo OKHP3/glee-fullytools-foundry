@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Glee-fully Tools",
+    "url": "https://overkillhill.com"
+  },
+  "description": "Lifestyle Wallboard is a visual dashboard GPT that transforms your tasks, habits, goals, bills, and moods into a serene, printable snapshot. It integrates inputs from other Glee-fully Tool-ettes and personal reflections into a shareable, stylized, BLEED GLEE-friendly layout.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "skills"
+        ],
+        "category": "Other",
+        "composerIcon": "./assets/gpt-icon.png",
+        "defaultPrompt": [
+          "Show me a weekly snapshot of my life",
+          "Export my goals, habits, and bills as a dashboard",
+          "Customize my layout with pastel tones"
+        ],
+        "developerName": "Glee-fully Tools",
+        "displayName": "Lifestyle Wallboard by Glee-fully",
+        "logo": "./assets/gpt-icon.png",
+        "longDescription": "Lifestyle Wallboard is a visual dashboard GPT that transforms your tasks, habits, goals, bills, and moods into a serene, printable snapshot. It integrates inputs from other Glee-fully Tool-ettes and personal reflections into a shareable, stylized, BLEED GLEE-friendly layout.",
+        "shortDescription": "Lifestyle Wallboard is a visual dashboard GPT that transforms your tasks, habits, goals, bills, and moods into a serene, printable snapshot. It integrates inputs from other Glee-fully Tool-ettes and personal reflections into a shareable, st"
+      }
+    }
+  },
+  "name": "gpt-bbef9d0401ee51bfe54cad9f7a0d945c",
+  "version": "0.6.1+bundle.d8843a8ede60a8b6e13af6cd55bd7a78"
+}

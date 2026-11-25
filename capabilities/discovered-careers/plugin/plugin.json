@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Glee-fully Tools",
+    "url": "https://overkillhill.com"
+  },
+  "description": "A joyful, career-focused GPT to help you explore, build, and polish resumes, letters, profiles, and job apps. This Tool (Branch) connects you with the perfect Tool-ette to level up your job hunt — with sparkle, sass, and retro clarity.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "skills"
+        ],
+        "category": "Productivity",
+        "composerIcon": "./assets/gpt-icon.png",
+        "defaultPrompt": [
+          "“Can you help me tailor my resume to this job posting?”",
+          "“I’m switching careers — how should I describe my experience?”",
+          "“What’s the best job title for the skills I already have?”"
+        ],
+        "developerName": "Glee-fully Tools",
+        "displayName": "Discovered Careers by Glee-fully",
+        "logo": "./assets/gpt-icon.png",
+        "longDescription": "A joyful, career-focused GPT to help you explore, build, and polish resumes, letters, profiles, and job apps. This Tool (Branch) connects you with the perfect Tool-ette to level up your job hunt — with sparkle, sass, and retro clarity.",
+        "shortDescription": "A joyful, career-focused GPT to help you explore, build, and polish resumes, letters, profiles, and job apps. This Tool (Branch) connects you with the perfect Tool-ette to level up your job hunt — with sparkle, sass, and retro clarity."
+      }
+    }
+  },
+  "name": "gpt-7e1173199f3f4773ce2cb5a18f6b8493",
+  "version": "0.22.1+bundle.fe622d17e86923587a0833c885526fd8"
+}

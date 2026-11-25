@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Glee-fully Tools",
+    "url": "https://overkillhill.com"
+  },
+  "description": "Build a clean, professional resume with personalized guidance. Great for job seekers, career changers, and first-time applicants, part of the Glee-fully Personalizable Tools suite.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "skills"
+        ],
+        "category": "Productivity",
+        "composerIcon": "./assets/gpt-icon.png",
+        "defaultPrompt": [
+          "“I’m starting from scratch.”",
+          "“Can I upload or paste my current resume?”",
+          "“Help me write my first resume.”"
+        ],
+        "developerName": "Glee-fully Tools",
+        "displayName": "Resume Builder by Glee-fully",
+        "logo": "./assets/gpt-icon.png",
+        "longDescription": "Build a clean, professional resume with personalized guidance. Great for job seekers, career changers, and first-time applicants, part of the Glee-fully Personalizable Tools suite.",
+        "shortDescription": "Build a clean, professional resume with personalized guidance. Great for job seekers, career changers, and first-time applicants, part of the Glee-fully Personalizable Tools suite."
+      }
+    }
+  },
+  "name": "gpt-63c6bea479b689902c930d68ff933cac",
+  "version": "0.23.1+bundle.be2ebb48b051e958ca8970be9dcf50e5"
+}

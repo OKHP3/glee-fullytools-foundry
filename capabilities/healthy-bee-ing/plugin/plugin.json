@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Glee-fully Tools",
+    "url": "https://overkillhill.com"
+  },
+  "description": "The wellness hive branch with six health-focused twigs and smooth sibling handoffs.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "skills"
+        ],
+        "category": "Other",
+        "composerIcon": "./assets/gpt-icon.png",
+        "defaultPrompt": [
+          "I’m feeling off — can you help me check my symptoms?",
+          "Can you remind me to take my meds and log my mood?",
+          "What should I eat if I’m feeling low energy?"
+        ],
+        "developerName": "Glee-fully Tools",
+        "displayName": "Healthy Bee-ing by Glee-fully",
+        "logo": "./assets/gpt-icon.png",
+        "longDescription": "The wellness hive branch with six health-focused twigs and smooth sibling handoffs.",
+        "shortDescription": "The wellness hive branch with six health-focused twigs and smooth sibling handoffs."
+      }
+    }
+  },
+  "name": "gpt-75377c9cd631d1870dfb6f5b77034fcb",
+  "version": "0.8.1+bundle.d90ac6f2c22bf8a510ed88f9320d9d54"
+}

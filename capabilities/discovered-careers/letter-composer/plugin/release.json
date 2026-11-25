@@ -1,0 +1,37 @@
+{
+  "formatVersion": 1,
+  "packageId": "letter-composer",
+  "sourceVersion": "0.12.1+bundle.7f9f5f6f67cbdd633775197a089cfb03",
+  "contentReview": [
+    "Native author and interface attribution use the public Glee-fully Tools brand.",
+    "Historic links use current FoundRy routes where available. Biographical details are omitted where present."
+  ],
+  "files": [
+    {
+      "path": "plugin.json",
+      "sha256": "f3aa0c10a252db9566f95d4285fa7fb29766f09e9d18dbf3f9628489f5ecd977"
+    },
+    {
+      "path": "skills/instructions/SKILL.md",
+      "sha256": "405ba67e6b8c6880e9f56c86b5305bdb56d35e52780c562f1e31fa90f4a3e49c"
+    },
+    {
+      "path": "skills/instructions/agents/openai.yaml",
+      "sha256": "95b1798977bc531b43970136b8053e6399e977fbfefa91e656975e9bad6e962f"
+    },
+    {
+      "path": "assets/gpt-icon.png",
+      "sha256": "0dfc0b30b230ef63f6c5d242b32f25c277623868aa5438cb3113a4fa368b7cc6"
+    },
+    {
+      "path": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+      "sha256": "32ee04f18a775643db8cabd15f60abff2209844256f048f7806ffdb3c52f57ac",
+      "edition": "public-derivative",
+      "review": "Public excerpt covering output structure and clarification. Operator contacts and unrelated build records are omitted.",
+      "source": "capabilities/personalizable-tools/plugin/skills/instructions/references/Operator’s Cathedral Layout 📐.md"
+    }
+  ],
+  "sourceKnowledgeFiles": 1,
+  "omittedKnowledge": [],
+  "distribution": "Reviewed former-GPT plugin files. The native release version identifies the source. The compatibility manifest and knowledge index are generated from these files."
+}

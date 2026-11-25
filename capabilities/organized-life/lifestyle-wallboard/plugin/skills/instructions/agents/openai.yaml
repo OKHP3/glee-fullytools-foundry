@@ -1,0 +1,5 @@
+interface:
+  default_prompt: Show me a weekly snapshot of my life
+  display_name: Lifestyle Wallboard by Glee-fully
+  short_description: Lifestyle Wallboard is a visual dashboard GPT that transforms
+    yo

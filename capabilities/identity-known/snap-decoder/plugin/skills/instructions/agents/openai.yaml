@@ -1,0 +1,4 @@
+interface:
+  default_prompt: Can you explain this screenshot?
+  display_name: Snap Decoder by Glee-fully
+  short_description: Makes sense of your screenshots — from quotes to error popups.

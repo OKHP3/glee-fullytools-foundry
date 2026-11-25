@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Glee-fully Tools",
+    "url": "https://overkillhill.com"
+  },
+  "description": "IDs mystery parts, suggests fixes, routes to DIY siblings",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "skills"
+        ],
+        "category": "Other",
+        "composerIcon": "./assets/gpt-icon.png",
+        "defaultPrompt": [
+          "What is this screw from?",
+          "Can you ID this broken plastic piece?",
+          "Which tool fits this part?"
+        ],
+        "developerName": "Glee-fully Tools",
+        "displayName": "Self Fixer by Glee-fully",
+        "logo": "./assets/gpt-icon.png",
+        "longDescription": "IDs mystery parts, suggests fixes, routes to DIY siblings",
+        "shortDescription": "IDs mystery parts, suggests fixes, routes to DIY siblings"
+      }
+    }
+  },
+  "name": "gpt-f9e2fb0fd23670ae5761c802b7d943d4",
+  "version": "0.13.1+bundle.603076ca69dc769d19a1bdfffa6b8ada"
+}

@@ -1,0 +1,44 @@
+---
+description: Default instructions for the Decor Detective by Glee-fully plugin. Use
+  this skill whenever this plugin is invoked.
+name: instructions
+---
+
+👋 Welcome! You’ve landed on one of the **Glee-fully Personalizable Tools** — a growing suite of joyful, custom-built GPTs designed to make everyday life more organized, intentional, and fun.
+
+🧰 This one is a **Tool-ette** — a focused micro-tool designed to do one specific job really well. Each Tool-ette belongs to a larger Tool (a themed *branch* of the Glee-fully suite), and together they help you track, plan, and enjoy the things that matter most — from books and budgets to recipes and routines.
+
+🚧 This particular Tool-ette — **Decor Detective** — is **still under construction**. You’ve found it early, while we’re still wiring things up and polishing the prompts. The full experience is coming soon, complete with features, friendly guidance, and that signature “Glee-fully” sparkle.
+
+---
+
+### ✨ Planned Features (Sneak Peek)
+_(Coming in v1.0 — stay tuned!)_
+📦 **Catalog Decorations by Holiday** — Sort items like lights, garlands, and pumpkins
+🏷️ **Tag by Type or Use** — Table settings, tree ornaments, wall art, etc.
+📍 **Track Storage Locations** — Bins, attic, shed, closet — know what’s where
+🗓️ **Setup & Takedown Reminders** — Get timely nudges for seasonal swaps
+🧹 **Maintenance Logs** — Record when decor was repaired, cleaned, or retired
+
+---
+
+### 💡 What It’ll Do (In a Nutshell)
+**Decor Detective** will help you:
+Decor Detective is like the attic whisperer you never knew you needed — remembering what’s in bin 7B and gently reminding you to put up (or take down) your favorite wreath. It brings calm to chaos and turns seasonal setup into a well-timed ritual.
+
+---
+
+✨ In the meantime, feel free to explore the other Tool-ettes that are already live in the suite!  
+You can browse them all here:  
+👉 [**Glee-fully Personalizable Tools – Main Suite**](https://github.com/OKHP3/glee-fullytools-foundry/tree/main/capabilities/personalizable-tools)
+
+And check back soon — **v1.0 is on the way!**
+
+---
+
+💌 **Want to offer feedback or say hi?**  
+Email us at [Glee-fullyTools@outlook.com](mailto:Glee-fullyTools@outlook.com?subject=Feedback%20on%20Decor%20Detective%20Tool-ette)
+
+☕ Like the vibe? Support the project at [ko-fi.com/gleefullypersonalizabletools](https://ko-fi.com/gleefullypersonalizabletools)
+
+---

@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Glee-fully Tools",
+    "url": "https://overkillhill.com"
+  },
+  "description": "Catalog the things you collect and love — from books to candles, seasonal decor to crafts. Designed for collectors, home organizers, and memory keepers, and part of the Glee-fully Personalizable Tools suite.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "skills"
+        ],
+        "category": "Other",
+        "composerIcon": "./assets/gpt-icon.png",
+        "defaultPrompt": [
+          "“Can I upload a list of books to track my collection?”",
+          "“What candles do I have open right now?”",
+          "“Where did I store the Halloween decorations last year?”"
+        ],
+        "developerName": "Glee-fully Tools",
+        "displayName": "Treasured Finds by Glee-fully",
+        "logo": "./assets/gpt-icon.png",
+        "longDescription": "Catalog the things you collect and love — from books to candles, seasonal decor to crafts. Designed for collectors, home organizers, and memory keepers, and part of the Glee-fully Personalizable Tools suite.",
+        "shortDescription": "Catalog the things you collect and love — from books to candles, seasonal decor to crafts. Designed for collectors, home organizers, and memory keepers, and part of the Glee-fully Personalizable Tools suite."
+      }
+    }
+  },
+  "name": "gpt-f908e6f24658a0947cc09b43b6b0aa08",
+  "version": "0.14.1+bundle.87ada9549ad861608096d08426e312f7"
+}

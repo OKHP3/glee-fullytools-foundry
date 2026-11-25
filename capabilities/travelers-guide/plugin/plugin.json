@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Glee-fully Tools",
+    "url": "https://overkillhill.com"
+  },
+  "description": "Document past trips and plan future adventures with ease. Great for daydreamers, journalers, and seasoned travelers alike — part of the Glee-fully Personalizable Tools suite.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "skills"
+        ],
+        "category": "Other",
+        "composerIcon": "./assets/gpt-icon.png",
+        "defaultPrompt": [
+          "“Let’s document my last vacation before I forget the details.”",
+          "“Can you help me build an itinerary for our upcoming trip?”",
+          "“Here’s a city I visited — help me log highlights and regrets.”"
+        ],
+        "developerName": "Glee-fully Tools",
+        "displayName": "Traveler’s Guide by Glee-fully",
+        "logo": "./assets/gpt-icon.png",
+        "longDescription": "Document past trips and plan future adventures with ease. Great for daydreamers, journalers, and seasoned travelers alike — part of the Glee-fully Personalizable Tools suite.",
+        "shortDescription": "Document past trips and plan future adventures with ease. Great for daydreamers, journalers, and seasoned travelers alike — part of the Glee-fully Personalizable Tools suite."
+      }
+    }
+  },
+  "name": "gpt-16c9f869b972cdb28d80a19a5c2b7608",
+  "version": "0.14.1+bundle.1f723800f73dd0773a410dc92899721d"
+}

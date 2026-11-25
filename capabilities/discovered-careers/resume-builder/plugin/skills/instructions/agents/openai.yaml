@@ -1,0 +1,5 @@
+interface:
+  default_prompt: “I’m starting from scratch.”
+  display_name: Resume Builder by Glee-fully
+  short_description: Build a clean, professional resume with personalized guidance.
+    G

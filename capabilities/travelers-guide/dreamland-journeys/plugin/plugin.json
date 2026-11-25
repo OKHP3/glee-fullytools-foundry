@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Glee-fully Tools",
+    "url": "https://overkillhill.com"
+  },
+  "description": "A dreamy GPT that turns your wanderlust, vibes, and moodboards into interactive travel plans. From fuzzy dream sorting to BLEED GLEE overlays, it helps you track, tag, and transform travel ideas into vibrant, soul-guided journeys. Glee-powered and vision-aware.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "skills"
+        ],
+        "category": "Other",
+        "composerIcon": "./assets/gpt-icon.png",
+        "defaultPrompt": [
+          "Help me plan a vibe-based dream trip",
+          "Turn this image into a wanderlust entry",
+          "Sort my past trip ideas by mood"
+        ],
+        "developerName": "Glee-fully Tools",
+        "displayName": "Dreamland Journeys by Glee-fully",
+        "logo": "./assets/gpt-icon.png",
+        "longDescription": "A dreamy GPT that turns your wanderlust, vibes, and moodboards into interactive travel plans. From fuzzy dream sorting to BLEED GLEE overlays, it helps you track, tag, and transform travel ideas into vibrant, soul-guided journeys. Glee-powered and vision-aware.",
+        "shortDescription": "A dreamy GPT that turns your wanderlust, vibes, and moodboards into interactive travel plans. From fuzzy dream sorting to BLEED GLEE overlays, it helps you track, tag, and transform travel ideas into vibrant, soul-guided journeys. Glee-powe"
+      }
+    }
+  },
+  "name": "gpt-51340bd69b69735951ae8999dbe12437",
+  "version": "0.14.1+bundle.06d4a37109963f94b69bf14a051a000d"
+}

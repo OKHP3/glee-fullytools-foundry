@@ -1,0 +1,37 @@
+{
+  "formatVersion": 1,
+  "packageId": "blinkin-tuner",
+  "sourceVersion": "0.16.1+bundle.282d3d89be42e1e3f135d01500967e53",
+  "contentReview": [
+    "Native author and interface attribution use the public Glee-fully Tools brand.",
+    "Historic links use current FoundRy routes where available. Biographical details are omitted where present."
+  ],
+  "files": [
+    {
+      "path": "plugin.json",
+      "sha256": "2d6c5f42baea72d7fccef8e8270befc1108d598cdae239b747599f9b7710349f"
+    },
+    {
+      "path": "skills/instructions/SKILL.md",
+      "sha256": "efc6cd288bc82dbf2cdde3093a65e258b965f33e662977313386283972e5a564"
+    },
+    {
+      "path": "skills/instructions/agents/openai.yaml",
+      "sha256": "e2697b4e3324d12ef9d7c820712355a052c5904a4337716a75da0c87a4068ab3"
+    },
+    {
+      "path": "assets/gpt-icon.png",
+      "sha256": "36c25a5307932788bd1bbfa54a4329686f094abdf0a7a482ef727ee6b8bc983b"
+    },
+    {
+      "path": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+      "sha256": "32ee04f18a775643db8cabd15f60abff2209844256f048f7806ffdb3c52f57ac",
+      "edition": "public-derivative",
+      "review": "Public excerpt covering output structure and clarification. Operator contacts and unrelated build records are omitted.",
+      "source": "capabilities/personalizable-tools/plugin/skills/instructions/references/Operator’s Cathedral Layout 📐.md"
+    }
+  ],
+  "sourceKnowledgeFiles": 1,
+  "omittedKnowledge": [],
+  "distribution": "Reviewed former-GPT plugin files. The native release version identifies the source. The compatibility manifest and knowledge index are generated from these files."
+}

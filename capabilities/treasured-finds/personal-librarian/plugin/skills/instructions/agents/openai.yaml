@@ -1,0 +1,4 @@
+interface:
+  default_prompt: '"Can I upload a file of my book collection?"'
+  display_name: Personal Librarian by Glee-fully
+  short_description: Organize and track your personal book collection with ease. Idea

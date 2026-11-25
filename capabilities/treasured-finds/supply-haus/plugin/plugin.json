@@ -1,0 +1,27 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Glee-fully Tools",
+    "url": "https://overkillhill.com"
+  },
+  "description": "Supply Haus is your master inventory for all things crafty and creative. Whether you’re making wreaths, cards, or school projects, it helps you track supplies by type, material, and usage history — so you always know what’s on hand or what’s been used up.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "skills"
+        ],
+        "category": "Other",
+        "composerIcon": "./assets/gpt-icon.png",
+        "defaultPrompt": [],
+        "developerName": "Glee-fully Tools",
+        "displayName": "Supply Haus by Glee-fully",
+        "logo": "./assets/gpt-icon.png",
+        "longDescription": "Supply Haus is your master inventory for all things crafty and creative. Whether you’re making wreaths, cards, or school projects, it helps you track supplies by type, material, and usage history — so you always know what’s on hand or what’s been used up.",
+        "shortDescription": "Supply Haus is your master inventory for all things crafty and creative. Whether you’re making wreaths, cards, or school projects, it helps you track supplies by type, material, and usage history — so you always know what’s on hand or what’"
+      }
+    }
+  },
+  "name": "gpt-fd3af40bd35c34d551ab4456fef7cf7d",
+  "version": "0.7.1+bundle.c30340307b483ff59651291c720c8c5a"
+}

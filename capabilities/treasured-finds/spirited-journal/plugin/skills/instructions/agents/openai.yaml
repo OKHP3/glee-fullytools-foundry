@@ -1,0 +1,5 @@
+interface:
+  default_prompt: “Let’s start logging my wine collection.”
+  display_name: Spirited Journal by Glee-fully
+  short_description: Catalog and savor your wine, whiskey, and spirits collection
+    — i

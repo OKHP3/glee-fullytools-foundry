@@ -1,0 +1,37 @@
+{
+  "formatVersion": 1,
+  "packageId": "critter-spotter",
+  "sourceVersion": "0.8.1+bundle.2054fbbb5ad8dc5f9dc270c7bc2f0385",
+  "contentReview": [
+    "Native author and interface attribution use the public Glee-fully Tools brand."
+  ],
+  "files": [
+    {
+      "path": "plugin.json",
+      "sha256": "a5500a509a1894794f71e365d8ed0e59cda464899ecb823af359ad4be2007719"
+    },
+    {
+      "path": "skills/instructions/SKILL.md",
+      "sha256": "6f7b3cbfe93108f1873e1211ba5151ddf08e8a4cfb53f200ee79fe086edc54f0"
+    },
+    {
+      "path": "skills/instructions/agents/openai.yaml",
+      "sha256": "67623f4121dc8d480a15fc45fb7787cf8bc20770177f2209f9d47cc07512a7c6"
+    },
+    {
+      "path": "assets/gpt-icon.png",
+      "sha256": "0e5ef9a9e50a944054985c3f40badd8c169f49a1741e863c312068ecc3ceee28",
+      "source": "capabilities/personalizable-tools/plugin/assets/gpt-icon.png"
+    },
+    {
+      "path": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+      "sha256": "32ee04f18a775643db8cabd15f60abff2209844256f048f7806ffdb3c52f57ac",
+      "edition": "public-derivative",
+      "review": "Public excerpt covering output structure and clarification. Operator contacts and unrelated build records are omitted.",
+      "source": "capabilities/personalizable-tools/plugin/skills/instructions/references/Operator’s Cathedral Layout 📐.md"
+    }
+  ],
+  "sourceKnowledgeFiles": 1,
+  "omittedKnowledge": [],
+  "distribution": "Reviewed former-GPT plugin files. The native release version identifies the source. The compatibility manifest and knowledge index are generated from these files."
+}

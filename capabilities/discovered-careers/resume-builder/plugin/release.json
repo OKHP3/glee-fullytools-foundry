@@ -1,0 +1,72 @@
+{
+  "formatVersion": 1,
+  "packageId": "resume-builder",
+  "sourceVersion": "0.23.1+bundle.be2ebb48b051e958ca8970be9dcf50e5",
+  "contentReview": [
+    "Native author and interface attribution use the public Glee-fully Tools brand.",
+    "Historic links use current FoundRy routes where available. Biographical details are omitted where present."
+  ],
+  "files": [
+    {
+      "path": "plugin.json",
+      "sha256": "8183f3a6b58696cd6cfc385a195fc947e592cb22e1613ffc847e8c6522108ee8"
+    },
+    {
+      "path": "skills/instructions/SKILL.md",
+      "sha256": "7d430365b53d3b874a83d9b5c5ce9c5e6bbdefa6a4ac3ab3ccc20bb611b34597"
+    },
+    {
+      "path": "skills/instructions/agents/openai.yaml",
+      "sha256": "926e0d2f1c89b926dcd5b769c6af40c3e440489af0fb5f1123afbdeb7c901bad"
+    },
+    {
+      "path": "assets/gpt-icon.png",
+      "sha256": "191345cc2d2836f0f8636556fb7d3e9abc6f729388eea1867afe3c725d54ac89"
+    },
+    {
+      "path": "skills/instructions/references/Creative_Resume.docx",
+      "sha256": "077a9e59bcebea09fa3bfd76eb7c57ee285ca721fced8ccbbff5e480e3e688b0",
+      "source": "capabilities/discovered-careers/resume-builder/source/examples/resumes/creative.docx"
+    },
+    {
+      "path": "skills/instructions/references/Creative_Resume.txt",
+      "sha256": "16366c749ec7c182ff65cac1017ac5a1c5e23d791c1c75b67dd97707fda41211",
+      "source": "capabilities/discovered-careers/resume-builder/source/examples/resumes/creative.md"
+    },
+    {
+      "path": "skills/instructions/references/Modern_Resume.docx",
+      "sha256": "938beb833b5dcab4b5c710485340a2f2da57b52ed9e8b72907857c5a7108aea2",
+      "source": "capabilities/discovered-careers/resume-builder/source/examples/resumes/modern.docx"
+    },
+    {
+      "path": "skills/instructions/references/Modern_Resume.txt",
+      "sha256": "5c6de370a35110e2d1114ce3c29750188e0e75eba7a6991ec7d8324fa3bbc4c8",
+      "source": "capabilities/discovered-careers/resume-builder/source/examples/resumes/modern.md"
+    },
+    {
+      "path": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+      "sha256": "32ee04f18a775643db8cabd15f60abff2209844256f048f7806ffdb3c52f57ac",
+      "edition": "public-derivative",
+      "review": "Public excerpt covering output structure and clarification. Operator contacts and unrelated build records are omitted.",
+      "source": "capabilities/personalizable-tools/plugin/skills/instructions/references/Operator’s Cathedral Layout 📐.md"
+    },
+    {
+      "path": "skills/instructions/references/Resume_Schema_Template.txt",
+      "sha256": "ac6c030f71008b20cb8a385068daddb3fb3ecd5c1c6fb9584c6ca29ab902ca39",
+      "source": "capabilities/discovered-careers/resume-builder/source/inputs/resume-schema-template.md"
+    },
+    {
+      "path": "skills/instructions/references/Traditional_Resume.docx",
+      "sha256": "d146a5d3fc0f688302ad90046d74023c7bd8379a7d179ce20aeed29be1e83bff",
+      "source": "capabilities/discovered-careers/resume-builder/source/examples/resumes/traditional.docx"
+    },
+    {
+      "path": "skills/instructions/references/Traditional_Resume.txt",
+      "sha256": "928426f97d5022df14d3071fcbb752ea0e3b1428a1df359f8f8ffb9314fd0e5f",
+      "source": "capabilities/discovered-careers/resume-builder/source/examples/resumes/traditional.md"
+    }
+  ],
+  "sourceKnowledgeFiles": 8,
+  "omittedKnowledge": [],
+  "distribution": "Reviewed former-GPT plugin files. The native release version identifies the source. The compatibility manifest and knowledge index are generated from these files."
+}

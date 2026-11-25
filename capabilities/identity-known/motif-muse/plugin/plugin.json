@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Glee-fully Tools",
+    "url": "https://overkillhill.com"
+  },
+  "description": "Names and categorizes colors, patterns, and design motifs",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "skills"
+        ],
+        "category": "Creativity",
+        "composerIcon": "./assets/gpt-icon.png",
+        "defaultPrompt": [
+          "Upload a photo of this wallpaper and name its style",
+          "Extract a color palette from my outfit",
+          "What design era does this pattern feel like?"
+        ],
+        "developerName": "Glee-fully Tools",
+        "displayName": "Motif Muse by Glee-fully",
+        "logo": "./assets/gpt-icon.png",
+        "longDescription": "Names and categorizes colors, patterns, and design motifs",
+        "shortDescription": "Names and categorizes colors, patterns, and design motifs"
+      }
+    }
+  },
+  "name": "gpt-8a039dcf9e01aa4d1944a0c0d8f52cb9",
+  "version": "0.11.1+bundle.0bc8414b55d7d6ff53a51b38e3efd231"
+}

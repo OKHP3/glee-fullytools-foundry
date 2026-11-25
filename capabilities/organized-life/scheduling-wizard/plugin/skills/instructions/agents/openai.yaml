@@ -1,0 +1,4 @@
+interface:
+  default_prompt: “Help me structure my week with sparkle.”
+  display_name: Scheduling Wizard by Glee-fully
+  short_description: A joyful calendar companion that helps you batch tasks, rituals,

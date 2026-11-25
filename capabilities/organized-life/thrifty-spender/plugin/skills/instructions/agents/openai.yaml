@@ -1,0 +1,4 @@
+interface:
+  default_prompt: “Log my monthly bills and track when they’re due.”
+  display_name: Thrifty Spender by Glee-fully
+  short_description: 'Track your bills, build a budget, and shine a spotlight on your '

@@ -1,0 +1,4 @@
+interface:
+  default_prompt: “I need to start tracking gifts — can you help?”
+  display_name: Giftlist Helper by Glee-fully
+  short_description: 'Giftlist Helper is your cozy companion for tracking gift ideas, '

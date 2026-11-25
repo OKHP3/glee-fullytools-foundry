@@ -1,0 +1,27 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Glee-fully Tools",
+    "url": "https://overkillhill.com"
+  },
+  "description": "Wishful Tastes is your epicurean bucket list, a delightful space to dream and plan your future dining experiences. From Michelin-star restaurants to Grandma’s pie you’ve been craving to try baking — it’s where food hopes live until they’re savored.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "skills"
+        ],
+        "category": "Other",
+        "composerIcon": "./assets/gpt-icon.png",
+        "defaultPrompt": [],
+        "developerName": "Glee-fully Tools",
+        "displayName": "Wishful Tastes by Glee-fully",
+        "logo": "./assets/gpt-icon.png",
+        "longDescription": "Wishful Tastes is your epicurean bucket list, a delightful space to dream and plan your future dining experiences. From Michelin-star restaurants to Grandma’s pie you’ve been craving to try baking — it’s where food hopes live until they’re savored.",
+        "shortDescription": "Wishful Tastes is your epicurean bucket list, a delightful space to dream and plan your future dining experiences. From Michelin-star restaurants to Grandma’s pie you’ve been craving to try baking — it’s where food hopes live until they’re "
+      }
+    }
+  },
+  "name": "gpt-9c7e1ca9717748d6c50e7746728ebd6c",
+  "version": "0.7.1+bundle.84c7c6a2f7ea2fc0fe59430a2443bc0c"
+}

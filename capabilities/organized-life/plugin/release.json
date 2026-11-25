@@ -1,0 +1,81 @@
+{
+  "formatVersion": 1,
+  "packageId": "organized-life",
+  "sourceVersion": "0.17.1+bundle.37908ccfdb53dbcb4375a0afcc56b6a4",
+  "contentReview": [
+    "Native author and interface attribution use the public Glee-fully Tools brand.",
+    "Historic links use current FoundRy routes where available. Biographical details are omitted where present."
+  ],
+  "files": [
+    {
+      "path": "plugin.json",
+      "sha256": "e2dd1edd21c82903d3ca3cf45ba289f69fcffe7243a979cc9a600de5fe1437c2"
+    },
+    {
+      "path": "skills/instructions/SKILL.md",
+      "sha256": "dddc817ad613852c604be737ef25838d5cc86416ef7f0c1e27c371520bf70547"
+    },
+    {
+      "path": "skills/instructions/agents/openai.yaml",
+      "sha256": "e82ce155e08fe113634f58285562988fb8296eed39bd26945f80f62647add55e"
+    },
+    {
+      "path": "assets/gpt-icon.png",
+      "sha256": "2dd1e28e003ab41b98ac2439725b4d36bd385a0914c906a0aee1c645c83fda8b"
+    },
+    {
+      "path": "skills/instructions/references/Glee-fully Square Organized Life.png",
+      "sha256": "5ea3b841831ad0e0c86c5ba318bce3ec8172f48628619882259cc65e6710397e"
+    },
+    {
+      "path": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+      "sha256": "32ee04f18a775643db8cabd15f60abff2209844256f048f7806ffdb3c52f57ac",
+      "edition": "public-derivative",
+      "review": "Public excerpt covering output structure and clarification. Operator contacts and unrelated build records are omitted.",
+      "source": "capabilities/personalizable-tools/plugin/skills/instructions/references/Operator’s Cathedral Layout 📐.md"
+    },
+    {
+      "path": "skills/instructions/references/dataLedger_archive_v2.txt",
+      "sha256": "2c5b108fc782d51628ba3d2fe5deb6a921f2c86a5dda1e5251e525707e659aee",
+      "source": "capabilities/travelers-guide/memento-log/source/knowledgebundle/ledgers/dataLedger_archive_v2.txt"
+    },
+    {
+      "path": "skills/instructions/references/dataLedger_ideation_v2.txt",
+      "sha256": "eff4149f5a94f476beaa0a8d0fc45c1f8dbe3fbca7686053e5305b70bc142de4",
+      "source": "capabilities/travelers-guide/memento-log/source/knowledgebundle/ledgers/dataLedger_ideation_v2.txt"
+    },
+    {
+      "path": "skills/instructions/references/dataLedger_narrative_v2.txt",
+      "sha256": "070cf035cebdc9eb0997924e964cc264ffb2022c6ebe0e118d330ea870a705c8",
+      "source": "capabilities/travelers-guide/memento-log/source/knowledgebundle/ledgers/dataLedger_narrative_v2.txt"
+    },
+    {
+      "path": "skills/instructions/references/dataLedger_parameters_v2.txt",
+      "sha256": "fdd20a25c8345102e5dda3adf31bacb94ee95818561f1a5e7b44928bd1f74ba0",
+      "source": "capabilities/travelers-guide/memento-log/source/knowledgebundle/ledgers/dataLedger_parameters_v2.txt"
+    },
+    {
+      "path": "skills/instructions/references/dataLedger_persona_v2.txt",
+      "sha256": "973eb0084af67f16d1a163096b533c937e8ed8056fba80323ac1e66d674e5888",
+      "source": "capabilities/travelers-guide/memento-log/source/knowledgebundle/ledgers/dataLedger_persona_v2.txt"
+    },
+    {
+      "path": "skills/instructions/references/dataLedger_processing_v2.txt",
+      "sha256": "751d322d22c0914c94cd4ed013ee78171272317a317996aeef1a7610a5c62b3a",
+      "source": "capabilities/travelers-guide/memento-log/source/knowledgebundle/ledgers/dataLedger_processing_v2.txt"
+    },
+    {
+      "path": "skills/instructions/references/dataLedger_registry_v2.txt",
+      "sha256": "813ea07741a0f1fa9bfad7fb3df2ad8b9bc9e59b5a0d7bbdb14a17a27ba708a7",
+      "source": "capabilities/travelers-guide/memento-log/source/knowledgebundle/ledgers/dataLedger_registry_v2.txt"
+    },
+    {
+      "path": "skills/instructions/references/dataLedger_system_v2.txt",
+      "sha256": "ad8769391d6b4354bfb73b8dbc828e4604190e0446bc9b59afd4ea8fcce7d9cc",
+      "source": "capabilities/travelers-guide/memento-log/source/knowledgebundle/ledgers/dataLedger_system_v2.txt"
+    }
+  ],
+  "sourceKnowledgeFiles": 10,
+  "omittedKnowledge": [],
+  "distribution": "Reviewed former-GPT plugin files. The native release version identifies the source. The compatibility manifest and knowledge index are generated from these files."
+}

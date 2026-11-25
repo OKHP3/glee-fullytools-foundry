@@ -1,0 +1,27 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Glee-fully Tools",
+    "url": "https://overkillhill.com"
+  },
+  "description": "Resume Customizer helps you transform a general resume into a tailored one for a specific job. Pull in the job post, highlight your best-fit skills, and generate a fine-tuned version of your resume that speaks their language — not just yours.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "skills"
+        ],
+        "category": "Productivity",
+        "composerIcon": "./assets/gpt-icon.png",
+        "defaultPrompt": [],
+        "developerName": "Glee-fully Tools",
+        "displayName": "Resume Customizer by Glee-fully",
+        "logo": "./assets/gpt-icon.png",
+        "longDescription": "Resume Customizer helps you transform a general resume into a tailored one for a specific job. Pull in the job post, highlight your best-fit skills, and generate a fine-tuned version of your resume that speaks their language — not just yours.",
+        "shortDescription": "Resume Customizer helps you transform a general resume into a tailored one for a specific job. Pull in the job post, highlight your best-fit skills, and generate a fine-tuned version of your resume that speaks their language — not just your"
+      }
+    }
+  },
+  "name": "gpt-9865aed9e5e939e938da8b429f41245d",
+  "version": "0.18.1+bundle.8b2c9c6c72426279f86070102deab56f"
+}

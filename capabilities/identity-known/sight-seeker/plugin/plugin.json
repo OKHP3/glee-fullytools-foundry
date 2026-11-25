@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Glee-fully Tools",
+    "url": "https://overkillhill.com"
+  },
+  "description": "Identify landmarks, landscapes, and constellations with lore-filled context.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "skills"
+        ],
+        "category": "Other",
+        "composerIcon": "./assets/gpt-icon.png",
+        "defaultPrompt": [
+          "What bridge is this in my photo?",
+          "Can you tell me which constellation I captured?",
+          "Where might this mountain range be?"
+        ],
+        "developerName": "Glee-fully Tools",
+        "displayName": "Sight Seeker by Glee-fully",
+        "logo": "./assets/gpt-icon.png",
+        "longDescription": "Identify landmarks, landscapes, and constellations with lore-filled context.",
+        "shortDescription": "Identify landmarks, landscapes, and constellations with lore-filled context."
+      }
+    }
+  },
+  "name": "gpt-787aa0622078137dc2ed7990b1eb01f3",
+  "version": "0.8.1+bundle.1d3e3a2a8852b9d8b095c3b356cd341e"
+}

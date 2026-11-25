@@ -1,0 +1,29 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Glee-fully Tools",
+    "url": "https://overkillhill.com"
+  },
+  "description": "Creates square retro-striped butterfly icons with nostalgic objects.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "skills"
+        ],
+        "category": "Creativity",
+        "composerIcon": "./assets/gpt-icon.png",
+        "defaultPrompt": [
+          "Create a Glee-fully icon with [...]"
+        ],
+        "developerName": "Glee-fully Tools",
+        "displayName": "Glee-fully Icon Maker",
+        "logo": "./assets/gpt-icon.png",
+        "longDescription": "Creates square retro-striped butterfly icons with nostalgic objects.",
+        "shortDescription": "Creates square retro-striped butterfly icons with nostalgic objects."
+      }
+    }
+  },
+  "name": "gpt-2a42dab49489c1f0e6a8ab4217863662",
+  "version": "0.7.1+bundle.bc8a93dd23ec7730e47a2cce174de590"
+}

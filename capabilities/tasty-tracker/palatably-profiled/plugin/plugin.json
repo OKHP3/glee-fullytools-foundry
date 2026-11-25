@@ -1,0 +1,27 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Glee-fully Tools",
+    "url": "https://overkillhill.com"
+  },
+  "description": "Palatably Profiled is a visual flavor mirror, mapping your evolving tastes over time. Whether you love citrusy sweets or bold, smoky meats, this tool helps you understand your preferences, compare across family members, and even find new favorites that match your style.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "skills"
+        ],
+        "category": "Other",
+        "composerIcon": "./assets/gpt-icon.png",
+        "defaultPrompt": [],
+        "developerName": "Glee-fully Tools",
+        "displayName": "Palatably Profiled by Glee-fully",
+        "logo": "./assets/gpt-icon.png",
+        "longDescription": "Palatably Profiled is a visual flavor mirror, mapping your evolving tastes over time. Whether you love citrusy sweets or bold, smoky meats, this tool helps you understand your preferences, compare across family members, and even find new favorites that match your style.",
+        "shortDescription": "Palatably Profiled is a visual flavor mirror, mapping your evolving tastes over time. Whether you love citrusy sweets or bold, smoky meats, this tool helps you understand your preferences, compare across family members, and even find new fa"
+      }
+    }
+  },
+  "name": "gpt-1ff15b0cd51ab4e8cb46784e7990dd83",
+  "version": "0.7.1+bundle.c74b2a5e7d803d5757e863e1bc0afcfd"
+}

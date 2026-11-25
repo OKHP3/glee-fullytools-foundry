@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Glee-fully Tools",
+    "url": "https://overkillhill.com"
+  },
+  "description": "Sage twig for midlife and hormonal well-being",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "skills"
+        ],
+        "category": "Other",
+        "composerIcon": "./assets/gpt-icon.png",
+        "defaultPrompt": [
+          "Log today’s hot flashes and sleep quality",
+          "Give me a gentle lifestyle tip for low energy",
+          "Graph my mood swings over the past 2 weeks"
+        ],
+        "developerName": "Glee-fully Tools",
+        "displayName": "Maven Wise",
+        "logo": "./assets/gpt-icon.png",
+        "longDescription": "Sage twig for midlife and hormonal well-being",
+        "shortDescription": "Sage twig for midlife and hormonal well-being"
+      }
+    }
+  },
+  "name": "gpt-0753c6343eb5bcebc7cf416d1e46ade9",
+  "version": "0.13.1+bundle.b357adf28eb58b1d5f78e6529d6e2015"
+}

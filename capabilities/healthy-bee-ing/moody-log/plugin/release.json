@@ -1,0 +1,37 @@
+{
+  "formatVersion": 1,
+  "packageId": "moody-log",
+  "sourceVersion": "0.3.1+bundle.04e9e4107d727ec78067556c43b77443",
+  "contentReview": [
+    "Native author and interface attribution use the public Glee-fully Tools brand."
+  ],
+  "files": [
+    {
+      "path": "plugin.json",
+      "sha256": "37ec924849ee2b801c04241968163cc66bc267e2d02af2ac89c4d0df682a0200"
+    },
+    {
+      "path": "skills/instructions/SKILL.md",
+      "sha256": "c01ebb2f1a6c105dcff78bfefe39893c092ab242c811f959d613dc4d36ed72ac"
+    },
+    {
+      "path": "skills/instructions/agents/openai.yaml",
+      "sha256": "2e2535bd14bd68787da7460ce07d11b09cc2008cc5476fcfc5d64a41d51267f1"
+    },
+    {
+      "path": "assets/gpt-icon.png",
+      "sha256": "8aca21427ac1526e6458154b416f5949baf27d470a90a7363441c48b7342ccc0",
+      "source": "capabilities/healthy-bee-ing/plugin/assets/gpt-icon.png"
+    },
+    {
+      "path": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+      "sha256": "32ee04f18a775643db8cabd15f60abff2209844256f048f7806ffdb3c52f57ac",
+      "edition": "public-derivative",
+      "review": "Public excerpt covering output structure and clarification. Operator contacts and unrelated build records are omitted.",
+      "source": "capabilities/personalizable-tools/plugin/skills/instructions/references/Operator’s Cathedral Layout 📐.md"
+    }
+  ],
+  "sourceKnowledgeFiles": 1,
+  "omittedKnowledge": [],
+  "distribution": "Reviewed former-GPT plugin files. The native release version identifies the source. The compatibility manifest and knowledge index are generated from these files."
+}
