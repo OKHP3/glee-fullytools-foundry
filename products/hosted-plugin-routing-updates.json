@@ -1,0 +1,427 @@
+{
+  "historicalReleaseTag": "hosted-gpt-plugins-2026-11-24",
+  "historicalCommit": "d85ee9e7be8f57f510a739e57584889eb393defe",
+  "scope": "User-facing launch links in the hosted ChatGPT plugin instructions. Conversation tests are tracked separately.",
+  "releaseVerification": "Compared each updated native archive with its private migration source. All knowledge files matched byte for byte. The two manifest representations changed only in their version field. The edited instructions matched the reviewed link replacements.",
+  "reviewedPlugins": 53,
+  "updatedPlugins": 35,
+  "updatedUrlOccurrences": 150,
+  "unresolvedReferrals": [
+    {
+      "productId": "giftlist-helper",
+      "labels": [
+        "Reminder Rhythm",
+        "Life Dashboard"
+      ],
+      "reason": "No verified successor was found among the 53 migrated plugins."
+    }
+  ],
+  "updated": [
+    {
+      "productId": "blinkin-tuner",
+      "version": "0.16.2",
+      "updatedUrlOccurrences": 1,
+      "destinations": [
+        "personalizable-tools"
+      ]
+    },
+    {
+      "productId": "calm-keep",
+      "version": "0.7.2",
+      "updatedUrlOccurrences": 6,
+      "destinations": [
+        "calm-keep",
+        "care-check",
+        "maven-wise",
+        "medi-minder",
+        "moody-log",
+        "snappy-count"
+      ]
+    },
+    {
+      "productId": "career-fitness",
+      "version": "0.10.2",
+      "updatedUrlOccurrences": 1,
+      "destinations": [
+        "personalizable-tools"
+      ]
+    },
+    {
+      "productId": "career-seeker",
+      "version": "0.11.2",
+      "updatedUrlOccurrences": 1,
+      "destinations": [
+        "personalizable-tools"
+      ]
+    },
+    {
+      "productId": "decor-detective",
+      "version": "0.9.2",
+      "updatedUrlOccurrences": 1,
+      "destinations": [
+        "personalizable-tools"
+      ]
+    },
+    {
+      "productId": "discovered-careers",
+      "version": "0.22.2",
+      "updatedUrlOccurrences": 12,
+      "destinations": [
+        "blinkin-tuner",
+        "career-fitness",
+        "career-seeker",
+        "letter-composer",
+        "personalizable-tools",
+        "resume-builder",
+        "resume-customizer"
+      ]
+    },
+    {
+      "productId": "dreamland-journeys",
+      "version": "0.14.2",
+      "updatedUrlOccurrences": 5,
+      "destinations": [
+        "itinerary-hacker",
+        "journey-diary",
+        "memento-log",
+        "personalizable-tools",
+        "travelers-guide"
+      ]
+    },
+    {
+      "productId": "flavor-meister",
+      "version": "0.7.2",
+      "updatedUrlOccurrences": 1,
+      "destinations": [
+        "personalizable-tools"
+      ]
+    },
+    {
+      "productId": "giftlist-helper",
+      "version": "0.6.2",
+      "updatedUrlOccurrences": 4,
+      "destinations": [
+        "organized-life",
+        "personalizable-tools",
+        "task-maestro",
+        "thrifty-spender"
+      ]
+    },
+    {
+      "productId": "healthy-bee-ing",
+      "version": "0.8.2",
+      "updatedUrlOccurrences": 6,
+      "destinations": [
+        "calm-keep",
+        "care-check",
+        "healthy-bee-ing",
+        "personalizable-tools"
+      ]
+    },
+    {
+      "productId": "healthy-bee-ing-hosted-variant",
+      "version": "0.9.3",
+      "updatedUrlOccurrences": 6,
+      "destinations": [
+        "calm-keep",
+        "care-check",
+        "maven-wise",
+        "medi-minder",
+        "moody-log",
+        "snappy-count"
+      ]
+    },
+    {
+      "productId": "identity-known",
+      "version": "0.10.2",
+      "updatedUrlOccurrences": 3,
+      "destinations": [
+        "personalizable-tools"
+      ]
+    },
+    {
+      "productId": "letter-composer",
+      "version": "0.12.2",
+      "updatedUrlOccurrences": 1,
+      "destinations": [
+        "personalizable-tools"
+      ]
+    },
+    {
+      "productId": "lifestyle-wallboard",
+      "version": "0.6.2",
+      "updatedUrlOccurrences": 6,
+      "destinations": [
+        "giftlist-helper",
+        "organized-life",
+        "personalizable-tools",
+        "scheduling-wizard",
+        "task-maestro",
+        "thrifty-spender"
+      ]
+    },
+    {
+      "productId": "medi-minder",
+      "version": "0.13.2",
+      "updatedUrlOccurrences": 6,
+      "destinations": [
+        "calm-keep",
+        "care-check",
+        "maven-wise",
+        "medi-minder",
+        "moody-log",
+        "snappy-count"
+      ]
+    },
+    {
+      "productId": "memento-log",
+      "version": "0.13.2",
+      "updatedUrlOccurrences": 5,
+      "destinations": [
+        "dreamland-journeys",
+        "itinerary-hacker",
+        "journey-diary",
+        "personalizable-tools",
+        "travelers-guide"
+      ]
+    },
+    {
+      "productId": "menu-conductor",
+      "version": "0.8.2",
+      "updatedUrlOccurrences": 1,
+      "destinations": [
+        "personalizable-tools"
+      ]
+    },
+    {
+      "productId": "organized-life",
+      "version": "0.17.2",
+      "updatedUrlOccurrences": 5,
+      "destinations": [
+        "giftlist-helper",
+        "lifestyle-wallboard",
+        "scheduling-wizard",
+        "task-maestro",
+        "thrifty-spender"
+      ]
+    },
+    {
+      "productId": "palatably-profiled",
+      "version": "0.7.2",
+      "updatedUrlOccurrences": 1,
+      "destinations": [
+        "personalizable-tools"
+      ]
+    },
+    {
+      "productId": "pantry-shopper",
+      "version": "0.8.2",
+      "updatedUrlOccurrences": 1,
+      "destinations": [
+        "personalizable-tools"
+      ]
+    },
+    {
+      "productId": "personal-librarian",
+      "version": "0.21.2",
+      "updatedUrlOccurrences": 7,
+      "destinations": [
+        "decor-detective",
+        "personalizable-tools",
+        "present-hoarder",
+        "scentinal-journal",
+        "spirited-journal",
+        "supply-haus",
+        "treasured-finds"
+      ]
+    },
+    {
+      "productId": "present-hoarder",
+      "version": "0.10.2",
+      "updatedUrlOccurrences": 1,
+      "destinations": [
+        "personalizable-tools"
+      ]
+    },
+    {
+      "productId": "resume-builder",
+      "version": "0.23.2",
+      "updatedUrlOccurrences": 7,
+      "destinations": [
+        "blinkin-tuner",
+        "career-fitness",
+        "career-seeker",
+        "discovered-careers",
+        "letter-composer",
+        "personalizable-tools",
+        "resume-customizer"
+      ]
+    },
+    {
+      "productId": "resume-customizer",
+      "version": "0.18.2",
+      "updatedUrlOccurrences": 1,
+      "destinations": [
+        "personalizable-tools"
+      ]
+    },
+    {
+      "productId": "scentinal-journal",
+      "version": "0.7.2",
+      "updatedUrlOccurrences": 1,
+      "destinations": [
+        "personalizable-tools"
+      ]
+    },
+    {
+      "productId": "snap-decoder",
+      "version": "0.10.2",
+      "updatedUrlOccurrences": 7,
+      "destinations": [
+        "critter-spotter",
+        "gpt07g-self-fixer",
+        "maker-matcher",
+        "motif-muse",
+        "roost-wrangler",
+        "sight-seeker",
+        "snap-decoder"
+      ]
+    },
+    {
+      "productId": "snappy-count",
+      "version": "0.10.2",
+      "updatedUrlOccurrences": 6,
+      "destinations": [
+        "calm-keep",
+        "care-check",
+        "maven-wise",
+        "medi-minder",
+        "moody-log",
+        "snappy-count"
+      ]
+    },
+    {
+      "productId": "spirited-journal",
+      "version": "0.15.2",
+      "updatedUrlOccurrences": 7,
+      "destinations": [
+        "decor-detective",
+        "personal-librarian",
+        "personalizable-tools",
+        "present-hoarder",
+        "scentinal-journal",
+        "supply-haus",
+        "treasured-finds"
+      ]
+    },
+    {
+      "productId": "supply-haus",
+      "version": "0.7.2",
+      "updatedUrlOccurrences": 1,
+      "destinations": [
+        "personalizable-tools"
+      ]
+    },
+    {
+      "productId": "task-maestro",
+      "version": "0.6.2",
+      "updatedUrlOccurrences": 6,
+      "destinations": [
+        "giftlist-helper",
+        "lifestyle-wallboard",
+        "organized-life",
+        "personalizable-tools",
+        "scheduling-wizard",
+        "thrifty-spender"
+      ]
+    },
+    {
+      "productId": "tasty-tracker",
+      "version": "0.17.2",
+      "updatedUrlOccurrences": 5,
+      "destinations": [
+        "discovered-careers",
+        "organized-life",
+        "personalizable-tools",
+        "travelers-guide",
+        "treasured-finds"
+      ]
+    },
+    {
+      "productId": "thrifty-spender",
+      "version": "0.5.2",
+      "updatedUrlOccurrences": 6,
+      "destinations": [
+        "giftlist-helper",
+        "lifestyle-wallboard",
+        "organized-life",
+        "personalizable-tools",
+        "scheduling-wizard",
+        "task-maestro"
+      ]
+    },
+    {
+      "productId": "travelers-guide",
+      "version": "0.14.2",
+      "updatedUrlOccurrences": 10,
+      "destinations": [
+        "detour-discoverer",
+        "discovered-careers",
+        "dreamland-journeys",
+        "itinerary-hacker",
+        "journey-diary",
+        "memento-log",
+        "organized-life",
+        "personalizable-tools",
+        "tasty-tracker",
+        "treasured-finds"
+      ]
+    },
+    {
+      "productId": "treasured-finds",
+      "version": "0.14.2",
+      "updatedUrlOccurrences": 11,
+      "destinations": [
+        "decor-detective",
+        "discovered-careers",
+        "organized-life",
+        "personal-librarian",
+        "personalizable-tools",
+        "present-hoarder",
+        "scentinal-journal",
+        "spirited-journal",
+        "supply-haus",
+        "tasty-tracker",
+        "travelers-guide"
+      ]
+    },
+    {
+      "productId": "wishful-tastes",
+      "version": "0.7.2",
+      "updatedUrlOccurrences": 1,
+      "destinations": [
+        "personalizable-tools"
+      ]
+    }
+  ],
+  "pluginsWithNoInstructionChanges": [
+    "bag-nabbit",
+    "care-check",
+    "critter-spotter",
+    "detour-discoverer",
+    "gpt07g-self-fixer",
+    "grounded",
+    "icon-maker",
+    "itinerary-hacker",
+    "journey-diary",
+    "maker-matcher",
+    "maven-wise",
+    "moody-log",
+    "motif-muse",
+    "neighborly-bazaar",
+    "personalizable-tools",
+    "roost-wrangler",
+    "scheduling-wizard",
+    "sight-seeker"
+  ]
+}

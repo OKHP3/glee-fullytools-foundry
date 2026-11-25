@@ -1,0 +1,2172 @@
+{
+  "asOfLocalDate": "2026-11-24",
+  "timeZone": "America/Chicago",
+  "host": "Signed-in ChatGPT, Standard Chat",
+  "scope": "One representative instruction-following scenario per plugin and an independent source-grounded question where knowledge was attached. All 53 current releases were invoked with an explicit selected plugin. Earlier attempts remain in chronological order.",
+  "evidence": "The tested release was checked on its directory page. The sent user message linked to that plugin. Grading used the completed response, its actual clickable destinations and the recovered native source. An answer hash covers its captured visible text. Private conversations and original evidence are held by the owner.",
+  "limits": "ChatGPT exposed no file-open telemetry. The results establish that the tested answers matched the selected sources. Image generation used the verified visual companion. The original PNG was unreadable directly. The no-upload control checks honest attribution. Planned functionality in under-construction tools was outside the demonstrated workflows.",
+  "counts": {
+    "plugins": 53,
+    "answeredConversations": 76,
+    "finalBehaviorPasses": 53,
+    "textKnowledgeChecks": 51,
+    "visualCompanionChecks": 1,
+    "noUploadControls": 1,
+    "underConstruction": 14,
+    "currentPluginLinksInFinalAnswers": 15,
+    "finalAnswersWithPluginLinks": 12
+  },
+  "products": [
+    {
+      "productId": "personalizable-tools",
+      "name": "Glee-fully Personalizable Tools",
+      "capability": "capabilities/personalizable-tools",
+      "currentVersion": "0.58.2",
+      "underConstructionInstructions": false,
+      "finalKnowledgeCheck": "attachment-answer",
+      "result": "pass",
+      "attempts": [
+        {
+          "observedAtUtc": "2026-11-25T02:37:03.386692+00:00",
+          "version": "0.58.1+bundle.6e924f8446cd62a13b8566a821a70b43",
+          "prompt": "I have shelves of books and want to keep track of what I own. Where in the suite should I start, and what identifier does your trunk Pulsebook give its visit-aware dialog flow? Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "partial",
+            "observation": "Identified Treasured Finds as the branch for books but omitted the specific Personal Librarian tool required by the evaluation criterion."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Returned gleeVisitFlow_v2 and named the dated Personalizable Tools Pulsebook."
+          },
+          "handoff": {
+            "status": "fail",
+            "observation": "The offered /g/ link identifies the historical Treasured Finds GPT. It does not use the current plugin route and omits the final Personal Librarian destination."
+          },
+          "chatgptDestinations": [
+            {
+              "label": "Treasured Finds by Glee-fully",
+              "kind": "legacy-gpt"
+            }
+          ],
+          "answerTextSha256": "aaf8b74e87d19783d38cae28ecb8cd0cafcfbe7ea59eeb0326ae6415f6cc43a2"
+        },
+        {
+          "observedAtUtc": "2026-11-25T03:14:42.094398+00:00",
+          "version": "0.58.2",
+          "prompt": "I’ve reached Treasured Finds with shelves of books. Which specific specialist should I open for a book inventory? Give its name and usable destination. Which identifier does your trunk Pulsebook give the visit-aware dialog flow? Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "Completed the path from Treasured Finds to Personal Librarian for book inventory, including the specific specialist the first attempt omitted."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Returned the verified gleeVisitFlow_v2 identifier and named the dated trunk Pulsebook."
+          },
+          "handoff": {
+            "status": "pass",
+            "observation": "The actual /plugins/ URL matches Personal Librarian’s verified current plugin ID. This replaces the first response’s stale branch-only /g/ URL."
+          },
+          "chatgptDestinations": [
+            {
+              "label": "Open Personal Librarian in ChatGPT",
+              "kind": "current-plugin",
+              "productId": "personal-librarian"
+            }
+          ],
+          "answerTextSha256": "74f4245ec5650158004b7db4ec37239c31d560528808b4636b932a92559654be"
+        }
+      ]
+    },
+    {
+      "productId": "discovered-careers",
+      "name": "Discovered Careers by Glee-fully",
+      "capability": "capabilities/discovered-careers",
+      "currentVersion": "0.22.2",
+      "underConstructionInstructions": false,
+      "finalKnowledgeCheck": "attachment-answer",
+      "result": "pass",
+      "attempts": [
+        {
+          "observedAtUtc": "2026-11-25T02:38:31.845473+00:00",
+          "version": "0.22.1+bundle.fe622d17e86923587a0833c885526fd8",
+          "prompt": "“Can you help me tailor my resume to this job p I already have a résumé and want a version for one job advert. Which specialist should take this, and what pulse ID is printed in your branch Pulsebook? Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "partial",
+            "observation": "Correctly routed the résumé and posting to Resume Customizer, but the optional handoff used a legacy GPT address."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Returned the correct branch Pulse ID and named the branch Pulsebook."
+          },
+          "handoff": {
+            "status": "fail",
+            "observation": "The original identifier matches Resume Customizer, but the link points to a retired GPT route rather than the current native plugin."
+          },
+          "chatgptDestinations": [
+            {
+              "label": "#1b – Resume Customizer",
+              "kind": "legacy-gpt"
+            }
+          ],
+          "answerTextSha256": "032dfb76f23ddcb4b91d885786f9d63255870e06a1d686ddc253dcd1b9779cf0"
+        },
+        {
+          "observedAtUtc": "2026-11-25T03:01:01.222868+00:00",
+          "version": "0.22.2",
+          "prompt": "I already have a résumé and want a version for one job advert. Which specialist should take this, and what pulse ID is printed in your branch Pulsebook? Name your source file. Give a usable link to the current specialist. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "On version 0.22.2, routed an existing résumé and job posting to Resume Customizer and requested both inputs."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Returned the expected pulse ID and named the branch Pulsebook."
+          },
+          "handoff": {
+            "status": "pass",
+            "observation": "The clickable destination matches the current native Resume Customizer plugin identifier."
+          },
+          "chatgptDestinations": [
+            {
+              "label": "Resume Customizer by Glee-fully",
+              "kind": "current-plugin",
+              "productId": "resume-customizer"
+            }
+          ],
+          "answerTextSha256": "b93279b5bda5733716fc8dc4c0da94f11e637ee54c1f818f4f09f07b54fc7eb8"
+        }
+      ]
+    },
+    {
+      "productId": "resume-builder",
+      "name": "Resume Builder by Glee-fully",
+      "capability": "capabilities/discovered-careers/resume-builder",
+      "currentVersion": "0.23.2",
+      "underConstructionInstructions": false,
+      "finalKnowledgeCheck": "attachment-answer",
+      "result": "pass",
+      "attempts": [
+        {
+          "observedAtUtc": "2026-11-25T02:37:03.386593+00:00",
+          "version": "0.23.1+bundle.be2ebb48b051e958ca8970be9dcf50e5",
+          "prompt": "I’m building a first résumé from a volunteer shift. Start my entry without inventing details. In your schema template, which two labeled lists follow the end date for a role? Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "Prepared a volunteer entry, left unknown role details blank, and asked where the volunteering took place and what the user did."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Identified Responsibilities then Accomplishments immediately after End Date and named Resume_Schema_Template.txt."
+          },
+          "handoff": {
+            "status": "not-applicable",
+            "observation": "No handoff was needed or offered."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "66703937c007e9cbe0cda1aa2ab0e1e0c04c80e29ec1892cc7f109b1f3eb5744"
+        },
+        {
+          "observedAtUtc": "2026-11-25T03:03:43.576643+00:00",
+          "version": "0.23.2",
+          "prompt": "I’m building a first résumé from a volunteer shift. Start my entry without inventing details. In your schema template, which two labeled lists follow the end date for a role? Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "Started a volunteer entry, left unknown job information blank and asked what the user did during the shift."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Supplied Responsibilities followed by Accomplishments and identified Resume_Schema_Template.txt."
+          },
+          "handoff": {
+            "status": "not-applicable",
+            "observation": "No handoff was requested or offered."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "fbc6a40577ddacf61f2d060be46c4f0ece4fd2091cd3f2f12d2daaf640fa0766"
+        }
+      ]
+    },
+    {
+      "productId": "resume-customizer",
+      "name": "Resume Customizer by Glee-fully",
+      "capability": "capabilities/discovered-careers/resume-customizer",
+      "currentVersion": "0.18.2",
+      "underConstructionInstructions": true,
+      "finalKnowledgeCheck": "attachment-answer",
+      "result": "pass",
+      "attempts": [
+        {
+          "observedAtUtc": "2026-11-25T02:56:14.386664+00:00",
+          "version": "0.18.2",
+          "prompt": "I want to tailor my résumé to two jobs. Is the workflow live? For the next step, what four states does the companion application tracker’s catalog entry use? Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "Clearly labelled the job-matching, tailoring and version functions as planned and did not claim to have saved either résumé."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Gave all four Career Seeker states, applied, interviewing, offer and declined, citing its catalog entry."
+          },
+          "handoff": {
+            "status": "pass",
+            "observation": "Named the correct Career Seeker sibling #01f. No URL was offered."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "1f17db4abbcec9777d403205cda6745f046ee8873d89b829da4a2426239e792b"
+        }
+      ]
+    },
+    {
+      "productId": "career-fitness",
+      "name": "Career Fitness by Glee-fully",
+      "capability": "capabilities/discovered-careers/career-fitness",
+      "currentVersion": "0.10.2",
+      "underConstructionInstructions": true,
+      "finalKnowledgeCheck": "attachment-answer",
+      "result": "pass",
+      "attempts": [
+        {
+          "observedAtUtc": "2026-11-25T02:37:03.386733+00:00",
+          "version": "0.10.1+bundle.a6c840e0feebc933184c4daad61ca754",
+          "prompt": "Could you run a complete career assessment for a fictional shop assistant today? What does your guide say comes after matching possible job titles and before suggesting courses? Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "Acknowledged construction status, described the planned assessment, and did not claim to have run it."
+          },
+          "knowledge": {
+            "status": "inconclusive",
+            "observation": "The earlier prompt asked about the planned-feature sequence. Salary benchmarking is correct in the instructions. The current attachment probe about job-tracker view dimensions was not asked."
+          },
+          "handoff": {
+            "status": "not-applicable",
+            "observation": "No handoff requested or offered."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "73c027ca9d1e45d9f5c701d9689104943f8504f3f302328193eef70188e0f1ff"
+        },
+        {
+          "observedAtUtc": "2026-11-25T02:39:24.408621+00:00",
+          "version": "0.10.1+bundle.a6c840e0feebc933184c4daad61ca754",
+          "prompt": "Could you assess a fictional shop assistant’s career options today? For later, what three dimensions does your suite guide give for viewing progress in the companion job tracker? Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "Reported construction status and described the planned assessment without presenting one as completed."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "On the fresh attachment-specific prompt, named all three job-tracker views and the correct suite guide."
+          },
+          "handoff": {
+            "status": "not-applicable",
+            "observation": "No destination link was offered."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "4c3f795df224a3246ba38f8d7583cb14b36e7345f1c7f789948e061e9a296e4e"
+        },
+        {
+          "observedAtUtc": "2026-11-25T03:06:01.606427+00:00",
+          "version": "0.10.2",
+          "prompt": "Could you assess a fictional shop assistant’s career options today? For later, what three dimensions does your suite guide give for viewing progress in the companion job tracker? Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "On 0.10.2, explained the planned career assessment and withheld a claim of completed assessment."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Named stage, source and success rate over time and identified the guide section."
+          },
+          "handoff": {
+            "status": "not-applicable",
+            "observation": "No clickable handoff was offered."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "e421b3746d5ed516ba654d08c9478b43da5ce755b6b2b201c57494b924ee5b1a"
+        }
+      ]
+    },
+    {
+      "productId": "letter-composer",
+      "name": "Letter Composer by Glee-fully",
+      "capability": "capabilities/discovered-careers/letter-composer",
+      "currentVersion": "0.12.3",
+      "underConstructionInstructions": true,
+      "finalKnowledgeCheck": "attachment-answer",
+      "result": "pass",
+      "attempts": [
+        {
+          "observedAtUtc": "2026-11-25T02:51:12.906695+00:00",
+          "version": "0.12.2",
+          "prompt": "I have a résumé and a fictional museum vacancy. What could your letter tool do today? What three follow-up uses does your suite guide list for the companion job tracker? Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "partial",
+            "observation": "Described the unfinished letter tool and its planned workflow accurately, but the optional handoff uses a legacy GPT address."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Listed checking in, sending thank-yous and interview preparation and cited the suite guide."
+          },
+          "handoff": {
+            "status": "fail",
+            "observation": "The destination uses Career Seeker’s historical GPT ID rather than the registered native plugin target."
+          },
+          "chatgptDestinations": [
+            {
+              "label": "Career Seeker (#01f)",
+              "kind": "legacy-gpt"
+            }
+          ],
+          "answerTextSha256": "16f69d1dcfebdbba0f863aa415049fadd04746f825d79d95d4ca23607c257a54"
+        },
+        {
+          "observedAtUtc": "2026-11-25T03:14:42.094221+00:00",
+          "version": "0.12.3",
+          "prompt": "I have a résumé and a fictional museum vacancy. What can this letter tool do today? Which three follow-up uses does your suite guide list for the companion job tracker? Give the actual current ChatGPT plugin link for that tracker and name the source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "On 0.12.3, accurately described a future résumé-and-vacancy letter workflow and gave the current Career Seeker destination."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Listed application check-ins, thank-you messages and interview preparation and cited the suite layout."
+          },
+          "handoff": {
+            "status": "pass",
+            "observation": "The clickable destination matches the registered native Career Seeker plugin identifier."
+          },
+          "chatgptDestinations": [
+            {
+              "label": "Career Seeker by Glee-fully",
+              "kind": "current-plugin",
+              "productId": "career-seeker"
+            }
+          ],
+          "answerTextSha256": "efecd2477daaac90ceb97ca1b01948aa13e51e963796c94da1e0c503de6180f0"
+        }
+      ]
+    },
+    {
+      "productId": "blinkin-tuner",
+      "name": "bLinkn Tuner by Glee-fully",
+      "capability": "capabilities/discovered-careers/blinkin-tuner",
+      "currentVersion": "0.16.2",
+      "underConstructionInstructions": true,
+      "finalKnowledgeCheck": "attachment-answer",
+      "result": "pass",
+      "attempts": [
+        {
+          "observedAtUtc": "2026-11-25T02:38:31.845586+00:00",
+          "version": "0.16.1+bundle.282d3d89be42e1e3f135d01500967e53",
+          "prompt": "My fictional LinkedIn headline is vague. What can your tool do at its current stage? After I pick a vacancy, which four details does your guide tell the job-tracker sibling to log? Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "Reported construction status and planned LinkedIn headline and profile work without requesting credentials or claiming an edit."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Gave all four job-log fields and identified the suite layout as the source."
+          },
+          "handoff": {
+            "status": "not-applicable",
+            "observation": "No handoff link was offered."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "a5f83e61354b12e518121237bc5c4f5b476a1dcc6a9d36729c83e14ae7d578b3"
+        },
+        {
+          "observedAtUtc": "2026-11-25T03:06:01.606287+00:00",
+          "version": "0.16.2",
+          "prompt": "My fictional LinkedIn headline is vague. What can your tool do at its current stage? After I pick a vacancy, which four details does your guide tell the job-tracker sibling to log? Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "On 0.16.2, disclosed construction status and described planned LinkedIn headline, profile and keyword work without claiming an edit."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Named all four job-log fields and cited the suite guide."
+          },
+          "handoff": {
+            "status": "not-applicable",
+            "observation": "No clickable handoff was offered."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "0d9e0095863a2fa8f9ba9d9985048f61f18509272035b47fb985921096248b8b"
+        }
+      ]
+    },
+    {
+      "productId": "career-seeker",
+      "name": "Career Seeker by Glee-fully",
+      "capability": "capabilities/discovered-careers/career-seeker",
+      "currentVersion": "0.11.2",
+      "underConstructionInstructions": true,
+      "finalKnowledgeCheck": "attachment-answer",
+      "result": "pass",
+      "attempts": [
+        {
+          "observedAtUtc": "2026-11-25T02:39:24.408688+00:00",
+          "version": "0.11.1+bundle.c32ead85e81a27e9466d71848439cc3a",
+          "prompt": "Can I track a fictional interview here today? When I tailor a résumé for that vacancy, what two ways does your guide say the companion customizer organizes its versions? Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "Distinguished drafting an interview entry from persistent tracking and reminders, which it described as planned."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Identified job type and company as the two ways the customizer groups versions, with the correct source."
+          },
+          "handoff": {
+            "status": "not-applicable",
+            "observation": "Named the correct companion without supplying a link."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "578e52bccb96e169037de557caed7982f17d7d9d4c23b79e0b94ccfaab333658"
+        },
+        {
+          "observedAtUtc": "2026-11-25T03:06:01.606454+00:00",
+          "version": "0.11.2",
+          "prompt": "Can I track a fictional interview here today? When I tailor a résumé for that vacancy, what two ways does your guide say the companion customizer organizes its versions? Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "On 0.11.2, offered a draft interview entry while describing persistent tracking as planned."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Gave job type and company as the two customizer groups and identified the guide."
+          },
+          "handoff": {
+            "status": "not-applicable",
+            "observation": "No clickable handoff was offered."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "2457846e3d15780d0152e4f82c4c63071973e915ccaf5b833cd4f89bc58e940f"
+        }
+      ]
+    },
+    {
+      "productId": "treasured-finds",
+      "name": "Treasured Finds by Glee-fully",
+      "capability": "capabilities/treasured-finds",
+      "currentVersion": "0.14.2",
+      "underConstructionInstructions": false,
+      "finalKnowledgeCheck": "attachment-answer",
+      "result": "pass",
+      "attempts": [
+        {
+          "observedAtUtc": "2026-11-25T03:01:01.222799+00:00",
+          "version": "0.14.2",
+          "prompt": "I collect paperbacks and scented candles. Route each collection to its specialist. Which two candle-performance measurements does the suite catalog say I can log? Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "Routed paperbacks to Personal Librarian and scented candles to Scentinal Journal."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Identified burn time and scent throw and cited the Scentinal Journal catalog entry."
+          },
+          "handoff": {
+            "status": "pass",
+            "observation": "Both offered current /plugins/ identifiers match Personal Librarian and Scentinal Journal."
+          },
+          "chatgptDestinations": [
+            {
+              "label": "Personal Librarian (#2a)",
+              "kind": "current-plugin",
+              "productId": "personal-librarian"
+            },
+            {
+              "label": "Scentinal Journal (#2d)",
+              "kind": "current-plugin",
+              "productId": "scentinal-journal"
+            }
+          ],
+          "answerTextSha256": "1ece4179684b7067274c75f8798ad4ad1e07e36b87eeb3753913aa8bb7eba11c"
+        }
+      ]
+    },
+    {
+      "productId": "personal-librarian",
+      "name": "Personal Librarian by Glee-fully",
+      "capability": "capabilities/treasured-finds/personal-librarian",
+      "currentVersion": "0.21.2",
+      "underConstructionInstructions": false,
+      "finalKnowledgeCheck": "attachment-answer",
+      "result": "pass",
+      "attempts": [
+        {
+          "observedAtUtc": "2026-11-25T02:35:59.796030+00:00",
+          "version": "0.21.1+bundle.3ffc0c8b5d07d09af7be3853514c9893",
+          "prompt": "I own a paperback and an audiobook. Help me start an import and give me the header row from your upload template. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "Started entries for the paperback and audiobook, distinguished their formats, and offered CSV upload, pasted titles or guided input."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Returned the full eight-column CSV header in exactly the source order, including ISBN/ASIN and Rating (1-5), and named the upload template."
+          },
+          "handoff": {
+            "status": "not-applicable",
+            "observation": "No handoff was needed or offered."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "c41e61c80d7565a9c0e3bbe17632fd5f8850622ad95b44c4b093c521db7cd26d"
+        },
+        {
+          "observedAtUtc": "2026-11-25T03:03:43.576615+00:00",
+          "version": "0.21.2",
+          "prompt": "I own a paperback and an audiobook. Help me start an import and give me the header row from your upload template. Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "Staged the two different book formats, invited titles/authors or a CSV, and kept unknown details and import status explicit."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Supplied the exact eight-column template header and identified the correct source. Also correctly noted that ownership is not a separate template column."
+          },
+          "handoff": {
+            "status": "not-applicable",
+            "observation": "No handoff was requested or offered."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "1c1ebb2a15ff904acc9c63d78bb0f74dda2e6d7ae214b075d46597491b4ea2dc"
+        }
+      ]
+    },
+    {
+      "productId": "decor-detective",
+      "name": "Decor Detective by Glee-fully",
+      "capability": "capabilities/treasured-finds/decor-detective",
+      "currentVersion": "0.9.3",
+      "underConstructionInstructions": true,
+      "finalKnowledgeCheck": "attachment-answer",
+      "result": "pass",
+      "attempts": [
+        {
+          "observedAtUtc": "2026-11-25T02:40:46.314074+00:00",
+          "version": "0.9.1+bundle.189157227173dd10b854b84e083cbdcb",
+          "prompt": "Can you set up a full décor inventory for me today? I also have seasonal candles. Which performance measures should I carry over to the scent journal according to your guide? Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "Disclosed the unfinished inventory feature and proposed a draft structure including storage and condition."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Identified burn time and scent throw, named the scent journal and cited the suite layout."
+          },
+          "handoff": {
+            "status": "not-applicable",
+            "observation": "No launch link was offered."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "f341559ca18cd43ecaf11ec8500b17c301d7748bccd2e4244915b951a565c286"
+        },
+        {
+          "observedAtUtc": "2026-11-25T03:06:01.606483+00:00",
+          "version": "0.9.2",
+          "prompt": "Can you set up a full décor inventory for me today? I also have seasonal candles. Which performance measures should I carry over to the scent journal according to your guide? Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "partial",
+            "observation": "On 0.9.2, accurately explained the unfinished décor inventory and planned features, but its optional specialist handoff used a legacy route."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Named burn time and scent throw, and correctly identified the Scentinal Journal file section."
+          },
+          "handoff": {
+            "status": "fail",
+            "observation": "The Scentinal Journal link used a legacy GPT URL rather than the registered current native plugin."
+          },
+          "chatgptDestinations": [
+            {
+              "label": "Scentinal Journal",
+              "kind": "legacy-gpt"
+            }
+          ],
+          "answerTextSha256": "c480fd526b5a6b8be3d38fa6b3d9574a13d9ac53bb5b2deee016bdc531192e3f"
+        },
+        {
+          "observedAtUtc": "2026-11-25T03:16:05.298815+00:00",
+          "version": "0.9.3",
+          "prompt": "Can I run a full décor inventory here today? I also have seasonal candles. Give the current ChatGPT specialist link for my candle collection, and the two performance measurements named by your suite guide. Name the source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "On 0.9.3, accurately flagged the full inventory as planned and routed seasonal candles to Scentinal Journal."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Identified burn time and scent throw and cited the suite guide."
+          },
+          "handoff": {
+            "status": "pass",
+            "observation": "The offered URL’s identifier matches the registered native Scentinal Journal plugin."
+          },
+          "chatgptDestinations": [
+            {
+              "label": "Scentinal Journal by Glee-fully",
+              "kind": "current-plugin",
+              "productId": "scentinal-journal"
+            }
+          ],
+          "answerTextSha256": "54a1cdfda489919bb1bcae77760844575c98215198199d2396f9c1ebea618898"
+        }
+      ]
+    },
+    {
+      "productId": "present-hoarder",
+      "name": "Present Hoarder by Glee-fully",
+      "capability": "capabilities/treasured-finds/present-hoarder",
+      "currentVersion": "0.10.2",
+      "underConstructionInstructions": true,
+      "finalKnowledgeCheck": "attachment-answer",
+      "result": "pass",
+      "attempts": [
+        {
+          "observedAtUtc": "2026-11-25T02:56:14.386504+00:00",
+          "version": "0.10.2",
+          "prompt": "I bought a fictional anniversary gift and hid it in a blue bin. Is your tracking workflow available? According to your guide, which three categories of items appear under Giftlist Helper’s tagging function? Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "Separated the planned gift tracker from a manual draft, retained the anniversary, bought status and blue hiding bin, and claimed no save."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Identified book, fragrance and experience as the three Giftlist Helper categories and named its source entry."
+          },
+          "handoff": {
+            "status": "pass",
+            "observation": "Correctly named Giftlist Helper #05c. No URL was offered."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "fc905ee3314837409939d51d440e1eddbdf6bb9ebf080532d77e9a9f61042b33"
+        }
+      ]
+    },
+    {
+      "productId": "scentinal-journal",
+      "name": "Scentinal Journal by Glee-fully",
+      "capability": "capabilities/treasured-finds/scentinal-journal",
+      "currentVersion": "0.7.2",
+      "underConstructionInstructions": true,
+      "finalKnowledgeCheck": "attachment-answer",
+      "result": "pass",
+      "attempts": [
+        {
+          "observedAtUtc": "2026-11-25T02:56:14.386699+00:00",
+          "version": "0.7.2",
+          "prompt": "Could I track the burn performance of a candle today? If I give it as a gift, what exact four status labels does the guide give the gifting-stash sibling? Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "Accurately described burn time and scent throw as planned and offered a manual draft without saying tracking was active."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Returned all four gift-status labels, bought, wrapped, shipped and given, and correctly attributed them to Present Hoarder’s entry."
+          },
+          "handoff": {
+            "status": "pass",
+            "observation": "Named Present Hoarder #02c. No URL was offered."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "840d643d70788397af15aad7ea48c8d53c963fb03f440b177c31e6926d101abf"
+        }
+      ]
+    },
+    {
+      "productId": "spirited-journal",
+      "name": "Spirited Journal by Glee-fully",
+      "capability": "capabilities/treasured-finds/spirited-journal",
+      "currentVersion": "0.15.2",
+      "underConstructionInstructions": false,
+      "finalKnowledgeCheck": "attachment-answer",
+      "result": "pass",
+      "attempts": [
+        {
+          "observedAtUtc": "2026-11-25T02:59:09.123454+00:00",
+          "version": "0.15.2",
+          "prompt": "Start a tasting entry for an imaginary unopened red wine that was a gift. Which four notes does your suite catalog call for when I eventually rate it? Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "Kept the fictional bottle unopened and the rating pending, leaving gift provenance explicitly unspecified. No tasting result or save was invented."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Returned nose, palate, finish and occasion and attributed them to the Spirited Journal entry."
+          },
+          "handoff": {
+            "status": "not-applicable",
+            "observation": "No handoff was requested or offered."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "4ae9ad83e79c15fb4ae575aaa2f605324f0302c8db6bfdc24ae90fb276747cef"
+        }
+      ]
+    },
+    {
+      "productId": "supply-haus",
+      "name": "Supply Haus by Glee-fully",
+      "capability": "capabilities/treasured-finds/supply-haus",
+      "currentVersion": "0.7.2",
+      "underConstructionInstructions": true,
+      "finalKnowledgeCheck": "attachment-answer",
+      "result": "pass",
+      "attempts": [
+        {
+          "observedAtUtc": "2026-11-25T02:59:09.123620+00:00",
+          "version": "0.7.2",
+          "prompt": "Could you inventory three spools of craft ribbon today? When I pack the finished seasonal ornaments away, which three maintenance outcomes does your guide list for the décor specialist? Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "Reported construction status and drafted a three-spool seasonal-ornament record, leaving unspecified properties blank and claiming no permanent save."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Identified repaired, cleaned and retired as the three maintenance outcomes and named the catalog and Decor Detective entry."
+          },
+          "handoff": {
+            "status": "pass",
+            "observation": "Identified Decor Detective #02b for décor maintenance. No URL was offered."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "a71b54977901195220cac3b72ce40931c19edf920ffdbedb3649d5f53c4b69ea"
+        }
+      ]
+    },
+    {
+      "productId": "bag-nabbit",
+      "name": "Bag Nabbit by Glee-fully",
+      "capability": "capabilities/treasured-finds/bag-nabbit",
+      "currentVersion": "0.6.1+bundle.d579b74f3b40116160b7a1f80f633190",
+      "underConstructionInstructions": false,
+      "finalKnowledgeCheck": "attachment-answer",
+      "result": "pass",
+      "attempts": [
+        {
+          "observedAtUtc": "2026-11-25T02:39:24.408712+00:00",
+          "version": "0.6.1+bundle.d579b74f3b40116160b7a1f80f633190",
+          "prompt": "\"What’s the latest addition to your bag collection? Let’s a Add a navy tote I borrowed for a weekend to a draft bag log. What are the four rotation or availability states in your suite catalog? Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "Drafted a navy tote entry with the borrowed weekend context, kept return unconfirmed, and made no persistence claim."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Gave all four listed rotation states and distinguished borrowing a bag from lending it to a friend."
+          },
+          "handoff": {
+            "status": "not-applicable",
+            "observation": "No handoff was requested or offered."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "a023f178df4ad40325790f30c3277967fbdb1343a2fefa3cb6121e539a31cc45"
+        },
+        {
+          "observedAtUtc": "2026-11-25T03:21:39.547747+00:00",
+          "version": "0.6.1+bundle.d579b74f3b40116160b7a1f80f633190",
+          "prompt": "Add a navy tote I borrowed for a weekend to a draft bag log. What are the four rotation or availability states in your suite catalog? Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "A fresh run with a clean prompt logged the navy borrowed weekend tote, left return status unspecified and kept the result as a draft."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Gave all four catalog states, distinguished borrowed from loaned to a friend and cited the suite guide."
+          },
+          "handoff": {
+            "status": "not-applicable",
+            "observation": "No handoff was offered."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "fe76557e7bcbd6a3b0cfe0bf497e472123d297d7dbadbbf31eeda1f335239e65"
+        }
+      ]
+    },
+    {
+      "productId": "tasty-tracker",
+      "name": "Tasty Tracker by Glee-fully",
+      "capability": "capabilities/tasty-tracker",
+      "currentVersion": "0.17.2",
+      "underConstructionInstructions": false,
+      "finalKnowledgeCheck": "attachment-answer",
+      "result": "pass",
+      "attempts": [
+        {
+          "observedAtUtc": "2026-11-25T02:59:09.123766+00:00",
+          "version": "0.17.2",
+          "prompt": "I want to rate a bean stew, then reuse it on busy nights. Which two sibling tools cover that handoff? According to your guide, where does the menu planner get its suggested favorites? Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "Assigned the stew rating to Flavor Meister and repeat meal planning to Menu Conductor, making no claim of live synchronization."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Explained that Menu Conductor sources favorites or highly rated meals from Flavor Meister and named the correct guide."
+          },
+          "handoff": {
+            "status": "pass",
+            "observation": "Named both correct siblings for their distinct tasks, with no hyperlink offered."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "3dba3b96d8d391a61d7d04f9be446a623c46a7b724c2f28a948a9333c2b70fc6"
+        }
+      ]
+    },
+    {
+      "productId": "flavor-meister",
+      "name": "Flavor Meister by Glee-fully",
+      "capability": "capabilities/tasty-tracker/flavor-meister",
+      "currentVersion": "0.7.2",
+      "underConstructionInstructions": true,
+      "finalKnowledgeCheck": "attachment-answer",
+      "result": "pass",
+      "attempts": [
+        {
+          "observedAtUtc": "2026-11-25T02:40:46.314244+00:00",
+          "version": "0.7.1+bundle.ee2bd37de12c02f1dbc9bc37c9ec87b4",
+          "prompt": "Could you store a fictional five-star stew review today? For the next step, what two recurring meal-plan examples does the suite guide give the menu-planning sibling? Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "Explained construction status, gave a fictional five-star draft and explicitly left it unsaved."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Named Taco Tuesdays and Sunday Roasts and cited the menu-planning specification."
+          },
+          "handoff": {
+            "status": "not-applicable",
+            "observation": "No launch link was offered."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "d472bdd23af7a8ad87aff13deb4445d2a5cf244b79bcce90311c17902fdc0156"
+        },
+        {
+          "observedAtUtc": "2026-11-25T03:14:42.094479+00:00",
+          "version": "0.7.2",
+          "prompt": "Could you store a fictional five-star stew review today? For the next step, what two recurring meal-plan examples does the suite guide give the menu-planning sibling? Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "On 0.7.2, described construction status and kept the five-star sample explicitly unsaved."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Correctly named Taco Tuesdays and Sunday Roasts and cited the suite guide."
+          },
+          "handoff": {
+            "status": "not-applicable",
+            "observation": "No handoff link was emitted."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "8297c86baaf592e7a903b591befa51b6a315ef9238242244b1df910ab7c1f323"
+        }
+      ]
+    },
+    {
+      "productId": "menu-conductor",
+      "name": "Menu Conductor by Glee-fully",
+      "capability": "capabilities/tasty-tracker/menu-conductor",
+      "currentVersion": "0.8.2",
+      "underConstructionInstructions": true,
+      "finalKnowledgeCheck": "attachment-answer",
+      "result": "pass",
+      "attempts": [
+        {
+          "observedAtUtc": "2026-11-25T02:53:35.511944+00:00",
+          "version": "0.8.2",
+          "prompt": "Is recurring meal planning working here yet? For the recipes I would draw from, what three flavor-profile tag examples does your catalog name? Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "Identified Menu Conductor as under construction and accurately framed recurring meal plans as planned without claiming they can be saved today."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Returned spicy, savory and comfort for the guide’s Flavor Meister examples and named the source file."
+          },
+          "handoff": {
+            "status": "pass",
+            "observation": "Named Flavor Meister #03a for the recipe tags. No destination URL was offered."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "108cd302eb4dadd3242ba363da84212069c79decb3f07dc51bfdb8f5841acd24"
+        }
+      ]
+    },
+    {
+      "productId": "wishful-tastes",
+      "name": "Wishful Tastes by Glee-fully",
+      "capability": "capabilities/tasty-tracker/wishful-tastes",
+      "currentVersion": "0.7.2",
+      "underConstructionInstructions": true,
+      "finalKnowledgeCheck": "attachment-answer",
+      "result": "pass",
+      "attempts": [
+        {
+          "observedAtUtc": "2026-11-25T03:01:01.222838+00:00",
+          "version": "0.7.2",
+          "prompt": "Can I keep a working list of dishes to try here today? When wishes become meals, which three staples does your guide give as auto-restock examples for the shopping sibling? Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "Distinguished an in-chat wishlist draft from the planned dedicated Wishful Tastes tracking workflow."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Returned eggs, oil and rice as Pantry Shopper’s auto-restock examples and named the correct source file."
+          },
+          "handoff": {
+            "status": "pass",
+            "observation": "Named the correct Pantry Shopper #03d sibling. No URL was offered."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "26cea74af194de1dd46647ababc99bb8598590a53d05a2fc5ba77d13e85ce149"
+        }
+      ]
+    },
+    {
+      "productId": "pantry-shopper",
+      "name": "Pantry Shopper by Glee-fully",
+      "capability": "capabilities/tasty-tracker/pantry-shopper",
+      "currentVersion": "0.8.2",
+      "underConstructionInstructions": true,
+      "finalKnowledgeCheck": "attachment-answer",
+      "result": "pass",
+      "attempts": [
+        {
+          "observedAtUtc": "2026-11-25T02:53:35.512097+00:00",
+          "version": "0.8.2",
+          "prompt": "Can I sync a shopping list from a recipe today? When I switch to the menu tool, which three types of notes does the suite catalog tell me to attach? Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "Reported the pantry conversion and mobile sync as planned, without claiming a completed shopping list synchronization."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Correctly gave timing, prep duration and dietary constraints and named the suite catalog."
+          },
+          "handoff": {
+            "status": "not-applicable",
+            "observation": "The question asked for the menu fields without requiring a clickable handoff, and the reply offered none."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "3b8d7e1c7a8d5a4b718fe51be732f37505659b1f3939006dfad508a93dc70437"
+        }
+      ]
+    },
+    {
+      "productId": "palatably-profiled",
+      "name": "Palatably Profiled by Glee-fully",
+      "capability": "capabilities/tasty-tracker/palatably-profiled",
+      "currentVersion": "0.7.3",
+      "underConstructionInstructions": true,
+      "finalKnowledgeCheck": "attachment-answer",
+      "result": "pass",
+      "attempts": [
+        {
+          "observedAtUtc": "2026-11-25T02:53:35.512045+00:00",
+          "version": "0.7.2",
+          "prompt": "Can you build a live household taste graph today? If I first rate a recipe, what rating scale and extra input does your guide assign to the recipe sibling? Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "Acknowledged construction status and did not claim a live graph or existing household ratings."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Returned the 1–5-star scale and personalized comments and named the correct Flavor Meister file entry."
+          },
+          "handoff": {
+            "status": "fail",
+            "observation": "The label and legacy GPT ID identify Flavor Meister #03a, but the offered /g/ destination is stale. The required current destination is its /plugins/ route."
+          },
+          "chatgptDestinations": [
+            {
+              "label": "Flavor Meister",
+              "kind": "legacy-gpt"
+            }
+          ],
+          "answerTextSha256": "46ff5bbfa301d48721aeefecf4e5dc01cd0034036d20c6e57902413482eeb5e5"
+        },
+        {
+          "observedAtUtc": "2026-11-25T03:14:42.094337+00:00",
+          "version": "0.7.3",
+          "prompt": "Can I build a live taste graph today? Before that I want to rate one recipe. Which rating scale and extra input does your guide assign to the recipe sibling? Give a usable current ChatGPT link for that sibling and name the source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "On retest the plugin accurately distinguished the planned taste graph from current behavior and identified Flavor Meister for recipe ratings. No conversation transfer was claimed."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Returned the full 1–5-star scale and personalized comments, citing the catalog entry and instructions separately."
+          },
+          "handoff": {
+            "status": "pass",
+            "observation": "The actual /plugins/ URL identifies Flavor Meister’s verified current plugin ID, replacing the earlier stale /g/ handoff."
+          },
+          "chatgptDestinations": [
+            {
+              "label": "Flavor Meister",
+              "kind": "current-plugin",
+              "productId": "flavor-meister"
+            }
+          ],
+          "answerTextSha256": "4b6d11004e8ef04f04f061fea45deec91ca30f0440447cb3835119254bb5f17c"
+        }
+      ]
+    },
+    {
+      "productId": "travelers-guide",
+      "name": "Traveler’s Guide by Glee-fully",
+      "capability": "capabilities/travelers-guide",
+      "currentVersion": "0.14.2",
+      "underConstructionInstructions": false,
+      "finalKnowledgeCheck": "attachment-answer",
+      "result": "pass",
+      "attempts": [
+        {
+          "observedAtUtc": "2026-11-25T03:01:01.222616+00:00",
+          "version": "0.14.2",
+          "prompt": "I want a trip journal plus a separate record of the ticket I brought home. Route both. What two collection exports does the suite guide name for the keepsake specialist? Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "Separated the trip account from the ticket collection and routed each to the appropriate specialist."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Returned scrapbook and logbook and named the exact Memento Log guide entry. Did not claim to have produced an export."
+          },
+          "handoff": {
+            "status": "pass",
+            "observation": "Both offered current /plugins/ identifiers match the mapped Journey Diary and Memento Log products."
+          },
+          "chatgptDestinations": [
+            {
+              "label": "Journey Diary (#4a)",
+              "kind": "current-plugin",
+              "productId": "journey-diary"
+            },
+            {
+              "label": "Memento Log (#4e)",
+              "kind": "current-plugin",
+              "productId": "memento-log"
+            }
+          ],
+          "answerTextSha256": "2e7cae012fc6c2e714a0d8f5bac0094b1e39730fec0af3ad87da3943b466fd80"
+        }
+      ]
+    },
+    {
+      "productId": "journey-diary",
+      "name": "Journey Diary by Glee-fully",
+      "capability": "capabilities/travelers-guide/journey-diary",
+      "currentVersion": "0.4.1+bundle.d282ff6d76f275f571f567e3167f681b",
+      "underConstructionInstructions": false,
+      "finalKnowledgeCheck": "attachment-answer",
+      "result": "pass",
+      "attempts": [
+        {
+          "observedAtUtc": "2026-11-25T02:41:47.429344+00:00",
+          "version": "0.4.1+bundle.d282ff6d76f275f571f567e3167f681b",
+          "prompt": "Draft a journal entry for an imaginary rainy train trip, with a paper ticket as my keepsake. What three tag dimensions does the suite guide give the keepsake specialist? Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "Drafted a fictional past train journey, retained the paper ticket as its keepsake and made no storage claim."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Gave emotion, location and type as the tagging dimensions and identified the suite guide."
+          },
+          "handoff": {
+            "status": "not-applicable",
+            "observation": "No external or specialist link was offered."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "2bda631084997851ab095b63bdc0e350e2864d3f6328b8b1ca66079b0c863682"
+        }
+      ]
+    },
+    {
+      "productId": "itinerary-hacker",
+      "name": "Itinerary Hacker by Glee-fully",
+      "capability": "capabilities/travelers-guide/itinerary-hacker",
+      "currentVersion": "0.6.1+bundle.c2b64455a3525820a84b361316e5aa4b",
+      "underConstructionInstructions": false,
+      "finalKnowledgeCheck": "attachment-answer",
+      "result": "pass",
+      "attempts": [
+        {
+          "observedAtUtc": "2026-11-25T02:41:47.429270+00:00",
+          "version": "0.6.1+bundle.c2b64455a3525820a84b361316e5aa4b",
+          "prompt": "Draft a low-key one-day itinerary with lunch and time to rest. Which four pieces of context should I add for a possible side trip according to the detour entry in your guide? Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "Produced a time-ordered day with lunch, explicit rest, a flexible side trip and no assumed reservations."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Gave hours, fees, travel time and detour distance and identified the suite guide."
+          },
+          "handoff": {
+            "status": "not-applicable",
+            "observation": "No launch link was requested or offered."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "95378b35d1536bbd998d23208dfdd21b57f8bd9b0fcf5ebd127207f21d605641"
+        }
+      ]
+    },
+    {
+      "productId": "detour-discoverer",
+      "name": "Detour Discoverer by Glee-fully",
+      "capability": "capabilities/travelers-guide/detour-discoverer",
+      "currentVersion": "0.6.1+bundle.b901d8c5c9092e5e788599ddb92cbd3c",
+      "underConstructionInstructions": false,
+      "finalKnowledgeCheck": "attachment-answer",
+      "result": "pass",
+      "attempts": [
+        {
+          "observedAtUtc": "2026-11-25T02:40:46.314216+00:00",
+          "version": "0.6.1+bundle.b901d8c5c9092e5e788599ddb92cbd3c",
+          "prompt": "Give me a low-risk idea for a fictional three-hour station layover, without assuming a real timetable. Which three trip-type tags does the guide give for recording it afterward? Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "Proposed an optional station-complex stop, retained two hours of flexibility and assumed no live timetable."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Named solo, family and romantic as the companion diary’s trip-type examples."
+          },
+          "handoff": {
+            "status": "not-applicable",
+            "observation": "No launch link was offered."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "1ccb645190acf9472b1cb0295b2b65355093c55c6be14807707e94c9e80e3323"
+        }
+      ]
+    },
+    {
+      "productId": "dreamland-journeys",
+      "name": "Dreamland Journeys by Glee-fully",
+      "capability": "capabilities/travelers-guide/dreamland-journeys",
+      "currentVersion": "0.14.2",
+      "underConstructionInstructions": false,
+      "finalKnowledgeCheck": "attachment-answer",
+      "result": "pass",
+      "attempts": [
+        {
+          "observedAtUtc": "2026-11-25T02:35:59.795870+00:00",
+          "version": "0.14.1+bundle.06d4a37109963f94b69bf14a051a000d",
+          "prompt": "Make me a reverse-dream entry for Foggy Cities. Which places and season does your mood table actually pair with it? Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "Produced a mood-led reverse-dream entry with the two destinations as options and made no booking claim."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Matched Edinburgh and San Francisco to Spring and identified the mood table. labeled its added suggestions as interpretation."
+          },
+          "handoff": {
+            "status": "not-applicable",
+            "observation": "No destination link was offered."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "4a0037120636a0e74cfdcd60521e96a74e226dbc2dd1ed5e4d401d5bead05b87"
+        },
+        {
+          "observedAtUtc": "2026-11-25T03:14:42.094441+00:00",
+          "version": "0.14.2",
+          "prompt": "Make me a reverse-dream entry for Foggy Cities. Which places and season does your mood table actually pair with it? Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "On 0.14.2, prepared a mood-led Foggy Cities dream draft with alternative locations and no booking or persistence claim."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Matched Edinburgh and San Francisco to Spring, naming the mood CSV explicitly."
+          },
+          "handoff": {
+            "status": "not-applicable",
+            "observation": "No handoff was offered."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "c6921037c7b64dfa429ff6375fe3fa5038cd59be9f676fba067b00a510d9dff3"
+        }
+      ]
+    },
+    {
+      "productId": "memento-log",
+      "name": "Memento Log by Glee-fully",
+      "capability": "capabilities/travelers-guide/memento-log",
+      "currentVersion": "0.13.2",
+      "underConstructionInstructions": false,
+      "finalKnowledgeCheck": "attachment-answer",
+      "result": "pass",
+      "attempts": [
+        {
+          "observedAtUtc": "2026-11-25T02:53:35.511755+00:00",
+          "version": "0.13.2",
+          "prompt": "Turn a fictional museum ticket into one keepsake entry I can copy. I’m also using the bundled archive ledger: what kind of material belongs there, and how should old entries be treated? Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "partial",
+            "observation": "Created a clearly fictional, copy-ready museum ticket entry and claimed no archive write. It authored the mood and reflection, where the prewritten criterion asked for user-supplied or explicitly blank reflection. The original prompt allowed fiction, so this is a narrow criterion gap."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Correctly identified deprecated, failed or exhausted clauses and artifacts and their read-only historical-snapshot treatment. Named the exact archive ledger."
+          },
+          "handoff": {
+            "status": "not-applicable",
+            "observation": "No handoff was requested or offered."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "bae996da288adfd2e47124053171ab0d98baedb9078c31c904d2d86abe3818a5"
+        },
+        {
+          "observedAtUtc": "2026-11-25T03:03:43.576529+00:00",
+          "version": "0.13.2",
+          "prompt": "Make a keepsake record for a fictional museum ticket. I have given no mood or memory. Leave both fields blank. What is the archive ledger for, and how should old entries be treated? Name the supporting file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "On the clearer retest the plugin made a copy-ready fictional museum ticket, left both mood and memory blank, and claimed no persistent save."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Correctly named deprecated, failed or exhausted clauses and artifacts, their unaltered read-only historical treatment, and dataLedger_archive_v2.txt."
+          },
+          "handoff": {
+            "status": "not-applicable",
+            "observation": "No handoff was requested or offered."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "f117d36ea55630b36f03e5a51fab5aa1a418469c31d3ce6bd54af2bfcd316579"
+        }
+      ]
+    },
+    {
+      "productId": "organized-life",
+      "name": "Organized Life by Glee-fully",
+      "capability": "capabilities/organized-life",
+      "currentVersion": "0.17.2",
+      "underConstructionInstructions": false,
+      "finalKnowledgeCheck": "attachment-answer",
+      "result": "pass",
+      "attempts": [
+        {
+          "observedAtUtc": "2026-11-25T02:53:35.511993+00:00",
+          "version": "0.17.2",
+          "prompt": "I have a recurring bill and a cluttered task list. Route each one to the right specialist. In the bundled v2 control flags, what are the defaults for automatic and symbolic indexing? Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "Separated recurring-bill tracking from task prioritization and routed each to its correct named specialist."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Returned autoload_index=false and use_symbolic_indexing=true, citing the v2 parameters file."
+          },
+          "handoff": {
+            "status": "pass",
+            "observation": "Both actual /plugins/ destinations match their independently mapped IDs: Thrifty Spender and Task Maestro."
+          },
+          "chatgptDestinations": [
+            {
+              "label": "Thrifty Spender",
+              "kind": "current-plugin",
+              "productId": "thrifty-spender"
+            },
+            {
+              "label": "Task Maestro",
+              "kind": "current-plugin",
+              "productId": "task-maestro"
+            }
+          ],
+          "answerTextSha256": "b481a009cfa6f13ba05b5a3ff6bacd5550f0ed287ef84aade0a375bc2aea9b71"
+        }
+      ]
+    },
+    {
+      "productId": "task-maestro",
+      "name": "Task Maestro by Glee-fully",
+      "capability": "capabilities/organized-life/task-maestro",
+      "currentVersion": "0.6.2",
+      "underConstructionInstructions": false,
+      "finalKnowledgeCheck": "attachment-answer",
+      "result": "pass",
+      "attempts": [
+        {
+          "observedAtUtc": "2026-11-25T02:59:09.123710+00:00",
+          "version": "0.6.2",
+          "prompt": "I have ten minutes and little energy. Sort “mail a form” and “outline a long report” into a draft plan. Which three tags does the suite guide suggest beyond ordinary categories? Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "Prioritized mailing the form within the ten-minute window and deferred the longer report, labelling times and effort as estimates."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Returned project, mood and effort required and cited the Task Maestro catalog section."
+          },
+          "handoff": {
+            "status": "not-applicable",
+            "observation": "No handoff was requested or offered."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "92219f598de4c3275214336a6457ac827112bca5e6e1593951fd5a547959d7e4"
+        }
+      ]
+    },
+    {
+      "productId": "thrifty-spender",
+      "name": "Thrifty Spender by Glee-fully",
+      "capability": "capabilities/organized-life/thrifty-spender",
+      "currentVersion": "0.5.2",
+      "underConstructionInstructions": false,
+      "finalKnowledgeCheck": "attachment-answer",
+      "result": "pass",
+      "attempts": [
+        {
+          "observedAtUtc": "2026-11-25T02:59:09.123807+00:00",
+          "version": "0.5.2",
+          "prompt": "For a fictional grocery budget of $60, I’ve spent $15. Give me a short remaining-budget entry. How can the companion scheduling tool time bill alerts according to your guide? Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "Calculated $45 remaining and 75% of the fictional grocery budget, kept the record a draft and claimed no financial or calendar action."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Named before due, day-of and overdue from the Scheduling Wizard entry in the correct guide."
+          },
+          "handoff": {
+            "status": "pass",
+            "observation": "Identified Scheduling Wizard #05d as the appropriate companion. No URL was offered."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "3824fd4b404fe4a30b16584ccd28c199751eb95a056c707a0f61d88099df3786"
+        }
+      ]
+    },
+    {
+      "productId": "giftlist-helper",
+      "name": "Giftlist Helper by Glee-fully",
+      "capability": "capabilities/organized-life/giftlist-helper",
+      "currentVersion": "0.6.3",
+      "underConstructionInstructions": false,
+      "finalKnowledgeCheck": "attachment-answer",
+      "result": "pass",
+      "attempts": [
+        {
+          "observedAtUtc": "2026-11-25T02:51:30.145083+00:00",
+          "version": "0.6.2",
+          "prompt": "I bought a puzzle for a fictional recipient, but it is still unwrapped. Draft the entry. Which two intent values does the Giftlist Helper Final reference allow for the wishlist? Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "Produced a draft puzzle entry with separate bought and unwrapped statuses and wrapping as the next action."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Gave active and stash as the two values and named the Giftlist Helper Final reference."
+          },
+          "handoff": {
+            "status": "not-applicable",
+            "observation": "No routing was involved."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "d88cd51a1f0a1360e3cc412018d99e03812e6806c50e12a9945dec8a413e913f"
+        },
+        {
+          "observedAtUtc": "2026-11-25T03:16:05.298981+00:00",
+          "version": "0.6.3",
+          "prompt": "I bought an unwrapped puzzle as a fictional gift. Draft my entry and give the two allowed wishlist intent values from your Giftlist Helper Final reference. If I ask for Reminder Rhythm or Life Dashboard, which current destinations can you actually verify? Give one usable family link. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "On 0.6.3, kept bought and unwrapped distinct and refused to invent replacements for two historical tool names."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Reported active and stash and named the Giftlist Helper Final reference."
+          },
+          "handoff": {
+            "status": "pass",
+            "observation": "Pointed to the registered native Organized Life family and explicitly avoided presenting it as a verified replacement for either alias."
+          },
+          "chatgptDestinations": [
+            {
+              "label": "Organized Life",
+              "kind": "current-plugin",
+              "productId": "organized-life"
+            }
+          ],
+          "answerTextSha256": "6edecfaf031d45b435059190229705132a297b20200e7c3f6e129b080a60bf29"
+        }
+      ]
+    },
+    {
+      "productId": "scheduling-wizard",
+      "name": "Scheduling Wizard by Glee-fully",
+      "capability": "capabilities/organized-life/scheduling-wizard",
+      "currentVersion": "0.11.1+bundle.b64390ee1481dbccd12cd5ce985d3de2",
+      "underConstructionInstructions": false,
+      "finalKnowledgeCheck": "attachment-answer",
+      "result": "pass",
+      "attempts": [
+        {
+          "observedAtUtc": "2026-11-25T02:50:01.621176+00:00",
+          "version": "0.11.1+bundle.b64390ee1481dbccd12cd5ce985d3de2",
+          "prompt": "Draft two possible times for a recurring Friday chore. Which three standard export choices and which gated simulated format appear in your scheduling-specific parameter ledger? Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "Offered 9:00 AM and 4:30 PM every Friday and explicitly left both as unscheduled drafts."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Correctly gave .txt, .md and clipboard, identified DOCX as gated/simulated, and named the scheduling-specific ledger."
+          },
+          "handoff": {
+            "status": "not-applicable",
+            "observation": "No handoff was requested or offered."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "ba0eab4468bf9c20466a63d85eec6a77d992db555bc4882d1fef396ff3a4244b"
+        }
+      ]
+    },
+    {
+      "productId": "lifestyle-wallboard",
+      "name": "Lifestyle Wallboard by Glee-fully",
+      "capability": "capabilities/organized-life/lifestyle-wallboard",
+      "currentVersion": "0.6.2",
+      "underConstructionInstructions": false,
+      "finalKnowledgeCheck": "attachment-answer",
+      "result": "pass",
+      "attempts": [
+        {
+          "observedAtUtc": "2026-11-25T02:51:12.906904+00:00",
+          "version": "0.6.2",
+          "prompt": "Draft a weekly wallboard for one completed habit and an overdue bill. If I want to add tasks, which three tagging dimensions are listed for the task specialist in the suite guide? Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "Drafted a weekly board that separately marked the completed habit and overdue bill without inventing bill details."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Named project, mood and effort required as Task Maestro’s three tagging dimensions and cited the guide."
+          },
+          "handoff": {
+            "status": "pass",
+            "observation": "The offered destination matches the registered native Task Maestro plugin."
+          },
+          "chatgptDestinations": [
+            {
+              "label": "Task Maestro",
+              "kind": "current-plugin",
+              "productId": "task-maestro"
+            }
+          ],
+          "answerTextSha256": "58184f0a41599be78268a6ae10ad3440eeb635d73257a6ee51e6576c1e5e81d7"
+        }
+      ]
+    },
+    {
+      "productId": "neighborly-bazaar",
+      "name": "Neighborly Bazaar by Glee-fully",
+      "capability": "capabilities/organized-life/neighborly-bazaar",
+      "currentVersion": "0.18.1+bundle.78375b86d6c37f6cc8288985525ec23d",
+      "underConstructionInstructions": false,
+      "finalKnowledgeCheck": "attachment-answer",
+      "result": "pass",
+      "attempts": [
+        {
+          "observedAtUtc": "2026-11-25T02:50:01.620897+00:00",
+          "version": "0.18.1+bundle.78375b86d6c37f6cc8288985525ec23d",
+          "prompt": "Draft a seller’s listing using the worked dishwasher example in your pricing article. What quick-sale price did the example suggest, and what repair should I disclose? Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "Drafted a listing with the model-number placeholder, condition and repair. Explicitly attributed the amount to the worked scenario rather than current pricing."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "The quick-sale amount, replaced heating element and model-number prompt all match Knowledge 07. The added scratches, condition, prior price, and repair details also check against the cited example."
+          },
+          "handoff": {
+            "status": "not-applicable",
+            "observation": "No handoff was requested or offered."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "04e08d1ed270476bfff7cdf0082ff6bc6a23568f8970bb8c2ec9a3ba1ce841bd"
+        }
+      ]
+    },
+    {
+      "productId": "healthy-bee-ing",
+      "name": "Healthy Bee-ing by Glee-fully",
+      "capability": "capabilities/healthy-bee-ing",
+      "currentVersion": "0.8.2",
+      "underConstructionInstructions": false,
+      "finalKnowledgeCheck": "attachment-answer",
+      "result": "pass",
+      "attempts": [
+        {
+          "observedAtUtc": "2026-11-25T02:51:30.145168+00:00",
+          "version": "0.8.2",
+          "prompt": "Give a fictional midlife journal a calm first check-in. Which three concerns appear together in the Maven Wise graphing entry of your suite guide? Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "Offered a low-pressure fictional midlife check-in with mood, energy, sleep and reflection and gave no treatment advice."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Correctly identified hot flashes, mood swings and sleep and named the Maven Wise entry in the suite guide."
+          },
+          "handoff": {
+            "status": "not-applicable",
+            "observation": "No launch link was issued."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "9c55b1cba5fb627b76ec7173886aadf2e4f9d18f0e30a81a803d16f489e2e7cc"
+        }
+      ]
+    },
+    {
+      "productId": "care-check",
+      "name": "Care Check by Glee-fully",
+      "capability": "capabilities/healthy-bee-ing/care-check",
+      "currentVersion": "0.11.1+bundle.167c57b17265962d4282fda9667098f8",
+      "underConstructionInstructions": false,
+      "finalKnowledgeCheck": "attachment-answer",
+      "result": "pass",
+      "attempts": [
+        {
+          "observedAtUtc": "2026-11-25T02:39:45.303725+00:00",
+          "version": "0.11.1+bundle.167c57b17265962d4282fda9667098f8",
+          "prompt": "For a fictional symptom journal, help me structure a dated observation to discuss with a clinician later. If I add medication notes, what visual refill feature does the guide give the companion tool? Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "Provided a labeled fictional dated example and routed medication tracking to Medi Minder without giving dosage guidance."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Named the visual prescription refill countdown and the correct suite guide."
+          },
+          "handoff": {
+            "status": "not-applicable",
+            "observation": "Named the appropriate medication companion without supplying a link."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "3ff6d4980b926c4fd2cd90635bc977e07e25e6bc4d0fce7ecd4944b63baf1af4"
+        }
+      ]
+    },
+    {
+      "productId": "calm-keep",
+      "name": "Calm Keep by Glee-fully",
+      "capability": "capabilities/healthy-bee-ing/calm-keep",
+      "currentVersion": "0.7.2",
+      "underConstructionInstructions": false,
+      "finalKnowledgeCheck": "attachment-answer",
+      "result": "pass",
+      "attempts": [
+        {
+          "observedAtUtc": "2026-11-25T02:38:31.845650+00:00",
+          "version": "0.7.1+bundle.15b734084e87a4cc902cc579572ef687",
+          "prompt": "Give me a brief desk-break reset and a simple way to log it. What three inputs does your suite guide say Calm Keep can correlate visually? Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "Offered a short breathing and movement break with a simple self-report log and no sensor-access claim."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Identified stress, rest and movement, and named the suite layout as the source."
+          },
+          "handoff": {
+            "status": "not-applicable",
+            "observation": "No handoff was requested or offered."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "65d2934a2a3588811753e2293676503820639a1280a2a2933214e8a9bedfa1cf"
+        },
+        {
+          "observedAtUtc": "2026-11-25T03:06:01.606392+00:00",
+          "version": "0.7.2",
+          "prompt": "Give me a brief desk-break reset and a simple way to log it. What three inputs does your suite guide say Calm Keep can correlate visually? Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "On 0.7.2, proposed a short breathing and movement break, plus a simple self-report log."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Named stress, rest and movement and cited the suite guide."
+          },
+          "handoff": {
+            "status": "not-applicable",
+            "observation": "No routing was involved."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "ddd818a5f0f35a8755575cddd6de78698135bfbc25ba2b3967169c56221b9dee"
+        }
+      ]
+    },
+    {
+      "productId": "snappy-count",
+      "name": "Snappy Count by Glee-fully",
+      "capability": "capabilities/healthy-bee-ing/snappy-count",
+      "currentVersion": "0.10.2",
+      "underConstructionInstructions": false,
+      "finalKnowledgeCheck": "attachment-answer",
+      "result": "pass",
+      "attempts": [
+        {
+          "observedAtUtc": "2026-11-25T02:56:14.386748+00:00",
+          "version": "0.10.2",
+          "prompt": "My fictional lunch has rice, beans and vegetables. Make a gentle plate-log entry. Which tagging view does the guide give the mood-tracking sibling for looking at hydration alongside mood? Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "Produced a gentle plate log and broad food-group observations, without unsupported quantitative estimates."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Correctly identified the hydration/mood overlay graph and distinguished it from the “tagging view” wording in the question. Named the correct guide."
+          },
+          "handoff": {
+            "status": "pass",
+            "observation": "Moody Log #06e was correctly identified and its actual /plugins/ URL matches the verified product ID."
+          },
+          "chatgptDestinations": [
+            {
+              "label": "Moody Log (#06e)",
+              "kind": "current-plugin",
+              "productId": "moody-log"
+            }
+          ],
+          "answerTextSha256": "51da903e605be52388d93b4d8bfa1ec241838384c6934a034c61a7a823ad1093"
+        }
+      ]
+    },
+    {
+      "productId": "medi-minder",
+      "name": "Medi Minder by Glee-fully",
+      "capability": "capabilities/healthy-bee-ing/medi-minder",
+      "currentVersion": "0.13.2",
+      "underConstructionInstructions": false,
+      "finalKnowledgeCheck": "attachment-answer",
+      "result": "pass",
+      "attempts": [
+        {
+          "observedAtUtc": "2026-11-25T02:51:12.906982+00:00",
+          "version": "0.13.2",
+          "prompt": "Help me draft a fictional refill reminder, without changing a real calendar. What feature does the guide name for sharing reminders with someone I trust? Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "Drafted an illustrative dated refill reminder without claiming a calendar edit or notification."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Identified Caregiver Mode for trusted reminder sharing and named the suite guide."
+          },
+          "handoff": {
+            "status": "not-applicable",
+            "observation": "No launch link was issued."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "d38b76cb20959891f6947b5f627547f3c4c44ab7b62c2978827356b4e92f381e"
+        }
+      ]
+    },
+    {
+      "productId": "moody-log",
+      "name": "Moody Log by Glee-fully",
+      "capability": "capabilities/healthy-bee-ing/moody-log",
+      "currentVersion": "0.3.1+bundle.04e9e4107d727ec78067556c43b77443",
+      "underConstructionInstructions": false,
+      "finalKnowledgeCheck": "attachment-answer",
+      "result": "pass",
+      "attempts": [
+        {
+          "observedAtUtc": "2026-11-25T02:47:42.437802+00:00",
+          "version": "0.3.1+bundle.04e9e4107d727ec78067556c43b77443",
+          "prompt": "Draft a single entry for a fictional calm morning and a glass of water. What three inputs does your guide say the neighboring Calm Keep chart can correlate? Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "Recorded calm mood and one glass of water as a fictional draft with a reflection and no invented trend."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Supplied stress, rest and movement and named the relevant Operator’s Cathedral Layout file and catalog entry."
+          },
+          "handoff": {
+            "status": "pass",
+            "observation": "Identified Calm Keep as #06b. The response supplied no destination URL."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "5bc53be2b640111b634e784e41edb797743e040d603be2e9c51b0341eda3dc73"
+        }
+      ]
+    },
+    {
+      "productId": "maven-wise",
+      "name": "Maven Wise",
+      "capability": "capabilities/healthy-bee-ing/maven-wise",
+      "currentVersion": "0.13.1+bundle.b357adf28eb58b1d5f78e6529d6e2015",
+      "underConstructionInstructions": false,
+      "finalKnowledgeCheck": "attachment-answer",
+      "result": "pass",
+      "attempts": [
+        {
+          "observedAtUtc": "2026-11-25T02:47:42.437759+00:00",
+          "version": "0.13.1+bundle.b357adf28eb58b1d5f78e6529d6e2015",
+          "prompt": "Start a fictional midlife energy journal without giving treatment advice. If I want a record to discuss at an appointment, what two events does your guide’s medication tool link side effects to? Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "Prepared a clearly fictional energy check-in with sleep and mood context and no treatment recommendation."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Identified medication use and appointments and named the corresponding suite guide."
+          },
+          "handoff": {
+            "status": "not-applicable",
+            "observation": "No launch link was offered."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "591dcac85b7a000ee5ccd68d9e06e447b767b7489338236ba3098ec5bf1700ac"
+        }
+      ]
+    },
+    {
+      "productId": "identity-known",
+      "name": "Identity Known by Glee-fully",
+      "capability": "capabilities/identity-known",
+      "currentVersion": "0.10.2",
+      "underConstructionInstructions": false,
+      "finalKnowledgeCheck": "no-upload-control",
+      "result": "pass",
+      "attempts": [
+        {
+          "observedAtUtc": "2026-11-25T02:35:59.796062+00:00",
+          "version": "0.10.1+bundle.1d86b4fe2b5955f53a99576bfec94d41",
+          "prompt": "I have only a sound recording of an unfamiliar household object. How could I start identifying it here, and which attached reference supports your suggestion? Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "Requested audio or a description with pitch, rhythm and context before proposing an identification."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Correctly reported an empty reference index, distinguished skill instructions from reference files and invented no attachment."
+          },
+          "handoff": {
+            "status": "not-applicable",
+            "observation": "No handoff was offered or required."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "c97f406df37f3e76af8e65fd4175d77dea52e295a11710bb9c7125df00881303"
+        },
+        {
+          "observedAtUtc": "2026-11-25T03:03:43.576678+00:00",
+          "version": "0.10.2",
+          "prompt": "I have only a sound recording of an unfamiliar household object. How could I start identifying it here, and which attached reference supports your suggestion? Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "On hosted version 0.10.2, requested audio or a contextual description and deferred identification until clues were supplied."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Correctly distinguished modality guidance in the skill from the absence of any attached knowledge reference."
+          },
+          "handoff": {
+            "status": "not-applicable",
+            "observation": "No handoff was offered."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "db7d443fdaf4d364f9720a785015ffc76174c1639db68b8edbc2f402a57aa2b8"
+        }
+      ]
+    },
+    {
+      "productId": "critter-spotter",
+      "name": "Critter Spotter by Glee-fully",
+      "capability": "capabilities/identity-known/critter-spotter",
+      "currentVersion": "0.8.1+bundle.2054fbbb5ad8dc5f9dc270c7bc2f0385",
+      "underConstructionInstructions": false,
+      "finalKnowledgeCheck": "attachment-answer",
+      "result": "pass",
+      "attempts": [
+        {
+          "observedAtUtc": "2026-11-25T02:40:46.314269+00:00",
+          "version": "0.8.1+bundle.2054fbbb5ad8dc5f9dc270c7bc2f0385",
+          "prompt": "A blurry fictional snapshot shows a striped small animal at dusk. Give me a cautious identification approach. What paired export does your suite guide offer for my field journal? Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "partial",
+            "observation": "Requested a clearer image, size, habitat and region, and withheld species identification. It listed features to compare but gave no actual lookalike comparison required by the probe rubric."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Identified an image paired with its identification as the journal export and named the suite guide."
+          },
+          "handoff": {
+            "status": "not-applicable",
+            "observation": "No handoff requested or offered."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "c32391c225eab97e278c2e35292d5ce490e750c8c66e08a9c624637520529f94"
+        },
+        {
+          "observedAtUtc": "2026-11-25T03:01:01.222915+00:00",
+          "version": "0.8.1+bundle.2054fbbb5ad8dc5f9dc270c7bc2f0385",
+          "prompt": "A blurry photo in a fictional eastern US woodland shows a striped small mammal at dusk. Give one conditional comparison of plausible lookalikes, with a field mark that would separate them. Which paired export does your guide offer for the field journal? Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "On a more explicit prompt, gave a conditional field-mark comparison: back stripes alone versus stripes extending onto the face. It withheld a species name the bundled material could not support."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Named the image plus identification export and cited the suite guide."
+          },
+          "handoff": {
+            "status": "not-applicable",
+            "observation": "No handoff was requested or offered."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "77eedce7d25adcfbceb01d2fbd212fe9b5fa44ce6b20bfade9080195487654a0"
+        }
+      ]
+    },
+    {
+      "productId": "roost-wrangler",
+      "name": "Roost Wrangler by Glee-fully",
+      "capability": "capabilities/identity-known/roost-wrangler",
+      "currentVersion": "0.6.1+bundle.51f4b200837725203cf54c4a7dee7763",
+      "underConstructionInstructions": false,
+      "finalKnowledgeCheck": "attachment-answer",
+      "result": "pass",
+      "attempts": [
+        {
+          "observedAtUtc": "2026-11-25T02:50:01.621026+00:00",
+          "version": "0.6.1+bundle.51f4b200837725203cf54c4a7dee7763",
+          "prompt": "A fictional chair has tapered legs and a curved wood shell. Suggest a tentative style and a useful photo detail. What two reusable outputs does the guide offer through the pattern specialist for its upholstery? Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "Gave a tentative mid-century-modern identification tied to the supplied clues. Requested a close-up of the leg attachment and did not appraise the chair."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Named Motif Muse’s two reusable outputs, style cards and color swatches, and identified the correct file."
+          },
+          "handoff": {
+            "status": "pass",
+            "observation": "Named Motif Muse #07e for upholstery pattern work. No URL was offered."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "18c093670db6638f237c89c49dd3675b056c0371daffa920979fd39785040a3b"
+        }
+      ]
+    },
+    {
+      "productId": "sight-seeker",
+      "name": "Sight Seeker by Glee-fully",
+      "capability": "capabilities/identity-known/sight-seeker",
+      "currentVersion": "0.8.1+bundle.1d3e3a2a8852b9d8b095c3b356cd341e",
+      "underConstructionInstructions": false,
+      "finalKnowledgeCheck": "attachment-answer",
+      "result": "pass",
+      "attempts": [
+        {
+          "observedAtUtc": "2026-11-25T02:50:01.621324+00:00",
+          "version": "0.8.1+bundle.1d3e3a2a8852b9d8b095c3b356cd341e",
+          "prompt": "I sketched three bright stars in a straight line. How would you narrow down what I saw? To keep a record, how does the guide say the trip diary can display the places I have visited together? Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "Requested the sketch, date, time, location and viewing context. Qualified the three-star pattern rather than claiming a confirmed identification."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Correctly returned the traveled-places map with visual pins and cited the guide’s Journey Diary entry."
+          },
+          "handoff": {
+            "status": "pass",
+            "observation": "Identified Journey Diary #04a and did not claim to store the trip inside Sight Seeker. No URL was offered."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "32a5f5a7f8657f5c77cfd4c6a4890c32824ea4dcfb80062a570cff248390af5f"
+        }
+      ]
+    },
+    {
+      "productId": "snap-decoder",
+      "name": "Snap Decoder by Glee-fully",
+      "capability": "capabilities/identity-known/snap-decoder",
+      "currentVersion": "0.10.2",
+      "underConstructionInstructions": false,
+      "finalKnowledgeCheck": "attachment-answer",
+      "result": "pass",
+      "attempts": [
+        {
+          "observedAtUtc": "2026-11-25T02:56:14.386727+00:00",
+          "version": "0.10.2",
+          "prompt": "For a made-up screenshot that says “sync paused,” draft a brief journal note without assuming what caused it. Which three sorting dimensions does the catalog give for screenshot collections? Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "Captured the supplied sync-paused text, left the cause and urgency unknown, and labelled the sentiment provisional. No account action or saved record was claimed."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Returned theme, urgency and sentiment and cited Snap Decoder’s Primary Functions in the bundled guide."
+          },
+          "handoff": {
+            "status": "not-applicable",
+            "observation": "No handoff was requested or offered."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "1402b5d6d43492c1b7db7e1acf19a3ce0aa4bf43a551a7cf2894a31bbf9311fb"
+        }
+      ]
+    },
+    {
+      "productId": "motif-muse",
+      "name": "Motif Muse by Glee-fully",
+      "capability": "capabilities/identity-known/motif-muse",
+      "currentVersion": "0.11.1+bundle.0bc8414b55d7d6ff53a51b38e3efd231",
+      "underConstructionInstructions": false,
+      "finalKnowledgeCheck": "attachment-answer",
+      "result": "pass",
+      "attempts": [
+        {
+          "observedAtUtc": "2026-11-25T02:47:42.437831+00:00",
+          "version": "0.11.1+bundle.0bc8414b55d7d6ff53a51b38e3efd231",
+          "prompt": "Draft a swatch record for a navy herringbone fabric. If I switch to identifying the craft that uses it, what export does the guide say the craft specialist can make? Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "Separated navy from the herringbone pattern, marked fiber composition unverified, and routed technique identification to Maker Matcher."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Correctly named the hobby profile card with discovered interest tags and cited the source file."
+          },
+          "handoff": {
+            "status": "pass",
+            "observation": "Named Maker Matcher #07f for the craft handoff. No URL was offered."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "0c102159cceada7fd46e913a55349723b300fd355726f3d5aaa158c47a280e20"
+        }
+      ]
+    },
+    {
+      "productId": "maker-matcher",
+      "name": "Maker Matcher by Glee-fully",
+      "capability": "capabilities/identity-known/maker-matcher",
+      "currentVersion": "0.9.1+bundle.c4126539f500fa404c6ea007f0e1a337",
+      "underConstructionInstructions": false,
+      "finalKnowledgeCheck": "attachment-answer",
+      "result": "pass",
+      "attempts": [
+        {
+          "observedAtUtc": "2026-11-25T02:47:42.437642+00:00",
+          "version": "0.9.1+bundle.c4126539f500fa404c6ea007f0e1a337",
+          "prompt": "I describe cords knotted into a plant hanger. Suggest a tentative craft and a technique tag. What export does your guide name for the pattern specialist if I want to keep its colors? Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "Tentatively labeled macramé and supplied decorative knotting as a technique tag without pretending to see an image."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Named style cards or reusable color swatches, correctly designated Motif Muse and cited the suite layout."
+          },
+          "handoff": {
+            "status": "not-applicable",
+            "observation": "Named the correct companion. no clickable destination was supplied."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "c2c75fc443c67cd3c5e3cc68b299e8e08bead4bed79fce01891bcfc118a9b055"
+        }
+      ]
+    },
+    {
+      "productId": "gpt07g-self-fixer",
+      "name": "Self Fixer by Glee-fully",
+      "capability": "capabilities/identity-known/gpt07g-self-fixer",
+      "currentVersion": "0.13.1+bundle.603076ca69dc769d19a1bdfffa6b8ada",
+      "underConstructionInstructions": false,
+      "finalKnowledgeCheck": "attachment-answer",
+      "result": "pass",
+      "attempts": [
+        {
+          "observedAtUtc": "2026-11-25T02:41:47.429400+00:00",
+          "version": "0.13.1+bundle.603076ca69dc769d19a1bdfffa6b8ada",
+          "prompt": "A drawer runner comes loose on a fictional desk. What measurements or markings would help narrow the part? Which export does your guide list for keeping its diagnosis with my tools? Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "Requested concrete dimensions, screw spacing, part markings and photos with scale without asserting an exact replacement."
+          },
+          "knowledge": {
+            "status": "partial",
+            "observation": "Correctly named the diagnostic snapshot for a tool crib or sharing, but sourced it to the skill instructions. The same fact is explicit in the skill, so this probe did not establish attachment-specific knowledge."
+          },
+          "handoff": {
+            "status": "not-applicable",
+            "observation": "No destination link was offered."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "b46fe2597fe39fbf744b2691d3bf9f099398ec611367fb6a7d63080e2906a2fd"
+        },
+        {
+          "observedAtUtc": "2026-11-25T03:03:43.576297+00:00",
+          "version": "0.13.1+bundle.603076ca69dc769d19a1bdfffa6b8ada",
+          "prompt": "I’m identifying a loose drawer runner on a fictional desk. What should I measure or photograph? To keep a record for later, which three tagging dimensions does your bundled suite guide assign to the Memento Log? Name the file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "For the loose drawer runner, requested measurements, markings and scaled photos without committing to a part fit."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Returned emotion, location and type. The alternative cited registry is a genuine bundled file: its exact release digest matches the FoundRy Git blob containing all three dimensions in the Memento Log entry."
+          },
+          "handoff": {
+            "status": "not-applicable",
+            "observation": "No handoff was offered."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "fdcfa602063824b07643f7241e75c7860d62b895a2e30f5a52a32199d0bd2d6c"
+        }
+      ]
+    },
+    {
+      "productId": "icon-maker",
+      "name": "Glee-fully Icon Maker",
+      "capability": "capabilities/personalizable-tools/icon-maker",
+      "currentVersion": "0.7.2",
+      "underConstructionInstructions": false,
+      "finalKnowledgeCheck": "visual-companion-and-generated-image",
+      "result": "pass",
+      "attempts": [
+        {
+          "observedAtUtc": "2026-11-25T02:47:42.437856+00:00",
+          "version": "0.7.1+bundle.bc8a93dd23ec7730e47a2cce174de590",
+          "prompt": "Make a matching Glee-fully icon using the library filing object in your Personal Librarian “.b” reference. Keep its identifying details. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "fail",
+            "observation": "No generated icon was present in the completed response or its image list. the answer offered to create one later."
+          },
+          "knowledge": {
+            "status": "fail",
+            "observation": "Identified the reference filename but reported it unreadable. The guess at a card catalog omitted the drawer, its front hardware and protruding lined index card."
+          },
+          "handoff": {
+            "status": "not-applicable",
+            "observation": "No launch link was offered."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "d63ec33099f851caed0f3cbf282407501211c45c372643566e098bd1b3250665"
+        },
+        {
+          "observedAtUtc": "2026-11-25T03:19:21.896641+00:00",
+          "version": "0.7.2",
+          "prompt": "Make a matching Glee-fully Personal Librarian icon using the library filing object in the \".b\" bundled reference. Deliver the finished icon in this response and preserve the reference’s identifying details. Use a complete standalone SVG if direct image rendering is unavailable. Name the supporting file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "The completed 0.7.2 response contained one square icon. Visual inspection confirmed an upper-left butterfly overlapping the drawer, colored stripes and the Glee-fully wordmark along the lower edge."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "The drawer had its gold keyhole plate and protruding three-line index card. The host attributed those details to the bundled verified text description. Direct reading of the original reference PNG remained unavailable."
+          },
+          "handoff": {
+            "status": "not-applicable",
+            "observation": "No handoff was requested or offered."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "7e917d6c8b2861fde13b5e9fa01cf0e4b27a6a6a6ac9333d1900d2df6d0c3361",
+          "visualInspection": "Coordinator inspected the rendered 1254×1254 chat image. A multicolored black-outlined butterfly overlaps a brown card drawer; a cream card with three dark lines projects from the drawer, which has a gold keyhole plate. The bottom has the cream Glee-fully lettering over broad retro stripes. ChatGPT explicitly used the verified visual companion for the source PNG.",
+          "images": [
+            {
+              "width": 1254,
+              "height": 1254
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "healthy-bee-ing-hosted-variant",
+      "name": "Glee-fully Healthy Bee-ing",
+      "capability": "capabilities/healthy-bee-ing/hosted-variant",
+      "currentVersion": "0.9.3",
+      "underConstructionInstructions": false,
+      "finalKnowledgeCheck": "attachment-answer",
+      "result": "pass",
+      "attempts": [
+        {
+          "observedAtUtc": "2026-11-25T02:34:15.921959+00:00",
+          "version": "0.9.1+bundle.8229faa2f5f426df753ca5e4e269f7b7",
+          "prompt": "For a fictional wellness journal, which of your Tool-ettes should track hydration and mood? Use the bundled Operator’s Cathedral Layout, without web search: what title does its seventh major section use? Name your source. No personal health information is needed.",
+          "behavior": {
+            "status": "partial",
+            "observation": "Correctly selected Moody Log #06e for hydration and mood. Its offered destination points to a different tool."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Named the requested seventh section, Closing Codex for Operators, and identified the relevant layout document."
+          },
+          "handoff": {
+            "status": "fail",
+            "observation": "The URL uses Calm Keep’s #06b GPT identifier despite a Moody Log label."
+          },
+          "chatgptDestinations": [
+            {
+              "label": "Moody Log 💧🌙",
+              "kind": "legacy-gpt"
+            }
+          ],
+          "answerTextSha256": "b3fcac3d74d8cdeab16ee98a74f8f03671231e1a4a48b60b8b8f14a21e51e88f"
+        },
+        {
+          "observedAtUtc": "2026-11-25T02:50:01.620694+00:00",
+          "version": "0.9.3",
+          "prompt": "For a fictional wellness journal, which Tool-ette tracks hydration and mood? Give a usable link to that specialist. What is the seventh major section of the bundled Operator’s Cathedral Layout called? Name the file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "On the fresh hosted version 0.9.3, the response chose Moody Log #06e and supplied its registered native plugin URL."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "On retest, correctly identified the seventh section and cited the relevant layout file."
+          },
+          "handoff": {
+            "status": "pass",
+            "observation": "The destination identifier matches the independently recorded native Moody Log plugin. no click-through was claimed."
+          },
+          "chatgptDestinations": [
+            {
+              "label": "Moody Log 💧🌙",
+              "kind": "current-plugin",
+              "productId": "moody-log"
+            }
+          ],
+          "answerTextSha256": "c46b6e190f86f7a4b2647a5d41934dd55d7de525ea779b7d0d37e4f9dda02141"
+        }
+      ]
+    },
+    {
+      "productId": "grounded",
+      "name": "Glee-fully Grounded",
+      "capability": "capabilities/personalizable-tools/grounded",
+      "currentVersion": "0.18.1+bundle.ec404a9de38cb789e2ff9e034ddd3511",
+      "underConstructionInstructions": false,
+      "finalKnowledgeCheck": "attachment-answer",
+      "result": "pass",
+      "attempts": [
+        {
+          "observedAtUtc": "2026-11-25T02:41:47.429098+00:00",
+          "version": "0.18.1+bundle.ec404a9de38cb789e2ff9e034ddd3511",
+          "prompt": "Give me a concise Branch Tool skeleton for a fictional paper-craft family. Keep it a concierge. Which two named sections does the v1.7 evaluation template use for the as-built and proposed forms? Name your source file. Please use only this plugin’s provided material; identify the supporting file if available. Keep it brief.",
+          "behavior": {
+            "status": "pass",
+            "observation": "Authored a branch-level concierge with three fictional child tools, entry routing and a clear specialist boundary."
+          },
+          "knowledge": {
+            "status": "pass",
+            "observation": "Correctly named As-Deployed Star and Protoform and cited the evaluation template."
+          },
+          "handoff": {
+            "status": "not-applicable",
+            "observation": "The proposed fictional subtools had no launch links."
+          },
+          "chatgptDestinations": [],
+          "answerTextSha256": "41d7913a186cbd267693910b04d468a4caad28b1b37b21347a51699ea37be231"
+        }
+      ]
+    }
+  ]
+}

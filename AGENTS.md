@@ -72,7 +72,9 @@ records this cutover. The owner’s GPT directory also contained Icon Maker,
 Grounded and a second Healthy Bee-ing. All three have private plugins.
 The [legacy content inventory](products/legacy-content-inventory.json) records
 the original instructions, starters and knowledge-file comparisons for all 53.
-Host behavior, installation and later changes require separate verification.
+The [hosted runtime tests](products/hosted-plugin-runtime-tests.md) record the
+private releases exercised in ChatGPT and their observed behavior. Later
+versions and other hosts require separate verification.
 
 ## Authority and scope
 
