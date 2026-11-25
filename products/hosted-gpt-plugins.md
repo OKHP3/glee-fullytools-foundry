@@ -4,6 +4,8 @@ Find the public plugin files for each of the 53 Glee-fully GPTs migrated in the 
 
 ## Read or download a plugin
 
+For observed behavior in ChatGPT and changes made after migration, see the [runtime test report for all 53 private plugins](hosted-plugin-runtime-tests.md).
+
 Open a package ID to browse its FoundRy directory. **Instructions** opens the migrated skill. **Starters** opens the full list of conversation starters from the original GPT Builder. **Manifest** opens the public plugin metadata, including its display name, description and native default prompts. The [tagged release](https://github.com/OKHP3/glee-fullytools-foundry/releases/tag/hosted-gpt-plugins-2026-11-24) provides one downloadable ZIP per package. To find a ZIP, search the release assets for the package ID followed by `-former-gpt-`.
 
 For the 50 former repositories, the capability’s adjacent `source/` directory preserves its tracked GitHub files. Its `skills/` directory holds the separately authored portable skill. The [repository migration map](migration-map.json) records those 50 source revisions. The [legacy content inventory](legacy-content-inventory.json) records the evidence available from the former GPTs.

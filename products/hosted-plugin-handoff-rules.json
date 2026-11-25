@@ -1,0 +1,315 @@
+{
+  "releaseScope": "Targeted ChatGPT handoffs and handling of historical names without verified destinations.",
+  "commonPolicy": "For a user-facing launch, use the exact plugin URL paired with its product in the directory below. Copy that link into the answer. This directory takes precedence over URLs in the Cathedral, ledgers, old examples and conversation history. Do not use, construct or repeat retired /g/ links, even when their text names the right specialist. If a requested destination is absent, name the verified family or toolbox directory and describe the gap. A link opens the next plugin; it does not transfer the conversation automatically.",
+  "entryPoints": {
+    "personalizable-tools": {
+      "rule": "For a concrete task, name the family and the most specific matching specialist, and provide the specialist’s clickable launch link. Include its family link as context when useful. For independent goals, route each goal separately. A request to catalog books, loans or a personal reading collection goes to Personal Librarian in Treasured Finds. Offer the family menu for a broad browsing request. Ask a clarifying question only when the goal cannot distinguish specialists.",
+      "familyDirectory": [
+        {
+          "productId": "discovered-careers",
+          "specialists": [
+            {
+              "name": "Resume Builder",
+              "productId": "resume-builder",
+              "task": "build a base resume"
+            },
+            {
+              "name": "Resume Customizer",
+              "productId": "resume-customizer",
+              "task": "tailor a resume to a posting"
+            },
+            {
+              "name": "Career Fitness",
+              "productId": "career-fitness",
+              "task": "assess role fit"
+            },
+            {
+              "name": "Letter Composer",
+              "productId": "letter-composer",
+              "task": "draft a cover letter"
+            },
+            {
+              "name": "bLinkn Tuner",
+              "productId": "blinkin-tuner",
+              "task": "tune a LinkedIn profile"
+            },
+            {
+              "name": "Career Seeker",
+              "productId": "career-seeker",
+              "task": "track applications and follow-ups"
+            }
+          ]
+        },
+        {
+          "productId": "treasured-finds",
+          "specialists": [
+            {
+              "name": "Personal Librarian",
+              "productId": "personal-librarian",
+              "task": "catalog a book collection, track reading and loans"
+            },
+            {
+              "name": "Decor Detective",
+              "productId": "decor-detective",
+              "task": "inventory seasonal decor"
+            },
+            {
+              "name": "Present Hoarder",
+              "productId": "present-hoarder",
+              "task": "inventory gifts already acquired"
+            },
+            {
+              "name": "Scentinal Journal",
+              "productId": "scentinal-journal",
+              "task": "keep a fragrance journal"
+            },
+            {
+              "name": "Spirited Journal",
+              "productId": "spirited-journal",
+              "task": "catalog spirits and bottles"
+            },
+            {
+              "name": "Supply Haus",
+              "productId": "supply-haus",
+              "task": "track craft supplies"
+            },
+            {
+              "name": "Bag Nabbit",
+              "productId": "bag-nabbit",
+              "task": "catalog bags"
+            }
+          ]
+        },
+        {
+          "productId": "tasty-tracker",
+          "specialists": [
+            {
+              "name": "Flavor Meister",
+              "productId": "flavor-meister",
+              "task": "record or adapt a recipe with tasting notes"
+            },
+            {
+              "name": "Menu Conductor",
+              "productId": "menu-conductor",
+              "task": "plan meals and menus"
+            },
+            {
+              "name": "Wishful Tastes",
+              "productId": "wishful-tastes",
+              "task": "maintain a dining or food wishlist"
+            },
+            {
+              "name": "Pantry Shopper",
+              "productId": "pantry-shopper",
+              "task": "inventory pantry items and build a grocery list"
+            },
+            {
+              "name": "Palatably Profiled",
+              "productId": "palatably-profiled",
+              "task": "describe and compare food preferences"
+            }
+          ]
+        },
+        {
+          "productId": "travelers-guide",
+          "specialists": [
+            {
+              "name": "Journey Diary",
+              "productId": "journey-diary",
+              "task": "keep a trip journal"
+            },
+            {
+              "name": "Itinerary Hacker",
+              "productId": "itinerary-hacker",
+              "task": "plan a timed itinerary"
+            },
+            {
+              "name": "Detour Discoverer",
+              "productId": "detour-discoverer",
+              "task": "find optional trip detours"
+            },
+            {
+              "name": "Dreamland Journeys",
+              "productId": "dreamland-journeys",
+              "task": "collect travel aspirations"
+            },
+            {
+              "name": "Memento Log",
+              "productId": "memento-log",
+              "task": "catalog souvenirs"
+            }
+          ]
+        },
+        {
+          "productId": "organized-life",
+          "specialists": [
+            {
+              "name": "Task Maestro",
+              "productId": "task-maestro",
+              "task": "track and prioritize tasks"
+            },
+            {
+              "name": "Thrifty Spender",
+              "productId": "thrifty-spender",
+              "task": "record spending"
+            },
+            {
+              "name": "Giftlist Helper",
+              "productId": "giftlist-helper",
+              "task": "plan upcoming gifts"
+            },
+            {
+              "name": "Scheduling Wizard",
+              "productId": "scheduling-wizard",
+              "task": "organize appointments and time"
+            },
+            {
+              "name": "Lifestyle Wallboard",
+              "productId": "lifestyle-wallboard",
+              "task": "create a household overview"
+            },
+            {
+              "name": "Neighborly Bazaar",
+              "productId": "neighborly-bazaar",
+              "task": "prepare a local resale listing"
+            }
+          ]
+        },
+        {
+          "productId": "healthy-bee-ing",
+          "specialists": [
+            {
+              "name": "Care Check",
+              "productId": "care-check",
+              "task": "organize symptom observations"
+            },
+            {
+              "name": "Calm Keep",
+              "productId": "calm-keep",
+              "task": "log rest and stress"
+            },
+            {
+              "name": "Snappy Count",
+              "productId": "snappy-count",
+              "task": "record meal observations"
+            },
+            {
+              "name": "Medi Minder",
+              "productId": "medi-minder",
+              "task": "organize medication records"
+            },
+            {
+              "name": "Moody Log",
+              "productId": "moody-log",
+              "task": "record mood and hydration"
+            },
+            {
+              "name": "Maven Wise",
+              "productId": "maven-wise",
+              "task": "organize midlife wellness notes"
+            }
+          ]
+        },
+        {
+          "productId": "identity-known",
+          "specialists": [
+            {
+              "name": "Critter Spotter",
+              "productId": "critter-spotter",
+              "task": "identify animals including birds"
+            },
+            {
+              "name": "Roost Wrangler",
+              "productId": "roost-wrangler",
+              "task": "identify architecture, furniture and decor styles"
+            },
+            {
+              "name": "Sight Seeker",
+              "productId": "sight-seeker",
+              "task": "identify places and landmarks"
+            },
+            {
+              "name": "Snap Decoder",
+              "productId": "snap-decoder",
+              "task": "interpret screenshots, errors, quotes and digital images"
+            },
+            {
+              "name": "Motif Muse",
+              "productId": "motif-muse",
+              "task": "identify patterns and motifs"
+            },
+            {
+              "name": "Maker Matcher",
+              "productId": "maker-matcher",
+              "task": "identify a maker, craft or production technique"
+            },
+            {
+              "name": "Self Fixer",
+              "productId": "gpt07g-self-fixer",
+              "task": "identify parts and repair needs"
+            }
+          ]
+        }
+      ],
+      "additionalNamedPlugins": [
+        "icon-maker",
+        "grounded",
+        "healthy-bee-ing-hosted-variant"
+      ]
+    },
+    "letter-composer": {
+      "rule": "When someone wants to record an application, track an interview, status, deadline or follow-up, or explicitly requests Career Seeker, name Career Seeker in Discovered Careers and give the exact Career Seeker link. For a mixed request, complete the letter work you can support and offer that handoff for the tracking portion.",
+      "specificDestination": "career-seeker",
+      "family": "discovered-careers",
+      "root": "personalizable-tools"
+    },
+    "palatably-profiled": {
+      "rule": "When someone wants to turn taste preferences into a specific recipe, save a recipe card, or record tweaks, ratings and tasting notes for a dish, or explicitly requests Flavor Meister, name Flavor Meister in Tasty Tracker and give the exact Flavor Meister link. For a mixed request, distinguish the profile from the recipe and offer the latter to Flavor Meister.",
+      "specificDestination": "flavor-meister",
+      "family": "tasty-tracker",
+      "root": "personalizable-tools"
+    },
+    "decor-detective": {
+      "rule": "For a seasonal candle or home fragrance, keep the decor inventory question with Decor Detective. When the user asks about fragrance performance, burn time or scent throw, or requests the scent journal, name Scentinal Journal in Treasured Finds and include its exact plugin link. Cathedral entries can supply performance details while this directory supplies the launch link.",
+      "specificDestination": "scentinal-journal",
+      "family": "treasured-finds",
+      "root": "personalizable-tools"
+    },
+    "giftlist-helper": {
+      "rule": "Reminder Rhythm and Life Dashboard are historical names with unverified destinations. If asked where to find either one, say that a current launch destination is unverified and provide the verified Organized Life family link for browsing. Keep the two names as plain text. Do not give them a link, invent a successor, or present the family as their replacement.",
+      "unverifiedHistoricalNames": [
+        "Reminder Rhythm",
+        "Life Dashboard"
+      ],
+      "family": "organized-life",
+      "root": "personalizable-tools"
+    }
+  },
+  "verifiedHostedVersions": {
+    "personalizable-tools": {
+      "version": "0.58.2",
+      "verifiedDirectoryTargets": 52,
+      "preservedKnowledgeFiles": 10
+    },
+    "letter-composer": {
+      "version": "0.12.3",
+      "verifiedDirectoryTargets": 3,
+      "preservedKnowledgeFiles": 1
+    },
+    "palatably-profiled": {
+      "version": "0.7.3",
+      "verifiedDirectoryTargets": 3,
+      "preservedKnowledgeFiles": 1
+    },
+    "decor-detective": {
+      "version": "0.9.3",
+      "verifiedDirectoryTargets": 3,
+      "preservedKnowledgeFiles": 1
+    },
+    "giftlist-helper": {
+      "version": "0.6.3",
+      "verifiedDirectoryTargets": 2,
+      "preservedKnowledgeFiles": 11
+    }
+  }
+}
