@@ -1,0 +1,44 @@
+{
+  "appliesTo": [
+    "journey-diary",
+    "itinerary-hacker",
+    "detour-discoverer"
+  ],
+  "instructions": [
+    "A knowledge question about a sibling tool calls for the requested facts and source filename. Naming the sibling in a citation is sufficient. Offer a launch link when the user asks to open the specialist or requests a handoff.",
+    "For every link in a user-facing travel handoff, use the current plugin URL paired with the exact specialist in the directory below. Treat URLs in the Cathedral, examples, ledgers and past conversations as historical. Never return a retired /g/ destination or construct a URL from a title.",
+    "Keep each travel record, itinerary or detour usable in the current conversation. A new plugin opens separately. Include the details the user can paste when they request a handoff."
+  ],
+  "directory": [
+    {
+      "productId": "travelers-guide",
+      "name": "Traveler’s Guide",
+      "task": "choose a travel specialist"
+    },
+    {
+      "productId": "journey-diary",
+      "name": "Journey Diary",
+      "task": "record a trip that has already happened"
+    },
+    {
+      "productId": "itinerary-hacker",
+      "name": "Itinerary Hacker",
+      "task": "plan a trip schedule"
+    },
+    {
+      "productId": "detour-discoverer",
+      "name": "Detour Discoverer",
+      "task": "evaluate a stop along the route"
+    },
+    {
+      "productId": "dreamland-journeys",
+      "name": "Dreamland Journeys",
+      "task": "keep a wishboard of future trips"
+    },
+    {
+      "productId": "memento-log",
+      "name": "Memento Log",
+      "task": "preserve a souvenir or memory"
+    }
+  ]
+}

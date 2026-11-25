@@ -1,0 +1,2804 @@
+{
+  "testDateLocal": "2026-11-24",
+  "timeZone": "America/Chicago",
+  "host": "Signed-in ChatGPT, private personal plugins",
+  "method": "Each plugin produced a workflow deliverable and revised it in the same conversation. A source-specific question checked applied knowledge or the absence of uploads. The release archive audit checked every original attachment and every current knowledge index entry.",
+  "totals": {
+    "plugins": 39,
+    "finalExpectationsPassed": 286,
+    "finalExpectations": 286,
+    "finalReplies": 78,
+    "allConversations": 43,
+    "allReplies": 86,
+    "retestedWorkflows": 4,
+    "pluginsRepaired": 5,
+    "pluginsWithKnowledgeFiles": 38,
+    "originalAttachmentOccurrences": 214,
+    "additionalIndexedCompanions": 2,
+    "indexedResources": 216
+  },
+  "products": [
+    {
+      "productId": "personalizable-tools",
+      "name": "Glee-fully Personalizable Tools",
+      "route": "capabilities/personalizable-tools",
+      "privateHostedVersion": "0.58.2",
+      "result": "pass",
+      "turns": [
+        {
+          "turn": 1,
+          "prompt": "I have 18 secondhand paperbacks and want to catalogue which ones I lent out. Give me the branch, one exact specialist, its usable ChatGPT link and a short handoff I can paste. For a source check, which identifier does the trunk Pulsebook give its visit-aware dialog section? Name the file.",
+          "criteria": [
+            {
+              "expectation": "Routes book catalogue and loans through Treasured Finds to Personal Librarian.",
+              "verdict": "pass",
+              "observed": "Named Treasured Finds and Personal Librarian."
+            },
+            {
+              "expectation": "Gives a clickable current ChatGPT plugin destination belonging to Personal Librarian, without a retired GPT link.",
+              "verdict": "pass",
+              "observed": "The Personal Librarian anchor points to verified Personal Librarian by Glee-fully."
+            },
+            {
+              "expectation": "Provides a paste-ready handoff retaining 18 paperbacks and the loan-tracking goal without inventing borrowers.",
+              "verdict": "pass",
+              "observed": "The handoff specifies 18 secondhand books and loan tracking and leaves unknown details blank."
+            },
+            {
+              "expectation": "Cites the trunk Pulsebook and identifies gleeVisitFlow_v2 as the visit-aware dialog section identifier.",
+              "verdict": "pass",
+              "observed": "Cited 00a Glee-fully Personalizable Tools_Pulsebook_20250907.md and its gleeVisitFlow_v2 identifier."
+            }
+          ],
+          "observed": "Routed 18 paperbacks and loan tracking to Treasured Finds / Personal Librarian, with a paste-ready request and the Pulsebook flow identifier.",
+          "replyTextSha256": "3a469baca2c92c73ee4553e6b1128f05de76d699d98863553759922cec330cd4"
+        },
+        {
+          "turn": 2,
+          "prompt": "Change of task: I have already catalogued the books. I now want to record two job applications and their follow-up dates. Replace the handoff with one for that task, give the correct branch and one current specialist link. I have not supplied employers or dates.",
+          "criteria": [
+            {
+              "expectation": "Changes the branch to Discovered Careers and the specialist to Career Seeker.",
+              "verdict": "pass",
+              "observed": "Switched to Discovered Careers and Career Seeker."
+            },
+            {
+              "expectation": "Provides the current Career Seeker ChatGPT plugin link rather than repeating the book specialist or using an old GPT URL.",
+              "verdict": "pass",
+              "observed": "The Career Seeker anchor points to verified Career Seeker."
+            },
+            {
+              "expectation": "Returns a copyable job-application handoff for two applications with follow-up fields left open.",
+              "verdict": "pass",
+              "observed": "The replacement requests two records with employer, dates and follow-up fields kept open."
+            },
+            {
+              "expectation": "Treats the catalogue as finished and makes no claim that data or conversations have already transferred.",
+              "verdict": "pass",
+              "observed": "It marked the book handoff superseded and made no claim of transferring or creating records."
+            }
+          ],
+          "observed": "Replaced the book handoff with a Discovered Careers / Career Seeker application-tracking request.",
+          "replyTextSha256": "77d95d2b0baf8159c2463c4611220f24ea2869ae80fdde6d60c8fefc4aa58ef2"
+        }
+      ],
+      "knowledge": {
+        "indexedResources": 10,
+        "originalAttachmentsVerified": 10,
+        "source": "Native reference 00a Glee-fully Personalizable Tools_Pulsebook_20250907.md names its VISIT-AWARE DIALOG FLOW gleeVisitFlow_v2. The active launch directory maps book loans to Treasured Finds / Personal Librarian and application tracking to Discovered Careers / Career Seeker.",
+        "observed": "The trunk Pulsebook explicitly labels its visit-aware dialog flow gleeVisitFlow_v2. The native answer cited the file and used the exact identifier."
+      }
+    },
+    {
+      "productId": "discovered-careers",
+      "name": "Discovered Careers by Glee-fully",
+      "route": "capabilities/discovered-careers",
+      "privateHostedVersion": "0.22.2",
+      "result": "pass",
+      "turns": [
+        {
+          "turn": 1,
+          "prompt": "I have a general résumé and a fictional Workshop Coordinator ad. I want to tailor the résumé and track the application. Give me a two-step handoff with the right specialist link and one short paste-ready request for each. Please be concise.",
+          "criteria": [
+            {
+              "expectation": "Routes tailoring an existing résumé for one vacancy to Resume Customizer and application tracking to Career Seeker.",
+              "verdict": "pass",
+              "observed": "Resume Customizer handles tailoring and Career Seeker handles tracking."
+            },
+            {
+              "expectation": "Gives a separate usable handoff to each requested current plugin, with distinct paste-ready requests tied to the user's two jobs.",
+              "verdict": "pass",
+              "observed": "Both captured links match the registered plugin IDs. The two copyable requests offer distinct inputs and tasks."
+            },
+            {
+              "expectation": "Leaves résumé writing and application submission to the chosen specialist and user.",
+              "verdict": "pass",
+              "observed": "The answer explicitly stated that no application had been submitted or logged."
+            }
+          ],
+          "observed": "Routed a fictional résumé and application tracker to the correct two specialists.",
+          "replyTextSha256": "b580e645dff39c6cc9076ba2e3a9f51accf1cb400494e74b7a6ff4cc03614fee"
+        },
+        {
+          "turn": 2,
+          "prompt": "Change of plan: tracking can wait, and I need a cover letter after tailoring. Revise the two-step handoff for the same ad. Which pulse ID is recorded in your bundled Discovered Careers Pulsebook? Name the file separately.",
+          "criteria": [
+            {
+              "expectation": "Retains Resume Customizer for the same Workshop Coordinator ad and replaces the tracker with Letter Composer for the letter.",
+              "verdict": "pass",
+              "observed": "Kept Resume Customizer for the same Workshop Coordinator posting and added Letter Composer."
+            },
+            {
+              "expectation": "Provides the corrected pair of usable current specialist links and requests. Career Seeker is no longer an active step.",
+              "verdict": "pass",
+              "observed": "Both current private plugin targets and copyable requests are correct. Tracking is explicitly deferred."
+            },
+            {
+              "expectation": "Separately identifies the branch Pulsebook and its exact pulse ID Glee-fully-Discovered-Careers-001.",
+              "verdict": "pass",
+              "observed": "Gave Glee-fully-Discovered-Careers-001 and 01 Glee-fully Discovered Careers_Pulsebook_20250908.md separately."
+            }
+          ],
+          "observed": "Replaced application tracking with letter drafting and verified the Pulsebook metadata.",
+          "replyTextSha256": "70cae015f7eafed3f84e109202023123d2f0021a5305d1a467d82ba870a1829f"
+        }
+      ],
+      "knowledge": {
+        "indexedResources": 10,
+        "originalAttachmentsVerified": 10,
+        "source": {
+          "file": "skills/instructions/references/01 Glee-fully Discovered Careers_Pulsebook_20250908.md",
+          "sha256": "5da12a8ca6d6f20d994b6a75cf26233047fe9cfeffe66a7b229170cf4314e4db",
+          "line": 6,
+          "evidenceAnchor": "Glee-fully-Discovered-Careers-001",
+          "expected": "The branch Pulsebook’s pulse_id is Glee-fully-Discovered-Careers-001."
+        },
+        "observed": "The named Discovered Careers Pulsebook supplied its exact branch pulse ID."
+      }
+    },
+    {
+      "productId": "resume-builder",
+      "name": "Resume Builder by Glee-fully",
+      "route": "capabilities/discovered-careers/resume-builder",
+      "privateHostedVersion": "0.23.2",
+      "result": "pass",
+      "turns": [
+        {
+          "turn": 1,
+          "prompt": "Build a first résumé from these fictional notes in plain text: Rowan Reed, volunteer desk helper at Reed Hall in 2025, greeted visitors and prepared four event signs. Target role: Visitor Assistant. Skip contact details and education rather than filling them in. Give me the page I can copy.",
+          "criteria": [
+            {
+              "expectation": "Provides a copyable résumé naming Rowan Reed and the Visitor Assistant target, with the volunteer desk role at Reed Hall in 2025.",
+              "verdict": "pass",
+              "observed": "The résumé names Rowan Reed, Visitor Assistant and Volunteer Desk Helper at Reed Hall in 2025."
+            },
+            {
+              "expectation": "Includes greeting visitors and preparing four event signs as supplied facts, with no invented impact, employer or paid status.",
+              "verdict": "pass",
+              "observed": "The role includes greeting visitors and preparing four signs, with no claimed impact or invented position."
+            },
+            {
+              "expectation": "Omits contact and education details rather than filling them with sample data or placeholders.",
+              "verdict": "pass",
+              "observed": "No contact or education fields or placeholders appear in the résumé."
+            }
+          ],
+          "observed": "Built a first résumé from the supplied volunteer role and omitted unsupplied sections.",
+          "replyTextSha256": "4733467cefe68a46fcb09b703fcc272264592302af5ee8247cb6ee5631ce229d"
+        },
+        {
+          "turn": 2,
+          "prompt": "Correction: I proofread the four signs; a teammate created them. Add that I greeted visitors at two events. Return the revised résumé and, outside it, give the two list headings in order immediately after End Date in the bundled Resume_Schema_Template.txt.",
+          "criteria": [
+            {
+              "expectation": "Removes the applicant's claim to preparing or creating the signs and credits proofreading four teammate-created signs.",
+              "verdict": "pass",
+              "observed": "Changed the summary, skills and experience to proofreading and credited a teammate for creating four signs."
+            },
+            {
+              "expectation": "Keeps the name, target and 2025 role, adds greeting visitors at two events and preserves the requested omissions.",
+              "verdict": "pass",
+              "observed": "The name, target, year and two events are retained without adding contact information or education."
+            },
+            {
+              "expectation": "Separates the schema note from the résumé and identifies Responsibilities followed by Accomplishments.",
+              "verdict": "pass",
+              "observed": "The separate template note gives Responsibilities followed by Accomplishments."
+            }
+          ],
+          "observed": "Revised the evidence throughout and identified the two next headings in the bundled schema.",
+          "replyTextSha256": "7227cb18614cdc5412ce06312648f16111ff6a850f92a08f7b1612306bac9593"
+        }
+      ],
+      "knowledge": {
+        "indexedResources": 8,
+        "originalAttachmentsVerified": 8,
+        "source": {
+          "file": "skills/instructions/references/Resume_Schema_Template.txt",
+          "sha256": "ac6c030f71008b20cb8a385068daddb3fb3ecd5c1c6fb9584c6ca29ab902ca39",
+          "line": 39,
+          "evidenceAnchor": "Accomplishments:",
+          "expected": "The role template labels the two lists Responsibilities and Accomplishments, in that order."
+        },
+        "observed": "Correctly identified Responsibilities then Accomplishments after End Date in Resume_Schema_Template.txt."
+      }
+    },
+    {
+      "productId": "treasured-finds",
+      "name": "Treasured Finds by Glee-fully",
+      "route": "capabilities/treasured-finds",
+      "privateHostedVersion": "0.14.2",
+      "result": "pass",
+      "turns": [
+        {
+          "turn": 1,
+          "prompt": "I have two fictional collections: six paperbacks I own and four scented candles. Write a short handoff for each with the correct current specialist link and one useful paste-ready opening entry. Keep the collections separate.",
+          "criteria": [
+            {
+              "expectation": "Routes the six owned paperbacks to Personal Librarian and the four scented candles to Scentinal Journal.",
+              "verdict": "pass",
+              "observed": "Assigned Personal Librarian to six owned paperbacks and Scentinal Journal to four candles."
+            },
+            {
+              "expectation": "Both specialist handoffs link to their current destinations and preserve the corresponding quantities.",
+              "verdict": "pass",
+              "observed": "Both captured links match their registered plugin IDs and the counts match the prompt."
+            },
+            {
+              "expectation": "Provides two usable starting messages without fabricating titles, makers or candle performance.",
+              "verdict": "pass",
+              "observed": "Each draft asks the receiving specialist to leave unprovided information blank."
+            }
+          ],
+          "observed": "Prepared separate starting entries for owned paperbacks and scented candles.",
+          "replyTextSha256": "872f529655d0b008e0110582ce01e7254103597949a6330083d0dada0cf3cc74"
+        },
+        {
+          "turn": 2,
+          "prompt": "Keep the books with their original specialist. The other items are actually four unopened bottles of wine, not candles. Revise both handoffs. For a different time, what two candle-performance measures does your bundled Operator’s Cathedral Layout name for Scentinal Journal?",
+          "criteria": [
+            {
+              "expectation": "Keeps the books with Personal Librarian, replaces the active candle handoff with Spirited Journal and uses the correct current destinations.",
+              "verdict": "pass",
+              "observed": "The current Personal Librarian and Spirited Journal plugin links match their registered IDs."
+            },
+            {
+              "expectation": "The revised bottle entry retains four unopened bottles and avoids claiming a tasting or rating.",
+              "verdict": "pass",
+              "observed": "Preserved four unopened bottles, leaving unknown values and tasting fields empty."
+            },
+            {
+              "expectation": "The separate catalog note names burn time and throw from Operator’s Cathedral Layout.",
+              "verdict": "pass",
+              "observed": "The separate candle note names burn time and scent throw from the Cathedral reference."
+            }
+          ],
+          "observed": "Replaced the candle handoff with an unopened wine inventory and preserved the book handoff.",
+          "replyTextSha256": "18313a7768b52ff8c93d0da234be84112424facf109630c5a4cc3d36c1c6f2cb"
+        }
+      ],
+      "knowledge": {
+        "indexedResources": 1,
+        "originalAttachmentsVerified": 1,
+        "source": {
+          "file": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+          "sha256": "b06d986dc29172900f0b5f2058bfd2a2a89af6cecdeebcdb690f54369ef4e37e",
+          "line": 3483,
+          "evidenceAnchor": "Note Burn Time or Throw",
+          "expected": "The Scentinal Journal entry names burn time and throw."
+        },
+        "observed": "Correctly recovered burn time and scent throw from the Scentinal Journal entry in Operator’s Cathedral Layout."
+      }
+    },
+    {
+      "productId": "personal-librarian",
+      "name": "Personal Librarian by Glee-fully",
+      "route": "capabilities/treasured-finds/personal-librarian",
+      "privateHostedVersion": "0.21.2",
+      "result": "pass",
+      "turns": [
+        {
+          "turn": 1,
+          "prompt": "Make a copyable CSV in your bundled Personal_Librarian_Upload_Template.csv layout. These are invented books: Silver Kettle by Moss Vale is my unread paperback; Tide Bell by Jun Hart is an audiobook I finished and rated four stars. No identifiers or notes. Give one header and both rows.",
+          "criteria": [
+            {
+              "expectation": "Produces the eight upload fields in template order: Title, Author, Format, ISBN/ASIN, Status, Rating (1-5), Tags, Notes.",
+              "verdict": "pass",
+              "observed": "The header matches Title, Author, Format, ISBN/ASIN, Status, Rating (1-5), Tags, Notes in order."
+            },
+            {
+              "expectation": "Silver Kettle/Moss Vale is physical or paperback, unread, with no asserted rating or identifier.",
+              "verdict": "pass",
+              "observed": "Silver Kettle by Moss Vale appears as an unread paperback, with empty rating and identifier fields."
+            },
+            {
+              "expectation": "Tide Bell/Jun Hart is an audiobook or Audible, finished, rated 4, and the reply supplies both usable records without invented identifiers.",
+              "verdict": "pass",
+              "observed": "Tide Bell by Jun Hart appears as a finished audiobook rated 4, with an empty ID."
+            }
+          ],
+          "observed": "Returned a valid two-book CSV without inventing identifiers or ratings.",
+          "replyTextSha256": "8a38f23cd673202d4b69d61135fc2aa33898593a92ea2524382dea8a711bcdad"
+        },
+        {
+          "turn": 2,
+          "prompt": "Correction: I own both formats of Tide Bell. Keep my finished audiobook and its rating, add the recently acquired, as-yet unread paperback with no rating, and return the complete upload CSV. How many distinct titles and how many format records are there now?",
+          "criteria": [
+            {
+              "expectation": "Returns a valid three-row CSV under the same template header, retaining Silver Kettle's original record.",
+              "verdict": "pass",
+              "observed": "The complete three-row CSV carries forward the header and Silver Kettle row unchanged."
+            },
+            {
+              "expectation": "Shows two separate Tide Bell records: finished audiobook rated 4, and unread paperback with no rating. Optional identifiers stay blank.",
+              "verdict": "pass",
+              "observed": "The two Tide Bell entries have distinct formats and reading states. Only the audiobook is rated, and identifiers remain blank."
+            },
+            {
+              "expectation": "Computes two distinct titles and three format records, without duplicating the existing audiobook.",
+              "verdict": "pass",
+              "observed": "Correctly reports two distinct titles and three format records."
+            }
+          ],
+          "observed": "Added an unread paperback edition while keeping the original audiobook rating.",
+          "replyTextSha256": "de95dbf5f577bb74c74bea6ae47b357b3ef305cc9799d34b7d338f60faa245d3"
+        }
+      ],
+      "knowledge": {
+        "indexedResources": 3,
+        "originalAttachmentsVerified": 3,
+        "source": {
+          "file": "skills/instructions/references/Personal_Librarian_Upload_Template.csv",
+          "sha256": "825d21f133d69ec8b1db757f1cc697ae0485e3a520056c23a66eb795a4026864",
+          "line": 1,
+          "evidenceAnchor": "Title,Author,Format,ISBN/ASIN,Status,Rating (1-5),Tags,Notes",
+          "expected": "The header is Title,Author,Format,ISBN/ASIN,Status,Rating (1-5),Tags,Notes, with this order and rating label."
+        },
+        "observed": "The import/export rows reproduced the exact eight-column header of Personal_Librarian_Upload_Template.csv."
+      }
+    },
+    {
+      "productId": "spirited-journal",
+      "name": "Spirited Journal by Glee-fully",
+      "route": "capabilities/treasured-finds/spirited-journal",
+      "privateHostedVersion": "0.15.2",
+      "result": "pass",
+      "turns": [
+        {
+          "turn": 1,
+          "prompt": "Build a small tasting inventory for two fictional bottles. Lantern Red was an unopened gift; the vintage and ABV are unknown. Orchard White is open. I rated it 3/5 and wrote 'pear' for its palate. Show both cards and a view of the unopened bottles.",
+          "criteria": [
+            {
+              "expectation": "Records Lantern Red as an unopened gift with ABV, vintage and unprovided tasting results left unspecified.",
+              "verdict": "pass",
+              "observed": "Lantern Red is an unopened gift with unknown vintage/ABV and no taste result or rating."
+            },
+            {
+              "expectation": "Records Orchard White as open with its 3/5 rating and user-supplied pear palate note.",
+              "verdict": "pass",
+              "observed": "Orchard White is opened, rated 3/5 and has pear in the palate field."
+            },
+            {
+              "expectation": "Produces two distinct cards and includes only Lantern Red in the unopened view.",
+              "verdict": "pass",
+              "observed": "The filtered unopened view has one member, Lantern Red."
+            }
+          ],
+          "observed": "Created distinct bottle cards and filtered the single unopened gift correctly.",
+          "replyTextSha256": "83edd63c7114804d424c64b3d4cbea6c1842bae579c60d5003bcccfea640fb23"
+        },
+        {
+          "turn": 2,
+          "prompt": "We opened Lantern Red at a picnic. I gave it 4/5 and noted plum on the nose; I did not record the other impressions. Update the journal, show the remaining unopened view and use all four tasting-note dimensions listed together in the Spirited Journal entry of your bundled Operator’s Cathedral Layout.",
+          "criteria": [
+            {
+              "expectation": "Updates the same Lantern Red to opened, preserves gift provenance and records picnic, plum nose and 4/5.",
+              "verdict": "pass",
+              "observed": "Lantern Red retains the same ID and gift provenance; now opened and rated 4/5, it has plum nose and picnic occasion."
+            },
+            {
+              "expectation": "Uses nose, palate, finish and occasion, and keeps the unsupplied Lantern Red palate and finish blank or explicitly unknown.",
+              "verdict": "pass",
+              "observed": "Shows all four required dimensions and leaves the first bottle's unsupplied palate and finish as not recorded."
+            },
+            {
+              "expectation": "Retains Orchard White's open 3/5 record with pear palate and reports no unopened bottles.",
+              "verdict": "pass",
+              "observed": "Orchard White keeps its 3/5 rating and pear palate. The filter reports zero unopened bottles."
+            }
+          ],
+          "observed": "Updated the gifted bottle to opened, preserving the other bottle and its tasting history.",
+          "replyTextSha256": "02c3d2eda9574d1257f0401532a1dd9522c6afbddab682a0eeb8427165efff6b"
+        }
+      ],
+      "knowledge": {
+        "indexedResources": 1,
+        "originalAttachmentsVerified": 1,
+        "source": {
+          "file": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+          "sha256": "b06d986dc29172900f0b5f2058bfd2a2a89af6cecdeebcdb690f54369ef4e37e",
+          "line": 3496,
+          "evidenceAnchor": "nose, palate, finish, occasion",
+          "expected": "The catalog’s Add Ratings & Tasting Notes entry lists nose, palate, finish and occasion."
+        },
+        "observed": "Listed nose, palate, finish and occasion from the Spirited Journal entry and used those dimensions on the two cards."
+      }
+    },
+    {
+      "productId": "bag-nabbit",
+      "name": "Bag Nabbit by Glee-fully",
+      "route": "capabilities/treasured-finds/bag-nabbit",
+      "privateHostedVersion": "0.6.1+bundle.d579b74f3b40116160b7a1f80f633190",
+      "result": "pass",
+      "turns": [
+        {
+          "turn": 1,
+          "prompt": "Make a rotation log I can copy for my fictional bag collection. My navy canvas tote is in use as of April 2. My amber satchel is only on my wish list. I have no photo or purchase prices. Show both items and their current states.",
+          "criteria": [
+            {
+              "expectation": "Provides two separate bag records with the navy canvas tote in use/in rotation and the amber satchel on the wishlist.",
+              "verdict": "pass",
+              "observed": "The navy canvas tote is In Use and the amber satchel is Wishlist."
+            },
+            {
+              "expectation": "Keeps April 2 associated with the tote's rotation. It does not count the wishlisted satchel as owned or in use.",
+              "verdict": "pass",
+              "observed": "The tote's April 2 use is in rotation history and the satchel is excluded from the one owned bag."
+            },
+            {
+              "expectation": "Produces a usable text record without requiring a photo or inventing prices, brands or photo analysis.",
+              "verdict": "pass",
+              "observed": "The copyable log identifies photos and prices as unprovided and adds no brand."
+            }
+          ],
+          "observed": "Created an active tote and a wishlisted satchel as two separate bag records.",
+          "replyTextSha256": "d6dc83e824871fc010769ef7471453de9844e0ee85a602f859fd6f5ad89242c0"
+        },
+        {
+          "turn": 2,
+          "prompt": "On April 6 I loaned the tote to a friend. Leave the satchel as it is, keep the earlier rotation history and show what I can use now. Name the four tracking states in the Bag Nabbit entry of your bundled Operator’s Cathedral Layout.",
+          "criteria": [
+            {
+              "expectation": "Updates the same tote to loaned out on April 6 and retains its April 2 rotation history.",
+              "verdict": "pass",
+              "observed": "Retains April 2 use, adds a loan out to a friend on April 6 and updates the same tote."
+            },
+            {
+              "expectation": "The amber satchel remains wishlisted. Neither item is currently on hand to use, and the reply does not turn the loan into a bag borrowed by the user.",
+              "verdict": "pass",
+              "observed": "The amber satchel remains Wishlist and the tote is loaned out, leaving no bag available for immediate use."
+            },
+            {
+              "expectation": "Names all four catalog states: in rotation, retired, wishlist and loaned to a friend.",
+              "verdict": "pass",
+              "observed": "Correctly names In rotation, Retired, Wishlist and Loaned to a friend from the native Cathedral."
+            }
+          ],
+          "observed": "Recorded the later loan and correctly showed zero available bags.",
+          "replyTextSha256": "0d5f36b0ec5564a04ed7459dc4eb41e080367063c90ed8d7744f835fa191effb"
+        }
+      ],
+      "knowledge": {
+        "indexedResources": 1,
+        "originalAttachmentsVerified": 1,
+        "source": {
+          "file": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+          "sha256": "b06d986dc29172900f0b5f2058bfd2a2a89af6cecdeebcdb690f54369ef4e37e",
+          "line": 3523,
+          "evidenceAnchor": "in rotation, retired, wishlist, or loaned",
+          "expected": "The catalog names in rotation, retired, wishlist and loaned to a friend. Borrowed is not the same as loaned out."
+        },
+        "observed": "Named all four Bag Nabbit tracking states from Operator’s Cathedral Layout and applied the loan state in the correct direction."
+      }
+    },
+    {
+      "productId": "tasty-tracker",
+      "name": "Tasty Tracker by Glee-fully",
+      "route": "capabilities/tasty-tracker",
+      "privateHostedVersion": "0.17.2",
+      "result": "pass",
+      "turns": [
+        {
+          "turn": 1,
+          "prompt": "I have a favorite fictional red-lentil soup recipe and want to reuse it for Friday supper. Give me a short workflow with the current specialist links and one paste-ready request per handoff so I can file the recipe and plan the meal.",
+          "criteria": [
+            {
+              "expectation": "Routes recording the recipe to Flavor Meister and putting Friday's supper on the calendar to Menu Conductor.",
+              "verdict": "pass",
+              "observed": "The answer linked Flavor Meister for recipe filing and Menu Conductor for scheduling."
+            },
+            {
+              "expectation": "Gives the current specialist destinations and distinct paste-ready handoffs for saving the soup and planning the meal.",
+              "verdict": "pass",
+              "observed": "Both registered plugin links match and each gets its own paste-ready request and instructions for transferring the recipe card."
+            },
+            {
+              "expectation": "Preserves Friday and the red-lentil soup without claiming that it actually saved a recipe or edited a schedule.",
+              "verdict": "pass",
+              "observed": "Preserved lentil soup/Friday and disclosed that persistent storage or automatic synchronization was unconfirmed."
+            }
+          ],
+          "observed": "Separated filing the lentil recipe from planning Friday supper.",
+          "replyTextSha256": "b89223b683314174590bed999e4a87c002173175b950481c037ddb98704e1832"
+        },
+        {
+          "turn": 2,
+          "prompt": "Friday supper is canceled. Keep the recipe on file, but now I want to compare the recipe's ingredients with my cupboard before buying anything. Revise the handoff, and tell me from the Menu Conductor entry of your bundled Operator’s Cathedral Layout which tool supplies its favorite or highly rated meals.",
+          "criteria": [
+            {
+              "expectation": "Keeps Flavor Meister for the recipe and changes the second active handoff from Menu Conductor to Pantry Shopper, with the correct current destination.",
+              "verdict": "pass",
+              "observed": "Retained Flavor Meister, replaced Menu Conductor with the correct Pantry Shopper plugin link."
+            },
+            {
+              "expectation": "The pantry request compares needed ingredients with available supplies and does not claim a purchase or leave Friday supper scheduled.",
+              "verdict": "pass",
+              "observed": "The pantry handoff asks about quantities, missing items and unchecked ingredients, without buying or scheduling."
+            },
+            {
+              "expectation": "Identifies Flavor Meister as the source of favorite or highly rated meals and attributes this to the Menu Conductor catalog entry.",
+              "verdict": "pass",
+              "observed": "Named Flavor Meister and the Menu Conductor entry of Operator’s Cathedral Layout."
+            }
+          ],
+          "observed": "Replaced the scheduled meal with a pantry comparison and identified the upstream recipe specialist.",
+          "replyTextSha256": "326bad1aca45a4ae449367b0496771b13d3020bb956fdd6b137f68f59e933ed5"
+        }
+      ],
+      "knowledge": {
+        "indexedResources": 1,
+        "originalAttachmentsVerified": 1,
+        "source": {
+          "file": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+          "sha256": "b06d986dc29172900f0b5f2058bfd2a2a89af6cecdeebcdb690f54369ef4e37e",
+          "line": 3560,
+          "evidenceAnchor": "Auto-suggest favorites or highly rated meals from Flavor Meister",
+          "expected": "Menu Conductor draws favorites or highly rated meals from Flavor Meister."
+        },
+        "observed": "Correctly identified Flavor Meister as Menu Conductor's source of favorites/highly rated meals and named the Cathedral entry."
+      },
+      "interpretation": "Resolved Friday to the next calendar Friday in the first handoff. The second turn explicitly canceled the meal."
+    },
+    {
+      "productId": "travelers-guide",
+      "name": "Traveler’s Guide by Glee-fully",
+      "route": "capabilities/travelers-guide",
+      "privateHostedVersion": "0.14.2",
+      "result": "pass",
+      "turns": [
+        {
+          "turn": 1,
+          "prompt": "For a fictional rail weekend in Alder Bay, I want a day-by-day plan and a separate place to keep my souvenir ferry ticket. Give me a brief two-part handoff with current specialist links and a paste-ready starting request for each.",
+          "criteria": [
+            {
+              "expectation": "Routes the upcoming day-by-day plan to Itinerary Hacker and the souvenir ferry ticket to Memento Log.",
+              "verdict": "pass",
+              "observed": "Referred the day-by-day plan to Itinerary Hacker and the ticket to Memento Log."
+            },
+            {
+              "expectation": "Identifies two usable current specialist destinations and gives distinct copyable requests carrying the Alder Bay details.",
+              "verdict": "pass",
+              "observed": "Both captured plugin IDs were correct and the two requests used Alder Bay and the ticket."
+            },
+            {
+              "expectation": "Keeps planning and preserving a physical keepsake as distinct tasks.",
+              "verdict": "pass",
+              "observed": "Kept arranging a future trip distinct from preservation of a physical keepsake."
+            }
+          ],
+          "observed": "Produced current plugin handoffs for the fictional weekend plan and souvenir.",
+          "replyTextSha256": "3a9db84aac0741e7b0b6df1759420b661b720f0d726bdb00128da477baa41eaa"
+        },
+        {
+          "turn": 2,
+          "prompt": "The weekend has just ended. Change the planning handoff to the right place for my written trip account, but keep the ticket handoff. According to Memento Log's entry in your bundled Operator’s Cathedral Layout, which two forms can a memory collection be exported as?",
+          "criteria": [
+            {
+              "expectation": "Replaces the upcoming-plan handoff with Journey Diary for the past Alder Bay trip and keeps Memento Log for the ticket.",
+              "verdict": "pass",
+              "observed": "Replaced Itinerary Hacker with Journey Diary and preserved the Memento Log step."
+            },
+            {
+              "expectation": "Provides current specialist handoffs and leaves Itinerary Hacker out of the active revised plan.",
+              "verdict": "pass",
+              "observed": "Both current specialist IDs matched the revised destinations, and no active itinerary planning step remained."
+            },
+            {
+              "expectation": "Names scrapbook and logbook as the two collection forms from the catalog; file extensions alone do not answer this.",
+              "verdict": "pass",
+              "observed": "The completed-conversation readback named scrapbook and logbook and distinguished collection forms from file formats."
+            }
+          ],
+          "observed": "Changed the itinerary handoff to a diary and cited both export forms in the completed reply.",
+          "replyTextSha256": "5fca9fff586fb9d59640812db817e68893a44dc8c8e198c3042288265106568c"
+        }
+      ],
+      "knowledge": {
+        "indexedResources": 1,
+        "originalAttachmentsVerified": 1,
+        "source": {
+          "file": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+          "sha256": "b06d986dc29172900f0b5f2058bfd2a2a89af6cecdeebcdb690f54369ef4e37e",
+          "line": 3689,
+          "evidenceAnchor": "Export memory collections as scrapbook or logbook",
+          "expected": "Memento Log exports the memory collection as a scrapbook or logbook."
+        },
+        "observed": "The completed turn named scrapbook and logbook, citing Memento Log’s entry in Operator’s Cathedral Layout."
+      },
+      "interpretation": "The initial transient capture ended before the knowledge paragraph. A completed-conversation readback of the same assistant message supplies both export forms."
+    },
+    {
+      "productId": "journey-diary",
+      "name": "Journey Diary by Glee-fully",
+      "route": "capabilities/travelers-guide/journey-diary",
+      "privateHostedVersion": "0.4.2",
+      "result": "pass",
+      "turns": [
+        {
+          "turn": 1,
+          "prompt": "Write a short first-person diary entry and a copyable trip record for my fictional solo visit to Elm Quay on April 8. It rained, I took the train and ate tomato soup. I kept a paper ticket but uploaded no photo. Please stick to what I told you.",
+          "criteria": [
+            {
+              "expectation": "Provides a first-person diary entry and structured record for Elm Quay, April 8, the rain, train and tomato soup.",
+              "verdict": "pass",
+              "observed": "The narrative and record include April 8, Elm Quay, train travel, rain and tomato soup."
+            },
+            {
+              "expectation": "Uses the solo trip tag and records a paper ticket as a described keepsake.",
+              "verdict": "pass",
+              "observed": "Solo is the trip type and the paper ticket is a retained physical keepsake."
+            },
+            {
+              "expectation": "Adds no invented companions, uploaded images or concrete autobiographical events.",
+              "verdict": "pass",
+              "observed": "No companion, uploaded photo or invented journey details are claimed."
+            }
+          ],
+          "observed": "Created the first-person Elm Quay diary and a usable solo-trip record from the supplied notes.",
+          "replyTextSha256": "d9c312ec7e0e41a2d89cf6e2c7975f40b3ad002a6df375d2cd6733cfb5de5d4f"
+        },
+        {
+          "turn": 2,
+          "prompt": "Correction: my sister came with me and we ate lentil soup. Revise the diary and record, keeping the train and ticket. To prepare the ticket handoff, what three tag dimensions are listed for Memento Log in your bundled Operator’s Cathedral Layout?",
+          "criteria": [
+            {
+              "expectation": "Changes the solo trip to a trip with the sister, updates both outputs to lentil soup and drops conflicting solo/tomato claims.",
+              "verdict": "pass",
+              "observed": "Both revised deliverables identify the sister and lentil soup; the prior solo and tomato claims are absent from the revised copies."
+            },
+            {
+              "expectation": "Preserves Elm Quay, April 8, rain, train and the paper ticket, without claiming a digital attachment.",
+              "verdict": "pass",
+              "observed": "The revised outputs retain the train, Elm Quay, April 8, rain and the paper ticket and explicitly say that no photos were uploaded."
+            },
+            {
+              "expectation": "Lists emotion, location and type as the three Memento Log tag dimensions from the bundled catalog.",
+              "verdict": "pass",
+              "observed": "Emotion, location and type are named and applied. The finished reply contains no retired destination."
+            }
+          ],
+          "observed": "Updated the diary and record for the sister and lentil soup, then cited the three correct tagging dimensions without adding a legacy link.",
+          "replyTextSha256": "89fc66a647dda4c1a7075b627dafa25377ca038f8ff500920a63c615b5468dc9"
+        }
+      ],
+      "knowledge": {
+        "indexedResources": 1,
+        "originalAttachmentsVerified": 1,
+        "source": {
+          "file": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+          "sha256": "b06d986dc29172900f0b5f2058bfd2a2a89af6cecdeebcdb690f54369ef4e37e",
+          "line": 3688,
+          "evidenceAnchor": "Tag entries by emotion, location, or type",
+          "expected": "Memento Log tags entries by emotion, location or type."
+        },
+        "observed": "The final readback identifies emotion, location and type from the Memento Log catalog entry. It contains no obsolete handoff."
+      },
+      "interpretation": "The prior release supplied a retired Memento Log destination. The corrected release cites the source directly when the question asks for facts.",
+      "repair": {
+        "previousVersion": "0.4.1+bundle.d282ff6d76f275f571f567e3167f681b",
+        "findingAndFix": "A source question produced a retired Memento Log link. The updated instructions limit handoffs to requests for a specialist and use the current destination.",
+        "testedVersion": "0.4.2",
+        "detection": "initial-two-turn-test"
+      }
+    },
+    {
+      "productId": "itinerary-hacker",
+      "name": "Itinerary Hacker by Glee-fully",
+      "route": "capabilities/travelers-guide/itinerary-hacker",
+      "privateHostedVersion": "0.6.2",
+      "result": "pass",
+      "turns": [
+        {
+          "turn": 1,
+          "prompt": "Build a mobile-friendly schedule for a fictional Thursday at Reed Point. Arrive 09:00, depart 13:00. My only fixed booking is a gallery tour 10:00–11:00. Allow 15 minutes between station and gallery in each direction. Give me a 30-minute lunch and a 20-minute quiet break near the gallery, and show the return buffer. Use the supplied times only.",
+          "criteria": [
+            {
+              "expectation": "Gives a time-ordered 09:00–13:00 plan with the gallery tour fixed at 10:00–11:00.",
+              "verdict": "pass",
+              "observed": "Tour is 10:00–11:00 inside a time-ordered 09:00–13:00 plan."
+            },
+            {
+              "expectation": "Includes at least 15 minutes for each station-gallery transfer and separately allocates a 30-minute lunch and 20-minute quiet break without overlapping the tour.",
+              "verdict": "pass",
+              "observed": "Transfers are each 15 minutes, lunch is 30 minutes and the quiet break is 20 minutes. They do not overlap the tour."
+            },
+            {
+              "expectation": "Shows a positive, explicit return buffer before 13:00 and avoids claiming a real timetable or booking action.",
+              "verdict": "pass",
+              "observed": "Return is 12:05, providing 55 minutes before departure. The response labels assumptions and makes no actual booking."
+            }
+          ],
+          "observed": "Created the 09:00–13:00 schedule, preserving the fixed tour, lunch, quiet break and transfers with a 55-minute return buffer.",
+          "replyTextSha256": "92d0e5f0cc782d72e6dce44365b66966ade70d94990f8c6c101f1c415faad55f"
+        },
+        {
+          "turn": 2,
+          "prompt": "My departure moved to 12:15. Keep both transfers and the booked tour, move lunch or the quiet break earlier if needed, and show your updated buffer. Separately, what four pieces of practical context does the Detour Discoverer entry in your bundled Operator’s Cathedral Layout say to add to a possible stop?",
+          "criteria": [
+            {
+              "expectation": "Rebuilds the timetable for a 12:15 departure with the fixed tour and both transfers preserved.",
+              "verdict": "pass",
+              "observed": "The new schedule preserves both 15-minute transfers and the 10:00–11:00 gallery booking."
+            },
+            {
+              "expectation": "Retains the full 30-minute lunch and 20-minute quiet break in feasible, nonoverlapping slots and shows the correct remaining return buffer from the supplied schedule.",
+              "verdict": "pass",
+              "observed": "09:15–09:35 break and 11:00–11:30 lunch are feasible. An 11:45 station return leaves exactly 30 minutes before departure."
+            },
+            {
+              "expectation": "Lists hours, fees, travel time and detour distance from the Detour Discoverer catalog entry.",
+              "verdict": "pass",
+              "observed": "Names hours, fees, travel time and detour distance from the native Cathedral without supplying an obsolete sibling link."
+            }
+          ],
+          "observed": "Moved the quiet break earlier and restored a feasible 12:15 departure, then cited the four requested Detour Discoverer fields.",
+          "replyTextSha256": "9ae865d257fda954de98972ed760cc97b14e33debba3fa768515494e52a6aa97"
+        }
+      ],
+      "knowledge": {
+        "indexedResources": 1,
+        "originalAttachmentsVerified": 1,
+        "source": {
+          "file": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+          "sha256": "b06d986dc29172900f0b5f2058bfd2a2a89af6cecdeebcdb690f54369ef4e37e",
+          "line": 3658,
+          "evidenceAnchor": "hours, fees, travel time, and detour distance",
+          "expected": "Detour Discoverer’s catalog calls for hours, fees, travel time and detour distance."
+        },
+        "observed": "The four details from Detour Discoverer are hours, fees, travel time and detour distance; the final readback uses the native file as its source without a historical launch link."
+      },
+      "interpretation": "The preceding native version supplied a retired destination. Both corrected answers were read in full.",
+      "repair": {
+        "previousVersion": "0.6.1+bundle.c2b64455a3525820a84b361316e5aa4b",
+        "findingAndFix": "A planning answer offered the retired Detour Discoverer destination. The updated instructions handle reference questions directly and use the current destination for a requested handoff.",
+        "testedVersion": "0.6.2",
+        "detection": "initial-two-turn-test"
+      }
+    },
+    {
+      "productId": "detour-discoverer",
+      "name": "Detour Discoverer by Glee-fully",
+      "route": "capabilities/travelers-guide/detour-discoverer",
+      "privateHostedVersion": "0.6.2",
+      "result": "pass",
+      "turns": [
+        {
+          "turn": 1,
+          "prompt": "I have a fictional station layover from 12:00 to 14:00 and need to be back by 13:40. A nearby free print gallery is 15 minutes' walk each way and takes 30 minutes to visit. The riverside garden is 30 minutes each way and needs 50 minutes there. Using just those estimates, compare both and give me the better detour and a return time.",
+          "criteria": [
+            {
+              "expectation": "Computes a 100-minute usable window from 12:00 to 13:40.",
+              "verdict": "pass",
+              "observed": "Correctly calculated the usable interval 12:00–13:40 as 100 minutes."
+            },
+            {
+              "expectation": "Includes both travel legs: gallery 60 minutes total, back at 13:00; garden 110 minutes, back at 13:50 if departing immediately.",
+              "verdict": "pass",
+              "observed": "Gallery totals 60 minutes with 13:00 return. Garden totals 110 minutes with 13:50 return."
+            },
+            {
+              "expectation": "Selects the gallery as feasible, with 40 minutes before the return deadline, without inventing opening hours or live directions.",
+              "verdict": "pass",
+              "observed": "Recommends the gallery with 40 minutes before the deadline, using only the supplied duration estimates."
+            }
+          ],
+          "observed": "Compared the full durations against a 100-minute window and recommended the gallery with 40 minutes to spare.",
+          "replyTextSha256": "df6ab0d2ebbdacbecd542032d87e7175f399dbf9b444527f70f94ba1c3f5747f"
+        },
+        {
+          "turn": 2,
+          "prompt": "Arrival slipped to 12:45. Keep the return deadline and the full visit durations. Update the record as skipped or made with the reason, and suggest where to spend the remaining time without inventing a local business. If I journal it later, what three trip-type examples does Journey Diary's entry give in your bundled Operator’s Cathedral Layout?",
+          "criteria": [
+            {
+              "expectation": "Recomputes 55 minutes available, less than the gallery's 60 or garden's 110 minutes. Neither off-site detour fits.",
+              "verdict": "pass",
+              "observed": "The updated record uses 55 minutes, less than both the 60-minute gallery and 110-minute garden visits."
+            },
+            {
+              "expectation": "Marks the planned gallery as skipped for time and offers staying at or near the station, without fabricating a visit or venue.",
+              "verdict": "pass",
+              "observed": "Shows both skipped due to the delayed arrival, proposes station activities and invents no business or completed visit."
+            },
+            {
+              "expectation": "Names solo, family and romantic as the trip-type examples in the Journey Diary catalog entry.",
+              "verdict": "pass",
+              "observed": "Correctly names solo, family and romantic, attributes them to the native Cathedral, and includes no retired link."
+            }
+          ],
+          "observed": "Marked both stops skipped when the usable window fell to 55 minutes. It preserved safety margins and cited the correct trip tags.",
+          "replyTextSha256": "0645e7a862ea78c9d29db3672c332a2a2422716bb63a551a247c2a4fee1c0522"
+        }
+      ],
+      "knowledge": {
+        "indexedResources": 1,
+        "originalAttachmentsVerified": 1,
+        "source": {
+          "file": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+          "sha256": "b06d986dc29172900f0b5f2058bfd2a2a89af6cecdeebcdb690f54369ef4e37e",
+          "line": 3632,
+          "evidenceAnchor": "solo, family, romantic",
+          "expected": "Journey Diary’s trip-type examples are solo, family and romantic."
+        },
+        "observed": "The final response cites solo, family and romantic from the Journey Diary Cathedral entry without adding an obsolete link."
+      },
+      "interpretation": "The preceding native release appended a retired Journey Diary URL. The completed retest did not.",
+      "repair": {
+        "previousVersion": "0.6.1+bundle.b901d8c5c9092e5e788599ddb92cbd3c",
+        "findingAndFix": "The answer appended a retired Journey Diary link to a detour comparison. The updated instructions keep the journal reference in the answer and limit a handoff to the current destination when requested.",
+        "testedVersion": "0.6.2",
+        "detection": "initial-two-turn-test"
+      }
+    },
+    {
+      "productId": "dreamland-journeys",
+      "name": "Dreamland Journeys by Glee-fully",
+      "route": "capabilities/travelers-guide/dreamland-journeys",
+      "privateHostedVersion": "0.14.2",
+      "result": "pass",
+      "turns": [
+        {
+          "turn": 1,
+          "prompt": "Start a fictional dreamboard using the Foggy Cities row of your bundled DreamMood_Tags.csv. Give me one card for each destination it actually lists, use the season from that row and mark both as wishes. My total planning ceiling is USD 900; leave actual prices and travel dates open.",
+          "criteria": [
+            {
+              "expectation": "Uses the CSV's two Foggy Cities options, Edinburgh and San Francisco, and its Spring season.",
+              "verdict": "pass",
+              "observed": "Identifies Edinburgh and San Francisco with Spring from the specified Foggy Cities row."
+            },
+            {
+              "expectation": "Produces two distinct wishboard cards and keeps both at the aspirational stage.",
+              "verdict": "pass",
+              "observed": "Both physical destination cards are explicitly wishes and marked as such."
+            },
+            {
+              "expectation": "Preserves the USD 900 ceiling for the overall plan and presents no invented cost, dates or booking.",
+              "verdict": "pass",
+              "observed": "The USD 900 ceiling is shared, pricing and dates remain open, and no booking is claimed."
+            }
+          ],
+          "observed": "Created separate Edinburgh and San Francisco spring wishes against a single USD 900 ceiling.",
+          "replyTextSha256": "45b0b2f351dd70d5b340da6e078498dc21d7287cfa84c86026addf3e46c6be22"
+        },
+        {
+          "turn": 2,
+          "prompt": "Keep Edinburgh. Replace the other card with a Japan destination from the Neon Nights row of that same CSV. Preserve the overall ceiling, show the exact season value from that row and give me the revised two-card board to copy.",
+          "criteria": [
+            {
+              "expectation": "Retains Edinburgh with Foggy Cities and Spring, drops San Francisco, and uses Tokyo for the requested Japan card.",
+              "verdict": "pass",
+              "observed": "Edinburgh remains associated with Foggy Cities/Spring and Tokyo replaces San Francisco in the board."
+            },
+            {
+              "expectation": "Reports All as the literal season for Neon Nights in DreamMood_Tags.csv, distinguishing that row from the Spring Foggy Cities row.",
+              "verdict": "pass",
+              "observed": "The Neon Nights card uses Tokyo and the exact CSV season All. The source rows are displayed."
+            },
+            {
+              "expectation": "Returns two wish-stage cards with the same overall USD 900 ceiling and no implied booking or confirmed price.",
+              "verdict": "pass",
+              "observed": "Both entries remain wishes, with one overall USD 900 ceiling, open dates and open actual prices."
+            }
+          ],
+          "observed": "Kept Edinburgh and swapped San Francisco for Tokyo, preserving the shared budget and unbooked state.",
+          "replyTextSha256": "fe53fee90d57be86fccf744aa6e082c503bcca928c6acbe98b2754ab487bbcf9"
+        }
+      ],
+      "knowledge": {
+        "indexedResources": 12,
+        "originalAttachmentsVerified": 12,
+        "source": {
+          "file": "skills/instructions/references/DreamMood_Tags.csv",
+          "sha256": "b7031332b7834e996aa39b3193541751526d7da5f651bdc5af9125dfff449dca",
+          "line": 4,
+          "evidenceAnchor": "Foggy Cities,Edinburgh",
+          "expected": "The Foggy Cities row pairs Edinburgh and San Francisco with Spring.",
+          "additionalEvidence": {
+            "line": 7,
+            "anchor": "Neon Nights,Seoul|Tokyo,All",
+            "expected": "The Japanese Neon Nights option is Tokyo. The season cell is All."
+          }
+        },
+        "observed": "Used the Foggy Cities and Neon Nights rows of DreamMood_Tags.csv, including Tokyo and the literal All season value."
+      }
+    },
+    {
+      "productId": "memento-log",
+      "name": "Memento Log by Glee-fully",
+      "route": "capabilities/travelers-guide/memento-log",
+      "privateHostedVersion": "0.13.2",
+      "result": "pass",
+      "turns": [
+        {
+          "turn": 1,
+          "prompt": "Create a copyable keepsake card for a fictional blue ferry ticket from the Reed Point trip on May 4, stored in an envelope. No photo is attached. Leave the personal reflection field empty for now, and do not add an imagined memory.",
+          "criteria": [
+            {
+              "expectation": "Produces one keepsake/ticket card with Reed Point, May 4, blue ticket and envelope storage.",
+              "verdict": "pass",
+              "observed": "The one card includes blue ferry ticket, Reed Point, May 4 and envelope storage."
+            },
+            {
+              "expectation": "Leaves the reflection value genuinely empty as requested, without inserting a question or invented memory as the field value.",
+              "verdict": "pass",
+              "observed": "Reflection appears as an empty field in the card. Its separate copy note does not fill it."
+            },
+            {
+              "expectation": "Makes no claim to a photo, location scan or file upload.",
+              "verdict": "pass",
+              "observed": "Photo is listed as not attached. No scan, map or upload is claimed."
+            }
+          ],
+          "observed": "Made a single blue ferry-ticket card and honored the requested blank reflection.",
+          "replyTextSha256": "15d066bc78e5a5c437a327de0b69063248f79e4b6afcfeb747ec264ef0eb92ce"
+        },
+        {
+          "turn": 2,
+          "prompt": "Correct the color to green and set the reflection to this exact text: The crossing felt quiet. Give me the revised single card. In a separate source note, what belongs in your bundled dataLedger_archive_v2.txt and how are its old entries treated?",
+          "criteria": [
+            {
+              "expectation": "Updates the existing ticket to green, retains Reed Point, May 4 and envelope storage, and does not leave blue in the revised card.",
+              "verdict": "pass",
+              "observed": "Retains one green ticket at Reed Point, May 4, in an envelope. The old color is absent from the card."
+            },
+            {
+              "expectation": "Uses The crossing felt quiet. as the reflection, preserving the text and period, and creates no duplicate card or photo.",
+              "verdict": "pass",
+              "observed": "The reflection is exactly The crossing felt quiet. with the period. No photo or duplicate card appears."
+            },
+            {
+              "expectation": "Identifies the archive ledger as holding deprecated, failed or exhausted clauses/artifacts, with existing entries treated as read-only historical snapshots.",
+              "verdict": "pass",
+              "observed": "The separate ledger note describes deprecated, failed or exhausted clauses and artifacts, and read-only historical snapshots."
+            }
+          ],
+          "observed": "Updated the card to green, copied the exact reflection and answered the archive question separately.",
+          "replyTextSha256": "a277248c6e4e1d4ed67f974c0d46f2c26973f86a25f651884117db09ed155161"
+        }
+      ],
+      "knowledge": {
+        "indexedResources": 10,
+        "originalAttachmentsVerified": 10,
+        "source": {
+          "file": "skills/instructions/references/dataLedger_archive_v2.txt",
+          "sha256": "2c5b108fc782d51628ba3d2fe5deb6a921f2c86a5dda1e5251e525707e659aee",
+          "line": 8,
+          "evidenceAnchor": "read-only historical snapshots",
+          "expected": "The archive holds deprecated, failed or exhausted clauses and artifacts. The notes classify the entries as read-only historical snapshots."
+        },
+        "observed": "Correctly described the bundled v2 archive as holding deprecated, failed or exhausted clauses/artifacts and preserving read-only historical snapshots."
+      }
+    },
+    {
+      "productId": "organized-life",
+      "name": "Organized Life by Glee-fully",
+      "route": "capabilities/organized-life",
+      "privateHostedVersion": "0.17.2",
+      "result": "pass",
+      "turns": [
+        {
+          "turn": 1,
+          "prompt": "For a fictional household, I need to log an $18 craft bill and prioritize my chore list. Act as the family concierge. Give each request its own specialist handoff and a short starter message; leave the actual records to the specialists.",
+          "criteria": [
+            {
+              "expectation": "Assigns the bill to Thrifty Spender.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Assigns chore prioritization to Task Maestro.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Provides a usable starter for each, preserving the $18 craft bill in its handoff.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Keeps the two requests distinct without claiming a ledger or task list was changed.",
+              "verdict": "pass"
+            }
+          ],
+          "observed": "Provided a separate starter for the $18 craft bill and the chore list, routed to Thrifty Spender and Task Maestro, and left both unrecorded.",
+          "replyTextSha256": "6954b6e7cb4fb926664b7dfa6ccd97d7f3a7741e33f63d32e0299a32195fb6cf"
+        },
+        {
+          "turn": 2,
+          "prompt": "The priorities changed. Drop chore sorting. I now want one weekly board showing the bill and a completed habit. Replace the earlier plan with one specialist and its current clickable plugin link. For my setup notes, what are the bundled parameter-ledger defaults for autoload_index and use_symbolic_indexing? Name the file.",
+          "criteria": [
+            {
+              "expectation": "Routes the revised request to Lifestyle Wallboard and carries forward the bill and completed habit.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Provides the registered current native Lifestyle Wallboard URL, without presenting the old chore handoff as still needed.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Reports autoload_index=false and use_symbolic_indexing=true.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Names dataLedger_parameters_v2.txt as the source for those defaults.",
+              "verdict": "pass"
+            }
+          ],
+          "observed": "Replaced both handoffs with the registered Lifestyle Wallboard destination for the bill and habit, and correctly read false/true from the named parameter ledger.",
+          "replyTextSha256": "dd5362e654a05aa8d6e11b79d5ecf43a7889eed14ff5bfcb788fefd15460b13d"
+        }
+      ],
+      "knowledge": {
+        "indexedResources": 10,
+        "originalAttachmentsVerified": 10,
+        "source": {
+          "file": "skills/instructions/references/dataLedger_parameters_v2.txt",
+          "expected": "autoload_index is false and use_symbolic_indexing is true.",
+          "lines": [
+            12,
+            13
+          ],
+          "evidenceAnchor": "use_symbolic_indexing: true",
+          "sha256": "fdd20a25c8345102e5dda3adf31bacb94ee95818561f1a5e7b44928bd1f74ba0"
+        },
+        "observed": "Replaced both handoffs with the registered Lifestyle Wallboard destination for the bill and habit, and correctly read false/true from the named parameter ledger."
+      }
+    },
+    {
+      "productId": "task-maestro",
+      "name": "Task Maestro by Glee-fully",
+      "route": "capabilities/organized-life/task-maestro",
+      "privateHostedVersion": "0.6.2",
+      "result": "pass",
+      "turns": [
+        {
+          "turn": 1,
+          "prompt": "Draft my fictional 15-minute, low-energy block. Label envelopes takes 5 minutes and is due today; outline a report takes 25 minutes and is due Thursday. I want the small win first. Show what fits and what stays pending.",
+          "criteria": [
+            {
+              "expectation": "Schedules the five-minute envelopes first.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Leaves the full 25-minute report pending or breaks off a clearly labeled first step.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Keeps the scheduled total within 15 minutes.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Preserves the today and Thursday deadlines and marks the plan as a draft.",
+              "verdict": "pass"
+            }
+          ],
+          "observed": "Allocated five minutes to envelopes due today, left the 25-minute report pending until Thursday, and reserved ten minutes as buffer.",
+          "replyTextSha256": "0c8b3629c94085d96cac924eccbacf37d990b1ced3cc17f7c7b404a7be0aaf0e"
+        },
+        {
+          "turn": 2,
+          "prompt": "I finished the envelopes in 5 minutes. The report estimate was wrong: it needs 12 minutes total. I have exactly 10 minutes left now. Update the board with one explicit allocation and any time left for later. According to your suite guide, which three tagging dimensions does Task Maestro use? Name the file.",
+          "criteria": [
+            {
+              "expectation": "Marks the envelopes completed exactly once.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Updates the report estimate to 12 minutes and budgets 10 minutes now with 2 minutes later, or gives a smaller explicit split totaling 12 and within 10 now.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Keeps the uncompleted remainder pending rather than marking the whole report finished.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Supplies project, mood and effort required and identifies the suite layout as the source.",
+              "verdict": "pass"
+            }
+          ],
+          "observed": "Marked the envelopes complete once, split the revised 12-minute report into 10 minutes now and two pending, and cited project, mood and required effort.",
+          "replyTextSha256": "bc6b5986c8ca67410f27911401b354b13c0b26fc78179795df071262b6ab0d1e"
+        }
+      ],
+      "knowledge": {
+        "indexedResources": 10,
+        "originalAttachmentsVerified": 10,
+        "source": {
+          "file": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+          "expected": "The Task Maestro catalog lists project, mood and effort required.",
+          "lines": [
+            3715,
+            3715
+          ],
+          "evidenceAnchor": "Tag by project, mood, or effort required",
+          "sha256": "b06d986dc29172900f0b5f2058bfd2a2a89af6cecdeebcdb690f54369ef4e37e"
+        },
+        "observed": "Marked the envelopes complete once, split the revised 12-minute report into 10 minutes now and two pending, and cited project, mood and required effort."
+      }
+    },
+    {
+      "productId": "thrifty-spender",
+      "name": "Thrifty Spender by Glee-fully",
+      "route": "capabilities/organized-life/thrifty-spender",
+      "privateHostedVersion": "0.5.2",
+      "result": "pass",
+      "turns": [
+        {
+          "turn": 1,
+          "prompt": "Make a fictional monthly grocery ledger with a $90 cap. Record a $26 produce purchase and $14 pantry purchase, both paid. Show total and remaining. Keep a separate $12 utility bill due Friday out of grocery spending; no accounts are connected.",
+          "criteria": [
+            {
+              "expectation": "Keeps the two grocery purchases at $26 and $14.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Calculates $40 spent and $50 remaining against the $90 grocery cap.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Keeps the $12 utility bill separately pending Friday.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Returns a working ledger without claiming bank access, a payment or a scheduled reminder.",
+              "verdict": "pass"
+            }
+          ],
+          "observed": "Kept the $26 and $14 purchases paid, reported $40 spent and $50 available, and kept the pending $12 Friday utility bill outside groceries.",
+          "replyTextSha256": "0385f399b85aa7616767203b9393cf0539ec8caad6e56bb4e96c1c8b436bba86"
+        },
+        {
+          "turn": 2,
+          "prompt": "Correct the produce purchase to $20 and add a paid $9 grocery receipt. The utility bill was paid in full; its category stays utilities. Give the corrected budget and bills, then name the three alert timings the companion scheduler’s suite entry lists and the supporting file.",
+          "criteria": [
+            {
+              "expectation": "Replaces $26 with $20, keeps the $14 pantry entry and adds the $9 receipt once.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Reports $43 grocery spending and $47 remaining.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Marks the $12 utility bill paid without subtracting it from the grocery cap.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Names before due, day-of and overdue alerts and identifies the suite layout.",
+              "verdict": "pass"
+            }
+          ],
+          "observed": "Replaced the produce price with $20, retained $14, added $9 and reported $43 spent and $47 left. It marked the separate $12 bill paid and identified all three scheduler alert timings.",
+          "replyTextSha256": "ccead54161b79ae5293c413e5677bc5beaa7b9182ab7f07fc8d854e927da09e0"
+        }
+      ],
+      "knowledge": {
+        "indexedResources": 10,
+        "originalAttachmentsVerified": 10,
+        "source": {
+          "file": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+          "expected": "Scheduling Wizard lists before due, day-of and overdue alerts.",
+          "lines": [
+            3755,
+            3755
+          ],
+          "evidenceAnchor": "before due, day-of, or overdue",
+          "sha256": "b06d986dc29172900f0b5f2058bfd2a2a89af6cecdeebcdb690f54369ef4e37e"
+        },
+        "observed": "Replaced the produce price with $20, retained $14, added $9 and reported $43 spent and $47 left. It marked the separate $12 bill paid and identified all three scheduler alert timings."
+      }
+    },
+    {
+      "productId": "giftlist-helper",
+      "name": "Giftlist Helper by Glee-fully",
+      "route": "capabilities/organized-life/giftlist-helper",
+      "privateHostedVersion": "0.6.3",
+      "result": "pass",
+      "turns": [
+        {
+          "turn": 1,
+          "prompt": "Start a fictional birthday wishlist for River. The $18 atlas is an idea awaiting purchase. I already bought an unwrapped $12 scarf. Show the wishlist and actual spending against a $40 budget. What three optional tags does the bundled Idea Catcher specification give? Name its file.",
+          "criteria": [
+            {
+              "expectation": "Keeps the atlas an unpurchased idea and the scarf bought and unwrapped.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Reports actual spend of $12 and $28 remaining.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Keeps the $18 idea separate from actual spend.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Names intent, source and category and cites Giftlist Helper Final.md.",
+              "verdict": "pass"
+            }
+          ],
+          "observed": "Separated the $18 idea from the bought, unwrapped $12 scarf, left $28 available, and located the three optional Idea Catcher tags.",
+          "replyTextSha256": "aadfd199b86c304fa7156a7f7b4b90046a195983c83b6f1fd60082a8f1095453"
+        },
+        {
+          "turn": 2,
+          "prompt": "Correction: the scarf cost $10, and I wrapped it. I bought the atlas for $16 and have not wrapped it. Update the two entries and my actual total and remaining budget. Add one next action only; no reminders or external changes.",
+          "criteria": [
+            {
+              "expectation": "Replaces the scarf price with $10 and marks it wrapped.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Converts the atlas idea to a bought, unwrapped gift at $16 without duplicating it.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Reports $26 actually spent and $14 remaining of $40.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Gives an appropriate next action such as wrapping the atlas without claiming a reminder or external change.",
+              "verdict": "pass"
+            }
+          ],
+          "observed": "Marked the corrected $10 scarf wrapped and $16 atlas bought but unwrapped, reported $26 spent with $14 left, and suggested wrapping the atlas.",
+          "replyTextSha256": "20aca61518e9a4a1ba745b442ce3f577e26382de65040f4c3a5d1440e149663e"
+        }
+      ],
+      "knowledge": {
+        "indexedResources": 11,
+        "originalAttachmentsVerified": 11,
+        "source": {
+          "file": "skills/instructions/references/Giftlist Helper Final.md",
+          "expected": "Idea Catcher lists intent, source and category as optional tags.",
+          "lines": [
+            26,
+            28
+          ],
+          "evidenceAnchor": "Includes optional: `intent`, `source`, `category` tags",
+          "sha256": "36ebd95948eb87e49d15ad4c52f990a4acf5128db90cfd2d935c647760d3a72e"
+        },
+        "observed": "Marked the corrected $10 scarf wrapped and $16 atlas bought but unwrapped, reported $26 spent with $14 left, and suggested wrapping the atlas."
+      }
+    },
+    {
+      "productId": "scheduling-wizard",
+      "name": "Scheduling Wizard by Glee-fully",
+      "route": "capabilities/organized-life/scheduling-wizard",
+      "privateHostedVersion": "0.11.1+bundle.b64390ee1481dbccd12cd5ce985d3de2",
+      "result": "pass",
+      "turns": [
+        {
+          "turn": 1,
+          "prompt": "Draft a fictional 20-minute planning session at 10:00 every Friday for April 2030, starting April 5; use local time throughout. List the four April dates and times. This is a draft and you have no live calendar.",
+          "criteria": [
+            {
+              "expectation": "Lists April 5, 12, 19 and 26 only.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Uses 10:00–10:20 local time for each occurrence.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Identifies a weekly Friday series in April.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Does not claim to have created external events or reminders.",
+              "verdict": "pass"
+            }
+          ],
+          "observed": "Listed all four April Fridays at 10:00–10:20 local time, labeled the 20-minute series a draft, and confirmed it created no events.",
+          "replyTextSha256": "315db667792817a92e2efccf74e0293beeced2ac505e786e7b5cf176fc9cc283"
+        },
+        {
+          "turn": 2,
+          "prompt": "Only the April 12 occurrence conflicts. Move that one to 11:00 and keep its duration and the other dates intact. Provide a copy-ready list. The Scheduling Wizard reference gives three names for time-of-day batching styles; what are they and which file gives them?",
+          "criteria": [
+            {
+              "expectation": "Changes April 12 alone to 11:00–11:20.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Leaves April 5, 19 and 26 at 10:00–10:20 local time.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Reports the three styles as Sunrise Sprints, Midday Sparkles and Twilight Anchors.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Identifies Scheduling_Wizard_GPT_System_Instructions.txt as the source and leaves the external calendar untouched.",
+              "verdict": "pass"
+            }
+          ],
+          "observed": "Moved only April 12 to 11:00–11:20, kept the other three dates at 10:00, and named all three batching styles and their supporting file.",
+          "replyTextSha256": "f58088378c9fc3b278d2172fea046368e9b1cfa2bea41f465f0891499d9c15ac"
+        }
+      ],
+      "knowledge": {
+        "indexedResources": 11,
+        "originalAttachmentsVerified": 11,
+        "source": {
+          "file": "skills/instructions/references/Scheduling_Wizard_GPT_System_Instructions.txt",
+          "expected": "Sunrise Sprints, Midday Sparkles and Twilight Anchors are the named batching styles.",
+          "lines": [
+            41,
+            41
+          ],
+          "evidenceAnchor": "Sunrise Sprints, Midday Sparkles, Twilight Anchors",
+          "sha256": "275213a20ec60722feb67ef8f2bd29fa40cf553e625670a81f759d9ae79df479"
+        },
+        "observed": "Moved only April 12 to 11:00–11:20, kept the other three dates at 10:00, and named all three batching styles and their supporting file."
+      }
+    },
+    {
+      "productId": "lifestyle-wallboard",
+      "name": "Lifestyle Wallboard by Glee-fully",
+      "route": "capabilities/organized-life/lifestyle-wallboard",
+      "privateHostedVersion": "0.6.2",
+      "result": "pass",
+      "turns": [
+        {
+          "turn": 1,
+          "prompt": "Build a fictional weekly wallboard. Habit: stretch on Monday and Tuesday (goal four days). Errand: collect a parcel, still open. Bill: studio fee $25, overdue and unpaid. Show three separate areas with current progress, no sync.",
+          "criteria": [
+            {
+              "expectation": "Shows two of four habit days completed.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Keeps the parcel open.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Marks the $25 studio fee overdue and unpaid.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Returns a weekly board without claiming any external update.",
+              "verdict": "pass"
+            }
+          ],
+          "observed": "Showed two of four stretch days, the open parcel and the overdue $25 fee as three separate weekly sections without synchronizing anything.",
+          "replyTextSha256": "62805e2aee94a9929793f554f5c6852b46756152b0d01378342cf126f9781580"
+        },
+        {
+          "turn": 2,
+          "prompt": "Correction: Tuesday was a plan, not a completed stretch. Wednesday is now complete. The parcel was collected and the $25 fee was paid. Show the revised board, naming the actual two completed days. What two status-report formats does your attached suite guide list for this wallboard? Name the file.",
+          "criteria": [
+            {
+              "expectation": "Lists Monday and Wednesday as the two completed days and leaves Tuesday uncompleted.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Keeps the habit total at 2/4 and marks the parcel complete.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Marks the $25 fee paid and removes it from the current overdue items.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Identifies printable and digital status reports and names the suite layout.",
+              "verdict": "pass"
+            }
+          ],
+          "observed": "Retained Monday and Wednesday as two of four completed days, closed the errand and overdue balance, and identified printable and digital reports in the suite guide.",
+          "replyTextSha256": "5851307a13595d48217366d07777cb212c98643788ac5fb91cf19882d2311a9c"
+        }
+      ],
+      "knowledge": {
+        "indexedResources": 10,
+        "originalAttachmentsVerified": 10,
+        "source": {
+          "file": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+          "expected": "Lifestyle Wallboard can export a printable or digital status report.",
+          "lines": [
+            3772,
+            3772
+          ],
+          "evidenceAnchor": "Export a printable or digital status report",
+          "sha256": "b06d986dc29172900f0b5f2058bfd2a2a89af6cecdeebcdb690f54369ef4e37e"
+        },
+        "observed": "Retained Monday and Wednesday as two of four completed days, closed the errand and overdue balance, and identified printable and digital reports in the suite guide."
+      }
+    },
+    {
+      "productId": "neighborly-bazaar",
+      "name": "Neighborly Bazaar by Glee-fully",
+      "route": "capabilities/organized-life/neighborly-bazaar",
+      "privateHostedVersion": "0.18.1+bundle.78375b86d6c37f6cc8288985525ec23d",
+      "result": "pass",
+      "turns": [
+        {
+          "turn": 1,
+          "prompt": "Make a short, unposted listing for a fictional working electric dryer. Its heating element was replaced and its left side has a scratch; model number is unknown. For an example asking price only, use the quick-sale dryer figure in your bundled Knowledge 07 worked example. Identify that file separately.",
+          "criteria": [
+            {
+              "expectation": "Produces seller-facing or buyer-ready listing text for a working dryer.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Includes both the repaired heating element and scratch, and leaves the model unknown or requests it.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Uses $275 explicitly as the worked example’s quick-sale figure without calling it a verified current market price.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Identifies Knowledge 07 as the supporting file and does not claim publication.",
+              "verdict": "pass"
+            }
+          ],
+          "observed": "Drafted a $275 dryer listing with the repair and scratch disclosed and model unknown. It correctly identified the source appliance as a dishwasher and its price as illustrative.",
+          "replyTextSha256": "1b702ad7f2e6d73d9b7b10b4effd5e0d83fc4a9862166e4c34d1f30f47ecd3d8"
+        },
+        {
+          "turn": 2,
+          "prompt": "The model is now ARC-4, width 27 inches, Saturday pickup only. The seller has chosen a public asking price of $240. Reissue the listing with the new facts, preserve the repair and scratch disclosure, and put the old example price only in a separate private pricing note. Nothing is posted, reserved or sold.",
+          "criteria": [
+            {
+              "expectation": "Publishes no action claim and gives ready-to-copy listing text with $240 as its only public asking price.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Adds ARC-4, 27 inches and Saturday-only pickup.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Retains the replaced heating element and left-side scratch.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Keeps $275 exclusively in the distinct private example-price note and does not call it a sale price.",
+              "verdict": "pass"
+            }
+          ],
+          "observed": "Kept the $240 ARC-4 listing, its 27-inch width, Saturday pickup, repaired element and left scratch together. The $275 dishwasher example stayed in the private pricing note.",
+          "replyTextSha256": "4c2b22774e75bd1fc7824e60327798cc776e92cb0e2c5297ca06036681ab351e"
+        }
+      ],
+      "knowledge": {
+        "indexedResources": 20,
+        "originalAttachmentsVerified": 20,
+        "source": {
+          "file": "skills/instructions/references/#05f - Neighborly Bazaar_ Knowledge 07.docx",
+          "expected": "The worked appliance is a dishwasher. Its example quick-sale price is $275 and its replaced heating element is disclosed. The fictional dryer is a separate item.",
+          "lines": null,
+          "evidenceAnchor": "For quick sale, list at $275, note replaced heating element",
+          "sha256": "751926d15825c53d41b252866b5095c050e449744874345abf92e29d39bb6fe7",
+          "locator": "Worked example: appliance (dishwasher)"
+        },
+        "observed": "Kept the $240 ARC-4 listing, its 27-inch width, Saturday pickup, repaired element and left scratch together. The $275 dishwasher example stayed in the private pricing note."
+      }
+    },
+    {
+      "productId": "healthy-bee-ing",
+      "name": "Healthy Bee-ing by Glee-fully",
+      "route": "capabilities/healthy-bee-ing",
+      "privateHostedVersion": "0.8.2",
+      "result": "pass",
+      "turns": [
+        {
+          "turn": 1,
+          "prompt": "Start a fictional, nonclinical midlife journal. Monday: slept 6 hours and felt low energy in the afternoon. Tuesday: slept 7 hours and felt steady. Give a compact two-row check-in plus one neutral reflection question. I am recording observations, not asking for a diagnosis or treatment.",
+          "criteria": [
+            {
+              "expectation": "Preserves Monday’s 6 hours and low afternoon energy.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Preserves Tuesday’s 7 hours and steady feeling.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Provides a compact journal and one usable, nonjudgmental reflection prompt.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Does not infer a diagnosis, hormonal cause or treatment need from two entries.",
+              "verdict": "pass"
+            }
+          ],
+          "observed": "Recorded Monday’s six hours and low afternoon energy and Tuesday’s seven hours and steady feeling, then offered one neutral reflection question.",
+          "replyTextSha256": "32362098f18238b5577cda2724a73ba24a21773c64998673ced269229219a6c6"
+        },
+        {
+          "turn": 2,
+          "prompt": "Correct Monday to 7 hours without changing its afternoon note. Add Wednesday: 5 hours; energy not recorded. Reissue the three entries and flag unknowns. In the bundled suite guide, which three subjects appear together in Maven Wise’s graphing function? Name the source.",
+          "criteria": [
+            {
+              "expectation": "Replaces Monday’s sleep with 7 hours and preserves its low afternoon energy.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Keeps Tuesday at 7 hours and steady, and Wednesday at 5 hours with unknown energy.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Avoids asserting an energy trend or cause from these three notes.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Names hot flashes, mood swings and sleep as the graph subjects and identifies the suite layout.",
+              "verdict": "pass"
+            }
+          ],
+          "observed": "Corrected Monday to seven hours, preserved Tuesday, marked Wednesday’s energy unknown, and correctly named the three Maven Wise graph subjects from the suite guide.",
+          "replyTextSha256": "7f8c7e396eb1ae8a3b1434287fe9419d64405b43c85f6682d04546a431dc144b"
+        }
+      ],
+      "knowledge": {
+        "indexedResources": 1,
+        "originalAttachmentsVerified": 1,
+        "source": {
+          "file": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+          "expected": "The Maven Wise graphing entry names hot flashes, mood swings and sleep.",
+          "lines": [
+            3917,
+            3917
+          ],
+          "evidenceAnchor": "Symptom graphing for hot flashes, mood swings, sleep",
+          "sha256": "b06d986dc29172900f0b5f2058bfd2a2a89af6cecdeebcdb690f54369ef4e37e"
+        },
+        "observed": "Corrected Monday to seven hours, preserved Tuesday, marked Wednesday’s energy unknown, and correctly named the three Maven Wise graph subjects from the suite guide."
+      }
+    },
+    {
+      "productId": "care-check",
+      "name": "Care Check by Glee-fully",
+      "route": "capabilities/healthy-bee-ing/care-check",
+      "privateHostedVersion": "0.11.1+bundle.167c57b17265962d4282fda9667098f8",
+      "result": "pass",
+      "turns": [
+        {
+          "turn": 1,
+          "prompt": "Prepare a fictional clinician-facing observation note only. A mild scratchy throat was noticed Tuesday at 17:00 after a rehearsal; duration and temperature were not recorded. No photo is supplied. Give a dated or day-and-time entry and one neutral question to bring to a visit.",
+          "criteria": [
+            {
+              "expectation": "Preserves Tuesday 17:00 onset and the reported scratchy throat after rehearsal.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Leaves duration and temperature unrecorded rather than treating them as normal.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Does not claim photo evidence, a cause or a diagnosis.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Gives one neutral clinician question and a copy-ready observation.",
+              "verdict": "pass"
+            }
+          ],
+          "observed": "Made a clinician-facing note with Tuesday 17:00 and the rehearsal, explicitly recorded missing duration, temperature and photo, and supplied one neutral visit question.",
+          "replyTextSha256": "ed9b2ba295f5ea6870a691d3c567e57c5645a8d4424a0ab6ff30a6b5e1b8d792"
+        },
+        {
+          "turn": 2,
+          "prompt": "Correction for that same entry: first noticed at 16:30, and it lasted 45 minutes. Temperature is still unknown. Reissue the note; do not give treatment advice. If I later add refill tracking to the journal, which visual feature does your guide assign to Medi Minder? Name the source.",
+          "criteria": [
+            {
+              "expectation": "Updates the existing entry to Tuesday 16:30 and 45 minutes rather than creating a second episode.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Keeps temperature unknown and the rehearsal context intact.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Returns a neutral note without treatment or medication instructions.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Identifies the visual prescription refill countdown and names the suite layout.",
+              "verdict": "pass"
+            }
+          ],
+          "observed": "Corrected the same episode to 16:30 for 45 minutes with temperature unknown, and identified the visual prescription refill countdown in the suite guide.",
+          "replyTextSha256": "63ec71d791b385ee262c78883badde0619cbbed1803e525039dc1ebf5940ab67"
+        }
+      ],
+      "knowledge": {
+        "indexedResources": 1,
+        "originalAttachmentsVerified": 1,
+        "source": {
+          "file": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+          "expected": "Medi Minder includes a visual refill countdown for prescriptions.",
+          "lines": [
+            3878,
+            3878
+          ],
+          "evidenceAnchor": "Visual refill countdown for prescriptions",
+          "sha256": "b06d986dc29172900f0b5f2058bfd2a2a89af6cecdeebcdb690f54369ef4e37e"
+        },
+        "observed": "Corrected the same episode to 16:30 for 45 minutes with temperature unknown, and identified the visual prescription refill countdown in the suite guide."
+      }
+    },
+    {
+      "productId": "calm-keep",
+      "name": "Calm Keep by Glee-fully",
+      "route": "capabilities/healthy-bee-ing/calm-keep",
+      "privateHostedVersion": "0.7.2",
+      "result": "pass",
+      "turns": [
+        {
+          "turn": 1,
+          "prompt": "Make a fictional desk-break log. Monday: a two-minute stretch, stress 6/10 before, 4/10 after, sleep quality not noted. Give the entry and the reported change; no sensor is connected. What three inputs does your bundled suite guide say Calm Keep can compare visually? Name the source.",
+          "criteria": [
+            {
+              "expectation": "Captures the two-minute Monday stretch and the 6-to-4 stress ratings.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Calculates a two-point reported drop while preserving the unknown sleep/rest quality.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Names stress, rest and movement and identifies the suite layout as the source.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Keeps the explanation observational without inferring causation or sensor readings.",
+              "verdict": "pass"
+            }
+          ],
+          "observed": "Logged the two-minute stretch and two-point stress drop, kept rest unknown, and identified stress, rest and movement in the suite guide without claiming a cause or sensor data.",
+          "replyTextSha256": "24f809d23a29ed9466336e70198178bb15dbb715e92af578bac86e20c00b86ad"
+        },
+        {
+          "turn": 2,
+          "prompt": "Correction: Monday ended at 5/10. Tuesday was a one-minute walk, stress 4/10 before and after, with good rest reported. Show the corrected two-day table and each within-day change. Keep Monday’s missing rest rating unknown.",
+          "criteria": [
+            {
+              "expectation": "Revises Monday’s after rating to 5/10 for a one-point drop.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Adds Tuesday’s one-minute walk and 4-to-4 unchanged rating.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Shows Monday rest unknown and Tuesday rest reported good.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Preserves both entries and avoids claiming the activity caused a trend.",
+              "verdict": "pass"
+            }
+          ],
+          "observed": "Revised Monday to a one-point drop and added an unchanged Tuesday 4/10 walk entry. Rest remained unknown Monday and was recorded as good Tuesday.",
+          "replyTextSha256": "32a1b289866a2480ee8b9afbbe4c74765bb080f8ff68001a52f685b2bea9f68a"
+        }
+      ],
+      "knowledge": {
+        "indexedResources": 1,
+        "originalAttachmentsVerified": 1,
+        "source": {
+          "file": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+          "expected": "The correlation covers stress, rest and movement inputs.",
+          "lines": [
+            3842,
+            3842
+          ],
+          "evidenceAnchor": "Visual correlation between stress, rest, and movement inputs",
+          "sha256": "b06d986dc29172900f0b5f2058bfd2a2a89af6cecdeebcdb690f54369ef4e37e"
+        },
+        "observed": "Revised Monday to a one-point drop and added an unchanged Tuesday 4/10 walk entry. Rest remained unknown Monday and was recorded as good Tuesday."
+      }
+    },
+    {
+      "productId": "snappy-count",
+      "name": "Snappy Count by Glee-fully",
+      "route": "capabilities/healthy-bee-ing/snappy-count",
+      "privateHostedVersion": "0.10.2",
+      "result": "pass",
+      "turns": [
+        {
+          "turn": 1,
+          "prompt": "Create a fictional text-only meal log. At lunch I had tomato soup, toast and water. No portions, photos or measurements are available. Give a descriptive entry without calorie or macro numbers, and tell me the name of your guide’s weekly visual meal overview and its supporting file.",
+          "criteria": [
+            {
+              "expectation": "Records one lunch with tomato soup, toast and water.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Keeps portion or image evidence unknown.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Avoids numerical calorie or macro estimates without measurements.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Identifies the weekly visual plate collage and names the suite layout.",
+              "verdict": "pass"
+            }
+          ],
+          "observed": "Logged a text-only soup, toast and water lunch, left portions and photos unknown, omitted calorie estimates, and identified the weekly plate collage in the guide.",
+          "replyTextSha256": "d3c675f585c9603976e43101e59773412d5abc9000dd4fd0763102a075f3c5e4"
+        },
+        {
+          "turn": 2,
+          "prompt": "Correct the drink at that lunch to tea rather than water. Add a separate evening snack of an apple, portion not recorded. Give the two revised entries for the weekly view. Do not add quantities, calorie estimates or health advice.",
+          "criteria": [
+            {
+              "expectation": "Replaces water with tea in the original lunch without adding a second lunch.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Preserves tomato soup and toast in the lunch entry.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Adds the apple as a separate evening snack with quantity unspecified.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Keeps the two entries descriptive without invented amounts, calorie totals or health claims.",
+              "verdict": "pass"
+            }
+          ],
+          "observed": "Changed only lunch’s drink to tea, added a separate evening apple, and kept portions, images and nutritional estimates unspecified.",
+          "replyTextSha256": "fa630498ad8589403c10404b6b8c485545aac73aa193ff313663b5c70bb2b0ba"
+        }
+      ],
+      "knowledge": {
+        "indexedResources": 1,
+        "originalAttachmentsVerified": 1,
+        "source": {
+          "file": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+          "expected": "The weekly visual overview is called a plate collage.",
+          "lines": [
+            3858,
+            3858
+          ],
+          "evidenceAnchor": "plate collage",
+          "sha256": "b06d986dc29172900f0b5f2058bfd2a2a89af6cecdeebcdb690f54369ef4e37e"
+        },
+        "observed": "Changed only lunch’s drink to tea, added a separate evening apple, and kept portions, images and nutritional estimates unspecified."
+      }
+    },
+    {
+      "productId": "medi-minder",
+      "name": "Medi Minder by Glee-fully",
+      "route": "capabilities/healthy-bee-ing/medi-minder",
+      "privateHostedVersion": "0.13.2",
+      "result": "pass",
+      "turns": [
+        {
+          "turn": 1,
+          "prompt": "Draft three fictional administrative records only: call the pharmacy on April 13, check refill availability for item A on April 15, and a follow-up appointment on April 17. Use no doses or actual patient data. Which feature does the bundled guide name for sharing reminders with a trusted person? Name the file, and do not share or schedule anything.",
+          "criteria": [
+            {
+              "expectation": "Produces separate April 13 call, April 15 availability check and April 17 appointment records.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Keeps item A generic and does not invent doses or treatment instructions.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Identifies Caregiver Mode for trusted reminder sharing and the suite layout as the source.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Marks the output as a draft without claiming sharing or calendar changes.",
+              "verdict": "pass"
+            }
+          ],
+          "observed": "Drafted the three separate April records, kept the item generic, and identified the guide’s Caregiver Mode without activating reminders or sharing.",
+          "replyTextSha256": "3f12bb173b36c6056233e66d9d3d545318acc73bd85192f1114a9cd7ce023c62"
+        },
+        {
+          "turn": 2,
+          "prompt": "Move only the pharmacy call to April 14. The availability check stays on the 15th; cancel the April 17 appointment. Show the revised active reminders and a separate cancellation line. Sharing is still off.",
+          "criteria": [
+            {
+              "expectation": "Replaces the April 13 call with one active April 14 call.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Keeps the April 15 refill-availability check active and unchanged.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Shows April 17 as canceled and excludes it from active reminders.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Leaves sharing off and claims no notification, refill, or live calendar change.",
+              "verdict": "pass"
+            }
+          ],
+          "observed": "Moved just the pharmacy call to April 14, retained the April 15 check, separated the canceled April 17 appointment and kept sharing off.",
+          "replyTextSha256": "56e802db257c8e0d38df31232fce04c03b6e7baeda1fea63f7465f3e316c1fe4"
+        }
+      ],
+      "knowledge": {
+        "indexedResources": 1,
+        "originalAttachmentsVerified": 1,
+        "source": {
+          "file": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+          "expected": "The corresponding feature is Caregiver Mode for trusted reminder sharing.",
+          "lines": [
+            3879,
+            3879
+          ],
+          "evidenceAnchor": "Caregiver mode for trusted reminder sharing",
+          "sha256": "b06d986dc29172900f0b5f2058bfd2a2a89af6cecdeebcdb690f54369ef4e37e"
+        },
+        "observed": "Moved just the pharmacy call to April 14, retained the April 15 check, separated the canceled April 17 appointment and kept sharing off."
+      }
+    },
+    {
+      "productId": "moody-log",
+      "name": "Moody Log by Glee-fully",
+      "route": "capabilities/healthy-bee-ing/moody-log",
+      "privateHostedVersion": "0.3.1+bundle.04e9e4107d727ec78067556c43b77443",
+      "result": "pass",
+      "turns": [
+        {
+          "turn": 1,
+          "prompt": "Start a fictional 24-hour journal, no photos. At 09:00 the person felt calm and drank one 250 mL cup of water. At 15:00 they felt tired and drank 500 mL. Show the timestamped entries and total. According to the attached guide, which two series does Moody Log overlay? Name the file.",
+          "criteria": [
+            {
+              "expectation": "Keeps the two time-stamped mood and water entries distinct.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Reports 750 mL in total.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Identifies hydration and mood as the overlay series and names the suite layout.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Avoids inventing a photo, causal relationship or medical interpretation.",
+              "verdict": "pass"
+            }
+          ],
+          "observed": "Recorded both timed observations and 750 mL, and found the hydration and mood overlay in the guide. It treated the qualitative moods as observations.",
+          "replyTextSha256": "245bf129f52ef23e281e93684a3f5c9a75561e88b672e05690225d4ae2ba08e4"
+        },
+        {
+          "turn": 2,
+          "prompt": "Correct the 15:00 water to 250 mL and its mood to distracted. Add a 19:00 entry: relaxed, water not recorded. Give the updated entries and the total known water, clearly marking the missing reading.",
+          "criteria": [
+            {
+              "expectation": "Corrects the existing 15:00 record to 250 mL and distracted without duplicating it.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Keeps the 09:00 calm/250 mL entry.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Adds a 19:00 relaxed entry with water unknown, not zero.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Calculates 500 mL known and avoids inferring a cause or a complete daily intake.",
+              "verdict": "pass"
+            }
+          ],
+          "observed": "Corrected the afternoon entry to distracted and 250 mL, retained the morning entry, and totaled 500 mL known with the evening amount unknown.",
+          "replyTextSha256": "62524ba36dc3467e51bbafc4b43a1fda173eb865f27b6f2dbb9843975539163f"
+        }
+      ],
+      "knowledge": {
+        "indexedResources": 1,
+        "originalAttachmentsVerified": 1,
+        "source": {
+          "file": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+          "expected": "Moody Log overlays hydration and mood.",
+          "lines": [
+            3898,
+            3898
+          ],
+          "evidenceAnchor": "Overlay graph linking hydration and mood",
+          "sha256": "b06d986dc29172900f0b5f2058bfd2a2a89af6cecdeebcdb690f54369ef4e37e"
+        },
+        "observed": "Corrected the afternoon entry to distracted and 250 mL, retained the morning entry, and totaled 500 mL known with the evening amount unknown."
+      }
+    },
+    {
+      "productId": "maven-wise",
+      "name": "Maven Wise",
+      "route": "capabilities/healthy-bee-ing/maven-wise",
+      "privateHostedVersion": "0.13.1+bundle.b357adf28eb58b1d5f78e6529d6e2015",
+      "result": "pass",
+      "turns": [
+        {
+          "turn": 1,
+          "prompt": "Start a fictional midlife energy journal with two observations from Thursday. Morning energy 7/10 after an interrupted night; evening energy 4/10 after a long meeting. Show a same-day comparison and one optional journaling prompt. Keep this observational.",
+          "criteria": [
+            {
+              "expectation": "Keeps morning 7/10 and evening 4/10 in their correct time slots.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Preserves interrupted sleep and the long meeting as reported context.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Reports a three-point difference as a description, with no inferred cause.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Offers one optional, neutral reflection question without treatment advice.",
+              "verdict": "pass"
+            }
+          ],
+          "observed": "Compared the Thursday morning and evening ratings, reported a three-point difference, preserved their contexts, and offered one optional reflection question.",
+          "replyTextSha256": "b4379a88c32342eaec24244c786c7f7130d9926a353f98eea2965ed0cedefe37"
+        },
+        {
+          "turn": 2,
+          "prompt": "Correction: Thursday evening was 5/10. Add Friday morning 6/10, with sleep and mood not recorded. Revise the journal and the Thursday change. For a later appointment record, what two things does the suite guide say Medi Minder associates with side-effect notes? Name the source.",
+          "criteria": [
+            {
+              "expectation": "Replaces Thursday evening with 5/10 and revises the morning-to-evening difference to two points.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Adds Friday morning 6/10 and leaves sleep and mood unknown.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Keeps the entries neutral without inferring a hormonal cause or recommending treatment.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Identifies medications and appointments and names the suite layout.",
+              "verdict": "pass"
+            }
+          ],
+          "observed": "Updated Thursday evening to 5/10 and the difference to two points, preserved Friday’s missing context, and identified medications and appointments in the reference.",
+          "replyTextSha256": "63f0ad43c3f36ba6547cc13d5d5d69c1a00c03e8e2d87f36b483bc19c8435f9e"
+        }
+      ],
+      "knowledge": {
+        "indexedResources": 1,
+        "originalAttachmentsVerified": 1,
+        "source": {
+          "file": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+          "expected": "Medi Minder links side-effect logs to medications or appointments.",
+          "lines": [
+            3880,
+            3880
+          ],
+          "evidenceAnchor": "Side-effect logging tied to meds or appointments",
+          "sha256": "b06d986dc29172900f0b5f2058bfd2a2a89af6cecdeebcdb690f54369ef4e37e"
+        },
+        "observed": "Updated Thursday evening to 5/10 and the difference to two points, preserved Friday’s missing context, and identified medications and appointments in the reference."
+      }
+    },
+    {
+      "productId": "identity-known",
+      "name": "Identity Known by Glee-fully",
+      "route": "capabilities/identity-known",
+      "privateHostedVersion": "0.10.3",
+      "result": "pass",
+      "turns": [
+        {
+          "turn": 1,
+          "prompt": "I have a text description only: a curved wooden seat on four tapered legs, with no photo and no maker stamp. Make a short identification intake card: what category can you support, what detail would help next, and which specialist would take it? Tell me exactly which uploaded knowledge file you used, if any.",
+          "criteria": [
+            {
+              "expectation": "Classifies the described item as a probable chair/furniture item and distinguishes that inference from an identified model or maker.",
+              "verdict": "pass",
+              "observed": "The answer proposes a stool or chair in the seating category and leaves the manufacturer, designer and age unresolved."
+            },
+            {
+              "expectation": "Records the curved seat and tapered legs and asks for a useful distinguishing detail such as underside, joints, dimensions or a mark.",
+              "verdict": "pass",
+              "observed": "It preserves the curved seat and four tapered legs and asks about a backrest and solid wood versus molded plywood."
+            },
+            {
+              "expectation": "Names Roost Wrangler for furniture/architecture handoff.",
+              "verdict": "pass",
+              "observed": "The named Roost Wrangler launch link resolves by its verified furniture specialist plugin ID."
+            },
+            {
+              "expectation": "Truthfully states that no uploaded knowledge file supports this answer and can attribute routing to instructions, never inventing a file.",
+              "verdict": "pass",
+              "observed": "The answer explicitly reports no uploaded knowledge and attributes the routing to the branch instructions."
+            }
+          ],
+          "observed": "Created a tentative seating intake card from the description, asked about the back and construction, and handed off to Roost Wrangler.",
+          "replyTextSha256": "0be8a9b7b5b6877f9a811b314137569deef43509006800b0c7582d02a27fc97a"
+        },
+        {
+          "turn": 2,
+          "prompt": "Correction: this is a hand sketch of a ceramic brooch shaped like that chair, not a full-size chair. I want to identify the craft used to make it. Revise the intake card and specialist. I have no photograph.",
+          "criteria": [
+            {
+              "expectation": "Reclassifies the object as a described chair-shaped ceramic brooch and retires the actual-furniture interpretation.",
+              "verdict": "pass",
+              "observed": "The revised card identifies ceramic jewelry and distinguishes the chair shape from the actual brooch."
+            },
+            {
+              "expectation": "Changes the specialist to Maker Matcher for the ceramic craft or technique.",
+              "verdict": "pass",
+              "observed": "Maker Matcher is named as the revised specialist, with its verified plugin ID in the link."
+            },
+            {
+              "expectation": "Requests suitable distinguishing evidence such as back, fastener, surface/tool marks, glaze or construction detail.",
+              "verdict": "pass",
+              "observed": "The answer asks about hand-shaped contours, mold seams, surface texture and glaze."
+            },
+            {
+              "expectation": "Keeps the method/maker tentative and does not imply a photograph or knowledge attachment was inspected.",
+              "verdict": "pass",
+              "observed": "Hand-building, sculpting and mold casting remain hypotheses. The card records a sketch, no photograph, no uploaded knowledge and no established maker."
+            }
+          ],
+          "observed": "Reclassified the described sketch as a chair-shaped ceramic brooch, requested fabrication clues and linked the craft question to Maker Matcher.",
+          "replyTextSha256": "fe5aab7944f8882a2c4d7dd312dff1e1141c11ae858110afc68dfc2e7215854c"
+        }
+      ],
+      "knowledge": {
+        "indexedResources": 0,
+        "originalAttachmentsVerified": 0,
+        "source": "Identity Known has no uploaded references. Native SKILL.md defines a recognition router with text input and names Roost Wrangler for furniture and Maker Matcher for craft identification. Zero-upload negative control.",
+        "observed": "Negative control passed. The six-file native package has no knowledge uploads. Both responses reported none and credited the branch instructions for routing."
+      },
+      "interpretation": "The first turn suggested mid-century modern influence as an explicitly unconfirmed stylistic possibility on limited evidence.",
+      "repair": {
+        "previousVersion": "0.10.2",
+        "findingAndFix": "The router lacked the specialist names needed for furniture and jewelry. The updated instructions contain the seven verified specialist destinations.",
+        "testedVersion": "0.10.3",
+        "detection": "initial-two-turn-test"
+      }
+    },
+    {
+      "productId": "critter-spotter",
+      "name": "Critter Spotter by Glee-fully",
+      "route": "capabilities/identity-known/critter-spotter",
+      "privateHostedVersion": "0.8.1+bundle.2054fbbb5ad8dc5f9dc270c7bc2f0385",
+      "result": "pass",
+      "turns": [
+        {
+          "turn": 1,
+          "prompt": "Start a field-journal entry from words alone: a small furry squirrel-like mammal crossed a fictional eastern woodland trail at dusk; I could not see stripes. Give at least two plausible candidates, a distinguishing field mark to check from a distance, and the paired export your own catalog entry offers. Name the supporting file. Give the entry number with the filename.",
+          "criteria": [
+            {
+              "expectation": "Produces a field-journal entry retaining the woodland, dusk, small mammal and absence of observed striping.",
+              "verdict": "pass",
+              "observed": "Recorded woodland, dusk, small squirrel-like mammal and that striping was indiscernible."
+            },
+            {
+              "expectation": "Offers at least two plausible squirrel-like candidates conditionally and a concrete distinguishing field mark.",
+              "verdict": "pass",
+              "observed": "Compared eastern gray squirrel and eastern chipmunk, using tail width and striping as field marks."
+            },
+            {
+              "expectation": "Leaves species unconfirmed without claiming a photograph was inspected.",
+              "verdict": "pass",
+              "observed": "Kept both candidates provisional and labeled displayed references illustrative."
+            },
+            {
+              "expectation": "Identifies the image plus identification pair for a journal or sharing and names the Cathedral’s Critter Spotter entry #07a.",
+              "verdict": "pass",
+              "observed": "Cited the image + ID journal pair in the Cathedral, #07a."
+            }
+          ],
+          "observed": "Opened a field journal with gray squirrel and chipmunk candidates and a tail comparison appropriate for observation from a distance.",
+          "replyTextSha256": "74b46aa6a2823bd63b7bc4a321888f5fe47049b5ff505cd948e03b3e54b95fb8"
+        },
+        {
+          "turn": 2,
+          "prompt": "I checked a later trail sketch: pale and dark stripes run down its back and across its cheek. Add that observation to the same entry, update which candidate is more likely, and leave any unsupported precision open.",
+          "criteria": [
+            {
+              "expectation": "Revises the same field entry using both back and cheek stripes, while preserving the woodland and dusk setting.",
+              "verdict": "pass",
+              "observed": "Field Journal #001 kept the woodland and dusk context and both stages of the observation."
+            },
+            {
+              "expectation": "Favors chipmunk over a plain tree squirrel, or gives an equivalent reasoned narrowing of the original alternatives.",
+              "verdict": "pass",
+              "observed": "Favored chipmunk over gray squirrel."
+            },
+            {
+              "expectation": "Ties the update to a distinguishing observed mark rather than treating the first missing observation as proof of no stripes.",
+              "verdict": "pass",
+              "observed": "Used the facial and back stripes as new evidence and retained the first report as indiscernible."
+            },
+            {
+              "expectation": "Distinguishes a likely identification from a confirmed species and does not claim to have seen an uploaded image.",
+              "verdict": "pass",
+              "observed": "Qualified the exact species and stated the sketch had not been uploaded."
+            }
+          ],
+          "observed": "Updated the same journal to probable chipmunk after the reported cheek and back stripes, retaining the earlier uncertainty.",
+          "replyTextSha256": "61e96e5fcc2a9ae0f66f35d8cc471fff7a6da6b800972a7647eee7d21e2bd561"
+        }
+      ],
+      "knowledge": {
+        "indexedResources": 1,
+        "originalAttachmentsVerified": 1,
+        "source": "Native Operator’s Cathedral Layout 📐.md #07a names lookalike comparisons, markings and an image + ID pair for sharing or saving to journals.",
+        "observed": "Critter Spotter #07a in the Cathedral names the image + ID export pair."
+      },
+      "interpretation": "External species examples were illustrative. The supplied field evidence consisted solely of words."
+    },
+    {
+      "productId": "roost-wrangler",
+      "name": "Roost Wrangler by Glee-fully",
+      "route": "capabilities/identity-known/roost-wrangler",
+      "privateHostedVersion": "0.6.1+bundle.51f4b200837725203cf54c4a7dee7763",
+      "result": "pass",
+      "turns": [
+        {
+          "turn": 1,
+          "prompt": "Make a style card from this description of a library reading chair: curved molded-plywood shell, splayed tapered legs and no maker’s label. Suggest a plausible design influence, point to the clues and note an underside detail to check. Which three tagging dimensions does your own guide list for furniture? Name the file. Give the entry number with the filename.",
+          "criteria": [
+            {
+              "expectation": "Returns a furniture style card with a plausible, qualified mid-century modern or related modernist influence.",
+              "verdict": "pass",
+              "observed": "Suggested a mid-century modern influence conditionally."
+            },
+            {
+              "expectation": "Supports the suggestion using the shell and legs and asks for a useful underside/fastener/join detail.",
+              "verdict": "pass",
+              "observed": "Linked the molded shell and splayed tapered legs to the influence and suggested checking shock mounts."
+            },
+            {
+              "expectation": "Avoids assigning a designer, original date or appraisal value from appearance alone.",
+              "verdict": "pass",
+              "observed": "Kept age, designer and maker unverified despite noting an Eames-inspired possibility."
+            },
+            {
+              "expectation": "Names room, vibe and period influence from Roost Wrangler #07b in the Cathedral.",
+              "verdict": "pass",
+              "observed": "Supplied room, vibe and period influence from the Cathedral, #07b."
+            }
+          ],
+          "observed": "Created a reading-chair card with qualified mid-century influence and a specific underside detail to check.",
+          "replyTextSha256": "04b11275f6b56ff38b4eb5045e9087d568db39fb3aceb4086fdb870af81edce8"
+        },
+        {
+          "turn": 2,
+          "prompt": "I found a manufacture date of 2021 stamped underneath, but no maker. Revise the card for the reading room. Keep the observed design features, distinguish manufacture from stylistic influence, and leave the designer field honest.",
+          "criteria": [
+            {
+              "expectation": "Uses 2021 as the reported manufacture date and removes any suggestion that the chair must be a period original.",
+              "verdict": "pass",
+              "observed": "Used the 2021 underside stamp as the reported manufacture date."
+            },
+            {
+              "expectation": "Preserves the plausible earlier design influence with its curved shell and tapered legs.",
+              "verdict": "pass",
+              "observed": "Retained mid-century influence from the shell and tapered, splayed legs."
+            },
+            {
+              "expectation": "Retains the reading-room context and identifies the maker/designer as unknown.",
+              "verdict": "pass",
+              "observed": "Kept reading room and explicitly marked manufacturer and designer unknown."
+            },
+            {
+              "expectation": "Returns one revised, reusable style record without asserting provenance, value or an unsupported named design.",
+              "verdict": "pass",
+              "observed": "Returned one revised furniture style card and treated Eames-inspired as a hypothesis only."
+            }
+          ],
+          "observed": "Revised the reading-room chair to 2021 manufacture with earlier modernist styling and an unknown maker.",
+          "replyTextSha256": "827d3ca545db9bb2a1229a308ea8eb3ebc12f447f787144d0f6b9f1a61f9a583"
+        }
+      ],
+      "knowledge": {
+        "indexedResources": 1,
+        "originalAttachmentsVerified": 1,
+        "source": "Native Operator’s Cathedral Layout 📐.md #07b distinguishes furniture type/design era and explicitly tags items by room, vibe and period influence.",
+        "observed": "Roost Wrangler #07b specifies furniture tags by room, vibe and period influence."
+      },
+      "interpretation": "The style judgment came from a description. No appraisal or physical inspection was demonstrated."
+    },
+    {
+      "productId": "sight-seeker",
+      "name": "Sight Seeker by Glee-fully",
+      "route": "capabilities/identity-known/sight-seeker",
+      "privateHostedVersion": "0.8.1+bundle.1d3e3a2a8852b9d8b095c3b356cd341e",
+      "result": "pass",
+      "turns": [
+        {
+          "turn": 1,
+          "prompt": "Make a scene-identification notebook card from a fictional postcard: red-orange suspension towers span an estuary. No location caption is visible. Give a plausible identification or comparison, one clue that would distinguish locations, and three concise labels I could place on the picture. Which export format does your Sight Seeker entry describe? Name that file. Give the entry number with the filename.",
+          "criteria": [
+            {
+              "expectation": "Records the towers, suspension bridge and estuary as visual evidence from a description.",
+              "verdict": "pass",
+              "observed": "Recorded orange-red towers, suspension structure and estuary from the written description."
+            },
+            {
+              "expectation": "Offers a qualified location candidate or comparison and a useful distinguishing feature instead of claiming a certain location.",
+              "verdict": "pass",
+              "observed": "Compared Golden Gate Bridge and 25 de Abril Bridge and proposed tower bracing as a discriminator."
+            },
+            {
+              "expectation": "Provides three concise annotation labels appropriate to the described scene.",
+              "verdict": "pass",
+              "observed": "Offered three overlays: suspension towers, main cables and estuary crossing."
+            },
+            {
+              "expectation": "Identifies annotated images with overlaid labels for journaling or sharing in the Cathedral’s Sight Seeker entry #07c.",
+              "verdict": "pass",
+              "observed": "Identified annotated images with overlaid labels and cited the Cathedral, #07c."
+            }
+          ],
+          "observed": "Created a provisional bridge-scene card, compared two suspension bridges and supplied three image labels.",
+          "replyTextSha256": "cdadcf1da6a4cdb13ce4551ff1483139891f8d88f1e5b814e5119b2ea9f7192e"
+        },
+        {
+          "turn": 2,
+          "prompt": "I found the printed caption on the back: “25 de Abril Bridge, Lisbon, Tagus.” Replace the location hypothesis with a revised captioned record and update my labels. The date and camera position remain unknown.",
+          "criteria": [
+            {
+              "expectation": "Uses the newly supplied printed caption to identify the named bridge and Lisbon/Tagus setting.",
+              "verdict": "pass",
+              "observed": "Recorded 25 de Abril Bridge, Lisbon and Tagus from the supplied printed caption."
+            },
+            {
+              "expectation": "Preserves the observed span and tower clues and distinguishes the caption from visual evidence.",
+              "verdict": "pass",
+              "observed": "Preserved suspension structure and red-orange towers and distinguished caption evidence from visual inference."
+            },
+            {
+              "expectation": "Returns an updated notebook card or caption and revised annotation labels.",
+              "verdict": "pass",
+              "observed": "Returned a revised scene card with bridge, towers and Tagus-estuary labels."
+            },
+            {
+              "expectation": "Leaves the date and precise camera position unknown rather than inventing coordinates or claiming to have seen the postcard.",
+              "verdict": "pass",
+              "observed": "Left the date and camera position unknown and stated that no original postcard had been supplied or edited."
+            }
+          ],
+          "observed": "Replaced Golden Gate as the leading hypothesis with the caption-supported Lisbon bridge and updated its three scene labels.",
+          "replyTextSha256": "4a971afb4e79dd98cf3aeeebb17c7d4a5796128effa76c01a953598d42cf789a"
+        }
+      ],
+      "knowledge": {
+        "indexedResources": 1,
+        "originalAttachmentsVerified": 1,
+        "source": "Native Operator’s Cathedral Layout 📐.md #07c explicitly offers exports of annotated images with overlaid labels for journaling or sharing.",
+        "observed": "Sight Seeker #07c offers annotated images with overlaid labels for sharing or journaling."
+      },
+      "interpretation": "An external illustrative postcard was clearly labeled as a comparison. No image from the fictional user was inspected."
+    },
+    {
+      "productId": "snap-decoder",
+      "name": "Snap Decoder by Glee-fully",
+      "route": "capabilities/identity-known/snap-decoder",
+      "privateHostedVersion": "0.10.2",
+      "result": "pass",
+      "turns": [
+        {
+          "turn": 1,
+          "prompt": "Transcribe and index this fictional screenshot description as one journal note: the only visible message is “Sync paused”; no code, button, app name or time is visible. Separate the transcription from possible causes. Which three sorting dimensions does your screenshot catalog give? Cite the supporting file. Give the entry number with the filename.",
+          "criteria": [
+            {
+              "expectation": "Returns one usable snapshot note preserving the exact visible text and uncertainty about app and time.",
+              "verdict": "pass",
+              "observed": "Transcribed Sync paused and recorded unknown app and time."
+            },
+            {
+              "expectation": "Separates literal transcription from interpretations and does not diagnose a cause that was not shown.",
+              "verdict": "pass",
+              "observed": "Separated potentially manual or network-related causes and stated none was confirmed."
+            },
+            {
+              "expectation": "Gives theme, urgency and sentiment as the documented sorting dimensions.",
+              "verdict": "pass",
+              "observed": "Named theme, urgency and sentiment, with tentative or missing values."
+            },
+            {
+              "expectation": "Attributes the dimensions to the Cathedral’s Snap Decoder entry #07d.",
+              "verdict": "pass",
+              "observed": "Cited the Cathedral’s Snap Decoder entry #07d."
+            }
+          ],
+          "observed": "Built a snapshot journal with verbatim text, explicit unknown fields and tentative causes in a separate section.",
+          "replyTextSha256": "f6f2531da7337c3715e1e06676de708f191f333b651ebd6b26ceff5e2f8d1793"
+        },
+        {
+          "turn": 2,
+          "prompt": "A wider crop now shows the small line “Paused by you” and a visible Resume button. Revise that same note and tags. I only want the record: do not change the app or claim anything resumed.",
+          "criteria": [
+            {
+              "expectation": "Preserves Sync paused and adds the exact secondary line and Resume button as new visible information.",
+              "verdict": "pass",
+              "observed": "Preserved Sync paused, added Paused by you and recorded Resume as visible."
+            },
+            {
+              "expectation": "Updates interpretation to a user-initiated pause supported by the label, while avoiding a fabricated app or time.",
+              "verdict": "pass",
+              "observed": "Updated the interpretation to user-attributed pause, leaving the app, time and technical cause unverified."
+            },
+            {
+              "expectation": "Returns the revised note and reasonable tags with any urgency or sentiment clearly tentative.",
+              "verdict": "pass",
+              "observed": "Returned revised theme/search tags and kept urgency and sentiment unspecified."
+            },
+            {
+              "expectation": "Makes no claim of clicking Resume, changing settings or fixing an app.",
+              "verdict": "pass",
+              "observed": "Explicitly said the button was not activated and no app changes were made."
+            }
+          ],
+          "observed": "Revised Entry #001 with the wider-crop text and button while leaving the app in its reported paused state.",
+          "replyTextSha256": "4a8045c5a4bb68d654bb5ada8e08f4ca4b66491d8d18d291036eb73c674c9f1d"
+        }
+      ],
+      "knowledge": {
+        "indexedResources": 1,
+        "originalAttachmentsVerified": 1,
+        "source": "Native Operator’s Cathedral Layout 📐.md #07d documents saved screenshot sorting by theme, urgency and sentiment and structured snapshot-journal output.",
+        "observed": "Snap Decoder #07d lists theme, urgency and sentiment for organizing screenshots."
+      },
+      "interpretation": "No screenshot or external app was available. The test covers transcription from a supplied text description."
+    },
+    {
+      "productId": "motif-muse",
+      "name": "Motif Muse by Glee-fully",
+      "route": "capabilities/identity-known/motif-muse",
+      "privateHostedVersion": "0.11.1+bundle.0bc8414b55d7d6ff53a51b38e3efd231",
+      "result": "pass",
+      "turns": [
+        {
+          "turn": 1,
+          "prompt": "Build a swatch record from words: a woven-looking navy and cream textile with little V-shaped rows. I cannot tell whether neighboring diagonals meet cleanly or are staggered. Compare chevron and herringbone briefly; include a palette, one useful observation to resolve the motif and the two reusable outputs named by your own guide. Cite the file. Give the entry number with the filename.",
+          "criteria": [
+            {
+              "expectation": "Returns a swatch record with navy/cream palette and V-shaped or directional appearance.",
+              "verdict": "pass",
+              "observed": "Recorded the two colors and little V-shaped rows."
+            },
+            {
+              "expectation": "Distinguishes continuous/meeting Vs from offset or broken diagonals and asks which structure is visible.",
+              "verdict": "pass",
+              "observed": "Contrasted aligned, continuous Vs with broken or staggered reversals and requested a view of the junction."
+            },
+            {
+              "expectation": "Keeps the motif provisional and avoids inventing a fiber, exact dye code or date.",
+              "verdict": "pass",
+              "observed": "Kept motif provisional and expressly labeled sample hex values illustrative, with the actual colors unverified."
+            },
+            {
+              "expectation": "Identifies style cards and color swatches for reuse in the Cathedral’s Motif Muse entry #07e.",
+              "verdict": "pass",
+              "observed": "Named reusable style cards and color swatches in the Cathedral, #07e."
+            }
+          ],
+          "observed": "Created a navy-and-cream swatch card with a concrete observation that separates chevron from herringbone.",
+          "replyTextSha256": "5a86ca008ab974c5bf648c438871ecc514ae98fea134b9e2892b0be0278ff167"
+        },
+        {
+          "turn": 2,
+          "prompt": "On closer inspection the diagonals reverse in staggered, broken rows, and the pale thread is oatmeal rather than cream. Give me the corrected compact style card, including the old uncertainty you can now narrow.",
+          "criteria": [
+            {
+              "expectation": "Revises the likely motif to herringbone based on staggered or broken reversals.",
+              "verdict": "pass",
+              "observed": "Attributed the herringbone identification to staggered, broken diagonal reversals."
+            },
+            {
+              "expectation": "Keeps navy, replaces cream with oatmeal, and includes the updated palette in the card.",
+              "verdict": "pass",
+              "observed": "Replaced cream with oatmeal, retaining navy in the palette."
+            },
+            {
+              "expectation": "Returns a concise reusable style record, with the structural clue as evidence.",
+              "verdict": "pass",
+              "observed": "Returned a compact style card with the supporting geometry and narrowed uncertainty."
+            },
+            {
+              "expectation": "Leaves unsupported fabric composition or provenance unknown and avoids claiming direct image inspection.",
+              "verdict": "pass",
+              "observed": "Marked exact colors illustrative and actual fiber and weave unverified."
+            }
+          ],
+          "observed": "Revised the swatch to a navy-and-oatmeal herringbone card based on the reported staggered pattern.",
+          "replyTextSha256": "dc57c29bf8a66f826d903d0ee06801a55453a033cabe85b8b99eba0bd3b93d58"
+        }
+      ],
+      "knowledge": {
+        "indexedResources": 1,
+        "originalAttachmentsVerified": 1,
+        "source": "Native Operator’s Cathedral Layout 📐.md #07e lists chevron, toile and herringbone and exports style cards or color swatches for reuse.",
+        "observed": "Motif Muse #07e names style cards and color swatches as reusable exports."
+      },
+      "interpretation": "The returned palette codes were labeled illustrative and were not measured from an image."
+    },
+    {
+      "productId": "maker-matcher",
+      "name": "Maker Matcher by Glee-fully",
+      "route": "capabilities/identity-known/maker-matcher",
+      "privateHostedVersion": "0.9.1+bundle.c4126539f500fa404c6ea007f0e1a337",
+      "result": "pass",
+      "turns": [
+        {
+          "turn": 1,
+          "prompt": "Create a hobby profile from a description of a plant hanger made from thick cord tied into repeating square knots. Give a likely craft, a technique tag and one telltale detail worth checking. What export does your own catalog name for keeping discovered interests? Identify the file. Give the entry number with the filename.",
+          "criteria": [
+            {
+              "expectation": "Tentatively identifies macramé or decorative knotting and ties it to the cords and square knots.",
+              "verdict": "pass",
+              "observed": "Tentatively identified macramé based on the cord and repeated square knots."
+            },
+            {
+              "expectation": "Provides a useful technique tag and a discriminating observation to check, without claiming to see an image.",
+              "verdict": "pass",
+              "observed": "Named square knotting and proposed checking working vs filler cords; acknowledged no photo."
+            },
+            {
+              "expectation": "Returns an actual compact hobby profile the person can reuse.",
+              "verdict": "pass",
+              "observed": "Returned a profile with craft, project, material, confidence, technique and interest tags."
+            },
+            {
+              "expectation": "Names a hobby profile card with discovered interest tags from the Cathedral’s Maker Matcher entry #07f.",
+              "verdict": "pass",
+              "observed": "Cited the hobby profile card with discovered interest tags from the Cathedral, #07f."
+            }
+          ],
+          "observed": "Built a craft profile for a cord plant hanger, with provisional macramé and square-knot technique tags.",
+          "replyTextSha256": "e2235c1552d54483d8c17684ceae41425e2c33844c721f12a30aa42acfd83af9"
+        },
+        {
+          "turn": 2,
+          "prompt": "Correction: the visible cord ties only fasten the hanger to its hook. The main basket is flat paper strips, alternating over and under. Revise the profile for the main craft and keep the ties as a separate fastening detail.",
+          "criteria": [
+            {
+              "expectation": "Updates the main craft to paper weaving or basket weaving from interlaced paper strips.",
+              "verdict": "pass",
+              "observed": "Relabeled the main basket as paper weaving or basketry."
+            },
+            {
+              "expectation": "Identifies alternating over-under construction as the revised technique clue.",
+              "verdict": "pass",
+              "observed": "Identified flat strips in alternating over-under plain weave as the main evidence."
+            },
+            {
+              "expectation": "Separates the knotted hanger or cord attachment from the main woven basket rather than erasing the correction.",
+              "verdict": "pass",
+              "observed": "Kept square-knotted cords as a secondary fastening detail at the hook."
+            },
+            {
+              "expectation": "Returns the revised hobby profile with appropriate craft and technique tags and makes no unsupported maker claim.",
+              "verdict": "pass",
+              "observed": "Returned a revised profile with paper and plain-weave interest tags and noted it had no photographic verification."
+            }
+          ],
+          "observed": "Revised the profile to paper basket weaving, separating the square-knotted suspension ties from the main craft.",
+          "replyTextSha256": "3376b50b7ebd5d496df695ab310ed2905de1e2dff912ed90fc248a1dcd1e05ac"
+        }
+      ],
+      "knowledge": {
+        "indexedResources": 8,
+        "originalAttachmentsVerified": 8,
+        "source": "Native Operator’s Cathedral Layout 📐.md #07f includes technique tags, craft-type identification and the hobby profile card with discovered interest tags.",
+        "observed": "Maker Matcher #07f specifies a hobby profile card with discovered interest tags."
+      },
+      "interpretation": "The possible craft was inferred from supplied descriptions."
+    },
+    {
+      "productId": "gpt07g-self-fixer",
+      "name": "Self Fixer by Glee-fully",
+      "route": "capabilities/identity-known/gpt07g-self-fixer",
+      "privateHostedVersion": "0.13.1+bundle.603076ca69dc769d19a1bdfffa6b8ada",
+      "result": "pass",
+      "turns": [
+        {
+          "turn": 1,
+          "prompt": "Build a parts-counter note for a loose, L-shaped metal shelf support from an empty flat-pack bookcase. It has a smooth round stem; my ruler suggests about 5 mm, but I have no markings. Separate observed facts from candidate part names, ask what to measure, and name the portable diagnostic record in your own guide and its file. Give the entry number with the filename.",
+          "criteria": [
+            {
+              "expectation": "Produces a shareable parts note with L shape, metal, smooth round stem, approximate 5 mm and no known markings.",
+              "verdict": "pass",
+              "observed": "Included the L-shaped metal support, round smooth stem, approximate 5 mm estimate and absence of markings."
+            },
+            {
+              "expectation": "Offers a shelf support/peg or comparable candidate provisionally, without promising fit.",
+              "verdict": "pass",
+              "observed": "Proposed shelf support pin or shelf peg and withheld exact compatibility."
+            },
+            {
+              "expectation": "Requests practical non-destructive measurements such as stem diameter, insertion length and shelf hole dimensions.",
+              "verdict": "pass",
+              "observed": "Requested stem diameter, insertion length and hole diameter, among other measurements."
+            },
+            {
+              "expectation": "Identifies the diagnostic snapshot for sharing or a tool crib log from the Cathedral’s Self Fixer entry #07g.",
+              "verdict": "pass",
+              "observed": "Identified a diagnostic snapshot for sharing or a tool crib log from the Cathedral, #07g."
+            }
+          ],
+          "observed": "Prepared a parts-counter note distinguishing an estimated shelf peg from a verified compatible part.",
+          "replyTextSha256": "19d2ec8503d43e5abdebee4983e9f5c559d7ec7eb2f01798efbed1d9e225dd7d"
+        },
+        {
+          "turn": 2,
+          "prompt": "Please revise the note after caliper measurements: stem 6.0 mm diameter and 9 mm long; the shelf hole is also about 6 mm. Discard the rough 5 mm estimate as current sizing. I do not know the manufacturer. Return my final identification request, without buying or fitting anything.",
+          "criteria": [
+            {
+              "expectation": "Replaces the rough current estimate with the measured 6.0 mm stem diameter and 9 mm length.",
+              "verdict": "pass",
+              "observed": "Superseded the old ruler estimate with 6.0 mm stem diameter and 9 mm stem length."
+            },
+            {
+              "expectation": "Includes the shelf-hole diameter as approximately 6 mm and keeps manufacturer unknown.",
+              "verdict": "pass",
+              "observed": "Recorded an approximately 6 mm mounting hole and manufacturer unknown."
+            },
+            {
+              "expectation": "Returns a reusable identification request, preserving the shelf support's geometry and appropriate uncertainty about compatibility.",
+              "verdict": "pass",
+              "observed": "Retained the L shape, metal and smooth round stem, with exact fit unverified."
+            },
+            {
+              "expectation": "Does not claim to order a replacement, install it or prove exact model/fit.",
+              "verdict": "pass",
+              "observed": "The request is identification only and explicitly records no purchase or installation."
+            }
+          ],
+          "observed": "Returned a corrected parts-counter request using the caliper measurements without purchasing, fitting or certifying a replacement.",
+          "replyTextSha256": "6d466c3d89e572cf44f7372dc0d3fa04fdcf033ffa854c548f1d7336a83f4514"
+        }
+      ],
+      "knowledge": {
+        "indexedResources": 10,
+        "originalAttachmentsVerified": 10,
+        "source": "Native Operator’s Cathedral Layout 📐.md #07g estimates size/type from scaling or markings and exports a diagnostic snapshot for sharing or a tool crib log.",
+        "observed": "Self Fixer #07g explicitly names a diagnostic snapshot for sharing or a tool crib log."
+      },
+      "interpretation": "A text-based parts-counter identification is not physical proof of fit."
+    },
+    {
+      "productId": "icon-maker",
+      "name": "Glee-fully Icon Maker",
+      "route": "capabilities/personalizable-tools/icon-maker",
+      "privateHostedVersion": "0.7.3",
+      "result": "pass",
+      "turns": [
+        {
+          "turn": 1,
+          "prompt": "Make the actual square Glee-fully Personal Librarian icon from the bundled .b card-file reference. Show the butterfly touching the brown card drawer and the protruding cream card with its three dark rules. Deliver finished artwork now. If image generation is unavailable, return a complete standalone SVG that I can render. Name the exact reference or accessible companion you used.",
+          "criteria": [
+            {
+              "expectation": "Returns a viewable finished square image or complete standalone SVG that actually renders, with the artwork visually inspected.",
+              "verdict": "pass",
+              "observed": "Inspected the 1254 × 1254 PNG directly; the result is completed artwork."
+            },
+            {
+              "expectation": "Shows a recognizably brown card-file drawer, protruding cream card with three dark horizontal rules and visible keyhole plate.",
+              "verdict": "pass",
+              "observed": "Brown card-file drawer, gold keyhole plate and a protruding cream card with exactly three dark rules are visible."
+            },
+            {
+              "expectation": "Includes upper-left multicolor butterfly touching/overlapping the drawer, horizontal retro stripes and legible cream Glee-fully wordmark.",
+              "verdict": "pass",
+              "observed": "The upper-left butterfly overlaps the drawer. The horizontal bands and cream Glee-fully wordmark are legible at 128 × 128."
+            },
+            {
+              "expectation": "Names the bundled .b PNG or the verified personal-librarian-visual-description.md companion as knowledge source, honestly reflecting access.",
+              "verdict": "pass",
+              "observed": "The answer named both the .b PNG and personal-librarian-visual-description.md, explicitly crediting the latter."
+            }
+          ],
+          "observed": "Generated a finished square card-file icon with the three ruled lines, a rainbow butterfly, keyhole and readable retro wordmark.",
+          "replyTextSha256": "a32a65dc5641221a9a1bfe75aabcf9b6c64a419f7b0d5ca676a42376067729b2",
+          "generatedPngSha256": "ccaef5bc69f5cbb73ab3665f55aecbd692fb1b7170ba229a0f3b7d3b981a7152"
+        },
+        {
+          "turn": 2,
+          "prompt": "Edit that same artwork: remove the three rules from the protruding cream card and put a single large dark five-point star on that card instead. Keep the brown drawer, front keyhole, butterfly, retro stripes and Glee-fully lettering. Show the finished revised square icon now; a complete renderable SVG works too.",
+          "criteria": [
+            {
+              "expectation": "Returns a second visibly rendered square artwork or a complete SVG that is actually rendered and inspected.",
+              "verdict": "pass",
+              "observed": "Inspected the second 1254 × 1254 PNG and a 128 × 128 comparison of the two images."
+            },
+            {
+              "expectation": "The protruding cream card now shows one recognizable dark five-point star; its three prior rules are absent.",
+              "verdict": "pass",
+              "observed": "The cream card has one prominent dark five-point star and no horizontal rules."
+            },
+            {
+              "expectation": "Retains the drawer and keyhole plate, an overlapping upper-left butterfly, retro stripes and legible Glee-fully wordmark.",
+              "verdict": "pass",
+              "observed": "The case, keyhole, multicolor butterfly, stripes and wordmark remain visibly consistent."
+            },
+            {
+              "expectation": "Produces an actual edited design with the changed content legible at icon scale, rather than only instructions, a promise, or the original identical artwork.",
+              "verdict": "pass",
+              "observed": "The star and prior lines are distinguishable in the side-by-side 128-pixel previews and the delivered PNGs have distinct hashes."
+            }
+          ],
+          "observed": "Edited the same composition into a second square icon with one visible five-point star replacing all three rules.",
+          "replyTextSha256": "464c4ffd019e1e9691dcf0537c797353ef2b1c1d4833d3d463e5b74ae4547344",
+          "generatedPngSha256": "cfb5aebf6456cd79168fe183d3fc0cedc153105b5750844dcab39e9b981b3615"
+        }
+      ],
+      "knowledge": {
+        "indexedResources": 22,
+        "originalAttachmentsVerified": 20,
+        "source": "Original 1024×1024 02a Glee-fully Square Personal Librarian.b.png has SHA-256 47b800d63ff40c9d99dd7ecff4ba8b7c2f2658f90fb8df1b82fe2551d982dd1f. The private visual companion introduced in v0.7.2 is retained in v0.7.3. Its files are personal-librarian-visual-description.md and personal-librarian-fallback.svg. Both visual outputs must be inspected. Check turn two against the turn-one capture at card and full-icon scales.",
+        "observed": "The generated baseline matches the accessible companion's original card-file, three rules and keyhole details. The updated index exposes the companion in native v0.7.3."
+      },
+      "interpretation": "The plugin reported that the original uploaded .b PNG could not be opened. The original reference was reconstructed from its verified text companion, and both native outputs were inspected independently.",
+      "repair": {
+        "previousVersion": "0.7.2",
+        "findingAndFix": "Two available companions were absent from the knowledge index. Both paths were indexed and the updated plugin generated and revised the requested icon.",
+        "testedVersion": "0.7.3",
+        "detection": "package-inspection"
+      }
+    },
+    {
+      "productId": "healthy-bee-ing-hosted-variant",
+      "name": "Glee-fully Healthy Bee-ing",
+      "route": "capabilities/healthy-bee-ing/hosted-variant",
+      "privateHostedVersion": "0.9.3",
+      "result": "pass",
+      "turns": [
+        {
+          "turn": 1,
+          "prompt": "As a routing guide for a fictional wellness journal, give me separate starter messages for two needs: recording water with mood, and taking a short desk reset. Name each specialist and give its current clickable native plugin link. Leave the actual journaling to the specialists.",
+          "criteria": [
+            {
+              "expectation": "Routes hydration and mood to Moody Log (#06e).",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Routes the desk reset to Calm Keep (#06b).",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Provides current native plugin destinations for both specialists, with matching labels.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Offers two distinct handoff messages without claiming to start either log.",
+              "verdict": "pass"
+            }
+          ],
+          "observed": "Offered separate starter messages and verified Moody Log and Calm Keep plugin links for hydration with mood and a desk reset.",
+          "replyTextSha256": "44a486510dbe389cbcebe64f3b3e8b598b8cbd8d553a9c269fdb7bb144ffb965"
+        },
+        {
+          "turn": 2,
+          "prompt": "The desk reset can be dropped. Now the person needs refill-reminder tracking with optional sharing as well as the water-and-mood journal. Give the revised two specialist handoffs with their current links. From your bundled suite guide, name the sharing feature for the reminder tool and its source. No medication advice or notifications.",
+          "criteria": [
+            {
+              "expectation": "Retains Moody Log for hydration and mood and removes Calm Keep from the active plan.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Routes refill reminders to Medi Minder (#06d) and gives the two correct current native plugin destinations.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Identifies Caregiver Mode for trusted reminder sharing and names the suite layout.",
+              "verdict": "pass"
+            },
+            {
+              "expectation": "Does not claim a reminder was sent, sharing enabled, or medical action taken.",
+              "verdict": "pass"
+            }
+          ],
+          "observed": "Retained Moody Log, replaced Calm Keep with Medi Minder, provided both verified plugin links and found Caregiver Mode in the guide. No sharing or notification was activated.",
+          "replyTextSha256": "331ccd5ff13b0ccd4594cbc1658a0a6f825011e8ebf37cb072b995a2fa7fd7b0"
+        }
+      ],
+      "knowledge": {
+        "indexedResources": 1,
+        "originalAttachmentsVerified": 1,
+        "source": {
+          "file": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+          "expected": "The #06d Medi Minder entry identifies Caregiver Mode for trusted reminder sharing.",
+          "lines": [
+            3879,
+            3879
+          ],
+          "evidenceAnchor": "Caregiver mode for trusted reminder sharing",
+          "sha256": "b06d986dc29172900f0b5f2058bfd2a2a89af6cecdeebcdb690f54369ef4e37e"
+        },
+        "observed": "Retained Moody Log, replaced Calm Keep with Medi Minder, provided both verified plugin links and found Caregiver Mode in the guide. No sharing or notification was activated."
+      }
+    },
+    {
+      "productId": "grounded",
+      "name": "Glee-fully Grounded",
+      "route": "capabilities/personalizable-tools/grounded",
+      "privateHostedVersion": "0.18.1+bundle.ec404a9de38cb789e2ff9e034ddd3511",
+      "result": "pass",
+      "turns": [
+        {
+          "turn": 1,
+          "prompt": "Build a short, copy-ready Branch Tool instruction block for an imaginary paper-craft concierge with two desks: Fold Desk handles origami and Cut Desk handles paper collage. Give the branch two routing examples and a fallback for an unclear request. Label the evaluation template’s two named sections for the as-built form and proposed form; cite the versioned file they come from.",
+          "criteria": [
+            {
+              "expectation": "Returns a usable instruction block that defines a paper-craft branch concierge and its two named desks.",
+              "verdict": "pass",
+              "observed": "The copy-ready block sets the branch’s job and assigns origami and collage to two named desks."
+            },
+            {
+              "expectation": "Routes an origami goal to Fold Desk and a paper-collage goal to Cut Desk, keeping the specialist work at the desks.",
+              "verdict": "pass",
+              "observed": "A crane request goes to Fold Desk and a magazine-clippings collage goes to Cut Desk. The branch supplies each starter."
+            },
+            {
+              "expectation": "Includes an actionable clarification fallback instead of inventing a third desk or claiming deployment.",
+              "verdict": "pass",
+              "observed": "A folding-versus-cutting question resolves ambiguity. Both desks are offered if the choice stays unclear."
+            },
+            {
+              "expectation": "Names As-Deployed Star and Protoform and cites GPT Pulsebook Evaluation v1.7.md.",
+              "verdict": "pass",
+              "observed": "The mapping names As-Deployed Star (§1) and Protoform (§2) and cites GPT Pulsebook Evaluation v1.7.md."
+            }
+          ],
+          "observed": "Drafted a copy-ready paper-craft concierge with two routing examples, an ambiguity prompt and the Pulsebook’s two evaluation sections.",
+          "replyTextSha256": "bbec3d3cc7f662473ef8134436f944ae3d24c02adf0988500dee4328728d42b5"
+        },
+        {
+          "turn": 2,
+          "prompt": "Revise just that branch block: Cut Desk has closed. Fold Desk remains; Add Paste Desk for collage instead. Make the tone calm, retain the earlier origami route and add a return-visit greeting. Print the full replacement block, ready to copy. Do not publish anything.",
+          "criteria": [
+            {
+              "expectation": "Returns a complete replacement instruction block with Fold Desk and Paste Desk as the active routes.",
+              "verdict": "pass",
+              "observed": "The complete replacement block supplies identity, directory, routing protocol, examples, visit behavior and guardrails."
+            },
+            {
+              "expectation": "Retains origami routing to Fold Desk, redirects collage to Paste Desk and does not offer the closed desk as active.",
+              "verdict": "pass",
+              "observed": "The crane stays with Fold Desk and collage moves to Paste Desk. The former Cut Desk is explicitly closed."
+            },
+            {
+              "expectation": "Uses a visibly calm voice, adds a returning-visitor greeting and retains a useful fallback for unclear intent.",
+              "verdict": "pass",
+              "observed": "A calm folding-or-collage question and a ‘Welcome back’ greeting address ambiguity and return visits."
+            },
+            {
+              "expectation": "Maintains the concierge role without claiming any branch was published or registered.",
+              "verdict": "pass",
+              "observed": "The concierge routes to specialists and states that nothing was published or deployed."
+            }
+          ],
+          "observed": "Delivered the revised calm instruction block with active Fold Desk and Paste Desk, a redirect for closed Cut Desk, and first- and return-visit greetings.",
+          "replyTextSha256": "a51ca1fcf03c0789e9357455b8881fdc8f0e9ca59de9ff7b88466c9cdeecf3f4"
+        }
+      ],
+      "knowledge": {
+        "indexedResources": 20,
+        "originalAttachmentsVerified": 20,
+        "source": "Native GPT Pulsebook Evaluation v1.7.md sections 1 and 2 are As-Deployed Star and Protoform. Grounded native instructions define a Branch Tool as category concierge with visit-aware flow and calm tone mode. Grounded lives at capabilities/personalizable-tools/grounded.",
+        "observed": "Correctly named As-Deployed Star and Protoform and placed the instruction blocks in sections 1.5 and 2.7 of GPT Pulsebook Evaluation v1.7.md."
+      },
+      "interpretation": "The paper-craft desks were fictional. This run exercised generation and revision of draft instructions."
+    }
+  ]
+}

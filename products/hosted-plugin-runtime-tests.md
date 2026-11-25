@@ -2,6 +2,8 @@
 
 The [subsequent workflow acceptance run](workflow-acceptance.md) covers the
 completed releases of the 14 plugins identified as under construction below.
+The [other 39 workflow tests](remaining-workflow-acceptance.md) complete
+two-turn coverage across all 53 private plugins.
 
 On November 24, 2026 (US Central), all **53 current private plugins** passed their final representative instruction-following and knowledge checks in signed-in ChatGPT. The test run produced 76 answered conversations. The [per-plugin results](hosted-plugin-runtime-results.json) preserve the tested versions, prompts, observed answers in summary, handoff destinations and earlier attempts.
 
