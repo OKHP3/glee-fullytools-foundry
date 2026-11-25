@@ -1,34 +1,29 @@
 ---
 name: decor-detective
 description: >-
-  Catalog seasonal decorations, their storage locations and their setup or care history. Use to find an item, plan a display, pack it away or prepare a maintenance list.
+  Build and update a seasonal décor inventory from a description, stocktake or prior ledger. Use for display setup, takedown, storage-bin lookup, maintenance history and copy-ready packing or reminder lists.
 license: MIT
 metadata:
-  version: "0.1.0"
+  version: "0.2.0"
 ---
 
 # Decor Detective
 
-## Scope
+For a stocktake, turn the details supplied into a usable inventory on the first reply. For a later move, repair or correction, revise the inventory already in the conversation. Use the [seasonal inventory template](references/seasonal-inventory.md) for a copy-ready table or use the same fields in CSV.
 
-Start with an item description, occasion and location if known. Accept a visual description or a photo where supported. Describe visible features and ask for a label when exact material, maker or product identity matters.
+## Inventory and updates
 
-## Workflow
+1. Identify an item or set using a short stable label. Capture occasion or season, type or use, quantity and unit, normal storage spot, and current physical locations. Keep a user-supplied tag such as “winter mantel” or an item's personal story. If the maker or material is inferred from an image, record it as an observation. Request a label or distinguishing feature before merging similar items.
+2. For a split set, give each current location its own quantity. If the owner supplies the total and one part, calculate the remainder only when the destinations cover the whole set. Record unknown quantities as unknown. Count a damaged piece once at its physical location and attach its condition there.
+3. Apply each event to the named item, quantity, origin and destination. Preserve unaffected balances and the set’s normal storage location. Log the event and date or seasonal cue provided. A correction replaces the earlier assertion. A requested move stays planned until the owner confirms it occurred. Ask about an ambiguous origin or insufficient stock before subtracting from it.
+4. Record cleaning, completed repair, damage awaiting repair and retirement distinctly. Include only the observed work in history. Put proposed work on a maintenance list. Check the current location totals against the known set count and identify discrepancies with the smallest useful question.
 
-1. Assign each physical item or set a stable label. Record category, count and count unit, holiday or season, display area and storage location such as room, shelf and bin. Distinguish the normal storage spot from the current display spot.
-2. Record setup and takedown as separate events with dates or seasonal cues. When part of a set moves, track the moved count and what remains. Do not mark an entire bin moved because one item was unpacked.
-3. Keep a care log for cleaning, repairs, breakage or retirement. Distinguish last observed condition from a proposed repair. If identity or count is uncertain, add an item to review without silently merging similar pieces.
-4. Return the view needed now: a find-by-location list, a setup checklist grouped by display area, a packing list grouped by bin or a maintenance queue. Offer dates as reminder text unless the host supports an authorized scheduling operation.
+## Return the requested view
 
-## Verify the result
+For a stocktake, show the label, occasion, current locations and quantities, normal storage, and any condition or next action. For setup, group items by display area. For takedown, group by destination bin and keep pieces awaiting care visible. For a follow-up, show what changed and the revised totals. If the owner asks for a reminder, draft the text with the supplied date or seasonal cue. Claim a calendar change only after an authorized calendar action succeeds.
 
-For each split set, check that items on display, in storage and under repair add up to the known total. Flag any unexplained difference before preparing the packing list.
+Scentinal Journal handles fragrance performance, while this inventory tracks the candle or accessory as an item of décor. For a question about documented sibling functions, consult the supplied suite reference and identify the file actually used. A requested organizational handoff can be fulfilled with the verified destination supplied by the host.
 
-## Sources and limits
+## Repository sources
 
-The function catalog specifies seasonal inventory. The source guide also mentions identifying and sourcing decor. This package handles descriptive identification for cataloging. Maker authentication, purchasing and live retail search require other evidence or tools.
-
-Repository records
-
-- `capabilities/treasured-finds/decor-detective/source/README.md`
-- `inventory/inventory-of-toolbox-tools-and-tool-ettes.md`
+The Decor Detective catalog entry in `inventory/inventory-of-toolbox-tools-and-tool-ettes.md` documents holiday cataloging, tagging, storage, seasonal changes and maintenance. `capabilities/treasured-finds/decor-detective/source/README.md` describes the earlier identification concept. The historical hosted instructions are preserved in `capabilities/treasured-finds/decor-detective/plugin/skills/instructions/SKILL.md`. The inventory workflow can run from conversation context alone.

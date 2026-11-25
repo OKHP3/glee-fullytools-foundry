@@ -1,0 +1,28 @@
+{
+  "skill": "present-hoarder",
+  "version": "0.2.0",
+  "knowledgeSources": [],
+  "skillKnowledgeSources": [
+    "references/gift-stash.md"
+  ],
+  "turns": [
+    {
+      "prompt": "Make my private gift stash for a fictional celebration. I bought two identical puzzles. Robin’s is wrapped in trunk R. Pip’s is unwrapped on shelf S. Both are still here. My related wishlist uses Giftlist Helper. Which three example item categories does the suite guide list for its tagging function? Name your source.",
+      "expectations": [
+        "Creates two distinguishable private entries with the correct recipient and hiding spot.",
+        "Tracks both gifts as bought and held and only Robin’s as wrapped.",
+        "Reports book, fragrance and experience as the Giftlist Helper tagging examples.",
+        "Names the supporting file actually used for the three categories, such as the attached suite layout or gift-stash.md."
+      ]
+    },
+    {
+      "prompt": "Pip’s gift was then wrapped and shipped. Robin’s stayed here. Write only a group message suitable for both recipients. Give counts of wrapped gifts still here and gifts shipped. Leave out every identifying or hiding detail.",
+      "expectations": [
+        "Reports one wrapped gift still held.",
+        "Reports one shipped gift without claiming it has been delivered.",
+        "Omits recipient names, puzzle details, trunk, shelf and location codes throughout the message.",
+        "Returns only the recipient-safe update without appending the private ledger or revealing its details."
+      ]
+    }
+  ]
+}

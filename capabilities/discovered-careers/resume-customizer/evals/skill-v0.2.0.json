@@ -1,0 +1,28 @@
+{
+  "skill": "resume-customizer",
+  "version": "0.2.0",
+  "knowledgeSources": [
+    "references/resume-keywords-by-industry.csv",
+    "references/resume-tone-examples.md"
+  ],
+  "turns": [
+    {
+      "prompt": "This is a fictional application to Orchard Loop for Service Desk Coordinator. The posting asks for ticket triage, reusable instructions and ServiceNow administration. My resume excerpt says: Help Desk Assistant, 2024–2026. I triaged incoming tickets, wrote four restart guides, and used a shared spreadsheet. Tailor my summary and this experience entry. Show which requirements I can support and give this draft a version label.",
+      "expectations": [
+        "Returns copy-ready Summary and Experience blocks for Orchard Loop / Service Desk Coordinator, preserving Help Desk Assistant and 2024–2026.",
+        "Makes ticket triage and four restart guides visible in the resume and maps them to two separate requirements.",
+        "Marks ServiceNow administration as an evidence gap and keeps it out of the candidate's asserted skills. Spreadsheet use is never represented as ServiceNow use.",
+        "Gives the draft an identifiable first version and separates the requirement/evidence notes from the text to paste."
+      ]
+    },
+    {
+      "prompt": "One correction: I tested four restart guides written by a teammate. I also trained two volunteers to use the guides. Return the revised sections and match notes as a new version. In a separate vocabulary note, name the first and last terms in the Information Technology row of your bundled industry keyword CSV. Include either in my resume only if my evidence supports it.",
+      "expectations": [
+        "Both revised sections together credit testing four teammate-authored guides and training two volunteers. No copy or match note attributes writing the guides to the candidate.",
+        "Revises the reusable-instructions match to distinguish testing or training from authorship, retains ticket triage, and leaves ServiceNow administration as a gap.",
+        "Provides a distinct second version of the same Orchard Loop draft and keeps the role title and dates intact.",
+        "Names SLA and virtualization, in that order, from resume-keywords-by-industry.csv. Both stay outside the resume because the applicant supplied no evidence for either."
+      ]
+    }
+  ]
+}

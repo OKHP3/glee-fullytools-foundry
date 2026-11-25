@@ -1,0 +1,28 @@
+{
+  "skill": "decor-detective",
+  "version": "0.2.0",
+  "knowledgeSources": [],
+  "skillKnowledgeSources": [
+    "references/seasonal-inventory.md"
+  ],
+  "turns": [
+    {
+      "prompt": "My winter lantern set has eight paper lanterns. Five are on the porch and the rest are in bin B7 in the cellar, their usual storage. Make my inventory. I also have scented candles. Which two performance measures does the suite guide list for the scent journal? Name the file you used.",
+      "expectations": [
+        "Creates a usable inventory for the eight winter paper lanterns.",
+        "Shows five on the porch and three in cellar bin B7 while retaining B7 as normal storage.",
+        "Identifies burn time and scent throw as the related fragrance performance measures.",
+        "Names the supporting file actually used, such as Operator’s Cathedral Layout or the public seasonal-inventory.md reference."
+      ]
+    },
+    {
+      "prompt": "I just took down two of the porch lanterns. One went back into B7. The other has a torn loop and is now in the mending tray. Give me the updated counts and the repair note.",
+      "expectations": [
+        "Carries forward the same set of eight from the first turn.",
+        "Shows three on the porch, four in bin B7 and one in the mending tray.",
+        "Flags the torn loop on the tray item as awaiting repair.",
+        "Keeps the eight physical lanterns accounted for without recording a completed repair."
+      ]
+    }
+  ]
+}

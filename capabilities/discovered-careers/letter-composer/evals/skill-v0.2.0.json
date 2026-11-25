@@ -1,0 +1,28 @@
+{
+  "skill": "letter-composer",
+  "version": "0.2.0",
+  "knowledgeSources": [],
+  "skillKnowledgeSources": [
+    "references/cover-letter-evidence-card.md"
+  ],
+  "turns": [
+    {
+      "prompt": "Fictional letter for Lantern Archive's Program Assistant opening. The posting asks for clear event handoffs. I wrote the shift checklist our team used at three events. Draft a warm cover letter in plain text, 100 words or fewer including the greeting and sign-off. I don't know the hiring contact. Please keep notes outside the letter.",
+      "expectations": [
+        "Gives a complete copy-ready letter for Program Assistant at Lantern Archive with a neutral greeting and a closing.",
+        "States the applicant wrote a shift checklist the team used at three events and connects that example to event handoffs.",
+        "Uses a warm professional voice and keeps the full letter within 100 whitespace-delimited words including greeting and sign-off.",
+        "Avoids inventing a recipient, signature name, event outcome or improvement metric."
+      ]
+    },
+    {
+      "prompt": "Correction: a teammate drafted the checklist. I tested it during two events and suggested one edit. Address the letter to the Selection Committee and make it more formal. Keep the same length limit. After the letter, fill the four named fields from your bundled cover letter evidence card for this example.",
+      "expectations": [
+        "Returns a full revised letter addressed to the Selection Committee, in a formal register and within 100 words including greeting and sign-off. The separate evidence card is outside the count.",
+        "Credits the teammate for the draft, the applicant for testing during two events and suggesting one edit. It removes applicant authorship and the outdated three-event example from the letter and card.",
+        "Retains Lantern Archive, Program Assistant and a clear connection to event handoffs without claiming the suggested edit was adopted.",
+        "Fills the worksheet fields Need, My action, Outcome and Connection outside the letter. Outcome can explicitly say the adoption or subsequent effect is unknown."
+      ]
+    }
+  ]
+}

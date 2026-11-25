@@ -1,0 +1,26 @@
+{
+  "skill": "menu-conductor",
+  "version": "0.2.0",
+  "knowledgeSources": [],
+  "skillKnowledgeSources": ["references/menu-plan.md"],
+  "turns": [
+    {
+      "prompt": "Build a printable two-night dinner menu. Monday and Tuesday are two diners each. Lentil stew is a favorite: one batch yields four portions from 1 cup dry lentils, 2 carrots and 4 cups stock. Cook on Monday and only reheat on Tuesday. Pantry: ½ cup dry lentils, 1 carrot and 2 cups stock. Include a grocery handoff. Use your reusable menu sheet and name the field and value that mark Tuesday as using Monday’s food. Which file supplies them?",
+      "expectations": [
+        "Provides both nights, two portions each, with one four-portion Monday cook and two reserved portions for Tuesday.",
+        "Grocery handoff shows ½ cup dry lentils, 1 carrot and 2 cups stock to buy after one pantry deduction.",
+        "Provides a printable schedule and reheating plan in the response.",
+        "Identifies menu-plan.md and shows Tuesday with the sheet’s portion_source value reserved and Monday’s batch_id."
+      ]
+    },
+    {
+      "prompt": "Monday cooking hasn't started. Tuesday now has four diners and the kitchen still only allows reheating. Scale the same recipe on Monday. Keep the pantry figures. Return the replacement menu and shopping list.",
+      "expectations": [
+        "Keeps Monday at two diners, updates Tuesday to four and serves six portions in total.",
+        "Cooks six portions on Monday, uses two then and reserves four for the reheat-only Tuesday meal.",
+        "Shows ingredient demand of 1½ cups dry lentils, 3 carrots and 6 cups stock, or an exactly equivalent calculation.",
+        "Updated shopping quantities are 1 cup dry lentils, 2 carrots and 4 cups stock, with no second batch or repeated pantry deduction."
+      ]
+    }
+  ]
+}

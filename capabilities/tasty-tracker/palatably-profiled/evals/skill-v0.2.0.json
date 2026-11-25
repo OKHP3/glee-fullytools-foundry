@@ -1,0 +1,28 @@
+{
+  "skill": "palatably-profiled",
+  "version": "0.2.0",
+  "knowledgeSources": [],
+  "skillKnowledgeSources": [
+    "references/taste-profile.md"
+  ],
+  "turns": [
+    {
+      "prompt": "Make a household taste snapshot on a 1–5 scale. On May 2 Ari rated smoky beans 5 and citrus slaw 2. Lee rated the same beans 4 and described the same slaw as crunchy without a score. Lee excludes peanuts. Use your comparison sheet: which field counts dishes with scores from both diners, and what is its value? Name the file.",
+      "expectations": [
+        "Shows Ari 5 and Lee 4 for beans, Ari 2 and Lee unrated for slaw, preserving Lee’s crunchy comment.",
+        "Identifies shared_rated_dishes = 1 in taste-profile.md and lists the slaw as unpaired.",
+        "Attributes agreement on beans to the two ratings without turning Lee’s comment into a score or preference for citrus.",
+        "Keeps Lee’s peanut exclusion distinct from ratings and includes it in any tasting suggestion."
+      ]
+    },
+    {
+      "prompt": "Correction to that same May 2 tasting: Ari’s slaw score was 3, not 2. Lee now confirms the slaw was 5/5. Rebuild the comparison, show the two biggest agreements or differences the data support, and suggest one peanut-free next tasting.",
+      "expectations": [
+        "Replaces Ari’s old slaw score with 3 and records Lee’s 5 on the existing May 2 dish, keeping the crunchy note.",
+        "Counts two distinct shared rated dishes and removes slaw from the unpaired list.",
+        "Uses the beans’ 5 versus 4 to describe shared approval and the slaw’s 3 versus 5 to describe the larger difference.",
+        "Suggests one peanut-free tasting based on the evidence, without claiming a seasonal trend or certainty from two dishes."
+      ]
+    }
+  ]
+}

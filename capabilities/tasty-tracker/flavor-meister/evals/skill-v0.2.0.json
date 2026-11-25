@@ -1,0 +1,28 @@
+{
+  "skill": "flavor-meister",
+  "version": "0.2.0",
+  "knowledgeSources": [],
+  "skillKnowledgeSources": [
+    "references/recipe-card.md"
+  ],
+  "turns": [
+    {
+      "prompt": "Make a keeper card for Lemon White Beans, yield 2 bowls: 2 cups cooked white beans, 1 tbsp olive oil and 1 tbsp lemon juice. Warm the beans with oil, stir in the juice. On May 2 Rowan gave it 4/5, bright but a little sharp. No favorite decision yet. Use your editable card; which field does it reserve for changes actually made on a particular cook, and which file is it in?",
+      "expectations": [
+        "Returns a copyable two-bowl base recipe with all three amounts and the supplied two-step method.",
+        "Logs Rowan’s May 2 rating as 4/5 with the sharpness note.",
+        "Leaves the favorite decision unspecified and the May 2 variation blank or none reported.",
+        "Identifies variation_this_cook in recipe-card.md."
+      ]
+    },
+    {
+      "prompt": "On May 9 we cooked the same card using lime juice instead. Rowan gave this cook 5/5 and Jules gave it 3/5, too tart. Correction: Rowan’s May 2 score was 3/5. Mark the recipe a favorite. Return the updated card and show who liked the lime cook most.",
+      "expectations": [
+        "Keeps lemon juice in the two-bowl base recipe, records lime only on the separate May 9 cook, and marks the card favorite.",
+        "Corrects Rowan’s May 2 rating to 3/5 without duplicating that observation or discarding the sharpness note.",
+        "Records Rowan 5/5 and Jules 3/5 as distinct ratings of the same May 9 cook, preserving Jules’s comment.",
+        "Reports May 9 as the latest cook and Rowan as the higher rater of that variation."
+      ]
+    }
+  ]
+}

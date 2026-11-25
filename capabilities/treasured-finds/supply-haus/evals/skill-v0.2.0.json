@@ -1,0 +1,28 @@
+{
+  "skill": "supply-haus",
+  "version": "0.2.0",
+  "knowledgeSources": [],
+  "skillKnowledgeSources": [
+    "references/craft-stock-ledger.md"
+  ],
+  "turns": [
+    {
+      "prompt": "Inventory 12 m of 10-mm teal ribbon in drawer C and one pair of scissors on shelf T. Reserve 4 m of ribbon for costumes. A banner needs 9 m and ribbon is sold in 3 m rolls. Can the banner start with what is free? Show the ledger and shortage.",
+      "expectations": [
+        "Shows 12 m on hand, 4 m reserved for costumes and 8 m free.",
+        "Identifies a 1 m shortage for the banner and one 3 m roll if a purchase is needed.",
+        "Keeps the scissors as one reusable tool on shelf T.",
+        "Leaves the actual ribbon balance at 12 m without assuming a purchase or consuming the reservation."
+      ]
+    },
+    {
+      "prompt": "Costumes used 3 m from their reservation and released the spare metre. The scissors are on loan at the costume table. Update the banner decision. For a finished seasonal decoration, which three maintenance outcomes does the decor specialist log according to the suite guide? Name your source.",
+      "expectations": [
+        "Shows 9 m on hand, zero reserved and 9 m available after the 3 m use and 1 m release.",
+        "Shows the 9 m banner now fits available stock without ordering another roll or deducting the planned banner yet.",
+        "Shows one pair of scissors on loan at the costume table without consuming it.",
+        "Identifies repaired, cleaned and retired as the maintenance outcomes, and identifies the supporting file actually used."
+      ]
+    }
+  ]
+}

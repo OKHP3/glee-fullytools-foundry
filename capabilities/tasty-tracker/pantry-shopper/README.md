@@ -2,7 +2,7 @@
 
 Compare a menu with the ingredients on hand and turn what is missing into a shopping list.
 
-[Portable Agent Skill](skills/pantry-shopper/SKILL.md) · [Evaluation cases](evals/skill-v0.1.0.json)
+[Portable Agent Skill](skills/pantry-shopper/SKILL.md) · [Two-turn evaluation](evals/skill-v0.2.0.json) · [Earlier evaluation cases](evals/skill-v0.1.0.json)
 
 [Tasty Tracker](../) · [Browse source files](source/) · [Catalog entry](https://github.com/OKHP3/glee-fullytools-foundry/blob/main/inventory/inventory-of-toolbox-tools-and-tool-ettes.md#tool-ette--twig-03d--pantry-shopper) · [Import receipt](product.json)
 

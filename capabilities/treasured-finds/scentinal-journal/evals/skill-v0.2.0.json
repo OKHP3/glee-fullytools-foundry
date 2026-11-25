@@ -1,0 +1,28 @@
+{
+  "skill": "scentinal-journal",
+  "version": "0.2.0",
+  "knowledgeSources": [],
+  "skillKnowledgeSources": [
+    "references/fragrance-session-log.md"
+  ],
+  "turns": [
+    {
+      "prompt": "Start my journal for two identical six-ounce cedar candles, A and B. B is sealed. I opened A and burned it for 40 minutes in the study, with weak throw. If I later give B as a gift, what four statuses appear in the gift-stash entry of your suite guide? Name the file.",
+      "expectations": [
+        "Shows A open and B still sealed, with two candles present.",
+        "Logs a 40-minute session for A in the study with weak throw.",
+        "Reports bought, wrapped, shipped and given as the gifting statuses.",
+        "Identifies the source actually used for the four labels, such as the suite layout or fragrance-session-log.md, without marking B gifted."
+      ]
+    },
+    {
+      "prompt": "Correction: the study session was 30 minutes. I then burned A for 35 minutes in the hall and the throw felt strong there. Flag cedar for future reorder. Give the two-session summary, A’s cumulative observed burn time and the current stock.",
+      "expectations": [
+        "Replaces the original 40 minutes with 30 in the study and retains weak throw there.",
+        "Adds 35 minutes in the hall with strong throw and reports 65 minutes observed for A.",
+        "Shows A open and B still sealed, with two containers present.",
+        "Flags the future reorder without claiming an order or inferring the candles’ remaining lifetime."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "skill": "career-fitness",
+  "version": "0.2.0",
+  "knowledgeSources": [],
+  "skillKnowledgeSources": [
+    "references/role-comparison-worksheet.md"
+  ],
+  "turns": [
+    {
+      "prompt": "Fictional career decision. I scheduled volunteers and wrote onboarding instructions. I can study two hours a week and can only work weekdays. Two postings from the same fictional board, dated March 1, 2027, in North Harbor quote annual USD base pay. Operations Coordinator: $52,000–$58,000, weekdays, schedule shifts. Training Analyst: $60,000–$64,000, Saturdays required, design lessons and administer a learning management system. My floor is $54,000. Which should I pursue? Compare both and give me one concrete practice task.",
+      "expectations": [
+        "Recommends Operations Coordinator on current constraints, citing weekday fit and prior scheduling. It still flags that only $54,000–$58,000 meets the floor.",
+        "Shows that Training Analyst clears the pay floor but its required Saturdays conflict with the weekday-only constraint.",
+        "Uses the supplied ranges as posted annual USD base pay and keeps unverified LMS administration distinct from writing onboarding instructions.",
+        "Provides a practice task for the proposed path with a tangible output and a check that fits within two hours a week."
+      ]
+    },
+    {
+      "prompt": "Update: I can now work Saturdays, and $59,000 is a firm minimum. Reconsider the same two jobs. Use the exact pay labels in your bundled role comparison worksheet and give me a two-hour work sample I could make to test the bigger gap in the recommended role.",
+      "expectations": [
+        "Recomputes Operations Coordinator as 'Entire range below floor' because $58,000 is below $59,000.",
+        "Recomputes Training Analyst as 'Entire range meets floor' and recommends investigating or pursuing it given the lifted Saturday restriction.",
+        "Retains writing onboarding instructions as relevant evidence and keeps the LMS administration gap visible. Does not claim existing administration experience.",
+        "Gives a two-hour or shorter test of the LMS administration gap with a concrete artifact and success check, such as configuring one practice lesson and verifying a test learner’s completion record. A manual simulation is acceptable if its limits are stated."
+      ]
+    }
+  ]
+}
