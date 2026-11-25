@@ -1,0 +1,14 @@
+{
+  "version": "0.7.3",
+  "appendTo": "skills/instructions/lookup/knowledge-index.json",
+  "files": [
+    {
+      "name": "personal-librarian-visual-description.md",
+      "path": "references/personal-librarian-visual-description.md"
+    },
+    {
+      "name": "personal-librarian-fallback.svg",
+      "path": "references/personal-librarian-fallback.svg"
+    }
+  ]
+}

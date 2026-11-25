@@ -41,6 +41,9 @@ Each of the 50 capability pages links to its portable skill and behavioral
 evaluation cases. Fourteen skills have a v0.2.0 workflow with a two-turn
 ChatGPT acceptance record. See the [workflow release and results](workflow-acceptance.md)
 for the tested versions and the observed outputs.
+The [remaining 39 workflow tests](remaining-workflow-acceptance.md) cover the
+rest of the private ChatGPT plugins, including the knowledge-file audit and
+the defects corrected during testing.
 
 From the repository root, choose an output directory outside the checkout:
 
