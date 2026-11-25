@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Glee-fully Tools",
+    "url": "https://overkillhill.com"
+  },
+  "description": "Recognition branch for all 'what is that?' moments — routes to sibling twigs 🌵",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "skills"
+        ],
+        "category": "Other",
+        "composerIcon": "./assets/gpt-icon.png",
+        "defaultPrompt": [
+          "What critter is this? 🐾",
+          "Can you ID this piece of furniture?",
+          "Recognize this skyline, star, or landmark?"
+        ],
+        "developerName": "Glee-fully Tools",
+        "displayName": "Identity Known by Glee-fully",
+        "logo": "./assets/gpt-icon.png",
+        "longDescription": "Recognition branch for all 'what is that?' moments — routes to sibling twigs 🌵",
+        "shortDescription": "Recognition branch for all 'what is that?' moments — routes to sibling twigs 🌵"
+      }
+    }
+  },
+  "name": "gpt-35671f7114db826361857c6cddaaf1cc",
+  "version": "0.10.1+bundle.1d86b4fe2b5955f53a99576bfec94d41"
+}

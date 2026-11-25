@@ -1,0 +1,4 @@
+interface:
+  default_prompt: I’ve had a cough for 3 days, what should I do?
+  display_name: Care Check by Glee-fully
+  short_description: Supportive triage twig guiding when to rest, seek pharmacy help,

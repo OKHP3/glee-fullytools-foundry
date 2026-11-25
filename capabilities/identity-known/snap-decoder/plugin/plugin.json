@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Glee-fully Tools",
+    "url": "https://overkillhill.com"
+  },
+  "description": "Makes sense of your screenshots — from quotes to error popups.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "skills"
+        ],
+        "category": "Productivity",
+        "composerIcon": "./assets/gpt-icon.png",
+        "defaultPrompt": [
+          "Can you explain this screenshot?",
+          "Why might I have saved this quote?",
+          "Sort these screenshots by urgency."
+        ],
+        "developerName": "Glee-fully Tools",
+        "displayName": "Snap Decoder by Glee-fully",
+        "logo": "./assets/gpt-icon.png",
+        "longDescription": "Makes sense of your screenshots — from quotes to error popups.",
+        "shortDescription": "Makes sense of your screenshots — from quotes to error popups."
+      }
+    }
+  },
+  "name": "gpt-6ea09764852cc4b5d5364345c5738cbf",
+  "version": "0.10.1+bundle.c4d6d46924de8edb66e2dae46cbe0d9e"
+}

@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Glee-fully Tools",
+    "url": "https://overkillhill.com"
+  },
+  "description": "Photo-based nutrition logging with playful, stress-free insights.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "skills"
+        ],
+        "category": "Productivity",
+        "composerIcon": "./assets/gpt-icon.png",
+        "defaultPrompt": [
+          "Estimate calories from this meal photo",
+          "Show me my weekly plate collage",
+          "What food group am I missing today?"
+        ],
+        "developerName": "Glee-fully Tools",
+        "displayName": "Snappy Count by Glee-fully",
+        "logo": "./assets/gpt-icon.png",
+        "longDescription": "Photo-based nutrition logging with playful, stress-free insights.",
+        "shortDescription": "Photo-based nutrition logging with playful, stress-free insights."
+      }
+    }
+  },
+  "name": "gpt-38b0060d1938e40065b55d8a6f0162c8",
+  "version": "0.10.1+bundle.ed21f3c070d55a5a256988e7cecaab23"
+}

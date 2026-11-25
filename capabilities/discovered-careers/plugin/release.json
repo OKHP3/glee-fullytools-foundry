@@ -1,0 +1,84 @@
+{
+  "formatVersion": 1,
+  "packageId": "discovered-careers",
+  "sourceVersion": "0.22.1+bundle.fe622d17e86923587a0833c885526fd8",
+  "contentReview": [
+    "Native author and interface attribution use the public Glee-fully Tools brand.",
+    "Historic links use current FoundRy routes where available. Biographical details are omitted where present."
+  ],
+  "files": [
+    {
+      "path": "plugin.json",
+      "sha256": "1948b0e1712787e2d5185fb8e97ab31ecefe775ec3fd841ab77bcc2d42ef59db"
+    },
+    {
+      "path": "skills/instructions/SKILL.md",
+      "sha256": "4f230d5444fa0196d056248465a94483ae273e4defefc2eae94524c7f92ebee0"
+    },
+    {
+      "path": "skills/instructions/agents/openai.yaml",
+      "sha256": "d2260e8f1f7590c194e5742015d9cfabdc933faaeff5b810141a846a580d339f"
+    },
+    {
+      "path": "assets/gpt-icon.png",
+      "sha256": "e0968f99aa1d28893e17c2a1f74c25698c587a5cf6804e6eceb81c99d8f00443"
+    },
+    {
+      "path": "skills/instructions/references/01 Glee-fully Discovered Careers_Pulsebook_20250908.md",
+      "sha256": "88083d648c1c19f64c34d382886580e089e994b572402a0075a225922d5a3f06",
+      "edition": "public-derivative",
+      "review": "Public Pulsebook excerpt covering purpose, audience and conversation starters. Creator and deployment contact records are omitted."
+    },
+    {
+      "path": "skills/instructions/references/01 Glee-fully Square Discovered Careers.png",
+      "sha256": "b1ea66fccbfacc5eed0c2da71f976f572530cbf8064402ae39d32c638c04f4e8"
+    },
+    {
+      "path": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+      "sha256": "32ee04f18a775643db8cabd15f60abff2209844256f048f7806ffdb3c52f57ac",
+      "edition": "public-derivative",
+      "review": "Public excerpt covering output structure and clarification. Operator contacts and unrelated build records are omitted.",
+      "source": "capabilities/personalizable-tools/plugin/skills/instructions/references/Operator’s Cathedral Layout 📐.md"
+    },
+    {
+      "path": "skills/instructions/references/dataLedger_hydration_v3.md",
+      "sha256": "684d4546cdcd8957f1dd5eb0fd4cab991f9507f4c923c197b7bf82c9f56f97e8",
+      "edition": "public-derivative",
+      "review": "Public reference with a blank handoff. Historical conversation and account locators are omitted.",
+      "source": "capabilities/personalizable-tools/plugin/skills/instructions/references/dataLedger_hydration_v3.md"
+    },
+    {
+      "path": "skills/instructions/references/dataLedger_parameters_v3.md",
+      "sha256": "6cd115b5e1d49098d045de3a5a0c5ac80841ddfee8a08d89c44b7bbb326d29a6",
+      "source": "canon/dataledger-parameters-v3.md"
+    },
+    {
+      "path": "skills/instructions/references/dataLedger_persona_v3.md",
+      "sha256": "8bcc954a856b10864970060f2bf2095c7cef2b9765576b430c69ce682b7272bd",
+      "source": "canon/dataledger-persona-v3.md"
+    },
+    {
+      "path": "skills/instructions/references/dataLedger_registry_v3.md",
+      "sha256": "4a5b4dabe63b1ab479a9130c999c5a23980f6d527cd19211e49f6238601ee4f3",
+      "source": "canon/dataledger-registry-v3.md"
+    },
+    {
+      "path": "skills/instructions/references/dataLedger_system_v3.md",
+      "sha256": "dc0902db91a8071a8f04e884b453ffec9dde0d9460c12ae8ff125da17b5ec0ad",
+      "source": "canon/dataledger-system-v3.md"
+    },
+    {
+      "path": "skills/instructions/references/🦋 Glee‑fully Vernacular Complete.md",
+      "sha256": "934ead090f92f7cc2ac6725dab0a022603d487b52be0eb0b7596de3e4d7be43c",
+      "source": "docs/source-material/glee‑fully-vernacular-complete_1782332849642.md"
+    },
+    {
+      "path": "skills/instructions/references/🦋 Glee‑fully Vernacular Lite.md",
+      "sha256": "1b28b0eef54186cf95ca25693c9c476740d67ab294fb6f106972fb2ce5a2183a",
+      "source": "vernacular/glee-fully-vernacular-lite.md"
+    }
+  ],
+  "sourceKnowledgeFiles": 10,
+  "omittedKnowledge": [],
+  "distribution": "Reviewed former-GPT plugin files. The native release version identifies the source. The compatibility manifest and knowledge index are generated from these files."
+}

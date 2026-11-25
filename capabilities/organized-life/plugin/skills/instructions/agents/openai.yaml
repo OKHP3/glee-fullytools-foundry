@@ -1,0 +1,4 @@
+interface:
+  default_prompt: “Which Tool-ette matches my vibe?”
+  display_name: Organized Life by Glee-fully
+  short_description: Route tasks, gifts, bills, and habits to the right GPT in second

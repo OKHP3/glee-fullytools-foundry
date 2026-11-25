@@ -1,0 +1,4 @@
+interface:
+  default_prompt: What is this screw from?
+  display_name: Self Fixer by Glee-fully
+  short_description: IDs mystery parts, suggests fixes, routes to DIY siblings

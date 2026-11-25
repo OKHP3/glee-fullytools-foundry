@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Glee-fully Tools",
+    "url": "https://overkillhill.com"
+  },
+  "description": "Task Maestro is your list-loving, vibe-sorting task companion from the Glee-fully suite. Prioritize by urgency or mood, build recurring rituals, and sparkle-sort your week into wins. Includes energy-based filtering, export magic, GLEE MODE toggle, and comeback-level resilience.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "skills"
+        ],
+        "category": "Productivity",
+        "composerIcon": "./assets/gpt-icon.png",
+        "defaultPrompt": [
+          "“Help me sort my chaos into to-do categories.”",
+          "“What tasks match my low energy right now?”",
+          "“Make me a recurring weekly task list.”"
+        ],
+        "developerName": "Glee-fully Tools",
+        "displayName": "Task Maestro by Glee-fully",
+        "logo": "./assets/gpt-icon.png",
+        "longDescription": "Task Maestro is your list-loving, vibe-sorting task companion from the Glee-fully suite. Prioritize by urgency or mood, build recurring rituals, and sparkle-sort your week into wins. Includes energy-based filtering, export magic, GLEE MODE toggle, and comeback-level resilience.",
+        "shortDescription": "Task Maestro is your list-loving, vibe-sorting task companion from the Glee-fully suite. Prioritize by urgency or mood, build recurring rituals, and sparkle-sort your week into wins. Includes energy-based filtering, export magic, GLEE MODE "
+      }
+    }
+  },
+  "name": "gpt-78ae9d3626cf9758368c6be3cf63450b",
+  "version": "0.6.1+bundle.f61587f18a91041c18f3840bddc770a3"
+}

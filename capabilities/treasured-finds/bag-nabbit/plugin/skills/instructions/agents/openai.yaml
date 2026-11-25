@@ -1,0 +1,5 @@
+interface:
+  default_prompt: '"What’s the latest addition to your bag collection? Let’s add it
+    to your log!"'
+  display_name: Bag Nabbit by Glee-fully
+  short_description: Bag Nabbit helps you keep your bag collection organized, memorab

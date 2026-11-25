@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Glee-fully Tools",
+    "url": "https://overkillhill.com"
+  },
+  "description": "Capture, tag, and cherish every moment of your travels — from keepsakes and journal entries to voice memories and photo annotations. Memento Log transforms nostalgia into an interactive archive, built with warmth and sparkle. A Tool-ette from the Glee‑fully suite.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "skills"
+        ],
+        "category": "Other",
+        "composerIcon": "./assets/gpt-icon.png",
+        "defaultPrompt": [
+          "“I want to log a souvenir from my Italy trip.”",
+          "“Can I add a photo of a concert ticket from Paris?”",
+          "“Help me tag a memory with ‘sunset’ and ‘gratitude.’”"
+        ],
+        "developerName": "Glee-fully Tools",
+        "displayName": "Memento Log by Glee-fully",
+        "logo": "./assets/gpt-icon.png",
+        "longDescription": "Capture, tag, and cherish every moment of your travels — from keepsakes and journal entries to voice memories and photo annotations. Memento Log transforms nostalgia into an interactive archive, built with warmth and sparkle. A Tool-ette from the Glee‑fully suite.",
+        "shortDescription": "Capture, tag, and cherish every moment of your travels — from keepsakes and journal entries to voice memories and photo annotations. Memento Log transforms nostalgia into an interactive archive, built with warmth and sparkle. A Tool-ette fr"
+      }
+    }
+  },
+  "name": "gpt-9e37272e5424af517fc42916112a9617",
+  "version": "0.13.1+bundle.bba7afd6cbf5a6430fe58965da7df339"
+}

@@ -1,0 +1,85 @@
+{
+  "formatVersion": 1,
+  "packageId": "scheduling-wizard",
+  "sourceVersion": "0.11.1+bundle.b64390ee1481dbccd12cd5ce985d3de2",
+  "contentReview": [
+    "Native author and interface attribution use the public Glee-fully Tools brand."
+  ],
+  "files": [
+    {
+      "path": "plugin.json",
+      "sha256": "54f4d0a39896adec28118319011f33e9ebc10fb4d5313d18eb665cb9fefa4dd4"
+    },
+    {
+      "path": "skills/instructions/SKILL.md",
+      "sha256": "07f2b8963276dda9b63300331a3a9d062c586624ea4a286aa190ea5f4fc1ce4a"
+    },
+    {
+      "path": "skills/instructions/agents/openai.yaml",
+      "sha256": "05bf86e91415fdb2194456c348a0804d7a7eec188b96be11f1a9e504109241da"
+    },
+    {
+      "path": "assets/gpt-icon.png",
+      "sha256": "e271d0c15558335254cf38bbcdd046e15069bae9d566dccbf7860a7f03ba8748"
+    },
+    {
+      "path": "skills/instructions/references/Glee–fully Square Scheduling Wizard.png",
+      "sha256": "f6ed96884616ba6218c3d765dbbaba1a7474b1e6291a5b67700aa7f30b34c52f"
+    },
+    {
+      "path": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+      "sha256": "32ee04f18a775643db8cabd15f60abff2209844256f048f7806ffdb3c52f57ac",
+      "edition": "public-derivative",
+      "review": "Public excerpt covering output structure and clarification. Operator contacts and unrelated build records are omitted.",
+      "source": "capabilities/personalizable-tools/plugin/skills/instructions/references/Operator’s Cathedral Layout 📐.md"
+    },
+    {
+      "path": "skills/instructions/references/Scheduling_Wizard_GPT_System_Instructions.txt",
+      "sha256": "275213a20ec60722feb67ef8f2bd29fa40cf553e625670a81f759d9ae79df479",
+      "source": "capabilities/organized-life/scheduling-wizard/source/prompts/scheduling_wizard_gpt_system_instructions.md"
+    },
+    {
+      "path": "skills/instructions/references/dataLedger_archive_v2.txt",
+      "sha256": "ef7c08dc59db1356fbe9ec3f5e68e86f1a90d11a083bd7cb7e3726abd4262b3c",
+      "source": "capabilities/organized-life/scheduling-wizard/source/knowledgebundle/dataLedger_archive_v2.txt"
+    },
+    {
+      "path": "skills/instructions/references/dataLedger_ideation_v2.txt",
+      "sha256": "2716b50423f97985f7821d2057cdab2438fdbbfadb1af4bd6f92cd3962e3751d",
+      "source": "capabilities/organized-life/scheduling-wizard/source/knowledgebundle/dataLedger_ideation_v2.txt"
+    },
+    {
+      "path": "skills/instructions/references/dataLedger_narrative_v2.txt",
+      "sha256": "b3725e0d2e1e66380257a5b6446224d4d937ab0d0e1d0f0e78b3e91bbfdfade4",
+      "source": "capabilities/organized-life/scheduling-wizard/source/knowledgebundle/dataLedger_narrative_v2.txt"
+    },
+    {
+      "path": "skills/instructions/references/dataLedger_parameters_v2.txt",
+      "sha256": "a288a6338d70caa2361a18cb2579d76c83cc526c72567353bebb355e977ecc71",
+      "source": "capabilities/organized-life/scheduling-wizard/source/knowledgebundle/dataLedger_parameters_v2.txt"
+    },
+    {
+      "path": "skills/instructions/references/dataLedger_persona_v2.txt",
+      "sha256": "727d71854c4512a7c76e8441427da4c5c429aaa7077f0816dba411ce9837e11a",
+      "source": "capabilities/organized-life/scheduling-wizard/source/knowledgebundle/dataLedger_persona_v2.txt"
+    },
+    {
+      "path": "skills/instructions/references/dataLedger_processing_v2.txt",
+      "sha256": "1dec4fa625f097b4c432dbaa4058955786dd5412cc031ddff57dfd3e5cbe60b5",
+      "source": "capabilities/organized-life/scheduling-wizard/source/knowledgebundle/dataLedger_processing_v2.txt"
+    },
+    {
+      "path": "skills/instructions/references/dataLedger_registry_v2.txt",
+      "sha256": "3729f2b2efa9b88b4d2ab6cc23c34e3bf8cc1caa0eb9c1257e0ad9ea053d84a8",
+      "source": "capabilities/organized-life/scheduling-wizard/source/knowledgebundle/dataLedger_registry_v2.txt"
+    },
+    {
+      "path": "skills/instructions/references/dataLedger_system_v2.txt",
+      "sha256": "5614a6453ca361a605b0f23ea636e9506a1a209440437761a6bb921c89dcc7fb",
+      "source": "capabilities/organized-life/scheduling-wizard/source/knowledgebundle/dataLedger_system_v2.txt"
+    }
+  ],
+  "sourceKnowledgeFiles": 11,
+  "omittedKnowledge": [],
+  "distribution": "Reviewed former-GPT plugin files. The native release version identifies the source. The compatibility manifest and knowledge index are generated from these files."
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Glee-fully Tools",
+    "url": "https://overkillhill.com"
+  },
+  "description": "Menu Conductor orchestrates your meals with elegance and ease. Whether you're planning a week's worth of family dinners or a single special occasion, it helps you build structured menus, reuse favorites, and keep things in sync with your schedule and pantry.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "skills"
+        ],
+        "category": "Other",
+        "composerIcon": "./assets/gpt-icon.png",
+        "defaultPrompt": [],
+        "developerName": "Glee-fully Tools",
+        "displayName": "Menu Conductor by Glee-fully",
+        "logo": "./assets/gpt-icon.png",
+        "longDescription": "Menu Conductor orchestrates your meals with elegance and ease. Whether you're planning a week's worth of family dinners or a single special occasion, it helps you build structured menus, reuse favorites, and keep things in sync with your schedule and pantry.",
+        "shortDescription": "Menu Conductor orchestrates your meals with elegance and ease. Whether you're planning a week's worth of family dinners or a single special occasion, it helps you build structured menus, reuse favorites, and keep things in sync with your sc"
+      }
+    }
+  },
+  "name": "gpt-9cb2c67bf35f2eff2b66199431357abc",
+  "version": "0.8.1+bundle.1a8fcb04caf00d3770ca0a0369533241"
+}

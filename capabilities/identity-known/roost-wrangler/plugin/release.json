@@ -1,0 +1,37 @@
+{
+  "formatVersion": 1,
+  "packageId": "roost-wrangler",
+  "sourceVersion": "0.6.1+bundle.51f4b200837725203cf54c4a7dee7763",
+  "contentReview": [
+    "Native author and interface attribution use the public Glee-fully Tools brand."
+  ],
+  "files": [
+    {
+      "path": "plugin.json",
+      "sha256": "a92734a8280bc4fc23644e243bcf264a47d93d8ddbdb37cb53bb1a01c1a7015e"
+    },
+    {
+      "path": "skills/instructions/SKILL.md",
+      "sha256": "ee0e4167d8b43acf0d4979bc6db821bef3e6e8cae4e7653f1470a9526c5c5404"
+    },
+    {
+      "path": "skills/instructions/agents/openai.yaml",
+      "sha256": "6d9e49fd837352cae0cda3cd3315379551f2bbea2965d40a22b895c6c919f9df"
+    },
+    {
+      "path": "assets/gpt-icon.png",
+      "sha256": "0e5ef9a9e50a944054985c3f40badd8c169f49a1741e863c312068ecc3ceee28",
+      "source": "capabilities/personalizable-tools/plugin/assets/gpt-icon.png"
+    },
+    {
+      "path": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+      "sha256": "32ee04f18a775643db8cabd15f60abff2209844256f048f7806ffdb3c52f57ac",
+      "edition": "public-derivative",
+      "review": "Public excerpt covering output structure and clarification. Operator contacts and unrelated build records are omitted.",
+      "source": "capabilities/personalizable-tools/plugin/skills/instructions/references/Operator’s Cathedral Layout 📐.md"
+    }
+  ],
+  "sourceKnowledgeFiles": 1,
+  "omittedKnowledge": [],
+  "distribution": "Reviewed former-GPT plugin files. The native release version identifies the source. The compatibility manifest and knowledge index are generated from these files."
+}

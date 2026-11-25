@@ -1,0 +1,36 @@
+{
+  "formatVersion": 1,
+  "packageId": "journey-diary",
+  "sourceVersion": "0.4.1+bundle.d282ff6d76f275f571f567e3167f681b",
+  "contentReview": [
+    "Native author and interface attribution use the public Glee-fully Tools brand."
+  ],
+  "files": [
+    {
+      "path": "plugin.json",
+      "sha256": "a3e77165678a94f43540288172ce60d889217c9c4b9a026f4cde55f8faea07bd"
+    },
+    {
+      "path": "skills/instructions/SKILL.md",
+      "sha256": "390e5da1a765cb88d7b6c537f94cd0b7384c2f0caba761e8aae130c79a2d342e"
+    },
+    {
+      "path": "skills/instructions/agents/openai.yaml",
+      "sha256": "5f910a5b436ccacf7155b113031933092e196bae8d9e0dc0b4dd72bbcaba7fd3"
+    },
+    {
+      "path": "assets/gpt-icon.png",
+      "sha256": "2d85ccfe94f206466e274ff1e549853c5f0eb66f73c797bf6fcc160c846512fe"
+    },
+    {
+      "path": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+      "sha256": "32ee04f18a775643db8cabd15f60abff2209844256f048f7806ffdb3c52f57ac",
+      "edition": "public-derivative",
+      "review": "Public excerpt covering output structure and clarification. Operator contacts and unrelated build records are omitted.",
+      "source": "capabilities/personalizable-tools/plugin/skills/instructions/references/Operator’s Cathedral Layout 📐.md"
+    }
+  ],
+  "sourceKnowledgeFiles": 1,
+  "omittedKnowledge": [],
+  "distribution": "Reviewed former-GPT plugin files. The native release version identifies the source. The compatibility manifest and knowledge index are generated from these files."
+}

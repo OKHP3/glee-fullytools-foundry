@@ -1,0 +1,36 @@
+{
+  "formatVersion": 1,
+  "packageId": "detour-discoverer",
+  "sourceVersion": "0.6.1+bundle.b901d8c5c9092e5e788599ddb92cbd3c",
+  "contentReview": [
+    "Native author and interface attribution use the public Glee-fully Tools brand."
+  ],
+  "files": [
+    {
+      "path": "plugin.json",
+      "sha256": "b545edddb19ed79e30fa5f18122d350aba0a68413c2af85b13d674b6eba46bfa"
+    },
+    {
+      "path": "skills/instructions/SKILL.md",
+      "sha256": "866e5c21c643f7ddd30610d61a3813b47c51a36c5716e7987d61896f0a12d1e6"
+    },
+    {
+      "path": "skills/instructions/agents/openai.yaml",
+      "sha256": "fee228a613a10e444324977cc00c90cc648dcc8de7dc70ddee554620fc047057"
+    },
+    {
+      "path": "assets/gpt-icon.png",
+      "sha256": "138d37429969b7596b49347bb31facb7c66e55a2d8849b1c5298bf6377bd769e"
+    },
+    {
+      "path": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+      "sha256": "32ee04f18a775643db8cabd15f60abff2209844256f048f7806ffdb3c52f57ac",
+      "edition": "public-derivative",
+      "review": "Public excerpt covering output structure and clarification. Operator contacts and unrelated build records are omitted.",
+      "source": "capabilities/personalizable-tools/plugin/skills/instructions/references/Operator’s Cathedral Layout 📐.md"
+    }
+  ],
+  "sourceKnowledgeFiles": 1,
+  "omittedKnowledge": [],
+  "distribution": "Reviewed former-GPT plugin files. The native release version identifies the source. The compatibility manifest and knowledge index are generated from these files."
+}

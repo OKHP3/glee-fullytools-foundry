@@ -1,0 +1,84 @@
+{
+  "formatVersion": 1,
+  "packageId": "gpt07g-self-fixer",
+  "sourceVersion": "0.13.1+bundle.603076ca69dc769d19a1bdfffa6b8ada",
+  "contentReview": [
+    "Native author and interface attribution use the public Glee-fully Tools brand."
+  ],
+  "files": [
+    {
+      "path": "plugin.json",
+      "sha256": "8285ac17cd1d62d760319f5e3c66a2937c994ab4bfa2ee3a6c68434d6922e44a"
+    },
+    {
+      "path": "skills/instructions/SKILL.md",
+      "sha256": "c8646d48286d8afa256ba16554b5c32b33b4ec3a1b6385937664c0d93f1a9ec9"
+    },
+    {
+      "path": "skills/instructions/agents/openai.yaml",
+      "sha256": "11969dd0af0d09a8a9f21cf5e4caccff12139d2a5f73a7f2b9a6e63e8a4f56c1"
+    },
+    {
+      "path": "assets/gpt-icon.png",
+      "sha256": "0e5ef9a9e50a944054985c3f40badd8c169f49a1741e863c312068ecc3ceee28",
+      "source": "capabilities/personalizable-tools/plugin/assets/gpt-icon.png"
+    },
+    {
+      "path": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+      "sha256": "32ee04f18a775643db8cabd15f60abff2209844256f048f7806ffdb3c52f57ac",
+      "edition": "public-derivative",
+      "review": "Public excerpt covering output structure and clarification. Operator contacts and unrelated build records are omitted.",
+      "source": "capabilities/personalizable-tools/plugin/skills/instructions/references/Operator’s Cathedral Layout 📐.md"
+    },
+    {
+      "path": "skills/instructions/references/dataLedger_archive_v3.md",
+      "sha256": "09fe0f2e0713e36d8683798f91a5e10bfca728a8b0f2a9a210e8ad455c6c2ae9",
+      "source": "capabilities/identity-known/maker-matcher/plugin/skills/instructions/references/dataLedger_archive_v3.md"
+    },
+    {
+      "path": "skills/instructions/references/dataLedger_hydration_v3.md",
+      "sha256": "684d4546cdcd8957f1dd5eb0fd4cab991f9507f4c923c197b7bf82c9f56f97e8",
+      "edition": "public-derivative",
+      "review": "Public reference with a blank handoff. Historical conversation and account locators are omitted.",
+      "source": "capabilities/personalizable-tools/plugin/skills/instructions/references/dataLedger_hydration_v3.md"
+    },
+    {
+      "path": "skills/instructions/references/dataLedger_narrative_v3.md",
+      "sha256": "c3967eaf7f0613c07dba3c17d0478693533e2b95d9a5136d5e6e3c6711646719",
+      "source": "capabilities/identity-known/maker-matcher/plugin/skills/instructions/references/dataLedger_narrative_v3.md"
+    },
+    {
+      "path": "skills/instructions/references/dataLedger_parameters_v3.md",
+      "sha256": "6cd115b5e1d49098d045de3a5a0c5ac80841ddfee8a08d89c44b7bbb326d29a6",
+      "source": "canon/dataledger-parameters-v3.md"
+    },
+    {
+      "path": "skills/instructions/references/dataLedger_persona_v3.md",
+      "sha256": "8bcc954a856b10864970060f2bf2095c7cef2b9765576b430c69ce682b7272bd",
+      "source": "canon/dataledger-persona-v3.md"
+    },
+    {
+      "path": "skills/instructions/references/dataLedger_processing_v3.md",
+      "sha256": "1c9a0c6bbe36903d6901ab07275565d310cc247bcf0fe6b6cfb7e00ea7cdda4d",
+      "source": "capabilities/identity-known/maker-matcher/plugin/skills/instructions/references/dataLedger_processing_v3.md"
+    },
+    {
+      "path": "skills/instructions/references/dataLedger_registry_v3.md",
+      "sha256": "4a5b4dabe63b1ab479a9130c999c5a23980f6d527cd19211e49f6238601ee4f3",
+      "source": "canon/dataledger-registry-v3.md"
+    },
+    {
+      "path": "skills/instructions/references/dataLedger_system_v3.md",
+      "sha256": "dc0902db91a8071a8f04e884b453ffec9dde0d9460c12ae8ff125da17b5ec0ad",
+      "source": "canon/dataledger-system-v3.md"
+    }
+  ],
+  "sourceKnowledgeFiles": 10,
+  "omittedKnowledge": [
+    {
+      "name": "dataLedger_ideation_v3.md",
+      "reason": "private-correspondence"
+    }
+  ],
+  "distribution": "Reviewed former-GPT plugin files. The native release version identifies the source. The compatibility manifest and knowledge index are generated from these files."
+}

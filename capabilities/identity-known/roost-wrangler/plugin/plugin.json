@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Glee-fully Tools",
+    "url": "https://overkillhill.com"
+  },
+  "description": "Identifies architectural styles & furniture design eras",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "skills"
+        ],
+        "category": "Other",
+        "composerIcon": "./assets/gpt-icon.png",
+        "defaultPrompt": [
+          "What style is this house facade?",
+          "Can you identify this chair’s design era?",
+          "Tag this living room by vibe and style."
+        ],
+        "developerName": "Glee-fully Tools",
+        "displayName": "Roost Wrangler by Glee-fully",
+        "logo": "./assets/gpt-icon.png",
+        "longDescription": "Identifies architectural styles & furniture design eras",
+        "shortDescription": "Identifies architectural styles & furniture design eras"
+      }
+    }
+  },
+  "name": "gpt-63577e5f71a5f6978902fbb7607d6fd4",
+  "version": "0.6.1+bundle.51f4b200837725203cf54c4a7dee7763"
+}

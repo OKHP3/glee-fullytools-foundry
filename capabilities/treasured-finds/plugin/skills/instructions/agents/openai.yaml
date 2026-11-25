@@ -1,0 +1,4 @@
+interface:
+  default_prompt: “Can I upload a list of books to track my collection?”
+  display_name: Treasured Finds by Glee-fully
+  short_description: Catalog the things you collect and love — from books to candles,

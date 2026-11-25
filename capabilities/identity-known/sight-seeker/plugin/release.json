@@ -1,0 +1,37 @@
+{
+  "formatVersion": 1,
+  "packageId": "sight-seeker",
+  "sourceVersion": "0.8.1+bundle.1d3e3a2a8852b9d8b095c3b356cd341e",
+  "contentReview": [
+    "Native author and interface attribution use the public Glee-fully Tools brand."
+  ],
+  "files": [
+    {
+      "path": "plugin.json",
+      "sha256": "432876143f89b1b6d7f5c9497e5b06e19d51d65ac38ba546eb4328c9153adf9d"
+    },
+    {
+      "path": "skills/instructions/SKILL.md",
+      "sha256": "1ccee2e033fd4616d635a4604f2938ec17d96a73696616bcfe03227616bda77c"
+    },
+    {
+      "path": "skills/instructions/agents/openai.yaml",
+      "sha256": "cbfe6eb10d4f952553648bc3ec6009e1f496b2a5a64455d3fe1cbe4fdf41611e"
+    },
+    {
+      "path": "assets/gpt-icon.png",
+      "sha256": "0e5ef9a9e50a944054985c3f40badd8c169f49a1741e863c312068ecc3ceee28",
+      "source": "capabilities/personalizable-tools/plugin/assets/gpt-icon.png"
+    },
+    {
+      "path": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+      "sha256": "32ee04f18a775643db8cabd15f60abff2209844256f048f7806ffdb3c52f57ac",
+      "edition": "public-derivative",
+      "review": "Public excerpt covering output structure and clarification. Operator contacts and unrelated build records are omitted.",
+      "source": "capabilities/personalizable-tools/plugin/skills/instructions/references/Operator’s Cathedral Layout 📐.md"
+    }
+  ],
+  "sourceKnowledgeFiles": 1,
+  "omittedKnowledge": [],
+  "distribution": "Reviewed former-GPT plugin files. The native release version identifies the source. The compatibility manifest and knowledge index are generated from these files."
+}

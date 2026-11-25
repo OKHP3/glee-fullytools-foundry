@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Glee-fully Tools",
+    "url": "https://overkillhill.com"
+  },
+  "description": "A reflective twig for journaling hydration, mood, and body snapshots with kind pattern insights.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "skills"
+        ],
+        "category": "Other",
+        "composerIcon": "./assets/gpt-icon.png",
+        "defaultPrompt": [
+          "Log my mood and water today",
+          "Show me a graph of mood vs hydration",
+          "Remind me to take a weekly photo"
+        ],
+        "developerName": "Glee-fully Tools",
+        "displayName": "Moody Log by Glee-fully",
+        "logo": "./assets/gpt-icon.png",
+        "longDescription": "A reflective twig for journaling hydration, mood, and body snapshots with kind pattern insights.",
+        "shortDescription": "A reflective twig for journaling hydration, mood, and body snapshots with kind pattern insights."
+      }
+    }
+  },
+  "name": "gpt-a834b21585ca3f9b92cbdd2e1ab4a69e",
+  "version": "0.3.1+bundle.04e9e4107d727ec78067556c43b77443"
+}

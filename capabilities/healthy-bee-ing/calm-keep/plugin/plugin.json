@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Glee-fully Tools",
+    "url": "https://overkillhill.com"
+  },
+  "description": "Stress, rest, and micro-move nudges for balance",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "skills"
+        ],
+        "category": "Other",
+        "composerIcon": "./assets/gpt-icon.png",
+        "defaultPrompt": [
+          "Check my stress trend this week",
+          "Log my sleep quality",
+          "Give me a quick breathing reset"
+        ],
+        "developerName": "Glee-fully Tools",
+        "displayName": "Calm Keep by Glee-fully",
+        "logo": "./assets/gpt-icon.png",
+        "longDescription": "Stress, rest, and micro-move nudges for balance",
+        "shortDescription": "Stress, rest, and micro-move nudges for balance"
+      }
+    }
+  },
+  "name": "gpt-579e2eed12e443556b044617e55d3e71",
+  "version": "0.7.1+bundle.15b734084e87a4cc902cc579572ef687"
+}

@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Glee-fully Tools",
+    "url": "https://overkillhill.com"
+  },
+  "description": "Catalog and savor your wine, whiskey, and spirits collection — including bottle photos, tasting notes, gift history, and pairing ideas. A joyful logbook for collectors and connoisseurs, from the Glee-fully Personalizable Tools suite.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "skills"
+        ],
+        "category": "Other",
+        "composerIcon": "./assets/gpt-icon.png",
+        "defaultPrompt": [
+          "“Let’s start logging my wine collection.”",
+          "“Scan this whiskey label and help me add it.”",
+          "“What’s in my cabinet that I haven’t opened yet?”"
+        ],
+        "developerName": "Glee-fully Tools",
+        "displayName": "Spirited Journal by Glee-fully",
+        "logo": "./assets/gpt-icon.png",
+        "longDescription": "Catalog and savor your wine, whiskey, and spirits collection — including bottle photos, tasting notes, gift history, and pairing ideas. A joyful logbook for collectors and connoisseurs, from the Glee-fully Personalizable Tools suite.",
+        "shortDescription": "Catalog and savor your wine, whiskey, and spirits collection — including bottle photos, tasting notes, gift history, and pairing ideas. A joyful logbook for collectors and connoisseurs, from the Glee-fully Personalizable Tools suite."
+      }
+    }
+  },
+  "name": "gpt-743a681fd71eb0be8d1ee06b40331136",
+  "version": "0.15.1+bundle.cd699dcc537310a4885869cec2ae97fb"
+}

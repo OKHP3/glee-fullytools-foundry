@@ -1,0 +1,27 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Glee-fully Tools",
+    "url": "https://overkillhill.com"
+  },
+  "description": "Pantry Shopper bridges the gap between the recipes you love and the ingredients you have. It transforms your meal planning into dynamic shopping lists and gives you real-time insight into what’s in your pantry, so you always know what to buy, what to use, and what to make next.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "skills"
+        ],
+        "category": "Other",
+        "composerIcon": "./assets/gpt-icon.png",
+        "defaultPrompt": [],
+        "developerName": "Glee-fully Tools",
+        "displayName": "Pantry Shopper by Glee-fully",
+        "logo": "./assets/gpt-icon.png",
+        "longDescription": "Pantry Shopper bridges the gap between the recipes you love and the ingredients you have. It transforms your meal planning into dynamic shopping lists and gives you real-time insight into what’s in your pantry, so you always know what to buy, what to use, and what to make next.",
+        "shortDescription": "Pantry Shopper bridges the gap between the recipes you love and the ingredients you have. It transforms your meal planning into dynamic shopping lists and gives you real-time insight into what’s in your pantry, so you always know what to bu"
+      }
+    }
+  },
+  "name": "gpt-79c2f5e183785f75d5aabe5e1ff714bb",
+  "version": "0.8.1+bundle.7f2e7adaab9b457823e8ce2bc8416f8d"
+}

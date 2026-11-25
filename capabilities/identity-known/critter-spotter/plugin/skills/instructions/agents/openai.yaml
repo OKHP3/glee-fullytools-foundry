@@ -1,0 +1,5 @@
+interface:
+  default_prompt: Can you ID this wild animal?
+  display_name: Critter Spotter by Glee-fully
+  short_description: IDs animals, pets, bugs, and wildlife with trivia and joyful
+    han

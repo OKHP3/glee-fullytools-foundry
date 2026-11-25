@@ -1,0 +1,27 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Glee-fully Tools",
+    "url": "https://overkillhill.com"
+  },
+  "description": "Flavor Meister is your joyful digital recipe box — one that remembers how you felt about every dish. Whether it’s a beloved casserole, a five-star curry, or a new recipe you’re unsure about, this tool helps you store, rate, and tag meals by mood, flavor, ingredients, and more.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "skills"
+        ],
+        "category": "Other",
+        "composerIcon": "./assets/gpt-icon.png",
+        "defaultPrompt": [],
+        "developerName": "Glee-fully Tools",
+        "displayName": "Flavor Meister by Glee-fully",
+        "logo": "./assets/gpt-icon.png",
+        "longDescription": "Flavor Meister is your joyful digital recipe box — one that remembers how you felt about every dish. Whether it’s a beloved casserole, a five-star curry, or a new recipe you’re unsure about, this tool helps you store, rate, and tag meals by mood, flavor, ingredients, and more.",
+        "shortDescription": "Flavor Meister is your joyful digital recipe box — one that remembers how you felt about every dish. Whether it’s a beloved casserole, a five-star curry, or a new recipe you’re unsure about, this tool helps you store, rate, and tag meals by"
+      }
+    }
+  },
+  "name": "gpt-354a9d5ac30a02012ffab07671e2b74f",
+  "version": "0.7.1+bundle.ee2bd37de12c02f1dbc9bc37c9ec87b4"
+}

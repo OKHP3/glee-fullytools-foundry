@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Glee-fully Tools",
+    "url": "https://overkillhill.com"
+  },
+  "description": "The canon-sealed Forge and Branch Tool mold — radiant, modular, and joyful.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "skills"
+        ],
+        "category": "Other",
+        "composerIcon": "./assets/gpt-icon.png",
+        "defaultPrompt": [
+          "Prefill this Branch Tool for Treasured Finds.",
+          "Demonstrate your visit-aware flow in action.",
+          "Show me how you rotate Glee-isms and tone modes."
+        ],
+        "developerName": "Glee-fully Tools",
+        "displayName": "Glee-fully Grounded",
+        "logo": "./assets/gpt-icon.png",
+        "longDescription": "The canon-sealed Forge and Branch Tool mold — radiant, modular, and joyful.",
+        "shortDescription": "The canon-sealed Forge and Branch Tool mold — radiant, modular, and joyful."
+      }
+    }
+  },
+  "name": "gpt-ee641cf42a44e53459333cc2a4bdc037",
+  "version": "0.18.1+bundle.ec404a9de38cb789e2ff9e034ddd3511"
+}

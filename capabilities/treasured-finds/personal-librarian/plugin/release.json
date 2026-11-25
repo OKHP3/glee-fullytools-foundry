@@ -1,0 +1,47 @@
+{
+  "formatVersion": 1,
+  "packageId": "personal-librarian",
+  "sourceVersion": "0.21.1+bundle.3ffc0c8b5d07d09af7be3853514c9893",
+  "contentReview": [
+    "Native author and interface attribution use the public Glee-fully Tools brand.",
+    "Historic links use current FoundRy routes where available. Biographical details are omitted where present."
+  ],
+  "files": [
+    {
+      "path": "plugin.json",
+      "sha256": "256cc67122c6c650a038fe5344f48eff1737a06c193f04d6f8280136dc39728f"
+    },
+    {
+      "path": "skills/instructions/SKILL.md",
+      "sha256": "b05c224c9b855b4af6661910686ee6054ca9976fc65c9cf8452b9c8599419a27"
+    },
+    {
+      "path": "skills/instructions/agents/openai.yaml",
+      "sha256": "4bd03b47fe2ded728f32bb6bf1e1b8409dbfca3b5ab39f02065cfaaa2540308e"
+    },
+    {
+      "path": "assets/gpt-icon.png",
+      "sha256": "cbc8affe724b49788f1fb27246edab5001f35b04ba80b974f26a277f891d6b7b"
+    },
+    {
+      "path": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+      "sha256": "32ee04f18a775643db8cabd15f60abff2209844256f048f7806ffdb3c52f57ac",
+      "edition": "public-derivative",
+      "review": "Public excerpt covering output structure and clarification. Operator contacts and unrelated build records are omitted.",
+      "source": "capabilities/personalizable-tools/plugin/skills/instructions/references/Operator’s Cathedral Layout 📐.md"
+    },
+    {
+      "path": "skills/instructions/references/Personal_Librarian_Download_Example.csv",
+      "sha256": "f796870f4b0ee72e1ff14902d64a54e7c058e022b137d96aa8f2f6d901a31588",
+      "source": "capabilities/treasured-finds/personal-librarian/source/examples/library/personal_librarian_download_example.csv"
+    },
+    {
+      "path": "skills/instructions/references/Personal_Librarian_Upload_Template.csv",
+      "sha256": "825d21f133d69ec8b1db757f1cc697ae0485e3a520056c23a66eb795a4026864",
+      "source": "capabilities/treasured-finds/personal-librarian/source/examples/library/personal_librarian_upload_template.csv"
+    }
+  ],
+  "sourceKnowledgeFiles": 3,
+  "omittedKnowledge": [],
+  "distribution": "Reviewed former-GPT plugin files. The native release version identifies the source. The compatibility manifest and knowledge index are generated from these files."
+}

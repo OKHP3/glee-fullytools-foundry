@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Glee-fully Tools",
+    "url": "https://overkillhill.com"
+  },
+  "description": "Supportive triage twig guiding when to rest, seek pharmacy help, or see a doctor",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "skills"
+        ],
+        "category": "Other",
+        "composerIcon": "./assets/gpt-icon.png",
+        "defaultPrompt": [
+          "I’ve had a cough for 3 days, what should I do?",
+          "This cut looks red — is it serious?",
+          "Can you score the urgency of my stomach pain?"
+        ],
+        "developerName": "Glee-fully Tools",
+        "displayName": "Care Check by Glee-fully",
+        "logo": "./assets/gpt-icon.png",
+        "longDescription": "Supportive triage twig guiding when to rest, seek pharmacy help, or see a doctor",
+        "shortDescription": "Supportive triage twig guiding when to rest, seek pharmacy help, or see a doctor"
+      }
+    }
+  },
+  "name": "gpt-eb8ecc908da52801b3f1c7c459236e3c",
+  "version": "0.11.1+bundle.167c57b17265962d4282fda9667098f8"
+}

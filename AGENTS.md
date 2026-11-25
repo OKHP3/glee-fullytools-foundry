@@ -24,7 +24,9 @@ and workflows as historical source. The original Git ancestry belongs in
 private recovery storage. The 50 legacy GitHub repositories have been deleted.
 Author product skills in each route’s `skills/<productId>/` directory and its
 evaluation cases in `evals/`. The plugin packager reads the selected skill
-and license for its archive. Link new guidance to the FoundRy capability.
+and license for its portable archive. Its `--former-gpt` option builds each
+reviewed hosted edition from the route's `plugin/` files and knowledge receipt.
+See the [hosted GPT plugin index](products/hosted-gpt-plugins.md) for all 53 routes.
 Follow the [migration contract](products/README.md) for source
 preservation and the [portable capability workflow](docs/application/portable-capabilities.md)
 for skills, adapters and evaluations.
@@ -66,8 +68,11 @@ Inferred from the repository contents:
 On November 24, 2026, GitHub confirmed deletion of the 50 legacy repositories.
 Each of their 50 original GPTs opened a private replacement plugin in the
 owner’s ChatGPT account. The [migration register](products/migration-map.json)
-records this cutover. Host behavior, installation and later changes require
-separate verification.
+records this cutover. The owner’s GPT directory also contained Icon Maker,
+Grounded and a second Healthy Bee-ing. All three have private plugins.
+The [legacy content inventory](products/legacy-content-inventory.json) records
+the original instructions, starters and knowledge-file comparisons for all 53.
+Host behavior, installation and later changes require separate verification.
 
 ## Authority and scope
 

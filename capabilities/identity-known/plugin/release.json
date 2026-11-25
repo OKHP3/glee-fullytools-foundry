@@ -1,0 +1,31 @@
+{
+  "formatVersion": 1,
+  "packageId": "identity-known",
+  "sourceVersion": "0.10.1+bundle.1d86b4fe2b5955f53a99576bfec94d41",
+  "contentReview": [
+    "Native author and interface attribution use the public Glee-fully Tools brand.",
+    "Historic links use current FoundRy routes where available. Biographical details are omitted where present."
+  ],
+  "files": [
+    {
+      "path": "plugin.json",
+      "sha256": "bc9b8762ecff1ac18bffc74ceeb09ac67325e3be592e78a01e96181ab44d086a"
+    },
+    {
+      "path": "skills/instructions/SKILL.md",
+      "sha256": "e3e7419056698581e092e9f21c51ca316806b6eafffc0db109c9f68c4ed8e45d"
+    },
+    {
+      "path": "skills/instructions/agents/openai.yaml",
+      "sha256": "9e42b0d569da93490fa75751b879205aa951ebe7e8d6ce8cc9a7ad6d90e654cc"
+    },
+    {
+      "path": "assets/gpt-icon.png",
+      "sha256": "0e5ef9a9e50a944054985c3f40badd8c169f49a1741e863c312068ecc3ceee28",
+      "source": "capabilities/personalizable-tools/plugin/assets/gpt-icon.png"
+    }
+  ],
+  "sourceKnowledgeFiles": 0,
+  "omittedKnowledge": [],
+  "distribution": "Reviewed former-GPT plugin files. The native release version identifies the source. The compatibility manifest and knowledge index are generated from these files."
+}

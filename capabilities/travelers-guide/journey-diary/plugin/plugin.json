@@ -1,0 +1,27 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Glee-fully Tools",
+    "url": "https://overkillhill.com"
+  },
+  "description": "Journey Diary is your personalized travel log — a cozy space to remember where you’ve been, what you loved, and what you’d do differently. It helps you reflect on every trip, from grand vacations to weekend getaways, capturing both the highlights and the hiccups that made them memorable.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "skills"
+        ],
+        "category": "Other",
+        "composerIcon": "./assets/gpt-icon.png",
+        "defaultPrompt": [],
+        "developerName": "Glee-fully Tools",
+        "displayName": "Journey Diary by Glee-fully",
+        "logo": "./assets/gpt-icon.png",
+        "longDescription": "Journey Diary is your personalized travel log — a cozy space to remember where you’ve been, what you loved, and what you’d do differently. It helps you reflect on every trip, from grand vacations to weekend getaways, capturing both the highlights and the hiccups that made them memorable.",
+        "shortDescription": "Journey Diary is your personalized travel log — a cozy space to remember where you’ve been, what you loved, and what you’d do differently. It helps you reflect on every trip, from grand vacations to weekend getaways, capturing both the high"
+      }
+    }
+  },
+  "name": "gpt-26892d9dca4f2ee5aa91490fda00c56f",
+  "version": "0.4.1+bundle.d282ff6d76f275f571f567e3167f681b"
+}

@@ -1,0 +1,4 @@
+interface:
+  default_prompt: Log today’s hot flashes and sleep quality
+  display_name: Maven Wise
+  short_description: Sage twig for midlife and hormonal well-being

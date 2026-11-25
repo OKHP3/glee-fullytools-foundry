@@ -1,0 +1,141 @@
+{
+  "formatVersion": 1,
+  "packageId": "grounded",
+  "sourceVersion": "0.18.1+bundle.ec404a9de38cb789e2ff9e034ddd3511",
+  "contentReview": [
+    "Native author and interface attribution use the public Glee-fully Tools brand."
+  ],
+  "files": [
+    {
+      "path": "plugin.json",
+      "sha256": "3c7bf1b6ccc18c0b3f7acb06a7939e5b17947cc612b9b1142ee373418a8323ef"
+    },
+    {
+      "path": "skills/instructions/SKILL.md",
+      "sha256": "a1550a6bfaefc35d73f75f09160ce64ec271a8bbb09c371ccc4bf4bc6711c0cd"
+    },
+    {
+      "path": "skills/instructions/agents/openai.yaml",
+      "sha256": "a6ecec6c90b4df86b91265589ade8d7e2f8ed9e46ce901514fe0360a6f910fca"
+    },
+    {
+      "path": "assets/gpt-icon.png",
+      "sha256": "917d630f391f184c391e6402a6bbfa320450b746ac24db6159d58b4e0ba076f6",
+      "source": "capabilities/personalizable-tools/icon-maker/plugin/assets/gpt-icon.png"
+    },
+    {
+      "path": "skills/instructions/references/Canon Ruling Order by dataLedger_v3 v4.2.md",
+      "sha256": "7e9bbc38f20e0a93a1bd7bd579bc6ed85e367a3286d759356489a6b6d27e7083"
+    },
+    {
+      "path": "skills/instructions/references/Custom GPT Instruction Block Template (GPT‑5 Era Best Practices).md",
+      "sha256": "f9117deb5a4e50665b9b8eeb048779feb12b0f58b4702bfc7212aa1db9710ef7",
+      "edition": "public-derivative",
+      "review": "Public text edition of the listed source pages. The original PDF annotations, attachment locators and source appendix are omitted.",
+      "originalName": "Custom GPT Instruction Block Template (GPT‑5 Era Best Practices).pdf"
+    },
+    {
+      "path": "skills/instructions/references/Detecting Semantic Interference in Prompt Engineering_ Methodologies and Ideal Practices.md",
+      "sha256": "ed0df92f7027afec16d0a2a8a37abbd24c3af08a43785381ec80085b1711843a",
+      "edition": "public-derivative",
+      "review": "Public text edition of the listed source pages. The original PDF annotations, attachment locators and source appendix are omitted.",
+      "originalName": "Detecting Semantic Interference in Prompt Engineering_ Methodologies and Ideal Practices.pdf"
+    },
+    {
+      "path": "skills/instructions/references/GPT Pulsebook Evaluation v1.6.md",
+      "sha256": "9c270a7529ad580d65a9ec8914ee814bbd216721eb37844da6b5451e98d376e2",
+      "source": "evaluation/gpt-pulsebook-evaluation-v1-6.md"
+    },
+    {
+      "path": "skills/instructions/references/GPT Pulsebook Evaluation v1.7.md",
+      "sha256": "9f372633bca3dba61982c9dcd1b25429c1e258c009dc25dfb23e30a5f88b3234",
+      "source": "evaluation/gpt-pulsebook-evaluation-v1-7.md"
+    },
+    {
+      "path": "skills/instructions/references/GPT-5 Era Custom GPT Instruction Blocks – __Canonical Design Masterfile__.md",
+      "sha256": "ece770c1f7513d8efbbb3f2ef5aefa1051b80ce49077cc231d54c4b1cf891153",
+      "edition": "public-derivative",
+      "review": "Public text edition of the listed source pages. The original PDF annotations, attachment locators and source appendix are omitted.",
+      "originalName": "GPT-5 Era Custom GPT Instruction Blocks – __Canonical Design Masterfile__.pdf"
+    },
+    {
+      "path": "skills/instructions/references/Glee-fully Super Template v1.2.md",
+      "sha256": "1ebe8762be5231bfc021e9da2a1e11339388d368393895390dda9f19cfb2bd02",
+      "edition": "public-derivative",
+      "review": "Public excerpt covering the branch directory, visit behavior, output formats and conversation starters. Operator contacts and biographies are omitted."
+    },
+    {
+      "path": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+      "sha256": "32ee04f18a775643db8cabd15f60abff2209844256f048f7806ffdb3c52f57ac",
+      "edition": "public-derivative",
+      "review": "Public excerpt covering output structure and clarification. Operator contacts and unrelated build records are omitted.",
+      "source": "capabilities/personalizable-tools/plugin/skills/instructions/references/Operator’s Cathedral Layout 📐.md"
+    },
+    {
+      "path": "skills/instructions/references/Optimal Instruction Block Structure for a Custom GPT.md",
+      "sha256": "fa82cb5534a2989345dff5f2ee56c14910eec4814ffd83f0f480c329441cd240",
+      "edition": "public-derivative",
+      "review": "Public text edition of the listed source pages. The original PDF annotations, attachment locators and source appendix are omitted.",
+      "originalName": "Optimal Instruction Block Structure for a Custom GPT.pdf"
+    },
+    {
+      "path": "skills/instructions/references/RAG and RIS Implementation Bundle.pdf",
+      "sha256": "d919af551b680b50ae5236d14d0c2a981dad58cea246869b1fc1bd9b5089318f"
+    },
+    {
+      "path": "skills/instructions/references/Viability and Compliance of the RIS System and Canonical Ledger Approach.md",
+      "sha256": "257cf8178ff1e86e58f7ea33856d9c23c4826434b665b5a93855aa8a497e2275",
+      "edition": "public-derivative",
+      "review": "Public text edition of the listed source pages. The original PDF annotations, attachment locators and source appendix are omitted.",
+      "originalName": "Viability and Compliance of the RIS System and Canonical Ledger Approach.pdf"
+    },
+    {
+      "path": "skills/instructions/references/dataLedger_hydration_v3.md",
+      "sha256": "684d4546cdcd8957f1dd5eb0fd4cab991f9507f4c923c197b7bf82c9f56f97e8",
+      "edition": "public-derivative",
+      "review": "Public reference with a blank handoff. Historical conversation and account locators are omitted.",
+      "source": "capabilities/personalizable-tools/plugin/skills/instructions/references/dataLedger_hydration_v3.md"
+    },
+    {
+      "path": "skills/instructions/references/dataLedger_parameters_v3.md",
+      "sha256": "6cd115b5e1d49098d045de3a5a0c5ac80841ddfee8a08d89c44b7bbb326d29a6",
+      "source": "canon/dataledger-parameters-v3.md"
+    },
+    {
+      "path": "skills/instructions/references/dataLedger_persona_v3.md",
+      "sha256": "8bcc954a856b10864970060f2bf2095c7cef2b9765576b430c69ce682b7272bd",
+      "source": "canon/dataledger-persona-v3.md"
+    },
+    {
+      "path": "skills/instructions/references/dataLedger_registry_v3.md",
+      "sha256": "4a5b4dabe63b1ab479a9130c999c5a23980f6d527cd19211e49f6238601ee4f3",
+      "source": "canon/dataledger-registry-v3.md"
+    },
+    {
+      "path": "skills/instructions/references/dataLedger_system_v3.md",
+      "sha256": "dc0902db91a8071a8f04e884b453ffec9dde0d9460c12ae8ff125da17b5ec0ad",
+      "source": "canon/dataledger-system-v3.md"
+    },
+    {
+      "path": "skills/instructions/references/semantic_interference_detection_monolith_PATCHED.md",
+      "sha256": "f86ebbb5908ea37e1eb83fda71fb85290adfe87b2d0155d41e361f3f3ebacf5d"
+    },
+    {
+      "path": "skills/instructions/references/🏗️ Custom GPT Instruction Block — Master Template.md",
+      "sha256": "7b3152526509c1b67b518b35771890a3399b4e31a1324d4889907877919f8484"
+    },
+    {
+      "path": "skills/instructions/references/🦋 Glee‑fully Vernacular Complete.md",
+      "sha256": "934ead090f92f7cc2ac6725dab0a022603d487b52be0eb0b7596de3e4d7be43c",
+      "source": "docs/source-material/glee‑fully-vernacular-complete_1782332849642.md"
+    },
+    {
+      "path": "skills/instructions/references/🦋 Glee‑fully Vernacular Lite.md",
+      "sha256": "1b28b0eef54186cf95ca25693c9c476740d67ab294fb6f106972fb2ce5a2183a",
+      "source": "vernacular/glee-fully-vernacular-lite.md"
+    }
+  ],
+  "sourceKnowledgeFiles": 20,
+  "omittedKnowledge": [],
+  "distribution": "Reviewed former-GPT plugin files. The native release version identifies the source. The compatibility manifest and knowledge index are generated from these files."
+}

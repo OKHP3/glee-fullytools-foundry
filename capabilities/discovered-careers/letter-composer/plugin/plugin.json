@@ -1,0 +1,27 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Glee-fully Tools",
+    "url": "https://overkillhill.com"
+  },
+  "description": "Letter Composer generates customized cover letters that don’t sound robotic. It uses your resume and the job description to draft something professional, personal, and persuasive — no templates needed.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "skills"
+        ],
+        "category": "Productivity",
+        "composerIcon": "./assets/gpt-icon.png",
+        "defaultPrompt": [],
+        "developerName": "Glee-fully Tools",
+        "displayName": "Letter Composer by Glee-fully",
+        "logo": "./assets/gpt-icon.png",
+        "longDescription": "Letter Composer generates customized cover letters that don’t sound robotic. It uses your resume and the job description to draft something professional, personal, and persuasive — no templates needed.",
+        "shortDescription": "Letter Composer generates customized cover letters that don’t sound robotic. It uses your resume and the job description to draft something professional, personal, and persuasive — no templates needed."
+      }
+    }
+  },
+  "name": "gpt-9d424ac5f3b71897d82937595fc93c19",
+  "version": "0.12.1+bundle.7f9f5f6f67cbdd633775197a089cfb03"
+}

@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Glee-fully Tools",
+    "url": "https://overkillhill.com"
+  },
+  "description": "Route tasks, gifts, bills, and habits to the right GPT in seconds. Glee-fully Organized Life is your quarterback for calm: reading your needs, passing the ball to the best Tool-ette, and coaching you toward structure — clipboard-first and chaos-resistant.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "skills"
+        ],
+        "category": "Productivity",
+        "composerIcon": "./assets/gpt-icon.png",
+        "defaultPrompt": [
+          "“Which Tool-ette matches my vibe?”",
+          "“Help me pick based on stress level.”",
+          "“Can I sync with my calendar?”"
+        ],
+        "developerName": "Glee-fully Tools",
+        "displayName": "Organized Life by Glee-fully",
+        "logo": "./assets/gpt-icon.png",
+        "longDescription": "Route tasks, gifts, bills, and habits to the right GPT in seconds. Glee-fully Organized Life is your quarterback for calm: reading your needs, passing the ball to the best Tool-ette, and coaching you toward structure — clipboard-first and chaos-resistant.",
+        "shortDescription": "Route tasks, gifts, bills, and habits to the right GPT in seconds. Glee-fully Organized Life is your quarterback for calm: reading your needs, passing the ball to the best Tool-ette, and coaching you toward structure — clipboard-first and c"
+      }
+    }
+  },
+  "name": "gpt-6ad7bb1cc491325d57ea6eb356be4187",
+  "version": "0.17.1+bundle.37908ccfdb53dbcb4375a0afcc56b6a4"
+}

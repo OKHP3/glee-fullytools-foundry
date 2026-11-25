@@ -1,0 +1,93 @@
+{
+  "formatVersion": 1,
+  "packageId": "dreamland-journeys",
+  "sourceVersion": "0.14.1+bundle.06d4a37109963f94b69bf14a051a000d",
+  "contentReview": [
+    "Native author and interface attribution use the public Glee-fully Tools brand.",
+    "Historic links use current FoundRy routes where available. Biographical details are omitted where present."
+  ],
+  "files": [
+    {
+      "path": "plugin.json",
+      "sha256": "45724f45082bd9b0287dc31a302fe82ec6aae85b1eb1f682ffff1880a65bf695"
+    },
+    {
+      "path": "skills/instructions/SKILL.md",
+      "sha256": "03c3685d1b00fde6b1f14b0e444bf3b0e1b4de2fccfd0cd504049a0104087e2c"
+    },
+    {
+      "path": "skills/instructions/agents/openai.yaml",
+      "sha256": "b8b3edd8643604063727db462ba94173635ea0d86ab9bcc321179470b4f31ed5"
+    },
+    {
+      "path": "assets/gpt-icon.png",
+      "sha256": "155badea0d7903fd2142c80165dbf6a58d2109ef8114e1ffe099d20620b347c8"
+    },
+    {
+      "path": "skills/instructions/references/DreamMood_Tags.csv",
+      "sha256": "b7031332b7834e996aa39b3193541751526d7da5f651bdc5af9125dfff449dca",
+      "source": "capabilities/travelers-guide/dreamland-journeys/source/references/dreammood_tags.csv"
+    },
+    {
+      "path": "skills/instructions/references/Dreamland_Journeys_PME.yaml",
+      "sha256": "03ce3444ac8578b23fe979bfddcbe02a59041782e7dd81f58a060621c5606ce0",
+      "source": "capabilities/travelers-guide/dreamland-journeys/source/specifications/dreamland_journeys_pme.yaml"
+    },
+    {
+      "path": "skills/instructions/references/Glee–fully Square Dreamland Journeys.png",
+      "sha256": "a3f7e2e11196d335a2b6406e0b2353f40e6ed0ab8cb173d06dee8e7916013408"
+    },
+    {
+      "path": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+      "sha256": "32ee04f18a775643db8cabd15f60abff2209844256f048f7806ffdb3c52f57ac",
+      "edition": "public-derivative",
+      "review": "Public excerpt covering output structure and clarification. Operator contacts and unrelated build records are omitted.",
+      "source": "capabilities/personalizable-tools/plugin/skills/instructions/references/Operator’s Cathedral Layout 📐.md"
+    },
+    {
+      "path": "skills/instructions/references/ReverseDreamPromptBank.md",
+      "sha256": "96ed5d58b98a38e489a48b03e1d30f6ab1f783e1add59fdb3fd0e846ced21d19",
+      "source": "capabilities/travelers-guide/dreamland-journeys/source/prompts/reversedreampromptbank.md"
+    },
+    {
+      "path": "skills/instructions/references/Status_Snapshot_Template.md",
+      "sha256": "864937e5146bc66e0bc1db786afe584c7134526697184089c52dc76b79be35c3",
+      "source": "capabilities/travelers-guide/dreamland-journeys/source/templates/status_snapshot_template.md"
+    },
+    {
+      "path": "skills/instructions/references/Wishboard_Moodboards.md",
+      "sha256": "48a1c97e94820b2b894e169dc1cba47174da3010d89475ad6e2b153a8b3e9a28",
+      "source": "capabilities/travelers-guide/dreamland-journeys/source/references/wishboard_moodboards.md"
+    },
+    {
+      "path": "skills/instructions/references/dataLedger_hydration_v3.md",
+      "sha256": "684d4546cdcd8957f1dd5eb0fd4cab991f9507f4c923c197b7bf82c9f56f97e8",
+      "edition": "public-derivative",
+      "review": "Public reference with a blank handoff. Historical conversation and account locators are omitted.",
+      "source": "capabilities/personalizable-tools/plugin/skills/instructions/references/dataLedger_hydration_v3.md"
+    },
+    {
+      "path": "skills/instructions/references/dataLedger_parameters_v3.md",
+      "sha256": "6cd115b5e1d49098d045de3a5a0c5ac80841ddfee8a08d89c44b7bbb326d29a6",
+      "source": "canon/dataledger-parameters-v3.md"
+    },
+    {
+      "path": "skills/instructions/references/dataLedger_persona_v3.md",
+      "sha256": "8bcc954a856b10864970060f2bf2095c7cef2b9765576b430c69ce682b7272bd",
+      "source": "canon/dataledger-persona-v3.md"
+    },
+    {
+      "path": "skills/instructions/references/dataLedger_registry_v3.md",
+      "sha256": "4a5b4dabe63b1ab479a9130c999c5a23980f6d527cd19211e49f6238601ee4f3",
+      "source": "canon/dataledger-registry-v3.md"
+    },
+    {
+      "path": "skills/instructions/references/dataLedger_system_v3.md",
+      "sha256": "dc0902db91a8071a8f04e884b453ffec9dde0d9460c12ae8ff125da17b5ec0ad",
+      "source": "canon/dataledger-system-v3.md"
+    }
+  ],
+  "sourceKnowledgeFiles": 12,
+  "omittedKnowledge": [],
+  "distribution": "Reviewed former-GPT plugin files. The native release version identifies the source. The compatibility manifest and knowledge index are generated from these files."
+}

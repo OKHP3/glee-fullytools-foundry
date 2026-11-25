@@ -1,0 +1,122 @@
+{
+  "formatVersion": 1,
+  "packageId": "icon-maker",
+  "sourceVersion": "0.7.1+bundle.bc8a93dd23ec7730e47a2cce174de590",
+  "contentReview": [
+    "Native author and interface attribution use the public Glee-fully Tools brand."
+  ],
+  "files": [
+    {
+      "path": "plugin.json",
+      "sha256": "1edddc9025691ce18c13bb59ee5671264f161b54200f2975b5e23f55d8c57a04"
+    },
+    {
+      "path": "skills/instructions/SKILL.md",
+      "sha256": "28ae8ba167089e927d7b48a523435b4c46c2386b35dc786dd5d02d2d25af18bd"
+    },
+    {
+      "path": "skills/instructions/agents/openai.yaml",
+      "sha256": "84a0674be168aff338c205aea5795253c187551de20ffd24b764c7be69e07cf9"
+    },
+    {
+      "path": "assets/gpt-icon.png",
+      "sha256": "917d630f391f184c391e6402a6bbfa320450b746ac24db6159d58b4e0ba076f6"
+    },
+    {
+      "path": "skills/instructions/references/02 Glee-fully Square Treasured Finds.png",
+      "sha256": "2e6fd1845a5726aa02a556de479acd5536a7e28b55105c063f6c97a60e78be68"
+    },
+    {
+      "path": "skills/instructions/references/02a Glee-fully Square Personal Librarian.b.png",
+      "sha256": "47b800d63ff40c9d99dd7ecff4ba8b7c2f2658f90fb8df1b82fe2551d982dd1f"
+    },
+    {
+      "path": "skills/instructions/references/02d Glee–fully Square Scentinal Journal.png",
+      "sha256": "bf7b41e745fe03ec4d2bfdf601b71118cb83b0c19e5302562a4aa8984084ec5e"
+    },
+    {
+      "path": "skills/instructions/references/Brand Origin Story.docx",
+      "sha256": "40ad4ecc44f7ba894b8a03f1d8cea45bc104dcf819753e7fd7e406bee3959092",
+      "source": "docs/brand-origin-story.docx"
+    },
+    {
+      "path": "skills/instructions/references/Content synthesis for Glee-fully.pdf",
+      "sha256": "6ae618be996e914859b508d7c7c5fbda56ab5ac5d704e0c59caf166f6ee1ac4d",
+      "source": "docs/content-synthesis-for-glee-fully.pdf"
+    },
+    {
+      "path": "skills/instructions/references/Glee GPT MEMORY.md",
+      "sha256": "f2338a99066f15bcb6e22cb5b6501dfdd257746fafd57d61706b90fbf275751f",
+      "edition": "public-derivative",
+      "review": "Design recipe from the original memory record. Personal and operational notes are omitted."
+    },
+    {
+      "path": "skills/instructions/references/Glee-fully Banner Tools 4.png",
+      "sha256": "34db756cdae79f4e76c4f9b5f0457988dbd35e9f62e126f101439fb50440b4be"
+    },
+    {
+      "path": "skills/instructions/references/Glee-fully Banner Tools 5.png",
+      "sha256": "498d491440ec4dc6b7883c68b07dabb45a29e2164bb1637d0fa030aac702ab17"
+    },
+    {
+      "path": "skills/instructions/references/Glee-fully Banner Tools 6.png",
+      "sha256": "c1881ba9fe5344a4ef7c116db4a8aba9ff8413bb3f7098c1a7fb85eac9673c66"
+    },
+    {
+      "path": "skills/instructions/references/Glee-fully Square Tools.png",
+      "sha256": "ba3b0da31f77df7f1e2ec90aa277c45cba7eadcbbc9e72470a428cbf3324c2fc",
+      "source": "capabilities/personalizable-tools/plugin/skills/instructions/references/Glee-fully Square Tools.png"
+    },
+    {
+      "path": "skills/instructions/references/Glee-fully_Tools_MegaPrompt.md",
+      "sha256": "6951a83bc9db10d5ff165847733761b9919d6d5dbc73e0ec4800e15e56b2cb69",
+      "source": "prompts/glee-fully-tools-megaprompt.md"
+    },
+    {
+      "path": "skills/instructions/references/Gleefully Narrative Overview.pdf",
+      "sha256": "1cfd2ca7543f3d7796b1e7ee1902248ba47915eb6dd614dc89acda2bad37f688",
+      "source": "docs/gleefully-narrative-overview.pdf"
+    },
+    {
+      "path": "skills/instructions/references/Gleefully Technical Overview.pdf",
+      "sha256": "765e78c95ed7ec08a94ce7c16c6a1907609036c8ab9433e817527dba72842488",
+      "source": "docs/gleefully-technical-overview.pdf"
+    },
+    {
+      "path": "skills/instructions/references/Glee–fully Square Career Seeker.png",
+      "sha256": "bcc3934d9d76dddb88d5c4138cabaebf44862e6ba8875a15214f5845cb9e7a14"
+    },
+    {
+      "path": "skills/instructions/references/Glee–fully Square Detour Discoverer.png",
+      "sha256": "db4f162b9b36afe6ccb666d55a481bc8bb415054e8f4e430ce1522d4ed2acd05"
+    },
+    {
+      "path": "skills/instructions/references/Glee–fully Square Memento Log.png",
+      "sha256": "aa3f6ea17dddefe8583d8c861ed3af55cd7f1b57225ba1907b4cce46ec102175",
+      "source": "capabilities/travelers-guide/memento-log/plugin/skills/instructions/references/Glee–fully Square Memento Log.png"
+    },
+    {
+      "path": "skills/instructions/references/Glee–fully Square Pantry Shopper.png",
+      "sha256": "9d70036b5193b9445ae708a1bee47857e21c4a6ebbdbde9515b1ec91fc895703"
+    },
+    {
+      "path": "skills/instructions/references/Glee–fully Square Thrifty Spender.png",
+      "sha256": "e6849c51dd382002cee84b39deb24dea5ff7a50eaba4d0e86cc5006971b78d51",
+      "source": "capabilities/organized-life/thrifty-spender/plugin/skills/instructions/references/Glee–fully Square Thrifty Spender.png"
+    },
+    {
+      "path": "skills/instructions/references/Glee–fully Square bLinkIn Tuner.png",
+      "sha256": "8e0b90f5714f498f6ccd6873d414bf90c911574ff8d698237e94dd57b304f890"
+    },
+    {
+      "path": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+      "sha256": "32ee04f18a775643db8cabd15f60abff2209844256f048f7806ffdb3c52f57ac",
+      "edition": "public-derivative",
+      "review": "Public excerpt covering output structure and clarification. Operator contacts and unrelated build records are omitted.",
+      "source": "capabilities/personalizable-tools/plugin/skills/instructions/references/Operator’s Cathedral Layout 📐.md"
+    }
+  ],
+  "sourceKnowledgeFiles": 20,
+  "omittedKnowledge": [],
+  "distribution": "Reviewed former-GPT plugin files. The native release version identifies the source. The compatibility manifest and knowledge index are generated from these files."
+}

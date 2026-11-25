@@ -1,0 +1,136 @@
+{
+  "formatVersion": 1,
+  "packageId": "neighborly-bazaar",
+  "sourceVersion": "0.18.1+bundle.78375b86d6c37f6cc8288985525ec23d",
+  "contentReview": [
+    "Native author and interface attribution use the public Glee-fully Tools brand.",
+    "Historic links use current FoundRy routes where available. Biographical details are omitted where present."
+  ],
+  "files": [
+    {
+      "path": "plugin.json",
+      "sha256": "a0a8d7963287c54894b7ce8f18dd803dbccdadfe9edf64ae8fff20bf2c34e2e6"
+    },
+    {
+      "path": "skills/instructions/SKILL.md",
+      "sha256": "40d4a3ad38fc2445ff8970ea18b5f47e86fa92b6df4b47a45d862be58868eab3"
+    },
+    {
+      "path": "skills/instructions/agents/openai.yaml",
+      "sha256": "be037058eb95a7baa878c863ee2d2cc9e774456ac868ce7dd6e910a99c27722f"
+    },
+    {
+      "path": "assets/gpt-icon.png",
+      "sha256": "fa3fad09029910154163401c40fce00410e4252413fc4309527d678780b9c3ca"
+    },
+    {
+      "path": "skills/instructions/references/#05f - Neighborly Bazaar_ Knowledge 01.docx",
+      "sha256": "1079390de64bebb2fdf33241e29bfe314e31def92597613ee1585d7e02ab33b4",
+      "source": "capabilities/organized-life/neighborly-bazaar/source/knowledge/neighborly-bazaar-knowledge-01.docx"
+    },
+    {
+      "path": "skills/instructions/references/#05f - Neighborly Bazaar_ Knowledge 02.docx",
+      "sha256": "88506993868fd529f65b5d8c05715f73b3ae0db48925270b132ae75bdfb651e2",
+      "source": "capabilities/organized-life/neighborly-bazaar/source/knowledge/neighborly-bazaar-knowledge-02.docx"
+    },
+    {
+      "path": "skills/instructions/references/#05f - Neighborly Bazaar_ Knowledge 03.docx",
+      "sha256": "08bb3dde4e7905d01f9d05c5811391f7cfef1d90d8b2134f4e01d858445e0cc0",
+      "source": "capabilities/organized-life/neighborly-bazaar/source/knowledge/neighborly-bazaar-knowledge-03.docx"
+    },
+    {
+      "path": "skills/instructions/references/#05f - Neighborly Bazaar_ Knowledge 04.docx",
+      "sha256": "399655c98754ab303067c9343fe1360832ecca473b19af841b4c61eb2008b5eb",
+      "source": "capabilities/organized-life/neighborly-bazaar/source/knowledge/neighborly-bazaar-knowledge-04.docx"
+    },
+    {
+      "path": "skills/instructions/references/#05f - Neighborly Bazaar_ Knowledge 05.docx",
+      "sha256": "f20705bc8f393993ff029f3e74544e73e122fb7f3f876be08f5f62f7daff863e",
+      "source": "capabilities/organized-life/neighborly-bazaar/source/knowledge/neighborly-bazaar-knowledge-05.docx"
+    },
+    {
+      "path": "skills/instructions/references/#05f - Neighborly Bazaar_ Knowledge 06.docx",
+      "sha256": "d9d7b39a164d7ad8c736d22b5b343fae8576e2f9875e29e538b9943b5356c40d",
+      "source": "capabilities/organized-life/neighborly-bazaar/source/knowledge/neighborly-bazaar-knowledge-06.docx"
+    },
+    {
+      "path": "skills/instructions/references/#05f - Neighborly Bazaar_ Knowledge 07.docx",
+      "sha256": "751926d15825c53d41b252866b5095c050e449744874345abf92e29d39bb6fe7",
+      "source": "capabilities/organized-life/neighborly-bazaar/source/knowledge/neighborly-bazaar-knowledge-07.docx"
+    },
+    {
+      "path": "skills/instructions/references/#05f - Neighborly Bazaar_ Knowledge 08.docx",
+      "sha256": "5cba26abad26b2623fa5bc7a347d8d6aea00b5ae5eadd6f293d36ea74f42eff0",
+      "source": "capabilities/organized-life/neighborly-bazaar/source/knowledge/neighborly-bazaar-knowledge-08.docx"
+    },
+    {
+      "path": "skills/instructions/references/#05f - Neighborly Bazaar_ Knowledge 09.docx",
+      "sha256": "e6eb112b09840a30d3f64295140e2f3ff01007d6276c60e969cf511771032f41",
+      "source": "capabilities/organized-life/neighborly-bazaar/source/knowledge/neighborly-bazaar-knowledge-09.docx"
+    },
+    {
+      "path": "skills/instructions/references/#05f - Neighborly Bazaar_ Knowledge 10.md",
+      "sha256": "12e2238631d19a642e43911fd1efde3b639e47627773669ede1276dae275d506",
+      "edition": "public-derivative",
+      "review": "Public text edition. Embedded pictures and original document metadata are omitted.",
+      "originalName": "#05f - Neighborly Bazaar_ Knowledge 10.docx"
+    },
+    {
+      "path": "skills/instructions/references/#05f - Neighborly Bazaar_ Knowledge 11.docx",
+      "sha256": "c1e38ee0196139507fd56359dcff05b5f3e29986d7eb26f0dc534bca74483da5",
+      "source": "capabilities/organized-life/neighborly-bazaar/source/knowledge/neighborly-bazaar-knowledge-11.docx"
+    },
+    {
+      "path": "skills/instructions/references/#05f - Neighborly Bazaar_ Knowledge 12.docx",
+      "sha256": "0f1f913129d7c228488d4cd56068246a3055962539b986107afebb4221ee1cef",
+      "source": "capabilities/organized-life/neighborly-bazaar/source/knowledge/neighborly-bazaar-knowledge-12.docx"
+    },
+    {
+      "path": "skills/instructions/references/#05f - Neighborly Bazaar_ Knowledge 13.md",
+      "sha256": "b1bdb324a122247dd29914783d59978a340839a764b0f47984e96ee165d3b0d9",
+      "edition": "public-derivative",
+      "review": "Public text edition of the hosted personality and context capsule. Contact information and document metadata are omitted.",
+      "originalName": "#05f - Neighborly Bazaar_ Knowledge 13.docx"
+    },
+    {
+      "path": "skills/instructions/references/#05f - Neighborly Bazaar_ Knowledge 14.md",
+      "sha256": "9b4f748a321383f661c7416eb086d66c889b4a5faba0caa25b4f853ac83ccbe0",
+      "edition": "public-derivative",
+      "review": "Public text edition. Internal attachment citations and document metadata are omitted.",
+      "originalName": "#05f - Neighborly Bazaar_ Knowledge 14.docx"
+    },
+    {
+      "path": "skills/instructions/references/#05f - Neighborly Bazaar_ Knowledge 15.md",
+      "sha256": "f1c9617bd0170a7b7cb17a95f35d00dbe8e2396164159c27ef8f499442c86eda",
+      "edition": "public-derivative",
+      "review": "Public text edition. Internal attachment citations and document metadata are omitted.",
+      "originalName": "#05f - Neighborly Bazaar_ Knowledge 15.docx"
+    },
+    {
+      "path": "skills/instructions/references/05f Organized Life – Neighborly Bazaar.PNG",
+      "sha256": "43a1607d8cf6a3443901e02c32c4242c1b4117c085b6fc29d3e51de42b4c2ce8"
+    },
+    {
+      "path": "skills/instructions/references/Gleefully Narrative Overview.docx",
+      "sha256": "831a1241100cc41b59c6e333a730563be8ac43527b120da3c542997e3446c0ec",
+      "source": "docs/gleefully-narrative-overview.docx"
+    },
+    {
+      "path": "skills/instructions/references/Gleefully Technical Overview.docx",
+      "sha256": "58b81fb79a9c8c386a13ccb0c3f7cd61dcf5b340fd97f68d5fcb4d7754963d87",
+      "source": "docs/gleefully-technical-overview.docx"
+    },
+    {
+      "path": "skills/instructions/references/Inventory_of_Toolbox_Tools_and_Tool-ettes.md",
+      "sha256": "f9ef4407a7840b3958d147aaf60c84ad088965c761ad7a2dcc46cdfec5a674b6"
+    },
+    {
+      "path": "skills/instructions/references/🦋 Glee‑fully Vernacular Complete.md",
+      "sha256": "934ead090f92f7cc2ac6725dab0a022603d487b52be0eb0b7596de3e4d7be43c",
+      "source": "docs/source-material/glee‑fully-vernacular-complete_1782332849642.md"
+    }
+  ],
+  "sourceKnowledgeFiles": 20,
+  "omittedKnowledge": [],
+  "distribution": "Reviewed former-GPT plugin files. The native release version identifies the source. The compatibility manifest and knowledge index are generated from these files."
+}

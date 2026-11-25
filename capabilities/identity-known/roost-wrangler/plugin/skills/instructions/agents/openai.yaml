@@ -1,0 +1,4 @@
+interface:
+  default_prompt: What style is this house facade?
+  display_name: Roost Wrangler by Glee-fully
+  short_description: Identifies architectural styles & furniture design eras

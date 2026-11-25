@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Glee-fully Tools",
+    "url": "https://overkillhill.com"
+  },
+  "description": "Celebrate food, flavor, and meal planning. Organize recipes, log favorites, build menus, and track pantry needs — perfect for home cooks and food lovers. Part of the Glee-fully Personalizable Tools suite.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "skills"
+        ],
+        "category": "Other",
+        "composerIcon": "./assets/gpt-icon.png",
+        "defaultPrompt": [
+          "“Can you help me log my favorite recipes and rate them?”",
+          "“Let’s plan dinners for the next five nights.”",
+          "“Turn this chicken pasta recipe into a grocery list.”"
+        ],
+        "developerName": "Glee-fully Tools",
+        "displayName": "Tasty Tracker by Glee-fully",
+        "logo": "./assets/gpt-icon.png",
+        "longDescription": "Celebrate food, flavor, and meal planning. Organize recipes, log favorites, build menus, and track pantry needs — perfect for home cooks and food lovers. Part of the Glee-fully Personalizable Tools suite.",
+        "shortDescription": "Celebrate food, flavor, and meal planning. Organize recipes, log favorites, build menus, and track pantry needs — perfect for home cooks and food lovers. Part of the Glee-fully Personalizable Tools suite."
+      }
+    }
+  },
+  "name": "gpt-7701880f4533c4faff2d8f3312d61818",
+  "version": "0.17.1+bundle.069cf3026d8ea637d5ff0f69974722d0"
+}

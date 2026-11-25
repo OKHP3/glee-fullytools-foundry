@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Glee-fully Tools",
+    "url": "https://overkillhill.com"
+  },
+  "description": "A joyful calendar companion that helps you batch tasks, rituals, bills, and reminders into harmony. Scheduling Wizard blends smart logic, resilience prompts, and BLEED GLEE Mode to turn chaos into charm. Image, voice, and export logic fully supported.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "skills"
+        ],
+        "category": "Productivity",
+        "composerIcon": "./assets/gpt-icon.png",
+        "defaultPrompt": [
+          "“Help me structure my week with sparkle.”",
+          "“Can I link chores and calendar events?”",
+          "“What’s the best time for focused work?”"
+        ],
+        "developerName": "Glee-fully Tools",
+        "displayName": "Scheduling Wizard by Glee-fully",
+        "logo": "./assets/gpt-icon.png",
+        "longDescription": "A joyful calendar companion that helps you batch tasks, rituals, bills, and reminders into harmony. Scheduling Wizard blends smart logic, resilience prompts, and BLEED GLEE Mode to turn chaos into charm. Image, voice, and export logic fully supported.",
+        "shortDescription": "A joyful calendar companion that helps you batch tasks, rituals, bills, and reminders into harmony. Scheduling Wizard blends smart logic, resilience prompts, and BLEED GLEE Mode to turn chaos into charm. Image, voice, and export logic fully"
+      }
+    }
+  },
+  "name": "gpt-632efe08079d2c468a0277a4a5e29c4d",
+  "version": "0.11.1+bundle.b64390ee1481dbccd12cd5ce985d3de2"
+}

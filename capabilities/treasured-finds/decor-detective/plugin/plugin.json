@@ -1,0 +1,27 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Glee-fully Tools",
+    "url": "https://overkillhill.com"
+  },
+  "description": "Decor Detective helps you track, tag, and rediscover your seasonal décor across every holiday and celebration. Whether it’s Halloween spiders or Christmas garlands, it helps you know what’s in each bin, where it’s stored, and when to bring it out or pack it away with reminders and joy.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "skills"
+        ],
+        "category": "Other",
+        "composerIcon": "./assets/gpt-icon.png",
+        "defaultPrompt": [],
+        "developerName": "Glee-fully Tools",
+        "displayName": "Decor Detective by Glee-fully",
+        "logo": "./assets/gpt-icon.png",
+        "longDescription": "Decor Detective helps you track, tag, and rediscover your seasonal décor across every holiday and celebration. Whether it’s Halloween spiders or Christmas garlands, it helps you know what’s in each bin, where it’s stored, and when to bring it out or pack it away with reminders and joy.",
+        "shortDescription": "Decor Detective helps you track, tag, and rediscover your seasonal décor across every holiday and celebration. Whether it’s Halloween spiders or Christmas garlands, it helps you know what’s in each bin, where it’s stored, and when to bring "
+      }
+    }
+  },
+  "name": "gpt-6a2dc646518ea061eb3ecedd30c87847",
+  "version": "0.9.1+bundle.189157227173dd10b854b84e083cbdcb"
+}

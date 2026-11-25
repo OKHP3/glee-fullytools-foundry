@@ -1,0 +1,4 @@
+interface:
+  default_prompt: Remind me to take my evening meds
+  display_name: Medi Minder by Glee-fully
+  short_description: Keeps meds, refills, and appointments steady with gentle organiz

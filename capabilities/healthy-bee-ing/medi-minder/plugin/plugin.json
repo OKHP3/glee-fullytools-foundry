@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Glee-fully Tools",
+    "url": "https://overkillhill.com"
+  },
+  "description": "Keeps meds, refills, and appointments steady with gentle organization.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "skills"
+        ],
+        "category": "Other",
+        "composerIcon": "./assets/gpt-icon.png",
+        "defaultPrompt": [
+          "Remind me to take my evening meds",
+          "Show me when my next refill is due",
+          "Log side effects from today’s pill"
+        ],
+        "developerName": "Glee-fully Tools",
+        "displayName": "Medi Minder by Glee-fully",
+        "logo": "./assets/gpt-icon.png",
+        "longDescription": "Keeps meds, refills, and appointments steady with gentle organization.",
+        "shortDescription": "Keeps meds, refills, and appointments steady with gentle organization."
+      }
+    }
+  },
+  "name": "gpt-503d2c7608665499c1a669eccbf12705",
+  "version": "0.13.1+bundle.4233fbd6917e4d1a276b2a16f8cacc58"
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Glee-fully Tools",
+    "url": "https://overkillhill.com"
+  },
+  "description": "Career Seeker is your personal job application logbook and progress tracker. Designed for active job seekers juggling multiple roles, interviews, and deadlines, this tool-ette keeps every opportunity, status, and follow-up in one place.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "skills"
+        ],
+        "category": "Productivity",
+        "composerIcon": "./assets/gpt-icon.png",
+        "defaultPrompt": [],
+        "developerName": "Glee-fully Tools",
+        "displayName": "Career Seeker by Glee-fully",
+        "logo": "./assets/gpt-icon.png",
+        "longDescription": "Career Seeker is your personal job application logbook and progress tracker. Designed for active job seekers juggling multiple roles, interviews, and deadlines, this tool-ette keeps every opportunity, status, and follow-up in one place.",
+        "shortDescription": "Career Seeker is your personal job application logbook and progress tracker. Designed for active job seekers juggling multiple roles, interviews, and deadlines, this tool-ette keeps every opportunity, status, and follow-up in one place."
+      }
+    }
+  },
+  "name": "gpt-823dbb6feeb4999af83eb46be42ee92b",
+  "version": "0.11.1+bundle.c32ead85e81a27e9466d71848439cc3a"
+}

@@ -1,0 +1,37 @@
+{
+  "formatVersion": 1,
+  "packageId": "maven-wise",
+  "sourceVersion": "0.13.1+bundle.b357adf28eb58b1d5f78e6529d6e2015",
+  "contentReview": [
+    "Native author and interface attribution use the public Glee-fully Tools brand."
+  ],
+  "files": [
+    {
+      "path": "plugin.json",
+      "sha256": "e5692c2727391533f98a331602394b45b40c1877bdbe742abf6b925aca837c66"
+    },
+    {
+      "path": "skills/instructions/SKILL.md",
+      "sha256": "01a143d0b5542de4e782bbb78c0c2431b11ed25126b0dc0f496bdf1cdae031db"
+    },
+    {
+      "path": "skills/instructions/agents/openai.yaml",
+      "sha256": "8b62c60c95e65e9bdceea5e669b4193b4db356c0354dea00e3225c3a5743ec9f"
+    },
+    {
+      "path": "assets/gpt-icon.png",
+      "sha256": "8aca21427ac1526e6458154b416f5949baf27d470a90a7363441c48b7342ccc0",
+      "source": "capabilities/healthy-bee-ing/plugin/assets/gpt-icon.png"
+    },
+    {
+      "path": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+      "sha256": "32ee04f18a775643db8cabd15f60abff2209844256f048f7806ffdb3c52f57ac",
+      "edition": "public-derivative",
+      "review": "Public excerpt covering output structure and clarification. Operator contacts and unrelated build records are omitted.",
+      "source": "capabilities/personalizable-tools/plugin/skills/instructions/references/Operator’s Cathedral Layout 📐.md"
+    }
+  ],
+  "sourceKnowledgeFiles": 1,
+  "omittedKnowledge": [],
+  "distribution": "Reviewed former-GPT plugin files. The native release version identifies the source. The compatibility manifest and knowledge index are generated from these files."
+}

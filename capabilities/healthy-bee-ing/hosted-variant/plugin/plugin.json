@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Glee-fully Tools",
+    "url": "https://overkillhill.com"
+  },
+  "description": "The wellness hive with six supportive Tool-ettes",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "skills"
+        ],
+        "category": "Other",
+        "composerIcon": "./assets/gpt-icon.png",
+        "defaultPrompt": [
+          "Log today’s mood with a note",
+          "Show my hydration vs mood graph",
+          "Add a weekly photo entry"
+        ],
+        "developerName": "Glee-fully Tools",
+        "displayName": "Glee-fully Healthy Bee-ing",
+        "logo": "./assets/gpt-icon.png",
+        "longDescription": "The wellness hive with six supportive Tool-ettes",
+        "shortDescription": "The wellness hive with six supportive Tool-ettes"
+      }
+    }
+  },
+  "name": "gpt-4b4fc77bc399dfa3895c8d75267d3e0c",
+  "version": "0.9.1+bundle.8229faa2f5f426df753ca5e4e269f7b7"
+}

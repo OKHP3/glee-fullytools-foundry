@@ -1,0 +1,36 @@
+{
+  "formatVersion": 1,
+  "packageId": "itinerary-hacker",
+  "sourceVersion": "0.6.1+bundle.c2b64455a3525820a84b361316e5aa4b",
+  "contentReview": [
+    "Native author and interface attribution use the public Glee-fully Tools brand."
+  ],
+  "files": [
+    {
+      "path": "plugin.json",
+      "sha256": "c5a4c4cf030c1c8b8cfd2842c6474116254c429884f79b0c1d2a09518ac02ff5"
+    },
+    {
+      "path": "skills/instructions/SKILL.md",
+      "sha256": "f31070d3c10566c2894afe86955efa5bdeb87eb596843cdb89e54aea7dba5127"
+    },
+    {
+      "path": "skills/instructions/agents/openai.yaml",
+      "sha256": "b0578c988950176be2d17517667cb0952202187c7c4920db5e9a30ebed981be1"
+    },
+    {
+      "path": "assets/gpt-icon.png",
+      "sha256": "5601ae035091464808103f02ee0468a52a4ce851f9f0d5797b034a5e9994eedd"
+    },
+    {
+      "path": "skills/instructions/references/Operator’s Cathedral Layout 📐.md",
+      "sha256": "32ee04f18a775643db8cabd15f60abff2209844256f048f7806ffdb3c52f57ac",
+      "edition": "public-derivative",
+      "review": "Public excerpt covering output structure and clarification. Operator contacts and unrelated build records are omitted.",
+      "source": "capabilities/personalizable-tools/plugin/skills/instructions/references/Operator’s Cathedral Layout 📐.md"
+    }
+  ],
+  "sourceKnowledgeFiles": 1,
+  "omittedKnowledge": [],
+  "distribution": "Reviewed former-GPT plugin files. The native release version identifies the source. The compatibility manifest and knowledge index are generated from these files."
+}

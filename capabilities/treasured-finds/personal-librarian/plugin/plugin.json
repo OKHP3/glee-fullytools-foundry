@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Glee-fully Tools",
+    "url": "https://overkillhill.com"
+  },
+  "description": "Organize and track your personal book collection with ease. Ideal for readers, collectors, and gift planners — part of the Glee-fully Personalizable Tools suite.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "skills"
+        ],
+        "category": "Other",
+        "composerIcon": "./assets/gpt-icon.png",
+        "defaultPrompt": [
+          "\"Can I upload a file of my book collection?\"",
+          "\"I want to start tracking the books I own.\"",
+          "\"Help me log a new book I just bought.\""
+        ],
+        "developerName": "Glee-fully Tools",
+        "displayName": "Personal Librarian by Glee-fully",
+        "logo": "./assets/gpt-icon.png",
+        "longDescription": "Organize and track your personal book collection with ease. Ideal for readers, collectors, and gift planners — part of the Glee-fully Personalizable Tools suite.",
+        "shortDescription": "Organize and track your personal book collection with ease. Ideal for readers, collectors, and gift planners — part of the Glee-fully Personalizable Tools suite."
+      }
+    }
+  },
+  "name": "gpt-17048a88562088c69e0772d9c1fd840b",
+  "version": "0.21.1+bundle.3ffc0c8b5d07d09af7be3853514c9893"
+}

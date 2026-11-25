@@ -1,0 +1,4 @@
+interface:
+  default_prompt: What craft or hobby does this object belong to?
+  display_name: Maker Matcher by Glee-fully
+  short_description: Identifies crafts, tools, and hobbies from images with curiosity

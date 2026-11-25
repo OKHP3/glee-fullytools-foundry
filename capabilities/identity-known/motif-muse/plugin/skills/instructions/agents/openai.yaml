@@ -1,0 +1,4 @@
+interface:
+  default_prompt: Upload a photo of this wallpaper and name its style
+  display_name: Motif Muse by Glee-fully
+  short_description: Names and categorizes colors, patterns, and design motifs

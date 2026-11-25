@@ -1,0 +1,27 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Glee-fully Tools",
+    "url": "https://overkillhill.com"
+  },
+  "description": "Present Hoarder is your stealthy stash-tracker for gifts you’ve bought, hidden, or planned. From stocking stuffers in the sock drawer to birthday surprises in the garage, it keeps everything tagged by person, event, and location so you always know what’s ready to wrap.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "skills"
+        ],
+        "category": "Other",
+        "composerIcon": "./assets/gpt-icon.png",
+        "defaultPrompt": [],
+        "developerName": "Glee-fully Tools",
+        "displayName": "Present Hoarder by Glee-fully",
+        "logo": "./assets/gpt-icon.png",
+        "longDescription": "Present Hoarder is your stealthy stash-tracker for gifts you’ve bought, hidden, or planned. From stocking stuffers in the sock drawer to birthday surprises in the garage, it keeps everything tagged by person, event, and location so you always know what’s ready to wrap.",
+        "shortDescription": "Present Hoarder is your stealthy stash-tracker for gifts you’ve bought, hidden, or planned. From stocking stuffers in the sock drawer to birthday surprises in the garage, it keeps everything tagged by person, event, and location so you alwa"
+      }
+    }
+  },
+  "name": "gpt-e6c119881f0f970c6451692b2d5a8885",
+  "version": "0.10.1+bundle.4dade774b395dff4279719d625186989"
+}

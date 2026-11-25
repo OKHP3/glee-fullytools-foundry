@@ -1,0 +1,5 @@
+interface:
+  default_prompt: “Can you help me log my favorite recipes and rate them?”
+  display_name: Tasty Tracker by Glee-fully
+  short_description: Celebrate food, flavor, and meal planning. Organize recipes,
+    log

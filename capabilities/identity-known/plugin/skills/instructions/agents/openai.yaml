@@ -1,0 +1,5 @@
+interface:
+  default_prompt: What critter is this? 🐾
+  display_name: Identity Known by Glee-fully
+  short_description: Recognition branch for all 'what is that?' moments — routes to
+    s
