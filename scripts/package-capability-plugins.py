@@ -3,7 +3,8 @@
 
 See https://developers.openai.com/plugins/build/plugins for the manifest layout.
 Run with --all or repeat --product ID, and specify --output DIR. Add
---former-gpt to build the historical plugin edition. Use --check
+--former-gpt to build the historical edition or --workflow for the current
+public workflow edition. Use --check
 to compare existing packages without writing. No installation or upload occurs.
 """
 
@@ -97,8 +98,12 @@ def package(root, product):
     source = read_file(root, directory / skill_path).replace(b"\r\n", b"\n")
     if len(source) > 1024 * 1024:
         raise ValueError(f"Skill exceeds 1 MiB: {slug}")
-    if any(p.name != "SKILL.md" for p in (directory / skill_path).parent.iterdir()):
-        raise ValueError(f"Skill has additional runtime resources requiring packaging review: {slug}")
+    resources = workflow_resources(root, product) if "workflowRelease" in product else {}
+    skill_dir = (directory / skill_path).parent
+    for item in skill_dir.rglob("*"):
+        relative = item.relative_to(skill_dir).as_posix()
+        if item.is_file() and relative != "SKILL.md" and relative not in resources:
+            raise ValueError(f"Skill has additional runtime resources requiring packaging review: {slug}")
     front = re.match(r"\A---\n(.*?)\n---\n(?=\s*\S)", source.decode("utf-8"), re.S)
     if not front:
         raise ValueError(f"Missing skill header or body: {slug}")
@@ -115,6 +120,9 @@ def package(root, product):
                 "license": "MIT", "skills": "./skills/", "interface": {"displayName": title}}
     contents = {".codex-plugin/plugin.json": (json.dumps(manifest, ensure_ascii=False, indent=2) + "\n").encode(),
                 "LICENSE": license_bytes(root, directory), skill_path: source}
+    if "workflowRelease" in product and version != product["workflowRelease"]["skillVersion"]:
+        raise ValueError(f"Workflow and portable skill versions differ: {slug}")
+    contents.update({f"skills/{slug}/{path}": data for path, data in resources.items()})
     return f"{slug}-{version}.zip", archive_bytes(contents)
 
 
@@ -232,6 +240,105 @@ def former_gpt_package(root, product):
     return f"{slug}-former-gpt-{version}.zip", archive_bytes(contents)
 
 
+def workflow_resources(root, product):
+    """Include only the reviewed source list recorded with this skill's evaluation."""
+    directory = root / product["destination"]
+    slug = product["productId"]
+    version = product["workflowRelease"]["skillVersion"]
+    if not re.fullmatch(VERSION, version):
+        raise ValueError(f"Invalid workflow skill version: {version}")
+    fixture = json.loads(read_file(root, directory / f"evals/skill-v{version}.json"))
+    if (fixture["skill"], fixture["version"]) != (slug, version):
+        raise ValueError(f"Evaluation identity mismatch for {slug}")
+    resources = {}
+    for field, folder in (("knowledgeSources", directory / "source"),
+                          ("skillKnowledgeSources", directory / "skills" / slug)):
+        for source in fixture.get(field, []):
+            path = PurePosixPath(relative_path(source))
+            if field == "skillKnowledgeSources" and path.parts[0] != "references":
+                raise ValueError(f"Expected a skill reference: {path}")
+            dest = f"references/workflow/{path.name}" if field == "knowledgeSources" else path.as_posix()
+            if path.suffix.lower() not in {".md", ".csv", ".txt", ".json", ".tsv"} or dest in resources:
+                raise ValueError(f"Unexpected or duplicate workflow resource: {dest}")
+            data = read_file(folder, folder / path)
+            if len(data) > 1024 * 1024 or b"\0" in data:
+                raise ValueError(f"Expected a small text resource: {source}")
+            data.decode("utf-8-sig")
+            resources[dest] = data.replace(b"\r\n", b"\n")
+    return resources
+
+
+def json_bytes(document):
+    return (json.dumps(document, ensure_ascii=False, indent=2) + "\n").encode()
+
+
+def workflow_overlay(root, product, current, directory_text):
+    """Render the same core against the selected host's manifests, resources and launch links."""
+    slug = product["productId"]
+    route = root / product["destination"]
+    raw = read_file(root, route / f"skills/{slug}/SKILL.md").decode().replace("\r\n", "\n")
+    header, body = raw.removeprefix("---\n").split("\n---\n", 1)
+    description = scalar(header, "description")
+    version = product["workflowRelease"]["version"]
+    if not re.fullmatch(VERSION, version):
+        raise ValueError(f"Invalid workflow plugin version for {slug}")
+    skill_path = "skills/instructions/"
+    lookup_path = skill_path + "lookup/knowledge-index.json"
+    lookup = json.loads(current[lookup_path])
+    result = {}
+    names = {r["name"].casefold() for r in lookup["files"]}
+    for path, data in workflow_resources(root, product).items():
+        name = PurePosixPath(path).name
+        if name.casefold() in names:
+            raise ValueError(f"Duplicate knowledge filename in {slug}: {name}")
+        names.add(name.casefold())
+        lookup["files"].append({"name": name, "path": path})
+        result[skill_path + path] = data
+    front = "---\nname: instructions\ndescription: " + json.dumps(description, ensure_ascii=False) + "\n---\n\n"
+    resources = ("## Using packaged knowledge\n\n"
+                 "Open the relevant file listed in `lookup/knowledge-index.json` when using a reference, "
+                 "filling a worksheet, or answering a question about the suite. Resolve paths from this skill folder. "
+                 "For a source question identify the file used. Apply the user's supplied facts and corrections "
+                 "throughout the current conversation. If a source cannot be read, identify the missing reference.\n")
+    result[skill_path + "SKILL.md"] = (front + body.strip() + "\n\n" + resources + "\n" + directory_text.strip() + "\n").encode()
+    result[lookup_path] = json_bytes(lookup)
+    for manifest in ("plugin.json", ".codex-plugin/plugin.json"):
+        settings = json.loads(current[manifest])
+        settings["version"] = version
+        result[manifest] = json_bytes(settings)
+    return result
+
+
+def workflow_package(root, product):
+    slug = product["productId"]
+    directory = root / product["destination"] / "plugin"
+    receipt = json.loads(read_file(root, directory / "release.json"))
+    _, baseline = former_gpt_package(root, (directory, receipt))
+    with zipfile.ZipFile(io.BytesIO(baseline)) as original:
+        content = {name: original.read(name) for name in original.namelist()}
+    routes = registry(root)
+    family = PurePosixPath(product["destination"]).parent.name
+    rules = json.loads(read_file(root, root / "products/hosted-plugin-handoff-rules.json"))["entryPoints"]
+    targets = [family, "personalizable-tools"]
+    lines = ["## Related capabilities", "",
+             "Use these FoundRy pages when someone requests a handoff. Each page identifies the capability."]
+    if slug in rules:
+        targets.insert(0, rules[slug]["specificDestination"])
+        lines.append(rules[slug]["rule"].replace("plugin link", "capability page"))
+    for target in targets:
+        dest = routes[target]
+        lines.append(f"- [{dest['displayName']}](https://github.com/OKHP3/glee-fullytools-foundry/tree/main/{dest['destination']})")
+    content.update(workflow_overlay(root, product, content, "\n".join(lines)))
+    content["LICENSE"] = license_bytes(root, directory.parent)
+    version = product["workflowRelease"]["version"]
+    content["foundry-release.json"] = json_bytes({
+        "packageId": slug, "version": version, "portableSkillVersion": product["workflowRelease"]["skillVersion"],
+        "historicalSourceEdition": receipt["sourceVersion"], "edition": "public-workflow",
+        "files": [{"path": path, "sha256": hashlib.sha256(data).hexdigest()}
+                  for path, data in sorted(content.items()) if path != "foundry-release.json"]})
+    return f"{slug}-workflow-{version}.zip", archive_bytes(content)
+
+
 def write_new(path, body):
     # Publish completed bytes atomically without replacing a conflicting archive.
     handle = tempfile.NamedTemporaryFile(dir=path.parent, prefix=".plugin-", delete=False)
@@ -258,11 +365,16 @@ def main():
     selection.add_argument("--product", action="append", metavar="ID", help="select a product ID (repeatable)")
     parser.add_argument("--output", type=Path, required=True, help="directory for the versioned ZIPs")
     parser.add_argument("--check", action="store_true", help="verify existing ZIPs without writing")
-    parser.add_argument("--former-gpt", action="store_true", help="use reviewed native former-GPT release records")
+    edition = parser.add_mutually_exclusive_group()
+    edition.add_argument("--former-gpt", action="store_true", help="use reviewed native former-GPT release records")
+    edition.add_argument("--workflow", action="store_true", help="build current public workflow plugins")
     args = parser.parse_args()
     try:
         products = former_gpt_registry(ROOT) if args.former_gpt else registry(ROOT)
         build = former_gpt_package if args.former_gpt else package
+        if args.workflow:
+            products = {k: v for k, v in products.items() if "workflowRelease" in v}
+            build = workflow_package
         selected = sorted(products if args.all else set(args.product))
         pending = []
         for slug in selected:

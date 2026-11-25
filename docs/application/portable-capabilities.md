@@ -106,7 +106,8 @@ describes how to verify the imported tree.
 ## November 2026 conversion
 
 The [capability directory](../../capabilities/README.md) contains 50 authored
-portable v0.1.0 skills and their evaluation cases. The [plugin packager](../../scripts/package-capability-plugins.py)
+portable skills and their evaluation cases. The [workflow acceptance report](../../products/workflow-acceptance.md)
+records the 14 v0.2.0 skills exercised in private ChatGPT plugins. The [plugin packager](../../scripts/package-capability-plugins.py)
 produces a local Codex ZIP for each skill. ChatGPT’s own migration flow
 produced a private hosted plugin from each of the 50 original GPTs. The
 FoundRy application continues to export design blueprints separately.

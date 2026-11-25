@@ -2,7 +2,7 @@
 
 Compare skills with possible roles, identify gaps and plan the next step in a career.
 
-[Portable Agent Skill](skills/career-fitness/SKILL.md) · [Evaluation cases](evals/skill-v0.1.0.json)
+[Portable Agent Skill](skills/career-fitness/SKILL.md) · [Two-turn evaluation](evals/skill-v0.2.0.json) · [Earlier evaluation cases](evals/skill-v0.1.0.json)
 
 [Discovered Careers](../) · [Browse source files](source/) · [Catalog entry](https://github.com/OKHP3/glee-fullytools-foundry/blob/main/inventory/inventory-of-toolbox-tools-and-tool-ettes.md#tool-ette--twig-01c--career-fitness) · [Import receipt](product.json)
 

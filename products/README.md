@@ -37,10 +37,10 @@ The former repository URLs identify the sources for historical lookup.
 
 ## Portable skills and plugin packages
 
-Each of the 50 capability pages links to its portable v0.1.0 `SKILL.md` and
-three behavioral evaluation cases. The skill can be used independently of a
-ChatGPT account. The cases record expected results, with execution status
-stored separately from package validation.
+Each of the 50 capability pages links to its portable skill and behavioral
+evaluation cases. Fourteen skills have a v0.2.0 workflow with a two-turn
+ChatGPT acceptance record. See the [workflow release and results](workflow-acceptance.md)
+for the tested versions and the observed outputs.
 
 From the repository root, choose an output directory outside the checkout:
 
@@ -48,10 +48,13 @@ From the repository root, choose an output directory outside the checkout:
 python scripts/package-capability-plugins.py --product resume-builder --output <output-directory>
 python scripts/package-capability-plugins.py --all --output <output-directory>
 python scripts/package-capability-plugins.py --all --output <output-directory> --check
+python scripts/package-capability-plugins.py --workflow --all --output <output-directory>
 ```
 
 Replace `<output-directory>` with your chosen path. Each ZIP contains one
-Codex compatibility manifest, the named skill, and its original MIT license.
+Codex compatibility manifest, the named skill, its declared workflow resources
+when present, and its original MIT license. The `--workflow` edition also includes
+the native manifest, icon, indexed public knowledge and a file checksum receipt.
 The packager excludes legacy source trees and user records. The register
 records the package version and verification scope. Host installation and
 runtime tests are separate steps.

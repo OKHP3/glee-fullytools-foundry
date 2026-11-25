@@ -1,34 +1,31 @@
 ---
 name: scentinal-journal
 description: >-
-  Log a household fragrance collection, use sessions and personal scent impressions. Use to track candles, melts, diffuser oils, opened stock and favorites to reorder.
+  Build a home fragrance journal for candles, wax melts or diffuser oils. Use to distinguish physical stock from use sessions, compare scent and throw by setting, correct an entry, and prepare a reorder shortlist.
 license: MIT
 metadata:
-  version: "0.1.0"
+  version: "0.2.0"
 ---
 
 # Scentinal Journal
 
 ## Scope
 
-Start with the label name, brand if known, format and whether the person is adding stock, logging use or deciding what to reorder. Separate the fragrance profile from each container so two identical candles can have different open states.
+Start a copy-ready journal with the information supplied. Use the [fragrance session log](references/fragrance-session-log.md) when a reusable stock and use record is helpful. A single scent can have several physical containers and several sessions. Keep those three levels distinct so the next turn can update one without altering the others.
 
-## Workflow
+## Record stock and sessions
 
-1. Record format, size or quantity with units, scent notes, location and optional season or mood tags. Attribute notes to the label or to the person's own impression. Similar scent names from different makers can be separate items.
-2. Keep a use log with container, date when known, room and duration. Distinguish an observed session from the manufacturer's stated burn time. For a duration range, preserve the range. Describe throw as the user's perception in that setting.
-3. Update open, in-use, finished, gifted or unopened status only from an observed change. Keep stock counts consistent. A favorite can be on the reorder list while unopened stock remains.
-4. Return the relevant view: fragrance entries, session history, stock by location or a reorder shortlist with reasons. If the item or room is unclear, mark the event pending. For a label image the host cannot read, request the label text. Keep care instructions tied to the product's own label.
+1. Give the fragrance a label with maker, product name, format and size where known. Record label notes separately from personal impressions. Add optional room, season or mood tags. Use distinct labels for similar names or variants when identity is uncertain.
+2. Count physical units by opened, unopened, finished, gifted or another reported state. Give matching containers short labels such as A and B when their states differ. Record the location if supplied. Opening a jar changes its state while keeping the on-hand quantity the same.
+3. For each session, record the named container, date or sequence, room, duration and the person's reported throw or impression. Keep ambient use of an oil or wax melt separate from a candle’s burn session. Preserve stated ranges. A measured session and a manufacturer's advertised total burn life are separate facts.
+4. On a correction, replace the mistaken duration or observation in the original session before recalculating totals. Then append a genuinely new session. Add elapsed minutes only for compatible units and the specified container. Preserve each room's perception when impressions differ. Ask which container was used when the event could belong to more than one.
 
-## Verify the result
+## Return what the user needs
 
-Check open and unopened counts against the number of physical containers. Confirm that recorded use belongs to the correct container and that reorder flags preserve remaining stock.
+For a collection view, show container, state and location. For a performance comparison, show the sessions with room, duration, impressions and cumulative use. For a reorder list, show what is flagged, why, and the remaining open or sealed stock. Finish, gifting, and restock are separate events that need the user’s report. A reorder flag records interest without placing an order. Keep any care instructions tied to the product label, requesting readable label text if a photo is unavailable.
 
-## Sources and limits
+For a documented cross-tool question, consult the available suite guide and name the supporting file. Keep personal observations and general advice distinct from source-backed functions.
 
-The former repository contains a placeholder prompt. This workflow comes from the catalog's scent inventory, session notes and reorder functions. It makes no automatic restock or sensor-based measurement claims.
+## Repository sources
 
-Repository records
-
-- `inventory/inventory-of-toolbox-tools-and-tool-ettes.md`
-- `capabilities/treasured-finds/scentinal-journal/source/AGENTS.md`
+`inventory/inventory-of-toolbox-tools-and-tool-ettes.md` describes Scentinal Journal’s stock, tags, performance notes and reorders. `capabilities/treasured-finds/scentinal-journal/plugin/skills/instructions/SKILL.md` preserves the original plan. `capabilities/treasured-finds/scentinal-journal/source/README.md` records the legacy project’s scope. The session ledger operates without a sensor, store account or external inventory service.

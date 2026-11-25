@@ -71,6 +71,36 @@ class PluginPackageTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "additional runtime"):
             PACK.package(self.root, self.product)
 
+    def test_workflow_packages_include_only_declared_knowledge_and_keep_native_identity(self):
+        self.product["workflowRelease"] = {"skillVersion": "0.1.0", "version": "1.0.0"}
+        relative = "references/worksheet.md"
+        worksheet = self.skill.parent / relative
+        worksheet.parent.mkdir()
+        worksheet.write_bytes(b"field,quantity\r\n")
+        source = self.license.parent / "vocabulary.csv"
+        source.write_bytes(b"industry,term\n")
+        fixture = self.directory / "evals/skill-v0.1.0.json"
+        fixture.parent.mkdir()
+        config = {"skill": "fixture", "version": "0.1.0", "knowledgeSources": ["vocabulary.csv"],
+                  "skillKnowledgeSources": [relative]}
+        fixture.write_text(json.dumps(config), encoding="utf-8")
+        _, archive = PACK.package(self.root, self.product)
+        with zipfile.ZipFile(io.BytesIO(archive)) as built:
+            self.assertEqual(built.read("skills/fixture/" + relative), b"field,quantity\n")
+            self.assertEqual(built.read("skills/fixture/references/workflow/vocabulary.csv"), source.read_bytes())
+        manifest = {"name": "original-host-id", "version": "0.4.2"}
+        lookup = "skills/instructions/lookup/knowledge-index.json"
+        original = {"plugin.json": json.dumps(manifest), ".codex-plugin/plugin.json": json.dumps(manifest),
+                    lookup: json.dumps({"files": [{"name": "suite.md", "path": "references/suite.md"}]})}
+        native = PACK.workflow_overlay(self.root, self.product, original, "Existing handoff directory.")
+        self.assertEqual(json.loads(native["plugin.json"]), {"name": "original-host-id", "version": "1.0.0"})
+        self.assertEqual(len(json.loads(native[lookup])["files"]), 3)
+        self.assertIn(b"Existing handoff directory.", native["skills/instructions/SKILL.md"])
+        config["knowledgeSources"] = ["../product.json"]
+        fixture.write_text(json.dumps(config), encoding="utf-8")
+        with self.assertRaisesRegex(ValueError, "path"):
+            PACK.package(self.root, self.product)
+
     def test_collision_never_replaces_existing_file(self):
         target = self.root / "sample.zip"
         PACK.write_new(target, b"first")

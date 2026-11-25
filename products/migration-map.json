@@ -161,7 +161,7 @@
       "skills": [
         {
           "path": "capabilities/discovered-careers/resume-customizer/skills/resume-customizer/SKILL.md",
-          "version": "0.1.0"
+          "version": "0.2.0"
         }
       ],
       "adapters": [
@@ -169,7 +169,7 @@
           "host": "codex",
           "path": "scripts/package-capability-plugins.py",
           "product": "resume-customizer",
-          "version": "0.1.0",
+          "version": "0.2.0",
           "format": ".codex-plugin/plugin.json",
           "verification": "archive-verified",
           "hostRuntimeTest": "not-run"
@@ -177,12 +177,21 @@
       ],
       "evidence": [
         "capabilities/discovered-careers/resume-customizer/product.json",
-        "capabilities/discovered-careers/resume-customizer/evals/skill-v0.1.0.json"
+        "capabilities/discovered-careers/resume-customizer/evals/skill-v0.1.0.json",
+        "capabilities/discovered-careers/resume-customizer/evals/skill-v0.2.0.json"
       ],
       "blockers": [],
       "initialImport": {
         "commit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
         "mode": "sanitized-snapshot"
+      },
+      "workflowRelease": {
+        "version": "1.0.0",
+        "skillVersion": "0.2.0",
+        "evaluation": "capabilities/discovered-careers/resume-customizer/evals/skill-v0.2.0.json",
+        "host": "chatgpt",
+        "runtimeResult": "pass",
+        "evidence": "products/workflow-acceptance.json"
       }
     },
     {
@@ -206,7 +215,7 @@
       "skills": [
         {
           "path": "capabilities/discovered-careers/career-fitness/skills/career-fitness/SKILL.md",
-          "version": "0.1.0"
+          "version": "0.2.0"
         }
       ],
       "adapters": [
@@ -214,7 +223,7 @@
           "host": "codex",
           "path": "scripts/package-capability-plugins.py",
           "product": "career-fitness",
-          "version": "0.1.0",
+          "version": "0.2.0",
           "format": ".codex-plugin/plugin.json",
           "verification": "archive-verified",
           "hostRuntimeTest": "not-run"
@@ -222,12 +231,21 @@
       ],
       "evidence": [
         "capabilities/discovered-careers/career-fitness/product.json",
-        "capabilities/discovered-careers/career-fitness/evals/skill-v0.1.0.json"
+        "capabilities/discovered-careers/career-fitness/evals/skill-v0.1.0.json",
+        "capabilities/discovered-careers/career-fitness/evals/skill-v0.2.0.json"
       ],
       "blockers": [],
       "initialImport": {
         "commit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
         "mode": "sanitized-snapshot"
+      },
+      "workflowRelease": {
+        "version": "1.0.0",
+        "skillVersion": "0.2.0",
+        "evaluation": "capabilities/discovered-careers/career-fitness/evals/skill-v0.2.0.json",
+        "host": "chatgpt",
+        "runtimeResult": "pass",
+        "evidence": "products/workflow-acceptance.json"
       }
     },
     {
@@ -251,7 +269,7 @@
       "skills": [
         {
           "path": "capabilities/discovered-careers/letter-composer/skills/letter-composer/SKILL.md",
-          "version": "0.1.0"
+          "version": "0.2.0"
         }
       ],
       "adapters": [
@@ -259,7 +277,7 @@
           "host": "codex",
           "path": "scripts/package-capability-plugins.py",
           "product": "letter-composer",
-          "version": "0.1.0",
+          "version": "0.2.0",
           "format": ".codex-plugin/plugin.json",
           "verification": "archive-verified",
           "hostRuntimeTest": "not-run"
@@ -267,12 +285,21 @@
       ],
       "evidence": [
         "capabilities/discovered-careers/letter-composer/product.json",
-        "capabilities/discovered-careers/letter-composer/evals/skill-v0.1.0.json"
+        "capabilities/discovered-careers/letter-composer/evals/skill-v0.1.0.json",
+        "capabilities/discovered-careers/letter-composer/evals/skill-v0.2.0.json"
       ],
       "blockers": [],
       "initialImport": {
         "commit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
         "mode": "sanitized-snapshot"
+      },
+      "workflowRelease": {
+        "version": "1.0.1",
+        "skillVersion": "0.2.0",
+        "evaluation": "capabilities/discovered-careers/letter-composer/evals/skill-v0.2.0.json",
+        "host": "chatgpt",
+        "runtimeResult": "pass",
+        "evidence": "products/workflow-acceptance.json"
       }
     },
     {
@@ -296,7 +323,7 @@
       "skills": [
         {
           "path": "capabilities/discovered-careers/blinkin-tuner/skills/blinkin-tuner/SKILL.md",
-          "version": "0.1.0"
+          "version": "0.2.0"
         }
       ],
       "adapters": [
@@ -304,7 +331,7 @@
           "host": "codex",
           "path": "scripts/package-capability-plugins.py",
           "product": "blinkin-tuner",
-          "version": "0.1.0",
+          "version": "0.2.0",
           "format": ".codex-plugin/plugin.json",
           "verification": "archive-verified",
           "hostRuntimeTest": "not-run"
@@ -312,12 +339,21 @@
       ],
       "evidence": [
         "capabilities/discovered-careers/blinkin-tuner/product.json",
-        "capabilities/discovered-careers/blinkin-tuner/evals/skill-v0.1.0.json"
+        "capabilities/discovered-careers/blinkin-tuner/evals/skill-v0.1.0.json",
+        "capabilities/discovered-careers/blinkin-tuner/evals/skill-v0.2.0.json"
       ],
       "blockers": [],
       "initialImport": {
         "commit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
         "mode": "sanitized-snapshot"
+      },
+      "workflowRelease": {
+        "version": "1.0.0",
+        "skillVersion": "0.2.0",
+        "evaluation": "capabilities/discovered-careers/blinkin-tuner/evals/skill-v0.2.0.json",
+        "host": "chatgpt",
+        "runtimeResult": "pass",
+        "evidence": "products/workflow-acceptance.json"
       }
     },
     {
@@ -341,7 +377,7 @@
       "skills": [
         {
           "path": "capabilities/discovered-careers/career-seeker/skills/career-seeker/SKILL.md",
-          "version": "0.1.0"
+          "version": "0.2.0"
         }
       ],
       "adapters": [
@@ -349,7 +385,7 @@
           "host": "codex",
           "path": "scripts/package-capability-plugins.py",
           "product": "career-seeker",
-          "version": "0.1.0",
+          "version": "0.2.0",
           "format": ".codex-plugin/plugin.json",
           "verification": "archive-verified",
           "hostRuntimeTest": "not-run"
@@ -357,12 +393,21 @@
       ],
       "evidence": [
         "capabilities/discovered-careers/career-seeker/product.json",
-        "capabilities/discovered-careers/career-seeker/evals/skill-v0.1.0.json"
+        "capabilities/discovered-careers/career-seeker/evals/skill-v0.1.0.json",
+        "capabilities/discovered-careers/career-seeker/evals/skill-v0.2.0.json"
       ],
       "blockers": [],
       "initialImport": {
         "commit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
         "mode": "sanitized-snapshot"
+      },
+      "workflowRelease": {
+        "version": "1.0.0",
+        "skillVersion": "0.2.0",
+        "evaluation": "capabilities/discovered-careers/career-seeker/evals/skill-v0.2.0.json",
+        "host": "chatgpt",
+        "runtimeResult": "pass",
+        "evidence": "products/workflow-acceptance.json"
       }
     },
     {
@@ -476,7 +521,7 @@
       "skills": [
         {
           "path": "capabilities/treasured-finds/decor-detective/skills/decor-detective/SKILL.md",
-          "version": "0.1.0"
+          "version": "0.2.0"
         }
       ],
       "adapters": [
@@ -484,7 +529,7 @@
           "host": "codex",
           "path": "scripts/package-capability-plugins.py",
           "product": "decor-detective",
-          "version": "0.1.0",
+          "version": "0.2.0",
           "format": ".codex-plugin/plugin.json",
           "verification": "archive-verified",
           "hostRuntimeTest": "not-run"
@@ -492,12 +537,21 @@
       ],
       "evidence": [
         "capabilities/treasured-finds/decor-detective/product.json",
-        "capabilities/treasured-finds/decor-detective/evals/skill-v0.1.0.json"
+        "capabilities/treasured-finds/decor-detective/evals/skill-v0.1.0.json",
+        "capabilities/treasured-finds/decor-detective/evals/skill-v0.2.0.json"
       ],
       "blockers": [],
       "initialImport": {
         "commit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
         "mode": "sanitized-snapshot"
+      },
+      "workflowRelease": {
+        "version": "1.0.0",
+        "skillVersion": "0.2.0",
+        "evaluation": "capabilities/treasured-finds/decor-detective/evals/skill-v0.2.0.json",
+        "host": "chatgpt",
+        "runtimeResult": "pass",
+        "evidence": "products/workflow-acceptance.json"
       }
     },
     {
@@ -521,7 +575,7 @@
       "skills": [
         {
           "path": "capabilities/treasured-finds/present-hoarder/skills/present-hoarder/SKILL.md",
-          "version": "0.1.0"
+          "version": "0.2.0"
         }
       ],
       "adapters": [
@@ -529,7 +583,7 @@
           "host": "codex",
           "path": "scripts/package-capability-plugins.py",
           "product": "present-hoarder",
-          "version": "0.1.0",
+          "version": "0.2.0",
           "format": ".codex-plugin/plugin.json",
           "verification": "archive-verified",
           "hostRuntimeTest": "not-run"
@@ -537,12 +591,21 @@
       ],
       "evidence": [
         "capabilities/treasured-finds/present-hoarder/product.json",
-        "capabilities/treasured-finds/present-hoarder/evals/skill-v0.1.0.json"
+        "capabilities/treasured-finds/present-hoarder/evals/skill-v0.1.0.json",
+        "capabilities/treasured-finds/present-hoarder/evals/skill-v0.2.0.json"
       ],
       "blockers": [],
       "initialImport": {
         "commit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
         "mode": "sanitized-snapshot"
+      },
+      "workflowRelease": {
+        "version": "1.0.0",
+        "skillVersion": "0.2.0",
+        "evaluation": "capabilities/treasured-finds/present-hoarder/evals/skill-v0.2.0.json",
+        "host": "chatgpt",
+        "runtimeResult": "pass",
+        "evidence": "products/workflow-acceptance.json"
       }
     },
     {
@@ -566,7 +629,7 @@
       "skills": [
         {
           "path": "capabilities/treasured-finds/scentinal-journal/skills/scentinal-journal/SKILL.md",
-          "version": "0.1.0"
+          "version": "0.2.0"
         }
       ],
       "adapters": [
@@ -574,7 +637,7 @@
           "host": "codex",
           "path": "scripts/package-capability-plugins.py",
           "product": "scentinal-journal",
-          "version": "0.1.0",
+          "version": "0.2.0",
           "format": ".codex-plugin/plugin.json",
           "verification": "archive-verified",
           "hostRuntimeTest": "not-run"
@@ -582,12 +645,21 @@
       ],
       "evidence": [
         "capabilities/treasured-finds/scentinal-journal/product.json",
-        "capabilities/treasured-finds/scentinal-journal/evals/skill-v0.1.0.json"
+        "capabilities/treasured-finds/scentinal-journal/evals/skill-v0.1.0.json",
+        "capabilities/treasured-finds/scentinal-journal/evals/skill-v0.2.0.json"
       ],
       "blockers": [],
       "initialImport": {
         "commit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
         "mode": "sanitized-snapshot"
+      },
+      "workflowRelease": {
+        "version": "1.0.0",
+        "skillVersion": "0.2.0",
+        "evaluation": "capabilities/treasured-finds/scentinal-journal/evals/skill-v0.2.0.json",
+        "host": "chatgpt",
+        "runtimeResult": "pass",
+        "evidence": "products/workflow-acceptance.json"
       }
     },
     {
@@ -656,7 +728,7 @@
       "skills": [
         {
           "path": "capabilities/treasured-finds/supply-haus/skills/supply-haus/SKILL.md",
-          "version": "0.1.0"
+          "version": "0.2.0"
         }
       ],
       "adapters": [
@@ -664,7 +736,7 @@
           "host": "codex",
           "path": "scripts/package-capability-plugins.py",
           "product": "supply-haus",
-          "version": "0.1.0",
+          "version": "0.2.0",
           "format": ".codex-plugin/plugin.json",
           "verification": "archive-verified",
           "hostRuntimeTest": "not-run"
@@ -672,12 +744,21 @@
       ],
       "evidence": [
         "capabilities/treasured-finds/supply-haus/product.json",
-        "capabilities/treasured-finds/supply-haus/evals/skill-v0.1.0.json"
+        "capabilities/treasured-finds/supply-haus/evals/skill-v0.1.0.json",
+        "capabilities/treasured-finds/supply-haus/evals/skill-v0.2.0.json"
       ],
       "blockers": [],
       "initialImport": {
         "commit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
         "mode": "sanitized-snapshot"
+      },
+      "workflowRelease": {
+        "version": "1.0.0",
+        "skillVersion": "0.2.0",
+        "evaluation": "capabilities/treasured-finds/supply-haus/evals/skill-v0.2.0.json",
+        "host": "chatgpt",
+        "runtimeResult": "pass",
+        "evidence": "products/workflow-acceptance.json"
       }
     },
     {
@@ -791,7 +872,7 @@
       "skills": [
         {
           "path": "capabilities/tasty-tracker/flavor-meister/skills/flavor-meister/SKILL.md",
-          "version": "0.1.0"
+          "version": "0.2.0"
         }
       ],
       "adapters": [
@@ -799,7 +880,7 @@
           "host": "codex",
           "path": "scripts/package-capability-plugins.py",
           "product": "flavor-meister",
-          "version": "0.1.0",
+          "version": "0.2.0",
           "format": ".codex-plugin/plugin.json",
           "verification": "archive-verified",
           "hostRuntimeTest": "not-run"
@@ -807,12 +888,21 @@
       ],
       "evidence": [
         "capabilities/tasty-tracker/flavor-meister/product.json",
-        "capabilities/tasty-tracker/flavor-meister/evals/skill-v0.1.0.json"
+        "capabilities/tasty-tracker/flavor-meister/evals/skill-v0.1.0.json",
+        "capabilities/tasty-tracker/flavor-meister/evals/skill-v0.2.0.json"
       ],
       "blockers": [],
       "initialImport": {
         "commit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
         "mode": "sanitized-snapshot"
+      },
+      "workflowRelease": {
+        "version": "1.0.0",
+        "skillVersion": "0.2.0",
+        "evaluation": "capabilities/tasty-tracker/flavor-meister/evals/skill-v0.2.0.json",
+        "host": "chatgpt",
+        "runtimeResult": "pass",
+        "evidence": "products/workflow-acceptance.json"
       }
     },
     {
@@ -836,7 +926,7 @@
       "skills": [
         {
           "path": "capabilities/tasty-tracker/menu-conductor/skills/menu-conductor/SKILL.md",
-          "version": "0.1.0"
+          "version": "0.2.0"
         }
       ],
       "adapters": [
@@ -844,7 +934,7 @@
           "host": "codex",
           "path": "scripts/package-capability-plugins.py",
           "product": "menu-conductor",
-          "version": "0.1.0",
+          "version": "0.2.0",
           "format": ".codex-plugin/plugin.json",
           "verification": "archive-verified",
           "hostRuntimeTest": "not-run"
@@ -852,12 +942,21 @@
       ],
       "evidence": [
         "capabilities/tasty-tracker/menu-conductor/product.json",
-        "capabilities/tasty-tracker/menu-conductor/evals/skill-v0.1.0.json"
+        "capabilities/tasty-tracker/menu-conductor/evals/skill-v0.1.0.json",
+        "capabilities/tasty-tracker/menu-conductor/evals/skill-v0.2.0.json"
       ],
       "blockers": [],
       "initialImport": {
         "commit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
         "mode": "sanitized-snapshot"
+      },
+      "workflowRelease": {
+        "version": "1.0.0",
+        "skillVersion": "0.2.0",
+        "evaluation": "capabilities/tasty-tracker/menu-conductor/evals/skill-v0.2.0.json",
+        "host": "chatgpt",
+        "runtimeResult": "pass",
+        "evidence": "products/workflow-acceptance.json"
       }
     },
     {
@@ -881,7 +980,7 @@
       "skills": [
         {
           "path": "capabilities/tasty-tracker/wishful-tastes/skills/wishful-tastes/SKILL.md",
-          "version": "0.1.0"
+          "version": "0.2.0"
         }
       ],
       "adapters": [
@@ -889,7 +988,7 @@
           "host": "codex",
           "path": "scripts/package-capability-plugins.py",
           "product": "wishful-tastes",
-          "version": "0.1.0",
+          "version": "0.2.0",
           "format": ".codex-plugin/plugin.json",
           "verification": "archive-verified",
           "hostRuntimeTest": "not-run"
@@ -897,12 +996,21 @@
       ],
       "evidence": [
         "capabilities/tasty-tracker/wishful-tastes/product.json",
-        "capabilities/tasty-tracker/wishful-tastes/evals/skill-v0.1.0.json"
+        "capabilities/tasty-tracker/wishful-tastes/evals/skill-v0.1.0.json",
+        "capabilities/tasty-tracker/wishful-tastes/evals/skill-v0.2.0.json"
       ],
       "blockers": [],
       "initialImport": {
         "commit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
         "mode": "sanitized-snapshot"
+      },
+      "workflowRelease": {
+        "version": "1.0.0",
+        "skillVersion": "0.2.0",
+        "evaluation": "capabilities/tasty-tracker/wishful-tastes/evals/skill-v0.2.0.json",
+        "host": "chatgpt",
+        "runtimeResult": "pass",
+        "evidence": "products/workflow-acceptance.json"
       }
     },
     {
@@ -926,7 +1034,7 @@
       "skills": [
         {
           "path": "capabilities/tasty-tracker/pantry-shopper/skills/pantry-shopper/SKILL.md",
-          "version": "0.1.0"
+          "version": "0.2.0"
         }
       ],
       "adapters": [
@@ -934,7 +1042,7 @@
           "host": "codex",
           "path": "scripts/package-capability-plugins.py",
           "product": "pantry-shopper",
-          "version": "0.1.0",
+          "version": "0.2.0",
           "format": ".codex-plugin/plugin.json",
           "verification": "archive-verified",
           "hostRuntimeTest": "not-run"
@@ -942,12 +1050,21 @@
       ],
       "evidence": [
         "capabilities/tasty-tracker/pantry-shopper/product.json",
-        "capabilities/tasty-tracker/pantry-shopper/evals/skill-v0.1.0.json"
+        "capabilities/tasty-tracker/pantry-shopper/evals/skill-v0.1.0.json",
+        "capabilities/tasty-tracker/pantry-shopper/evals/skill-v0.2.0.json"
       ],
       "blockers": [],
       "initialImport": {
         "commit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
         "mode": "sanitized-snapshot"
+      },
+      "workflowRelease": {
+        "version": "1.0.0",
+        "skillVersion": "0.2.0",
+        "evaluation": "capabilities/tasty-tracker/pantry-shopper/evals/skill-v0.2.0.json",
+        "host": "chatgpt",
+        "runtimeResult": "pass",
+        "evidence": "products/workflow-acceptance.json"
       }
     },
     {
@@ -971,7 +1088,7 @@
       "skills": [
         {
           "path": "capabilities/tasty-tracker/palatably-profiled/skills/palatably-profiled/SKILL.md",
-          "version": "0.1.0"
+          "version": "0.2.0"
         }
       ],
       "adapters": [
@@ -979,7 +1096,7 @@
           "host": "codex",
           "path": "scripts/package-capability-plugins.py",
           "product": "palatably-profiled",
-          "version": "0.1.0",
+          "version": "0.2.0",
           "format": ".codex-plugin/plugin.json",
           "verification": "archive-verified",
           "hostRuntimeTest": "not-run"
@@ -987,12 +1104,21 @@
       ],
       "evidence": [
         "capabilities/tasty-tracker/palatably-profiled/product.json",
-        "capabilities/tasty-tracker/palatably-profiled/evals/skill-v0.1.0.json"
+        "capabilities/tasty-tracker/palatably-profiled/evals/skill-v0.1.0.json",
+        "capabilities/tasty-tracker/palatably-profiled/evals/skill-v0.2.0.json"
       ],
       "blockers": [],
       "initialImport": {
         "commit": "2ea6c6fe6bd9ae350195d52ecdbf98fc4c0b889f",
         "mode": "sanitized-snapshot"
+      },
+      "workflowRelease": {
+        "version": "1.0.0",
+        "skillVersion": "0.2.0",
+        "evaluation": "capabilities/tasty-tracker/palatably-profiled/evals/skill-v0.2.0.json",
+        "host": "chatgpt",
+        "runtimeResult": "pass",
+        "evidence": "products/workflow-acceptance.json"
       }
     },
     {

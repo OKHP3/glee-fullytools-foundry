@@ -2,7 +2,7 @@
 
 Record seasonal decorations by occasion, storage bin and location so they are easy to find next year.
 
-[Portable Agent Skill](skills/decor-detective/SKILL.md) · [Evaluation cases](evals/skill-v0.1.0.json)
+[Portable Agent Skill v0.2.0](skills/decor-detective/SKILL.md) · [Two-turn workflow evaluation](evals/skill-v0.2.0.json) · [Earlier evaluation cases](evals/skill-v0.1.0.json)
 
 [Treasured Finds](../) · [Browse source files](source/) · [Catalog entry](https://github.com/OKHP3/glee-fullytools-foundry/blob/main/inventory/inventory-of-toolbox-tools-and-tool-ettes.md#tool-ette--twig-02b--decor-detective) · [Import receipt](product.json)
 

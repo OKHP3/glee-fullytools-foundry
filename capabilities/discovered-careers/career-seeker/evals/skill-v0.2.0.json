@@ -1,0 +1,28 @@
+{
+  "skill": "career-seeker",
+  "version": "0.2.0",
+  "knowledgeSources": [],
+  "skillKnowledgeSources": [
+    "references/application-event-guide.md"
+  ],
+  "turns": [
+    {
+      "prompt": "Create a log for fictional Birch Hall. I submitted Dispatch Assistant, requisition BH-12, on 2027-03-01 from its career board. I saved a separate Dispatch Coordinator role, BH-15, there on 2027-03-02 but haven't applied. On 2027-03-03 I accepted a BH-12 interview for 2027-03-10. As of March 3, show both rows, the next appointment, and completed interviews per March submission. Use your application event guide.",
+      "expectations": [
+        "Keeps two Birch Hall openings keyed BH-12 and BH-15. BH-12 is Interviewing, BH-15 is Saved, and the source is the career board.",
+        "Shows the scheduled BH-12 interview on 2027-03-10. Its March 3 scheduling event does not become a completed meeting.",
+        "Reports completed interviews per March submission as 0/1 (0%) as of March 3, using only the submitted BH-12 in the denominator.",
+        "Keeps BH-15 out of the upcoming interview list and returns a table that can be saved or copied."
+      ]
+    },
+    {
+      "prompt": "Update as of 2027-03-12. On March 8 the BH-12 meeting moved from March 10 to March 11. I attended on March 11. I submitted BH-15 on March 9, and that same submission appears a second time in my notes. Please show the revised rows and ratio. Which exact event labels from the bundled application event guide belong to the March 8 and March 11 changes? Any upcoming interview left?",
+      "expectations": [
+        "Returns two distinct rows: BH-12 remains Interviewing with a confirmed March 11 meeting and BH-15 becomes Applied with one March 9 submission.",
+        "Identifies 'Interview rescheduled' for March 8 and 'Interview completed' for March 11 using the application event guide. It retains the original March 10 date only as superseded history.",
+        "Recomputes completed interviews per March submission as 1/2 (50%) as of March 12, counting distinct submitted openings and one completed interview.",
+        "Shows no remaining upcoming interview and creates no separate opportunity/event for the duplicate BH-15 submission."
+      ]
+    }
+  ]
+}

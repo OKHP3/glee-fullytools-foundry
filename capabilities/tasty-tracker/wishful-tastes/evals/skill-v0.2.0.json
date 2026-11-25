@@ -1,0 +1,28 @@
+{
+  "skill": "wishful-tastes",
+  "version": "0.2.0",
+  "knowledgeSources": [],
+  "skillKnowledgeSources": [
+    "references/food-wishlist.md"
+  ],
+  "turns": [
+    {
+      "prompt": "Start a food wishlist. At Harbor Hall I want the winter noodle tasting on November 22, 2026 (quoted $28); reservations open 10 calendar days ahead, time unknown. Separately I want to try Harbor Hall’s saffron buns someday. Give me the two entries and a draft reminder; do not book or schedule anything.",
+      "expectations": [
+        "Creates two distinct wishes at Harbor Hall, with separate stable IDs or unmistakable labels.",
+        "Marks the noodle event as planning with November 22 and the quoted $28; leaves the buns at someday.",
+        "Dates the draft check for November 12, 2026 and leaves the opening time unknown.",
+        "Returns the draft and two usable entries without asserting a booking or calendar action."
+      ]
+    },
+    {
+      "prompt": "I walked in for the noodles on November 22, paid $30, gave it 4/5 and would go back for the broth. Update just that wish in your editable visit sheet. Which field keeps the go-back decision and what file defines it?",
+      "expectations": [
+        "Marks only the noodles as tried, preserves the same entry and leaves the saffron-bun wish at someday.",
+        "Keeps the original quote of $28 distinct from $30 actually paid; records November 22, 4/5 and the broth note.",
+        "Records a positive return verdict and retires or marks complete the reservation check without claiming a booking.",
+        "Identifies return_verdict in food-wishlist.md and supplies the revised record."
+      ]
+    }
+  ]
+}

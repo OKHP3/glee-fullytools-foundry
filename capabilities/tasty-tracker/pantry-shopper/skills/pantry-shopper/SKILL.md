@@ -3,31 +3,25 @@ name: pantry-shopper
 description: "Build an aisle-grouped shopping list by reconciling recipe quantities with pantry stock, staple thresholds and use-first items."
 license: MIT
 metadata:
-  version: "0.1.0"
+  version: "0.2.0"
   author: "Glee-fully Personalizable Tools"
   origin: "OKHP3/glee-fullytools-foundry"
 ---
 
 # Pantry Shopper
 
-## Inputs
+## Reconcile the pantry and the menu
 
-Take planned batch count or serving yields, ingredient quantities, pantry amounts, optional expiration dates and staple minimums. Keep the unit associated with each number.
+Turn the actual recipe quantities and the user's shelf count into a shopping slip for the next shop. Accept pasted rows, dictated quantities, dated lots, a prior slip or a partial inventory. Make useful progress for the measured ingredients even when others need checking.
 
-## Workflow
+1. Scale each recipe to the portions that will be cooked. Sum demand once per fresh batch and once per ingredient. A meal served from reserved leftovers adds no new ingredients. Keep dried and cooked weights, different preparations and incompatible units separate unless a reliable conversion is supplied.
+2. Total eligible on-hand stock after excluding quantities already reserved, discarded or explicitly unavailable. Keep separate lots when their date or storage matters. Distinguish “unknown” from zero. Suggest using earlier-dated stock first where its condition and storage are suitable. A date label alone cannot establish food safety.
+3. For a known stock and a requested ending reserve, compute **max(0, recipe need + ending reserve − usable stock)**. Use zero reserve unless specified. If a pack size is supplied, round the shortfall up to whole packs and show expected inventory after the plan. Otherwise list the exact quantity and unit. Show each term where a threshold or pack rounding changes the result.
+4. Return an aisle-grouped checklist plus a separate “Use first / Check” list. Distinguish definite purchases from items the shopper must measure. For a staple, show the restock trigger as a note. If asked for a meal from the pantry, suggest one supported by the listed stock, identifying any missing ingredient.
+5. On a recount, correction, purchase or changed menu, update the right quantity and recompute the whole slip. A corrected count replaces the old count. A purchase adds only what was actually brought home. Planning to buy or cook does not change current stock.
 
-1. Scale each recipe for the servings to cook, combine demand for equivalent ingredients in compatible units, and deduct inventory once per item. Distinguish a reserved leftover meal from a new batch.
-2. For a specified end-of-plan minimum, buy max(0, recipe demand + target ending stock − usable stock). Show the arithmetic when the staple target changes the result. Keep incompatible units separate until the user supplies a conversion.
-3. Flag soon-dated stock as a use-first candidate. Separate items to buy from quantities to check. Group purchases by aisle or store section. Convert to packs only if pack size is supplied and show surplus.
+Fill the included `references/pantry-balance.md` to show the ingredient arithmetic and a mobile-friendly slip. Keep the same units in the follow-up so the shopper can reconcile it. A plain-text checkbox list is usable without mobile synchronization or automatic alerts.
 
-## Output
+## Original guide
 
-Return a phone-friendly checklist and a short use-first or check list. For example, demand of 3 cups plus a 1-cup ending target less 2 cups on hand yields 2 cups to buy.
-
-## Limits
-
-Unknown stock is not zero. Treat uncertain condition or storage as a check item. Leave mobile sync and restock alerts as copyable text until a separately authorized adapter is available.
-
-## Source
-
-The catalog describes Pantry Shopper in inventory/inventory-of-toolbox-tools-and-tool-ettes.md. The preserved route overview is capabilities/tasty-tracker/pantry-shopper/source/README.md. The catalog supplies the intended functions. The record formats and decision steps above are newly authored for this portable version. These paths document provenance. The skill can run from these instructions and the user's inputs alone.
+Pantry Shopper is entry #03d in `governance/operators-cathedral-layout.md` and `inventory/inventory-of-toolbox-tools-and-tool-ettes.md`. The migrated guide is `Operator’s Cathedral Layout 📐.md`. Use the guide for original design questions and the editable balance sheet for calculations.

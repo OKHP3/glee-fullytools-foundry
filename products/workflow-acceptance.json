@@ -1,0 +1,385 @@
+{
+  "dateCentral": "2026-11-24",
+  "host": "Signed-in ChatGPT using the private plugin selected on its versioned directory page.",
+  "selectedPlugins": 14,
+  "finalConversations": 14,
+  "finalReplies": 28,
+  "finalChecksPassed": 112,
+  "allConversationsIncludingRetest": 15,
+  "allRepliesIncludingRetest": 30,
+  "evidence": "Reply hashes cover the visible UTF-8 answer text retained privately. The evaluation file contains the exact two prompts and ordered criteria. Source accuracy was verified from the replies and packaged resources; ChatGPT exposed no independent file-open trace.",
+  "earlierAttempts": [
+    {
+      "productId": "letter-composer",
+      "version": "1.0.0",
+      "result": "partial",
+      "finding": "The initial letter included [Your Name] without a supplied signature. Self-reported word counts were imprecise. Version 1.0.1 removed the placeholder and count claims in a fresh two-turn conversation. Independently counted letters contained 89 and 84 words."
+    }
+  ],
+  "products": [
+    {
+      "productId": "resume-customizer",
+      "name": "Resume Customizer",
+      "route": "capabilities/discovered-careers/resume-customizer",
+      "privateHostedVersion": "1.0.0",
+      "portableSkillVersion": "0.2.0",
+      "evaluation": "capabilities/discovered-careers/resume-customizer/evals/skill-v0.2.0.json",
+      "result": "pass",
+      "turns": [
+        {
+          "turn": 1,
+          "passed": 4,
+          "observed": "Produced Orchard Loop v01 résumé sections and a separate requirement map with an explicit ServiceNow gap.",
+          "replySha256": "678cec097f2e6f6ac375ba4ec156720209017ac63012f56e1921d9766b63e5ac"
+        },
+        {
+          "turn": 2,
+          "passed": 4,
+          "observed": "Produced v02 with corrected authorship, retained role and dates, and answered the separate knowledge question.",
+          "replySha256": "1a14a9630d4930c4c4ad1b98eb68c55961679e20a6beb314bbf180c27302e1fc"
+        }
+      ],
+      "knowledgeCheck": "Identified SLA and virtualization as the IT CSV's first and last terms, named its bundled path, and excluded both from the résumé.",
+      "publicArchive": "resume-customizer-workflow-1.0.0.zip",
+      "publicArchiveSha256": "635c0e872493c2f0fc2d50fd14184b2fa762c117a0e4a88cacfbab2b7e5c2361"
+    },
+    {
+      "productId": "career-fitness",
+      "name": "Career Fitness",
+      "route": "capabilities/discovered-careers/career-fitness",
+      "privateHostedVersion": "1.0.0",
+      "portableSkillVersion": "0.2.0",
+      "evaluation": "capabilities/discovered-careers/career-fitness/evals/skill-v0.2.0.json",
+      "result": "pass",
+      "turns": [
+        {
+          "turn": 1,
+          "passed": 4,
+          "observed": "Conditionally selected the weekday coordinator opening and gave a two-hour, testable scheduling exercise.",
+          "replySha256": "cf00139d8e8acdbb59a44eecf32cc21a266328cccec29e0ff7b1d5a299545db2"
+        },
+        {
+          "turn": 2,
+          "passed": 4,
+          "observed": "Switched to Training Analyst and designed a two-hour LMS sandbox exercise with a verifiable completion report.",
+          "replySha256": "aaa3a177775e5a9a1806773c5e746079da29696fd51de5ac8c1305a2af590ce4"
+        }
+      ],
+      "knowledgeCheck": "Used the role-comparison-worksheet.md pay labels, including Entire range below floor and Entire range meets floor, for the revised USD 59,000 floor.",
+      "publicArchive": "career-fitness-workflow-1.0.0.zip",
+      "publicArchiveSha256": "7dc6ee2f449dbdd6d348681f2eb9c51ff3effb5fcdb3d179a99a3d801cafb9bc"
+    },
+    {
+      "productId": "letter-composer",
+      "name": "Letter Composer",
+      "route": "capabilities/discovered-careers/letter-composer",
+      "privateHostedVersion": "1.0.1",
+      "portableSkillVersion": "0.2.0",
+      "evaluation": "capabilities/discovered-careers/letter-composer/evals/skill-v0.2.0.json",
+      "result": "pass",
+      "turns": [
+        {
+          "turn": 1,
+          "passed": 4,
+          "observed": "Delivered an 89-word warm application letter ending at the closing phrase. It retained the genuine authorship and event count with no signature placeholder.",
+          "replySha256": "3ca317d25fa2bb62fdc2d9ca668b3ae509d392d7253a0fa090e99fa006e8b149"
+        },
+        {
+          "turn": 2,
+          "passed": 4,
+          "observed": "Revised to a formal 84-word letter with accurate teammate attribution, two testing events and one suggested edit, then supplied the four-field card.",
+          "replySha256": "3d97a3d80a09637b8a89ce216895af57592f3f94de31b4445272d80b4ce296c6"
+        }
+      ],
+      "knowledgeCheck": "The corrected release applied Need, My action, Outcome and Connection from cover-letter-evidence-card.md and distinguished the suggested edit from unknown adoption or impact.",
+      "publicArchive": "letter-composer-workflow-1.0.1.zip",
+      "publicArchiveSha256": "665ac7b158e11afd463ebd96840fccc564a4cd0798609f8c2fcc77ef575f07af"
+    },
+    {
+      "productId": "blinkin-tuner",
+      "name": "bLinkIn Tuner",
+      "route": "capabilities/discovered-careers/blinkin-tuner",
+      "privateHostedVersion": "1.0.0",
+      "portableSkillVersion": "0.2.0",
+      "evaluation": "capabilities/discovered-careers/blinkin-tuner/evals/skill-v0.2.0.json",
+      "result": "pass",
+      "turns": [
+        {
+          "turn": 1,
+          "passed": 4,
+          "observed": "Delivered three paste-ready LinkedIn sections grounded in warehouse experience, with a verified 71-character headline.",
+          "replySha256": "bd6fb79eb678f62254c50c9a200977b4f885852695f65e654f2031842b8c441f"
+        },
+        {
+          "turn": 2,
+          "passed": 4,
+          "observed": "Updated all public copy to two volunteers and correctly kept coursework and unverified target terms in their respective places.",
+          "replySha256": "9ef549693d4ee9e80afec6aaa42625fee9d9739354b5fb4986458ab7ac8fc016"
+        }
+      ],
+      "knowledgeCheck": "Used Demonstrated, Learning and Unverified from profile-keyword-map.md for inventory counts, demand forecasting and SAP respectively.",
+      "publicArchive": "blinkin-tuner-workflow-1.0.0.zip",
+      "publicArchiveSha256": "f6d581e65eab5e200fe5ba69f835d0da81797b833a41f3136deb3689d1cd6638"
+    },
+    {
+      "productId": "career-seeker",
+      "name": "Career Seeker",
+      "route": "capabilities/discovered-careers/career-seeker",
+      "privateHostedVersion": "1.0.0",
+      "portableSkillVersion": "0.2.0",
+      "evaluation": "capabilities/discovered-careers/career-seeker/evals/skill-v0.2.0.json",
+      "result": "pass",
+      "turns": [
+        {
+          "turn": 1,
+          "passed": 4,
+          "observed": "Kept the two requisitions distinct, scheduled the March 10 meeting and calculated 0 completed interviews from 1 March submission.",
+          "replySha256": "0e8e108932caf5bf6ba17cd27803d009611f4b997954dec3219b777a8161992e"
+        },
+        {
+          "turn": 2,
+          "passed": 4,
+          "observed": "Retained the reschedule history, merged the duplicate submission, and recalculated 1 completed interview from 2 March submissions.",
+          "replySha256": "79faeae46577413f546e82d69db69221ae99df40a751d253dd17e06f3299a038"
+        }
+      ],
+      "knowledgeCheck": "Named Interview rescheduled and Interview completed from application-event-guide.md and correctly applied them to the March 8 and March 11 events.",
+      "publicArchive": "career-seeker-workflow-1.0.0.zip",
+      "publicArchiveSha256": "c89edd72db2046a7027949706f5c7c91d1ccc960a000a2999cb9496911b6605e"
+    },
+    {
+      "productId": "decor-detective",
+      "name": "Decor Detective",
+      "route": "capabilities/treasured-finds/decor-detective",
+      "privateHostedVersion": "1.0.0",
+      "portableSkillVersion": "0.2.0",
+      "evaluation": "capabilities/treasured-finds/decor-detective/evals/skill-v0.2.0.json",
+      "result": "pass",
+      "turns": [
+        {
+          "turn": 1,
+          "passed": 4,
+          "observed": "Built a set inventory for eight winter paper lanterns, five on the porch and three in cellar bin B7, and preserved B7 as normal storage.",
+          "replySha256": "d5f6630a3ea02e682dcfe164346111e43e3ac2a9fc7d16b6dd83dab364b7f721"
+        },
+        {
+          "turn": 2,
+          "passed": 4,
+          "observed": "Applied both takedowns to the same eight lanterns: three on the porch, four in B7 and one in the mending tray with a torn loop awaiting repair.",
+          "replySha256": "3c3ddd7f0f82a1445e86457e10d22046147f3adfc8af2cebf1f3aef942c5f520"
+        }
+      ],
+      "knowledgeCheck": "Scentinal Journal tracks burn time and scent throw. Source named in the reply: seasonal-inventory.md, Operator’s Cathedral Layout 📐.md.",
+      "publicArchive": "decor-detective-workflow-1.0.0.zip",
+      "publicArchiveSha256": "2d9aa6d4d21b69266eeaa413e87a79141b042d6728f21618289982d25ccb88cc"
+    },
+    {
+      "productId": "present-hoarder",
+      "name": "Present Hoarder",
+      "route": "capabilities/treasured-finds/present-hoarder",
+      "privateHostedVersion": "1.0.0",
+      "portableSkillVersion": "0.2.0",
+      "evaluation": "capabilities/treasured-finds/present-hoarder/evals/skill-v0.2.0.json",
+      "result": "pass",
+      "turns": [
+        {
+          "turn": 1,
+          "passed": 4,
+          "observed": "Distinguished two privately held purchases by fictional recipient, wrapping status and storage location. Only one was initially wrapped.",
+          "replySha256": "5f598a306160805af2aa4dd6c2b925a3800675c77c8a40358234a37c768d948f"
+        },
+        {
+          "turn": 2,
+          "passed": 4,
+          "observed": "Returned only two recipient-safe counts: one wrapped gift still held and one shipped. No names, item, hiding details or private ledger leaked, and no delivery was claimed.",
+          "replySha256": "b85572a52a9774259f38ab5efa603d17f21a409ff43e9156a95c10e96216fcf1"
+        }
+      ],
+      "knowledgeCheck": "Giftlist Helper names book, fragrance and experience as example tags. Source named in the reply: gift-stash.md.",
+      "publicArchive": "present-hoarder-workflow-1.0.0.zip",
+      "publicArchiveSha256": "ded4e269edc5896d5ea097214f686971ef2cf2b0e328cb2234499f32ac6dd786"
+    },
+    {
+      "productId": "scentinal-journal",
+      "name": "Scentinal Journal",
+      "route": "capabilities/treasured-finds/scentinal-journal",
+      "privateHostedVersion": "1.0.0",
+      "portableSkillVersion": "0.2.0",
+      "evaluation": "capabilities/treasured-finds/scentinal-journal/evals/skill-v0.2.0.json",
+      "result": "pass",
+      "turns": [
+        {
+          "turn": 1,
+          "passed": 4,
+          "observed": "Recorded one open and one sealed six-ounce cedar candle. Candle A had a 40-minute study session, with weak throw; B was retained as sealed.",
+          "replySha256": "4b4aca5b10ba89b697e48a45928476683ccfaf7efb33ce758c752d8a799bdde0"
+        },
+        {
+          "turn": 2,
+          "passed": 4,
+          "observed": "Corrected the study event to 30 minutes and added a 35-minute hall session with strong throw. A had 65 minutes observed; A remained open and B sealed. Cedar was flagged for a future reorder and no order was placed.",
+          "replySha256": "6de740baec251996150b9a706a2e46d9493ff250ba97459297c02214dfbca60d"
+        }
+      ],
+      "knowledgeCheck": "Present Hoarder uses bought, wrapped, shipped and given. Source named in the reply: fragrance-session-log.md.",
+      "publicArchive": "scentinal-journal-workflow-1.0.0.zip",
+      "publicArchiveSha256": "da72d153cf620b3a4a9889463f534be3cdd568acc7f75fe533ca588542268c80"
+    },
+    {
+      "productId": "supply-haus",
+      "name": "Supply Haus",
+      "route": "capabilities/treasured-finds/supply-haus",
+      "privateHostedVersion": "1.0.0",
+      "portableSkillVersion": "0.2.0",
+      "evaluation": "capabilities/treasured-finds/supply-haus/evals/skill-v0.2.0.json",
+      "result": "pass",
+      "turns": [
+        {
+          "turn": 1,
+          "passed": 4,
+          "observed": "Started with 12 m on hand, 4 m reserved and 8 m free, a 1 m shortage and one proposed 3 m roll. Kept one pair of scissors on shelf T and projection separate from stock.",
+          "replySha256": "6121ad9b45dc3af7fe4ad276a1f8ae06c5d4b4d327e674a7c9c530a71a67096d"
+        },
+        {
+          "turn": 2,
+          "passed": 4,
+          "observed": "Applied 3 m of reserved use and a 1 m release, leaving exactly 9 m available and no reservation or shortage. Kept the scissors as one checked-out pair. The banner had not been deducted or purchased.",
+          "replySha256": "4a3488cec2586e784a88c5ecfebc40c629110e5900b978783757bf9f56fc08e2"
+        }
+      ],
+      "knowledgeCheck": "Decor Detective’s maintenance outcomes are repaired, cleaned and retired. Source named in the reply: craft-stock-ledger.md.",
+      "publicArchive": "supply-haus-workflow-1.0.0.zip",
+      "publicArchiveSha256": "869330fc5afadd4c79ef91f905a521a76e336a6442a15da5ef15cd1fced9c000"
+    },
+    {
+      "productId": "flavor-meister",
+      "name": "Flavor Meister",
+      "route": "capabilities/tasty-tracker/flavor-meister",
+      "privateHostedVersion": "1.0.0",
+      "portableSkillVersion": "0.2.0",
+      "evaluation": "capabilities/tasty-tracker/flavor-meister/evals/skill-v0.2.0.json",
+      "result": "pass",
+      "turns": [
+        {
+          "turn": 1,
+          "passed": 4,
+          "observed": "Built a two-bowl lemon white bean card with a base method, stable ID and a separate May 2 tasting.",
+          "replySha256": "909bb5242dd5447267e59e5e15c083eb62c9af347fae46c4857e723516fc14ea"
+        },
+        {
+          "turn": 2,
+          "passed": 4,
+          "observed": "Kept lemon in the base card, added a May 9 lime variation, corrected the earlier rating and marked the recipe a favorite.",
+          "replySha256": "788cfade88718ada6e517c0a699f5965d204629109ea0b436169df8b715568e8"
+        }
+      ],
+      "knowledgeCheck": "Named variation_this_cook in recipe-card.md and recorded lime only in that field for the shared May 9 cook ID.",
+      "publicArchive": "flavor-meister-workflow-1.0.0.zip",
+      "publicArchiveSha256": "8b675f766c903281b5dc3ff08ddd3802a13db1dd449e82272405712e4994b06c"
+    },
+    {
+      "productId": "menu-conductor",
+      "name": "Menu Conductor",
+      "route": "capabilities/tasty-tracker/menu-conductor",
+      "privateHostedVersion": "1.0.0",
+      "portableSkillVersion": "0.2.0",
+      "evaluation": "capabilities/tasty-tracker/menu-conductor/evals/skill-v0.2.0.json",
+      "result": "pass",
+      "turns": [
+        {
+          "turn": 1,
+          "passed": 4,
+          "observed": "Returned a two-night printable menu, a shared batch and a measured shopping list.",
+          "replySha256": "ca72f97eb1c28e955988919331f063ca97247b45b91cd66f5320e00f345a736b"
+        },
+        {
+          "turn": 2,
+          "passed": 4,
+          "observed": "Replaced the plan for two Monday diners and four Tuesday diners, retaining the batch and pantry counts.",
+          "replySha256": "7cfa625916a5db191261b25316ac8f2f9fbff01f35bb0d3adefe02109a873b53"
+        }
+      ],
+      "knowledgeCheck": "The worksheet's portion_source uses reserved for later meals from the same batch. The answer applied it to Tuesday with batch_id LS-01.",
+      "publicArchive": "menu-conductor-workflow-1.0.0.zip",
+      "publicArchiveSha256": "15a49de72a6340d76222da7fd4c7d1a0f2f50d787984c1f98c763491c7390312"
+    },
+    {
+      "productId": "wishful-tastes",
+      "name": "Wishful Tastes",
+      "route": "capabilities/tasty-tracker/wishful-tastes",
+      "privateHostedVersion": "1.0.0",
+      "portableSkillVersion": "0.2.0",
+      "evaluation": "capabilities/tasty-tracker/wishful-tastes/evals/skill-v0.2.0.json",
+      "result": "pass",
+      "turns": [
+        {
+          "turn": 1,
+          "passed": 4,
+          "observed": "Created two separate Harbor Hall wishes and a November 12 draft reservation check, noting that the dates had passed.",
+          "replySha256": "25257611b49d4f8f739279d8396551ce0a55a6723b4767bd4ebc2f4e2bdcf088"
+        },
+        {
+          "turn": 2,
+          "passed": 4,
+          "observed": "Updated only the noodles to a tried walk-in, recording the original $28 quote and $30 actual cost separately while preserving the someday bun wish.",
+          "replySha256": "bc3d9f07b08793b1208f3e724fd447c351e1b9603cda678050022f41fb1b1a00"
+        }
+      ],
+      "knowledgeCheck": "The response used food-wishlist.md’s return_verdict for the go-back decision, with separate amount_paid and quoted_cost fields.",
+      "publicArchive": "wishful-tastes-workflow-1.0.0.zip",
+      "publicArchiveSha256": "e8ac0e37786e3456b4e3810178d6ee38d9d3c72a6ef0012902deba9e45047d47"
+    },
+    {
+      "productId": "pantry-shopper",
+      "name": "Pantry Shopper",
+      "route": "capabilities/tasty-tracker/pantry-shopper",
+      "privateHostedVersion": "1.0.0",
+      "portableSkillVersion": "0.2.0",
+      "evaluation": "capabilities/tasty-tracker/pantry-shopper/evals/skill-v0.2.0.json",
+      "result": "pass",
+      "turns": [
+        {
+          "turn": 1,
+          "passed": 4,
+          "observed": "Balanced the initial shelf count against one planned batch, showing a 350 g rice deficit before rounding to two packs and retaining peppers as a check.",
+          "replySha256": "ed6066a282200bea419fe1a57f35e87b3ca59a8ec46354e43c885be69eb54058"
+        },
+        {
+          "turn": 2,
+          "passed": 4,
+          "observed": "Replaced the shelf counts, reduced rice to one pack, added one pepper to buy and marked the pepper on hand to use first.",
+          "replySha256": "2f981d57ccbb3e017df1780a33d80c3bd27e7861a54409e423c7ee20b4348aa3"
+        }
+      ],
+      "knowledgeCheck": "The attached pantry-balance.md sheet defines exact_shortfall as the unmet amount before pack rounding. The response used its 350 g and revised 150 g values separately from purchase amounts.",
+      "publicArchive": "pantry-shopper-workflow-1.0.0.zip",
+      "publicArchiveSha256": "36c9f45449b158da36ed68c37f722829381e7514e4227c496a69f6c518947f26"
+    },
+    {
+      "productId": "palatably-profiled",
+      "name": "Palatably Profiled",
+      "route": "capabilities/tasty-tracker/palatably-profiled",
+      "privateHostedVersion": "1.0.0",
+      "portableSkillVersion": "0.2.0",
+      "evaluation": "capabilities/tasty-tracker/palatably-profiled/evals/skill-v0.2.0.json",
+      "result": "pass",
+      "turns": [
+        {
+          "turn": 1,
+          "passed": 4,
+          "observed": "Compared one shared rated dish, kept an unrated crunchy comment separate and recorded the peanut exclusion.",
+          "replySha256": "56f3401130ea4e722049a6a76762fdd6b36bd6057283cfab9f20910fe08c4d22"
+        },
+        {
+          "turn": 2,
+          "passed": 4,
+          "observed": "Rebuilt the comparison for two shared dishes after corrected ratings, showing agreement on beans, a larger difference on slaw and a peanut-free next tasting.",
+          "replySha256": "5ef548c36ff8934008aba89f8af393739211b37611fb13ec7577a9bbeaddc2a3"
+        }
+      ],
+      "knowledgeCheck": "Applied taste-profile.md’s shared_rated_dishes and unpaired_dishes independently of an unrated descriptive comment, revising the shared count from one to two.",
+      "publicArchive": "palatably-profiled-workflow-1.0.0.zip",
+      "publicArchiveSha256": "9473ab770ae4f15c7575d0ccadb6a67069ade62cd7e9d8d926ae4d97a309a8d5"
+    }
+  ]
+}

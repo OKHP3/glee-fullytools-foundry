@@ -1,0 +1,28 @@
+{
+  "skill": "blinkin-tuner",
+  "version": "0.2.0",
+  "knowledgeSources": [],
+  "skillKnowledgeSources": [
+    "references/profile-keyword-map.md"
+  ],
+  "turns": [
+    {
+      "prompt": "Fictional LinkedIn refresh. My title is Stockroom Assistant. My headline is 'Motivated professional.' My About says 'I help the team.' I count inventory weekly and trained three volunteers on receiving. I'm applying for inventory coordinator roles that mention inventory counts, receiving and demand forecasting. Draft my headline, About and one Experience bullet. Keep the headline within 80 characters.",
+      "expectations": [
+        "Provides separate paste-ready Headline, About and Experience copy, with a headline no longer than 80 characters including spaces and punctuation.",
+        "Uses weekly inventory counts and training three volunteers in receiving as concrete evidence in the copy.",
+        "Preserves the Stockroom Assistant title where used and avoids representing Inventory Coordinator as an appointment already held.",
+        "Keeps demand forecasting out of public claims because the posting is the only evidence for that term."
+      ]
+    },
+    {
+      "prompt": "Please update all three blocks: I trained two volunteers, not three. I'm now taking a beginner demand forecasting course with practice exercises, but I've never forecast at work. Keep the 80-character headline limit. Add notes using the exact evidence labels in your bundled profile keyword map for inventory counts, demand forecasting and SAP, a term appearing only in a second posting.",
+      "expectations": [
+        "Returns all three revised blocks, retains weekly inventory work and substitutes two for three volunteers everywhere a count is used.",
+        "Keeps the headline within 80 characters and describes forecasting in About as active learning, without presenting it as professional experience.",
+        "Assigns inventory counts to Demonstrated, demand forecasting to Learning, and SAP to Unverified, the three labels in profile-keyword-map.md.",
+        "Keeps SAP out of the public copy and places the keyword notes separately."
+      ]
+    }
+  ]
+}

@@ -26,6 +26,8 @@ Author product skills in each route’s `skills/<productId>/` directory and its
 evaluation cases in `evals/`. The plugin packager reads the selected skill
 and license for its portable archive. Its `--former-gpt` option builds each
 reviewed hosted edition from the route's `plugin/` files and knowledge receipt.
+Use `--workflow` for the 14 finished editions with versioned portable skills and
+their declared knowledge files. See the [workflow acceptance report](products/workflow-acceptance.md).
 See the [hosted GPT plugin index](products/hosted-gpt-plugins.md) for all 53 routes.
 Follow the [migration contract](products/README.md) for source
 preservation and the [portable capability workflow](docs/application/portable-capabilities.md)

@@ -1,0 +1,28 @@
+{
+  "skill": "pantry-shopper",
+  "version": "0.2.0",
+  "knowledgeSources": [],
+  "skillKnowledgeSources": [
+    "references/pantry-balance.md"
+  ],
+  "turns": [
+    {
+      "prompt": "Make a phone shopping slip for a single batch that needs 450 g dry rice and 2 whole bell peppers. I counted 200 g dry rice; I want 100 g rice left after cooking. Rice sells only in 250 g packs. I haven't checked the peppers yet. Use your balance sheet and name the field that captures the rice deficit before pack rounding, with its filename.",
+      "expectations": [
+        "Calculates a 350 g rice shortfall from 450 + 100 − 200 and names exact_shortfall in pantry-balance.md.",
+        "Lists 2 × 250 g packs (500 g) of rice and projects 250 g left after cooking.",
+        "Lists peppers under check, preserves two needed and does not treat unknown stock as zero.",
+        "Produces a readable shopping slip, keeping actual stock and projected ending stock distinct."
+      ]
+    },
+    {
+      "prompt": "Recount: there are actually 400 g total dry rice, not 200 g. I found one suitable pepper to use first. I haven't bought anything. Return the corrected slip with the same target and pack size.",
+      "expectations": [
+        "Replaces the rice count with 400 g and recomputes the shortfall as 150 g.",
+        "Lists exactly one 250 g rice pack and one bell pepper to buy; projects 200 g rice remaining after cooking.",
+        "Marks the pepper on hand to use first and removes its unknown-stock status.",
+        "Shows the revised purchase proposal without recording a purchase, applying pantry stock twice or adding a second batch."
+      ]
+    }
+  ]
+}
