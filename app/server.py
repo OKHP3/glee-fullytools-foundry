@@ -940,7 +940,7 @@ behavioral validation.
                 source=payload["project"]
                 if not isinstance(source,dict) or type(source.get("schemaVersion")) is not int or source.get("schemaVersion") != 1: raise ValidationError("unsupported project schemaVersion")
                 editable=validate_project(source,importing=True)
-                self.app.validate_skill_ids(editable)
+                # The source shelf may differ from the local shelf. Readiness reports unresolved IDs.
                 editable["tests"]=[{**case,"actual":"","status":"not-run"} for case in editable["tests"]]
                 editable["status"]="draft"
                 origin = source.get("id", "unidentified source") if isinstance(source.get("id"), str) else "unidentified source"

@@ -98,6 +98,46 @@ class ImportContractTests(unittest.TestCase):
         self.assertIn(original["id"], history[0]["summary"])
         self.assertNotIn("Observed before export", json.dumps(imported))
 
+    def test_import_retains_unavailable_skill_references_in_a_fresh_draft(self):
+        skill_id = self.server.skills()[0]["id"]
+        original = self.create(status="archived", skillIds=[skill_id])
+        code, _, exported = self.request("GET", f"/api/projects/{original['id']}/export?format=json")
+        self.assertEqual(code, 200)
+        self.assertEqual(exported["status"], "archived")
+        self.server.skills = lambda: []
+
+        code, _, imported = self.request("POST", "/api/import", {"project": exported})
+        self.assertEqual(code, 201, imported)
+        self.assertNotEqual(imported["id"], original["id"])
+        self.assertEqual(imported["status"], "draft")
+        self.assertEqual(imported["skillIds"], [skill_id])
+        self.assertEqual(imported["tests"], [{**original["tests"][0], "actual": "", "status": "not-run"}])
+
+        code, _, report = self.request("GET", f"/api/projects/{imported['id']}/validation")
+        self.assertEqual(code, 200)
+        self.assertFalse(report["readyForReview"])
+        skills_check = next(check for check in report["checks"] if check["id"] == "skills")
+        self.assertEqual(skills_check["status"], "fail")
+        self.assertIn(skill_id, skills_check["detail"])
+
+        code, _, package = self.request("GET", f"/api/projects/{imported['id']}/package")
+        self.assertEqual(code, 200)
+        self.assertEqual(package["manifest"]["unavailableSkillIds"], [skill_id])
+        self.assertEqual(self.request("GET", f"/api/projects/{original['id']}")[2], original)
+
+    def test_import_rejects_malformed_and_duplicate_skill_references(self):
+        for skill_ids, error in [
+            (["invalid/skill"], "skillIds must be safe string identifiers"),
+            (["retired-skill", "retired-skill"], "skillIds must be unique"),
+        ]:
+            with self.subTest(skill_ids=skill_ids):
+                source = self.project(schemaVersion=1, skillIds=skill_ids)
+                code, _, response = self.request("POST", "/api/import", {"project": source})
+                self.assertEqual(code, 400)
+                self.assertEqual(response["error"], error)
+
+        self.assertEqual(self.request("GET", "/api/projects")[2]["projects"], [])
+
 
 if __name__ == "__main__":
     unittest.main()
